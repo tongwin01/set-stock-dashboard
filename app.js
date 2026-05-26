@@ -2,17 +2,8 @@
 // Insight AI Brief - SET Premium Dashboard & Portfolio Engine
 // ========================================================
 
-// System Configuration & Subscription Pricing Constants
-const CONFIG = {
-  pricing: {
-    monthly: 99, // default 99 THB
-    annual: 1069, // default 1069 THB
-    accountNo: "123-4-56789-0",
-    accountName: "บจก. อินไซต์ เอไอ บรีฟ (Insight AI Brief Co., Ltd.)",
-    bankName: "ธนาคารกสิกรไทย (K-Bank)",
-    email: "contact@insight-brief.club"
-  }
-};
+// System Configuration
+const CONFIG = {};
 
 // Application State
 let stocksData = {};
@@ -253,118 +244,7 @@ function getOrCreateStockData(symbol) {
   return proceduredStock;
 }
 
-// Pricing Customization & Update Functions
-function initSystemPricing() {
-  const savedMonthly = localStorage.getItem('insight_config_pricing_monthly');
-  if (savedMonthly) {
-    CONFIG.pricing.monthly = parseFloat(savedMonthly);
-    CONFIG.pricing.annual = Math.round(CONFIG.pricing.monthly * 12 * 0.9); // Auto 10% off
-  }
-  
-  // Load editable payment details from localStorage
-  const savedBank = localStorage.getItem('insight_config_pricing_bank');
-  if (savedBank) CONFIG.pricing.bankName = savedBank;
-  
-  const savedAccount = localStorage.getItem('insight_config_pricing_account');
-  if (savedAccount) CONFIG.pricing.accountNo = savedAccount;
-  
-  const savedName = localStorage.getItem('insight_config_pricing_name');
-  if (savedName) CONFIG.pricing.accountName = savedName;
-  
-  const savedEmail = localStorage.getItem('insight_config_pricing_email');
-  if (savedEmail) CONFIG.pricing.email = savedEmail;
-  
-  updatePricingUIElements();
-}
 
-function updatePricingUIElements() {
-  const mPrice = CONFIG.pricing.monthly;
-  const aPrice = CONFIG.pricing.annual;
-  const bankName = CONFIG.pricing.bankName;
-  const accountNo = CONFIG.pricing.accountNo;
-  const accountName = CONFIG.pricing.accountName;
-  const email = CONFIG.pricing.email || "contact@insight-brief.club";
-  
-  const uiMonthly = document.getElementById('ui-pricing-monthly');
-  if (uiMonthly) uiMonthly.innerText = `แพลนรายเดือน: ${mPrice.toLocaleString()} บาท/เดือน`;
-  
-  const uiAnnual = document.getElementById('ui-pricing-annual');
-  if (uiAnnual) uiAnnual.innerText = `แพลนรายปี: ${aPrice.toLocaleString()} บาท/ปี (-10%)`;
-  
-  // Dynamically update the instructions shown to subscribers
-  const paymentDetailsBox = document.getElementById('ui-payment-details');
-  if (paymentDetailsBox) {
-    paymentDetailsBox.innerHTML = `
-      <strong>ช่องทางการสนับสนุน:</strong><br>
-      ${bankName}<br>
-      เลขบัญชี: ${accountNo}<br>
-      ชื่อบัญชี: ${accountName}<br>
-      <span style="font-size:0.75rem; color:var(--text-secondary); display:block; margin-top:4px;">*โอนเงินแล้วส่งสลิปมาที่อีเมล ${email} เพื่อรับสิทธิ์รหัสส่วนตัว</span>
-    `;
-  }
-  
-  // Update inputs inside the secret admin console
-  const adminMInput = document.getElementById('admin-pricing-monthly');
-  if (adminMInput) {
-    adminMInput.value = mPrice;
-  }
-  const adminACalc = document.getElementById('admin-pricing-annual-calc');
-  if (adminACalc) {
-    adminACalc.innerText = `${aPrice.toLocaleString()} บาท`;
-  }
-  
-  // Update payment edit fields in admin console
-  const adminBank = document.getElementById('admin-payment-bank');
-  if (adminBank) adminBank.value = bankName;
-  
-  const adminAcc = document.getElementById('admin-payment-account');
-  if (adminAcc) adminAcc.value = accountNo;
-  
-  const adminName = document.getElementById('admin-payment-name');
-  if (adminName) adminName.value = accountName;
-  
-  const adminEmail = document.getElementById('admin-payment-email');
-  if (adminEmail) adminEmail.value = email;
-}
-
-function updateSystemPricingFromAdmin() {
-  const mInput = document.getElementById('admin-pricing-monthly');
-  if (mInput) {
-    let newM = parseFloat(mInput.value);
-    if (!isNaN(newM) && newM >= 0) {
-      CONFIG.pricing.monthly = newM;
-      CONFIG.pricing.annual = Math.round(newM * 12 * 0.9); // 10% off
-      localStorage.setItem('insight_config_pricing_monthly', newM);
-    }
-  }
-  
-  // Save editable payment inputs to localStorage
-  const bankInput = document.getElementById('admin-payment-bank');
-  if (bankInput) {
-    CONFIG.pricing.bankName = bankInput.value.trim();
-    localStorage.setItem('insight_config_pricing_bank', CONFIG.pricing.bankName);
-  }
-  
-  const accInput = document.getElementById('admin-payment-account');
-  if (accInput) {
-    CONFIG.pricing.accountNo = accInput.value.trim();
-    localStorage.setItem('insight_config_pricing_account', CONFIG.pricing.accountNo);
-  }
-  
-  const nameInput = document.getElementById('admin-payment-name');
-  if (nameInput) {
-    CONFIG.pricing.accountName = nameInput.value.trim();
-    localStorage.setItem('insight_config_pricing_name', CONFIG.pricing.accountName);
-  }
-  
-  const emailInput = document.getElementById('admin-payment-email');
-  if (emailInput) {
-    CONFIG.pricing.email = emailInput.value.trim();
-    localStorage.setItem('insight_config_pricing_email', CONFIG.pricing.email);
-  }
-  
-  updatePricingUIElements();
-}
 
 function verifyMonthlyPromoCode() {
   const enteredCode = document.getElementById('promo-code-input').value.toUpperCase().trim();
@@ -512,8 +392,7 @@ async function initApp() {
   document.body.className = currentTheme === 'light' ? 'light-mode' : '';
   updateThemeIcon();
 
-  // Load Subscription Pricing Details
-  initSystemPricing();
+
 
   // Check Expiration of Premium Monthly passcode
   checkPasscodeAuthExpiration();
