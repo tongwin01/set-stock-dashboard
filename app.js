@@ -285,8 +285,11 @@ function updatePricingUIElements() {
   const accountName = CONFIG.pricing.accountName;
   const email = CONFIG.pricing.email || "contact@insight-brief.club";
   
-  document.getElementById('ui-pricing-monthly').innerText = `แพลนรายเดือน: ${mPrice.toLocaleString()} บาท/เดือน`;
-  document.getElementById('ui-pricing-annual').innerText = `แพลนรายปี: ${aPrice.toLocaleString()} บาท/ปี (-10%)`;
+  const uiMonthly = document.getElementById('ui-pricing-monthly');
+  if (uiMonthly) uiMonthly.innerText = `แพลนรายเดือน: ${mPrice.toLocaleString()} บาท/เดือน`;
+  
+  const uiAnnual = document.getElementById('ui-pricing-annual');
+  if (uiAnnual) uiAnnual.innerText = `แพลนรายปี: ${aPrice.toLocaleString()} บาท/ปี (-10%)`;
   
   // Dynamically update the instructions shown to subscribers
   const paymentDetailsBox = document.getElementById('ui-payment-details');
@@ -326,12 +329,14 @@ function updatePricingUIElements() {
 
 function updateSystemPricingFromAdmin() {
   const mInput = document.getElementById('admin-pricing-monthly');
-  let newM = parseFloat(mInput.value);
-  if (isNaN(newM) || newM < 0) return;
-  
-  CONFIG.pricing.monthly = newM;
-  CONFIG.pricing.annual = Math.round(newM * 12 * 0.9); // 10% off
-  localStorage.setItem('insight_config_pricing_monthly', newM);
+  if (mInput) {
+    let newM = parseFloat(mInput.value);
+    if (!isNaN(newM) && newM >= 0) {
+      CONFIG.pricing.monthly = newM;
+      CONFIG.pricing.annual = Math.round(newM * 12 * 0.9); // 10% off
+      localStorage.setItem('insight_config_pricing_monthly', newM);
+    }
+  }
   
   // Save editable payment inputs to localStorage
   const bankInput = document.getElementById('admin-payment-bank');
