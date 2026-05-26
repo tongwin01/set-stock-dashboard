@@ -282,15 +282,21 @@ body {
 .premium-status-badge {
   background: linear-gradient(135deg, rgba(99, 102, 241, 0.15) 0%, rgba(245, 158, 11, 0.08) 100%);
   border: 1px solid rgba(245, 158, 11, 0.25);
-  border-radius: var(--radius-md);
-  padding: 0.75rem;
+  border-radius: 30px; /* Gorgeous pill capsule shape */
+  padding: 0.5rem 1.25rem;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 0.75rem;
+  position: absolute;
+  top: 1.5rem;
+  right: 2.5rem;
+  z-index: 100;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+  transition: all var(--transition-smooth);
 }
 
 .premium-status-badge.active {
-  border-color: var(--warning-color);
+  border-color: var(--support-color);
 }
 
 .p-badge-title {
@@ -443,6 +449,7 @@ body {
   flex-direction: column;
   gap: 2rem; /* Wide gap for readability */
   min-height: 100vh;
+  position: relative; /* Set to relative so absolute children align perfectly in the top right viewport */
 }
 
 /* Top Dashboard Header */
@@ -1181,6 +1188,13 @@ body {
     height: auto;
     padding: 1.5rem;
   }
+  .premium-status-badge {
+    position: static;
+    margin-bottom: 1rem;
+    align-self: flex-start;
+    width: 100%;
+    justify-content: space-between;
+  }
   .overview-stats-grid {
     grid-template-columns: 1fr 1fr;
   }
@@ -1392,7 +1406,44 @@ body {
   cursor: pointer;
   transition: var(--transition-smooth);
 }
-.btn-secondary:hover {
-  background: rgba(255,255,255,0.06);
+
+/* pulsing LIVE market feed indicator styles */
+.live-pulse-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: rgba(16, 185, 129, 0.08);
+  border: 1px solid rgba(16, 185, 129, 0.2);
+  color: var(--support-color);
+  font-size: 0.75rem;
+  font-weight: 800;
+  padding: 0.35rem 0.75rem;
+  border-radius: 30px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.live-pulse-dot {
+  width: 7px;
+  height: 7px;
+  background-color: var(--support-color);
+  border-radius: 50%;
+  box-shadow: 0 0 8px var(--support-color);
+  animation: pulse-live-dot 1.5s infinite;
+}
+
+@keyframes pulse-live-dot {
+  0% {
+    transform: scale(0.9);
+    box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.6);
+  }
+  70% {
+    transform: scale(1.15);
+    box-shadow: 0 0 0 6px rgba(16, 185, 129, 0);
+  }
+  100% {
+    transform: scale(0.9);
+    box-shadow: 0 0 0 0 rgba(16, 185, 129, 0);
+  }
 }
 

@@ -335,41 +335,48 @@ function applyTierRestrictions() {
   const premiumBadge = document.getElementById('premium-badge-container');
   const premiumStatusText = document.getElementById('premium-status-text');
   const premiumStatusDesc = document.getElementById('premium-status-desc');
+  const premiumActionBtn = premiumBadge ? premiumBadge.querySelector('.btn-premium-action') : null;
   
-  if (isPremium) {
-    // 1. Premium Badge UI
-    premiumBadge.classList.add('active');
-    premiumStatusText.innerHTML = 'บัญชีพรีเมียม 🌟 (Active)';
-    premiumStatusText.style.color = 'var(--warning-color)';
-    premiumStatusDesc.innerText = 'ปลดล็อกทุกเครื่องมือเรียบร้อย';
-    
-    // 2. Unlock Pivot Point rows
-    document.querySelectorAll('.matrix-row.premium-locked-area').forEach(row => {
-      row.classList.remove('premium-locked-area');
-      // Remove any lock overlay inside if exists
-      const overlay = row.querySelector('.premium-lock-overlay');
-      if (overlay) overlay.remove();
-    });
-
-    // 3. Unlock Tab panels blurs
-    document.getElementById('dca-blurred-content').classList.remove('free-blurred-content');
-    document.getElementById('cal-blurred-content').classList.remove('free-blurred-content');
-    document.getElementById('news-blurred-content').classList.remove('free-blurred-content');
-    document.getElementById('sim-blurred-content').classList.remove('free-blurred-content');
-    
-    // 4. Hide locks
-    document.getElementById('dca-lock-overlay').style.display = 'none';
-    document.getElementById('cal-lock-overlay').style.display = 'none';
-    document.getElementById('news-lock-overlay').style.display = 'none';
-    document.getElementById('sim-lock-overlay').style.display = 'none';
-
-  } else {
-    // 1. Free Badge UI
-    premiumBadge.classList.remove('active');
-    premiumStatusText.innerHTML = 'บัญชีทั่วไป (Free Tier) 🔒';
-    premiumStatusText.style.color = 'var(--text-secondary)';
-    premiumStatusDesc.innerText = 'จำกัดเพิ่มหุ้นสูงสุด 3 ตัว';
-    
+  if (premiumBadge) {
+    if (isPremium) {
+      // 1. Premium Badge UI Relocated
+      premiumBadge.classList.add('active');
+      premiumBadge.style.background = 'linear-gradient(135deg, rgba(16, 185, 129, 0.15) 0%, rgba(99, 102, 241, 0.1) 100%)';
+      premiumBadge.style.borderColor = 'var(--support-color)';
+      premiumStatusText.innerHTML = 'บัญชีพรีเมียม 🌟 (Active)';
+      premiumStatusText.style.color = 'var(--support-color)';
+      premiumStatusDesc.innerText = 'ปลดล็อกทุกเครื่องมือเรียบร้อย';
+      if (premiumActionBtn) {
+        premiumActionBtn.innerHTML = `
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" style="width:14px; height:14px; color:#fff;">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z" />
+          </svg>
+        `;
+        premiumActionBtn.style.background = 'linear-gradient(135deg, #10b981 0%, #059669 100%)';
+        premiumActionBtn.style.animation = 'none';
+        premiumActionBtn.style.boxShadow = 'none';
+      }
+    } else {
+      // 1. Free Badge UI Relocated
+      premiumBadge.classList.remove('active');
+      premiumBadge.style.background = 'linear-gradient(135deg, rgba(255, 255, 255, 0.02) 0%, rgba(245, 158, 11, 0.04) 100%)';
+      premiumBadge.style.borderColor = 'var(--border-color)';
+      premiumStatusText.innerHTML = 'บัญชีทั่วไป (Free Tier) 🔒';
+      premiumStatusText.style.color = 'var(--warning-color)';
+      premiumStatusDesc.innerText = 'จำกัดเพิ่มหุ้นสูงสุด 3 ตัว';
+      if (premiumActionBtn) {
+        premiumActionBtn.innerHTML = `
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" style="width:14px; height:14px; color:#fff;">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z" />
+          </svg>
+        `;
+        premiumActionBtn.style.background = 'linear-gradient(135deg, #f59e0b 0%, #d97706 100%)';
+        premiumActionBtn.style.animation = 'pulse-gold-glow 2.5s infinite';
+      }
+    }
+  }
+  
+  if (!isPremium) {
     // 2. Lock S2-S4 and R2-R4 Pivot Rows
     const lockedRows = ['pivot-row-R4', 'pivot-row-R3', 'pivot-row-R2', 'pivot-row-S2', 'pivot-row-S3', 'pivot-row-S4'];
     lockedRows.forEach(rowId => {
@@ -390,6 +397,25 @@ function applyTierRestrictions() {
     document.getElementById('cal-lock-overlay').style.display = 'flex';
     document.getElementById('news-lock-overlay').style.display = 'flex';
     document.getElementById('sim-lock-overlay').style.display = 'flex';
+  } else {
+    // 2. Unlock Pivot Point rows
+    document.querySelectorAll('.matrix-row.premium-locked-area').forEach(row => {
+      row.classList.remove('premium-locked-area');
+      const overlay = row.querySelector('.premium-lock-overlay');
+      if (overlay) overlay.remove();
+    });
+
+    // 3. Unlock Tab panels blurs
+    document.getElementById('dca-blurred-content').classList.remove('free-blurred-content');
+    document.getElementById('cal-blurred-content').classList.remove('free-blurred-content');
+    document.getElementById('news-blurred-content').classList.remove('free-blurred-content');
+    document.getElementById('sim-blurred-content').classList.remove('free-blurred-content');
+    
+    // 4. Hide locks
+    document.getElementById('dca-lock-overlay').style.display = 'none';
+    document.getElementById('cal-lock-overlay').style.display = 'none';
+    document.getElementById('news-lock-overlay').style.display = 'none';
+    document.getElementById('sim-lock-overlay').style.display = 'none';
   }
   
   // Re-draw chart S/R lines since they might need to render or hide
@@ -467,6 +493,9 @@ async function initApp() {
     if (symbols.length > 0) {
       selectStock(symbols[0]);
     }
+    
+    // Start auto real-time pricing updates simulation (Request 3)
+    startRealTimePriceSimulation();
     
   } catch (err) {
     console.error('Error loading stock database:', err);
@@ -638,8 +667,6 @@ function selectStock(symbol) {
   });
   const sidebarItem = document.getElementById(`sidebar-pstock-${symbol}`);
   if (sidebarItem) sidebarItem.classList.add('active');
-  
-  const stock = stocksData[symbol];
   
   // Render Details
   document.getElementById('active-stock-logo').innerText = symbol;
@@ -1006,15 +1033,19 @@ function renderPortfolioHoldingsTable() {
     const stock = stocksData[hold.symbol];
     if (!stock) return;
     
-    const currentValue = hold.shares * stock.current_price;
-    const annualDiv = (stock.current_price * (stock.dividend_yield/100)) * hold.shares;
+    // Defensive Fallbacks to prevent old invalid data crashes
+    const sharesNum = parseInt(hold.shares) || 0;
+    const priceNum = parseFloat(hold.price) || 0;
+    
+    const currentValue = sharesNum * stock.current_price;
+    const annualDiv = (stock.current_price * (stock.dividend_yield/100)) * sharesNum;
     
     const tr = document.createElement('tr');
     tr.style.borderBottom = '1px solid rgba(255,255,255,0.02)';
     tr.innerHTML = `
       <td style="padding:0.75rem 0.5rem; font-weight:700; color:var(--brand-color); cursor:pointer;" onclick="selectStock('${hold.symbol}')">${hold.symbol}</td>
-      <td style="padding:0.75rem 0.5rem; text-align:right;">${hold.shares.toLocaleString()}</td>
-      <td style="padding:0.75rem 0.5rem; text-align:right;">${hold.price.toFixed(2)} บาท</td>
+      <td style="padding:0.75rem 0.5rem; text-align:right;">${sharesNum.toLocaleString()}</td>
+      <td style="padding:0.75rem 0.5rem; text-align:right;">${priceNum.toFixed(2)} บาท</td>
       <td style="padding:0.75rem 0.5rem; text-align:right; font-weight:600;">${currentValue.toLocaleString(undefined, {minimumFractionDigits:2, maximumFractionDigits:2})} บาท</td>
       <td style="padding:0.75rem 0.5rem; text-align:right; font-weight:600; color:var(--support-color);">${annualDiv.toLocaleString(undefined, {minimumFractionDigits:2, maximumFractionDigits:2})} บาท</td>
       <td style="padding:0.75rem 0.5rem; text-align:center;">
@@ -1040,9 +1071,11 @@ function updatePortfolioWorthStats() {
   activePort.holdings.forEach(hold => {
     const stock = stocksData[hold.symbol];
     if (stock) {
-      totalWorth += hold.shares * stock.current_price;
-      totalInvestmentCost += hold.shares * hold.price;
-      totalAnnualDiv += (stock.current_price * (stock.dividend_yield/100)) * hold.shares;
+      const sharesNum = parseInt(hold.shares) || 0;
+      const priceNum = parseFloat(hold.price) || 0;
+      totalWorth += sharesNum * stock.current_price;
+      totalInvestmentCost += sharesNum * priceNum;
+      totalAnnualDiv += (stock.current_price * (stock.dividend_yield/100)) * sharesNum;
     }
   });
   
@@ -1054,7 +1087,8 @@ function updatePortfolioWorthStats() {
   document.getElementById('val-yield-on-cost').innerText = `${yieldOnCost.toFixed(2)}%`;
   
   // Also edit the sidebar cash display
-  document.getElementById('port-cash-val').innerText = `${activePort.cash.toLocaleString(undefined, {minimumFractionDigits:2, maximumFractionDigits:2})} บาท`;
+  const cashNum = parseFloat(activePort.cash) || 0;
+  document.getElementById('port-cash-val').innerText = `${cashNum.toLocaleString(undefined, {minimumFractionDigits:2, maximumFractionDigits:2})} บาท`;
 }
 
 // Cost Averaging calculation panel
@@ -1224,6 +1258,21 @@ function renderStockChart(symbol) {
   
   if (priceChart) {
     priceChart.destroy();
+  }
+  
+  // Safe Offline Mode check: if Chart.js CDN didn't load, display a clean fallback on canvas
+  if (typeof Chart === 'undefined') {
+    console.warn('Chart.js is not loaded. Operating in Offline Fallback mode.');
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    ctx.fillStyle = currentTheme === 'light' ? '#4b5563' : '#9ca3af';
+    ctx.font = 'bold 15px Sarabun, sans-serif';
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'middle';
+    ctx.fillText('🔴 ทำงานแบบ ออฟไลน์ (ไม่พบ Chart.js Library)', canvas.width / 2, canvas.height / 2 - 15);
+    ctx.font = '12px Sarabun, sans-serif';
+    ctx.fillStyle = currentTheme === 'light' ? '#9ca3af' : '#4b5563';
+    ctx.fillText('(เชื่อมต่ออินเทอร์เน็ตเพื่อโหลดกราฟราคาย้อนหลังย่อย)', canvas.width / 2, canvas.height / 2 + 15);
+    return;
   }
   
   // Filter history based on scale selected
@@ -1554,6 +1603,83 @@ function switchPage(pageId) {
   } else {
     switchTab('tab-portfolio-manager');
   }
+}
+
+// ==========================================
+// ⚡ Auto Real-time Fluctuations Feed (Request 3)
+// ==========================================
+let priceSimulationInterval = null;
+
+function startRealTimePriceSimulation() {
+  if (priceSimulationInterval) clearInterval(priceSimulationInterval);
+  
+  priceSimulationInterval = setInterval(() => {
+    if (!stocksData || Object.keys(stocksData).length === 0) return;
+    
+    // 1. Tick the active selected stock (fluctuate by +/- 0.05% to +/- 0.15% to simulate market noise)
+    if (selectedStock && stocksData[selectedStock]) {
+      const stock = stocksData[selectedStock];
+      const drift = 0.00005; // tiny upward drift
+      const fluctuation = (Math.random() * 0.003 - 0.0015) + drift; // +/- 0.15%
+      
+      const oldPrice = stock.current_price;
+      stock.current_price = parseFloat((stock.current_price * (1 + fluctuation)).toFixed(2));
+      
+      // Update high_1m / low_1m boundaries dynamically
+      if (stock.current_price > stock.high_1m) stock.high_1m = stock.current_price;
+      if (stock.current_price < stock.low_1m) stock.low_1m = stock.current_price;
+      
+      // Update the last history close price so the chart plot updates
+      if (stock.history && stock.history.length > 0) {
+        stock.history[stock.history.length - 1].close = stock.current_price;
+      }
+      
+      // Update on-screen UI pricing values
+      const priceValEl = document.getElementById('active-stock-price');
+      if (priceValEl) {
+        priceValEl.innerHTML = `${stock.current_price.toFixed(2)} <span>THB</span>`;
+      }
+      
+      // Compute the live price change and style
+      const changeAmount = stock.current_price - (stock.history && stock.history.length >= 2 ? stock.history[stock.history.length - 2].close : oldPrice);
+      const changePct = (changeAmount / oldPrice) * 100;
+      const changeEl = document.getElementById('active-stock-change');
+      if (changeEl) {
+        if (changeAmount >= 0) {
+          changeEl.innerHTML = `+${changeAmount.toFixed(2)} (+${changePct.toFixed(2)}%)`;
+          changeEl.className = 's-stock-price-change';
+        } else {
+          changeEl.innerHTML = `${changeAmount.toFixed(2)} (${changePct.toFixed(2)}%)`;
+          changeEl.className = 's-stock-price-change down';
+        }
+      }
+      
+      // Live Auto Update calculations & screens
+      renderPivotPointMatrix(selectedStock);
+      renderStockChart(selectedStock);
+      renderIaaConsensusTable(selectedStock);
+      calculateSmartBuySimulation();
+      calculateDcaProjection();
+    }
+    
+    // 2. Also slightly tick all stocks in active portfolio holdings to keep portfolio totals auto-updating!
+    const activePort = portfolios.find(p => p.id === activePortfolioId);
+    if (activePort && activePort.holdings.length > 0) {
+      activePort.holdings.forEach(hold => {
+        const hStock = stocksData[hold.symbol];
+        if (hStock && hold.symbol !== selectedStock) {
+          const fluctuation = (Math.random() * 0.002 - 0.001); // +/- 0.1%
+          hStock.current_price = parseFloat((hStock.current_price * (1 + fluctuation)).toFixed(2));
+        }
+      });
+      
+      // Live Auto Update portfolio worth & statistics cards
+      updatePortfolioWorthStats();
+      renderPortfolioHoldingsTable();
+      renderDividendTimeline();
+    }
+    
+  }, 3000); // 3 seconds tick
 }
 
 // Load triggers on page complete
