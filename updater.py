@@ -6,14 +6,59 @@ import pandas as pd
 import numpy as np
 import yfinance as yf
 
-# List of popular and channel-relevant SET stocks (with .BK suffix)
+# List of popular and channel-relevant SET stocks (with .BK suffix) - Curated 119 SET stocks (strictly excluding MAI)
 TICKERS = [
-    "PTT.BK", "CPALL.BK", "BDMS.BK", "AOT.BK", "ADVANC.BK", 
-    "KBANK.BK", "SCB.BK", "GULF.BK", "PTTGC.BK", "PTTEP.BK", 
-    "BANPU.BK", "TASCO.BK", "AWC.BK", "BH.BK", "CCET.BK", 
-    "MBK.BK", "3BBIF.BK", "SAUCE.BK", "LH.BK", "KTB.BK", 
-    "CPN.BK", "TRUE.BK", "BBL.BK", "TU.BK", "HMPRO.BK",
-    "INTUCH.BK", "TISCO.BK", "NER.BK", "SCGP.BK", "CPF.BK"
+    # --- Energy & Utilities ---
+    "PTT.BK", "PTTEP.BK", "PTTGC.BK", "GULF.BK", "GPSC.BK", 
+    "BGRIM.BK", "EGCO.BK", "RATCH.BK", "BANPU.BK", "TOP.BK", 
+    "IRPC.BK", "BCP.BK", "BCPG.BK", "GUNKUL.BK",
+    
+    # --- Commerce & Retail ---
+    "CPALL.BK", "HMPRO.BK", "CRC.BK", "GLOBAL.BK", "DOHOME.BK", 
+    "COM7.BK", "BJC.BK", "MC.BK",
+    
+    # --- Banking & Finance ---
+    "KBANK.BK", "SCB.BK", "BBL.BK", "KTB.BK", "TTB.BK", 
+    "TISCO.BK", "KKP.BK", "TCAP.BK", "KTC.BK", "SAWAD.BK", 
+    "MTC.BK",
+    
+    # --- Healthcare ---
+    "BDMS.BK", "BH.BK", "BCH.BK", "CHG.BK", "THG.BK",
+    
+    # --- Transport & Tourism ---
+    "AOT.BK", "BTS.BK", "BEM.BK", "MINT.BK", "CENTEL.BK", 
+    "ERW.BK", "AAV.BK",
+    
+    # --- ICT & Technology ---
+    "ADVANC.BK", "TRUE.BK", "INTUCH.BK", "DELTA.BK", "HANA.BK", 
+    "KCE.BK", "CCET.BK", "JAS.BK",
+    
+    # --- Property & Construction ---
+    "CPN.BK", "LH.BK", "SPALI.BK", "AP.BK", "QH.BK", 
+    "SIRI.BK", "ORI.BK", "AMATA.BK", "WHA.BK", "AWC.BK", 
+    "CK.BK", "STEC.BK", "TASCO.BK", "NOBLE.BK",
+    
+    # --- Food & Agriculture ---
+    "CPF.BK", "TU.BK", "NER.BK", "SAUCE.BK", "TVO.BK", 
+    "SNNP.BK", "CBG.BK", "OSP.BK", "MEGA.BK", "MALEE.BK",
+    
+    # --- Industrials, Packaging & Diversified ---
+    "SCC.BK", "SCGP.BK", "IVL.BK", "MBK.BK", "JMT.BK", 
+    "JMART.BK", "SINGER.BK", "MAJOR.BK",
+    
+    # --- Shipping & Logistics ---
+    "PSL.BK", "TTA.BK", "RCL.BK", "PRM.BK",
+    
+    # --- Infrastructure Funds & REITs (High Dividend Yields) ---
+    "3BBIF.BK", "JASIF.BK", "DIF.BK", "POPF.BK", "CPNREIT.BK", 
+    "WHART.BK", "FTREIT.BK", "EGATIF.BK", "TFFIF.BK", "IMPACT.BK", 
+    "LHHOTEL.BK", "BOFFICE.BK", "GVREIT.BK", "ALLY.BK", "LPF.BK",
+    "TPRIME.BK", "B-WORK.BK", "PROSPECT.BK",
+    
+    # --- Other Popular/High Dividend Stocks ---
+    "TTW.BK", "DCC.BK", "MCS.BK", "SENA.BK", "EASTW.BK", 
+    "TMT.BK", "ASP.BK", "KGI.BK", "SAT.BK", "AH.BK", 
+    "SCCC.BK", "ASK.BK"
 ]
 
 def calculate_support_resistance(df, window=10):

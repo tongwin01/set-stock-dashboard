@@ -125,7 +125,7 @@ function getPromoCodeForMonth(monthOffset = 0) {
 }
 
 // ========================================================
-// 📊 Procedural Stock Data Generator for ALL 800+ SET & MAI Stocks (Request 2)
+// 📊 Procedural Stock Data Generator for ALL 800+ SET Stocks (Request 2)
 // ========================================================
 function getOrCreateStockData(symbol) {
   if (!symbol) return null;
@@ -155,9 +155,8 @@ function getOrCreateStockData(symbol) {
   // Seed the generator to start
   for (let i = 0; i < 5; i++) prng();
   
-  // Decide if this procedurally simulated stock is in SET or MAI
-  const isMai = (seed % 4 === 0 || symbol.length > 4); 
-  const marketName = isMai ? "MAI" : "SET";
+  // Decide if this procedurally simulated stock is in SET
+  const marketName = "SET";
   
   // Procedural stable parameters
   const pe = parseFloat((8.5 + prng() * 42.0).toFixed(2)); // P/E between 8.5 and 50.5
@@ -213,7 +212,7 @@ function getOrCreateStockData(symbol) {
   
   // Descriptive metadata
   const fullName = `บริษัท ${symbol} จำกัด (มหาชน)`;
-  const businessSummary = `บริษัท ${symbol} จำกัด (มหาชน) ประกอบธุรกิจและเข้าจดทะเบียนในตลาดหลักทรัพย์แห่งประเทศไทย (${marketName}) ดำเนินกิจการเกี่ยวกับการร่วมทุน ค้าขาย และบริหารความมั่งคั่ง โดยมุ่งเน้นการขยายขอบข่ายการบริการเพื่อยกระดับผลตอบแทนปันผลทบต้นสะสมระยะยาวให้กับผู้ถือหุ้นอย่างมั่นคงและยั่งยืน`;
+  const businessSummary = `บริษัท ${symbol} จำกัด (มหาชน) ประกอบธุรกิจและเข้าจดทะเบียนในตลาดหลักทรัพย์แห่งประเทศไทย (SET) ดำเนินกิจการเกี่ยวกับการร่วมทุน ค้าขาย และบริหารความมั่งคั่ง โดยมุ่งเน้นการขยายขอบข่ายการบริการเพื่อยกระดับผลตอบแทนปันผลทบต้นสะสมระยะยาวให้กับผู้ถือหุ้นอย่างมั่นคงและยั่งยืน`;
   
   const sectors = [
     "กลุ่มธุรกิจทรัพยากรและพลังงาน", "กลุ่มธุรกิจการเงินและธนาคาร", "กลุ่มธุรกิจพัฒนาอสังหาริมทรัพย์",
@@ -722,7 +721,7 @@ function renderSidebarStockList() {
 function filterStocks() {
   const query = document.getElementById('stock-search').value.toUpperCase().trim();
   if (query.length >= 2) {
-    // Dynamically retrieve or generate any SET/MAI stock on the fly
+    // Dynamically retrieve or generate any SET stock on the fly
     const stock = getOrCreateStockData(query);
     if (stock) {
       selectStock(query);
@@ -992,7 +991,7 @@ function calculateDcaProjection() {
   document.getElementById('dca-div-hour').innerText = `${finalHourlyDividend.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})} บาท`;
 }
 
-// Auto-fill price in form based on symbol input typing (Request 1 & 2 - No popups & SET/MAI Procedural)
+// Auto-fill price in form based on symbol input typing (Request 1 & 2 - No popups & SET Procedural)
 function autoFillFormPrice() {
   const symbolInput = document.getElementById('add-form-symbol');
   if (!symbolInput) return;
@@ -1006,7 +1005,7 @@ function autoFillFormPrice() {
   }
 }
 
-// In-Page stock addition from dynamic selector input (Request 1 & 2 - No popups & SET/MAI Procedural)
+// In-Page stock addition from dynamic selector input (Request 1 & 2 - No popups & SET Procedural)
 function addStockFromInlineForm() {
   const activePort = portfolios.find(p => p.id === activePortfolioId);
   if (!activePort) return;
