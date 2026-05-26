@@ -610,6 +610,7 @@ function renderPivotPointMatrix(symbol) {
         distEl.innerText = '0.00%';
         distEl.className = 'matrix-cell matrix-level-dist';
       }
+    }
   });
 }
 

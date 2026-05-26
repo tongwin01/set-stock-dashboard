@@ -306,15 +306,28 @@ body {
 }
 
 .btn-premium-action {
-  background: none;
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
   border: none;
+  color: #fff !important;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
-  color: var(--text-secondary);
-  transition: var(--transition-fast);
+  transition: all var(--transition-smooth);
+  animation: pulse-gold-glow 2.5s infinite;
+  box-shadow: 0 4px 10px rgba(245, 158, 11, 0.3);
+}
+
+.btn-premium-action svg {
+  color: #fff !important;
 }
 
 .btn-premium-action:hover {
-  color: var(--text-primary);
+  transform: scale(1.1) rotate(15deg);
+  box-shadow: 0 6px 15px rgba(245, 158, 11, 0.5);
 }
 
 .sidebar-btn-row {
@@ -342,6 +355,86 @@ body {
 .btn-sidebar-option:hover {
   background: rgba(255,255,255,0.06);
 }
+
+/* ======================================================== */
+/* 🔒 FLOATING PRESTIGE GATING BANNER SYSTEM (Request 2) */
+/* ======================================================== */
+.free-tier-banner {
+  margin: 1.25rem 1.75rem 0 1.75rem;
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.08) 0%, rgba(99, 102, 241, 0.05) 100%);
+  backdrop-filter: var(--backdrop-blur);
+  -webkit-backdrop-filter: var(--backdrop-blur);
+  border: 1px solid rgba(245, 158, 11, 0.25);
+  border-radius: 50px; /* Gorgeous Capsule Pill shape */
+  padding: 0.6rem 1.5rem;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.25);
+  animation: bannerFadeIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes bannerFadeIn {
+  from { opacity: 0; transform: translateY(-15px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.banner-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.lock-icon-svg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(245, 158, 11, 0.15);
+  color: var(--warning-color);
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(245, 158, 11, 0.2);
+}
+
+.btn-banner-unlock {
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+  border: none;
+  color: #ffffff;
+  padding: 0.55rem 1.25rem;
+  border-radius: 30px; /* Soft pill shape */
+  font-size: 0.9rem;
+  font-weight: 800;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(245, 158, 11, 0.4);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all var(--transition-smooth);
+  animation: pulse-gold-glow 2s infinite; /* Pulsing effect */
+}
+
+.btn-banner-unlock:hover {
+  transform: scale(1.04) translateY(-1px);
+  box-shadow: 0 6px 20px rgba(245, 158, 11, 0.6);
+  background: linear-gradient(135deg, #fbbf24 0%, #ea580c 100%);
+}
+
+.btn-banner-unlock:active {
+  transform: scale(0.98);
+}
+
+@keyframes pulse-gold-glow {
+  0% {
+    box-shadow: 0 0 0 0 rgba(245, 158, 11, 0.5);
+  }
+  70% {
+    box-shadow: 0 0 0 8px rgba(245, 158, 11, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(245, 158, 11, 0);
+  }
+}
+
 
 /* RIGHT COLUMN: Spacious Main Content Area */
 .main-content {
