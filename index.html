@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Insight AI Brief - SET Premium Member Club Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+  <!-- Dashboard Container Grid -->
+  <div class="dashboard-grid">
+    
+    <!-- ========================================== -->
+    <!-- 1. LEFT COLUMN: Sidebar Navigation & Search -->
+    <!-- ========================================== -->
+    <aside class="sidebar">
+      <div class="logo-container">
+        <div class="logo-icon">I</div>
+        <div class="logo-text">
+          Insight AI Brief
+          <span>SET Premium Club</span>
+        </div>
+      </div>
+      
+      <!-- Dynamic Search Bar -->
+      <div class="search-wrapper">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.602 10.602Z" />
+        </svg>
+        <input type="text" class="search-input" id="stock-search" placeholder="ค้นหาหุ้น หรือเลือก..." oninput="filterStocks()">
+      </div>
+
+      <!-- Multi-Portfolio Selector -->
+      <div style="margin-bottom: 1.25rem;">
+        <div class="sidebar-title" style="display:flex; justify-content:space-between; align-items:center;">
+          <span>พอร์ตการลงทุน</span>
+          <button onclick="createNewPortfolio()" style="background:none; border:none; color:var(--brand-color); cursor:pointer; font-size:0.75rem; font-weight:700;">+ เพิ่มพอร์ต</button>
+        </div>
+        <select class="portfolio-select-dropdown" id="portfolio-select" onchange="switchPortfolio()" style="width:100%;">
+          <!-- Populated dynamically -->
+        </select>
+      </div>
+      
+      <!-- Portfolio Stock Directory -->
+      <div class="sidebar-title">หุ้นในพอร์ตโฟลิโอ</div>
+      <ul class="portfolio-stocks-list" id="portfolio-stocks-container">
+        <!-- Dynamically populated from localStorage -->
+      </ul>
+
+      <!-- Sidebar Footer Settings -->
+      <div class="sidebar-footer">
+        
+        <!-- Premium Badge -->
+        <div class="premium-status-badge" id="premium-badge-container">
+          <div>
+            <div class="p-badge-title" id="premium-status-text">บัญชีทั่วไป (Free Tier)</div>
+            <div class="p-badge-desc" id="premium-status-desc">จำกัดเพิ่มหุ้นสูงสุด 3 ตัว</div>
+          </div>
+          <button class="btn-premium-action" onclick="openPromoModal()" title="เปิดใช้งานรหัสโปรโมชั่น">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width:20px; height:20px; color:var(--warning-color);">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z" />
+            </svg>
+          </button>
+        </div>
+
+        <div class="sidebar-btn-row">
+          <!-- Backup Utility Trigger -->
+          <button class="btn-sidebar-option" onclick="openBackupModal()">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width:16px; height:16px;">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0 3.181 3.183a8.25 8.25 0 0 0 13.803-3.7M4.031 9.865a8.25 8.25 0 0 1 13.803-3.7l3.181 3.182m0-4.991v4.99" />
+            </svg>
+            สำรองข้อมูล
+          </button>
+          
+          <!-- Share Card Trigger -->
+          <button class="btn-sidebar-option" onclick="openShareModal()">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width:16px; height:16px; color:var(--support-color);">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M7.217 10.907a2.25 2.25 0 1 0 0 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186 9.566-5.314m-9.566 7.5 9.566 5.314m0 0a2.25 2.25 0 1 0 3.935 2.186 2.25 2.25 0 0 0-3.935-2.186Zm0-12.814a2.25 2.25 0 1 0 3.933-2.185 2.25 2.25 0 0 0-3.933 2.185Z" />
+            </svg>
+            แชร์พอร์ต
+          </button>
+        </div>
+
+        <div style="display:flex; justify-content:space-between; align-items:center; font-size:0.75rem; color:var(--text-secondary);">
+          <span id="update-timestamp">ดึงข้อมูล: ออฟไลน์</span>
+          <!-- Theme Switcher -->
+          <button class="theme-switch-btn" onclick="toggleTheme()" title="สลับสว่าง/มืด">
+            <svg id="theme-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width:18px; height:18px;">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.75A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </aside>
+    
+    <!-- ========================================== -->
+    <!-- 2. CENTER COLUMN: Stock Details & Tabs -->
+    <!-- ========================================== -->
+    <main class="main-content">
+      
+      <!-- Top Selected Stock Title and Real-time simulation -->
+      <section class="dashboard-header" id="stock-header-panel">
+        <div class="selected-stock-header">
+          <div class="s-stock-logo" id="active-stock-logo">PTT</div>
+          <div class="s-stock-details">
+            <h1 id="active-stock-symbol">PTT <span style="font-size: 1rem; color: var(--text-secondary); font-weight: 500;" id="active-stock-fullname">บริษัท ปตท. จำกัด (มหาชน)</span></h1>
+            <p id="active-stock-sector">กลุ่มอุตสาหกรรมพลังงานและสาธารณูปโภค</p>
+          </div>
+        </div>
+        <div class="s-stock-pricing">
+          <div class="s-stock-price-val" id="active-stock-price">34.00 <span>THB</span></div>
+          <div class="s-stock-price-change" id="active-stock-change">+0.25 (0.74%)</div>
+        </div>
+      </section>
+
+      <!-- Key Overview Cards -->
+      <section class="overview-stats-grid">
+        <div class="o-stat-card">
+          <div class="o-stat-title">มูลค่าในพอร์ตของคุณ</div>
+          <div class="o-stat-value" id="val-portfolio-worth">0.00 บาท</div>
+        </div>
+        <div class="o-stat-card">
+          <div class="o-stat-title">ปันผลต่อปีที่จะได้รับ</div>
+          <div class="o-stat-value highlight-green" id="val-portfolio-annual-div">0.00 บาท</div>
+        </div>
+        <div class="o-stat-card">
+          <div class="o-stat-title">ปันผลคาดการณ์ (%)</div>
+          <div class="o-stat-value" id="val-dividend-yield">0.00%</div>
+        </div>
+        <div class="o-stat-card">
+          <div class="o-stat-title">Yield on Cost (YOC)</div>
+          <div class="o-stat-value highlight-purple" id="val-yield-on-cost">0.00%</div>
+        </div>
+      </section>
+
+      <!-- Interactive Chart Panel -->
+      <section class="chart-panel-card">
+        <div class="chart-panel-header">
+          <div class="chart-panel-title">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 14.25v2.25m3-4.5v4.5m3-6.75v6.75m3-9v9M6 20.25h12A2.25 2.25 0 0 0 20.25 18V6A2.25 2.25 0 0 0 18 3.75H6A2.25 2.25 0 0 0 3.75 6v12A2.25 2.25 0 0 0 6 20.25Z" />
+            </svg>
+            ราคาย้อนหลังย่อย & ระดับแนวรับแนวต้านอัตโนมัติ
+          </div>
+          <div class="chart-sim-controller">
+            <button class="btn-chart-scale active" onclick="changeChartScale(100)">100D</button>
+            <button class="btn-chart-scale" onclick="changeChartScale(200)">200D</button>
+            <button class="btn-chart-scale" onclick="changeChartScale(365)">1Year</button>
+          </div>
+        </div>
+        <div style="height:270px; width:100%; position:relative;">
+          <canvas id="active-stock-chart"></canvas>
+        </div>
+      </section>
+
+      <!-- Advanced Calculations Panel Tabs -->
+      <section class="tabs-panel-card">
+        <div class="tabs-header-bar">
+          <button class="tab-trigger-btn active" onclick="switchTab('tab-portfolio-manager')">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 6.375c0 .622-.16 1.21-.443 1.724m1.057-1.724a2.25 2.25 0 0 0-2.25-2.25m-13.5 13.5a2.25 2.25 0 0 1-2.25-2.25m0-10.5a2.25 2.25 0 0 1 2.25-2.25m10.5 10.5a2.25 2.25 0 0 1-2.25 2.25m.443-4.132a2.247 2.247 0 0 0 1.567.684m1.916 2.25a2.25 2.25 0 0 0 2.25-2.25M6.375 20.25a2.25 2.25 0 0 1-2.25-2.25m0-11.25a2.25 2.25 0 0 1 2.25-2.25m11.25 0a2.25 2.25 0 0 1 2.25 2.25m-13.5 13.5h13.5m-13.5-13.5h13.5" />
+            </svg>
+            บริหารพอร์ต & หุ้นที่ถือ
+          </button>
+          <button class="tab-trigger-btn" onclick="switchTab('tab-averaging')">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15" />
+            </svg>
+            คำนวณราคาถัวเฉลี่ย
+          </button>
+          <button class="tab-trigger-btn" onclick="switchTab('tab-dca')">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+            </svg>
+            จำลอง DCA ปันผลสะสม
+          </button>
+          <button class="tab-trigger-btn" onclick="switchTab('tab-calendar')">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5" />
+            </svg>
+            ปฏิทินวันขึ้นเครื่องหมาย XD
+          </button>
+          <button class="tab-trigger-btn" onclick="switchTab('tab-news')">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 7.5h1.5m-1.5 3h1.5m-7.5-6h7.5m-7.5 3h7.5m-7.5 3h7.5m-.124 9.125c.143.143.336.223.538.223h12.562c.202 0 .395-.08.538-.223m-13.638 0A2.25 2.25 0 0 1 2.25 18v-12a2.25 2.25 0 0 1 2.25-2.25h15a2.25 2.25 0 0 1 2.25 2.25v12a2.25 2.25 0 0 1-2.25 2.25m-13.638 0h13.638" />
+            </svg>
+            ข่าวสารรายหุ้น
+          </button>
+        </div>
+
+        <div class="tab-content-panel">
+          
+          <!-- TAB PANE 1: Portfolio Holdings manager -->
+          <div class="tab-pane active" id="tab-portfolio-manager">
+            <div class="portfolio-header-controls">
+              <h3 style="font-size:1.15rem; font-weight:700;">เงินลงทุน & การถือครอง</h3>
+              <button class="btn-primary" onclick="addActiveStockToPortfolio()" style="padding:0.4rem 0.85rem; font-size:0.85rem;">
+                + เพิ่ม ${symbol = ''} เข้าพอร์ตนี้
+              </button>
+            </div>
+            
+            <div class="portfolio-cash-manager">
+              <div class="portfolio-cash-info">
+                <h4>ยอดเงินสดคงเหลือในมือ (Cash Balance)</h4>
+                <p id="port-cash-val">0.00 บาท</p>
+              </div>
+              <div class="portfolio-cash-edit-row">
+                <input type="number" class="cash-edit-field" id="cash-input" placeholder="จำนวนเงินสด" step="1000" min="0">
+                <button class="btn-primary" onclick="updateCashBalance()" style="padding:0.5rem 0.75rem; border-radius:var(--radius-sm);">บันทึก</button>
+              </div>
+            </div>
+
+            <!-- Table of Stocks in active portfolio -->
+            <div style="overflow-x:auto; margin-top:0.5rem;">
+              <table class="matrix-table" style="font-size:0.9rem;">
+                <thead>
+                  <tr style="border-bottom:2px solid var(--border-color); color:var(--text-secondary); text-align:left;">
+                    <th style="padding:0.5rem;">หุ้น</th>
+                    <th style="padding:0.5rem; text-align:right;">จำนวนหุ้น</th>
+                    <th style="padding:0.5rem; text-align:right;">ต้นทุนเฉลี่ย</th>
+                    <th style="padding:0.5rem; text-align:right;">มูลค่าปัจจุบัน</th>
+                    <th style="padding:0.5rem; text-align:right;">เงินปันผล/ปี</th>
+                    <th style="padding:0.5rem; text-align:center; width:60px;">ลบ</th>
+                  </tr>
+                </thead>
+                <tbody id="holdings-table-body">
+                  <!-- Generated live -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- TAB PANE 2: Average Cost Calculator -->
+          <div class="tab-pane" id="tab-averaging">
+            <h3 style="font-size:1.15rem; font-weight:700; margin-bottom:0.5rem;">เครื่องมือวางแผนเฉลี่ยต้นทุนสะสม (Average Cost Calculator)</h3>
+            <div class="form-grid">
+              <div class="form-group">
+                <label class="form-label">จำนวนหุ้นเดิมที่ถืออยู่</label>
+                <input type="number" class="form-input" id="avg-shares-old" placeholder="เช่น 2000" oninput="calculateAveragingCost()">
+              </div>
+              <div class="form-group">
+                <label class="form-label">ราคาต้นทุนเดิม (บาท/หุ้น)</label>
+                <input type="number" class="form-input" id="avg-price-old" placeholder="เช่น 38.00" oninput="calculateAveragingCost()">
+              </div>
+              <div class="form-group">
+                <label class="form-label">จำนวนหุ้นที่จะซื้อเพิ่ม</label>
+                <input type="number" class="form-input" id="avg-shares-new" placeholder="เช่น 1000" oninput="calculateAveragingCost()">
+              </div>
+              <div class="form-group">
+                <label class="form-label">ราคาที่จะซื้อเพิ่ม (บาท/หุ้น)</label>
+                <input type="number" class="form-input" id="avg-price-new" placeholder="เช่น 32.00" oninput="calculateAveragingCost()">
+              </div>
+            </div>
+            
+            <div class="glass-panel" style="padding:1rem; background:rgba(255,255,255,0.01); display:flex; justify-content:space-around; align-items:center; text-align:center;">
+              <div>
+                <div class="o-stat-title">จำนวนรวมทั้งสิ้น</div>
+                <div class="o-stat-value" id="calc-avg-total-shares">0 หุ้น</div>
+              </div>
+              <div>
+                <div class="o-stat-title">เงินที่ใช้ลงทุนเพิ่ม</div>
+                <div class="o-stat-value" id="calc-avg-required-cash">0.00 บาท</div>
+              </div>
+              <div>
+                <div class="o-stat-title" style="color:var(--brand-color);">ต้นทุนเฉลี่ยใหม่</div>
+                <div class="o-stat-value highlight-purple" id="calc-avg-new-cost">0.00 บาท</div>
+              </div>
+              <div>
+                <div class="o-stat-title">ต้นทุนเฉลี่ยลดลง</div>
+                <div class="o-stat-value" id="calc-avg-drop-percent" style="color:var(--support-color);">0.00%</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- TAB PANE 3: DCA Compounding & Reinvestment -->
+          <div class="tab-pane premium-locked-area" id="tab-dca">
+            
+            <!-- Lock Overlay if Free -->
+            <div class="premium-lock-overlay" id="dca-lock-overlay">
+              <div class="lock-badge-icon">🔒</div>
+              <div class="lock-badge-title">เครื่องมือวางแผน DCA ทบต้นปันผลเฉพาะระดับพรีเมียม</div>
+              <div class="lock-badge-action">คลิกเพื่อใส่รหัสปลดล็อก Premium รายเดือน</div>
+            </div>
+
+            <div class="free-blurred-content" id="dca-blurred-content">
+              <h3 style="font-size:1.15rem; font-weight:700; margin-bottom:0.5rem;">เครื่องมือจำลองการสะสมเงินแบบ DCA & Dividend Reinvestment</h3>
+              <div class="dca-panel-grid">
+                
+                <!-- Inputs -->
+                <div class="form-panel" style="display:block; padding:0; background:none; border:none; margin:0;">
+                  <div class="form-grid" style="grid-template-columns: 1fr;">
+                    <div class="form-group" style="margin-bottom:0.75rem;">
+                      <label class="form-label">เงินออม DCA ต่อเดือน (บาท)</label>
+                      <input type="number" class="form-input" id="dca-amount" value="5000" oninput="calculateDcaProjection()">
+                    </div>
+                    <div class="form-group" style="margin-bottom:0.75rem;">
+                      <label class="form-label">ระยะเวลาลงทุนออมสะสม</label>
+                      <select class="form-select" id="dca-years" onchange="calculateDcaProjection()">
+                        <option value="5">5 ปี (ระยะสั้น)</option>
+                        <option value="10" selected>10 ปี (ระยะกลาง)</option>
+                        <option value="20">20 ปี (ระยะยาวเกษียณ)</option>
+                      </select>
+                    </div>
+                    <div class="form-group" style="flex-direction:row; gap:0.5rem; align-items:center;">
+                      <input type="checkbox" id="dca-reinvest" checked onchange="calculateDcaProjection()" style="width:18px; height:18px; cursor:pointer;">
+                      <label class="form-label" for="dca-reinvest" style="cursor:pointer; margin-bottom:0;">นำปันผลที่ได้รับกลับไปลงทุนซื้อหุ้นเพิ่ม (Reinvestment)</label>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Outputs -->
+                <div class="dca-results-summary">
+                  <h4 style="font-size:0.9rem; font-weight:700; margin-bottom:0.75rem; color:var(--brand-color);">สถิติผลตอบแทนคาดการณ์ทบต้น</h4>
+                  <div class="dca-result-item">
+                    <span class="dca-result-label">เงินต้นสะสมสุทธิ:</span>
+                    <span class="dca-result-val" id="dca-total-principal">0.00 บาท</span>
+                  </div>
+                  <div class="dca-result-item">
+                    <span class="dca-result-label">มูลค่าพอร์ตทบต้นรวม:</span>
+                    <span class="dca-result-val highlight-green" id="dca-total-wealth">0.00 บาท</span>
+                  </div>
+                  <div class="dca-result-item">
+                    <span class="dca-result-label">คาดการณ์ปันผลสะสมที่จะได้รับ:</span>
+                  </div>
+                  <div style="display:grid; grid-template-columns:1fr 1fr; gap:0.5rem; margin-top:0.35rem; font-size:0.8rem; color:var(--text-secondary);">
+                    <div>ต่อปี: <span id="dca-div-year" style="font-weight:700; color:var(--text-primary);">0.00 บาท</span></div>
+                    <div>ต่อเดือน: <span id="dca-div-month" style="font-weight:700; color:var(--text-primary);">0.00 บาท</span></div>
+                    <div>ต่อวัน: <span id="dca-div-day" style="font-weight:700; color:var(--text-primary);">0.00 บาท</span></div>
+                    <div>รายชั่วโมง: <span id="dca-div-hour" style="font-weight:700; color:var(--support-color);">0.00 บาท</span></div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- TAB PANE 4: Dividend Events Calendar -->
+          <div class="tab-pane premium-locked-area" id="tab-calendar">
+            
+            <!-- Lock Overlay if Free -->
+            <div class="premium-lock-overlay" id="cal-lock-overlay">
+              <div class="lock-badge-icon">🔒</div>
+              <div class="lock-badge-title">ปฏิทินวันขึ้นเครื่องหมายปันผล (Stock Events) ล็อกเฉพาะพรีเมียม</div>
+              <div class="lock-badge-action">คลิกเพื่อใส่รหัสปลดล็อก Premium รายเดือน</div>
+            </div>
+
+            <div class="free-blurred-content" id="cal-blurred-content">
+              <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.5rem;">
+                <h3 style="font-size:1.15rem; font-weight:700;">ปฏิทินวันจ่ายปันผลของหุ้นในพอร์ต (Timeline Schedule)</h3>
+                <button class="btn-sidebar-option" onclick="simulatePushNotification()" style="font-size:0.75rem; padding:0.35rem 0.65rem;">
+                  🔔 ทดสอบจำลองการแจ้งเตือน XD
+                </button>
+              </div>
+              <div class="timeline-calendar-list" id="portfolio-timeline-calendar">
+                <!-- Generated chronologically -->
+              </div>
+            </div>
+          </div>
+
+          <!-- TAB PANE 5: News Feed -->
+          <div class="tab-pane premium-locked-area" id="tab-news">
+            
+            <!-- Lock Overlay if Free -->
+            <div class="premium-lock-overlay" id="news-lock-overlay">
+              <div class="lock-badge-icon">🔒</div>
+              <div class="lock-badge-title">ข่าวสารเจาะลึกเฉพาะสมาชิกระดับพรีเมียม</div>
+              <div class="lock-badge-action">คลิกเพื่อใส่รหัสปลดล็อก Premium รายเดือน</div>
+            </div>
+
+            <div class="free-blurred-content" id="news-blurred-content">
+              <h3 style="font-size:1.15rem; font-weight:700; margin-bottom:0.5rem;">ข่าวสารล่าสุดเกี่ยวกับบริษัท (News Update)</h3>
+              <div class="news-feed-list" id="news-feed-container">
+                <!-- Dynamically generated for active stock -->
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+      
+    </main>
+
+    <!-- ========================================== -->
+    <!-- 3. RIGHT COLUMN: Support/Resistance Matrix & Calculators -->
+    <!-- ========================================== -->
+    <aside class="tools-panel">
+      
+      <!-- Pivot Points Support/Resistance Table Matrix -->
+      <section class="matrix-card">
+        <div class="matrix-header">
+          <div class="matrix-title">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" style="width:20px; height:20px; color:var(--warning-color);">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
+            </svg>
+            Pivot Points Matrix (1M High/Low)
+          </div>
+        </div>
+        
+        <table class="matrix-table">
+          <thead>
+            <tr style="border-bottom: 2px solid var(--border-color); color:var(--text-secondary); text-align:left; font-size:0.75rem; text-transform:uppercase;">
+              <th class="matrix-cell">ระดับแนว</th>
+              <th class="matrix-cell" style="text-align:right;">ราคาแนวรับ/ต้าน</th>
+              <th class="matrix-cell" style="text-align:right;">เป้าระยะห่าง (%)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- R4 - Premium Locked -->
+            <tr class="matrix-row premium-locked-area" id="pivot-row-R4">
+              <td class="matrix-cell matrix-level-name" style="color:var(--resistance-color);">R4 (แนวต้านจุดกลับตัว 4)</td>
+              <td class="matrix-cell matrix-level-price" id="val-pivot-R4">--</td>
+              <td class="matrix-cell matrix-level-dist" id="val-pivot-R4-dist">--</td>
+            </tr>
+            <!-- R3 - Premium Locked -->
+            <tr class="matrix-row premium-locked-area" id="pivot-row-R3">
+              <td class="matrix-cell matrix-level-name" style="color:var(--resistance-color);">R3 (แนวต้านจุดกลับตัว 3)</td>
+              <td class="matrix-cell matrix-level-price" id="val-pivot-R3">--</td>
+              <td class="matrix-cell matrix-level-dist" id="val-pivot-R3-dist">--</td>
+            </tr>
+            <!-- R2 - Premium Locked -->
+            <tr class="matrix-row premium-locked-area" id="pivot-row-R2">
+              <td class="matrix-cell matrix-level-name" style="color:var(--resistance-color);">R2 (แนวต้านสำคัญ 2)</td>
+              <td class="matrix-cell matrix-level-price" id="val-pivot-R2">--</td>
+              <td class="matrix-cell matrix-level-dist" id="val-pivot-R2-dist">--</td>
+            </tr>
+            <!-- R1 - Open for Free -->
+            <tr class="matrix-row">
+              <td class="matrix-cell matrix-level-name" style="color:var(--resistance-color);">R1 (แนวต้านระยะใกล้ 1)</td>
+              <td class="matrix-cell matrix-level-price" id="val-pivot-R1">--</td>
+              <td class="matrix-cell matrix-level-dist" id="val-pivot-R1-dist">--</td>
+            </tr>
+            <!-- Pivot Point (P) -->
+            <tr class="matrix-row" style="background:rgba(255,255,255,0.015);">
+              <td class="matrix-cell matrix-level-name" style="color:#c084fc;">P (ค่าเฉลี่ยกึ่งกลาง Pivot)</td>
+              <td class="matrix-cell matrix-level-price" id="val-pivot-P">--</td>
+              <td class="matrix-cell matrix-level-dist" id="val-pivot-P-dist">--</td>
+            </tr>
+            <!-- S1 - Open for Free -->
+            <tr class="matrix-row">
+              <td class="matrix-cell matrix-level-name" style="color:var(--support-color);">S1 (แนวรับระยะใกล้ 1)</td>
+              <td class="matrix-cell matrix-level-price" id="val-pivot-S1">--</td>
+              <td class="matrix-cell matrix-level-dist" id="val-pivot-S1-dist">--</td>
+            </tr>
+            <!-- S2 - Premium Locked -->
+            <tr class="matrix-row premium-locked-area" id="pivot-row-S2">
+              <td class="matrix-cell matrix-level-name" style="color:var(--support-color);">S2 (แนวรับสำคัญ 2)</td>
+              <td class="matrix-cell matrix-level-price" id="val-pivot-S2">--</td>
+              <td class="matrix-cell matrix-level-dist" id="val-pivot-S2-dist">--</td>
+            </tr>
+            <!-- S3 - Premium Locked -->
+            <tr class="matrix-row premium-locked-area" id="pivot-row-S3">
+              <td class="matrix-cell matrix-level-name" style="color:var(--support-color);">S3 (แนวรับจุดกลับตัว 3)</td>
+              <td class="matrix-cell matrix-level-price" id="val-pivot-S3">--</td>
+              <td class="matrix-cell matrix-level-dist" id="val-pivot-S3-dist">--</td>
+            </tr>
+            <!-- S4 - Premium Locked -->
+            <tr class="matrix-row premium-locked-area" id="pivot-row-S4">
+              <td class="matrix-cell matrix-level-name" style="color:var(--support-color);">S4 (แนวรับจุดกลับตัว 4)</td>
+              <td class="matrix-cell matrix-level-price" id="val-pivot-S4">--</td>
+              <td class="matrix-cell matrix-level-dist" id="val-pivot-S4-dist">--</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- Smart Buy & Averaging Compounding Calculator -->
+      <section class="simulator-card premium-locked-area" id="buy-sim-card">
+        
+        <!-- Lock Overlay if Free -->
+        <div class="premium-lock-overlay" id="sim-lock-overlay">
+          <div class="lock-badge-icon">🔒</div>
+          <div class="lock-badge-title">เครื่องมือวางแผนช้อนซื้อสะสมเฉพาะพรีเมียม</div>
+          <div class="lock-badge-action">คลิกเพื่อใส่รหัสปลดล็อก Premium รายเดือน</div>
+        </div>
+
+        <div class="free-blurred-content" id="sim-blurred-content">
+          <h3 style="font-size:0.95rem; font-weight:700; margin-bottom:0.5rem; display:flex; align-items:center; gap:0.4rem;">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width:20px; height:20px; color:var(--support-color);">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 7.5h1.5m-1.5 3h1.5m-7.5-6h7.5m-7.5 3h7.5m-7.5 3h7.5m-.124 9.125c.143.143.336.223.538.223h12.562c.202 0 .395-.08.538-.223m-13.638 0A2.25 2.25 0 0 1 2.25 18v-12a2.25 2.25 0 0 1 2.25-2.25h15a2.25 2.25 0 0 1 2.25 2.25v12a2.25 2.25 0 0 1-2.25 2.25m-13.638 0h13.638" />
+            </svg>
+            เครื่องมือช้อนซื้อสะสมอัจฉริยะ (Smart Buy Simulator)
+          </h3>
+          <p style="font-size:0.8rem; color:var(--text-secondary); margin-top:-2px;">ระบุงบตั้งรับตามแนวรับ เพื่อประเมินจำนวนหุ้นที่จะได้รับและต้นทุนเฉลี่ยใหม่</p>
+
+          <div class="form-group" style="margin-top:0.75rem;">
+            <label class="form-label">งบประมาณเงินสดตั้งรับ (บาท)</label>
+            <input type="number" class="form-input" id="sim-budget-amount" value="50000" placeholder="ระบุจำนวนเงินสด เช่น 50000" oninput="calculateSmartBuySimulation()">
+          </div>
+
+          <table class="simulator-results-table">
+            <thead>
+              <tr>
+                <th>ระดับรับ</th>
+                <th>ตั้งรับ (บาท)</th>
+                <th style="text-align:right;">จำนวนที่จะได้</th>
+                <th style="text-align:right; color:var(--brand-color);">ต้นทุนใหม่</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td style="color:var(--support-color); font-weight:600;">S1 (รับใกล้)</td>
+                <td id="sim-price-S1">--</td>
+                <td style="text-align:right; font-weight:600;" id="sim-shares-S1">--</td>
+                <td style="text-align:right; font-weight:700; color:#c084fc;" id="sim-newcost-S1">--</td>
+              </tr>
+              <tr>
+                <td style="color:var(--support-color); font-weight:600;">S2 (รับลึก)</td>
+                <td id="sim-price-S2">--</td>
+                <td style="text-align:right; font-weight:600;" id="sim-shares-S2">--</td>
+                <td style="text-align:right; font-weight:700; color:#c084fc;" id="sim-newcost-S2">--</td>
+              </tr>
+              <tr>
+                <td style="color:var(--support-color); font-weight:600;">S3 (จุดเด้ง)</td>
+                <td id="sim-price-S3">--</td>
+                <td style="text-align:right; font-weight:600;" id="sim-shares-S3">--</td>
+                <td style="text-align:right; font-weight:700; color:#c084fc;" id="sim-newcost-S3">--</td>
+              </tr>
+              <tr>
+                <td style="color:var(--support-color); font-weight:600;">S4 (รับสุดกู่)</td>
+                <td id="sim-price-S4">--</td>
+                <td style="text-align:right; font-weight:600;" id="sim-shares-S4">--</td>
+                <td style="text-align:right; font-weight:700; color:#c084fc;" id="sim-newcost-S4">--</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+    </aside>
+
+  </div>
+
+  <!-- ========================================== -->
+  <!-- MODAL: YouTube Membership Promo Code       -->
+  <!-- ========================================== -->
+  <div class="modal-overlay-bg" id="promo-modal">
+    <div class="premium-modal-card">
+      <button class="modal-close-btn" onclick="closePromoModal()">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" style="width:20px; height:20px;">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+        </svg>
+      </button>
+      <div class="lock-badge-icon" style="margin: 0 auto 1rem; width:48px; height:48px; background:linear-gradient(135deg, var(--brand-color) 0%, #a855f7 100%); box-shadow:0 0 15px var(--brand-glow);">🔑</div>
+      <h2 style="font-size:1.35rem; font-weight:800; text-align:center; margin-bottom:0.5rem;">ปลดล็อกสิทธิ์ Premium เฉพาะสมาชิก</h2>
+      <p style="font-size:0.85rem; color:var(--text-secondary); text-align:center; margin-bottom:1.5rem; line-height:1.5;">
+        กรอกรหัสโปรโมชั่นรับสิทธิ์เข้าใช้งานแดชบอร์ด Pivot Point ละเอียด, ข่าวสารหุ้น และเครื่องมือ DCA compounding ทบต้นรายชั่วโมงแบบไร้ขีดจำกัด
+      </p>
+      
+      <div class="form-group" style="margin-bottom:1.5rem;">
+        <label class="form-label" style="font-size:0.8rem;">กรอกรหัสเข้าใช้งานประจำเดือนของคุณ:</label>
+        <input type="text" class="form-input" id="promo-code-input" placeholder="เช่น INSIGHT@MAY2026" style="text-transform:uppercase; text-align:center; font-weight:700; letter-spacing:1px; font-size:1.1rem; border-color:var(--brand-color); padding:0.85rem;">
+        <p id="promo-error-msg" style="color:var(--resistance-color); font-size:0.8rem; text-align:center; display:none; margin-top:0.5rem; font-weight:600;">รหัสผ่านไม่ถูกต้อง หรือหมดอายุแล้วสำหรับเดือนนี้!</p>
+      </div>
+
+      <button class="btn-primary" onclick="verifyMonthlyPromoCode()" style="width:100%; padding:0.85rem; font-size:1rem; border-radius:var(--radius-md); justify-content:center;">
+        ยืนยันรหัสเข้าใช้งาน
+      </button>
+
+      <div style="font-size:0.75rem; text-align:center; margin-top:1.25rem; color:var(--text-secondary); line-height:1.4;">
+        * คุณสามารถรับรหัสปลดล็อกใหม่ได้ฟรีทุกวันที่ 1 ของทุกเดือนทาง 
+        <a href="https://www.youtube.com/@InsightAIBrief/community" target="_blank" style="color:var(--warning-color); font-weight:700; text-decoration:none;">แท็บโพสต์ชุมชนสำหรับสมาชิกระดับพรีเมียม (YouTube Membership) ของช่อง Insight AI Brief</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================== -->
+  <!-- MODAL: Share Portfolio Graphic Card        -->
+  <!-- ========================================== -->
+  <div class="modal-overlay-bg" id="share-modal">
+    <div class="premium-modal-card" style="max-width: 500px;">
+      <button class="modal-close-btn" onclick="closeShareModal()">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" style="width:20px; height:20px;">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+        </svg>
+      </button>
+      <h2 style="font-size:1.25rem; font-weight:800; margin-bottom:1rem; text-align:center;">แชร์การ์ดสรุปพอร์ตโฟลิโอของคุณ</h2>
+      
+      <!-- Visual Card to screenshot -->
+      <div class="share-graphic-container" id="share-card-graphic">
+        <div class="share-graphic-header">
+          <div class="logo-icon" style="width:30px; height:30px; font-size:0.95rem;">I</div>
+          <div style="text-align:left; font-family:var(--font-en);">
+            <div style="font-weight:800; font-size:0.9rem; color:#fff; line-height:1;">Insight AI Brief</div>
+            <span style="font-size:0.6rem; color:var(--brand-color); font-weight:700; text-transform:uppercase; letter-spacing:0.3px;">SET Premium Club Member</span>
+          </div>
+        </div>
+        
+        <div class="share-yield-ring">
+          <span id="share-ring-label">ปันผลต่อชั่วโมง</span>
+          <span id="share-ring-value">0.00 ฿</span>
+        </div>
+
+        <div style="font-size:1.35rem; font-weight:800; margin-bottom:0.25rem;" id="share-portfolio-name">พอร์ตหลัก (Default)</div>
+        <p style="font-size:0.8rem; color:var(--text-secondary); margin-bottom:1.5rem;" id="share-portfolio-date">อัปเดตสถานะพอร์ตปันผลทบต้นล่าสุด</p>
+
+        <div class="share-stats-strip">
+          <div class="share-stat-box">
+            <div class="o-stat-title" style="font-size:0.65rem;">มูลค่าพอร์ตรวม</div>
+            <div style="font-weight:800; font-size:1.05rem;" id="share-total-worth">0.00 บาท</div>
+          </div>
+          <div class="share-stat-box">
+            <div class="o-stat-title" style="font-size:0.65rem; color:var(--support-color);">ปันผลปีละ</div>
+            <div style="font-weight:800; font-size:1.05rem; color:var(--support-color);" id="share-annual-div">0.00 บาท</div>
+          </div>
+        </div>
+        
+        <div style="font-size:0.7rem; color:var(--text-secondary);">
+          สร้างฟรีทาง dashboard.insight-brief.club
+        </div>
+      </div>
+
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:0.5rem;">
+        <button class="btn-secondary" onclick="simulateSaveImage()" style="font-size:0.85rem; padding:0.65rem;">
+          💾 ดาวน์โหลดการ์ดภาพ
+        </button>
+        <button class="btn-primary" onclick="simulateShareLink()" style="font-size:0.85rem; padding:0.65rem; justify-content:center;">
+          🔗 คัดลอกลิงก์แชร์พอร์ต
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================== -->
+  <!-- MODAL: Export / Import JSON Backup Portal  -->
+  <!-- ========================================== -->
+  <div class="modal-overlay-bg" id="backup-modal">
+    <div class="premium-modal-card" style="max-width: 500px;">
+      <button class="modal-close-btn" onclick="closeBackupModal()">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" style="width:20px; height:20px;">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+        </svg>
+      </button>
+      <h2 style="font-size:1.25rem; font-weight:800; margin-bottom:0.75rem; text-align:center;">สำรองและกู้คืนข้อมูลพอร์ตหุ้น (Export / Import)</h2>
+      <p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:1.25rem; text-align:center; line-height:1.4;">
+        ข้อมูลพอร์ตย่อยและเงินปันผลทั้งหมดของคุณถูกจัดเก็บไว้ภายในเครื่องนี้อย่างเป็นส่วนตัว คุณสามารถคัดลอกรหัสสำรองข้อมูลด้านล่างเพื่อย้ายข้อมูลหรือเก็บสำรองไว้กันข้อมูลหายได้ครับ
+      </p>
+
+      <div class="form-group" style="margin-bottom:1.25rem;">
+        <label class="form-label">รหัสข้อมูลสำรอง (JSON Data Back-up):</label>
+        <textarea id="backup-data-area" style="width:100%; height:140px; background:var(--bg-input); border:1px solid var(--border-color); border-radius:var(--radius-sm); color:var(--text-primary); font-family:monospace; font-size:0.75rem; padding:0.5rem; outline:none; resize:none;"></textarea>
+      </div>
+
+      <div style="display:grid; grid-template-columns:1fr 1fr; gap:0.5rem;">
+        <button class="btn-secondary" onclick="generateBackupExport()" style="font-size:0.85rem; padding:0.65rem;">
+          🔄 คัดลอกรหัส Export
+        </button>
+        <button class="btn-primary" onclick="importBackupData()" style="font-size:0.85rem; padding:0.65rem; justify-content:center; background-color:var(--warning-color); border-color:var(--warning-color); box-shadow:none;">
+          📥 กู้คืนข้อมูล Import
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript Modules -->
+  <script src="stocks_data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

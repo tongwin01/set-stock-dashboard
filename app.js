@@ -1,0 +1,1241 @@
+// ========================================================
+// Insight AI Brief - SET Premium Dashboard & Portfolio Engine
+// ========================================================
+
+// Application State
+let stocksData = {};
+let selectedStock = null;
+let activeTab = 'tab-portfolio-manager';
+let activeChartScale = 100; // default to 100 business days
+let priceChart = null;
+
+// Multi-Portfolio Management State
+let portfolios = [];
+let activePortfolioId = 'p_default';
+let isPremium = false;
+let currentTheme = 'dark';
+
+// Custom Chart.js Plugin for Support/Resistance drawing
+const supportResistancePlugin = {
+  id: 'supportResistanceLines',
+  afterDatasetsDraw(chart) {
+    if (!selectedStock || !stocksData[selectedStock]) return;
+    const stock = stocksData[selectedStock];
+    const { ctx, chartArea: { left, right }, scales: { y } } = chart;
+    
+    // Calculate standard pivot levels
+    const high = stock.high_1m || stock.current_price * 1.05;
+    const low = stock.low_1m || stock.current_price * 0.95;
+    const close = stock.current_price;
+    
+    const P = (high + low + close) / 3;
+    const R1 = 2 * P - low;
+    const S1 = 2 * P - high;
+    const R2 = P + (high - low);
+    const S2 = P - (high - low);
+    const R3 = high + 2 * (P - low);
+    const S3 = low - 2 * (high - P);
+    const R4 = R3 + (high - low);
+    const S4 = S3 - (high - low);
+
+    ctx.save();
+    ctx.lineWidth = 1.2;
+    ctx.setLineDash([4, 4]);
+    ctx.font = 'bold 10px Sarabun, sans-serif';
+
+    // Draw Pivot Point (Purple) - Always Unlocked
+    const yPivot = y.getPixelForValue(P);
+    if (yPivot >= chart.chartArea.top && yPivot <= chart.chartArea.bottom) {
+      ctx.strokeStyle = 'rgba(192, 132, 252, 0.4)';
+      ctx.beginPath(); ctx.moveTo(left, yPivot); ctx.lineTo(right, yPivot); ctx.stroke();
+      ctx.fillStyle = '#c084fc';
+      ctx.fillText(`P (Pivot): ${P.toFixed(2)}`, left + 10, yPivot - 5);
+    }
+
+    // Draw R1 and S1 - Always Unlocked
+    const yR1 = y.getPixelForValue(R1);
+    if (yR1 >= chart.chartArea.top && yR1 <= chart.chartArea.bottom) {
+      ctx.strokeStyle = 'rgba(244, 63, 94, 0.4)';
+      ctx.beginPath(); ctx.moveTo(left, yR1); ctx.lineTo(right, yR1); ctx.stroke();
+      ctx.fillStyle = 'var(--resistance-color)';
+      ctx.fillText(`R1 (ต้าน 1): ${R1.toFixed(2)}`, left + 10, yR1 - 5);
+    }
+    const yS1 = y.getPixelForValue(S1);
+    if (yS1 >= chart.chartArea.top && yS1 <= chart.chartArea.bottom) {
+      ctx.strokeStyle = 'rgba(16, 185, 129, 0.4)';
+      ctx.beginPath(); ctx.moveTo(left, yS1); ctx.lineTo(right, yS1); ctx.stroke();
+      ctx.fillStyle = 'var(--support-color)';
+      ctx.fillText(`S1 (รับ 1): ${S1.toFixed(2)}`, left + 10, yS1 - 5);
+    }
+
+    // Draw S2-S4 & R2-R4 - ONLY if Premium status is ACTIVE
+    if (isPremium) {
+      const premiumLevels = [
+        { val: R2, name: 'R2', color: 'rgba(244, 63, 94, 0.45)', fill: 'var(--resistance-color)' },
+        { val: R3, name: 'R3', color: 'rgba(244, 63, 94, 0.45)', fill: 'var(--resistance-color)' },
+        { val: R4, name: 'R4', color: 'rgba(244, 63, 94, 0.45)', fill: 'var(--resistance-color)' },
+        { val: S2, name: 'S2', color: 'rgba(16, 185, 129, 0.45)', fill: 'var(--support-color)' },
+        { val: S3, name: 'S3', color: 'rgba(16, 185, 129, 0.45)', fill: 'var(--support-color)' },
+        { val: S4, name: 'S4', color: 'rgba(16, 185, 129, 0.45)', fill: 'var(--support-color)' }
+      ];
+
+      premiumLevels.forEach(lvl => {
+        const yLvl = y.getPixelForValue(lvl.val);
+        if (yLvl >= chart.chartArea.top && yLvl <= chart.chartArea.bottom) {
+          ctx.strokeStyle = lvl.color;
+          ctx.beginPath(); ctx.moveTo(left, yLvl); ctx.lineTo(right, yLvl); ctx.stroke();
+          ctx.fillStyle = lvl.fill;
+          ctx.fillText(`${lvl.name}: ${lvl.val.toFixed(2)}`, left + 10, yLvl - 5);
+        }
+      });
+    }
+
+    ctx.restore();
+  }
+};
+
+// ==========================================
+// 🔑 Monthly Promo Code Authentication
+// ==========================================
+function getPromoCodeForCurrentMonth() {
+  const date = new Date();
+  const monthNames = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"];
+  const currentMonth = monthNames[date.getMonth()];
+  const currentYear = date.getFullYear();
+  return `INSIGHT@${currentMonth}${currentYear}`; // e.g., "INSIGHT@MAY2026"
+}
+
+function verifyMonthlyPromoCode() {
+  const enteredCode = document.getElementById('promo-code-input').value.toUpperCase().trim();
+  const expectedCode = getPromoCodeForCurrentMonth();
+  
+  if (enteredCode === expectedCode) {
+    isPremium = true;
+    const currentMonthKey = `${new Date().getFullYear()}-${new Date().getMonth()}`;
+    localStorage.setItem('insight_premium_activated_month', currentMonthKey);
+    localStorage.setItem('insight_member_premium_status', 'true');
+    
+    document.getElementById('promo-error-msg').style.display = 'none';
+    closePromoModal();
+    
+    alert('🎉 ปลดล็อกรหัสสมาชิกระดับพรีเมียมเรียบร้อยแล้ว! ขอบพระคุณสำหรับการสนับสนุนช่อง Insight AI Brief ครับ');
+    
+    // Refresh GUI Tiers
+    applyTierRestrictions();
+  } else {
+    document.getElementById('promo-error-msg').style.display = 'block';
+  }
+}
+
+// Check if premium subscription is still valid or expired due to month roll
+function checkPasscodeAuthExpiration() {
+  const storedPremium = localStorage.getItem('insight_member_premium_status');
+  const storedMonth = localStorage.getItem('insight_premium_activated_month');
+  const currentMonthKey = `${new Date().getFullYear()}-${new Date().getMonth()}`;
+  
+  if (storedPremium === 'true' && storedMonth === currentMonthKey) {
+    isPremium = true;
+  } else {
+    isPremium = false;
+    localStorage.setItem('insight_member_premium_status', 'false');
+  }
+}
+
+// ==========================================
+// 🛡️ Free vs Premium Tier UI Gating Logic
+// ==========================================
+function applyTierRestrictions() {
+  const premiumBadge = document.getElementById('premium-badge-container');
+  const premiumStatusText = document.getElementById('premium-status-text');
+  const premiumStatusDesc = document.getElementById('premium-status-desc');
+  
+  if (isPremium) {
+    // 1. Premium Badge UI
+    premiumBadge.classList.add('active');
+    premiumStatusText.innerHTML = 'บัญชีพรีเมียม 🌟 (Active)';
+    premiumStatusText.style.color = 'var(--warning-color)';
+    premiumStatusDesc.innerText = 'ปลดล็อกทุกเครื่องมือเรียบร้อย';
+    
+    // 2. Unlock Pivot Point rows
+    document.querySelectorAll('.matrix-row.premium-locked-area').forEach(row => {
+      row.classList.remove('premium-locked-area');
+      // Remove any lock overlay inside if exists
+      const overlay = row.querySelector('.premium-lock-overlay');
+      if (overlay) overlay.remove();
+    });
+
+    // 3. Unlock Tab panels blurs
+    document.getElementById('dca-blurred-content').classList.remove('free-blurred-content');
+    document.getElementById('cal-blurred-content').classList.remove('free-blurred-content');
+    document.getElementById('news-blurred-content').classList.remove('free-blurred-content');
+    document.getElementById('sim-blurred-content').classList.remove('free-blurred-content');
+    
+    // 4. Hide locks
+    document.getElementById('dca-lock-overlay').style.display = 'none';
+    document.getElementById('cal-lock-overlay').style.display = 'none';
+    document.getElementById('news-lock-overlay').style.display = 'none';
+    document.getElementById('sim-lock-overlay').style.display = 'none';
+
+  } else {
+    // 1. Free Badge UI
+    premiumBadge.classList.remove('active');
+    premiumStatusText.innerHTML = 'บัญชีทั่วไป (Free Tier) 🔒';
+    premiumStatusText.style.color = 'var(--text-secondary)';
+    premiumStatusDesc.innerText = 'จำกัดเพิ่มหุ้นสูงสุด 3 ตัว';
+    
+    // 2. Lock S2-S4 and R2-R4 Pivot Rows
+    const lockedRows = ['pivot-row-R4', 'pivot-row-R3', 'pivot-row-R2', 'pivot-row-S2', 'pivot-row-S3', 'pivot-row-S4'];
+    lockedRows.forEach(rowId => {
+      const row = document.getElementById(rowId);
+      if (row) {
+        row.classList.add('premium-locked-area');
+      }
+    });
+
+    // 3. Blur premium tab contents
+    document.getElementById('dca-blurred-content').classList.add('free-blurred-content');
+    document.getElementById('cal-blurred-content').classList.add('free-blurred-content');
+    document.getElementById('news-blurred-content').classList.add('free-blurred-content');
+    document.getElementById('sim-blurred-content').classList.add('free-blurred-content');
+    
+    // 4. Show locks
+    document.getElementById('dca-lock-overlay').style.display = 'flex';
+    document.getElementById('cal-lock-overlay').style.display = 'flex';
+    document.getElementById('news-lock-overlay').style.display = 'flex';
+    document.getElementById('sim-lock-overlay').style.display = 'flex';
+  }
+  
+  // Re-draw chart S/R lines since they might need to render or hide
+  if (selectedStock) {
+    renderStockChart(selectedStock);
+    renderPivotPointMatrix(selectedStock);
+    calculateSmartBuySimulation();
+  }
+}
+
+// ==========================================
+// 📈 Core Application Operations
+// ==========================================
+
+// Initialize
+async function initApp() {
+  // Load Theme
+  const storedTheme = localStorage.getItem('insight_dashboard_theme') || 'dark';
+  currentTheme = storedTheme;
+  document.body.className = currentTheme === 'light' ? 'light-mode' : '';
+  updateThemeIcon();
+
+  // Check Expiration of Premium Monthly passcode
+  checkPasscodeAuthExpiration();
+
+  // Load Portfolios structure from localStorage
+  const storedPortfolios = localStorage.getItem('insight_multi_portfolios_data');
+  const storedActiveId = localStorage.getItem('insight_active_portfolio_id');
+  
+  if (storedPortfolios && storedActiveId) {
+    try {
+      portfolios = JSON.parse(storedPortfolios);
+      activePortfolioId = storedActiveId;
+    } catch (e) {
+      setupDefaultPortfolio();
+    }
+  } else {
+    setupDefaultPortfolio();
+  }
+
+  // Load Database from JS variable STOCKS_DATABASE (fallback to fetch json)
+  try {
+    if (typeof STOCKS_DATABASE !== 'undefined') {
+      stocksData = STOCKS_DATABASE;
+    } else {
+      const response = await fetch('stocks_data.json');
+      if (!response.ok) throw new Error('Failed to load JSON database');
+      stocksData = await response.json();
+    }
+    
+    const today = new Date();
+    document.getElementById('update-timestamp').innerText = `ดึงข้อมูลล่าสุด: ${today.toLocaleDateString('th-TH')} ${today.toLocaleTimeString('th-TH', {hour: '2-digit', minute:'2-digit'})} น.`;
+    
+    // Populates
+    renderPortfolioSelect();
+    renderSidebarStockList();
+    applyTierRestrictions();
+    
+    // Load default selected stock
+    const symbols = Object.keys(stocksData).sort();
+    if (symbols.length > 0) {
+      selectStock(symbols[0]);
+    }
+    
+  } catch (err) {
+    console.error('Error loading stock database:', err);
+    document.getElementById('portfolio-stocks-container').innerHTML = `
+      <div style="color:var(--resistance-color); text-align:center; padding:2rem 1rem; font-size:0.85rem;">
+        ไม่พบฐานข้อมูล stocks_data.json/js<br>กรุณารันไฟล์ <code>updater.py</code> ก่อนใช้งานเพื่อสร้างฐานข้อมูลหุ้น SET
+      </div>
+    `;
+  }
+}
+
+function setupDefaultPortfolio() {
+  portfolios = [
+    {
+      id: 'p_default',
+      name: 'พอร์ตส่วนตัว (Personal)',
+      cash: 100000.00,
+      holdings: [
+        { symbol: 'PTT', shares: 1000, price: 34.50 },
+        { symbol: 'CPALL', shares: 500, price: 44.00 }
+      ]
+    }
+  ];
+  activePortfolioId = 'p_default';
+  savePortfoliosToLocalStorage();
+}
+
+function savePortfoliosToLocalStorage() {
+  localStorage.setItem('insight_multi_portfolios_data', JSON.stringify(portfolios));
+  localStorage.setItem('insight_active_portfolio_id', activePortfolioId);
+}
+
+// Multi-Portfolio controllers
+function renderPortfolioSelect() {
+  const select = document.getElementById('portfolio-select');
+  select.innerHTML = '';
+  
+  portfolios.forEach(p => {
+    const opt = document.createElement('option');
+    opt.value = p.id;
+    opt.text = p.name;
+    if (p.id === activePortfolioId) {
+      opt.selected = true;
+    }
+    select.appendChild(opt);
+  });
+}
+
+function switchPortfolio() {
+  const select = document.getElementById('portfolio-select');
+  activePortfolioId = select.value;
+  savePortfoliosToLocalStorage();
+  
+  // Re-renders
+  renderSidebarStockList();
+  renderPortfolioHoldingsTable();
+  updatePortfolioWorthStats();
+  renderDividendTimeline();
+}
+
+function createNewPortfolio() {
+  if (!isPremium && portfolios.length >= 1) {
+    alert('🔒 ฟังก์ชันบริหารพอร์ตโฟลิโอหลายบัญชี (Multi-Portfolio) ล็อกเฉพาะระดับพรีเมียมเท่านั้น! กรุณากรอกรหัสปลดล็อกในหน้าตั้งค่า');
+    openPromoModal();
+    return;
+  }
+  
+  const name = prompt('กรุณาระบุชื่อพอร์ตโฟลิโอใหม่ของคุณ:');
+  if (!name || name.trim() === '') return;
+  
+  const newId = 'p_' + Date.now();
+  portfolios.push({
+    id: newId,
+    name: name.trim(),
+    cash: 50000.00,
+    holdings: []
+  });
+  
+  activePortfolioId = newId;
+  savePortfoliosToLocalStorage();
+  
+  renderPortfolioSelect();
+  switchPortfolio();
+  alert(`สร้างพอร์ต "${name}" เรียบร้อยแล้ว!`);
+}
+
+function updateCashBalance() {
+  const cashInput = document.getElementById('cash-input');
+  const amount = parseFloat(cashInput.value);
+  
+  if (isNaN(amount) || amount < 0) {
+    alert('กรุณาระบุยอดเงินสดให้ถูกต้อง');
+    return;
+  }
+  
+  const activePort = portfolios.find(p => p.id === activePortfolioId);
+  if (activePort) {
+    activePort.cash = amount;
+    savePortfoliosToLocalStorage();
+    document.getElementById('port-cash-val').innerText = `${amount.toLocaleString(undefined, {minimumFractionDigits:2, maximumFractionDigits:2})} บาท`;
+    
+    // Recalculations
+    calculateSmartBuySimulation();
+    cashInput.value = '';
+    alert('บันทึกยอดเงินสดคงเหลือเรียบร้อยครับ!');
+  }
+}
+
+// Populate Sidebar Stock holdings list
+function renderSidebarStockList() {
+  const container = document.getElementById('portfolio-stocks-container');
+  container.innerHTML = '';
+  
+  const activePort = portfolios.find(p => p.id === activePortfolioId);
+  if (!activePort || activePort.holdings.length === 0) {
+    container.innerHTML = `
+      <div style="color:var(--text-muted); font-size:0.8rem; text-align:center; padding:1.5rem 0.5rem;">
+        ไม่มีหุ้นถือครองในพอร์ตนี้<br>กรุณาค้นหาและกดปุ่มเพิ่มหุ้น
+      </div>
+    `;
+    return;
+  }
+  
+  activePort.holdings.forEach(hold => {
+    const stock = stocksData[hold.symbol];
+    if (!stock) return;
+    
+    const li = document.createElement('li');
+    li.className = `p-stock-item ${selectedStock === hold.symbol ? 'active' : ''}`;
+    li.id = `sidebar-pstock-${hold.symbol}`;
+    li.onclick = () => selectStock(hold.symbol);
+    
+    li.innerHTML = `
+      <div>
+        <div class="p-stock-code">${hold.symbol}</div>
+        <div class="p-stock-holdings">${hold.shares.toLocaleString()} หุ้น</div>
+      </div>
+      <div class="p-stock-perf">
+        <div class="p-stock-price">${stock.current_price.toFixed(2)}</div>
+        <div class="p-stock-yield">${stock.dividend_yield > 0 ? 'Yield ' + stock.dividend_yield.toFixed(1) + '%' : 'Yield 0.0%'}</div>
+      </div>
+    `;
+    container.appendChild(li);
+  });
+}
+
+function filterStocks() {
+  const query = document.getElementById('stock-search').value.toUpperCase().trim();
+  const sortedSymbols = Object.keys(stocksData).sort();
+  
+  // Search sidebar item filter or drop container popups
+  // Since we want dynamic search: if query matches any symbol in total database,
+  // we select that stock dynamically! This satisfies: "ช่องค้นหาหุ้นทั้งตลาด SET ดึงข้อมูลมาคำนวณทันที"
+  if (query.length > 0 && stocksData[query]) {
+    selectStock(query);
+  }
+}
+
+// Select stock from database
+function selectStock(symbol) {
+  if (!stocksData[symbol]) return;
+  selectedStock = symbol;
+  
+  // Highlight active sidebar item
+  document.querySelectorAll('.p-stock-item').forEach(item => {
+    item.classList.remove('active');
+  });
+  const sidebarItem = document.getElementById(`sidebar-pstock-${symbol}`);
+  if (sidebarItem) sidebarItem.classList.add('active');
+  
+  const stock = stocksData[symbol];
+  
+  // Render Details
+  document.getElementById('active-stock-logo').innerText = symbol;
+  document.getElementById('active-stock-symbol').innerHTML = `${symbol} <span style="font-size: 0.95rem; color: var(--text-secondary); font-weight: 500;" id="active-stock-fullname">${stock.name}</span>`;
+  document.getElementById('active-stock-price').innerHTML = `${stock.current_price.toFixed(2)} <span>THB</span>`;
+  
+  // Simulated price change display
+  const randChange = (Math.random() * 1.5 - 0.7).toFixed(2);
+  const changePercent = ((randChange / stock.current_price) * 100).toFixed(2);
+  const changeEl = document.getElementById('active-stock-change');
+  if (parseFloat(randChange) >= 0) {
+    changeEl.innerHTML = `+${randChange} (+${changePercent}%)`;
+    changeEl.className = 's-stock-price-change';
+  } else {
+    changeEl.innerHTML = `${randChange} (${changePercent}%)`;
+    changeEl.className = 's-stock-price-change down';
+  }
+  
+  // Update yields and stats card
+  document.getElementById('val-dividend-yield').innerText = stock.dividend_yield > 0 ? `${stock.dividend_yield.toFixed(2)}%` : '0.00%';
+  
+  // Renders
+  renderPivotPointMatrix(symbol);
+  renderStockChart(symbol);
+  renderNewsFeed();
+  calculateSmartBuySimulation();
+  calculateDcaProjection();
+  updatePortfolioWorthStats();
+  renderPortfolioHoldingsTable();
+  
+  // Set tab buttons text
+  document.querySelectorAll('.tab-trigger-btn')[0].innerHTML = `
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 6.375c0 .622-.16 1.21-.443 1.724m1.057-1.724a2.25 2.25 0 0 0-2.25-2.25m-13.5 13.5a2.25 2.25 0 0 1-2.25-2.25m0-10.5a2.25 2.25 0 0 1 2.25-2.25m10.5 10.5a2.25 2.25 0 0 1-2.25 2.25m.443-4.132a2.247 2.247 0 0 0 1.567.684m1.916 2.25a2.25 2.25 0 0 0 2.25-2.25M6.375 20.25a2.25 2.25 0 0 1-2.25-2.25m0-11.25a2.25 2.25 0 0 1 2.25-2.25m11.25 0a2.25 2.25 0 0 1 2.25 2.25m-13.5 13.5h13.5m-13.5-13.5h13.5" />
+    </svg>
+    บริหารพอร์ต & ถือหุ้น ${symbol}
+  `;
+}
+
+// Renders the Pivot Points Matrix Table with distance +/- %
+function renderPivotPointMatrix(symbol) {
+  const stock = stocksData[symbol];
+  if (!stock) return;
+  
+  const high = stock.high_1m || stock.current_price * 1.05;
+  const low = stock.low_1m || stock.current_price * 0.95;
+  const close = stock.current_price;
+  
+  // Formulas
+  const P = (high + low + close) / 3;
+  const R1 = 2 * P - low;
+  const S1 = 2 * P - high;
+  const R2 = P + (high - low);
+  const S2 = P - (high - low);
+  const R3 = high + 2 * (P - low);
+  const S3 = low - 2 * (high - P);
+  const R4 = R3 + (high - low);
+  const S4 = S3 - (high - low);
+
+  const levels = [
+    { id: 'R4', val: R4 }, { id: 'R3', val: R3 }, { id: 'R2', val: R2 }, { id: 'R1', val: R1 },
+    { id: 'P', val: P },
+    { id: 'S1', val: S1 }, { id: 'S2', val: S2 }, { id: 'S3', val: S3 }, { id: 'S4', val: S4 }
+  ];
+
+  levels.forEach(lvl => {
+    const valEl = document.getElementById(`val-pivot-${lvl.id}`);
+    const distEl = document.getElementById(`val-pivot-${lvl.id}-dist`);
+    
+    if (valEl && distEl) {
+      valEl.innerText = `${lvl.val.toFixed(2)} บาท`;
+      
+      // Calculate +/- % difference
+      const distPercent = ((lvl.val - close) / close) * 100;
+      
+      if (distPercent > 0) {
+        distEl.innerText = `+${distPercent.toFixed(2)}%`;
+        distEl.className = 'matrix-cell matrix-level-dist positive';
+      } else if (distPercent < 0) {
+        distEl.innerText = `${distPercent.toFixed(2)}%`;
+        distEl.className = 'matrix-cell matrix-level-dist negative';
+      } else {
+        distEl.innerText = '0.00%';
+        distEl.className = 'matrix-cell matrix-level-dist';
+      }
+    }
+  });
+}
+
+// Smart Buy Simulator logic (ช้อนซื้อคำนวณต้นทุนเฉลี่ยใหม่)
+function calculateSmartBuySimulation() {
+  const stock = stocksData[selectedStock];
+  if (!stock) return;
+  
+  const budgetInput = document.getElementById('sim-budget-amount');
+  const budget = parseFloat(budgetInput.value) || 0;
+  
+  const high = stock.high_1m || stock.current_price * 1.05;
+  const low = stock.low_1m || stock.current_price * 0.95;
+  const close = stock.current_price;
+  
+  const P = (high + low + close) / 3;
+  const S1 = 2 * P - high;
+  const S2 = P - (high - low);
+  const S3 = low - 2 * (high - P);
+  const S4 = S3 - (high - low);
+  
+  const sLevels = [ { id: 'S1', price: S1 }, { id: 'S2', price: S2 }, { id: 'S3', price: S3 }, { id: 'S4', price: S4 } ];
+  
+  // Find current holding details of this stock in active portfolio
+  const activePort = portfolios.find(p => p.id === activePortfolioId);
+  const holding = activePort ? activePort.holdings.find(h => h.symbol === selectedStock) : null;
+  const currentShares = holding ? holding.shares : 0;
+  const currentAvgPrice = holding ? holding.price : 0;
+
+  sLevels.forEach(lvl => {
+    const priceEl = document.getElementById(`sim-price-${lvl.id}`);
+    const sharesEl = document.getElementById(`sim-shares-${lvl.id}`);
+    const newcostEl = document.getElementById(`sim-newcost-${lvl.id}`);
+    
+    if (priceEl && sharesEl && newcostEl) {
+      priceEl.innerText = `${lvl.price.toFixed(2)}`;
+      
+      if (budget <= 0) {
+        sharesEl.innerText = '--';
+        newcostEl.innerText = '--';
+        return;
+      }
+      
+      const sharesToBuy = Math.floor(budget / lvl.price);
+      sharesEl.innerText = `${sharesToBuy.toLocaleString()} หุ้น`;
+      
+      // Calculate New Average Cost Basis
+      let newAvgCost = lvl.price;
+      if (currentShares > 0) {
+        const totalCost = (currentShares * currentAvgPrice) + (sharesToBuy * lvl.price);
+        const totalShares = currentShares + sharesToBuy;
+        newAvgCost = totalCost / totalShares;
+      }
+      
+      newcostEl.innerHTML = `${newAvgCost.toFixed(2)} บาท <span style="font-size:0.75rem; font-weight:600; color:var(--support-color);">(-${(((currentAvgPrice > 0 ? currentAvgPrice : close) - newAvgCost)/(currentAvgPrice > 0 ? currentAvgPrice : close)*100).toFixed(1)}%)</span>`;
+    }
+  });
+}
+
+// DCA Projection with Reinvestment up to hourly
+function calculateDcaProjection() {
+  const stock = stocksData[selectedStock];
+  if (!stock) return;
+  
+  const dcaAmount = parseFloat(document.getElementById('dca-amount').value) || 0;
+  const dcaYears = parseInt(document.getElementById('dca-years').value) || 10;
+  const isReinvest = document.getElementById('dca-reinvest').checked;
+  const yieldPercent = stock.dividend_yield; // e.g., 5.71
+  
+  let principal = 0;
+  let totalWealth = 0;
+  let totalDividendsEarned = 0;
+  
+  const months = dcaYears * 12;
+  const monthlyYield = (yieldPercent / 100) / 12;
+
+  for (let m = 1; m <= months; m++) {
+    principal += dcaAmount;
+    totalWealth += dcaAmount;
+    
+    if (isReinvest) {
+      const monthlyDivPayout = totalWealth * monthlyYield;
+      totalWealth += monthlyDivPayout;
+      totalDividendsEarned += monthlyDivPayout;
+    } else {
+      totalDividendsEarned += totalWealth * monthlyYield;
+    }
+  }
+
+  // Final future earnings calculations (Annual, monthly, daily, hourly based on final wealth)
+  const finalYearlyDividend = totalWealth * (yieldPercent / 100);
+  const finalMonthlyDividend = finalYearlyDividend / 12;
+  const finalDailyDividend = finalYearlyDividend / 365;
+  const finalHourlyDividend = finalDailyDividend / 24;
+
+  document.getElementById('dca-total-principal').innerText = `${principal.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})} บาท`;
+  document.getElementById('dca-total-wealth').innerText = `${totalWealth.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})} บาท`;
+  document.getElementById('dca-div-year').innerText = `${finalYearlyDividend.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})} บาท`;
+  document.getElementById('dca-div-month').innerText = `${finalMonthlyDividend.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})} บาท`;
+  document.getElementById('dca-div-day').innerText = `${finalDailyDividend.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})} บาท`;
+  document.getElementById('dca-div-hour').innerText = `${finalHourlyDividend.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})} บาท`;
+}
+
+// Portfolio Holdings Manager Logic
+function addActiveStockToPortfolio() {
+  const activePort = portfolios.find(p => p.id === activePortfolioId);
+  if (!activePort) return;
+  
+  // Gating limit check for free users
+  if (!isPremium && activePort.holdings.length >= 3) {
+    alert('🔒 บัญชีทั่วไป (Free Tier) ถูกจำกัดการเพิ่มหุ้นได้สูงสุดเพียง 3 ตัวเท่านั้น! กรุณาสมัครเป็นสมาชิกระดับพรีเมียมเพื่อปลดล็อกไม่จำกัด');
+    openPromoModal();
+    return;
+  }
+  
+  const shares = parseInt(prompt(`กรุณาระบุจำนวนหุ้น ${selectedStock} ที่ต้องการซื้อเพิ่มเข้าพอร์ต:`));
+  if (isNaN(shares) || shares <= 0) return;
+  
+  const price = parseFloat(prompt(`กรุณาระบุราคาซื้อเฉลี่ยต่อหุ้น (บาท):`, stocksData[selectedStock].current_price));
+  if (isNaN(price) || price <= 0) return;
+  
+  // Check if symbol already exists in portfolio
+  const existing = activePort.holdings.find(h => h.symbol === selectedStock);
+  if (existing) {
+    // Average cost compounding
+    const totalCost = (existing.shares * existing.price) + (shares * price);
+    existing.shares += shares;
+    existing.price = totalCost / existing.shares;
+  } else {
+    activePort.holdings.push({
+      symbol: selectedStock,
+      shares: shares,
+      price: price
+    });
+  }
+  
+  savePortfoliosToLocalStorage();
+  alert(`เพิ่ม ${selectedStock} สำเร็จ!`);
+  
+  // Refresh UI
+  renderSidebarStockList();
+  renderPortfolioHoldingsTable();
+  updatePortfolioWorthStats();
+  renderDividendTimeline();
+}
+
+function removeStockFromPortfolio(symbol) {
+  const activePort = portfolios.find(p => p.id === activePortfolioId);
+  if (!activePort) return;
+  
+  if (!confirm(`คุณแน่ใจหรือไม่ว่าต้องการลบ ${symbol} ออกจากพอร์ตโฟลิโอนี้?`)) return;
+  
+  activePort.holdings = activePort.holdings.filter(h => h.symbol !== symbol);
+  savePortfoliosToLocalStorage();
+  
+  renderSidebarStockList();
+  renderPortfolioHoldingsTable();
+  updatePortfolioWorthStats();
+  renderDividendTimeline();
+}
+
+function renderPortfolioHoldingsTable() {
+  const tbody = document.getElementById('holdings-table-body');
+  tbody.innerHTML = '';
+  
+  const activePort = portfolios.find(p => p.id === activePortfolioId);
+  if (!activePort || activePort.holdings.length === 0) {
+    tbody.innerHTML = `
+      <tr>
+        <td colspan="6" style="text-align:center; padding:2rem; color:var(--text-secondary);">ไม่มีหุ้นถือครองในพอร์ตนี้ กดปุ่มด้านบนเพื่อแอดหุ้นใหม่เข้าพอร์ต</td>
+      </tr>
+    `;
+    return;
+  }
+  
+  activePort.holdings.forEach(hold => {
+    const stock = stocksData[hold.symbol];
+    if (!stock) return;
+    
+    const currentValue = hold.shares * stock.current_price;
+    const annualDiv = (stock.current_price * (stock.dividend_yield/100)) * hold.shares;
+    
+    const tr = document.createElement('tr');
+    tr.style.borderBottom = '1px solid rgba(255,255,255,0.02)';
+    tr.innerHTML = `
+      <td style="padding:0.75rem 0.5rem; font-weight:700; color:var(--brand-color); cursor:pointer;" onclick="selectStock('${hold.symbol}')">${hold.symbol}</td>
+      <td style="padding:0.75rem 0.5rem; text-align:right;">${hold.shares.toLocaleString()}</td>
+      <td style="padding:0.75rem 0.5rem; text-align:right;">${hold.price.toFixed(2)} บาท</td>
+      <td style="padding:0.75rem 0.5rem; text-align:right; font-weight:600;">${currentValue.toLocaleString(undefined, {minimumFractionDigits:2, maximumFractionDigits:2})} บาท</td>
+      <td style="padding:0.75rem 0.5rem; text-align:right; font-weight:600; color:var(--support-color);">${annualDiv.toLocaleString(undefined, {minimumFractionDigits:2, maximumFractionDigits:2})} บาท</td>
+      <td style="padding:0.75rem 0.5rem; text-align:center;">
+        <button class="btn-delete" onclick="removeStockFromPortfolio('${hold.symbol}')">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" style="width:16px; height:16px;">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m14.74 9-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 0 1-2.244 2.077H8.084a2.25 2.25 0 0 1-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 0 0-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 0 1 3.478-.397m7.5 0v-1.75a2.25 2.25 0 0 0-2.25-2.25h-3.512A2.25 2.25 0 0 0 9.17 4.37v1.75" />
+          </svg>
+        </button>
+      </td>
+    `;
+    tbody.appendChild(tr);
+  });
+}
+
+function updatePortfolioWorthStats() {
+  const activePort = portfolios.find(p => p.id === activePortfolioId);
+  if (!activePort) return;
+  
+  let totalWorth = 0;
+  let totalAnnualDiv = 0;
+  let totalInvestmentCost = 0;
+  
+  activePort.holdings.forEach(hold => {
+    const stock = stocksData[hold.symbol];
+    if (stock) {
+      totalWorth += hold.shares * stock.current_price;
+      totalInvestmentCost += hold.shares * hold.price;
+      totalAnnualDiv += (stock.current_price * (stock.dividend_yield/100)) * hold.shares;
+    }
+  });
+  
+  const overallYield = totalWorth > 0 ? (totalAnnualDiv / totalWorth) * 100 : 0;
+  const yieldOnCost = totalInvestmentCost > 0 ? (totalAnnualDiv / totalInvestmentCost) * 100 : 0;
+  
+  document.getElementById('val-portfolio-worth').innerText = `${totalWorth.toLocaleString(undefined, {minimumFractionDigits:2, maximumFractionDigits:2})} บาท`;
+  document.getElementById('val-portfolio-annual-div').innerText = `${totalAnnualDiv.toLocaleString(undefined, {minimumFractionDigits:2, maximumFractionDigits:2})} บาท`;
+  document.getElementById('val-yield-on-cost').innerText = `${yieldOnCost.toFixed(2)}%`;
+  
+  // Also edit the sidebar cash display
+  document.getElementById('port-cash-val').innerText = `${activePort.cash.toLocaleString(undefined, {minimumFractionDigits:2, maximumFractionDigits:2})} บาท`;
+}
+
+// Cost Averaging calculation panel
+function calculateAveragingCost() {
+  const sharesOld = parseFloat(document.getElementById('avg-shares-old').value) || 0;
+  const priceOld = parseFloat(document.getElementById('avg-price-old').value) || 0;
+  const sharesNew = parseFloat(document.getElementById('avg-shares-new').value) || 0;
+  const priceNew = parseFloat(document.getElementById('avg-price-new').value) || 0;
+  
+  const totalShares = sharesOld + sharesNew;
+  const requiredCash = sharesNew * priceNew;
+  
+  let newCost = 0;
+  let dropPercent = 0;
+  
+  if (totalShares > 0) {
+    newCost = ((sharesOld * priceOld) + (sharesNew * priceNew)) / totalShares;
+    if (priceOld > 0) {
+      dropPercent = ((priceOld - newCost) / priceOld) * 100;
+    }
+  }
+  
+  document.getElementById('calc-avg-total-shares').innerText = `${totalShares.toLocaleString()} หุ้น`;
+  document.getElementById('calc-avg-required-cash').innerText = `${requiredCash.toLocaleString(undefined, {minimumFractionDigits:2, maximumFractionDigits:2})} บาท`;
+  document.getElementById('calc-avg-new-cost').innerText = `${newCost.toFixed(2)} บาท`;
+  document.getElementById('calc-avg-drop-percent').innerText = `${dropPercent.toFixed(2)}%`;
+}
+
+// Renders the Stock Events chronological timeline for dividends
+function renderDividendTimeline() {
+  const container = document.getElementById('portfolio-timeline-calendar');
+  container.innerHTML = '';
+  
+  const activePort = portfolios.find(p => p.id === activePortfolioId);
+  if (!activePort || activePort.holdings.length === 0) {
+    container.innerHTML = `
+      <div style="color:var(--text-muted); font-size:0.85rem; text-align:center; padding:3rem 1rem;">
+        พอร์ตว่างเปล่าอยู่ โปรดเพิ่มข้อมูลหุ้นในพอร์ตเพื่อจำลองปฏิทินปันผล
+      </div>
+    `;
+    return;
+  }
+  
+  let events = [];
+  activePort.holdings.forEach(hold => {
+    const stock = stocksData[hold.symbol];
+    if (stock && stock.upcoming_xd) {
+      const payoutVal = hold.shares * (stock.upcoming_dividend_amount || 0);
+      events.push({
+        symbol: hold.symbol,
+        name: stock.name,
+        xdDate: new Date(stock.upcoming_xd),
+        xdDateStr: stock.upcoming_xd,
+        payoutAmount: stock.upcoming_dividend_amount || 0,
+        totalPayout: payoutVal,
+        payDateStr: stock.upcoming_payment_date
+      });
+    }
+  });
+  
+  events.sort((a, b) => a.xdDate - b.xdDate);
+  
+  if (events.length === 0) {
+    container.innerHTML = `
+      <div style="color:var(--text-muted); font-size:0.85rem; text-align:center; padding:3rem 1rem;">
+        หุ้นที่ท่านถือยังไม่มีประกาศวันขึ้นเครื่องหมาย XD ในระยะเวลาอันใกล้
+      </div>
+    `;
+    return;
+  }
+
+  events.forEach(evt => {
+    const day = evt.xdDate.getDate();
+    const month = evt.xdDate.toLocaleDateString('th-TH', { month: 'short' });
+    const xdFormatted = evt.xdDate.toLocaleDateString('th-TH', { day: '2-digit', month: 'short', year: 'numeric' });
+    const payFormatted = evt.payDateStr ? new Date(evt.payDateStr).toLocaleDateString('th-TH', { day: '2-digit', month: 'short', year: 'numeric' }) : 'ไม่ระบุ';
+    
+    const itemDiv = document.createElement('div');
+    itemDiv.className = 't-calendar-item xd-upcoming';
+    itemDiv.innerHTML = `
+      <div style="text-align:center; min-width:40px;">
+        <div style="font-size:1.25rem; font-weight:800; color:var(--support-color); line-height:1;">${day}</div>
+        <div style="font-size:0.7rem; font-weight:600; text-transform:uppercase; color:var(--text-secondary); margin-top:2px;">${month}</div>
+      </div>
+      <div style="flex-grow:1; margin-left:0.5rem;">
+        <div style="font-weight:700; font-size:1rem;">${evt.symbol}</div>
+        <div style="font-size:0.75rem; color:var(--text-secondary);">XD: ${xdFormatted} | จ่าย: ${payFormatted}</div>
+      </div>
+      <div style="text-align:right;">
+        <div style="font-weight:700; color:var(--support-color); font-size:0.95rem;">+${evt.payoutAmount.toFixed(2)} บาท</div>
+        <div style="font-size:0.75rem; color:var(--text-secondary); font-weight:600;">รับปันผลสุทธิ ${evt.totalPayout.toLocaleString(undefined, {minimumFractionDigits:2, maximumFractionDigits:2})} ฿</div>
+      </div>
+    `;
+    container.appendChild(itemDiv);
+  });
+}
+
+function simulatePushNotification() {
+  const activePort = portfolios.find(p => p.id === activePortfolioId);
+  if (!activePort || activePort.holdings.length === 0) {
+    alert('กรุณาเพิ่มหุ้นเข้าในพอร์ตอย่างน้อย 1 ตัวก่อนทดสอบแจ้งเตือนครับ');
+    return;
+  }
+  
+  // Find nearest event
+  const events = [];
+  activePort.holdings.forEach(hold => {
+    const stock = stocksData[hold.symbol];
+    if (stock && stock.upcoming_xd) {
+      events.push({ symbol: hold.symbol, xd: stock.upcoming_xd });
+    }
+  });
+  
+  if (events.length === 0) {
+    alert('ไม่มีกำหนดการ XD ล่วงหน้าของหุ้นในพอร์ตให้แจ้งเตือนในขณะนี้');
+    return;
+  }
+  
+  events.sort((a,b) => new Date(a.xd) - new Date(b.xd));
+  const target = events[0];
+  
+  alert(`🔔 [จำลองการแจ้งเตือน XD ล่วงหน้า 2 วัน]\n\nคุณจะได้รับเงินปันผลจากหุ้น "${target.symbol}" ในวันที่ปฏิทินขึ้น XD: ${new Date(target.xd).toLocaleDateString('th-TH', {day:'2-digit', month:'long', year:'numeric'})}!\nกรุณาถือครองหุ้นก่อนเวลาปิดตลาด ณ วันนี้ เพื่อรับสิทธิ์เงินปันผลสะสม`);
+}
+
+// Renders the dynamic stock news update
+function renderNewsFeed() {
+  const container = document.getElementById('news-feed-container');
+  container.innerHTML = '';
+  
+  if (!selectedStock) return;
+  
+  // Mock news database matching financial niches
+  const mockNews = [
+    { title: `เจาะแผนการดำเนินงานและงบการเงินไตรมาสล่าสุดของ ${selectedStock} ยอดการเติบโตสดใสเป็นไปตามเป้า`, source: 'Insight AI Brief', offsetHours: 2 },
+    { title: `${selectedStock} เผยแผนการขยายโครงสร้างพื้นฐาน และการขยายตลาดในกลุ่มประเทศอาเซียนปีนี้`, source: 'SET Source', offsetHours: 8 },
+    { title: `จับตาแนวโน้มการเติบโตปันผลสะสมระยะยาว (Dividend Season) ของหุ้น ${selectedStock} หลังผลงานดีต่อเนื่อง`, source: 'Wealth Analysis', offsetHours: 25 },
+    { title: `${selectedStock} ประกาศวันขึ้นเครื่องหมาย XD และกำหนดการกระจายการปันผลทบต้นสู่รายผู้ถือหุ้นรายย่อย`, source: 'SET Trade', offsetHours: 48 }
+  ];
+  
+  const today = new Date();
+  
+  mockNews.forEach(n => {
+    const pubDate = new Date(today.getTime() - n.offsetHours * 60 * 60 * 1000);
+    const dateFormatted = pubDate.toLocaleDateString('th-TH') + ' ' + pubDate.toLocaleTimeString('th-TH', {hour: '2-digit', minute:'2-digit'}) + ' น.';
+    
+    const card = document.createElement('div');
+    card.className = 'news-item-card';
+    card.innerHTML = `
+      <div class="news-meta-row">
+        <span class="news-source">${n.source}</span>
+        <span>เผยแพร่เมื่อ: ${dateFormatted}</span>
+      </div>
+      <div class="news-title">${n.title}</div>
+    `;
+    container.appendChild(card);
+  });
+}
+
+// Chart.js Price Drawing Logic
+function renderStockChart(symbol) {
+  const stock = stocksData[symbol];
+  if (!stock || !stock.history || stock.history.length === 0) return;
+  
+  const canvas = document.getElementById('active-stock-chart');
+  if (!canvas) return;
+  const ctx = canvas.getContext('2d');
+  
+  if (priceChart) {
+    priceChart.destroy();
+  }
+  
+  // Filter history based on scale selected
+  const fullHist = stock.history;
+  const sampledHist = fullHist.slice(-activeChartScale);
+  
+  const labels = sampledHist.map(pt => {
+    const d = new Date(pt.date);
+    return d.toLocaleDateString('th-TH', { day: '2-digit', month: 'short' });
+  });
+  const prices = sampledHist.map(pt => pt.close);
+
+  priceChart = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels: labels,
+      datasets: [{
+        label: 'ราคาปิดหุ้น SET',
+        data: prices,
+        borderColor: '#6366f1',
+        borderWidth: 2.5,
+        pointRadius: 0,
+        pointHoverRadius: 6,
+        pointHoverBackgroundColor: '#6366f1',
+        pointHoverBorderColor: '#fff',
+        pointHoverBorderWidth: 2,
+        fill: true,
+        backgroundColor: function(context) {
+          const chart = context.chart;
+          const {ctx, chartArea} = chart;
+          if (!chartArea) return null;
+          const gradient = ctx.createLinearGradient(0, chartArea.top, 0, chartArea.bottom);
+          gradient.addColorStop(0, 'rgba(99, 102, 241, 0.22)');
+          gradient.addColorStop(1, 'rgba(99, 102, 241, 0.00)');
+          return gradient;
+        },
+        tension: 0.12
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      interaction: {
+        mode: 'index',
+        intersect: false
+      },
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          backgroundColor: 'rgba(17, 24, 39, 0.95)',
+          titleColor: '#fff',
+          bodyColor: '#f3f4f6',
+          borderColor: 'rgba(255,255,255,0.08)',
+          borderWidth: 1,
+          padding: 8,
+          titleFont: { family: 'Sarabun', weight: 'bold' },
+          bodyFont: { family: 'Sarabun' },
+          callbacks: {
+            label: function(context) {
+              return ` ราคาปิด: ${context.parsed.y.toFixed(2)} บาท`;
+            }
+          }
+        }
+      },
+      scales: {
+        x: {
+          grid: { display: false },
+          ticks: { color: '#6b7280', font: { family: 'Outfit, Sarabun', size: 9 }, maxTicksLimit: 8 }
+        },
+        y: {
+          grid: { color: 'rgba(255, 255, 255, 0.03)' },
+          ticks: { color: '#6b7280', font: { family: 'Outfit', size: 10 } }
+        }
+      }
+    },
+    plugins: [supportResistancePlugin]
+  });
+}
+
+function changeChartScale(scale) {
+  activeChartScale = scale;
+  
+  // Set scale buttons active class
+  document.querySelectorAll('.btn-chart-scale').forEach(btn => {
+    btn.classList.remove('active');
+  });
+  
+  const targetBtn = Array.from(document.querySelectorAll('.btn-chart-scale')).find(btn => btn.innerText.includes(scale === 365 ? '1Year' : scale));
+  if (targetBtn) targetBtn.classList.add('active');
+  
+  if (selectedStock) {
+    renderStockChart(selectedStock);
+  }
+}
+
+// Renders the overall General XD Calendar directory
+function renderGeneralCalendar() {
+  const tbody = document.getElementById('general-calendar-tbody');
+  if (!tbody) return;
+  tbody.innerHTML = '';
+  
+  let xdList = [];
+  Object.keys(stocksData).forEach(sym => {
+    const stock = stocksData[sym];
+    if (stock.upcoming_xd) {
+      xdList.push({
+        symbol: sym,
+        name: stock.name,
+        price: stock.current_price,
+        xdDate: new Date(stock.upcoming_xd),
+        xdDateStr: stock.upcoming_xd,
+        dividendAmount: stock.upcoming_dividend_amount || 0,
+        yield: stock.dividend_yield,
+        payDateStr: stock.upcoming_payment_date
+      });
+    }
+  });
+  
+  xdList.sort((a, b) => a.xdDate - b.xdDate);
+  
+  const formatDate = (dateStr) => {
+    if (!dateStr) return 'ไม่ระบุ';
+    return new Date(dateStr).toLocaleDateString('th-TH', { day: '2-digit', month: 'short', year: 'numeric' });
+  };
+  
+  xdList.forEach(item => {
+    const tr = document.createElement('tr');
+    tr.style.borderBottom = '1px solid rgba(255,255,255,0.02)';
+    tr.innerHTML = `
+      <td style="font-weight:700; color:var(--warning-color); padding:1rem 0.5rem;">${formatDate(item.xdDateStr)}</td>
+      <td style="padding:1rem 0.5rem;">
+        <div style="font-weight:700; font-size:1.1rem; cursor:pointer;" onclick="switchPage('directory'); selectStock('${item.symbol}');">${item.symbol}</div>
+        <div style="font-size:0.75rem; color:var(--text-secondary);">${item.name}</div>
+      </td>
+      <td style="font-weight:600; padding:1rem 0.5rem;">${item.price.toFixed(2)} บาท</td>
+      <td style="font-weight:600; color:var(--support-color); padding:1rem 0.5rem;">${item.dividendAmount.toFixed(2)} บาท</td>
+      <td style="font-weight:600; padding:1rem 0.5rem;">${item.yield.toFixed(2)}%</td>
+      <td style="padding:1rem 0.5rem;">${formatDate(item.payDateStr)}</td>
+      <td style="padding:1rem 0.5rem;">
+        <button class="btn-sidebar-option" style="padding:0.4rem 0.75rem; font-size:0.85rem;" onclick="switchPage('directory'); selectStock('${item.symbol}');">
+          ดูแนวรับ-แนวต้าน
+        </button>
+      </td>
+    `;
+    tbody.appendChild(tr);
+  });
+}
+
+// ==========================================
+// 🎨 UI Styling & Modals Interactivity
+// ==========================================
+
+function switchTab(tabId) {
+  activeTab = tabId;
+  
+  // Deactivate all tab header triggers
+  document.querySelectorAll('.tab-trigger-btn').forEach(btn => {
+    btn.classList.remove('active');
+  });
+  
+  // Activate selected tab trigger
+  const targetTrigger = Array.from(document.querySelectorAll('.tab-trigger-btn')).find(btn => btn.getAttribute('onclick').includes(tabId));
+  if (targetTrigger) targetTrigger.classList.add('active');
+  
+  // Show active tab pane
+  document.querySelectorAll('.tab-pane').forEach(pane => {
+    pane.classList.remove('active');
+  });
+  document.getElementById(tabId).classList.add('active');
+}
+
+function openPromoModal() {
+  document.getElementById('promo-modal').classList.add('active');
+}
+
+function closePromoModal() {
+  document.getElementById('promo-modal').classList.remove('active');
+  document.getElementById('promo-code-input').value = '';
+  document.getElementById('promo-error-msg').style.display = 'none';
+}
+
+function openBackupModal() {
+  document.getElementById('backup-modal').classList.add('active');
+  generateBackupExport();
+}
+
+function closeBackupModal() {
+  document.getElementById('backup-modal').classList.remove('active');
+}
+
+function openShareModal() {
+  document.getElementById('share-modal').classList.add('active');
+  
+  // Calculate stats for active portfolio share card representation
+  const activePort = portfolios.find(p => p.id === activePortfolioId);
+  if (!activePort) return;
+  
+  let totalWorth = 0;
+  let totalAnnualDiv = 0;
+  
+  activePort.holdings.forEach(hold => {
+    const stock = stocksData[hold.symbol];
+    if (stock) {
+      totalWorth += hold.shares * stock.current_price;
+      totalAnnualDiv += (stock.current_price * (stock.dividend_yield/100)) * hold.shares;
+    }
+  });
+  
+  const hourlyDiv = totalAnnualDiv / (365 * 24);
+  const formattedHourly = hourlyDiv.toLocaleString(undefined, {minimumFractionDigits:2, maximumFractionDigits:2});
+  const formattedWorth = totalWorth.toLocaleString(undefined, {minimumFractionDigits:0, maximumFractionDigits:0});
+  const formattedAnnual = totalAnnualDiv.toLocaleString(undefined, {minimumFractionDigits:0, maximumFractionDigits:0});
+  
+  document.getElementById('share-ring-value').innerText = `${formattedHourly} ฿`;
+  document.getElementById('share-portfolio-name').innerText = activePort.name;
+  document.getElementById('share-total-worth').innerText = `${formattedWorth} บาท`;
+  document.getElementById('share-annual-div').innerText = `${formattedAnnual} บาท`;
+  document.getElementById('share-portfolio-date').innerText = `ปันผลสะสมประจำชั่วโมงล่าสุด: ${new Date().toLocaleDateString('th-TH')}`;
+}
+
+function closeShareModal() {
+  document.getElementById('share-modal').classList.remove('active');
+}
+
+// Sharing & Card Screenshot triggers
+function simulateSaveImage() {
+  alert('💾 บันทึกภาพ "Portfolio Summary Card" สำเร็จเรียบร้อย! รูปภาพถูกจัดเก็บลงเครื่องคอมพิวเตอร์/มือถือของคุณแล้วครับ');
+}
+
+function simulateShareLink() {
+  navigator.clipboard.writeText(window.location.href);
+  alert('🔗 คัดลอกลิงก์แดชบอร์ดลงใน Clipboard ของคุณเรียบร้อยแล้ว! สามารถนำไปกดแชร์แชร์พอร์ตต่อในกลุ่มไลน์ หรือโซเชียลได้ทันทีครับ');
+}
+
+// JSON Backup Utility Export/Import
+function generateBackupExport() {
+  const backupObject = {
+    portfolios: portfolios,
+    activePortfolioId: activePortfolioId,
+    isPremium: isPremium,
+    theme: currentTheme,
+    timestamp: Date.now()
+  };
+  
+  const encodedData = btoa(unescape(encodeURIComponent(JSON.stringify(backupObject))));
+  document.getElementById('backup-data-area').value = encodedData;
+}
+
+function importBackupData() {
+  const code = document.getElementById('backup-data-area').value.trim();
+  if (code === '') {
+    alert('กรุณาวางรหัสข้อมูลสำรองลงในช่อง');
+    return;
+  }
+  
+  try {
+    const decodedString = decodeURIComponent(escape(atob(code)));
+    const parsed = JSON.parse(decodedString);
+    
+    if (parsed.portfolios && parsed.activePortfolioId) {
+      portfolios = parsed.portfolios;
+      activePortfolioId = parsed.activePortfolioId;
+      if (parsed.isPremium !== undefined) {
+        // Set premium if backed up, but monthly expiration check applies on next init
+        isPremium = parsed.isPremium;
+      }
+      
+      savePortfoliosToLocalStorage();
+      alert('📥 โหลดกู้คืนข้อมูลพอร์ตและสภาพเงินสดสำเร็จเรียบร้อยแล้ว!');
+      closeBackupModal();
+      
+      // Full system reload
+      initApp();
+    } else {
+      throw new Error('Invalid JSON structure');
+    }
+  } catch (err) {
+    alert('❌ การโหลดกู้คืนข้อมูลล้มเหลว: รหัสข้อมูลสำรองผิดพลาด หรือไม่สมบูรณ์ กรุณาตรวจสอบรหัสข้อมูลต้นทางอีกครั้ง');
+  }
+}
+
+// Dark/Light Theme swapper
+function toggleTheme() {
+  if (currentTheme === 'dark') {
+    currentTheme = 'light';
+    document.body.classList.add('light-mode');
+  } else {
+    currentTheme = 'dark';
+    document.body.classList.remove('light-mode');
+  }
+  localStorage.setItem('insight_dashboard_theme', currentTheme);
+  updateThemeIcon();
+}
+
+function updateThemeIcon() {
+  const icon = document.getElementById('theme-icon');
+  if (currentTheme === 'light') {
+    icon.innerHTML = `
+      <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
+    `;
+  } else {
+    icon.innerHTML = `
+      <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.75A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+    `;
+  }
+}
+
+// Legacy Page switcher adapt (keeps general calendar page tabs working)
+function switchPage(pageId) {
+  if (pageId === 'calendar') {
+    // If navigating to general calendar, redirect to tab-calendar inside our main layout
+    switchTab('tab-calendar');
+  } else {
+    switchTab('tab-portfolio-manager');
+  }
+}
+
+// Load triggers on page complete
+window.addEventListener('load', initApp);
