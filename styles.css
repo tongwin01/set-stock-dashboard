@@ -1171,32 +1171,133 @@ body {
   }
 }
 
+/* Mobile Header Bar & Backdrop Elements (Desktop hidden) */
+.mobile-header-bar {
+  display: none;
+}
+.mobile-sidebar-close {
+  display: none;
+}
+.mobile-sidebar-backdrop {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.65);
+  backdrop-filter: blur(4px);
+  z-index: 999;
+}
+
 @media (max-width: 768px) {
   .dashboard-grid {
     grid-template-columns: 1fr;
+    padding-top: 56px; /* Offset for sticky mobile header */
   }
   .sidebar {
-    width: 100%;
-    height: auto;
-    position: relative;
-    border-right: none;
-    border-bottom: 1px solid var(--border-color);
+    position: fixed;
+    top: 0;
+    left: -310px;
+    width: 290px;
+    height: 100vh;
+    border-right: 1px solid var(--border-color);
+    border-bottom: none;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    z-index: 1000;
+    transition: left 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .sidebar.mobile-open {
+    left: 0;
   }
   .main-content {
     height: auto;
-    padding: 1.5rem;
+    padding: 1rem;
   }
   .premium-status-badge {
     margin-bottom: 1.25rem;
   }
   .overview-stats-grid {
     grid-template-columns: 1fr 1fr;
+    gap: 0.75rem;
   }
   .dca-panel-grid {
     grid-template-columns: 1fr;
   }
   .chart-matrix-row {
     flex-direction: column;
+    gap: 1rem;
+  }
+  
+  /* Horizontal Scrollable Tabs Bar on Mobile */
+  .tabs-header-bar {
+    overflow-x: auto;
+    white-space: nowrap;
+    display: flex;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+  }
+  .tab-trigger-btn {
+    flex-shrink: 0;
+    padding: 0.85rem 1rem;
+    font-size: 0.85rem;
+  }
+  
+  /* Mobile UI Header & Toggle */
+  .mobile-header-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    background: var(--bg-sidebar);
+    border-bottom: 1px solid var(--border-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 56px;
+    z-index: 99;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+  }
+  .mobile-logo-text {
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: var(--text-primary);
+    background: linear-gradient(135deg, var(--brand-color) 0%, #a855f7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+  }
+  .mobile-menu-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    background: var(--brand-color);
+    border: none;
+    color: #fff;
+    padding: 0.45rem 0.85rem;
+    border-radius: 30px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 2px 8px var(--brand-glow);
+  }
+  .mobile-sidebar-close {
+    display: block;
+    position: absolute;
+    top: 1.5rem;
+    right: 1.25rem;
+    cursor: pointer;
+    color: var(--text-secondary);
+    transition: color 0.2s ease;
+  }
+  .mobile-sidebar-close:hover {
+    color: var(--text-primary);
+  }
+  .mobile-sidebar-backdrop.active {
+    display: block;
   }
 }
 

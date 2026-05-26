@@ -609,6 +609,10 @@ function filterStocks() {
 // Select stock from database
 function selectStock(symbol) {
   if (!symbol) return;
+  
+  // Auto-close mobile sidebar if open
+  closeMobileSidebar();
+  
   symbol = symbol.toUpperCase().trim();
   const stock = getOrCreateStockData(symbol);
   if (!stock) return;
@@ -1633,6 +1637,23 @@ function startRealTimePriceSimulation() {
     }
     
   }, 3000); // 3 seconds tick
+}
+
+// Mobile navigation helper functions
+function toggleMobileSidebar() {
+  const sidebar = document.getElementById('app-sidebar');
+  const backdrop = document.getElementById('sidebar-backdrop');
+  if (!sidebar || !backdrop) return;
+  
+  sidebar.classList.toggle('mobile-open');
+  backdrop.classList.toggle('active');
+}
+
+function closeMobileSidebar() {
+  const sidebar = document.getElementById('app-sidebar');
+  const backdrop = document.getElementById('sidebar-backdrop');
+  if (sidebar) sidebar.classList.remove('mobile-open');
+  if (backdrop) backdrop.classList.remove('active');
 }
 
 // Load triggers on page complete
