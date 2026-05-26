@@ -303,7 +303,7 @@ function applyTierRestrictions() {
       if (premiumActionBtn) {
         premiumActionBtn.innerHTML = `
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" style="width:14px; height:14px; color:#fff;">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296a3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.746 3.746 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z" />
           </svg>
         `;
         premiumActionBtn.style.background = 'linear-gradient(135deg, #10b981 0%, #059669 100%)';
@@ -340,17 +340,25 @@ function applyTierRestrictions() {
       }
     });
 
-    // 3. Blur premium tab contents
+    // 3. Blur premium tab contents & IAA Consensus
     document.getElementById('dca-blurred-content').classList.add('free-blurred-content');
     document.getElementById('cal-blurred-content').classList.add('free-blurred-content');
     document.getElementById('news-blurred-content').classList.add('free-blurred-content');
     document.getElementById('sim-blurred-content').classList.add('free-blurred-content');
+    
+    const iaaPanel = document.getElementById('iaa-consensus-panel');
+    if (iaaPanel) iaaPanel.classList.add('premium-locked-area');
+    const iaaBlurred = document.getElementById('iaa-blurred-content');
+    if (iaaBlurred) iaaBlurred.classList.add('free-blurred-content');
     
     // 4. Show locks
     document.getElementById('dca-lock-overlay').style.display = 'flex';
     document.getElementById('cal-lock-overlay').style.display = 'flex';
     document.getElementById('news-lock-overlay').style.display = 'flex';
     document.getElementById('sim-lock-overlay').style.display = 'flex';
+    
+    const iaaLock = document.getElementById('iaa-lock-overlay');
+    if (iaaLock) iaaLock.style.display = 'flex';
   } else {
     // 2. Unlock Pivot Point rows
     document.querySelectorAll('.matrix-row.premium-locked-area').forEach(row => {
@@ -1277,19 +1285,39 @@ function simulatePushNotification() {
   alert(`🔔 [จำลองการแจ้งเตือน XD ล่วงหน้า 2 วัน]\n\nคุณจะได้รับเงินปันผลจากหุ้น "${target.symbol}" ในวันที่ปฏิทินขึ้น XD: ${new Date(target.xd).toLocaleDateString('th-TH', {day:'2-digit', month:'long', year:'numeric'})}!\nกรุณาถือครองหุ้นก่อนเวลาปิดตลาด ณ วันนี้ เพื่อรับสิทธิ์เงินปันผลสะสม`);
 }
 
-// Renders the dynamic stock news update
+// Renders the dynamic stock news update (Clickable articles & automatic Settrade/SET search linking!)
 function renderNewsFeed() {
   const container = document.getElementById('news-feed-container');
   container.innerHTML = '';
   
   if (!selectedStock) return;
   
-  // Mock news database matching financial niches
+  // Mock news database matching financial niches with official dynamic links
   const mockNews = [
-    { title: `เจาะแผนการดำเนินงานและงบการเงินไตรมาสล่าสุดของ ${selectedStock} ยอดการเติบโตสดใสเป็นไปตามเป้า`, source: 'Insight AI Brief', offsetHours: 2 },
-    { title: `${selectedStock} เผยแผนการขยายโครงสร้างพื้นฐาน และการขยายตลาดในกลุ่มประเทศอาเซียนปีนี้`, source: 'SET Source', offsetHours: 8 },
-    { title: `จับตาแนวโน้มการเติบโตปันผลสะสมระยะยาว (Dividend Season) ของหุ้น ${selectedStock} หลังผลงานดีต่อเนื่อง`, source: 'Wealth Analysis', offsetHours: 25 },
-    { title: `${selectedStock} ประกาศวันขึ้นเครื่องหมาย XD และกำหนดการกระจายการปันผลทบต้นสู่รายผู้ถือหุ้นรายย่อย`, source: 'SET Trade', offsetHours: 48 }
+    { 
+      title: `เจาะแผนการดำเนินงานและงบการเงินไตรมาสล่าสุดของ ${selectedStock} ยอดการเติบโตสดใสเป็นไปตามเป้า`, 
+      source: 'Insight AI Brief', 
+      offsetHours: 2,
+      realUrl: `https://www.google.com/search?q=ข่าวหุ้น+${selectedStock}`
+    },
+    { 
+      title: `${selectedStock} เผยแผนการขยายโครงสร้างพื้นฐาน และการขยายตลาดในกลุ่มประเทศอาเซียนปีนี้`, 
+      source: 'SET Source', 
+      offsetHours: 8,
+      realUrl: `https://www.set.or.th/th/market/product/stock/quote/${selectedStock}/news`
+    },
+    { 
+      title: `จับตาแนวโน้มการเติบโตปันผลสะสมระยะยาว (Dividend Season) ของหุ้น ${selectedStock} หลังผลงานดีต่อเนื่อง`, 
+      source: 'Wealth Analysis', 
+      offsetHours: 25,
+      realUrl: `https://www.google.com/search?q=วิเคราะห์หุ้น+${selectedStock}+ปันผล`
+    },
+    { 
+      title: `${selectedStock} ประกาศวันขึ้นเครื่องหมาย XD และกำหนดการกระจายการปันผลทบต้นสู่รายผู้ถือหุ้นรายย่อย`, 
+      source: 'SET Trade', 
+      offsetHours: 48,
+      realUrl: `https://www.settrade.com/th/equities/quote/${selectedStock}/news`
+    }
   ];
   
   const today = new Date();
@@ -1300,15 +1328,69 @@ function renderNewsFeed() {
     
     const card = document.createElement('div');
     card.className = 'news-item-card';
+    card.style.cursor = 'pointer';
+    card.title = 'คลิกเพื่ออ่านบทความการวิเคราะห์ข่าวสารเชิงลึก';
+    card.onclick = () => openNewsReaderModal(n.title, n.source, dateFormatted, n.realUrl);
     card.innerHTML = `
       <div class="news-meta-row">
-        <span class="news-source">${n.source}</span>
+        <span class="news-source" style="font-weight:700;">${n.source}</span>
         <span>เผยแพร่เมื่อ: ${dateFormatted}</span>
       </div>
       <div class="news-title">${n.title}</div>
+      <div style="font-size:0.75rem; color:var(--brand-color); font-weight:700; margin-top:0.5rem; display:flex; align-items:center; gap:3px;">
+        <span>📖 คลิกเพื่อเปิดอ่านบทวิเคราะห์ข่าวเชิงลึก & แหล่งข่าวอ้างอิง</span>
+      </div>
     `;
     container.appendChild(card);
   });
+}
+
+// Dynamically generate stunning premium financial articles for reading modal
+function generateFinancialArticleBody(symbol, title) {
+  const stock = stocksData[symbol];
+  if (!stock) return `<p>ไม่พบข้อมูลหุ้นวิเคราะห์ชั่วคราว</p>`;
+  
+  const price = stock.current_price.toFixed(2);
+  const divAmount = stock.upcoming_dividend_amount ? stock.upcoming_dividend_amount.toFixed(2) : '0.00';
+  const xdDate = stock.upcoming_xd ? new Date(stock.upcoming_xd).toLocaleDateString('th-TH', {day:'2-digit', month:'long', year:'numeric'}) : 'ยังไม่ระบุประกาศแน่ชัด';
+  const sector = stock.sector || 'หมวดอุตสาหกรรมพัฒนาอสังหาริมทรัพย์และพลังงาน';
+  
+  return `
+    <p>
+      จากการวิเคราะห์ข้อมูลทางสถิติและทิศทางผลการดำเนินงานรายวันของหุ้น <strong>${symbol} (${stock.name})</strong> ในหมวดสาขาอุตสาหกรรม <strong>${sector}</strong> ปัจจุบันราคาปิดซื้อขายจำลองล่าล่าสุดของวันอยู่ที่ระดับ <strong>${price} บาท</strong> ซึ่งทางผู้ประเมินหลักทรัพย์มองว่ามีสัดส่วนอัตรากำไรสะสมและกระแสเงินสดหมวนเวียนในการลงทุนขยายประสิทธิภาพค่อนข้างมั่นคงและมีความเสี่ยงต่ำ
+    </p>
+    <p>
+      จุดเด่นสำคัญของ <strong>${symbol}</strong> ในไตรมาสถัดไปนี้ อยู่ที่นโยบายสิทธิประโยชน์ผู้ถือหุ้นรายย่อย (Dividend Growth Rate) โดยมีกำหนดการขึ้นเครื่องหมาย XD ในวันที่ <strong>${xdDate}</strong> และจ่ายเงินปันผลในอัตราหุ้นละ <strong>${divAmount} บาท</strong> คิดเป็นอัตราส่วน Yield On Cost ที่ยอดเยี่ยมสำหรับนักลงทุนออมหุ้นแบบทบต้นสะสมระยะยาว (DCA Strategies)
+    </p>
+    <p>
+      <strong>สรุปคำแนะนำเชิงปริมาณ (Insight AI Analyst Group):</strong> จากขอบเขตสัญญาณสถิติและกรอบกริดแนวรับแนวต้านอัตโนมัติ (Pivot Points Matrix) หุ้น ${symbol} ยังคงมีโอกาสสะสมซื้อเฉลี่ยดึงต้นทุนลงได้เด่นชัด แนะนำนักลงทุนศึกษาขอบเขตการบริหารเงินสดสำรองผ่านโปรแกรมจำลองการช้อนซื้อพิเศษ (Smart Buy Tracker) และกระจายการลงทุนอย่างมีระบบเพื่อรักษาความมั่นคงของพอร์ตระยะกลางและยาว
+    </p>
+  `;
+}
+
+// News reader modal controls
+function openNewsReaderModal(title, source, dateStr, url) {
+  const modal = document.getElementById('news-reader-modal');
+  if (!modal) return;
+  
+  document.getElementById('reader-news-title').innerText = title;
+  document.getElementById('reader-news-source').innerText = source;
+  document.getElementById('reader-news-date').innerText = `เผยแพร่เมื่อ: ${dateStr}`;
+  document.getElementById('reader-news-body').innerHTML = generateFinancialArticleBody(selectedStock, title);
+  
+  const linkBtn = document.getElementById('reader-news-link');
+  if (linkBtn) {
+    linkBtn.href = url;
+  }
+  
+  modal.style.display = 'flex';
+}
+
+function closeNewsReaderModal() {
+  const modal = document.getElementById('news-reader-modal');
+  if (modal) {
+    modal.style.display = 'none';
+  }
 }
 
 // Chart.js Price Drawing Logic
