@@ -280,18 +280,16 @@ body {
 
 /* Premium Profile Badge & Settings Triggers */
 .premium-status-badge {
-  background: linear-gradient(135deg, rgba(99, 102, 241, 0.15) 0%, rgba(245, 158, 11, 0.08) 100%);
-  border: 1px solid rgba(245, 158, 11, 0.25);
-  border-radius: 30px; /* Gorgeous pill capsule shape */
-  padding: 0.5rem 1.25rem;
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.12) 0%, rgba(245, 158, 11, 0.05) 100%);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md); /* Smooth card corners matching modern dashboard */
+  padding: 0.75rem 1rem;
   display: flex;
   align-items: center;
-  gap: 0.75rem;
-  position: absolute;
-  top: 1.5rem;
-  right: 2.5rem;
-  z-index: 100;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+  justify-content: space-between;
+  gap: 0.5rem;
+  position: relative; /* Restored to clean relative flow in sidebar! */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   transition: all var(--transition-smooth);
 }
 
@@ -1189,11 +1187,7 @@ body {
     padding: 1.5rem;
   }
   .premium-status-badge {
-    position: static;
-    margin-bottom: 1rem;
-    align-self: flex-start;
-    width: 100%;
-    justify-content: space-between;
+    margin-bottom: 1.25rem;
   }
   .overview-stats-grid {
     grid-template-columns: 1fr 1fr;
