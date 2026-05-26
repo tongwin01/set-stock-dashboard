@@ -71,19 +71,6 @@
 
       <!-- Sidebar Footer Settings -->
       <div class="sidebar-footer">
-        
-        <!-- Premium Status Badge -->
-        <div class="premium-status-badge" id="premium-badge-container">
-          <div>
-            <div class="p-badge-title" id="premium-status-text">บัญชีทั่วไป (Free Tier)</div>
-            <div class="p-badge-desc" id="premium-status-desc">จำกัดเพิ่มหุ้นสูงสุด 3 ตัว</div>
-          </div>
-          <button class="btn-premium-action" onclick="openPromoModal()" title="ปลดล็อกระดับสมาชิกร่วมกัน">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.2" stroke="currentColor" style="width:22px; height:22px; color:var(--warning-color);">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z" />
-            </svg>
-          </button>
-        </div>
 
         <div class="sidebar-btn-row">
           <!-- Backup Utility Trigger -->
@@ -121,7 +108,7 @@
     <main class="main-content">
       
       <!-- Top Selected Stock Title and Real-time simulation -->
-      <section class="dashboard-header" id="stock-header-panel">
+      <section class="dashboard-header" id="stock-header-panel" style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1rem;">
         <div class="selected-stock-header">
           <div class="s-stock-logo" id="active-stock-logo">PTT</div>
           <div class="s-stock-details">
@@ -129,9 +116,27 @@
             <p id="active-stock-sector">กลุ่มอุตสาหกรรมพลังงานและสาธารณูปโภค</p>
           </div>
         </div>
-        <div class="s-stock-pricing">
-          <div class="s-stock-price-val" id="active-stock-price">34.00 <span>THB</span></div>
-          <div class="s-stock-price-change" id="active-stock-change">+0.25 (0.74%)</div>
+        
+        <!-- Right: Premium Status Badge & Pricing side-by-side (Request 1 - Top Right relocator) -->
+        <div style="display:flex; align-items:center; gap:1.5rem; flex-wrap:wrap;">
+          
+          <!-- Premium Status Badge (Floating in top-right next to price for extreme space saving) -->
+          <div class="premium-status-badge" id="premium-badge-container" style="margin: 0; padding: 0.5rem 1rem; border-radius: 30px; display:flex; align-items:center; gap:0.6rem;">
+            <div style="text-align: left;">
+              <div class="p-badge-title" id="premium-status-text" style="font-size:0.75rem; font-weight:800;">บัญชีทั่วไป (Free Tier)</div>
+              <div class="p-badge-desc" id="premium-status-desc" style="font-size:0.65rem; color:var(--text-secondary); margin-top:1px;">จำกัดเพิ่มหุ้นสูงสุด 3 ตัว</div>
+            </div>
+            <button class="btn-premium-action" onclick="openPromoModal()" title="ปลดล็อกระดับสมาชิกร่วมกัน" style="width:28px; height:28px; border-radius:50%; display:flex; align-items:center; justify-content:center; padding:0;">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" style="width:14px; height:14px; color:#fff;">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z" />
+              </svg>
+            </button>
+          </div>
+
+          <div class="s-stock-pricing" style="text-align: right;">
+            <div class="s-stock-price-val" id="active-stock-price" style="font-size:1.8rem; font-weight:800;">34.00 <span style="font-size:0.9rem;">THB</span></div>
+            <div class="s-stock-price-change" id="active-stock-change" style="font-size:0.85rem; font-weight:700;">+0.25 (0.74%)</div>
+          </div>
         </div>
       </section>
 
@@ -342,10 +347,8 @@
               <h4 style="font-size:1rem; font-weight:800; margin-bottom:0.75rem; color:var(--brand-color);">💾 เพิ่มประวัติการซื้อหุ้นเข้าสู่พอร์ตโฟลิโอ</h4>
               <div class="adder-form-row">
                 <div class="form-group" style="flex:1;">
-                  <label class="form-label" style="font-size:0.8rem;">ชื่อย่อหุ้น SET</label>
-                  <select class="form-select" id="add-form-symbol" style="padding: 0.55rem;" onchange="autoFillFormPrice()">
-                    <!-- Populated dynamically -->
-                  </select>
+                  <label class="form-label" style="font-size:0.8rem;">ชื่อย่อหุ้น (SET / MAI)</label>
+                  <input type="text" class="form-input" id="add-form-symbol" placeholder="พิมพ์ชื่อย่อ เช่น AOT, SPA..." style="padding: 0.55rem; text-transform:uppercase;" oninput="autoFillFormPrice()">
                 </div>
                 <div class="form-group" style="flex:1;">
                   <label class="form-label" style="font-size:0.8rem;">จำนวนหุ้นที่ซื้อ (หุ้น)</label>
