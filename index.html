@@ -682,6 +682,27 @@
                   * รายปี (ลด 10% อัตโนมัติ): <strong id="admin-pricing-annual-calc" style="color:var(--support-color);">1,069 บาท</strong>
                 </div>
               </div>
+              <div style="margin-top:0.75rem; border-top:1px dashed rgba(255,255,255,0.08); padding-top:0.5rem;">
+                💳 <strong>แก้ไขช่องทางการโอนเงิน (โชว์ฝั่งสมาชิก):</strong><br>
+                <div style="margin-top:0.35rem; display:grid; grid-template-columns:1fr; gap:0.35rem; font-size:0.8rem;">
+                  <div style="display:flex; justify-content:space-between; align-items:center;">
+                    <span>ธนาคาร/ช่องทาง:</span>
+                    <input type="text" id="admin-payment-bank" style="width:180px; background:var(--bg-input); border:1px solid var(--border-color); color:#fff; padding:2px 6px; border-radius:4px; font-size:0.75rem;" oninput="updateSystemPricingFromAdmin()">
+                  </div>
+                  <div style="display:flex; justify-content:space-between; align-items:center;">
+                    <span>เลขบัญชี:</span>
+                    <input type="text" id="admin-payment-account" style="width:180px; background:var(--bg-input); border:1px solid var(--border-color); color:#fff; padding:2px 6px; border-radius:4px; font-size:0.75rem;" oninput="updateSystemPricingFromAdmin()">
+                  </div>
+                  <div style="display:flex; justify-content:space-between; align-items:center;">
+                    <span>ชื่อบัญชี:</span>
+                    <input type="text" id="admin-payment-name" style="width:180px; background:var(--bg-input); border:1px solid var(--border-color); color:#fff; padding:2px 6px; border-radius:4px; font-size:0.75rem;" oninput="updateSystemPricingFromAdmin()">
+                  </div>
+                  <div style="display:flex; justify-content:space-between; align-items:center;">
+                    <span>อีเมลรับสลิป:</span>
+                    <input type="text" id="admin-payment-email" style="width:180px; background:var(--bg-input); border:1px solid var(--border-color); color:#fff; padding:2px 6px; border-radius:4px; font-size:0.75rem;" oninput="updateSystemPricingFromAdmin()">
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
 

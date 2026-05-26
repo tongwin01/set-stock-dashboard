@@ -9,7 +9,8 @@ const CONFIG = {
     annual: 1069, // default 1069 THB
     accountNo: "123-4-56789-0",
     accountName: "บจก. อินไซต์ เอไอ บรีฟ (Insight AI Brief Co., Ltd.)",
-    bankName: "ธนาคารกสิกรไทย (K-Bank)"
+    bankName: "ธนาคารกสิกรไทย (K-Bank)",
+    email: "contact@insight-brief.club"
   }
 };
 
@@ -259,17 +260,47 @@ function initSystemPricing() {
     CONFIG.pricing.monthly = parseFloat(savedMonthly);
     CONFIG.pricing.annual = Math.round(CONFIG.pricing.monthly * 12 * 0.9); // Auto 10% off
   }
+  
+  // Load editable payment details from localStorage
+  const savedBank = localStorage.getItem('insight_config_pricing_bank');
+  if (savedBank) CONFIG.pricing.bankName = savedBank;
+  
+  const savedAccount = localStorage.getItem('insight_config_pricing_account');
+  if (savedAccount) CONFIG.pricing.accountNo = savedAccount;
+  
+  const savedName = localStorage.getItem('insight_config_pricing_name');
+  if (savedName) CONFIG.pricing.accountName = savedName;
+  
+  const savedEmail = localStorage.getItem('insight_config_pricing_email');
+  if (savedEmail) CONFIG.pricing.email = savedEmail;
+  
   updatePricingUIElements();
 }
 
 function updatePricingUIElements() {
   const mPrice = CONFIG.pricing.monthly;
   const aPrice = CONFIG.pricing.annual;
+  const bankName = CONFIG.pricing.bankName;
+  const accountNo = CONFIG.pricing.accountNo;
+  const accountName = CONFIG.pricing.accountName;
+  const email = CONFIG.pricing.email || "contact@insight-brief.club";
   
   document.getElementById('ui-pricing-monthly').innerText = `แพลนรายเดือน: ${mPrice.toLocaleString()} บาท/เดือน`;
   document.getElementById('ui-pricing-annual').innerText = `แพลนรายปี: ${aPrice.toLocaleString()} บาท/ปี (-10%)`;
   
-  // Update inputs in admin console if open
+  // Dynamically update the instructions shown to subscribers
+  const paymentDetailsBox = document.getElementById('ui-payment-details');
+  if (paymentDetailsBox) {
+    paymentDetailsBox.innerHTML = `
+      <strong>ช่องทางการสนับสนุน:</strong><br>
+      ${bankName}<br>
+      เลขบัญชี: ${accountNo}<br>
+      ชื่อบัญชี: ${accountName}<br>
+      <span style="font-size:0.75rem; color:var(--text-secondary); display:block; margin-top:4px;">*โอนเงินแล้วส่งสลิปมาที่อีเมล ${email} เพื่อรับสิทธิ์รหัสส่วนตัว</span>
+    `;
+  }
+  
+  // Update inputs inside the secret admin console
   const adminMInput = document.getElementById('admin-pricing-monthly');
   if (adminMInput) {
     adminMInput.value = mPrice;
@@ -278,6 +309,19 @@ function updatePricingUIElements() {
   if (adminACalc) {
     adminACalc.innerText = `${aPrice.toLocaleString()} บาท`;
   }
+  
+  // Update payment edit fields in admin console
+  const adminBank = document.getElementById('admin-payment-bank');
+  if (adminBank) adminBank.value = bankName;
+  
+  const adminAcc = document.getElementById('admin-payment-account');
+  if (adminAcc) adminAcc.value = accountNo;
+  
+  const adminName = document.getElementById('admin-payment-name');
+  if (adminName) adminName.value = accountName;
+  
+  const adminEmail = document.getElementById('admin-payment-email');
+  if (adminEmail) adminEmail.value = email;
 }
 
 function updateSystemPricingFromAdmin() {
@@ -287,8 +331,33 @@ function updateSystemPricingFromAdmin() {
   
   CONFIG.pricing.monthly = newM;
   CONFIG.pricing.annual = Math.round(newM * 12 * 0.9); // 10% off
-  
   localStorage.setItem('insight_config_pricing_monthly', newM);
+  
+  // Save editable payment inputs to localStorage
+  const bankInput = document.getElementById('admin-payment-bank');
+  if (bankInput) {
+    CONFIG.pricing.bankName = bankInput.value.trim();
+    localStorage.setItem('insight_config_pricing_bank', CONFIG.pricing.bankName);
+  }
+  
+  const accInput = document.getElementById('admin-payment-account');
+  if (accInput) {
+    CONFIG.pricing.accountNo = accInput.value.trim();
+    localStorage.setItem('insight_config_pricing_account', CONFIG.pricing.accountNo);
+  }
+  
+  const nameInput = document.getElementById('admin-payment-name');
+  if (nameInput) {
+    CONFIG.pricing.accountName = nameInput.value.trim();
+    localStorage.setItem('insight_config_pricing_name', CONFIG.pricing.accountName);
+  }
+  
+  const emailInput = document.getElementById('admin-payment-email');
+  if (emailInput) {
+    CONFIG.pricing.email = emailInput.value.trim();
+    localStorage.setItem('insight_config_pricing_email', CONFIG.pricing.email);
+  }
+  
   updatePricingUIElements();
 }
 
