@@ -13,7 +13,7 @@ TICKERS = [
     "BANPU.BK", "TASCO.BK", "AWC.BK", "BH.BK", "CCET.BK", 
     "MBK.BK", "3BBIF.BK", "SAUCE.BK", "LH.BK", "KTB.BK", 
     "CPN.BK", "TRUE.BK", "BBL.BK", "TU.BK", "HMPRO.BK",
-    "INTUCH.BK", "TISCO.BK", "BDMS.BK", "SCGP.BK", "CPF.BK"
+    "INTUCH.BK", "TISCO.BK", "NER.BK", "SCGP.BK", "CPF.BK"
 ]
 
 def calculate_support_resistance(df, window=10):
