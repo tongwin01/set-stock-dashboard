@@ -159,6 +159,7 @@ body {
   overflow-y: auto;
   z-index: 10;
   grid-column: 2; /* Force placement to the right column */
+  grid-row: 1;    /* Force placement on row 1 to prevent rollover */
 }
 
 .logo-container {
@@ -495,6 +496,7 @@ body {
   min-height: calc(100vh - 64px);
   position: relative; /* Set to relative so absolute children align perfectly in the top right viewport */
   grid-column: 1; /* Force placement to the left column */
+  grid-row: 1;    /* Force placement on row 1 to prevent rollover */
 }
 
 /* Top Dashboard Header */
@@ -1291,6 +1293,7 @@ body {
     z-index: 1000;
     transition: right 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     grid-column: auto; /* Reset grid placement on mobile */
+    grid-row: auto;    /* Reset grid row placement on mobile */
   }
   .sidebar.mobile-open {
     right: 0;
@@ -1300,6 +1303,7 @@ body {
     height: auto;
     padding: 1rem;
     grid-column: auto; /* Reset grid placement on mobile */
+    grid-row: auto;    /* Reset grid row placement on mobile */
   }
   .premium-status-badge {
     margin-bottom: 1.25rem;
