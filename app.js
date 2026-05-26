@@ -401,6 +401,14 @@ async function initApp() {
   document.getElementById('admin-current-code').innerText = getPromoCodeForMonth(0);
   document.getElementById('admin-next-code').innerText = getPromoCodeForMonth(1);
 
+  // Show/Hide Admin Console based on secret URL query string (?admin=true or ?insight_brief_admin=true)
+  const urlParams = new URLSearchParams(window.location.search);
+  const isAdminMode = urlParams.get('admin') === 'true' || urlParams.has('insight_brief_admin');
+  const adminWrapper = document.getElementById('admin-console-panel-wrapper');
+  if (adminWrapper) {
+    adminWrapper.style.display = isAdminMode ? 'block' : 'none';
+  }
+
   // Load Portfolios structure from localStorage
   const storedPortfolios = localStorage.getItem('insight_multi_portfolios_data');
   const storedActiveId = localStorage.getItem('insight_active_portfolio_id');
