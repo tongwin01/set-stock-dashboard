@@ -45,7 +45,8 @@
         <select class="portfolio-select-dropdown" id="portfolio-select" onchange="switchPortfolio()" style="width:140px; padding:0.45rem; font-size:0.85rem; font-weight:700; margin:0;">
           <!-- Populated dynamically -->
         </select>
-        <button onclick="createNewPortfolio()" style="background:none; border:none; color:var(--brand-color); cursor:pointer; font-size:0.8rem; font-weight:700;">+ เพิ่มพอร์ต</button>
+        <button onclick="createNewPortfolio()" style="background:none; border:none; color:var(--brand-color); cursor:pointer; font-size:0.8rem; font-weight:700;">+ <span>เพิ่มพอร์ต</span></button>
+        <button onclick="deleteActivePortfolio()" style="background:none; border:none; color:var(--resistance-color); cursor:pointer; font-size:0.8rem; font-weight:700; margin-left:0.25rem;" title="ลบพอร์ตปัจจุบันที่เลือกอยู่">🗑️ <span>ลบพอร์ต</span></button>
       </div>
 
       <!-- Backup utility trigger -->

@@ -559,6 +559,33 @@ function createNewPortfolio() {
   alert(`สร้างพอร์ต "${name}" เรียบร้อยแล้ว!`);
 }
 
+function deleteActivePortfolio() {
+  const activePort = portfolios.find(p => p.id === activePortfolioId);
+  if (!activePort) return;
+  
+  if (portfolios.length <= 1) {
+    alert('❌ ไม่สามารถลบพอร์ตโฟลิโอได้เนื่องจากต้องมีพอร์ตอยู่ในระบบอย่างน้อย 1 พอร์ตครับ หากไม่ต้องการพอร์ตนี้ สามารถตั้งค่าลบหุ้นและแก้ไขยอดเงินสดเป็นศูนย์แทนได้ครับ');
+    return;
+  }
+  
+  const confirmed = confirm(`🗑️ คุณแน่ใจหรือไม่ว่าต้องการลบพอร์ตโฟลิโอ "${activePort.name}"?\n\n*คำเตือน: ข้อมูลหุ้นที่ถือครองและยอดเงินสดในพอร์ตนี้ทั้งหมดจะถูกลบออกอย่างถาวรและไม่สามารถกู้คืนได้!`);
+  if (!confirmed) return;
+  
+  // Remove from portfolios array
+  portfolios = portfolios.filter(p => p.id !== activePortfolioId);
+  
+  // Set new active portfolio as the first remaining one
+  activePortfolioId = portfolios[0].id;
+  
+  savePortfoliosToLocalStorage();
+  
+  // Refresh and Switch
+  renderPortfolioSelect();
+  switchPortfolio();
+  
+  alert('ลบพอร์ตโฟลิโอเรียบร้อยแล้วครับ');
+}
+
 function updateCashBalance() {
   const cashInput = document.getElementById('cash-input');
   const amount = parseFloat(cashInput.value);
