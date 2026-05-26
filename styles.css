@@ -110,7 +110,6 @@ body {
   background: var(--text-muted);
 }
 
-/* Sleek Top Navigation Bar spanning full width */
 .top-navbar {
   display: flex;
   justify-content: space-between;
@@ -128,11 +127,13 @@ body {
   display: flex;
   align-items: center;
   gap: 1.5rem;
+  flex-shrink: 0;
 }
 .navbar-right {
   display: flex;
   align-items: center;
   gap: 1.25rem;
+  flex-shrink: 0;
 }
 
 /* Refactored Spacious 2-Column Dashboard Layout (Swapped Watchlist Right) */
@@ -185,6 +186,7 @@ body {
   font-size: 1.15rem;
   font-weight: 700;
   letter-spacing: -0.2px;
+  white-space: nowrap;
 }
 
 .logo-text span {
@@ -194,6 +196,7 @@ body {
   color: var(--brand-color);
   text-transform: uppercase;
   letter-spacing: 0.5px;
+  white-space: nowrap;
 }
 
 .search-wrapper {
@@ -1206,12 +1209,48 @@ body {
 /* Responsive & Layout Updates */
 @media (max-width: 1200px) {
   .dashboard-grid {
-    grid-template-columns: 240px 1fr;
+    grid-template-columns: 1fr 290px;
     height: auto;
     overflow: auto;
   }
   body {
     overflow: auto;
+  }
+}
+
+/* Responsive navbar compression for smaller desktop / tablet viewports */
+@media (max-width: 1024px) {
+  .top-navbar {
+    padding: 0 1rem;
+  }
+  .navbar-right {
+    gap: 0.75rem;
+  }
+  .portfolio-navbar-group span {
+    display: none !important;
+  }
+  .portfolio-navbar-group button {
+    font-size: 0.75rem !important;
+  }
+  .portfolio-select-dropdown {
+    width: 110px !important;
+    padding: 0.4rem !important;
+    font-size: 0.8rem !important;
+  }
+  .btn-sidebar-option span {
+    display: none !important;
+  }
+  .btn-sidebar-option {
+    padding: 0;
+    width: 34px;
+    height: 34px;
+    border-radius: 50% !important;
+    justify-content: center;
+  }
+  .btn-sidebar-option svg {
+    width: 16px !important;
+    height: 16px !important;
+    margin: 0 !important;
   }
 }
 
