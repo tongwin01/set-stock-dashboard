@@ -7,40 +7,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Sarabun:wght@300;400;500;600;700;800&display=swap');
 
 :root {
-  /* Dark Mode Palette (Default) */
-  --bg-app: #080c14;
-  --bg-sidebar: #0e1320;
-  --bg-panel: rgba(17, 24, 39, 0.7);
-  --bg-card: rgba(22, 30, 49, 0.7);
-  --bg-input: #1b2336;
+  /* Dark Mode Palette - Pure Black Stock Events Style */
+  --bg-app: #000000;
+  --bg-sidebar: #05070a;
+  --bg-panel: #0b0d14;
+  --bg-card: #0b0d14;
+  --bg-input: #11141e;
   
-  --border-color: rgba(255, 255, 255, 0.08);
+  --border-color: rgba(255, 255, 255, 0.04);
   --border-focus: rgba(99, 102, 241, 0.4);
-  --border-neon: rgba(99, 102, 241, 0.15);
+  --border-neon: rgba(99, 102, 241, 0.08);
   
-  --text-primary: #f9fafb;
-  --text-secondary: #9ca3af;
-  --text-muted: #4b5563;
+  --text-primary: #ffffff;
+  --text-secondary: #8b92a0;
+  --text-muted: #494e5a;
   
   --brand-color: #6366f1; /* Indigo */
-  --brand-glow: rgba(99, 102, 241, 0.3);
+  --brand-glow: rgba(99, 102, 241, 0.2);
   
   --support-color: #10b981; /* Emerald */
-  --support-glow: rgba(16, 185, 129, 0.15);
+  --support-glow: rgba(16, 185, 129, 0.1);
   
-  --resistance-color: #f43f5e; /* Crimson */
-  --resistance-glow: rgba(244, 63, 94, 0.15);
+  --resistance-color: #ef4444; /* Crimson */
+  --resistance-glow: rgba(239, 68, 68, 0.1);
   
   --warning-color: #f59e0b; /* Amber */
-  --warning-glow: rgba(245, 158, 11, 0.15);
+  --warning-glow: rgba(245, 158, 11, 0.1);
   
   /* Shared Formatting Variables */
   --radius-sm: 6px;
-  --radius-md: 12px;
-  --radius-lg: 18px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
   --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   --transition-smooth: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
-  --shadow-premium: 0 12px 40px -12px rgba(0, 0, 0, 0.7);
+  --shadow-premium: 0 12px 40px -12px rgba(0, 0, 0, 0.8);
   --backdrop-blur: blur(14px);
   
   --font-en: 'Outfit', sans-serif;
@@ -49,17 +49,17 @@
 
 /* Light Mode Variables Override */
 .light-mode {
-  --bg-app: #f3f4f6;
+  --bg-app: #f4f5f7;
   --bg-sidebar: #ffffff;
-  --bg-panel: rgba(255, 255, 255, 0.85);
-  --bg-card: rgba(243, 244, 246, 0.9);
+  --bg-panel: #ffffff;
+  --bg-card: #f9fafb;
   --bg-input: #ffffff;
   
-  --border-color: rgba(0, 0, 0, 0.08);
-  --border-focus: rgba(99, 102, 241, 0.6);
-  --border-neon: rgba(99, 102, 241, 0.1);
+  --border-color: rgba(0, 0, 0, 0.05);
+  --border-focus: rgba(99, 102, 241, 0.5);
+  --border-neon: rgba(99, 102, 241, 0.08);
   
-  --text-primary: #111827;
+  --text-primary: #0f172a;
   --text-secondary: #4b5563;
   --text-muted: #9ca3af;
   
@@ -69,10 +69,10 @@
   --support-color: #059669;
   --support-glow: rgba(5, 150, 105, 0.1);
   
-  --resistance-color: #e11d48;
-  --resistance-glow: rgba(225, 29, 72, 0.1);
+  --resistance-color: #dc2626;
+  --resistance-glow: rgba(220, 38, 38, 0.1);
   
-  --shadow-premium: 0 12px 30px -10px rgba(0, 0, 0, 0.15);
+  --shadow-premium: 0 12px 30px -10px rgba(0, 0, 0, 0.1);
 }
 
 /* Reset and Global Styles */
@@ -110,27 +110,54 @@ body {
   background: var(--text-muted);
 }
 
-/* Refactored Spacious 2-Column Dashboard Layout */
+/* Sleek Top Navigation Bar spanning full width */
+.top-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+  padding: 0 2rem;
+  background-color: var(--bg-sidebar);
+  border-bottom: 1px solid var(--border-color);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.5);
+}
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+/* Refactored Spacious 2-Column Dashboard Layout (Swapped Watchlist Right) */
 .dashboard-grid {
   display: grid;
-  grid-template-columns: 290px 1fr;
+  grid-template-columns: 1fr 310px;
   width: 100%;
-  min-height: 100vh;
+  min-height: calc(100vh - 64px);
   position: relative;
 }
 
-/* LEFT COLUMN: Sticky Sidebar */
+/* RIGHT COLUMN: Sticky Sidebar */
 .sidebar {
   background-color: var(--bg-sidebar);
-  border-right: 1px solid var(--border-color);
-  padding: 1.75rem 1.5rem;
+  border-left: 1px solid var(--border-color);
+  border-right: none;
+  padding: 1.5rem 1.25rem;
   display: flex;
   flex-direction: column;
   position: sticky;
-  top: 0;
-  height: 100vh;
+  top: 64px;
+  height: calc(100vh - 64px);
   overflow-y: auto;
   z-index: 10;
+  grid-column: 2; /* Force placement to the right column */
 }
 
 .logo-container {
@@ -243,31 +270,47 @@ body {
   border-color: var(--brand-color);
 }
 
+.p-stock-item-left {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  flex: 1.2;
+}
+
 .p-stock-code {
   font-size: 1.05rem;
   font-weight: 700;
   letter-spacing: 0.2px;
 }
 
-.p-stock-holdings {
-  font-size: 0.75rem;
-  color: var(--text-secondary);
-  margin-top: 1px;
+.p-stock-item-chart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  padding: 0 0.25rem;
 }
 
-.p-stock-perf {
+.p-stock-item-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.2rem;
+  flex: 1.1;
   text-align: right;
 }
 
-.p-stock-price {
-  font-size: 0.95rem;
-  font-weight: 600;
+.p-stock-change-percent {
+  font-size: 0.75rem;
+  font-weight: 700;
 }
 
-.p-stock-yield {
-  font-size: 0.75rem;
+.p-stock-change-percent.up {
   color: var(--support-color);
-  font-weight: 600;
+}
+
+.p-stock-change-percent.down {
+  color: var(--resistance-color);
 }
 
 .sidebar-footer {
@@ -440,14 +483,15 @@ body {
 }
 
 
-/* RIGHT COLUMN: Spacious Main Content Area */
+/* LEFT COLUMN: Spacious Main Content Area */
 .main-content {
   padding: 2.25rem 2.5rem; /* Generous padding for breathing room */
   display: flex;
   flex-direction: column;
   gap: 2rem; /* Wide gap for readability */
-  min-height: 100vh;
+  min-height: calc(100vh - 64px);
   position: relative; /* Set to relative so absolute children align perfectly in the top right viewport */
+  grid-column: 1; /* Force placement to the left column */
 }
 
 /* Top Dashboard Header */
@@ -1198,21 +1242,25 @@ body {
   .sidebar {
     position: fixed;
     top: 0;
-    left: -310px;
+    right: -310px;
+    left: auto;
     width: 290px;
     height: 100vh;
-    border-right: 1px solid var(--border-color);
-    border-bottom: none;
+    border-left: 1px solid var(--border-color);
+    border-right: none;
     box-shadow: 0 0 20px rgba(0,0,0,0.5);
     z-index: 1000;
-    transition: left 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: right 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    grid-column: auto; /* Reset grid placement on mobile */
   }
   .sidebar.mobile-open {
-    left: 0;
+    right: 0;
+    left: auto;
   }
   .main-content {
     height: auto;
     padding: 1rem;
+    grid-column: auto; /* Reset grid placement on mobile */
   }
   .premium-status-badge {
     margin-bottom: 1.25rem;

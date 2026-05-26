@@ -566,6 +566,54 @@ function updateCashBalance() {
 }
 
 // Populate Sidebar Stock holdings list
+// Helper to draw a beautiful SVG sparkline for a stock using its 10-point history (Stock Events style!)
+function generateSparklineSVG(symbol) {
+  const stock = stocksData[symbol];
+  if (!stock || !stock.history || stock.history.length === 0) {
+    return `
+      <svg class="sparkline" viewBox="0 0 80 25" style="width: 70px; height: 22px;">
+        <line x1="0" y1="12.5" x2="80" y2="12.5" stroke="var(--text-muted)" stroke-width="1.5" />
+      </svg>
+    `;
+  }
+  
+  const history = stock.history.slice(-10); // last 10 ticks
+  const closes = history.map(h => h.close);
+  const min = Math.min(...closes);
+  const max = Math.max(...closes);
+  const range = max - min || 1;
+  
+  const width = 80;
+  const height = 25;
+  const padding = 2;
+  const usableHeight = height - (padding * 2);
+  
+  const points = history.map((h, i) => {
+    const x = (i / (history.length - 1)) * width;
+    const val = closes[i];
+    const y = padding + usableHeight - ((val - min) / range) * usableHeight;
+    return `${x.toFixed(1)},${y.toFixed(1)}`;
+  });
+  
+  const pathD = `M ${points.join(' L ')}`;
+  
+  let color = 'var(--support-color)';
+  if (closes.length >= 2) {
+    const last = closes[closes.length - 1];
+    const prev = closes[closes.length - 2];
+    if (last < prev) {
+      color = 'var(--resistance-color)';
+    }
+  }
+  
+  return `
+    <svg class="sparkline" viewBox="0 0 ${width} ${height}" style="width: 70px; height: 22px;">
+      <path d="${pathD}" stroke="${color}" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+    </svg>
+  `;
+}
+
+// Populate Sidebar Stock holdings list with dynamic sparkline charts!
 function renderSidebarStockList() {
   const container = document.getElementById('portfolio-stocks-container');
   container.innerHTML = '';
@@ -589,14 +637,39 @@ function renderSidebarStockList() {
     li.id = `sidebar-pstock-${hold.symbol}`;
     li.onclick = () => selectStock(hold.symbol);
     
+    const closes = stock.history ? stock.history.map(h => h.close) : [];
+    let changePct = 0;
+    let colorClass = '';
+    let sign = '';
+    
+    if (closes.length >= 2) {
+      const last = closes[closes.length - 1];
+      const prev = closes[closes.length - 2];
+      changePct = ((last - prev) / prev) * 100;
+      if (last >= prev) {
+        colorClass = 'up';
+        sign = '+';
+      } else {
+        colorClass = 'down';
+        sign = '';
+      }
+    }
+    
+    const sparklineSVG = generateSparklineSVG(hold.symbol);
+    
     li.innerHTML = `
-      <div>
+      <div class="p-stock-item-left">
         <div class="p-stock-code">${hold.symbol}</div>
-        <div class="p-stock-holdings">${hold.shares.toLocaleString()} หุ้น</div>
+        <div class="p-stock-holdings" style="font-size:0.75rem; color:var(--text-secondary); margin-top:2px;">${hold.shares.toLocaleString()} หุ้น</div>
       </div>
-      <div class="p-stock-perf">
-        <div class="p-stock-price">${stock.current_price.toFixed(2)}</div>
-        <div class="p-stock-yield">${stock.dividend_yield > 0 ? 'Yield ' + stock.dividend_yield.toFixed(1) + '%' : 'Yield 0.0%'}</div>
+      <div class="p-stock-item-chart">
+        ${sparklineSVG}
+      </div>
+      <div class="p-stock-item-right">
+        <div class="p-stock-price" style="font-weight:700;">฿${stock.current_price.toFixed(2)}</div>
+        <div class="p-stock-change-percent ${colorClass}" style="font-size:0.75rem; font-weight:700; margin-top:2px;">
+          ${sign}${changePct.toFixed(2)}%
+        </div>
       </div>
     `;
     container.appendChild(li);
@@ -1132,19 +1205,45 @@ function renderDividendTimeline() {
     const payFormatted = evt.payDateStr ? new Date(evt.payDateStr).toLocaleDateString('th-TH', { day: '2-digit', month: 'short', year: 'numeric' }) : 'ไม่ระบุ';
     
     const itemDiv = document.createElement('div');
-    itemDiv.className = 't-calendar-item xd-upcoming';
+    itemDiv.className = 'timeline-event-row';
+    itemDiv.style.display = 'flex';
+    itemDiv.style.gap = '1.5rem';
+    itemDiv.style.marginBottom = '1.5rem';
+    itemDiv.style.alignItems = 'stretch';
+    itemDiv.style.position = 'relative';
+    
     itemDiv.innerHTML = `
-      <div style="text-align:center; min-width:40px;">
-        <div style="font-size:1.25rem; font-weight:800; color:var(--support-color); line-height:1;">${day}</div>
-        <div style="font-size:0.7rem; font-weight:600; text-transform:uppercase; color:var(--text-secondary); margin-top:2px;">${month}</div>
+      <!-- Timeline Date marker (Left) -->
+      <div class="timeline-date-col" style="min-width: 65px; text-align: right; padding-top: 0.5rem;">
+        <div style="font-size: 1.5rem; font-weight: 800; color: var(--text-primary); line-height: 1;">${day}</div>
+        <div style="font-size: 0.75rem; font-weight: 700; color: var(--text-muted); text-transform: uppercase; margin-top: 4px;">${month}</div>
       </div>
-      <div style="flex-grow:1; margin-left:0.5rem;">
-        <div style="font-weight:700; font-size:1rem;">${evt.symbol}</div>
-        <div style="font-size:0.75rem; color:var(--text-secondary);">XD: ${xdFormatted} | จ่าย: ${payFormatted}</div>
+      
+      <!-- Timeline Line separator -->
+      <div class="timeline-line-separator" style="width: 2px; background: var(--border-color); position: relative; display: flex; justify-content: center; align-items: flex-start; padding-top: 1rem;">
+        <div style="width: 8px; height: 8px; border-radius: 50%; background: var(--brand-color); border: 2px solid var(--bg-app); position: absolute; left: -3px; top: 12px;"></div>
       </div>
-      <div style="text-align:right;">
-        <div style="font-weight:700; color:var(--support-color); font-size:0.95rem;">+${evt.payoutAmount.toFixed(2)} บาท</div>
-        <div style="font-size:0.75rem; color:var(--text-secondary); font-weight:600;">รับปันผลสุทธิ ${evt.totalPayout.toLocaleString(undefined, {minimumFractionDigits:2, maximumFractionDigits:2})} ฿</div>
+
+      <!-- Timeline Event Card (Right) -->
+      <div class="timeline-event-card" style="flex: 1; background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 1rem 1.25rem; display: flex; justify-content: space-between; align-items: center; box-shadow: var(--shadow-premium); gap: 1rem;">
+        <div style="display: flex; align-items: center; gap: 0.85rem; overflow: hidden;">
+          <div class="timeline-stock-logo" style="width: 40px; height: 40px; border-radius: 50%; background: linear-gradient(135deg, var(--brand-color) 0%, #a855f7 100%); display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 0.9rem; color: #fff; flex-shrink: 0;">
+            ${evt.symbol.substring(0, 2)}
+          </div>
+          <div style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">
+            <div style="font-size: 0.75rem; font-weight: 700; color: var(--brand-color); letter-spacing: 0.5px; text-transform: uppercase; display: flex; align-items: center; gap: 0.5rem; flex-wrap: wrap;">
+              <span>Dividend Payment</span>
+              <span class="timeline-status-tag" style="background: rgba(16, 185, 129, 0.08); color: var(--support-color); font-size: 0.6rem; padding: 1px 6px; border-radius: 20px; font-weight: 800; text-transform: uppercase; border: 1px solid rgba(16, 185, 129, 0.15); line-height:1;">Upcoming</span>
+            </div>
+            <div style="font-size: 1.05rem; font-weight: 800; color: var(--text-primary); margin-top: 4px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">${evt.symbol} - ${evt.name}</div>
+            <div style="font-size: 0.75rem; color: var(--text-secondary); margin-top: 2px;">XD: ${xdFormatted} | จ่าย: ${payFormatted}</div>
+          </div>
+        </div>
+        
+        <div style="text-align: right; flex-shrink: 0;">
+          <div style="font-size: 1.35rem; font-weight: 900; color: var(--support-color); line-height: 1;">${evt.totalPayout.toLocaleString(undefined, {minimumFractionDigits:0, maximumFractionDigits:0})} ฿</div>
+          <div style="font-size: 0.7rem; color: var(--text-secondary); margin-top: 4px; font-weight: 600;">(฿${evt.payoutAmount.toFixed(2)} / หุ้น)</div>
+        </div>
       </div>
     `;
     container.appendChild(itemDiv);
@@ -1250,6 +1349,21 @@ function renderStockChart(symbol) {
   });
   const prices = sampledHist.map(pt => pt.close);
 
+  // Determine if trend is positive or negative
+  const closes = stock.history ? stock.history.map(h => h.close) : [];
+  let isUp = true;
+  if (closes.length >= 2) {
+    const last = closes[closes.length - 1];
+    const prev = closes[closes.length - 2];
+    isUp = last >= prev;
+  }
+  
+  // Get colors dynamically based on active theme
+  const rootStyle = getComputedStyle(document.body);
+  const supportColor = rootStyle.getPropertyValue('--support-color').trim() || '#10b981';
+  const resistanceColor = rootStyle.getPropertyValue('--resistance-color').trim() || '#ef4444';
+  const themeColor = isUp ? supportColor : resistanceColor;
+
   priceChart = new Chart(ctx, {
     type: 'line',
     data: {
@@ -1257,11 +1371,11 @@ function renderStockChart(symbol) {
       datasets: [{
         label: 'ราคาปิดหุ้น SET',
         data: prices,
-        borderColor: '#6366f1',
+        borderColor: themeColor,
         borderWidth: 2.5,
         pointRadius: 0,
         pointHoverRadius: 6,
-        pointHoverBackgroundColor: '#6366f1',
+        pointHoverBackgroundColor: themeColor,
         pointHoverBorderColor: '#fff',
         pointHoverBorderWidth: 2,
         fill: true,
@@ -1270,8 +1384,13 @@ function renderStockChart(symbol) {
           const {ctx, chartArea} = chart;
           if (!chartArea) return null;
           const gradient = ctx.createLinearGradient(0, chartArea.top, 0, chartArea.bottom);
-          gradient.addColorStop(0, 'rgba(99, 102, 241, 0.22)');
-          gradient.addColorStop(1, 'rgba(99, 102, 241, 0.00)');
+          if (isUp) {
+            gradient.addColorStop(0, currentTheme === 'light' ? 'rgba(5, 150, 105, 0.15)' : 'rgba(16, 185, 129, 0.22)');
+            gradient.addColorStop(1, currentTheme === 'light' ? 'rgba(5, 150, 105, 0.00)' : 'rgba(16, 185, 129, 0.00)');
+          } else {
+            gradient.addColorStop(0, currentTheme === 'light' ? 'rgba(220, 38, 38, 0.15)' : 'rgba(239, 68, 68, 0.22)');
+            gradient.addColorStop(1, currentTheme === 'light' ? 'rgba(220, 38, 38, 0.00)' : 'rgba(239, 68, 68, 0.00)');
+          }
           return gradient;
         },
         tension: 0.12
@@ -1308,7 +1427,7 @@ function renderStockChart(symbol) {
           ticks: { color: '#6b7280', font: { family: 'Outfit, Sarabun', size: 9 }, maxTicksLimit: 8 }
         },
         y: {
-          grid: { color: 'rgba(255, 255, 255, 0.03)' },
+          grid: { color: currentTheme === 'light' ? 'rgba(0, 0, 0, 0.05)' : 'rgba(255, 255, 255, 0.03)' },
           ticks: { color: '#6b7280', font: { family: 'Outfit', size: 10 } }
         }
       }
@@ -1545,6 +1664,11 @@ function toggleTheme() {
   }
   localStorage.setItem('insight_dashboard_theme', currentTheme);
   updateThemeIcon();
+  
+  // Re-draw active chart to apply light/dark theme grid and gradient colors instantly
+  if (selectedStock) {
+    renderStockChart(selectedStock);
+  }
 }
 
 function updateThemeIcon() {
@@ -1635,6 +1759,9 @@ function startRealTimePriceSimulation() {
         if (hStock && hold.symbol !== selectedStock) {
           const fluctuation = (Math.random() * 0.002 - 0.001); // +/- 0.1%
           hStock.current_price = parseFloat((hStock.current_price * (1 + fluctuation)).toFixed(2));
+          if (hStock.history && hStock.history.length > 0) {
+            hStock.history[hStock.history.length - 1].close = hStock.current_price;
+          }
         }
       });
       
@@ -1643,6 +1770,9 @@ function startRealTimePriceSimulation() {
       renderPortfolioHoldingsTable();
       renderDividendTimeline();
     }
+    
+    // 3. Keep watchlist sidebar sparklines, prices, and changes updated dynamically in real-time
+    renderSidebarStockList();
     
   }, 3000); // 3 seconds tick
 }

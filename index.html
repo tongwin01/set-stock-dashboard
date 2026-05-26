@@ -26,13 +26,58 @@
   <!-- Mobile Sidebar Backdrop Overlay -->
   <div class="mobile-sidebar-backdrop" id="sidebar-backdrop" onclick="toggleMobileSidebar()"></div>
 
-  <!-- Consolidated Status Badge in Dashboard Header -->
+  <!-- Top Navigation Header Bar (Desktop Only, fits Bloomberg/Stock Events style) -->
+  <header class="top-navbar">
+    <div class="navbar-left">
+      <div class="logo-container" style="margin-bottom:0;">
+        <div class="logo-icon">I</div>
+        <div class="logo-text">
+          Insight AI Brief
+          <span>SET Premium Club</span>
+        </div>
+      </div>
+    </div>
+    
+    <div class="navbar-right">
+      <!-- Active Portfolio selector -->
+      <div style="display:flex; align-items:center; gap:0.5rem;">
+        <span style="font-size:0.8rem; font-weight:700; color:var(--text-secondary); text-transform:uppercase;">พอร์ต:</span>
+        <select class="portfolio-select-dropdown" id="portfolio-select" onchange="switchPortfolio()" style="width:140px; padding:0.45rem; font-size:0.85rem; font-weight:700; margin:0;">
+          <!-- Populated dynamically -->
+        </select>
+        <button onclick="createNewPortfolio()" style="background:none; border:none; color:var(--brand-color); cursor:pointer; font-size:0.8rem; font-weight:700;">+ เพิ่มพอร์ต</button>
+      </div>
+
+      <!-- Backup utility trigger -->
+      <button class="btn-sidebar-option" onclick="openBackupModal()" style="padding:0.45rem 0.75rem; font-size:0.8rem;">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.2" stroke="currentColor" style="width:14px; height:14px;">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0 3.181 3.183a8.25 8.25 0 0 0 13.803-3.7M4.031 9.865a8.25 8.25 0 0 1 13.803-3.7l3.181 3.182m0-4.991v4.99" />
+        </svg>
+        สำรองพอร์ต
+      </button>
+
+      <!-- Share summary button -->
+      <button class="btn-sidebar-option" onclick="openShareModal()" style="padding:0.45rem 0.75rem; font-size:0.8rem;">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.2" stroke="currentColor" style="width:14px; height:14px; color:var(--support-color);">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M7.217 10.907a2.25 2.25 0 1 0 0 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186 9.566-5.314m-9.566 7.5 9.566 5.314m0 0a2.25 2.25 0 1 0 3.935 2.186 2.25 2.25 0 0 0-3.935-2.186Zm0-12.814a2.25 2.25 0 1 0 3.933-2.185 2.25 2.25 0 0 0-3.933 2.185Z" />
+        </svg>
+        แชร์สรุปพอร์ต
+      </button>
+
+      <!-- Theme Switcher -->
+      <button class="theme-switch-btn" onclick="toggleTheme()" title="สลับสว่าง/มืด" style="background:rgba(255,255,255,0.03); border:1px solid var(--border-color); color:var(--text-primary); width:32px; height:32px; border-radius:50%; display:flex; align-items:center; justify-content:center; cursor:pointer;">
+        <svg id="theme-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width:16px; height:16px;">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.75A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+        </svg>
+      </button>
+    </div>
+  </header>
 
   <!-- Dashboard Container Grid (Refactored 2-Column Spacious Layout) -->
   <div class="dashboard-grid">
     
     <!-- ========================================== -->
-    <!-- 1. LEFT COLUMN: Sidebar Navigation & Search -->
+    <!-- 1. RIGHT COLUMN: Sidebar Navigation & Search -->
     <!-- ========================================== -->
     <aside class="sidebar" id="app-sidebar">
       <!-- Mobile Close Trigger -->
@@ -42,16 +87,22 @@
         </svg>
       </div>
 
-      <div class="logo-container">
-        <div class="logo-icon">I</div>
-        <div class="logo-text">
-          Insight AI Brief
-          <span>SET Premium Club</span>
-        </div>
+      <!-- Dynamic Search Bar -->
+      <div class="search-wrapper">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.602 10.602Z" />
+        </svg>
+        <input type="text" class="search-input" id="stock-search" placeholder="ค้นหาหุ้น เช่น PTT, KBANK..." oninput="filterStocks()">
       </div>
       
-      <!-- Premium Status Badge (Placed prominently in Sidebar below the Logo) -->
-      <div class="premium-status-badge" id="premium-badge-container" style="margin-bottom: 1.5rem;">
+      <!-- Portfolio Stock Directory -->
+      <div class="sidebar-title">หุ้นในพอร์ตโฟลิโอ</div>
+      <ul class="portfolio-stocks-list" id="portfolio-stocks-container" style="flex-grow: 1;">
+        <!-- Dynamically populated from localStorage -->
+      </ul>
+
+      <!-- Premium Status Badge (Placed prominently in Sidebar below the Watchlist) -->
+      <div class="premium-status-badge" id="premium-badge-container" style="margin-top: auto; margin-bottom: 0;">
         <div style="text-align: left;">
           <div class="p-badge-title" id="premium-status-text" style="font-size:0.75rem; font-weight:800;">บัญชีทั่วไป (Free Tier)</div>
           <div class="p-badge-desc" id="premium-status-desc" style="font-size:0.65rem; color:var(--text-secondary); margin-top:1px;">จำกัดเพิ่มหุ้นสูงสุด 3 ตัว</div>
@@ -62,63 +113,8 @@
           </svg>
         </button>
       </div>
-      
-      <!-- Dynamic Search Bar -->
-      <div class="search-wrapper">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.8" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.602 10.602Z" />
-        </svg>
-        <input type="text" class="search-input" id="stock-search" placeholder="ค้นหาหุ้น เช่น PTT, KBANK..." oninput="filterStocks()">
-      </div>
 
-      <!-- Multi-Portfolio Selector -->
-      <div style="margin-bottom: 1.5rem;">
-        <div class="sidebar-title" style="display:flex; justify-content:space-between; align-items:center;">
-          <span>พอร์ตการลงทุน</span>
-          <button onclick="createNewPortfolio()" style="background:none; border:none; color:var(--brand-color); cursor:pointer; font-size:0.85rem; font-weight:700;">+ เพิ่มพอร์ต</button>
-        </div>
-        <select class="portfolio-select-dropdown" id="portfolio-select" onchange="switchPortfolio()" style="width:100%;">
-          <!-- Populated dynamically -->
-        </select>
-      </div>
-      
-      <!-- Portfolio Stock Directory -->
-      <div class="sidebar-title">หุ้นในพอร์ตย่อยปัจจุบัน</div>
-      <ul class="portfolio-stocks-list" id="portfolio-stocks-container">
-        <!-- Dynamically populated from localStorage -->
-      </ul>
-
-      <!-- Sidebar Footer Settings -->
-      <div class="sidebar-footer">
-
-        <div class="sidebar-btn-row">
-          <!-- Backup Utility Trigger -->
-          <button class="btn-sidebar-option" onclick="openBackupModal()">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width:16px; height:16px;">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0 3.181 3.183a8.25 8.25 0 0 0 13.803-3.7M4.031 9.865a8.25 8.25 0 0 1 13.803-3.7l3.181 3.182m0-4.991v4.99" />
-            </svg>
-            สำรองพอร์ต
-          </button>
-          
-          <!-- Share Card Trigger -->
-          <button class="btn-sidebar-option" onclick="openShareModal()">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width:16px; height:16px; color:var(--support-color);">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M7.217 10.907a2.25 2.25 0 1 0 0 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186 9.566-5.314m-9.566 7.5 9.566 5.314m0 0a2.25 2.25 0 1 0 3.935 2.186 2.25 2.25 0 0 0-3.935-2.186Zm0-12.814a2.25 2.25 0 1 0 3.933-2.185 2.25 2.25 0 0 0-3.933 2.185Z" />
-            </svg>
-            แชร์สรุปพอร์ต
-          </button>
-        </div>
-
-        <div style="display:flex; justify-content:space-between; align-items:center; font-size:0.85rem; color:var(--text-secondary);">
-          <span id="update-timestamp">ดึงข้อมูล: ออฟไลน์</span>
-          <!-- Theme Switcher -->
-          <button class="theme-switch-btn" onclick="toggleTheme()" title="สลับสว่าง/มืด">
-            <svg id="theme-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width:18px; height:18px;">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.75A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
-            </svg>
-          </button>
-        </div>
-      </div>
+      <div style="font-size:0.7rem; color:var(--text-muted); text-align:center; margin-top:0.75rem;" id="update-timestamp">ดึงข้อมูล: ออฟไลน์</div>
     </aside>
     
     <!-- ========================================== -->
