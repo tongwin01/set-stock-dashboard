@@ -90,6 +90,7 @@ body {
   min-height: 100vh;
   overflow-y: auto; /* Natural scrolling allowed */
   display: flex;
+  flex-direction: column; /* Force vertical stacking of Top Navbar and Dashboard Grid! */
   transition: background-color var(--transition-fast);
   font-size: 1.05rem; /* Globally scaled font size for readability */
 }
@@ -115,6 +116,7 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 64px;
+  width: 100%; /* Ensure full viewport width coverage */
   padding: 0 2rem;
   background-color: var(--bg-sidebar);
   border-bottom: 1px solid var(--border-color);
