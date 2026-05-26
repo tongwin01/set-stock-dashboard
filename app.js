@@ -281,6 +281,14 @@ function checkPasscodeAuthExpiration() {
     localStorage.setItem('insight_member_premium_status', 'false');
   }
 }
+function simulateFreeTierMode() {
+  isPremium = false;
+  localStorage.setItem('insight_member_premium_status', 'false');
+  localStorage.removeItem('insight_premium_activated_month');
+  applyTierRestrictions();
+  closePromoModal();
+  alert('🔄 สลับโหมดจำลองระบบเป็น "บัญชีทั่วไป (Free Tier)" เรียบร้อยแล้วครับ! คุณสามารถตรวจสอบการล็อกเครื่องมือและการเบลอข้อมูลต่างๆ ได้ทันทีครับ');
+}
 
 // ==========================================
 // 🛡️ Free vs Premium Tier UI Gating Logic
