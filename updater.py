@@ -5,9 +5,10 @@ from datetime import datetime, timedelta
 import pandas as pd
 import numpy as np
 import yfinance as yf
+import requests
 
-# List of popular and channel-relevant SET stocks (with .BK suffix) - Curated 119 SET stocks (strictly excluding MAI)
-TICKERS = [
+# Curated fallback 119 SET stocks (strictly excluding MAI) in case the dynamic TradingView screener fetch fails
+CURATED_FALLBACK_TICKERS = [
     # --- Energy & Utilities ---
     "PTT.BK", "PTTEP.BK", "PTTGC.BK", "GULF.BK", "GPSC.BK", 
     "BGRIM.BK", "EGCO.BK", "RATCH.BK", "BANPU.BK", "TOP.BK", 
@@ -30,7 +31,7 @@ TICKERS = [
     "ERW.BK", "AAV.BK",
     
     # --- ICT & Technology ---
-    "ADVANC.BK", "TRUE.BK", "INTUCH.BK", "DELTA.BK", "HANA.BK", 
+    "ADVANC.BK", "TRUE.BK", "DELTA.BK", "HANA.BK", 
     "KCE.BK", "CCET.BK", "JAS.BK",
     
     # --- Property & Construction ---
@@ -60,6 +61,53 @@ TICKERS = [
     "TMT.BK", "ASP.BK", "KGI.BK", "SAT.BK", "AH.BK", 
     "SCCC.BK", "ASK.BK"
 ]
+
+def fetch_all_active_set_tickers():
+    print("Attempting to dynamically download all active SET tickers from TradingView Screener...")
+    url = "https://screener.tradingview.com/thailand/scan"
+    payload = {
+        "filter": [
+            {"left": "market", "operation": "equal", "right": "thailand"},
+            {"left": "type", "operation": "in_range", "right": ["stock", "dr", "fund"]}
+        ],
+        "options": {"active_symbols_only": True},
+        "markets": ["thailand"],
+        "symbols": {"query": {"types": []}, "tickers": []},
+        "columns": ["name", "exchange"],
+        "range": [0, 1500]
+    }
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+        "Content-Type": "application/json"
+    }
+    
+    try:
+        response = requests.post(url, json=payload, headers=headers, timeout=15)
+        if response.status_code == 200:
+            data = response.json()
+            rows = data.get("data", [])
+            set_tickers = []
+            for row in rows:
+                name = row["d"][0]
+                exchange = row["d"][1]
+                
+                # Filter strictly for main SET board (exclude mai)
+                # Also exclude warrants (-W), NVDRs (-R), preference shares etc. to keep list super clean
+                if exchange.upper() == "SET" and not ("-W" in name) and not ("-R" in name) and not (".BK" in name):
+                    set_tickers.append(f"{name}.BK")
+            
+            # Remove duplicates and sort
+            set_tickers = sorted(list(set(set_tickers)))
+            if len(set_tickers) > 100:
+                print(f"Successfully fetched {len(set_tickers)} active SET tickers from screener API!")
+                return set_tickers
+    except Exception as e:
+        print(f"Connection failed or offline during screener fetch: {str(e)}")
+        
+    print("Operating in offline sandbox or screener API blocked. Using pre-curated 119 SET list...")
+    return CURATED_FALLBACK_TICKERS
+
+TICKERS = fetch_all_active_set_tickers()
 
 def calculate_support_resistance(df, window=10):
     """
@@ -137,7 +185,6 @@ def calculate_support_resistance(df, window=10):
     return cleaned_supports, cleaned_resistances
 
 def fetch_stock_data(ticker_symbol):
-    print(f"Fetching data for {ticker_symbol}...")
     try:
         ticker = yf.Ticker(ticker_symbol)
         
@@ -294,14 +341,17 @@ def main():
     start_time = time.time()
     
     results = {}
+    total_tickers = len(TICKERS)
+    print(f"Total tickers to update: {total_tickers}")
     
-    for symbol in TICKERS:
+    for idx, symbol in enumerate(TICKERS):
+        print(f"[{idx + 1}/{total_tickers}] Fetching data for {symbol}...")
         data = fetch_stock_data(symbol)
         if data:
             results[data["symbol"]] = data
             
-        # Polite delay to avoid API rate limit
-        time.sleep(1.0)
+        # Polite delay to avoid API rate limit (0.3s allows quick execution while remaining polite)
+        time.sleep(0.3)
         
     # Write to stocks_data.json
     output_path = os.path.join(os.path.dirname(__file__), "stocks_data.json")

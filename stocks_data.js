@@ -5,7 +5,7 @@ var STOCKS_DATABASE = {
     "business_summary": "PTT Public Company Limited engages in petroleum business in Thailand, Asia, Europe, America, and internationally. It is involved in the exploration and production of petroleum; natural gas procurement, pipeline transmission, distribution, and separation activities; and management and maintenance services of port, LNG storage, and LNG station; and cooling management and other related businesses. The company also markets petroleum products and lube oil through procurement, storage, and distribution of products, as well as conducts retail business at service stations. In addition, it is involved in the import and export of petroleum and petrochemical products, and other related products; production and distribution of electricity, steam, and water for industrial purpose; and provision of human resource management and support, petroleum related technology, consultant management, petrol station and convenience store management, maintenance, engineering, plant inspection, and safety and environmental services; and operates as a technical consultants for electricity businesses. Further, the company produces and distributes chilled water/constructs and installs electricity generating systems; distributes polymers and other polymers-related products; develops and rents real estate properties; operates vocational schools; manufactures and distributes biochemical products, paraxylene, and industrial coatings and additives, as well as offers polyethylene and oleochemical products, nonwoven fabrics, and medical consumables; and distributes plastic resin and chemical products. Additionally, it provides financial services; coffee and beverages; and manufactures and distributes circular products. The company was founded in 1978 and is headquartered in Bangkok, Thailand.",
     "current_price": 36.5,
     "pe_ratio": 11.23,
-    "dividend_yield": 5.71,
+    "dividend_yield": 5.75,
     "high_1m": 37.25,
     "low_1m": 35.0,
     "support_levels": [
@@ -559,7 +559,7 @@ var STOCKS_DATABASE = {
     "business_summary": "PTT Exploration and Production Public Company Limited, together with its subsidiaries, engages in the exploration, development, and production of petroleum in Thailand, rest of Southeast Asia, the Middle East, Africa, and internationally. It operates through Exploration and Production; and Other Businesses and Corporate segments. The company is also involved in the gas pipeline transportation and solar power businesses, as well as renewable energy and related activities. In addition, it provides petroleum-related technology, human resource support, and technology and innovation services. The company was founded in 1985 and is based in Bangkok, Thailand. PTT Exploration and Production Public Company Limited is a subsidiary of PTT Public Company Limited.",
     "current_price": 146.5,
     "pe_ratio": 10.47,
-    "dividend_yield": 5.89,
+    "dividend_yield": 5.97,
     "high_1m": 158.0,
     "low_1m": 145.5,
     "support_levels": [
@@ -1113,7 +1113,7 @@ var STOCKS_DATABASE = {
     "business_summary": "PTT Global Chemical Public Company Limited operates as a chemical company in Thailand and internationally. It operates through six segments: Upstream, Intermediates, Polymers and Chemicals, Bio and Circularity, Performance Chemicals, and Service and Others. The company offers chemical products, such as petroleum, olefins, aromatics, purified terephthalic acid (PTA), EO-based performance, phenol, propylene oxide and polyols, acrylonitrile and methyl methacrylate, green chemicals, adhesives, coatings, and painting; and polymer products, including high-density polyethylene, linear low-density polyethylene, metallocene polyethylene, low-density polyethylene, polyethylene terephthalate, polypropylene, polystyrene, post consumer recycled plastic, bioplastics, compound, and purging compound. It also provides logistics, jetty and chemical tank farm, pipeline infrastructure, utility, land and property management, and information and communication technology; plant maintenance and engineering design; quality safety, occupational health, environmental, and security services; management consultancy; social enterprise; liquidity management and financing vehicle; corporate venture capital investment; and outsourcing services. Its products are used in the film and flexible packaging, rigid packaging, construction, healthcare, agricultural, automotive parts, electronics and electrical appliances, home and personal care chemicals, energy saving solution, sustainable solution, and masterbatch. The company was incorporated in 2011 and is headquartered in Bangkok, Thailand.",
     "current_price": 35.75,
     "pe_ratio": null,
-    "dividend_yield": 1.38,
+    "dividend_yield": 1.4,
     "high_1m": 41.25,
     "low_1m": 35.25,
     "support_levels": [
@@ -1665,8 +1665,8 @@ var STOCKS_DATABASE = {
     "name": "Gulf Development Public Company Limited",
     "business_summary": "Gulf Development Public Company Limited generates and sells electricity and steam to public and private clients in Thailand and internationally. The company operates through Power Business, Consulting Business, Infrastructure Business and Satellite and Digital Business segments. It generates electricity through gas-fired, solar, biomass hydroelectric, waste-to-energy, and wind power projects under independent power producers and small power producers. The company undertakes infrastructure and logistics projects; distributes, supplies, and sells natural gas; and operates a digital infrastructure. In addition, the company is involved in the management, technical support, technology, investment services; storing and converting natural gas; satellite and related services; sale of direct television and satellite equipment; transponder services; engineering and development services; broadband network and content services; and broadcasting, television, and telecommunication services. Further, it provides system integration consultancy services for broadband network and technology systems, products and services related to artificial intelligence and space technology. Gulf Development Public Company Limited was founded in 2007 and is based in Bangkok, Thailand.",
     "current_price": 61.75,
-    "pe_ratio": 35.9,
-    "dividend_yield": 1.69,
+    "pe_ratio": 36.11,
+    "dividend_yield": 1.7,
     "high_1m": 62.75,
     "low_1m": 56.75,
     "support_levels": [
@@ -2184,7 +2184,7 @@ var STOCKS_DATABASE = {
     "business_summary": "Global Power Synergy Public Company Limited, together with its subsidiaries, engages in the production and distribution of electricity, steam, and water for industrial use to the government and industrial customers in Thailand. It operates through three segments: Independent Power Producer, Small Power Producer, and Others. The company generates electricity through solar, wind, hydropower, and thermal power plants. The company also engages in the maintenance, construction, and installation of electricity system services; and technical and consultancy services for power sector. It owns and operates 4,027 megawatts (MW) of power generation; 3,294 tons of steam; 7,689 cubic meters of industrial water; and 10,184 refrigerated tons of chilled water. The company was founded in 2013 and is headquartered in Bangkok, Thailand.",
     "current_price": 40.75,
     "pe_ratio": 16.43,
-    "dividend_yield": 4.55,
+    "dividend_yield": 4.66,
     "high_1m": 42.5,
     "low_1m": 34.25,
     "support_levels": [
@@ -2738,7 +2738,7 @@ var STOCKS_DATABASE = {
     "business_summary": "B.Grimm Power Public Company Limited, together with its subsidiaries, engages in the development, financing, construction, and operation of green-field power plants in Thailand and internationally. The company operates through Electricity Generating and Other Businesses segments. The Electricity Generation segment generates and distributes electricity for the government sectors and industrial users and procure and wholesale liquefied natural gas. The Other Businesses segment provides investment holding, maintenance, and operating services for power plants. It generates electricity through solar, hydro, and wind power; invests in electric, solar, and renewable power business; develops electricity generation systems; and manages smart grid networks. The company is also involved in solar power plant project management; procurement and wholesale natural gas; land development for power plant project; and operation and maintenance service, as well as management consulting. In addition, it It generates and distributes electricity for the government sectors and industrial users. The company operates in Vietnam, Cambodia, the United States, the Republic of Korea, and the Philippines. B.Grimm Power Public Company Limited was founded in 1878 and is headquartered in Bangkok, Thailand.",
     "current_price": 13.6,
     "pe_ratio": 42.5,
-    "dividend_yield": 2.96,
+    "dividend_yield": 3.03,
     "high_1m": 14.3,
     "low_1m": 12.6,
     "support_levels": [
@@ -3846,7 +3846,7 @@ var STOCKS_DATABASE = {
     "business_summary": "Ratch Group Public Company Limited, an energy and infrastructure company, engages in the generation and sales of electricity and steam in Thailand, Australia, Singapore, Indonesia, and internationally. The company operates through four segments: Domestic Electricity Generating, Domestic Renewable Energy, International Power Projects, and Domestic Related Business and Infrastructure. It generates electricity through natural gas, coal, and fuel oil, as well as invests in renewable power generation including solar, wind, biomass and hydro power. The company also offers power plant operation and maintenance services, as well as invests in the power energy business. Ratch Group Public Company Limited was incorporated in 2000 and is headquartered in Nonthaburi, Thailand.",
     "current_price": 30.5,
     "pe_ratio": 10.66,
-    "dividend_yield": 5.2,
+    "dividend_yield": 5.25,
     "high_1m": 31.0,
     "low_1m": 28.75,
     "support_levels": [
@@ -4953,7 +4953,7 @@ var STOCKS_DATABASE = {
     "business_summary": "Thai Oil Public Company Limited, together with its subsidiaries, engages in the oil refining and distributions, petrochemicals, lube base oil, and other businesses in Thailand, Indonesia, and internationally. It operates through Oil Refinery, Lube Base Oil Refinery, Aromatics and LAB, Power Generation, Solvent, Ethanol, Olefins, and Others segments. The company offers refined fuels, including gasoline, diesel/gas oil, jet fuel, kerosene, fuel oil, and liquefied petroleum gas; and lube base oil, bitumen/asphalt, by-products, and special products, such as treated distillate aromatics extract and slack wax. It also provides petrochemicals comprising paraxylene, benzene, toluene, and mixed xylenes; linear alkyl benzene, heavy alkyl benzene, and molex raffinates; and polyethylene and polypropylene resins, styrene monomer, butadiene, and olefins. In addition, the company operates natural gas-fired co-generation power plants that generate and distribute electricity, steam, industrial water, and public utilities; and develops, invests, and operates power businesses. Further, it is involved in the manufacturing and distribution of solvents and chemicals; investments in venture capital funds and startup businesses; production of ethanol; management of human resources; provision of technical support and treasury advice; design, development, and maintenance of digital services and systems; social enterprise operation support; and pipeline transportation of refined petroleum products. The company was founded in 1961 and is headquartered in Bangkok, Thailand.",
     "current_price": 45.75,
     "pe_ratio": 3.32,
-    "dividend_yield": 4.32,
+    "dividend_yield": 4.37,
     "high_1m": 49.25,
     "low_1m": 44.75,
     "support_levels": [
@@ -6062,7 +6062,7 @@ var STOCKS_DATABASE = {
     "business_summary": "Bangchak Corporation Public Company Limited, together with its subsidiaries, engages in the refining and marketing of petroleum products in Thailand, Singapore, Norway, Korea, Laos, and internationally. It operates through the Refinery and Oil Trading, Marketing, Electricity, Bio-Based Product, Natural Resource, and Others segments. The company also engages in the production and distribution of electricity from green energy; investment in alternative energy business; oil terminal and seaport businesses; and biofuel products and related products. In addition, it is involved in the operation of electric motorcycles and battery replacement services; solar power plants and rooftop businesses; installation of management district cooling systems; manufacture and distribution of ethanol; public utilities and energy services business; operation of contract development and manufacturing organization platform for synthetic biology products with precision fermentation technology; real estate for lease; hydropower plant; and investment in foreign energy, petrochemical, and natural resource businesses. The company sells its products through oil traders. It serves the transportation, aviation, shipping, construction, industrial, and agriculture sectors. The company was formerly known as The Bangchak Petroleum Public Company Limited and changed its name to Bangchak Corporation Public Company Limited in April 2017. Bangchak Corporation Public Company Limited was founded in 1984 and is headquartered in Bangkok, Thailand.",
     "current_price": 34.0,
     "pe_ratio": 16.35,
-    "dividend_yield": 3.07,
+    "dividend_yield": 3.09,
     "high_1m": 37.5,
     "low_1m": 34.0,
     "support_levels": [
@@ -6617,7 +6617,7 @@ var STOCKS_DATABASE = {
     "business_summary": "BCPG Public Company Limited, a renewable energy company, engages in the solar power, hydropower, wind power, and natural gas businesses in Thailand, Japan, Laos, and Taiwan. It operates through Production and Distribution of Electricity; and Oil Storage and Seaport Service segments. The company offers smart energy solutions, including blockchain-based peer-to-peer energy trading project; energy management system; district cooling system; battery; and decarbonization solutions. It also develops transmission line systems and oil terminal. In addition, the company operates as an EPC contractor that provides operation and maintenance services. Further, it provides project development, construction, and operation management; investment management; and asset management services. The company was incorporated in 2015 and is headquartered in Bangkok, Thailand. BCPG Public Company Limited is a subsidiary of Bangchak Corporation Public Company Limited.",
     "current_price": 6.7,
     "pe_ratio": 13.96,
-    "dividend_yield": 5.19,
+    "dividend_yield": 5.22,
     "high_1m": 7.7,
     "low_1m": 6.6,
     "support_levels": [
@@ -7171,7 +7171,7 @@ var STOCKS_DATABASE = {
     "business_summary": "Gunkul Engineering Public Company Limited, together with its subsidiaries, generates and sells renewable energy in Thailand, Japan, and Vietnam. The company operates in four segments: Manufacturing and Selling of Equipment for Electrical Systems; Generating and Selling Electricity; Construction Service; and Maintenance Service, Rental Service and Others. The company operates solar farms and rooftops, and wind farms; and operates and maintains power plants. It also constructs and invests in the electricity generation and sale business; manufactures, distributes, imports, and exports equipment for electrical systems; manufactures and sells energy-saving products; investsting; and provides training services. In addition, the company offers cables and accessories, fuses and switches, hardware and connectors, insulators and preformed products, lighting protection products, service and maintenance equipment, tools and maintenance equipment products, grounding systems, live part cover and animal protection products, circuit breakers, instrument transformers, street lighting, and meters and accessories; and led and streetlamps, floodlights, solar systems, batteries, bipv glass, flexible solar PV, and solar water pump products. Further, it provides drone thermal scan, peer-to-peer energy trading platform, energy living solutions for residential platforms, virtual power plant sandbox, battery energy storage system and virtual power plant, volt energy marketplace, and godungfaifaa online marketplace services. The company was incorporated in 1982 and is headquartered in Bangkok, Thailand. Gunkul Engineering Public Company Limited is a subsidiary of Gunkul Group Company Limited.",
     "current_price": 3.48,
     "pe_ratio": 15.82,
-    "dividend_yield": 6.11,
+    "dividend_yield": 6.32,
     "high_1m": 3.66,
     "low_1m": 2.68,
     "support_levels": [
@@ -7734,7 +7734,6 @@ var STOCKS_DATABASE = {
       44.57
     ],
     "resistance_levels": [
-      46.6,
       52.52
     ],
     "upcoming_xd": "2026-04-30",
@@ -8833,7 +8832,7 @@ var STOCKS_DATABASE = {
     "business_summary": "Central Retail Corporation Public Company Limited operates as a multi-format retailing business in Thailand, Italy, Vietnam, and internationally. It operates through three segments: Fashion, Food Products, and Hardline. The company is involved in investing; retail; service; trademark services; pet food and gadgets retail and services; supermarkets; E-commerce; outerwear manufacturing; importing and selling; office equipment retail; warehouse rental; software development; E-book store; IT services; distribution center; consultation service; manufactures and distributes furniture; stationary retail and franchisor; convenience stores and business member shops; wholesale business; and real estates; and hypermarket, as well as operates department stores. Central Retail Corporation Public Company Limited was founded in 1947 and is headquartered in Bangkok, Thailand.",
     "current_price": 20.8,
     "pe_ratio": 17.78,
-    "dividend_yield": 2.51,
+    "dividend_yield": 2.55,
     "high_1m": 21.2,
     "low_1m": 17.8,
     "support_levels": [
@@ -9374,7 +9373,7 @@ var STOCKS_DATABASE = {
     "business_summary": "Siam Global House Public Company Limited engages in the merchandising of construction materials, home decorative products, and tools and equipment used in construction, home improvement, and household and gardening decoration in Thailand, Cambodia, and Myanmar. The company sells various products comprising electric appliances; doors and windows; home improvement and repair equipment; water tank and plumbing equipment; home decoration; furniture; tools and hardware; bathroom; TV and stereo; agricultural and gardening equipment; electrical and electrical equipment; floor and wall; kitchen; lamp and lighting; mortar; painting and chemical; steel; sports and recreation; bedroom; storage and cleaning equipment; pet; toys and fashion; consumer products; and installation service products. It also sells products online. Siam Global House Public Company Limited was founded in 1995 and is headquartered in Mueang Roi Et, Thailand.",
     "current_price": 7.5,
     "pe_ratio": 21.43,
-    "dividend_yield": 2.39,
+    "dividend_yield": 2.45,
     "high_1m": 7.7,
     "low_1m": 6.1,
     "support_levels": [
@@ -9928,7 +9927,7 @@ var STOCKS_DATABASE = {
     "business_summary": "Dohome Public Company Limited, together with its subsidiaries, engages in the retailing and wholesaling of construction materials, office equipment, and household products in Thailand. The company offers construction materials products, such as steel sections, skirting boards, cement and other infrastructure products, etc.; repair materials products, including tools agriculture, gardening and plumbing equipment, electric equipment, sanitary equipment, etc.; and decoration materials products comprising electrical appliances, home furniture appliances, home decorations, bedding, gift shops, etc. It is also involved in the production and distribution of electricity; and property investment activities, as well as provides training services. Dohome Public Company Limited was founded in 1983 and is headquartered in Pathum Thani, Thailand.",
     "current_price": 3.48,
     "pe_ratio": 20.47,
-    "dividend_yield": 12.0,
+    "dividend_yield": 13.0,
     "high_1m": 3.68,
     "low_1m": 3.22,
     "support_levels": [
@@ -10471,7 +10470,7 @@ var STOCKS_DATABASE = {
     "business_summary": "Com7 Public Company Limited, together with its subsidiaries, engages in the retail business of information technology (IT) products in Thailand. It sells IT products, desktop computers, mobile phones, and accessories. The company also provides repair services for IT gadgets; financial services for mobiles, and other related services, as well as sells pet feeds. In addition, it is involved in software development; operating training centers; provision of car, fire, marine, and other insurance products, as well as ICT infrastructure solutions; sale of pet food, EV cars and providing repair and maintenance services for EV cars; providing rental services and financial services for EV cars and other relevant services; equipment and supplies, and solar cells. The company operates a chain of retail stores, as well as engages in the wholesale business. Com7 Public Company Limited was founded in 2004 and is based in Bangkok, Thailand.",
     "current_price": 25.25,
     "pe_ratio": 13.95,
-    "dividend_yield": 4.27,
+    "dividend_yield": 4.36,
     "high_1m": 26.25,
     "low_1m": 21.5,
     "support_levels": [
@@ -11024,7 +11023,7 @@ var STOCKS_DATABASE = {
     "business_summary": "Berli Jucker Public Company Limited manufactures, distributes, and services for packaging, consumer, healthcare and technical, and modern retail supply chain businesses in Thailand. It designs, manufactures, markets, and distributes glass, aluminum cans, and plastic packaging products. The company also provides Cellox facial tissues and toilet paper, Zilk toilet papers, Maxmo multi-purpose papers, Tasto potato chips, Dozo rice crackers, Party and Campus extruded snacks, Parrot soaps, and Dermapon baby soaps; and logistics services. It distributes pharmaceutical and healthcare products, medical imaging, and medical equipment and supplies; solutions for graphic, stationery, and specialty products; and industrial chemical ingredients, engineering products and systems, galvanized steel structures, and digital printing technology. The company also operates network of multiple physical and online store; and wholesale business serving B2B customer, bookstore, coffee shop, and drug store businesses. It provides food supplements and cosmetics; offers customs clearing, warehousing, transportation, and distribution services; manufactures snack food and dairy products; operates a non-alcohol beverage shop; sells imaging products, construction supplies, and animal feeds; and provides confectionery, sanitary paper, tofu, soymilk, and kimchi products. The company also offers agent and investment services; rental spaces; seminar and training center; consultant services for product analysis and data collection; land transport and freight services; solar and wind power, real estate, bill payment, information, franchise, and e-commerce services; distributor of security equipment and service maintenance; and real estate consulting and merchandise sourcing services, as well as invests in energy business; trades in equipment for power systems; and retails books and magazines. Berli Jucker Public Company Limited was founded in 1882 and is based in Bangkok, Thailand.",
     "current_price": 14.3,
     "pe_ratio": 14.44,
-    "dividend_yield": 3.54,
+    "dividend_yield": 3.57,
     "high_1m": 14.6,
     "low_1m": 13.7,
     "support_levels": [
@@ -12132,7 +12131,7 @@ var STOCKS_DATABASE = {
     "business_summary": "Kasikornbank Public Company Limited, together with its subsidiaries, provides commercial banking products and services in Thailand and internationally. The company operates through four segments: Corporate Business; Retail Business; Treasury and Investment, Capital Markets Business and World Business Group; and Muang Thai Group Holding Business. It offers e-savings, savings, fixed deposit, current, and foreign currency deposit accounts; debit and credit cards, as well as Xpress cash; personal, home, and auto loans, as well as property for sale; mutual funds, stocks, debentures/bonds, and derivatives/futures exchange; accident, health, critical illness, travel, savings, retirement and endowment, life insurance and inheritance, car, insurance for tax deduction, and other insurance products; digital banking and e-wallet; bill payment, money and global money transfers, and PromptPay; cash management, including cheques and drafts, as well as foreign exchange; alert services; and other financial services. The company also provides working capital, commercial loan, and letter of indemnity; international trade finance, international guarantee, and green solutions; payment, collection, liquidity management, and online merchant solutions; electronic payment application; e-tax invoice and receipt; import and export service solutions; various channels in overseas; corporate finance, securities, and investment; business accounts and cards; life, non-life, and group insurance; electronic service solution; fx and derivatives; and other related services. In addition, it engages in funding; centralized risk management; liquid assets investments; financial instruments; and foreign currency exchange, as well as brokerage business. The company was formerly known as Thai Farmers Bank Public Company Limited and changed its name to Kasikornbank Public Company Limited in April 2003. Kasikornbank Public Company Limited was founded in 1945 and is headquartered in Bangkok, Thailand.",
     "current_price": 198.0,
     "pe_ratio": 9.34,
-    "dividend_yield": 6.12,
+    "dividend_yield": 6.06,
     "high_1m": 199.5,
     "low_1m": 192.0,
     "support_levels": [
@@ -12685,8 +12684,8 @@ var STOCKS_DATABASE = {
     "name": "SCB X Public Company Limited",
     "business_summary": "SCB X Public Company Limited engages in the banking, consumer and digital finance, and platform and technology businesses in Thailand and internationally. It operates through Corporate, SME, Retail, and Others segments. The company offers commercial banking and associated financial management services; CardX for credit and personal loans; AutoX for vehicle title loans; MONIX for digital lending through the FINNIX app; ABACUS Digital for digital lending through the Money Thunder app; Alpha X for luxury financing services; InnovestX, an integrated investing platform; SCB 10X, a technology investment arm; Token X, an initial coin offering portal; and Point X, a point redemption service. It also engages in the hire purchase, leasing, and refinancing business for cars, motorcycles, and watercraft; title loans; credit cards, personal loans, and nano finance for non-banks; debt collection; life and non-life insurance brokerage; strategic data and AI partner business; AI-powered digital lending platform business; investment in and incubation of tech ventures related to blockchain, digital assets, the Metaverse, Web 3.0, and DeepTech; data analytics business; securities business, including fund management and investment services covering various assets such as Thai and foreign stocks, mutual funds, bonds, and digital assets; asset fractionalization and TKX enterprise solutions; consulting services for digital technology development and solutions; lending and retail lending; asset investigation; and specialized technology services. In addition, the company develops and manages customer loyalty programs; purchases, transfers, and manages non-performing assets from financial institutions and financial business operators; leases office buildings; and provides training and seminars. It serves corporate, commercial, SME, and individual customers, as well as small businesses. SCB X Public Company Limited was founded in 1906 and is headquartered in Bangkok, Thailand.",
     "current_price": 135.0,
-    "pe_ratio": 10.07,
-    "dividend_yield": 8.42,
+    "pe_ratio": 10.06,
+    "dividend_yield": 8.36,
     "high_1m": 136.0,
     "low_1m": 130.0,
     "support_levels": [
@@ -13231,7 +13230,7 @@ var STOCKS_DATABASE = {
     "business_summary": "Bangkok Bank Public Company Limited provides various commercial banking products and services in Thailand and internationally. It operates through Domestic Banking, International Banking, Investment Banking, and Others segments. The company provides various personal banking products and services, including savings, current, fixed deposit, foreign currency deposit, securities trading, and other accounts; home and personal loans, as well as loans for pensioners; mutual funds; bonds and debentures; life and non-life bancassurance products; payment, funds transfer, currency exchange and foreign instrument, and SMS services; debit, credit, travel, and prepaid cards; and internet and mobile banking, ATM, and other services. It also offers business banking products and services comprising operating accounts; e-bank confirmation on blockchain, loans for SMEs, and electronic guarantee services, as well as online payments for buyers/dealers; securities services, such as custodian, mutual fund supervisor, provident fund registrar, securities registrar, and debenture holders' representative services; payment, collection, liquid management, and merchant services; digital banking services; and commercial cards. In addition, the company provides trade finance, remittances, export and import, project, corporate finance, electronic, capital market, project and structured finance, and financial advisory services, as well as business property insurance, and FX and interest rate risk management services. Further, it offers fund management, securities, and assets management services. The company was founded in 1944 and is headquartered in Bangkok, Thailand.",
     "current_price": 173.5,
     "pe_ratio": 7.46,
-    "dividend_yield": 9.76,
+    "dividend_yield": 9.51,
     "high_1m": 173.5,
     "low_1m": 160.5,
     "support_levels": [
@@ -13786,7 +13785,7 @@ var STOCKS_DATABASE = {
     "current_price": 35.0,
     "pe_ratio": 10.0,
     "dividend_yield": 10.33,
-    "high_1m": 35.5,
+    "high_1m": 35.25,
     "low_1m": 32.0,
     "support_levels": [
       22.4,
@@ -13795,7 +13794,7 @@ var STOCKS_DATABASE = {
     ],
     "resistance_levels": [
       36.75,
-      35.5
+      35.25
     ],
     "upcoming_xd": "2026-04-10",
     "upcoming_dividend_amount": 2.24,
@@ -14339,7 +14338,7 @@ var STOCKS_DATABASE = {
     "business_summary": "TMBThanachart Bank Public Company Limited provides various commercial banking products and services to individuals, large-sized and medium-sized business, small-size business, and corporate customers primarily in Thailand. It operates through Commercial Banking and Retail Banking segments. The company offers commercial banking services to wholesale banking, including corporate loans, letters of guarantee, deposits, trade finance and foreign exchange, supply chain solution, financial management, and other financial services; small enterprise, such as corporate loans, deposits and bancassurance. It also provides deposits, housing loans, hire purchase, finance lease, personal loans, cards services, mutual funds, and foreign currency services. It serves large, medium, and small sized business customers. The company was formerly known as TMB Bank Public Company Limited and changed its name to TMBThanachart Bank Public Company Limited in May 2021. TMBThanachart Bank Public Company Limited was founded in 1957 and is headquartered in Bangkok, Thailand.",
     "current_price": 2.36,
     "pe_ratio": 10.26,
-    "dividend_yield": 5.73,
+    "dividend_yield": 5.68,
     "high_1m": 2.36,
     "low_1m": 2.22,
     "support_levels": [
@@ -14893,7 +14892,7 @@ var STOCKS_DATABASE = {
     "business_summary": "TISCO Financial Group Public Company Limited, together with its subsidiaries, provides commercial banking products and services for individuals and businesses in Thailand. The company operates through four segments: Commercial Banking Business, Securities Business, Asset Management Business, and Support Business. It accepts deposit products, such as special and standard current accounts, savings accounts, and term and recurring deposit products. The company also provides personal loans, such as home loan, new and used car loans, and loans against inheritance pension, and refinance home loans; and corporate loans, including project and long-term loans, short term loans, and guarantee products. In addition, it offers investment services, such as brokerage services, derivative brokerage, provident funds, and mutual funds, as well as global trade services; and insurance products comprising life, health and critical illness, personal accident, car, lifestyle, and home insurance. Further, the company provides investment banking services, including financial advisory services for merger and acquisition, company valuation, tender offer, and financial advisory and underwriting service for the initial public offering, privatization advisory and implementation, project financing, debt restructuring, feasibility study, project valuation, and general advisory services; and cash management, private banking, and wealth and asset management services. Additionally, it offers promptpay, atm card, alert, bill payment, cross-bank bill payment, assets for sale, car auction, and hire purchase services. TISCO Financial Group Public Company Limited was founded in 1969 and is based in Bangkok, Thailand.",
     "current_price": 113.5,
     "pe_ratio": 13.45,
-    "dividend_yield": 6.86,
+    "dividend_yield": 6.83,
     "high_1m": 114.0,
     "low_1m": 109.5,
     "support_levels": [
@@ -15448,7 +15447,7 @@ var STOCKS_DATABASE = {
     "current_price": 83.5,
     "pe_ratio": 10.07,
     "dividend_yield": 6.95,
-    "high_1m": 84.5,
+    "high_1m": 82.75,
     "low_1m": 78.0,
     "support_levels": [
       54.55,
@@ -15456,8 +15455,7 @@ var STOCKS_DATABASE = {
       67.6
     ],
     "resistance_levels": [
-      87.67,
-      84.5
+      82.5
     ],
     "upcoming_xd": "2026-04-29",
     "upcoming_dividend_amount": 4.2,
@@ -16001,7 +15999,7 @@ var STOCKS_DATABASE = {
     "business_summary": "Thanachart Capital Public Company Limited, an investment holding company, offers various financial services in Thailand. It operates through The Company, Assets Management Business, Securities Business, Life Insurance Business, Non-Life Insurance Business, Asset Management Business, Hire Purchase and Leasing Business, and Other Businesses segments. The company engages in distressed asset management, commercial banking, non-performing asset management, securities brokerage, and investment businesses. It also provides asset-based financing comprising term loan and working capital; provision of life, personal accident, and health insurance products, as well as mortgage reducing term assurance for protection of individuals who are property loan borrowers. In addition, the company offers non-life insurance products in the areas of fire, automobile, marine and transportation, and miscellaneous; life and health protection insurance products to individuals, institutions, and organizations; and auto hire purchase and financials leasing services for passenger cars, as well as vehicles for commercial purposes, such as pick-ups, taxis, truck tractors and lorries, etc. The company was formerly known as National Finance Public Company Limited and changed its name to Thanachart Capital Public Company Limited in April 2006. Thanachart Capital Public Company Limited was incorporated in 1959 and is based in Bangkok, Thailand.",
     "current_price": 60.5,
     "pe_ratio": 7.79,
-    "dividend_yield": 5.81,
+    "dividend_yield": 5.79,
     "high_1m": 60.5,
     "low_1m": 55.25,
     "support_levels": [
@@ -17663,7 +17661,7 @@ var STOCKS_DATABASE = {
     "business_summary": "Muangthai Capital Public Company Limited engages in the credit business in Thailand. It offers agricultural vehicle registration, motorcycle, and vehicle title loans; land title deed loans; and installment, personal/consumer, nano finance, and motorcycle hire purchase loans. The company also provides pay later loans for general and agricultural goods; and hire purchase and insurance brokerage services. In addition, it offers online insurance services. The company was formerly known as Muangthai Leasing Public Company Limited and changed its name to Muangthai Capital Public Company Limited in April 2018. Muangthai Capital Public Company Limited was founded in 1992 and is headquartered in Bangkok, Thailand.",
     "current_price": 28.75,
     "pe_ratio": 8.74,
-    "dividend_yield": 1.0,
+    "dividend_yield": 1.01,
     "high_1m": 31.25,
     "low_1m": 26.75,
     "support_levels": [
@@ -18216,7 +18214,7 @@ var STOCKS_DATABASE = {
     "business_summary": "Bangkok Dusit Medical Services Public Company Limited, together with its subsidiaries, operates hospitals in Thailand and internationally. It operates through two segments Hospital Operations; and Other Businesses That Support Hospital Business. The company operates hospitals under the Bangkok Hospital Group, Samitivej Hospital Group, BNH Hospital, Phyathai Hospital Group, Paolo Hospital, and Royal Hospital Group names; and BDMS Wellness Clinic. It also offers medical laboratory, holistic clinical wellness, accounting, technology and information, training, investment and asset management, air transportation, skin and aesthetics telemedicine, and genomic medicine services; operates hotels and pharmacies; provides health insurance and insurance brokerage services; retails medicine and pharmaceutical products; and distributes health products and cosmetic products, as well as facility management services. In addition, the company is involved in production and distribution of medicines, pharmaceutical products, medical equipment, and saline; real estate; e-commerce; and investment and operation of BDMS silver wellness and residence products. Bangkok Dusit Medical Services Public Company Limited was founded in 1969 and is headquartered in Bangkok, Thailand.",
     "current_price": 18.3,
     "pe_ratio": 18.48,
-    "dividend_yield": 4.4,
+    "dividend_yield": 4.37,
     "high_1m": 18.9,
     "low_1m": 18.0,
     "support_levels": [
@@ -18769,8 +18767,8 @@ var STOCKS_DATABASE = {
     "name": "Bumrungrad Hospital Public Company Limited",
     "business_summary": "Bumrungrad Hospital Public Company Limited owns and operates hospitals and healthcare centers in Thailand and internationally. It offers services in the areas of allergy, arrhythmia, behavioural health, breast, home, heart valve, robotic surgery, rehabilitation, spine, pediatrics, colorectal surgery, complex coronary artery intervention, comprehensive sleep, cornea transplant, dental, diagnostic, dialysis, radiology and nuclear medicine, digestive disease, ear, nose, throat, emergency, endocrinology, esperance, diabetes, expatriate liaison, eye, fertility, gastrointestinal motility, health screening, holistic wound care, horizon regional cancer, hyperbaric oxygen therapy, nephrology, neuroscience, orthopaedics, perinatal, plastic surgery, pulmonary, refractive surgery, memory, robotic scoliosis, skin, sports medicine and joint, surgery, travel medicine, urology, scientific wellness, skin and aesthetic, and women's centers. The company also operates breastfeeding, Yangon, COVID-19 recovery, IVF, hearing and balance, medical, new life healthy aging, Parkinson's disease and movement disorders, pride, surgery, and vaccine clinics and centers. In addition, it operates spine institute, heart institute, and intensive care unit; and offers nutrition services, pharmacy services, preventive genomics and integrative medicine services. Bumrungrad Hospital Public Company Limited was founded in 1975 and is based in Bangkok, Thailand.",
     "current_price": 177.5,
-    "pe_ratio": 20.52,
-    "dividend_yield": 2.85,
+    "pe_ratio": 20.5,
+    "dividend_yield": 2.82,
     "high_1m": 183.0,
     "low_1m": 169.5,
     "support_levels": [
@@ -20431,7 +20429,7 @@ var STOCKS_DATABASE = {
     "business_summary": "Thonburi Healthcare Group Public Company Limited, together with its subsidiaries, engages in the operation of hospitals in Thailand and Singapore. It operates through six segments: Hospital Operations, Hospital Management, Healthcare Solution Provider, Development and Sales of Hospital Operation Software, Property Development, and Holding. The company offers medical services for various fields, including brain and neurology, bone and joint, gastrointestinal, liver, heart, obstetrics, and gynecology, as well as management services for provincial state hospitals; and operates specialized medical service, step-down care, and hospital heart centers. It also provides senior medical and residence services; distributes medical supplies, devices, and equipment; and retail sales of pharmaceutical and medicinal goods, as well as healthcare products. In addition, the company engages in the development of software for the management of the hospital; development of projects related to health and medical services; and purchase of medicine and central medical supplies. Further, it is involved in private hospital activities; land and property development; consulting and writing computer programs; health care services and telemedicine; real estate services and property management; and production and sale of electricity. The company was formerly known as Thonburi Hospital Public Company Limited and changed its name to Thonburi Healthcare Group Public Company Limited in December 2015. Thonburi Healthcare Group Public Company Limited was founded in 1976 and is headquartered in Bangkok, Thailand.",
     "current_price": 7.65,
     "pe_ratio": 85.0,
-    "dividend_yield": 1.82,
+    "dividend_yield": 1.83,
     "high_1m": 8.55,
     "low_1m": 7.4,
     "support_levels": [
@@ -20986,7 +20984,7 @@ var STOCKS_DATABASE = {
     "business_summary": "Airports of Thailand Public Company Limited, together with its subsidiaries, engages in the airport business in Thailand. The company engages in airport management, hotel business, ground service business, security business, and management of perishable goods projects. It operates six international airports, including Suvarnabhumi Airport, Don Mueang International Airport, Chiang Mai International Airport, Hat Yai International Airport, Phuket International Airport and Mae Fah Luang - Chiang Rai International Airport. The company is involved in the hotel and restaurant business; and operation and management of the project on perishable goods at Suvarnabhumi Airport. In addition, it offers ground equipment, security services, and manages projects, as well as ground, warehouse, and cleaning services. Airports of Thailand Public Company Limited was founded in 1979 and is headquartered in Bangkok, Thailand.",
     "current_price": 54.0,
     "pe_ratio": 42.52,
-    "dividend_yield": 1.49,
+    "dividend_yield": 1.5,
     "high_1m": 55.0,
     "low_1m": 50.25,
     "support_levels": [
@@ -23756,7 +23754,7 @@ var STOCKS_DATABASE = {
     "name": "The Erawan Group Public Company Limited",
     "business_summary": "The Erawan Group Public Company Limited engages in hotel, and building rental and management businesses primarily in Thailand, Japan, and Philippines. The company operates hotels and resorts under the Grand Hyatt Erawan Bangkok, IBIS, JW Marriott Bangkok, The Naka Island, Courtyard by Marriott Bangkok, Holiday Inn Pattaya, IBIS Styles, Novotel Bangkok Sukhumvit 4, Holiday Inn Cebu City, Mercure Hotels, and HOP INN names. It also rents commercial retail property under the name Erawan Bangkok, as well as a shopping plaza and one office building. In addition, the company is involved in restaurant business, under Man Ho Bistro, a Chinese culinary eatery; and Chisana Nami, a modern teppanyaki. The company was incorporated in 1982 and is headquartered in Bangkok, Thailand.",
     "current_price": 2.76,
-    "pe_ratio": 16.24,
+    "pe_ratio": 15.33,
     "dividend_yield": 2.48,
     "high_1m": 2.94,
     "low_1m": 2.32,
@@ -23766,7 +23764,6 @@ var STOCKS_DATABASE = {
       2.34
     ],
     "resistance_levels": [
-      2.79,
       3.15
     ],
     "upcoming_xd": "2026-03-10",
@@ -23776,6 +23773,42 @@ var STOCKS_DATABASE = {
       {
         "date": "2026-03-10",
         "amount": 0.07
+      },
+      {
+        "date": "2025-03-10",
+        "amount": 0.09
+      },
+      {
+        "date": "2024-03-07",
+        "amount": 0.07
+      },
+      {
+        "date": "2020-03-06",
+        "amount": 0.0449
+      },
+      {
+        "date": "2019-03-11",
+        "amount": 0.0578
+      },
+      {
+        "date": "2018-03-12",
+        "amount": 0.0578
+      },
+      {
+        "date": "2017-03-03",
+        "amount": 0.0385
+      },
+      {
+        "date": "2016-03-04",
+        "amount": 0.0257
+      },
+      {
+        "date": "2015-03-10",
+        "amount": 0.0257
+      },
+      {
+        "date": "2014-03-10",
+        "amount": 0.0972
       }
     ],
     "history": [
@@ -24808,8 +24841,8 @@ var STOCKS_DATABASE = {
     "name": "Advanced Info Service Public Company Limited",
     "business_summary": "Advanced Info Service Public Company Limited operates as a telecommunications company primarily in Thailand. The company operates through three segments: Mobile Phone Services, Mobile Phone and Equipment Sales, and Datanet and Broadband Services. The company offers post and prepaid services; and on top and roaming services; digital marketing services; and cloud and it solutions; cloud & data center, business network solutions, 5g and IoT, communication solutions, and data analytic and marketing solutions; digital eservices; and Mpay, digital payment management system. It is also involved in operating as a service provider of call center, international telephone, cellular telephone network, telecommunication service operator and internet, broadcasting network and television broadcasting service several channel, digital platform, insurance broker, training, internet data center services, internet and distribute internet equipment, online advertising and being the outsourced contact center, mobile content, online advertising business, as well as operation in space, land and building services, and related facilities. In addition, the company engages in developing IT systems service provider of content aggregator and outsourcing service for billing and collection; software development, distribution and general software service; developing application and digital marketing; distributing handsets; and providing software supporting high speed internet service, Voice communication, broadband Internet data, and international telephone service. The company was founded in 1986 and is based in Bangkok, Thailand.",
     "current_price": 353.0,
-    "pe_ratio": 20.69,
-    "dividend_yield": 4.75,
+    "pe_ratio": 20.66,
+    "dividend_yield": 4.76,
     "high_1m": 372.0,
     "low_1m": 336.0,
     "support_levels": [
@@ -25362,7 +25395,7 @@ var STOCKS_DATABASE = {
     "business_summary": "True Corporation Public Company Limited, together with its subsidiaries, provides telecommunications and value-added services in Thailand. The company operates through Mobile, Pay TV, and Broadband internet and others segments. It offers mobile, broadband Internet, Wi-Fi, television, and digital platforms and solutions. The company is also involved in entertainment, mobile equipment lessor, program production, non-government telecommunication, artist management, Internet services provider and distributor, and marketing management activities. In addition, it operates news channel; and provides business solutions, online digital media services on website and telecommunication devices, distribution center services, advertising sale and agency services, wireless telecommunication services, pay television, and football club and related activities management services. Further, the company designs, develops, produces, and sells software products; and offers digital solutions, and privilege and online-to-offline platforms, as well as business process outsourcing services in technical service, marketing, and customer relations. The company was formerly known as TelecomAsia Corporation Public Company Limited and changed its name to True Corporation Public Company Limited in April 2004. True Corporation Public Company Limited was incorporated in 1990 and is based in Bangkok, Thailand.",
     "current_price": 13.8,
     "pe_ratio": 33.66,
-    "dividend_yield": 3.24,
+    "dividend_yield": 3.26,
     "high_1m": 14.86,
     "low_1m": 13.16,
     "support_levels": [
@@ -25912,7 +25945,7 @@ var STOCKS_DATABASE = {
     "current_price": 339.0,
     "pe_ratio": 149.34,
     "dividend_yield": 18.0,
-    "high_1m": 345.0,
+    "high_1m": 342.0,
     "low_1m": 300.0,
     "support_levels": [
       95.78,
@@ -25920,8 +25953,8 @@ var STOCKS_DATABASE = {
       159.14
     ],
     "resistance_levels": [
-      355.95,
-      345.0
+      350.7,
+      342.0
     ],
     "upcoming_xd": "2026-02-26",
     "upcoming_dividend_amount": 0.6,
@@ -26466,7 +26499,7 @@ var STOCKS_DATABASE = {
     "current_price": 38.25,
     "pe_ratio": 112.5,
     "dividend_yield": 2.67,
-    "high_1m": 39.25,
+    "high_1m": 38.25,
     "low_1m": 29.0,
     "support_levels": [
       16.71,
@@ -26474,8 +26507,8 @@ var STOCKS_DATABASE = {
       21.49
     ],
     "resistance_levels": [
-      40.16,
-      39.25
+      39.38,
+      38.25
     ],
     "upcoming_xd": "2026-03-16",
     "upcoming_dividend_amount": 0.75,
@@ -27027,7 +27060,7 @@ var STOCKS_DATABASE = {
       22.1
     ],
     "resistance_levels": [
-      36.49,
+      36.23,
       35.75
     ],
     "upcoming_xd": "2026-03-23",
@@ -28679,7 +28712,7 @@ var STOCKS_DATABASE = {
     "business_summary": "Central Pattana Public Company Limited develops and manages real estate properties in Thailand. It constructs, develops, and manages shopping malls, office buildings, hotels, and residential projects for lease. The company also provides utility services in shopping centers, property management consulting, corporate, and food center services. In addition, it engages in the operation of play lands and water theme parks in shopping centers; investment in real estate; education services; sale of land, houses, and condominium units; and management of a real estate investment trust. Central Pattana Public Company Limited was founded in 1980 and is headquartered in Bangkok, Thailand.",
     "current_price": 65.75,
     "pe_ratio": 15.05,
-    "dividend_yield": 3.64,
+    "dividend_yield": 3.65,
     "high_1m": 67.75,
     "low_1m": 61.25,
     "support_levels": [
@@ -29232,7 +29265,7 @@ var STOCKS_DATABASE = {
     "business_summary": "Land and Houses Public Company Limited, together with its subsidiaries, engages in the property development activities in Thailand and the United States of America. It operates through two segments, Real Estate Business, and Rental and Service Business. The Real Estate Business segment develops and sells single detached houses, duo homes, townhouses, and residence condominium projects. Its Rental and Service Business segment is involved in the rental of shopping malls, hotels, and apartments. The company also offers project administration and management; and home repair services, as well as operates hotels. The company was founded in 1973 and is headquartered in Bangkok, Thailand.",
     "current_price": 3.68,
     "pe_ratio": 12.27,
-    "dividend_yield": 6.49,
+    "dividend_yield": 6.52,
     "high_1m": 3.76,
     "low_1m": 3.56,
     "support_levels": [
@@ -31450,7 +31483,7 @@ var STOCKS_DATABASE = {
     "business_summary": "Sansiri Public Company Limited, together with its subsidiaries, engages in the property development business in Thailand. The company operates through three segments: Property Development Business; Building Management, Project Management, and Real Estate Brokerage Business; and Hotel Business. It develops single houses, townhomes, home offices, and condominium projects. The company also offers property and asset management services, including property brokerage services, property sales management, property development consultancy, and property management. In addition, it is involved in agency services and facility management; club management; invests in development of hotel and hospitalities, brokerage, securities dealing, financial advisory, securities underwriting, solar energy platforms, and electric vehicle changing stations; land and housing projects, residential condominium projects, and rental of serviced apartments for rent, and office buildings for rent. Sansiri Public Company Limited was founded in 1984 and incorporated in November 22nd 1995 is headquartered in Bangkok, Thailand.",
     "current_price": 1.44,
     "pe_ratio": 6.0,
-    "dividend_yield": 11.19,
+    "dividend_yield": 11.11,
     "high_1m": 1.45,
     "low_1m": 1.38,
     "support_levels": [
@@ -32558,7 +32591,7 @@ var STOCKS_DATABASE = {
     "business_summary": "Amata Corporation Public Company Limited, together with its subsidiaries, engages in industrial estate development in Thailand and internationally. It is involved in construction of factory for rent; production, distribution, and treatment of water for industrial use; generation and distribution of electricity from solar power; private education; commercial development; development of real estate properties; and development and operation of smart city, commercial, and mixed projects. The company also provides services for common areas. In addition, it operates as a REIT manager. Amata Corporation Public Company Limited was incorporated in March 6th, 1989 and is headquartered in Bangkok, Thailand.",
     "current_price": 24.8,
     "pe_ratio": 7.7,
-    "dividend_yield": 4.42,
+    "dividend_yield": 4.44,
     "high_1m": 26.0,
     "low_1m": 19.08,
     "support_levels": [
@@ -33112,7 +33145,7 @@ var STOCKS_DATABASE = {
     "business_summary": "WHA Corporation Public Company Limited, together with its subsidiaries, develops, rents, and sells lands, buildings, factories, warehouses, and other properties in Thailand and internationally. It also develops and manages properties in industrial estates and zones. In addition, the company provides digital, data center, Internet connection, and other IT services; and public utilities, facilities, and other related services. Further, it is involved in the water utility and power, mobility, and logistics businesses. WHA Corporation Public Company Limited was founded in 2003 and is headquartered in Samut Prakan, Thailand.",
     "current_price": 5.0,
     "pe_ratio": 16.13,
-    "dividend_yield": 4.13,
+    "dividend_yield": 4.21,
     "high_1m": 5.2,
     "low_1m": 4.19,
     "support_levels": [
@@ -33666,7 +33699,7 @@ var STOCKS_DATABASE = {
     "business_summary": "Asset World Corp Public Company Limited invests in, develops, and manages real estate properties in Thailand. It operates through two segments: Hotel and Related Services, and Rental and Rendering of Commercial Building Services. The company owns and develops hotels; lifestyle destinations, community shopping malls, and community markets; rental and rendering of commercial building services; social enterprise; and mixed-use properties. It also operates digital commerce platforms; management services; and engages in property leasing activities. Asset World Corp Public Company Limited was founded in 1960 and is headquartered in Bangkok, Thailand.",
     "current_price": 2.28,
     "pe_ratio": 11.4,
-    "dividend_yield": 3.42,
+    "dividend_yield": 3.51,
     "high_1m": 2.36,
     "low_1m": 1.98,
     "support_levels": [
@@ -34204,7 +34237,7 @@ var STOCKS_DATABASE = {
     "business_summary": "CH. Karnchang Public Company Limited, together with its subsidiaries, provides construction services in Thailand and the Lao People's Democratic Republic. It operates through two segments, Construction and Related Service and Investment in Infrastructure Business. The company engages in the construction of mass rapid transit systems, airports, roads and expressways, energy projects, water supply and harbour projects, and buildings. It also invests in infrastructure project development business; and sells construction materials. The company serves government agencies and private customers. CH. Karnchang Public Company Limited was founded in 1972 and is based in Bangkok, Thailand.",
     "current_price": 17.7,
     "pe_ratio": 8.81,
-    "dividend_yield": 2.73,
+    "dividend_yield": 2.82,
     "high_1m": 19.2,
     "low_1m": 16.6,
     "support_levels": [
@@ -36417,7 +36450,7 @@ var STOCKS_DATABASE = {
     "business_summary": "Thai Union Group Public Company Limited, together with its subsidiaries, manufactures and sells frozen, chilled, and canned seafood in Thailand and internationally. The company operates through four segments: Ambient Seafood; Frozen and Chilled Seafood and Related Businesses; Pet food; and Value-Added and Other Businesses. It provides ambient seafood products, including tuna, sardines, mackerel, herring, and salmon for retail and wholesale customers; frozen and chilled seafood products, such as shrimp, lobster, and crab that are sold directly to restaurants, hotels, caterers, and retail customers; ready-to-cook or ready-to-serve products, and bakery treats; marine ingredients for use in consumer goods, such as infant formula, cosmetics, dietary supplements, and clinical nutrition; and pet care products comprising wet-based food and treats. The company offers its products under the Chicken of the Sea, Genova, John West, Petit Navire, Parmentier, King Oscar, Mareblu, Rügen Fisch, Sealect, Fisho, QFresh, MONORI, Bellotta, Marvo, ChangeTer, Calico Bay, Paramount, and Zeavita brand names. It also manufactures and distributes animal feeds, frozen food, aquatic animals, ingredient products, canned tuna, seafood, and smoked salmon products, as well as distributes shrimp feeds. In addition, the company offers packaging, printing, training and management, e-commerce, consultancy, and property rental services. Further, it is involved in the tuna oil refinery, shrimp farming, and shrimp breeding and hatchery businesses; import and distribution of pet food and pet related products; import of seafood; and operation of seafood restaurant outlets. The company was formerly known as Thai Union Frozen Products Public Company Limited and changed its name to Thai Union Group Public Company Limited in September 2015. The company was founded in 1977 and is headquartered in Mueang Samut Sakhon, Thailand.",
     "current_price": 11.3,
     "pe_ratio": 9.34,
-    "dividend_yield": 6.14,
+    "dividend_yield": 6.19,
     "high_1m": 12.0,
     "low_1m": 11.0,
     "support_levels": [
@@ -38633,7 +38666,7 @@ var STOCKS_DATABASE = {
     "business_summary": "Srinanaporn Marketing Public Company Limited engages in the manufacture and distribution of snacks and beverages in Thailand. The company provides technical and administrative services. It also offers ready to drink jellies and carrageenan jelly products under the Jele, Daiyamoto, Cooly Kool, and Magic Farm brand names; other beverage products, such as grass jelly in syrup, coconut juice with coconut jelly, and vitamins water under the Magic Farm Fresh and Jele brand names; and fruit juice mixed with coconut jelly under the Magic X brand. In addition, the company provides baked squids, squid strips, and fish strips under the Bento brand name; molded snack products and bread sticks under the Dok Bua and Lotus brand names; wafer and biscuit products under the Chocky and Bakery House brand names; and animal-based products under the Dok Bua brand name. Further, it engages in the real estate business. The company offers its products through online. It also exports its products. Srinanaporn Marketing Public Company Limited was founded in 1972 and is headquartered in Bangkok, Thailand.",
     "current_price": 6.6,
     "pe_ratio": 14.35,
-    "dividend_yield": 8.95,
+    "dividend_yield": 9.02,
     "high_1m": 7.0,
     "low_1m": 6.4,
     "support_levels": [
@@ -39186,7 +39219,7 @@ var STOCKS_DATABASE = {
     "business_summary": "Carabao Group Public Company Limited, through its subsidiaries, manufactures, markets, distributes, and sells beverages in Thailand and internationally. The company's products primarily include carbonated and non-carbonated energy drinks, vitamin C drinks, sport drinks, coffee products, and drinking water under the Carabao, Carabao Sport, and Woody C+ Lock brands. It also manufactures and distributes bottles, glass products, aluminum cans, and packaging products. In addition, the company is involved in the investment, data and distribution management, and trading activities. Carabao Group Public Company Limited was founded in 2001 and is headquartered in Bangkok, Thailand.",
     "current_price": 41.0,
     "pe_ratio": 18.89,
-    "dividend_yield": 2.86,
+    "dividend_yield": 2.93,
     "high_1m": 42.5,
     "low_1m": 35.5,
     "support_levels": [
@@ -40851,7 +40884,7 @@ var STOCKS_DATABASE = {
     "current_price": 4.22,
     "pe_ratio": 15.63,
     "dividend_yield": 2.44,
-    "high_1m": 4.36,
+    "high_1m": 4.26,
     "low_1m": 3.84,
     "support_levels": [
       3.36,
@@ -41404,8 +41437,8 @@ var STOCKS_DATABASE = {
     "name": "The Siam Cement Public Company Limited",
     "business_summary": "The Siam Cement Public Company Limited, together with its subsidiaries, operates in the cement and building materials, chemicals, and packaging businesses in Thailand and internationally. It operates through SCG Cement and Green Solutions; SCG Smart Living and SCG Distribution and Retail; SCG Decor; SCG Chemicals; SCGP; and Other segments. The SCG Cement and Green Solutions segment produces cement, concrete products, and refractory cement, manages natural resource utilization. The SCG Smart Living and SCG Distribution and Retail segment manufactures building materials, including roof, ceiling and wall, fiberglass insulation, wood substitute, landscape, lightweight concrete block, paint, including smart solutions for home and building, and energy management, etc. This segment also distributes and retails cement, building materials, and other home and living products, as well as provides international supply chain solutions; and invests in logistics business. The SCG Decor segment produces and distributes ceramic tiles, sanitary ware, and related products, services, and solutions. The SCG Chemicals segment manufactures and sells olefins, polyolefins, vinyl, other chemical products, as well as provides industrial services and solutions. The SCGP segment engages in the integrated packaging of fiber packaging, packaging paper, consumer and performance packaging, and medical supplies and labware; and recycling of packaging material. This segment is also involved in the fibrous business comprising foodservice packaging, and pulp and paper products. The Other segment engages in the clean energy, pertinent technologies, and investment in other businesses. The Siam Cement Public Company Limited was founded in 1913 and is headquartered in Bangkok, Thailand.",
     "current_price": 231.0,
-    "pe_ratio": 14.44,
-    "dividend_yield": 2.2,
+    "pe_ratio": 14.43,
+    "dividend_yield": 2.16,
     "high_1m": 243.0,
     "low_1m": 224.0,
     "support_levels": [
@@ -41958,7 +41991,7 @@ var STOCKS_DATABASE = {
     "business_summary": "SCG Packaging Public Company Limited provides consumer packaging solutions in Thailand, Vietnam, Indonesia, China, and internationally. It operates through Integrated Packaging Business, Fibrous Business, and Recycling Business and Corporate segments. The Integrated Packaging segment offers fiber packaging, such as corrugated containers; retail display packaging; packaging paper products, including containerboard, coated duplex board, and sack kraft; and plasterboard liners. This segment also offers consumer and performance packaging comprising flexible packaging products; flexible packaging; rigid packaging products; and medical supplies and labware. Its Fibrous Business segment provides food service; pulp; and paper products. The Recycling Business and Others segment offers packaging materials recycling and investment services. The company was formerly known as SCG Paper Public Company Limited and changed its name to SCG Packaging Public Company Limited in June 2015. The company was founded in 1975 and is based in Bangkok, Thailand. SCG Packaging Public Company Limited is a subsidiary of The Siam Cement Public Company Limited.",
     "current_price": 23.8,
     "pe_ratio": 21.64,
-    "dividend_yield": 2.46,
+    "dividend_yield": 2.52,
     "high_1m": 26.25,
     "low_1m": 23.1,
     "support_levels": [
@@ -43624,7 +43657,6 @@ var STOCKS_DATABASE = {
       7.95
     ],
     "resistance_levels": [
-      10.96,
       11.69,
       12.69
     ],
@@ -44171,21 +44203,25 @@ var STOCKS_DATABASE = {
     "current_price": 8.9,
     "pe_ratio": null,
     "dividend_yield": 2.92,
-    "high_1m": 9.55,
-    "low_1m": 6.9,
+    "high_1m": 9.41,
+    "low_1m": 6.8,
     "support_levels": [
-      6.33,
-      6.71,
-      7.0
+      6.23,
+      6.61,
+      6.9
     ],
     "resistance_levels": [
-      9.38,
-      10.31
+      9.24,
+      10.16
     ],
     "upcoming_xd": "2026-05-27",
-    "upcoming_dividend_amount": 0.13,
+    "upcoming_dividend_amount": 0.14,
     "upcoming_payment_date": "2026-06-11",
     "dividend_history": [
+      {
+        "date": "2026-05-27",
+        "amount": 0.135
+      },
       {
         "date": "2025-11-24",
         "amount": 0.13
@@ -44221,500 +44257,496 @@ var STOCKS_DATABASE = {
       {
         "date": "2021-04-20",
         "amount": 0.24
-      },
-      {
-        "date": "2020-08-26",
-        "amount": 0.45
       }
     ],
     "history": [
       {
         "date": "2025-05-26",
-        "close": 6.43
-      },
-      {
-        "date": "2025-05-28",
         "close": 6.34
       },
       {
+        "date": "2025-05-28",
+        "close": 6.24
+      },
+      {
         "date": "2025-05-30",
-        "close": 6.14
+        "close": 6.05
       },
       {
         "date": "2025-06-05",
-        "close": 6.78
+        "close": 6.68
       },
       {
         "date": "2025-06-09",
-        "close": 7.02
+        "close": 6.92
       },
       {
         "date": "2025-06-11",
-        "close": 6.92
+        "close": 6.82
       },
       {
         "date": "2025-06-13",
-        "close": 6.14
+        "close": 6.05
       },
       {
         "date": "2025-06-17",
-        "close": 5.84
+        "close": 5.76
       },
       {
         "date": "2025-06-19",
-        "close": 5.6
+        "close": 5.52
       },
       {
         "date": "2025-06-23",
-        "close": 5.3
+        "close": 5.23
       },
       {
         "date": "2025-06-25",
-        "close": 5.94
+        "close": 5.86
       },
       {
         "date": "2025-06-27",
-        "close": 5.99
+        "close": 5.9
       },
       {
         "date": "2025-07-01",
-        "close": 6.29
+        "close": 6.19
       },
       {
         "date": "2025-07-03",
-        "close": 6.92
+        "close": 6.82
       },
       {
         "date": "2025-07-07",
-        "close": 7.02
+        "close": 6.92
       },
       {
         "date": "2025-07-09",
-        "close": 6.63
+        "close": 6.53
       },
       {
         "date": "2025-07-14",
-        "close": 7.12
+        "close": 7.02
       },
       {
         "date": "2025-07-16",
-        "close": 7.22
+        "close": 7.11
       },
       {
         "date": "2025-07-18",
-        "close": 7.42
+        "close": 7.31
       },
       {
         "date": "2025-07-22",
-        "close": 7.07
-      },
-      {
-        "date": "2025-07-24",
-        "close": 7.46
-      },
-      {
-        "date": "2025-07-29",
-        "close": 7.42
-      },
-      {
-        "date": "2025-07-31",
-        "close": 7.51
-      },
-      {
-        "date": "2025-08-04",
-        "close": 7.22
-      },
-      {
-        "date": "2025-08-06",
-        "close": 9.38
-      },
-      {
-        "date": "2025-08-08",
-        "close": 9.18
-      },
-      {
-        "date": "2025-08-14",
-        "close": 8.0
-      },
-      {
-        "date": "2025-08-18",
-        "close": 8.0
-      },
-      {
-        "date": "2025-08-20",
-        "close": 8.25
-      },
-      {
-        "date": "2025-08-22",
-        "close": 8.2
-      },
-      {
-        "date": "2025-08-26",
-        "close": 8.4
-      },
-      {
-        "date": "2025-08-28",
-        "close": 8.3
-      },
-      {
-        "date": "2025-09-01",
-        "close": 8.25
-      },
-      {
-        "date": "2025-09-03",
-        "close": 8.89
-      },
-      {
-        "date": "2025-09-05",
-        "close": 9.28
-      },
-      {
-        "date": "2025-09-09",
-        "close": 10.31
-      },
-      {
-        "date": "2025-09-11",
-        "close": 10.02
-      },
-      {
-        "date": "2025-09-15",
-        "close": 10.12
-      },
-      {
-        "date": "2025-09-17",
-        "close": 9.92
-      },
-      {
-        "date": "2025-09-19",
-        "close": 9.67
-      },
-      {
-        "date": "2025-09-23",
-        "close": 9.43
-      },
-      {
-        "date": "2025-09-25",
-        "close": 9.77
-      },
-      {
-        "date": "2025-09-29",
-        "close": 9.53
-      },
-      {
-        "date": "2025-10-01",
-        "close": 8.79
-      },
-      {
-        "date": "2025-10-03",
-        "close": 8.74
-      },
-      {
-        "date": "2025-10-07",
-        "close": 8.74
-      },
-      {
-        "date": "2025-10-09",
-        "close": 8.74
-      },
-      {
-        "date": "2025-10-14",
-        "close": 8.25
-      },
-      {
-        "date": "2025-10-16",
-        "close": 8.35
-      },
-      {
-        "date": "2025-10-20",
-        "close": 7.96
-      },
-      {
-        "date": "2025-10-22",
-        "close": 8.15
-      },
-      {
-        "date": "2025-10-27",
-        "close": 7.96
-      },
-      {
-        "date": "2025-10-29",
-        "close": 7.61
-      },
-      {
-        "date": "2025-10-31",
-        "close": 7.66
-      },
-      {
-        "date": "2025-11-04",
-        "close": 7.32
-      },
-      {
-        "date": "2025-11-06",
-        "close": 7.37
-      },
-      {
-        "date": "2025-11-10",
-        "close": 7.22
-      },
-      {
-        "date": "2025-11-12",
-        "close": 6.83
-      },
-      {
-        "date": "2025-11-14",
-        "close": 6.63
-      },
-      {
-        "date": "2025-11-18",
         "close": 6.97
       },
       {
-        "date": "2025-11-20",
-        "close": 7.37
+        "date": "2025-07-24",
+        "close": 7.36
       },
       {
-        "date": "2025-11-24",
-        "close": 6.95
+        "date": "2025-07-29",
+        "close": 7.31
       },
       {
-        "date": "2025-11-26",
-        "close": 6.95
+        "date": "2025-07-31",
+        "close": 7.4
       },
       {
-        "date": "2025-11-28",
-        "close": 7.15
+        "date": "2025-08-04",
+        "close": 7.11
       },
       {
-        "date": "2025-12-02",
-        "close": 7.2
+        "date": "2025-08-06",
+        "close": 9.24
       },
       {
-        "date": "2025-12-04",
-        "close": 6.9
+        "date": "2025-08-08",
+        "close": 9.05
       },
       {
-        "date": "2025-12-09",
-        "close": 6.85
+        "date": "2025-08-14",
+        "close": 7.89
       },
       {
-        "date": "2025-12-12",
-        "close": 7.0
+        "date": "2025-08-18",
+        "close": 7.89
       },
       {
-        "date": "2025-12-16",
-        "close": 7.1
+        "date": "2025-08-20",
+        "close": 8.13
       },
       {
-        "date": "2025-12-18",
-        "close": 6.75
+        "date": "2025-08-22",
+        "close": 8.08
       },
       {
-        "date": "2025-12-22",
-        "close": 6.95
+        "date": "2025-08-26",
+        "close": 8.28
       },
       {
-        "date": "2025-12-24",
-        "close": 7.15
+        "date": "2025-08-28",
+        "close": 8.18
       },
       {
-        "date": "2025-12-26",
-        "close": 6.8
+        "date": "2025-09-01",
+        "close": 8.13
       },
       {
-        "date": "2025-12-30",
-        "close": 6.9
+        "date": "2025-09-03",
+        "close": 8.76
       },
       {
-        "date": "2026-01-06",
-        "close": 6.95
+        "date": "2025-09-05",
+        "close": 9.15
       },
       {
-        "date": "2026-01-08",
-        "close": 6.85
+        "date": "2025-09-09",
+        "close": 10.16
       },
       {
-        "date": "2026-01-12",
-        "close": 6.3
+        "date": "2025-09-11",
+        "close": 9.87
       },
       {
-        "date": "2026-01-14",
-        "close": 6.0
+        "date": "2025-09-15",
+        "close": 9.97
       },
       {
-        "date": "2026-01-16",
-        "close": 7.0
+        "date": "2025-09-17",
+        "close": 9.78
       },
       {
-        "date": "2026-01-20",
+        "date": "2025-09-19",
+        "close": 9.53
+      },
+      {
+        "date": "2025-09-23",
+        "close": 9.29
+      },
+      {
+        "date": "2025-09-25",
+        "close": 9.63
+      },
+      {
+        "date": "2025-09-29",
+        "close": 9.39
+      },
+      {
+        "date": "2025-10-01",
+        "close": 8.66
+      },
+      {
+        "date": "2025-10-03",
+        "close": 8.61
+      },
+      {
+        "date": "2025-10-07",
+        "close": 8.61
+      },
+      {
+        "date": "2025-10-09",
+        "close": 8.61
+      },
+      {
+        "date": "2025-10-14",
+        "close": 8.13
+      },
+      {
+        "date": "2025-10-16",
+        "close": 8.23
+      },
+      {
+        "date": "2025-10-20",
+        "close": 7.84
+      },
+      {
+        "date": "2025-10-22",
+        "close": 8.03
+      },
+      {
+        "date": "2025-10-27",
+        "close": 7.84
+      },
+      {
+        "date": "2025-10-29",
+        "close": 7.5
+      },
+      {
+        "date": "2025-10-31",
         "close": 7.55
       },
       {
-        "date": "2026-01-22",
-        "close": 7.6
+        "date": "2025-11-04",
+        "close": 7.21
       },
       {
-        "date": "2026-01-26",
-        "close": 7.4
+        "date": "2025-11-06",
+        "close": 7.26
       },
       {
-        "date": "2026-01-28",
-        "close": 7.4
+        "date": "2025-11-10",
+        "close": 7.11
       },
       {
-        "date": "2026-01-30",
-        "close": 7.25
+        "date": "2025-11-12",
+        "close": 6.73
       },
       {
-        "date": "2026-02-03",
-        "close": 7.3
+        "date": "2025-11-14",
+        "close": 6.53
       },
       {
-        "date": "2026-02-05",
-        "close": 7.1
+        "date": "2025-11-18",
+        "close": 6.87
       },
       {
-        "date": "2026-02-09",
-        "close": 7.7
+        "date": "2025-11-20",
+        "close": 7.26
       },
       {
-        "date": "2026-02-11",
-        "close": 7.65
-      },
-      {
-        "date": "2026-02-13",
-        "close": 8.2
-      },
-      {
-        "date": "2026-02-17",
-        "close": 7.9
-      },
-      {
-        "date": "2026-02-19",
-        "close": 8.25
-      },
-      {
-        "date": "2026-02-23",
-        "close": 7.75
-      },
-      {
-        "date": "2026-02-25",
-        "close": 8.05
-      },
-      {
-        "date": "2026-02-27",
-        "close": 7.85
-      },
-      {
-        "date": "2026-03-04",
-        "close": 6.3
-      },
-      {
-        "date": "2026-03-06",
-        "close": 6.5
-      },
-      {
-        "date": "2026-03-10",
-        "close": 7.4
-      },
-      {
-        "date": "2026-03-12",
-        "close": 7.25
-      },
-      {
-        "date": "2026-03-16",
-        "close": 7.0
-      },
-      {
-        "date": "2026-03-18",
+        "date": "2025-11-24",
         "close": 6.85
       },
       {
-        "date": "2026-03-20",
-        "close": 6.7
+        "date": "2025-11-26",
+        "close": 6.85
       },
       {
-        "date": "2026-03-24",
-        "close": 6.45
-      },
-      {
-        "date": "2026-03-26",
-        "close": 6.45
-      },
-      {
-        "date": "2026-03-30",
-        "close": 6.55
-      },
-      {
-        "date": "2026-04-01",
-        "close": 6.75
-      },
-      {
-        "date": "2026-04-03",
-        "close": 6.45
-      },
-      {
-        "date": "2026-04-08",
-        "close": 6.75
-      },
-      {
-        "date": "2026-04-10",
-        "close": 6.6
-      },
-      {
-        "date": "2026-04-17",
-        "close": 6.65
-      },
-      {
-        "date": "2026-04-21",
+        "date": "2025-11-28",
         "close": 7.05
       },
       {
-        "date": "2026-04-23",
-        "close": 6.6
+        "date": "2025-12-02",
+        "close": 7.09
       },
       {
-        "date": "2026-04-27",
+        "date": "2025-12-04",
+        "close": 6.8
+      },
+      {
+        "date": "2025-12-09",
+        "close": 6.75
+      },
+      {
+        "date": "2025-12-12",
         "close": 6.9
       },
       {
-        "date": "2026-04-29",
-        "close": 7.1
-      },
-      {
-        "date": "2026-05-01",
-        "close": 7.05
-      },
-      {
-        "date": "2026-05-05",
+        "date": "2025-12-16",
         "close": 7.0
       },
       {
+        "date": "2025-12-18",
+        "close": 6.65
+      },
+      {
+        "date": "2025-12-22",
+        "close": 6.85
+      },
+      {
+        "date": "2025-12-24",
+        "close": 7.05
+      },
+      {
+        "date": "2025-12-26",
+        "close": 6.7
+      },
+      {
+        "date": "2025-12-30",
+        "close": 6.8
+      },
+      {
+        "date": "2026-01-06",
+        "close": 6.85
+      },
+      {
+        "date": "2026-01-08",
+        "close": 6.75
+      },
+      {
+        "date": "2026-01-12",
+        "close": 6.21
+      },
+      {
+        "date": "2026-01-14",
+        "close": 5.91
+      },
+      {
+        "date": "2026-01-16",
+        "close": 6.9
+      },
+      {
+        "date": "2026-01-20",
+        "close": 7.44
+      },
+      {
+        "date": "2026-01-22",
+        "close": 7.49
+      },
+      {
+        "date": "2026-01-26",
+        "close": 7.29
+      },
+      {
+        "date": "2026-01-28",
+        "close": 7.29
+      },
+      {
+        "date": "2026-01-30",
+        "close": 7.14
+      },
+      {
+        "date": "2026-02-03",
+        "close": 7.19
+      },
+      {
+        "date": "2026-02-05",
+        "close": 7.0
+      },
+      {
+        "date": "2026-02-09",
+        "close": 7.59
+      },
+      {
+        "date": "2026-02-11",
+        "close": 7.54
+      },
+      {
+        "date": "2026-02-13",
+        "close": 8.08
+      },
+      {
+        "date": "2026-02-17",
+        "close": 7.78
+      },
+      {
+        "date": "2026-02-19",
+        "close": 8.13
+      },
+      {
+        "date": "2026-02-23",
+        "close": 7.64
+      },
+      {
+        "date": "2026-02-25",
+        "close": 7.93
+      },
+      {
+        "date": "2026-02-27",
+        "close": 7.74
+      },
+      {
+        "date": "2026-03-04",
+        "close": 6.21
+      },
+      {
+        "date": "2026-03-06",
+        "close": 6.41
+      },
+      {
+        "date": "2026-03-10",
+        "close": 7.29
+      },
+      {
+        "date": "2026-03-12",
+        "close": 7.14
+      },
+      {
+        "date": "2026-03-16",
+        "close": 6.9
+      },
+      {
+        "date": "2026-03-18",
+        "close": 6.75
+      },
+      {
+        "date": "2026-03-20",
+        "close": 6.6
+      },
+      {
+        "date": "2026-03-24",
+        "close": 6.36
+      },
+      {
+        "date": "2026-03-26",
+        "close": 6.36
+      },
+      {
+        "date": "2026-03-30",
+        "close": 6.45
+      },
+      {
+        "date": "2026-04-01",
+        "close": 6.65
+      },
+      {
+        "date": "2026-04-03",
+        "close": 6.36
+      },
+      {
+        "date": "2026-04-08",
+        "close": 6.65
+      },
+      {
+        "date": "2026-04-10",
+        "close": 6.5
+      },
+      {
+        "date": "2026-04-17",
+        "close": 6.55
+      },
+      {
+        "date": "2026-04-21",
+        "close": 6.95
+      },
+      {
+        "date": "2026-04-23",
+        "close": 6.5
+      },
+      {
+        "date": "2026-04-27",
+        "close": 6.8
+      },
+      {
+        "date": "2026-04-29",
+        "close": 7.0
+      },
+      {
+        "date": "2026-05-01",
+        "close": 6.95
+      },
+      {
+        "date": "2026-05-05",
+        "close": 6.9
+      },
+      {
         "date": "2026-05-07",
-        "close": 7.45
+        "close": 7.34
       },
       {
         "date": "2026-05-11",
-        "close": 7.1
+        "close": 7.0
       },
       {
         "date": "2026-05-13",
-        "close": 7.1
+        "close": 7.0
       },
       {
         "date": "2026-05-15",
-        "close": 8.9
+        "close": 8.77
       },
       {
         "date": "2026-05-19",
-        "close": 8.7
+        "close": 8.57
       },
       {
         "date": "2026-05-21",
-        "close": 8.5
+        "close": 8.38
       },
       {
         "date": "2026-05-25",
-        "close": 9.25
+        "close": 9.11
       }
     ]
   },
@@ -45830,7 +45862,7 @@ var STOCKS_DATABASE = {
     "business_summary": "Precious Shipping Public Company Limited, a holding company, owns and operates dry bulk ships on a tramp shipping basis in Thailand and internationally. The company is involved in chartering and owning ships, as well as investing in marine transportation and technical management of ships. It also owns and operates 40 vessels, including 6 Supramax, 13 Ultramax, 17 Handysize, and 4 Cement carriers with a total capacity of 1,862,905 deadweight tons. Precious Shipping Public Company Limited was founded in 1989 and is headquartered in Bangkok, Thailand.",
     "current_price": 7.15,
     "pe_ratio": 16.63,
-    "dividend_yield": 5.44,
+    "dividend_yield": 5.59,
     "high_1m": 7.84,
     "low_1m": 6.56,
     "support_levels": [
@@ -46383,7 +46415,7 @@ var STOCKS_DATABASE = {
     "business_summary": "Thoresen Thai Agencies Public Company Limited, together with its subsidiaries, operates as a shipping company in Asia, Africa, the United States, Europe, and Oceania. The company operates through five segments: Shipping, Offshore Service, Agrochemical, Food and Beverage, and Investment. It owns dry bulk vessels and provides shipping services, such as hauling a range of dry and break-bulk commodities, which include mineral ore, coal, agriculture products, construction materials, and steel products. The company also provides offshore services, including subsea engineering to the oil and gas industry; and produces and markets NPK compounds, bulk blending products, and fertilizers under the Stork brand for customers' needs for coffee, rice, rubber, vegetables, and various other crops. In addition, it offers port operations business, third party logistics services, coal and logistics business, and petroleum tankering business services. Further, it provides installation and decommissioning, ship management, international maritime transportation, exploration drilling, and aircraft charter services. Additionally, the company provides diving; ROV; subsea and hydrographic survey; ship supplies and stevedoring, logistics, and transportation; and port services, as well as operates and franchises Pizza Hut and Taco Bell restaurants. it also offers management and software consultancy, boat conveyance, road transport, wood pellet trading, electric and biomass energy, general and coal trading, ship agency, water management and pipeline installation and repairment, treated water, real estate, water supply, drinking and wastewater, floating storage, offloading, cargo lashing materials, warehousing, industrial machinery and equipment installation services, and air transportation services for passengers and goods, as well as imports and distributes EV trucks and motorcycles. The company was founded in 1904 and is based in Bangkok, Thailand.",
     "current_price": 4.98,
     "pe_ratio": 10.6,
-    "dividend_yield": 4.95,
+    "dividend_yield": 5.02,
     "high_1m": 5.25,
     "low_1m": 4.8,
     "support_levels": [
@@ -47490,7 +47522,7 @@ var STOCKS_DATABASE = {
     "business_summary": "Prima Marine Public Company Limited provides marine transportation of petroleum and chemical products in Thailand, Malaysia, the United Arab Emirates, Singapore, and internationally. The company transports and stores crude oil, petroleum products, semi-petroleum products, and liquefied petroleum gas. It also offers oil tankers for supporting offshore exploration and petroleum production; and transport and floating storage unit services. In addition, the company offers support services for exploration and production of offshore petroleum products, floating storage and offloading units; anchor handling tugs, and accommodation work barge; and ship management, ship agent, recruitment, and transportation services for crews. Further, it engages in investment holding activities and offers manning and ticket agency services. The company was founded in 1987 and is headquartered in Bangkok, Thailand. Prima Marine Public Company Limited operates as a subsidiary of Nathalin Group Co.,Ltd.",
     "current_price": 8.5,
     "pe_ratio": 9.14,
-    "dividend_yield": 5.75,
+    "dividend_yield": 5.88,
     "high_1m": 9.05,
     "low_1m": 8.25,
     "support_levels": [
@@ -50247,7 +50279,7 @@ var STOCKS_DATABASE = {
     "business_summary": "CPN Retail Growth Leasehold REIT (CPNREIT) was established on 1 December 2017 from the conversion from CPN Retail Growth Leasehold Property Fund (CPNRF). The trust units of CPNREIT were first traded on the Stock Exchange of Thailand on 14 December 2017. At the end of 3Q25, CPNREIT had been investing in leasehold rights of seven shopping malls, which are Central Rama 2, Central Rama 3, Central Pinklao, Central Chiangmai Airport, Central Pattaya, Central Marina and Central Lampang with total leasable area of 263,214 sq.m., four office buildings namely Pinklao Tower A and Tower B, The Ninth Towers and Unilever House with total leasable area of 112,482 sq.m., and one hotel which is Hilton Pattaya totaling 304 guest rooms. On 31 July 2023, the Extraordinary General Meeting of the Trust Unitholders No. 1/2023 (EGM No. 1/2023) approved the lease renewal of Central Pinklao for a period of 15 years (from 1 January 2025 to 31 December 2039) with the investment value of not exceeding Baht 12,161 million, together with the renovation of Central Pinklao during 2024 and 2025, with the budget of not more than Baht 1,100 million, and the change of lease payment of Central Rama 2 (Renewal Period) from a lump sum payment in 2025 to be the instalments throughout the lease term, provided that the first payment will be equal to the rental fee for the first 10-year lease period of not exceeding Baht 12,853 million. On 8 May 2024, CPNREIT successfully executed its capital increase plan for the contracts of Central Pinklao project for another 15 years from 1 January 2025 to 31 December 2039. On August 15, 2025, CPNREIT borrowed from financial institutions to pay for the lease of Central Rama 2 (Renewal Period) and the additional leasable area for the first 10-year lease period (16 August 2025-15 August 2035), so CPNREIT invested 100% in the leasable area of Central Rama 2. CPN Retail Growth Leasehold REIT was established on August, 11 2005 and incorporated in Thailand.",
     "current_price": 12.4,
     "pe_ratio": 13.33,
-    "dividend_yield": 8.63,
+    "dividend_yield": 8.91,
     "high_1m": 12.6,
     "low_1m": 11.84,
     "support_levels": [
@@ -51354,7 +51386,7 @@ var STOCKS_DATABASE = {
     "business_summary": "Frasers Property Thailand Industrial Freehold & Leasehold REIT is a real estate investment trust externally managed by TICON Management Company Limited. The firm acquire, lease and/or sub-lease of immovable properties. It will take the transfer of the ownership and/or leasehold rights and/or sub-leasehold rights therein and seek benefits from those properties by way of lease, sub-lease, transferring and/or disposing of immovable properties the Trust invests in or acquires. Frasers Property Thailand Industrial Freehold & Leasehold REIT was formed on December 12, 2014 and is based in Bangkok, Thailand.",
     "current_price": 11.9,
     "pe_ratio": 12.02,
-    "dividend_yield": 6.61,
+    "dividend_yield": 6.55,
     "high_1m": 12.0,
     "low_1m": 11.1,
     "support_levels": [
@@ -51909,21 +51941,25 @@ var STOCKS_DATABASE = {
     "current_price": 6.35,
     "pe_ratio": null,
     "dividend_yield": 0.0,
-    "high_1m": 6.4,
-    "low_1m": 6.15,
+    "high_1m": 6.18,
+    "low_1m": 5.94,
     "support_levels": [
-      5.27,
-      5.64,
-      5.98
+      5.09,
+      5.45,
+      5.77
     ],
     "resistance_levels": [
-      6.67,
-      6.4
+      6.44,
+      6.18
     ],
-    "upcoming_xd": "2026-08-28",
-    "upcoming_dividend_amount": 0.21,
-    "upcoming_payment_date": "2026-09-12",
+    "upcoming_xd": "2026-11-25",
+    "upcoming_dividend_amount": 0.22,
+    "upcoming_payment_date": "2026-12-10",
     "dividend_history": [
+      {
+        "date": "2026-05-27",
+        "amount": 0.2191
+      },
       {
         "date": "2026-02-27",
         "amount": 0.2051
@@ -51959,496 +51995,492 @@ var STOCKS_DATABASE = {
       {
         "date": "2024-03-05",
         "amount": 0.1
-      },
-      {
-        "date": "2024-03-04",
-        "amount": 0.2069
       }
     ],
     "history": [
       {
         "date": "2025-05-26",
-        "close": 5.28
+        "close": 5.1
       },
       {
         "date": "2025-05-28",
-        "close": 5.34
+        "close": 5.15
       },
       {
         "date": "2025-05-30",
-        "close": 5.29
+        "close": 5.11
       },
       {
         "date": "2025-06-05",
-        "close": 5.34
+        "close": 5.15
       },
       {
         "date": "2025-06-09",
-        "close": 5.29
+        "close": 5.11
       },
       {
         "date": "2025-06-11",
-        "close": 5.34
+        "close": 5.15
       },
       {
         "date": "2025-06-13",
-        "close": 5.29
+        "close": 5.11
       },
       {
         "date": "2025-06-17",
-        "close": 5.34
+        "close": 5.15
       },
       {
         "date": "2025-06-19",
-        "close": 5.29
+        "close": 5.11
       },
       {
         "date": "2025-06-23",
-        "close": 5.29
+        "close": 5.11
       },
       {
         "date": "2025-06-25",
-        "close": 5.34
+        "close": 5.15
       },
       {
         "date": "2025-06-27",
-        "close": 5.25
+        "close": 5.06
       },
       {
         "date": "2025-07-01",
-        "close": 5.34
+        "close": 5.15
       },
       {
         "date": "2025-07-03",
-        "close": 5.29
+        "close": 5.11
       },
       {
         "date": "2025-07-07",
-        "close": 5.29
+        "close": 5.11
       },
       {
         "date": "2025-07-09",
-        "close": 5.29
+        "close": 5.11
       },
       {
         "date": "2025-07-14",
-        "close": 5.34
+        "close": 5.15
       },
       {
         "date": "2025-07-16",
-        "close": 5.29
+        "close": 5.11
       },
       {
         "date": "2025-07-18",
-        "close": 5.29
+        "close": 5.11
       },
       {
         "date": "2025-07-22",
-        "close": 5.34
+        "close": 5.15
       },
       {
         "date": "2025-07-24",
-        "close": 5.34
+        "close": 5.15
       },
       {
         "date": "2025-07-29",
-        "close": 5.34
+        "close": 5.15
       },
       {
         "date": "2025-07-31",
-        "close": 5.43
+        "close": 5.24
       },
       {
         "date": "2025-08-04",
-        "close": 5.34
+        "close": 5.15
       },
       {
         "date": "2025-08-06",
-        "close": 5.47
+        "close": 5.28
       },
       {
         "date": "2025-08-08",
-        "close": 5.43
+        "close": 5.24
       },
       {
         "date": "2025-08-14",
-        "close": 5.43
+        "close": 5.24
       },
       {
         "date": "2025-08-18",
-        "close": 5.43
+        "close": 5.24
       },
       {
         "date": "2025-08-20",
-        "close": 5.52
+        "close": 5.33
       },
       {
         "date": "2025-08-22",
-        "close": 5.47
+        "close": 5.28
       },
       {
         "date": "2025-08-26",
-        "close": 5.47
+        "close": 5.28
       },
       {
         "date": "2025-08-28",
-        "close": 5.52
+        "close": 5.33
       },
       {
         "date": "2025-09-01",
-        "close": 5.57
+        "close": 5.38
       },
       {
         "date": "2025-09-03",
-        "close": 5.57
+        "close": 5.38
       },
       {
         "date": "2025-09-05",
-        "close": 5.61
+        "close": 5.42
       },
       {
         "date": "2025-09-09",
-        "close": 5.61
+        "close": 5.42
       },
       {
         "date": "2025-09-11",
-        "close": 5.61
+        "close": 5.42
       },
       {
         "date": "2025-09-15",
-        "close": 5.66
+        "close": 5.47
       },
       {
         "date": "2025-09-17",
-        "close": 5.61
+        "close": 5.42
       },
       {
         "date": "2025-09-19",
-        "close": 5.61
+        "close": 5.42
       },
       {
         "date": "2025-09-23",
-        "close": 5.61
+        "close": 5.42
       },
       {
         "date": "2025-09-25",
-        "close": 5.61
+        "close": 5.42
       },
       {
         "date": "2025-09-29",
-        "close": 5.66
+        "close": 5.47
       },
       {
         "date": "2025-10-01",
-        "close": 5.66
+        "close": 5.47
       },
       {
         "date": "2025-10-03",
-        "close": 5.66
+        "close": 5.47
       },
       {
         "date": "2025-10-07",
-        "close": 5.61
+        "close": 5.42
       },
       {
         "date": "2025-10-09",
-        "close": 5.61
+        "close": 5.42
       },
       {
         "date": "2025-10-14",
-        "close": 5.61
+        "close": 5.42
       },
       {
         "date": "2025-10-16",
-        "close": 5.66
+        "close": 5.47
       },
       {
         "date": "2025-10-20",
-        "close": 5.66
+        "close": 5.47
       },
       {
         "date": "2025-10-22",
-        "close": 5.66
+        "close": 5.47
       },
       {
         "date": "2025-10-27",
-        "close": 5.66
+        "close": 5.47
       },
       {
         "date": "2025-10-29",
-        "close": 5.71
+        "close": 5.51
       },
       {
         "date": "2025-10-31",
-        "close": 5.71
+        "close": 5.51
       },
       {
         "date": "2025-11-04",
-        "close": 5.66
+        "close": 5.47
       },
       {
         "date": "2025-11-06",
-        "close": 5.71
+        "close": 5.51
       },
       {
         "date": "2025-11-10",
-        "close": 5.71
+        "close": 5.51
       },
       {
         "date": "2025-11-12",
-        "close": 5.71
+        "close": 5.51
       },
       {
         "date": "2025-11-14",
-        "close": 5.71
+        "close": 5.51
       },
       {
         "date": "2025-11-18",
-        "close": 5.75
+        "close": 5.56
       },
       {
         "date": "2025-11-20",
-        "close": 5.75
+        "close": 5.56
       },
       {
         "date": "2025-11-24",
-        "close": 5.71
+        "close": 5.51
       },
       {
         "date": "2025-11-26",
-        "close": 5.8
+        "close": 5.6
       },
       {
         "date": "2025-11-28",
-        "close": 5.8
+        "close": 5.6
       },
       {
         "date": "2025-12-02",
-        "close": 5.8
+        "close": 5.6
       },
       {
         "date": "2025-12-04",
-        "close": 5.85
+        "close": 5.65
       },
       {
         "date": "2025-12-09",
-        "close": 5.85
+        "close": 5.65
       },
       {
         "date": "2025-12-12",
-        "close": 5.85
+        "close": 5.65
       },
       {
         "date": "2025-12-16",
-        "close": 5.9
+        "close": 5.7
       },
       {
         "date": "2025-12-18",
-        "close": 5.85
+        "close": 5.65
       },
       {
         "date": "2025-12-22",
-        "close": 5.9
+        "close": 5.7
       },
       {
         "date": "2025-12-24",
-        "close": 5.9
+        "close": 5.7
       },
       {
         "date": "2025-12-26",
-        "close": 5.9
+        "close": 5.7
       },
       {
         "date": "2025-12-30",
-        "close": 5.9
+        "close": 5.7
       },
       {
         "date": "2026-01-06",
-        "close": 5.95
+        "close": 5.74
       },
       {
         "date": "2026-01-08",
-        "close": 6.0
+        "close": 5.79
       },
       {
         "date": "2026-01-12",
-        "close": 5.95
+        "close": 5.74
       },
       {
         "date": "2026-01-14",
-        "close": 5.95
+        "close": 5.74
       },
       {
         "date": "2026-01-16",
-        "close": 6.0
+        "close": 5.79
       },
       {
         "date": "2026-01-20",
-        "close": 5.95
+        "close": 5.74
       },
       {
         "date": "2026-01-22",
-        "close": 5.95
+        "close": 5.74
       },
       {
         "date": "2026-01-26",
-        "close": 6.0
+        "close": 5.79
       },
       {
         "date": "2026-01-28",
-        "close": 6.0
+        "close": 5.79
       },
       {
         "date": "2026-01-30",
-        "close": 6.0
+        "close": 5.79
       },
       {
         "date": "2026-02-03",
-        "close": 5.95
+        "close": 5.74
       },
       {
         "date": "2026-02-05",
-        "close": 6.0
+        "close": 5.79
       },
       {
         "date": "2026-02-09",
-        "close": 6.0
+        "close": 5.79
       },
       {
         "date": "2026-02-11",
-        "close": 6.0
+        "close": 5.79
       },
       {
         "date": "2026-02-13",
-        "close": 6.0
+        "close": 5.79
       },
       {
         "date": "2026-02-17",
-        "close": 6.09
+        "close": 5.88
       },
       {
         "date": "2026-02-19",
-        "close": 6.0
+        "close": 5.79
       },
       {
         "date": "2026-02-23",
-        "close": 6.05
+        "close": 5.84
       },
       {
         "date": "2026-02-25",
-        "close": 6.09
+        "close": 5.88
       },
       {
         "date": "2026-02-27",
-        "close": 6.2
+        "close": 5.99
       },
       {
         "date": "2026-03-04",
-        "close": 6.1
+        "close": 5.89
       },
       {
         "date": "2026-03-06",
-        "close": 6.15
+        "close": 5.94
       },
       {
         "date": "2026-03-10",
-        "close": 6.1
+        "close": 5.89
       },
       {
         "date": "2026-03-12",
-        "close": 6.05
+        "close": 5.84
       },
       {
         "date": "2026-03-16",
-        "close": 6.1
+        "close": 5.89
       },
       {
         "date": "2026-03-18",
-        "close": 6.15
+        "close": 5.94
       },
       {
         "date": "2026-03-20",
-        "close": 6.15
+        "close": 5.94
       },
       {
         "date": "2026-03-24",
-        "close": 6.1
+        "close": 5.89
       },
       {
         "date": "2026-03-26",
-        "close": 6.1
+        "close": 5.89
       },
       {
         "date": "2026-03-30",
-        "close": 6.1
+        "close": 5.89
       },
       {
         "date": "2026-04-01",
-        "close": 6.1
+        "close": 5.89
       },
       {
         "date": "2026-04-03",
-        "close": 6.2
+        "close": 5.99
       },
       {
         "date": "2026-04-08",
-        "close": 6.2
+        "close": 5.99
       },
       {
         "date": "2026-04-10",
-        "close": 6.15
+        "close": 5.94
       },
       {
         "date": "2026-04-17",
-        "close": 6.2
+        "close": 5.99
       },
       {
         "date": "2026-04-21",
-        "close": 6.15
+        "close": 5.94
       },
       {
         "date": "2026-04-23",
-        "close": 6.2
+        "close": 5.99
       },
       {
         "date": "2026-04-27",
-        "close": 6.2
+        "close": 5.99
       },
       {
         "date": "2026-04-29",
-        "close": 6.2
+        "close": 5.99
       },
       {
         "date": "2026-05-05",
-        "close": 6.2
+        "close": 5.99
       },
       {
         "date": "2026-05-07",
-        "close": 6.2
+        "close": 5.99
       },
       {
         "date": "2026-05-11",
-        "close": 6.2
+        "close": 5.99
       },
       {
         "date": "2026-05-13",
-        "close": 6.3
+        "close": 6.08
       },
       {
         "date": "2026-05-15",
-        "close": 6.3
+        "close": 6.08
       },
       {
         "date": "2026-05-19",
-        "close": 6.35
+        "close": 6.13
       },
       {
         "date": "2026-05-21",
-        "close": 6.35
+        "close": 6.13
       },
       {
         "date": "2026-05-25",
-        "close": 6.35
+        "close": 6.13
       }
     ]
   },
@@ -52459,20 +52491,24 @@ var STOCKS_DATABASE = {
     "current_price": 6.65,
     "pe_ratio": null,
     "dividend_yield": 0.0,
-    "high_1m": 6.7,
-    "low_1m": 6.4,
+    "high_1m": 6.58,
+    "low_1m": 6.28,
     "support_levels": [
-      5.2,
-      5.78,
-      6.45
+      5.11,
+      5.68,
+      6.33
     ],
     "resistance_levels": [
-      6.83
+      6.7
     ],
-    "upcoming_xd": "2026-08-28",
+    "upcoming_xd": "2026-11-25",
     "upcoming_dividend_amount": 0.12,
-    "upcoming_payment_date": "2026-09-12",
+    "upcoming_payment_date": "2026-12-10",
     "dividend_history": [
+      {
+        "date": "2026-05-27",
+        "amount": 0.1204
+      },
       {
         "date": "2026-02-27",
         "amount": 0.1219
@@ -52508,496 +52544,492 @@ var STOCKS_DATABASE = {
       {
         "date": "2024-03-04",
         "amount": 0.1039
-      },
-      {
-        "date": "2023-12-12",
-        "amount": 0.1057
       }
     ],
     "history": [
       {
         "date": "2025-05-26",
-        "close": 5.61
+        "close": 5.51
       },
       {
         "date": "2025-05-28",
-        "close": 5.63
+        "close": 5.53
       },
       {
         "date": "2025-05-30",
-        "close": 5.63
+        "close": 5.53
       },
       {
         "date": "2025-06-05",
-        "close": 5.54
+        "close": 5.44
       },
       {
         "date": "2025-06-09",
-        "close": 5.58
+        "close": 5.48
       },
       {
         "date": "2025-06-11",
-        "close": 5.58
+        "close": 5.48
       },
       {
         "date": "2025-06-13",
-        "close": 5.58
+        "close": 5.48
       },
       {
         "date": "2025-06-17",
-        "close": 5.49
-      },
-      {
-        "date": "2025-06-19",
-        "close": 5.44
-      },
-      {
-        "date": "2025-06-23",
-        "close": 5.25
-      },
-      {
-        "date": "2025-06-25",
-        "close": 5.2
-      },
-      {
-        "date": "2025-06-27",
-        "close": 5.25
-      },
-      {
-        "date": "2025-07-01",
-        "close": 5.3
-      },
-      {
-        "date": "2025-07-03",
         "close": 5.39
       },
       {
+        "date": "2025-06-19",
+        "close": 5.34
+      },
+      {
+        "date": "2025-06-23",
+        "close": 5.16
+      },
+      {
+        "date": "2025-06-25",
+        "close": 5.11
+      },
+      {
+        "date": "2025-06-27",
+        "close": 5.16
+      },
+      {
+        "date": "2025-07-01",
+        "close": 5.2
+      },
+      {
+        "date": "2025-07-03",
+        "close": 5.3
+      },
+      {
         "date": "2025-07-07",
-        "close": 5.44
+        "close": 5.34
       },
       {
         "date": "2025-07-09",
-        "close": 5.44
+        "close": 5.34
       },
       {
         "date": "2025-07-14",
-        "close": 5.44
+        "close": 5.34
       },
       {
         "date": "2025-07-16",
-        "close": 5.49
+        "close": 5.39
       },
       {
         "date": "2025-07-18",
-        "close": 5.54
+        "close": 5.44
       },
       {
         "date": "2025-07-22",
-        "close": 5.49
+        "close": 5.39
       },
       {
         "date": "2025-07-24",
-        "close": 5.63
+        "close": 5.53
       },
       {
         "date": "2025-07-29",
-        "close": 5.58
+        "close": 5.48
       },
       {
         "date": "2025-07-31",
-        "close": 5.63
+        "close": 5.53
       },
       {
         "date": "2025-08-04",
-        "close": 5.72
+        "close": 5.62
       },
       {
         "date": "2025-08-06",
-        "close": 5.72
+        "close": 5.62
       },
       {
         "date": "2025-08-08",
-        "close": 5.72
+        "close": 5.62
       },
       {
         "date": "2025-08-14",
-        "close": 5.72
+        "close": 5.62
       },
       {
         "date": "2025-08-18",
-        "close": 5.72
+        "close": 5.62
       },
       {
         "date": "2025-08-20",
-        "close": 5.77
+        "close": 5.67
       },
       {
         "date": "2025-08-22",
-        "close": 5.72
+        "close": 5.62
       },
       {
         "date": "2025-08-26",
-        "close": 5.68
+        "close": 5.57
       },
       {
         "date": "2025-08-28",
-        "close": 5.74
+        "close": 5.63
       },
       {
         "date": "2025-09-01",
-        "close": 5.69
+        "close": 5.59
       },
       {
         "date": "2025-09-03",
-        "close": 5.64
+        "close": 5.54
       },
       {
         "date": "2025-09-05",
-        "close": 5.69
+        "close": 5.59
       },
       {
         "date": "2025-09-09",
-        "close": 5.83
+        "close": 5.73
       },
       {
         "date": "2025-09-11",
-        "close": 5.88
+        "close": 5.78
       },
       {
         "date": "2025-09-15",
-        "close": 5.88
+        "close": 5.78
       },
       {
         "date": "2025-09-17",
-        "close": 5.98
+        "close": 5.87
       },
       {
         "date": "2025-09-19",
-        "close": 5.88
+        "close": 5.78
       },
       {
         "date": "2025-09-23",
-        "close": 5.88
+        "close": 5.78
       },
       {
         "date": "2025-09-25",
-        "close": 5.98
+        "close": 5.87
       },
       {
         "date": "2025-09-29",
-        "close": 5.93
+        "close": 5.82
       },
       {
         "date": "2025-10-01",
-        "close": 5.98
+        "close": 5.87
       },
       {
         "date": "2025-10-03",
-        "close": 5.88
+        "close": 5.78
       },
       {
         "date": "2025-10-07",
-        "close": 5.88
+        "close": 5.78
       },
       {
         "date": "2025-10-09",
-        "close": 5.88
+        "close": 5.78
       },
       {
         "date": "2025-10-14",
-        "close": 5.83
+        "close": 5.73
       },
       {
         "date": "2025-10-16",
-        "close": 5.83
+        "close": 5.73
       },
       {
         "date": "2025-10-20",
-        "close": 5.83
+        "close": 5.73
       },
       {
         "date": "2025-10-22",
-        "close": 5.88
+        "close": 5.78
       },
       {
         "date": "2025-10-27",
-        "close": 5.83
+        "close": 5.73
       },
       {
         "date": "2025-10-29",
-        "close": 5.83
+        "close": 5.73
       },
       {
         "date": "2025-10-31",
-        "close": 5.83
+        "close": 5.73
       },
       {
         "date": "2025-11-04",
-        "close": 5.83
+        "close": 5.73
       },
       {
         "date": "2025-11-06",
-        "close": 5.88
+        "close": 5.78
       },
       {
         "date": "2025-11-10",
-        "close": 5.88
+        "close": 5.78
       },
       {
         "date": "2025-11-12",
-        "close": 5.79
+        "close": 5.68
       },
       {
         "date": "2025-11-14",
-        "close": 5.83
+        "close": 5.73
       },
       {
         "date": "2025-11-18",
-        "close": 5.88
+        "close": 5.78
       },
       {
         "date": "2025-11-20",
-        "close": 5.88
+        "close": 5.78
       },
       {
         "date": "2025-11-24",
-        "close": 5.98
+        "close": 5.87
       },
       {
         "date": "2025-11-26",
-        "close": 5.98
+        "close": 5.87
       },
       {
         "date": "2025-11-28",
-        "close": 5.98
+        "close": 5.87
       },
       {
         "date": "2025-12-02",
-        "close": 6.03
+        "close": 5.92
       },
       {
         "date": "2025-12-04",
-        "close": 5.98
+        "close": 5.87
       },
       {
         "date": "2025-12-09",
-        "close": 6.04
+        "close": 5.93
       },
       {
         "date": "2025-12-12",
-        "close": 6.04
+        "close": 5.93
       },
       {
         "date": "2025-12-16",
-        "close": 6.09
+        "close": 5.98
       },
       {
         "date": "2025-12-18",
-        "close": 6.04
+        "close": 5.93
       },
       {
         "date": "2025-12-22",
-        "close": 6.09
+        "close": 5.98
       },
       {
         "date": "2025-12-24",
-        "close": 6.09
+        "close": 5.98
       },
       {
         "date": "2025-12-26",
-        "close": 6.09
+        "close": 5.98
       },
       {
         "date": "2025-12-30",
-        "close": 6.14
+        "close": 6.03
       },
       {
         "date": "2026-01-06",
-        "close": 6.14
+        "close": 6.03
       },
       {
         "date": "2026-01-08",
-        "close": 6.24
+        "close": 6.13
       },
       {
         "date": "2026-01-12",
-        "close": 6.29
+        "close": 6.17
       },
       {
         "date": "2026-01-14",
-        "close": 6.39
+        "close": 6.27
       },
       {
         "date": "2026-01-16",
-        "close": 6.39
+        "close": 6.27
       },
       {
         "date": "2026-01-20",
-        "close": 6.44
+        "close": 6.32
       },
       {
         "date": "2026-01-22",
-        "close": 6.48
+        "close": 6.37
       },
       {
         "date": "2026-01-26",
-        "close": 6.44
+        "close": 6.32
       },
       {
         "date": "2026-01-28",
-        "close": 6.58
+        "close": 6.46
       },
       {
         "date": "2026-01-30",
-        "close": 6.48
+        "close": 6.37
       },
       {
         "date": "2026-02-03",
-        "close": 6.58
+        "close": 6.46
       },
       {
         "date": "2026-02-05",
-        "close": 6.48
+        "close": 6.37
       },
       {
         "date": "2026-02-09",
-        "close": 6.58
+        "close": 6.46
       },
       {
         "date": "2026-02-11",
-        "close": 6.63
+        "close": 6.51
       },
       {
         "date": "2026-02-13",
-        "close": 6.63
+        "close": 6.51
       },
       {
         "date": "2026-02-17",
-        "close": 6.68
+        "close": 6.56
       },
       {
         "date": "2026-02-19",
-        "close": 6.78
+        "close": 6.66
       },
       {
         "date": "2026-02-23",
-        "close": 6.73
+        "close": 6.61
       },
       {
         "date": "2026-02-25",
-        "close": 6.78
+        "close": 6.66
       },
       {
         "date": "2026-02-27",
-        "close": 6.8
+        "close": 6.68
       },
       {
         "date": "2026-03-04",
-        "close": 6.45
+        "close": 6.33
       },
       {
         "date": "2026-03-06",
-        "close": 6.5
+        "close": 6.38
       },
       {
         "date": "2026-03-10",
-        "close": 6.5
+        "close": 6.38
       },
       {
         "date": "2026-03-12",
-        "close": 6.55
+        "close": 6.43
       },
       {
         "date": "2026-03-16",
-        "close": 6.5
+        "close": 6.38
       },
       {
         "date": "2026-03-18",
-        "close": 6.65
+        "close": 6.53
       },
       {
         "date": "2026-03-20",
-        "close": 6.5
+        "close": 6.38
       },
       {
         "date": "2026-03-24",
-        "close": 6.45
+        "close": 6.33
       },
       {
         "date": "2026-03-26",
-        "close": 6.5
+        "close": 6.38
       },
       {
         "date": "2026-03-30",
-        "close": 6.5
+        "close": 6.38
       },
       {
         "date": "2026-04-01",
-        "close": 6.6
+        "close": 6.48
       },
       {
         "date": "2026-04-03",
-        "close": 6.6
+        "close": 6.48
       },
       {
         "date": "2026-04-08",
-        "close": 6.6
+        "close": 6.48
       },
       {
         "date": "2026-04-10",
-        "close": 6.6
+        "close": 6.48
       },
       {
         "date": "2026-04-17",
-        "close": 6.5
+        "close": 6.38
       },
       {
         "date": "2026-04-21",
-        "close": 6.5
+        "close": 6.38
       },
       {
         "date": "2026-04-23",
-        "close": 6.5
+        "close": 6.38
       },
       {
         "date": "2026-04-27",
-        "close": 6.45
+        "close": 6.33
       },
       {
         "date": "2026-04-29",
-        "close": 6.55
+        "close": 6.43
       },
       {
         "date": "2026-05-05",
-        "close": 6.55
+        "close": 6.43
       },
       {
         "date": "2026-05-07",
-        "close": 6.55
+        "close": 6.43
       },
       {
         "date": "2026-05-11",
-        "close": 6.55
+        "close": 6.43
       },
       {
         "date": "2026-05-13",
-        "close": 6.65
+        "close": 6.53
       },
       {
         "date": "2026-05-15",
-        "close": 6.7
+        "close": 6.58
       },
       {
         "date": "2026-05-19",
-        "close": 6.6
+        "close": 6.48
       },
       {
         "date": "2026-05-21",
-        "close": 6.65
+        "close": 6.53
       },
       {
         "date": "2026-05-25",
-        "close": 6.7
+        "close": 6.58
       }
     ]
   },
@@ -54114,21 +54146,25 @@ var STOCKS_DATABASE = {
     "business_summary": "ข้อมูลธุรกิจสำหรับหุ้นนี้ยังไม่พร้อมใช้งานในระบบ",
     "current_price": 5.45,
     "pe_ratio": 11.12,
-    "dividend_yield": 8.15,
-    "high_1m": 5.75,
-    "low_1m": 5.3,
+    "dividend_yield": 8.07,
+    "high_1m": 5.63,
+    "low_1m": 5.19,
     "support_levels": [
-      4.66,
-      4.86,
-      5.06
+      4.57,
+      4.76,
+      4.96
     ],
     "resistance_levels": [
-      5.7
+      5.58
     ],
     "upcoming_xd": "2026-05-27",
-    "upcoming_dividend_amount": 0.15,
+    "upcoming_dividend_amount": 0.11,
     "upcoming_payment_date": "2026-06-11",
     "dividend_history": [
+      {
+        "date": "2026-05-27",
+        "amount": 0.11
+      },
       {
         "date": "2026-03-12",
         "amount": 0.1468
@@ -54164,500 +54200,496 @@ var STOCKS_DATABASE = {
       {
         "date": "2024-03-07",
         "amount": 0.1607
-      },
-      {
-        "date": "2023-11-21",
-        "amount": 0.1607
       }
     ],
     "history": [
       {
         "date": "2025-05-26",
-        "close": 4.4
+        "close": 4.31
       },
       {
         "date": "2025-05-28",
-        "close": 4.42
+        "close": 4.33
       },
       {
         "date": "2025-05-30",
-        "close": 4.43
+        "close": 4.34
       },
       {
         "date": "2025-06-05",
-        "close": 4.4
+        "close": 4.31
       },
       {
         "date": "2025-06-09",
-        "close": 4.43
+        "close": 4.34
       },
       {
         "date": "2025-06-11",
-        "close": 4.4
+        "close": 4.31
       },
       {
         "date": "2025-06-13",
-        "close": 4.43
+        "close": 4.34
       },
       {
         "date": "2025-06-17",
-        "close": 4.41
+        "close": 4.32
       },
       {
         "date": "2025-06-19",
-        "close": 4.38
+        "close": 4.29
       },
       {
         "date": "2025-06-23",
-        "close": 4.34
+        "close": 4.25
       },
       {
         "date": "2025-06-25",
-        "close": 4.34
+        "close": 4.25
       },
       {
         "date": "2025-06-27",
-        "close": 4.32
+        "close": 4.23
       },
       {
         "date": "2025-07-01",
-        "close": 4.45
-      },
-      {
-        "date": "2025-07-03",
-        "close": 4.43
-      },
-      {
-        "date": "2025-07-07",
-        "close": 4.32
-      },
-      {
-        "date": "2025-07-09",
         "close": 4.36
       },
       {
+        "date": "2025-07-03",
+        "close": 4.34
+      },
+      {
+        "date": "2025-07-07",
+        "close": 4.23
+      },
+      {
+        "date": "2025-07-09",
+        "close": 4.27
+      },
+      {
         "date": "2025-07-14",
-        "close": 4.38
+        "close": 4.29
       },
       {
         "date": "2025-07-16",
-        "close": 4.4
+        "close": 4.31
       },
       {
         "date": "2025-07-18",
-        "close": 4.45
+        "close": 4.36
       },
       {
         "date": "2025-07-22",
-        "close": 4.43
+        "close": 4.34
       },
       {
         "date": "2025-07-24",
-        "close": 4.38
+        "close": 4.29
       },
       {
         "date": "2025-07-29",
-        "close": 4.41
+        "close": 4.32
       },
       {
         "date": "2025-07-31",
-        "close": 4.49
+        "close": 4.4
       },
       {
         "date": "2025-08-04",
-        "close": 4.52
+        "close": 4.43
       },
       {
         "date": "2025-08-06",
-        "close": 4.54
+        "close": 4.45
       },
       {
         "date": "2025-08-08",
-        "close": 4.56
+        "close": 4.47
       },
       {
         "date": "2025-08-14",
-        "close": 4.56
+        "close": 4.47
       },
       {
         "date": "2025-08-18",
-        "close": 4.56
+        "close": 4.47
       },
       {
         "date": "2025-08-20",
-        "close": 4.62
+        "close": 4.53
       },
       {
         "date": "2025-08-22",
-        "close": 4.59
+        "close": 4.5
       },
       {
         "date": "2025-08-26",
-        "close": 4.55
+        "close": 4.46
       },
       {
         "date": "2025-08-28",
-        "close": 4.61
+        "close": 4.51
       },
       {
         "date": "2025-09-01",
-        "close": 4.64
+        "close": 4.55
       },
       {
         "date": "2025-09-03",
-        "close": 4.64
+        "close": 4.55
       },
       {
         "date": "2025-09-05",
-        "close": 4.63
+        "close": 4.53
       },
       {
         "date": "2025-09-09",
-        "close": 4.66
+        "close": 4.57
       },
       {
         "date": "2025-09-11",
-        "close": 4.72
+        "close": 4.62
       },
       {
         "date": "2025-09-15",
-        "close": 4.72
+        "close": 4.62
       },
       {
         "date": "2025-09-17",
-        "close": 4.72
+        "close": 4.62
       },
       {
         "date": "2025-09-19",
-        "close": 4.72
+        "close": 4.62
       },
       {
         "date": "2025-09-23",
-        "close": 4.7
+        "close": 4.61
       },
       {
         "date": "2025-09-25",
-        "close": 4.72
+        "close": 4.62
       },
       {
         "date": "2025-09-29",
-        "close": 4.72
+        "close": 4.62
       },
       {
         "date": "2025-10-01",
-        "close": 4.68
+        "close": 4.59
       },
       {
         "date": "2025-10-03",
-        "close": 4.81
+        "close": 4.72
       },
       {
         "date": "2025-10-07",
-        "close": 4.72
+        "close": 4.62
       },
       {
         "date": "2025-10-09",
-        "close": 4.7
+        "close": 4.61
       },
       {
         "date": "2025-10-14",
-        "close": 4.68
+        "close": 4.59
       },
       {
         "date": "2025-10-16",
-        "close": 4.72
+        "close": 4.62
       },
       {
         "date": "2025-10-20",
-        "close": 4.72
+        "close": 4.62
       },
       {
         "date": "2025-10-22",
-        "close": 4.72
+        "close": 4.62
       },
       {
         "date": "2025-10-27",
-        "close": 4.7
+        "close": 4.61
       },
       {
         "date": "2025-10-29",
-        "close": 4.7
+        "close": 4.61
       },
       {
         "date": "2025-10-31",
-        "close": 4.7
+        "close": 4.61
       },
       {
         "date": "2025-11-04",
-        "close": 4.7
+        "close": 4.61
       },
       {
         "date": "2025-11-06",
-        "close": 4.77
+        "close": 4.67
       },
       {
         "date": "2025-11-10",
-        "close": 4.77
+        "close": 4.67
       },
       {
         "date": "2025-11-12",
-        "close": 4.81
-      },
-      {
-        "date": "2025-11-14",
-        "close": 4.68
-      },
-      {
-        "date": "2025-11-18",
-        "close": 4.68
-      },
-      {
-        "date": "2025-11-20",
-        "close": 4.68
-      },
-      {
-        "date": "2025-11-24",
-        "close": 4.68
-      },
-      {
-        "date": "2025-11-26",
         "close": 4.72
       },
       {
+        "date": "2025-11-14",
+        "close": 4.59
+      },
+      {
+        "date": "2025-11-18",
+        "close": 4.59
+      },
+      {
+        "date": "2025-11-20",
+        "close": 4.59
+      },
+      {
+        "date": "2025-11-24",
+        "close": 4.59
+      },
+      {
+        "date": "2025-11-26",
+        "close": 4.62
+      },
+      {
         "date": "2025-11-28",
-        "close": 4.77
+        "close": 4.67
       },
       {
         "date": "2025-12-02",
-        "close": 4.77
+        "close": 4.67
       },
       {
         "date": "2025-12-04",
-        "close": 4.75
+        "close": 4.65
       },
       {
         "date": "2025-12-09",
-        "close": 4.73
+        "close": 4.63
       },
       {
         "date": "2025-12-12",
-        "close": 4.77
+        "close": 4.67
       },
       {
         "date": "2025-12-16",
-        "close": 4.82
+        "close": 4.73
       },
       {
         "date": "2025-12-18",
-        "close": 4.84
+        "close": 4.75
       },
       {
         "date": "2025-12-22",
-        "close": 4.86
+        "close": 4.76
       },
       {
         "date": "2025-12-24",
-        "close": 4.86
+        "close": 4.76
       },
       {
         "date": "2025-12-26",
-        "close": 4.91
+        "close": 4.81
       },
       {
         "date": "2025-12-30",
-        "close": 4.91
+        "close": 4.81
       },
       {
         "date": "2026-01-06",
-        "close": 4.91
+        "close": 4.81
       },
       {
         "date": "2026-01-08",
-        "close": 4.96
-      },
-      {
-        "date": "2026-01-12",
-        "close": 4.91
-      },
-      {
-        "date": "2026-01-14",
-        "close": 4.91
-      },
-      {
-        "date": "2026-01-16",
-        "close": 4.96
-      },
-      {
-        "date": "2026-01-20",
-        "close": 4.96
-      },
-      {
-        "date": "2026-01-22",
         "close": 4.86
       },
       {
+        "date": "2026-01-12",
+        "close": 4.81
+      },
+      {
+        "date": "2026-01-14",
+        "close": 4.81
+      },
+      {
+        "date": "2026-01-16",
+        "close": 4.86
+      },
+      {
+        "date": "2026-01-20",
+        "close": 4.86
+      },
+      {
+        "date": "2026-01-22",
+        "close": 4.76
+      },
+      {
         "date": "2026-01-26",
-        "close": 4.91
+        "close": 4.81
       },
       {
         "date": "2026-01-28",
-        "close": 4.96
+        "close": 4.86
       },
       {
         "date": "2026-01-30",
-        "close": 4.96
+        "close": 4.86
       },
       {
         "date": "2026-02-03",
-        "close": 5.06
+        "close": 4.96
       },
       {
         "date": "2026-02-05",
-        "close": 5.06
+        "close": 4.96
       },
       {
         "date": "2026-02-09",
-        "close": 5.06
+        "close": 4.96
       },
       {
         "date": "2026-02-11",
-        "close": 5.15
+        "close": 5.05
       },
       {
         "date": "2026-02-13",
-        "close": 5.2
+        "close": 5.1
       },
       {
         "date": "2026-02-17",
-        "close": 5.25
-      },
-      {
-        "date": "2026-02-19",
-        "close": 5.25
-      },
-      {
-        "date": "2026-02-23",
         "close": 5.15
       },
       {
+        "date": "2026-02-19",
+        "close": 5.15
+      },
+      {
+        "date": "2026-02-23",
+        "close": 5.05
+      },
+      {
         "date": "2026-02-25",
-        "close": 5.2
+        "close": 5.1
       },
       {
         "date": "2026-02-27",
-        "close": 5.3
+        "close": 5.19
       },
       {
         "date": "2026-03-04",
-        "close": 5.11
+        "close": 5.0
       },
       {
         "date": "2026-03-06",
-        "close": 5.25
+        "close": 5.15
       },
       {
         "date": "2026-03-10",
-        "close": 5.06
+        "close": 4.96
       },
       {
         "date": "2026-03-12",
-        "close": 5.25
+        "close": 5.14
       },
       {
         "date": "2026-03-16",
-        "close": 5.2
+        "close": 5.1
       },
       {
         "date": "2026-03-18",
-        "close": 5.25
+        "close": 5.14
       },
       {
         "date": "2026-03-20",
-        "close": 5.2
+        "close": 5.1
       },
       {
         "date": "2026-03-24",
-        "close": 5.2
+        "close": 5.1
       },
       {
         "date": "2026-03-26",
-        "close": 5.25
+        "close": 5.14
       },
       {
         "date": "2026-03-30",
-        "close": 5.25
+        "close": 5.14
       },
       {
         "date": "2026-04-01",
-        "close": 5.25
+        "close": 5.14
       },
       {
         "date": "2026-04-03",
-        "close": 5.25
+        "close": 5.14
       },
       {
         "date": "2026-04-08",
-        "close": 5.3
+        "close": 5.19
       },
       {
         "date": "2026-04-10",
-        "close": 5.35
+        "close": 5.24
       },
       {
         "date": "2026-04-17",
-        "close": 5.4
+        "close": 5.29
       },
       {
         "date": "2026-04-21",
-        "close": 5.45
+        "close": 5.34
       },
       {
         "date": "2026-04-23",
-        "close": 5.5
+        "close": 5.39
       },
       {
         "date": "2026-04-27",
-        "close": 5.55
+        "close": 5.44
       },
       {
         "date": "2026-04-29",
-        "close": 5.55
+        "close": 5.44
       },
       {
         "date": "2026-05-01",
-        "close": 5.65
+        "close": 5.54
       },
       {
         "date": "2026-05-05",
-        "close": 5.7
+        "close": 5.58
       },
       {
         "date": "2026-05-07",
-        "close": 5.65
+        "close": 5.54
       },
       {
         "date": "2026-05-11",
-        "close": 5.7
+        "close": 5.58
       },
       {
         "date": "2026-05-13",
-        "close": 5.65
+        "close": 5.54
       },
       {
         "date": "2026-05-15",
-        "close": 5.4
+        "close": 5.29
       },
       {
         "date": "2026-05-19",
-        "close": 5.35
+        "close": 5.24
       },
       {
         "date": "2026-05-21",
-        "close": 5.35
+        "close": 5.24
       },
       {
         "date": "2026-05-25",
-        "close": 5.4
+        "close": 5.29
       }
     ]
   },
@@ -54667,7 +54699,7 @@ var STOCKS_DATABASE = {
     "business_summary": "Golden Ventures Leasehold Real Estate Investment Trust, a real estate investment trust, engages in the rental of properties in Thailand. It holds leasehold rights of Park Ventures Ecoplex building, as well as land and building sub-lease rights of Sathorn Square located at the Central Business District of Thailand. The company has elected to be taxed as a real estate investment trust. As a result, it would not be subject to corporate income tax on that portion of its net income that is distributed to shareholders. The company was founded in 2016 and is based in Bangkok, Thailand.",
     "current_price": 6.95,
     "pe_ratio": 43.44,
-    "dividend_yield": 11.04,
+    "dividend_yield": 11.2,
     "high_1m": 7.0,
     "low_1m": 6.47,
     "support_levels": [
@@ -55221,7 +55253,7 @@ var STOCKS_DATABASE = {
     "business_summary": "Bualuang K.E.Retail Leasehold Real Estate Investment Trust specializes in real estate investments.",
     "current_price": 4.74,
     "pe_ratio": 6.58,
-    "dividend_yield": 9.51,
+    "dividend_yield": 9.35,
     "high_1m": 4.74,
     "low_1m": 4.43,
     "support_levels": [
@@ -55775,19 +55807,23 @@ var STOCKS_DATABASE = {
     "current_price": 11.3,
     "pe_ratio": 11.89,
     "dividend_yield": 0.0,
-    "high_1m": 13.6,
-    "low_1m": 12.6,
+    "high_1m": 13.38,
+    "low_1m": 12.39,
     "support_levels": [
-      10.49,
-      11.94
+      10.32,
+      11.74
     ],
     "resistance_levels": [
-      13.21
+      13.02
     ],
-    "upcoming_xd": "2026-09-09",
-    "upcoming_dividend_amount": 0.22,
-    "upcoming_payment_date": "2026-09-24",
+    "upcoming_xd": "2026-11-25",
+    "upcoming_dividend_amount": 0.21,
+    "upcoming_payment_date": "2026-12-10",
     "dividend_history": [
+      {
+        "date": "2026-05-27",
+        "amount": 0.2096
+      },
       {
         "date": "2026-03-11",
         "amount": 0.2194
@@ -55823,500 +55859,496 @@ var STOCKS_DATABASE = {
       {
         "date": "2023-11-01",
         "amount": 0.2112
-      },
-      {
-        "date": "2023-08-03",
-        "amount": 0.2193
       }
     ],
     "history": [
       {
         "date": "2025-05-26",
-        "close": 11.56
+        "close": 11.37
       },
       {
         "date": "2025-05-28",
-        "close": 11.65
+        "close": 11.46
       },
       {
         "date": "2025-05-30",
-        "close": 11.75
+        "close": 11.55
       },
       {
         "date": "2025-06-05",
-        "close": 11.08
+        "close": 10.9
       },
       {
         "date": "2025-06-09",
-        "close": 10.8
+        "close": 10.62
       },
       {
         "date": "2025-06-11",
-        "close": 10.89
+        "close": 10.71
       },
       {
         "date": "2025-06-13",
-        "close": 10.8
+        "close": 10.62
       },
       {
         "date": "2025-06-17",
-        "close": 10.7
+        "close": 10.53
       },
       {
         "date": "2025-06-19",
-        "close": 10.42
+        "close": 10.25
       },
       {
         "date": "2025-06-23",
-        "close": 10.32
+        "close": 10.16
       },
       {
         "date": "2025-06-25",
-        "close": 10.42
+        "close": 10.25
       },
       {
         "date": "2025-06-27",
-        "close": 10.42
+        "close": 10.25
       },
       {
         "date": "2025-07-01",
-        "close": 10.61
+        "close": 10.44
       },
       {
         "date": "2025-07-03",
-        "close": 10.42
+        "close": 10.25
       },
       {
         "date": "2025-07-07",
-        "close": 10.42
+        "close": 10.25
       },
       {
         "date": "2025-07-09",
-        "close": 10.32
+        "close": 10.16
       },
       {
         "date": "2025-07-14",
-        "close": 10.23
+        "close": 10.06
       },
       {
         "date": "2025-07-16",
-        "close": 10.61
+        "close": 10.44
       },
       {
         "date": "2025-07-18",
-        "close": 11.08
+        "close": 10.9
       },
       {
         "date": "2025-07-22",
-        "close": 10.89
+        "close": 10.71
       },
       {
         "date": "2025-07-24",
-        "close": 10.89
+        "close": 10.71
       },
       {
         "date": "2025-07-29",
-        "close": 10.8
+        "close": 10.62
       },
       {
         "date": "2025-07-31",
-        "close": 10.8
+        "close": 10.62
       },
       {
         "date": "2025-08-04",
-        "close": 10.51
+        "close": 10.34
       },
       {
         "date": "2025-08-06",
-        "close": 11.18
-      },
-      {
-        "date": "2025-08-08",
-        "close": 11.18
-      },
-      {
-        "date": "2025-08-14",
-        "close": 11.08
-      },
-      {
-        "date": "2025-08-18",
         "close": 10.99
       },
       {
+        "date": "2025-08-08",
+        "close": 10.99
+      },
+      {
+        "date": "2025-08-14",
+        "close": 10.9
+      },
+      {
+        "date": "2025-08-18",
+        "close": 10.81
+      },
+      {
         "date": "2025-08-20",
-        "close": 10.91
+        "close": 10.73
       },
       {
         "date": "2025-08-22",
-        "close": 10.71
+        "close": 10.54
       },
       {
         "date": "2025-08-26",
-        "close": 10.91
+        "close": 10.73
       },
       {
         "date": "2025-08-28",
-        "close": 11.0
+        "close": 10.82
       },
       {
         "date": "2025-09-01",
-        "close": 11.0
+        "close": 10.82
       },
       {
         "date": "2025-09-03",
-        "close": 10.71
+        "close": 10.54
       },
       {
         "date": "2025-09-05",
-        "close": 10.71
+        "close": 10.54
       },
       {
         "date": "2025-09-09",
-        "close": 11.39
+        "close": 11.2
       },
       {
         "date": "2025-09-11",
-        "close": 11.29
+        "close": 11.11
       },
       {
         "date": "2025-09-15",
-        "close": 11.78
+        "close": 11.58
       },
       {
         "date": "2025-09-17",
-        "close": 11.87
+        "close": 11.68
       },
       {
         "date": "2025-09-19",
-        "close": 11.78
+        "close": 11.58
       },
       {
         "date": "2025-09-23",
-        "close": 11.49
+        "close": 11.3
       },
       {
         "date": "2025-09-25",
-        "close": 11.58
+        "close": 11.39
       },
       {
         "date": "2025-09-29",
-        "close": 11.87
+        "close": 11.68
       },
       {
         "date": "2025-10-01",
-        "close": 11.87
+        "close": 11.68
       },
       {
         "date": "2025-10-03",
-        "close": 11.78
-      },
-      {
-        "date": "2025-10-07",
-        "close": 11.87
-      },
-      {
-        "date": "2025-10-09",
-        "close": 11.87
-      },
-      {
-        "date": "2025-10-14",
-        "close": 11.78
-      },
-      {
-        "date": "2025-10-16",
-        "close": 11.78
-      },
-      {
-        "date": "2025-10-20",
-        "close": 11.68
-      },
-      {
-        "date": "2025-10-22",
-        "close": 11.78
-      },
-      {
-        "date": "2025-10-27",
-        "close": 11.68
-      },
-      {
-        "date": "2025-10-29",
         "close": 11.58
       },
       {
+        "date": "2025-10-07",
+        "close": 11.68
+      },
+      {
+        "date": "2025-10-09",
+        "close": 11.68
+      },
+      {
+        "date": "2025-10-14",
+        "close": 11.58
+      },
+      {
+        "date": "2025-10-16",
+        "close": 11.58
+      },
+      {
+        "date": "2025-10-20",
+        "close": 11.49
+      },
+      {
+        "date": "2025-10-22",
+        "close": 11.58
+      },
+      {
+        "date": "2025-10-27",
+        "close": 11.49
+      },
+      {
+        "date": "2025-10-29",
+        "close": 11.39
+      },
+      {
         "date": "2025-10-31",
-        "close": 11.87
+        "close": 11.68
       },
       {
         "date": "2025-11-04",
-        "close": 11.87
+        "close": 11.68
       },
       {
         "date": "2025-11-06",
-        "close": 12.16
+        "close": 11.96
       },
       {
         "date": "2025-11-10",
-        "close": 12.16
+        "close": 11.96
       },
       {
         "date": "2025-11-12",
-        "close": 12.26
+        "close": 12.06
       },
       {
         "date": "2025-11-14",
-        "close": 11.87
+        "close": 11.68
       },
       {
         "date": "2025-11-18",
-        "close": 11.87
+        "close": 11.68
       },
       {
         "date": "2025-11-20",
-        "close": 11.87
+        "close": 11.68
       },
       {
         "date": "2025-11-24",
-        "close": 12.09
+        "close": 11.89
       },
       {
         "date": "2025-11-26",
-        "close": 12.09
+        "close": 11.89
       },
       {
         "date": "2025-11-28",
-        "close": 12.19
+        "close": 11.99
       },
       {
         "date": "2025-12-02",
-        "close": 12.28
+        "close": 12.08
       },
       {
         "date": "2025-12-04",
-        "close": 12.28
+        "close": 12.08
       },
       {
         "date": "2025-12-09",
-        "close": 12.19
+        "close": 11.99
       },
       {
         "date": "2025-12-12",
-        "close": 12.48
+        "close": 12.28
       },
       {
         "date": "2025-12-16",
-        "close": 12.58
+        "close": 12.37
       },
       {
         "date": "2025-12-18",
-        "close": 12.48
+        "close": 12.28
       },
       {
         "date": "2025-12-22",
-        "close": 12.48
+        "close": 12.28
       },
       {
         "date": "2025-12-24",
-        "close": 12.78
+        "close": 12.57
       },
       {
         "date": "2025-12-26",
-        "close": 12.87
+        "close": 12.66
       },
       {
         "date": "2025-12-30",
-        "close": 12.97
+        "close": 12.76
       },
       {
         "date": "2026-01-06",
-        "close": 13.17
+        "close": 12.95
       },
       {
         "date": "2026-01-08",
-        "close": 13.07
+        "close": 12.86
       },
       {
         "date": "2026-01-12",
-        "close": 12.48
+        "close": 12.28
       },
       {
         "date": "2026-01-14",
-        "close": 12.28
+        "close": 12.08
       },
       {
         "date": "2026-01-16",
-        "close": 12.48
+        "close": 12.28
       },
       {
         "date": "2026-01-20",
-        "close": 12.28
+        "close": 12.08
       },
       {
         "date": "2026-01-22",
-        "close": 12.28
+        "close": 12.08
       },
       {
         "date": "2026-01-26",
-        "close": 12.09
+        "close": 11.89
       },
       {
         "date": "2026-01-28",
-        "close": 12.78
+        "close": 12.57
       },
       {
         "date": "2026-01-30",
-        "close": 12.48
+        "close": 12.28
       },
       {
         "date": "2026-02-03",
-        "close": 12.58
+        "close": 12.37
       },
       {
         "date": "2026-02-05",
-        "close": 12.68
+        "close": 12.47
       },
       {
         "date": "2026-02-09",
-        "close": 12.78
+        "close": 12.57
       },
       {
         "date": "2026-02-11",
-        "close": 12.68
+        "close": 12.47
       },
       {
         "date": "2026-02-13",
-        "close": 12.78
+        "close": 12.57
       },
       {
         "date": "2026-02-17",
-        "close": 12.97
+        "close": 12.76
       },
       {
         "date": "2026-02-19",
-        "close": 12.97
+        "close": 12.76
       },
       {
         "date": "2026-02-23",
-        "close": 12.97
+        "close": 12.76
       },
       {
         "date": "2026-02-25",
-        "close": 13.07
+        "close": 12.86
       },
       {
         "date": "2026-02-27",
-        "close": 13.17
+        "close": 12.95
       },
       {
         "date": "2026-03-04",
-        "close": 12.19
+        "close": 11.99
       },
       {
         "date": "2026-03-06",
-        "close": 12.58
+        "close": 12.37
       },
       {
         "date": "2026-03-10",
-        "close": 12.48
+        "close": 12.28
       },
       {
         "date": "2026-03-12",
-        "close": 12.5
+        "close": 12.3
       },
       {
         "date": "2026-03-16",
-        "close": 12.5
+        "close": 12.3
       },
       {
         "date": "2026-03-18",
-        "close": 12.4
-      },
-      {
-        "date": "2026-03-20",
-        "close": 12.4
-      },
-      {
-        "date": "2026-03-24",
         "close": 12.2
       },
       {
+        "date": "2026-03-20",
+        "close": 12.2
+      },
+      {
+        "date": "2026-03-24",
+        "close": 12.0
+      },
+      {
         "date": "2026-03-26",
-        "close": 12.4
+        "close": 12.2
       },
       {
         "date": "2026-03-30",
-        "close": 12.4
+        "close": 12.2
       },
       {
         "date": "2026-04-01",
-        "close": 12.6
+        "close": 12.39
       },
       {
         "date": "2026-04-03",
-        "close": 12.7
+        "close": 12.49
       },
       {
         "date": "2026-04-08",
-        "close": 13.1
+        "close": 12.89
       },
       {
         "date": "2026-04-10",
-        "close": 13.2
+        "close": 12.98
       },
       {
         "date": "2026-04-17",
-        "close": 13.2
+        "close": 12.98
       },
       {
         "date": "2026-04-21",
-        "close": 13.3
+        "close": 13.08
       },
       {
         "date": "2026-04-23",
-        "close": 12.7
+        "close": 12.49
       },
       {
         "date": "2026-04-27",
-        "close": 12.9
+        "close": 12.69
       },
       {
         "date": "2026-04-29",
-        "close": 13.1
+        "close": 12.89
       },
       {
         "date": "2026-05-01",
-        "close": 12.9
+        "close": 12.69
       },
       {
         "date": "2026-05-05",
-        "close": 13.0
+        "close": 12.79
       },
       {
         "date": "2026-05-07",
-        "close": 13.4
+        "close": 13.18
       },
       {
         "date": "2026-05-11",
-        "close": 13.3
+        "close": 13.08
       },
       {
         "date": "2026-05-13",
-        "close": 13.0
+        "close": 12.79
       },
       {
         "date": "2026-05-15",
-        "close": 12.9
+        "close": 12.69
       },
       {
         "date": "2026-05-19",
-        "close": 12.7
+        "close": 12.49
       },
       {
         "date": "2026-05-21",
-        "close": 12.8
+        "close": 12.59
       },
       {
         "date": "2026-05-25",
-        "close": 12.8
+        "close": 12.59
       }
     ]
   },
@@ -56326,7 +56358,7 @@ var STOCKS_DATABASE = {
     "business_summary": "Thailand Prime Property Freehold and Leasehold Real Estate Investment Trust is a real estate investment trust externally managed by SCCP REIT Company Limited. The firm invest in leasehold rights over the Mercury Tower Project and acquiring at least 99.99 per cent. of shares of Exchange Tower Co.,Ltd which owns the Exchange Tower Project. Thailand Prime Property Freehold and Leasehold Real Estate Investment Trust is based in Bangkok, Thailand.",
     "current_price": 7.4,
     "pe_ratio": 9.61,
-    "dividend_yield": 7.57,
+    "dividend_yield": 7.47,
     "high_1m": 7.55,
     "low_1m": 7.0,
     "support_levels": [
@@ -56881,16 +56913,16 @@ var STOCKS_DATABASE = {
     "current_price": 4.08,
     "pe_ratio": 6.0,
     "dividend_yield": 13.65,
-    "high_1m": 6.14,
-    "low_1m": 5.55,
+    "high_1m": 6.15,
+    "low_1m": 5.6,
     "support_levels": [
       3.76,
       4.04,
       4.75
     ],
     "resistance_levels": [
-      6.4,
-      6.14
+      6.46,
+      6.15
     ],
     "upcoming_xd": "2026-11-20",
     "upcoming_dividend_amount": 0.16,
@@ -57986,7 +58018,7 @@ var STOCKS_DATABASE = {
     "business_summary": "TTW Public Company Limited, together with its subsidiaries, engages in the production and sale of treated water in Thailand. The company supplies water to the Provincial Waterworks Authority in the Amphur Nakorn Chaisri, Amphur Sam Pran, and Amphur Budha Monthon areas of Nakhon Pathom; and Amphur Muang and Amphur Kratumban areas of Samut Sakhon. It also provides water treatment and maintenance services to Provincial Waterworks; manages wastewater treatment systems; and operates and maintains water supply projects. The company was formerly known as Thai Tap Water Supply Public Company Limited and changed its name to TTW Public Company Limited in March 2014. The company was incorporated in 2000 and is based in Sam Phran, Thailand.",
     "current_price": 9.35,
     "pe_ratio": 11.4,
-    "dividend_yield": 6.38,
+    "dividend_yield": 6.42,
     "high_1m": 9.4,
     "low_1m": 9.2,
     "support_levels": [
@@ -60207,7 +60239,7 @@ var STOCKS_DATABASE = {
       2.75
     ],
     "resistance_levels": [
-      4.35,
+      4.41,
       4.28
     ],
     "upcoming_xd": "2026-05-05",
@@ -60752,7 +60784,7 @@ var STOCKS_DATABASE = {
     "business_summary": "TMT Steel Public Company Limited, together with its subsidiaries, engages in the manufacture, processing, distribution, and sale of structural steel plates and sheets in Thailand. The company offers flat products, including hot rolled cut sheets/plates, hot rolled plates, slitted coils, flat bars, and checkered plates; and hot rolled steel sections comprising H-beams/wide flanges, I-beams, channels, angles, cut-beams, round bars, and deformed bars. It also provides cold formed products, including round, square, and rectangular tubes; square and rectangular tube GI; carbon steel pressure pipes; lip and light channels; lip channel GI; and light angles. In addition, the company offers electronic commerce services. The company was formerly known as Thai Metal Trade Public Company Limited. TMT Steel Public Company Limited was founded in 1976 and is headquartered in Bangkok, Thailand.",
     "current_price": 3.52,
     "pe_ratio": 22.0,
-    "dividend_yield": 5.59,
+    "dividend_yield": 5.68,
     "high_1m": 3.9,
     "low_1m": 3.4,
     "support_levels": [
@@ -61869,7 +61901,8 @@ var STOCKS_DATABASE = {
       3.95
     ],
     "resistance_levels": [
-      4.24
+      4.45,
+      4.3
     ],
     "upcoming_xd": "2026-04-20",
     "upcoming_dividend_amount": 0.31,
@@ -62967,7 +63000,7 @@ var STOCKS_DATABASE = {
     "business_summary": "AAPICO Hitech Public Company Limited engages in the manufacture and distribution of automobile parts, dies, and jigs in Thailand, China, Malaysia, and Portugal. It operates through three segments: Manufacture of Auto Parts; Sales of Automobiles and Provision of Automobiles Repair Service; and Others. The company offers pressed and stamped body parts, including floor parts, cross members, side sills, brackets, clips, and sub-assembly parts; chassis frame components; banjo type housing axles; plastic parts; and plastic fuel tanks and windshield washer systems. It also provides forged and machined parts for transmission systems, power train systems, steering and suspension systems, engine parts, shafts, wheel hubs, link shafts, companion flanges, and other parts, as well as casting parts and machining parts, assembly jigs, and stamping dies. In addition, the company is involved in the sale of automobiles; venture capital business; investment in other companies; and import and export of vehicles and parts. Further, it offers automobile repair, training, technical support, and information technology consulting and advisory services; car navigation systems and its derivatives; Oracle ERP consultancy; and car accessories. AAPICO Hitech Public Company Limited was founded in 1985 and is headquartered in Phra Nakhon Si Ayutthaya, Thailand.",
     "current_price": 13.7,
     "pe_ratio": 6.2,
-    "dividend_yield": 6.96,
+    "dividend_yield": 7.01,
     "high_1m": 14.0,
     "low_1m": 13.0,
     "support_levels": [
@@ -63521,7 +63554,7 @@ var STOCKS_DATABASE = {
     "business_summary": "Siam City Cement Public Company Limited, together with its subsidiaries, manufactures, imports, exports, and sells cement and cement related products in Thailand, Vietnam, Sri Lanka, Singapore, Australia, Cambodia, Bangladesh, Indonesia, India, Dubai, and internationally. It operates through five segments: Cement, Concrete and Aggregate, Waste Management and Industrial Services, Light Building Materials, and Energy. The company offers mortar/dry mixed, concrete, aggregate, superblock, and conwood products; and tile adhesive products, fiber cement for wood replacement products, and light weight autoclaved aerated concrete blocks and panels, as well as ready-mixed concrete and aggregates. It also provides industrial waste disposal, alternative fuel, raw material trading, industrial cleaning, technical, and information technology management and development services; generates electricity from waste heat and solar resources; offers investment, and power generation and distribution services; and produces and distributes coal and ethanol. The company was founded in 1969 and is headquartered in Bangkok, Thailand. Siam City Cement Public Company Limited is a subsidiary of Sunrise Equity Company Limited.",
     "current_price": 144.5,
     "pe_ratio": 11.2,
-    "dividend_yield": 7.67,
+    "dividend_yield": 7.61,
     "high_1m": 144.5,
     "low_1m": 138.5,
     "support_levels": [
@@ -64073,7 +64106,7 @@ var STOCKS_DATABASE = {
     "business_summary": "Asia Sermkij Leasing Public Company Limited, together with its subsidiaries, engages in the provision of auto hire purchase services in Thailand. It operates through hire purchase, leasing, and loan segment. The company provides automobile hire purchase services mainly to individual customers for both new and used automobiles, including passenger and commercial cars, such as pickups, vans, trucks, taxis, and minibuses. It also offers financing services, such as car loans, sale and hire purchase back services, and SHB services; insurance, comprising vehicle voluntary and compulsory motor, machine, fire, marine and cargo, life, credit life, personal accident, and third-party liability insurance. In addition, it is involved in machinery, equipment, and vehicle leasing and hire purchase business; solar power purchase agreement business; and auto registrations and transfers, and tax renewal services. The company was founded in 1984 and is based in Bangkok, Thailand.",
     "current_price": 9.0,
     "pe_ratio": 10.71,
-    "dividend_yield": 4.42,
+    "dividend_yield": 4.44,
     "high_1m": 9.5,
     "low_1m": 8.7,
     "support_levels": [

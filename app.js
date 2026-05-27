@@ -348,10 +348,14 @@ function applyTierRestrictions() {
     });
 
     // 3. Blur premium tab contents & IAA Consensus
-    document.getElementById('dca-blurred-content').classList.add('free-blurred-content');
-    document.getElementById('cal-blurred-content').classList.add('free-blurred-content');
-    document.getElementById('news-blurred-content').classList.add('free-blurred-content');
-    document.getElementById('sim-blurred-content').classList.add('free-blurred-content');
+    const dcaBlurred = document.getElementById('dca-blurred-content');
+    if (dcaBlurred) dcaBlurred.classList.add('free-blurred-content');
+    const calBlurred = document.getElementById('cal-blurred-content');
+    if (calBlurred) calBlurred.classList.add('free-blurred-content');
+    const newsBlurred = document.getElementById('news-blurred-content');
+    if (newsBlurred) newsBlurred.classList.add('free-blurred-content');
+    const simBlurred = document.getElementById('sim-blurred-content');
+    if (simBlurred) simBlurred.classList.add('free-blurred-content');
     
     const iaaPanel = document.getElementById('iaa-consensus-panel');
     if (iaaPanel) iaaPanel.classList.add('premium-locked-area');
@@ -359,10 +363,14 @@ function applyTierRestrictions() {
     if (iaaBlurred) iaaBlurred.classList.add('free-blurred-content');
     
     // 4. Show locks
-    document.getElementById('dca-lock-overlay').style.display = 'flex';
-    document.getElementById('cal-lock-overlay').style.display = 'flex';
-    document.getElementById('news-lock-overlay').style.display = 'flex';
-    document.getElementById('sim-lock-overlay').style.display = 'flex';
+    const dcaLock = document.getElementById('dca-lock-overlay');
+    if (dcaLock) dcaLock.style.display = 'flex';
+    const calLock = document.getElementById('cal-lock-overlay');
+    if (calLock) calLock.style.display = 'flex';
+    const newsLock = document.getElementById('news-lock-overlay');
+    if (newsLock) newsLock.style.display = 'flex';
+    const simLock = document.getElementById('sim-lock-overlay');
+    if (simLock) simLock.style.display = 'flex';
     
     const iaaLock = document.getElementById('iaa-lock-overlay');
     if (iaaLock) iaaLock.style.display = 'flex';
@@ -375,16 +383,31 @@ function applyTierRestrictions() {
     });
 
     // 3. Unlock Tab panels blurs
-    document.getElementById('dca-blurred-content').classList.remove('free-blurred-content');
-    document.getElementById('cal-blurred-content').classList.remove('free-blurred-content');
-    document.getElementById('news-blurred-content').classList.remove('free-blurred-content');
-    document.getElementById('sim-blurred-content').classList.remove('free-blurred-content');
+    const dcaBlurred = document.getElementById('dca-blurred-content');
+    if (dcaBlurred) dcaBlurred.classList.remove('free-blurred-content');
+    const calBlurred = document.getElementById('cal-blurred-content');
+    if (calBlurred) calBlurred.classList.remove('free-blurred-content');
+    const newsBlurred = document.getElementById('news-blurred-content');
+    if (newsBlurred) newsBlurred.classList.remove('free-blurred-content');
+    const simBlurred = document.getElementById('sim-blurred-content');
+    if (simBlurred) simBlurred.classList.remove('free-blurred-content');
     
+    const iaaPanel = document.getElementById('iaa-consensus-panel');
+    if (iaaPanel) iaaPanel.classList.remove('premium-locked-area');
+    const iaaBlurred = document.getElementById('iaa-blurred-content');
+    if (iaaBlurred) iaaBlurred.classList.remove('free-blurred-content');
+
     // 4. Hide locks
-    document.getElementById('dca-lock-overlay').style.display = 'none';
-    document.getElementById('cal-lock-overlay').style.display = 'none';
-    document.getElementById('news-lock-overlay').style.display = 'none';
-    document.getElementById('sim-lock-overlay').style.display = 'none';
+    const dcaLock = document.getElementById('dca-lock-overlay');
+    if (dcaLock) dcaLock.style.display = 'none';
+    const calLock = document.getElementById('cal-lock-overlay');
+    if (calLock) calLock.style.display = 'none';
+    const newsLock = document.getElementById('news-lock-overlay');
+    if (newsLock) newsLock.style.display = 'none';
+    const simLock = document.getElementById('sim-lock-overlay');
+    if (simLock) simLock.style.display = 'none';
+    const iaaLock = document.getElementById('iaa-lock-overlay');
+    if (iaaLock) iaaLock.style.display = 'none';
   }
   
   // Re-draw chart S/R lines since they might need to render or hide
@@ -437,6 +460,14 @@ async function initApp() {
     }
   } else {
     setupDefaultPortfolio();
+  }
+
+  // Apply active portfolio color theme on launch
+  const activePort = portfolios.find(p => p.id === activePortfolioId);
+  if (activePort) {
+    applyPortfolioColorTheme(activePort.color || 'green');
+  } else {
+    applyPortfolioColorTheme('green');
   }
 
   // Load Database from JS variable STOCKS_DATABASE (fallback to fetch json)
@@ -504,6 +535,47 @@ function savePortfoliosToLocalStorage() {
   localStorage.setItem('insight_active_portfolio_id', activePortfolioId);
 }
 
+function updateActivePortfolioColor(colorName) {
+  const activePort = portfolios.find(p => p.id === activePortfolioId);
+  if (activePort) {
+    activePort.color = colorName;
+    savePortfoliosToLocalStorage();
+    applyPortfolioColorTheme(colorName);
+  }
+}
+
+function applyPortfolioColorTheme(colorName) {
+  const colors = {
+    green: '#10b981',
+    red: '#ef4444',
+    yellow: '#f59e0b',
+    blue: '#3b82f6',
+    purple: '#6366f1',
+    gold: '#eab308'
+  };
+  
+  const selectedColor = colors[colorName] || '#10b981';
+  
+  // Update color dot
+  const dot = document.getElementById('active-portfolio-color-dot');
+  if (dot) {
+    dot.style.background = selectedColor;
+    dot.style.boxShadow = `0 0 8px ${selectedColor}`;
+  }
+  
+  // Highlight active color choice border
+  document.querySelectorAll('.color-dot-choice').forEach(choice => {
+    choice.classList.remove('selected');
+  });
+  const activeDot = document.getElementById(`color-dot-${colorName}`);
+  if (activeDot) {
+    activeDot.classList.add('selected');
+  }
+  
+  // Dynamic brand-color sync!
+  document.documentElement.style.setProperty('--brand-color', selectedColor);
+}
+
 // Multi-Portfolio controllers
 function renderPortfolioSelect() {
   const select = document.getElementById('portfolio-select');
@@ -525,6 +597,11 @@ function switchPortfolio() {
   activePortfolioId = select.value;
   savePortfoliosToLocalStorage();
   
+  const activePort = portfolios.find(p => p.id === activePortfolioId);
+  if (activePort) {
+    applyPortfolioColorTheme(activePort.color || 'green');
+  }
+  
   // Re-renders
   renderSidebarStockList();
   renderPortfolioHoldingsTable();
@@ -542,11 +619,15 @@ function createNewPortfolio() {
   const name = prompt('กรุณาระบุชื่อพอร์ตโฟลิโอใหม่ของคุณ:');
   if (!name || name.trim() === '') return;
   
+  const colorsList = ['blue', 'purple', 'gold', 'green', 'red', 'yellow'];
+  const newColor = colorsList[portfolios.length % colorsList.length];
+  
   const newId = 'p_' + Date.now();
   portfolios.push({
     id: newId,
     name: name.trim(),
     cash: 50000.00,
+    color: newColor,
     holdings: []
   });
   
@@ -778,13 +859,26 @@ function selectStock(symbol) {
   updatePortfolioWorthStats();
   renderPortfolioHoldingsTable();
   
-  // Set tab buttons text
-  document.querySelectorAll('.tab-trigger-btn')[0].innerHTML = `
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
-      <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 6.375c0 .622-.16 1.21-.443 1.724m1.057-1.724a2.25 2.25 0 0 0-2.25-2.25m-13.5 13.5a2.25 2.25 0 0 1-2.25-2.25m0-10.5a2.25 2.25 0 0 1 2.25-2.25m10.5 10.5a2.25 2.25 0 0 1-2.25 2.25m.443-4.132a2.247 2.247 0 0 0 1.567.684m1.916 2.25a2.25 2.25 0 0 0 2.25-2.25M6.375 20.25a2.25 2.25 0 0 1-2.25-2.25m0-11.25a2.25 2.25 0 0 1 2.25-2.25m11.25 0a2.25 2.25 0 0 1 2.25 2.25m-13.5 13.5h13.5m-13.5-13.5h13.5" />
-    </svg>
-    บริหารพอร์ต & ถือหุ้น ${symbol}
-  `;
+  // Auto-populate stock adder form fields to eliminate double typing (Request 4)
+  const addSymbolField = document.getElementById('add-form-symbol');
+  if (addSymbolField) {
+    addSymbolField.value = symbol;
+    autoFillFormPrice();
+  }
+  
+  // Set tab buttons text and DCA stock label
+  const dcaLabel = document.getElementById('dca-stock-target-label');
+  if (dcaLabel) dcaLabel.innerText = symbol;
+  
+  const holdingsTabBtn = document.querySelectorAll('.tab-trigger-btn')[1];
+  if (holdingsTabBtn) {
+    holdingsTabBtn.innerHTML = `
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 6.375c0 .622-.16 1.21-.443 1.724m1.057-1.724a2.25 2.25 0 0 0-2.25-2.25m-13.5 13.5a2.25 2.25 0 0 1-2.25-2.25m0-10.5a2.25 2.25 0 0 1 2.25-2.25m10.5 10.5a2.25 2.25 0 0 1-2.25 2.25m.443-4.132a2.247 2.247 0 0 0 1.567.684m1.916 2.25a2.25 2.25 0 0 0 2.25-2.25M6.375 20.25a2.25 2.25 0 0 1-2.25-2.25m0-11.25a2.25 2.25 0 0 1 2.25-2.25m11.25 0a2.25 2.25 0 0 1 2.25 2.25m-13.5 13.5h13.5m-13.5-13.5h13.5" />
+      </svg>
+      บริหารพอร์ต & ถือหุ้น ${symbol}
+    `;
+  }
 }
 
 // Renders the Pivot Points Matrix Table with distance +/- %
@@ -1166,6 +1260,19 @@ function updatePortfolioWorthStats() {
   document.getElementById('val-portfolio-annual-div').innerText = `${totalAnnualDiv.toLocaleString(undefined, {minimumFractionDigits:2, maximumFractionDigits:2})} บาท`;
   document.getElementById('val-yield-on-cost').innerText = `${yieldOnCost.toFixed(2)}%`;
   
+  // Render aggregate portfolio dividend cash flow stats in the new DCA overview panel (Request 6)
+  const divYearEl = document.getElementById('port-div-year');
+  if (divYearEl) {
+    const divMonth = totalAnnualDiv / 12;
+    const divDay = totalAnnualDiv / 365;
+    const divHour = divDay / 24;
+    
+    divYearEl.innerText = `${totalAnnualDiv.toLocaleString(undefined, {minimumFractionDigits:2, maximumFractionDigits:2})} ฿`;
+    document.getElementById('port-div-month').innerText = `${divMonth.toLocaleString(undefined, {minimumFractionDigits:2, maximumFractionDigits:2})} ฿`;
+    document.getElementById('port-div-day').innerText = `${divDay.toLocaleString(undefined, {minimumFractionDigits:2, maximumFractionDigits:2})} ฿`;
+    document.getElementById('port-div-hour').innerText = `${divHour.toLocaleString(undefined, {minimumFractionDigits:2, maximumFractionDigits:2})} ฿`;
+  }
+  
   // Also edit the sidebar cash display
   const cashNum = parseFloat(activePort.cash) || 0;
   document.getElementById('port-cash-val').innerText = `${cashNum.toLocaleString(undefined, {minimumFractionDigits:2, maximumFractionDigits:2})} บาท`;
@@ -1278,7 +1385,10 @@ function renderDividendTimeline() {
               <span class="timeline-status-tag" style="background: rgba(16, 185, 129, 0.08); color: var(--support-color); font-size: 0.6rem; padding: 1px 6px; border-radius: 20px; font-weight: 800; text-transform: uppercase; border: 1px solid rgba(16, 185, 129, 0.15); line-height:1;">Upcoming</span>
             </div>
             <div style="font-size: 1.05rem; font-weight: 800; color: var(--text-primary); margin-top: 4px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">${evt.symbol} - ${evt.name}</div>
-            <div style="font-size: 0.75rem; color: var(--text-secondary); margin-top: 2px;">XD: ${xdFormatted} | จ่าย: ${payFormatted}</div>
+            <div style="font-size: 0.75rem; color: var(--text-secondary); margin-top: 2px;">
+              XD: ${xdFormatted} | จ่าย: ${payFormatted}
+              <a href="https://www.settrade.com/th/equities/quote/${evt.symbol}/news" target="_blank" style="font-size:0.7rem; color:var(--brand-color); text-decoration:none; margin-left:0.5rem; display:inline-flex; align-items:center; gap:2px; font-weight:700;" title="ตรวจสอบกำหนดการและข่าวประกาศทางการจากตลาดหลักทรัพย์">🌐 ข่าวปันผลบน Settrade</a>
+            </div>
           </div>
         </div>
         
@@ -1402,7 +1512,6 @@ function generateFinancialArticleBody(symbol, title) {
   `;
 }
 
-// News reader modal controls
 function openNewsReaderModal(title, source, dateStr, url) {
   const modal = document.getElementById('news-reader-modal');
   if (!modal) return;
@@ -1412,9 +1521,18 @@ function openNewsReaderModal(title, source, dateStr, url) {
   document.getElementById('reader-news-date').innerText = `เผยแพร่เมื่อ: ${dateStr}`;
   document.getElementById('reader-news-body').innerHTML = generateFinancialArticleBody(selectedStock, title);
   
-  const linkBtn = document.getElementById('reader-news-link');
-  if (linkBtn) {
-    linkBtn.href = url;
+  // Direct verified external links (Request 7)
+  const settradeBtn = document.getElementById('reader-news-settrade');
+  if (settradeBtn) {
+    settradeBtn.href = `https://www.settrade.com/th/equities/quote/${selectedStock}/news`;
+  }
+  const setBtn = document.getElementById('reader-news-set');
+  if (setBtn) {
+    setBtn.href = `https://www.set.or.th/th/market/product/stock/quote/${selectedStock}/price`;
+  }
+  const googleBtn = document.getElementById('reader-news-google');
+  if (googleBtn) {
+    googleBtn.href = `https://www.google.com/search?q=ข่าวหุ้น+${selectedStock}`;
   }
   
   modal.style.display = 'flex';
@@ -1641,7 +1759,15 @@ function switchTab(tabId) {
   document.querySelectorAll('.tab-pane').forEach(pane => {
     pane.classList.remove('active');
   });
-  document.getElementById(tabId).classList.add('active');
+  const activePane = document.getElementById(tabId);
+  if (activePane) activePane.classList.add('active');
+  
+  // Safe Chart.js Resize trigger
+  if (tabId === 'tab-chart' && selectedStock) {
+    setTimeout(() => {
+      renderStockChart(selectedStock);
+    }, 50);
+  }
 }
 
 function openPromoModal() {
