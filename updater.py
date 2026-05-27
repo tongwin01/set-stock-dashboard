@@ -70,7 +70,30 @@ CURATED_FALLBACK_TICKERS = [
 ]
 
 def fetch_all_active_set_tickers():
-    print("Attempting to dynamically download all active SET tickers from TradingView Screener...")
+    print("Attempting to dynamically download all active SET/MAI tickers from Twelve Data API...")
+    try:
+        url = "https://api.twelvedata.com/stocks?exchange=SET"
+        response = requests.get(url, timeout=15)
+        if response.status_code == 200:
+            data = response.json()
+            items = data.get("data", [])
+            set_tickers = []
+            for item in items:
+                sym = item.get("symbol", "")
+                stype = item.get("type", "")
+                # Filter for Common Stock or Preferred Stock, and exclude warrants/NVDRs
+                if stype in ["Common Stock", "Preferred Stock"] and not ("." in sym) and not ("-" in sym) and not (sym.isdigit()):
+                    set_tickers.append(f"{sym}.BK")
+            
+            # Remove duplicates and sort
+            set_tickers = sorted(list(set(set_tickers)))
+            if len(set_tickers) > 100:
+                print(f"Successfully fetched {len(set_tickers)} active SET/MAI tickers from Twelve Data API!")
+                return set_tickers
+    except Exception as e:
+        print(f"Twelve Data API fetch failed or offline: {str(e)}")
+
+    print("Attempting secondary dynamic download from TradingView Screener...")
     url = "https://screener.tradingview.com/thailand/scan"
     payload = {
         "filter": [
@@ -108,12 +131,12 @@ def fetch_all_active_set_tickers():
             # Remove duplicates and sort
             set_tickers = sorted(list(set(set_tickers)))
             if len(set_tickers) > 100:
-                print(f"Successfully fetched {len(set_tickers)} active SET/MAI tickers from screener API!")
+                print(f"Successfully fetched {len(set_tickers)} active SET/MAI tickers from TradingView screener API!")
                 return set_tickers
     except Exception as e:
-        print(f"Connection failed or offline during screener fetch: {str(e)}")
+        print(f"TradingView fetch failed or offline: {str(e)}")
         
-    print("Operating in offline sandbox or screener API blocked. Using pre-curated 119 SET list...")
+    print("Operating in offline sandbox. Using pre-curated fallback SET/MAI list...")
     return CURATED_FALLBACK_TICKERS
 
 TICKERS = fetch_all_active_set_tickers()
