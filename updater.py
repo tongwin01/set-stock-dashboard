@@ -91,15 +91,15 @@ def fetch_all_active_set_tickers():
                 name = row["d"][0]
                 exchange = row["d"][1]
                 
-                # Filter strictly for main SET board (exclude mai)
+                # Filter strictly for SET and MAI boards
                 # Also exclude warrants (-W), NVDRs (-R), preference shares etc. to keep list super clean
-                if exchange.upper() == "SET" and not ("-W" in name) and not ("-R" in name) and not (".BK" in name):
+                if exchange.upper() in ["SET", "MAI"] and not ("-W" in name) and not ("-R" in name) and not (".BK" in name):
                     set_tickers.append(f"{name}.BK")
             
             # Remove duplicates and sort
             set_tickers = sorted(list(set(set_tickers)))
             if len(set_tickers) > 100:
-                print(f"Successfully fetched {len(set_tickers)} active SET tickers from screener API!")
+                print(f"Successfully fetched {len(set_tickers)} active SET/MAI tickers from screener API!")
                 return set_tickers
     except Exception as e:
         print(f"Connection failed or offline during screener fetch: {str(e)}")
