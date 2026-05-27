@@ -59,7 +59,11 @@ CURATED_FALLBACK_TICKERS = [
     # --- Other Popular/High Dividend Stocks ---
     "TTW.BK", "DCC.BK", "MCS.BK", "SENA.BK", "EASTW.BK", 
     "TMT.BK", "ASP.BK", "KGI.BK", "SAT.BK", "AH.BK", 
-    "SCCC.BK", "ASK.BK"
+    "SCCC.BK", "ASK.BK",
+    
+    # --- Popular MAI Stocks ---
+    "PACO.BK", "KTMS.BK", "DITTO.BK", "BE8.BK", "AU.BK", 
+    "SPA.BK", "COCOCO.BK", "YGG.BK", "KCC.BK", "READY.BK"
 ]
 
 def fetch_all_active_set_tickers():
