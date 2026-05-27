@@ -1987,9 +1987,8 @@ function startRealTimePriceSimulation() {
         }
       }
       
-      // Live Auto Update calculations & screens
+      // Live Auto Update calculations & screens (excluding chart to prevent flickering/flashing)
       renderPivotPointMatrix(selectedStock);
-      renderStockChart(selectedStock);
       renderIaaConsensusTable(selectedStock);
       calculateSmartBuySimulation();
       calculateDcaProjection();
