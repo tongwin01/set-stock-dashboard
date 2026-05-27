@@ -557,8 +557,8 @@ var STOCKS_DATABASE = {
     "symbol": "PTTEP",
     "name": "PTT Exploration and Production Public Company Limited",
     "business_summary": "PTT Exploration and Production Public Company Limited, together with its subsidiaries, engages in the exploration, development, and production of petroleum in Thailand, rest of Southeast Asia, the Middle East, Africa, and internationally. It operates through Exploration and Production; and Other Businesses and Corporate segments. The company is also involved in the gas pipeline transportation and solar power businesses, as well as renewable energy and related activities. In addition, it provides petroleum-related technology, human resource support, and technology and innovation services. The company was founded in 1985 and is based in Bangkok, Thailand. PTT Exploration and Production Public Company Limited is a subsidiary of PTT Public Company Limited.",
-    "current_price": 146.5,
-    "pe_ratio": 10.47,
+    "current_price": 147.0,
+    "pe_ratio": 10.51,
     "dividend_yield": 5.97,
     "high_1m": 158.0,
     "low_1m": 145.5,
@@ -2182,8 +2182,8 @@ var STOCKS_DATABASE = {
     "symbol": "GPSC",
     "name": "Global Power Synergy Public Company Limited",
     "business_summary": "Global Power Synergy Public Company Limited, together with its subsidiaries, engages in the production and distribution of electricity, steam, and water for industrial use to the government and industrial customers in Thailand. It operates through three segments: Independent Power Producer, Small Power Producer, and Others. The company generates electricity through solar, wind, hydropower, and thermal power plants. The company also engages in the maintenance, construction, and installation of electricity system services; and technical and consultancy services for power sector. It owns and operates 4,027 megawatts (MW) of power generation; 3,294 tons of steam; 7,689 cubic meters of industrial water; and 10,184 refrigerated tons of chilled water. The company was founded in 2013 and is headquartered in Bangkok, Thailand.",
-    "current_price": 40.75,
-    "pe_ratio": 16.43,
+    "current_price": 41.0,
+    "pe_ratio": 16.53,
     "dividend_yield": 4.66,
     "high_1m": 42.5,
     "low_1m": 34.25,
@@ -2740,7 +2740,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 42.5,
     "dividend_yield": 3.03,
     "high_1m": 14.3,
-    "low_1m": 12.6,
+    "low_1m": 12.7,
     "support_levels": [
       10.73,
       12.35,
@@ -3291,11 +3291,11 @@ var STOCKS_DATABASE = {
     "symbol": "EGCO",
     "name": "Electricity Generating Public Company Limited",
     "business_summary": "Electricity Generating Public Company Limited, together with its subsidiaries, generates and sells electricity to government sector and industrial users primarily in Thailand, Laos, the Philippines, Indonesia, Australia, South Korea, Taiwan, and the United States. It operates through Electricity Generation and Other Businesses segments. The company generates electricity from various resources, such as biomass, hydropower, solar and wind power, battery energy, and fuel cell. It also involved in operation, maintenance, engineering and construction services to power plants, petrochemical plants, oil refineries and other industries; coal mining, management, and oil pipeline business. The company was incorporated in 1992 and is based in Bangkok, Thailand.",
-    "current_price": 116.0,
-    "pe_ratio": 30.21,
+    "current_price": 115.5,
+    "pe_ratio": 30.08,
     "dividend_yield": 5.58,
     "high_1m": 119.0,
-    "low_1m": 110.0,
+    "low_1m": 111.0,
     "support_levels": [
       94.46,
       109.01
@@ -4951,8 +4951,8 @@ var STOCKS_DATABASE = {
     "symbol": "TOP",
     "name": "Thai Oil Public Company Limited",
     "business_summary": "Thai Oil Public Company Limited, together with its subsidiaries, engages in the oil refining and distributions, petrochemicals, lube base oil, and other businesses in Thailand, Indonesia, and internationally. It operates through Oil Refinery, Lube Base Oil Refinery, Aromatics and LAB, Power Generation, Solvent, Ethanol, Olefins, and Others segments. The company offers refined fuels, including gasoline, diesel/gas oil, jet fuel, kerosene, fuel oil, and liquefied petroleum gas; and lube base oil, bitumen/asphalt, by-products, and special products, such as treated distillate aromatics extract and slack wax. It also provides petrochemicals comprising paraxylene, benzene, toluene, and mixed xylenes; linear alkyl benzene, heavy alkyl benzene, and molex raffinates; and polyethylene and polypropylene resins, styrene monomer, butadiene, and olefins. In addition, the company operates natural gas-fired co-generation power plants that generate and distribute electricity, steam, industrial water, and public utilities; and develops, invests, and operates power businesses. Further, it is involved in the manufacturing and distribution of solvents and chemicals; investments in venture capital funds and startup businesses; production of ethanol; management of human resources; provision of technical support and treasury advice; design, development, and maintenance of digital services and systems; social enterprise operation support; and pipeline transportation of refined petroleum products. The company was founded in 1961 and is headquartered in Bangkok, Thailand.",
-    "current_price": 45.75,
-    "pe_ratio": 3.32,
+    "current_price": 46.25,
+    "pe_ratio": 3.35,
     "dividend_yield": 4.37,
     "high_1m": 49.25,
     "low_1m": 44.75,
@@ -5506,11 +5506,11 @@ var STOCKS_DATABASE = {
     "symbol": "IRPC",
     "name": "IRPC Public Company Limited",
     "business_summary": "IRPC Public Company Limited, together with its subsidiaries, engages in petroleum and petrochemical business in Thailand, Singapore, and internationally. It offers refinery, lubricant, asphalt, olefins, aromatics, and other petrochemical products; liquefied petroleum gas, naphtha, gasoline, diesel, and Jet A-1 commercial aviation fuel; and high density polyethylene, polypropylene, acrylonitrile-butadiene-styrene, acrylonitrile styrene, polystyrene, and expandable polystyrene. The company also offers port services and storage tank services; water based products; ultra-high molecular weight polyethylene; acetylene black; and power and public utilities services. In addition, it is involved in the provision of asset management activities; operation of vocational schools; sale of oil products and gas; manufacture and sale of non-woven fabric products and medical consumables; production and distribution of fertilizer products; operates water filtration plants; industrial pneumatic system; and power plant and other utilities businesses. The company was formerly known as Thai Petrochemical Industry Public Company Limited and changed its name to IRPC Public Company Limited in October 2006. IRPC Public Company Limited was incorporated in 1978 and is headquartered in Rayong, Thailand.",
-    "current_price": 1.92,
-    "pe_ratio": 6.86,
+    "current_price": 1.91,
+    "pe_ratio": 6.82,
     "dividend_yield": 0.52,
     "high_1m": 2.34,
-    "low_1m": 1.84,
+    "low_1m": 1.86,
     "support_levels": [
       0.95,
       1.13,
@@ -6060,8 +6060,8 @@ var STOCKS_DATABASE = {
     "symbol": "BCP",
     "name": "Bangchak Corporation Public Company Limited",
     "business_summary": "Bangchak Corporation Public Company Limited, together with its subsidiaries, engages in the refining and marketing of petroleum products in Thailand, Singapore, Norway, Korea, Laos, and internationally. It operates through the Refinery and Oil Trading, Marketing, Electricity, Bio-Based Product, Natural Resource, and Others segments. The company also engages in the production and distribution of electricity from green energy; investment in alternative energy business; oil terminal and seaport businesses; and biofuel products and related products. In addition, it is involved in the operation of electric motorcycles and battery replacement services; solar power plants and rooftop businesses; installation of management district cooling systems; manufacture and distribution of ethanol; public utilities and energy services business; operation of contract development and manufacturing organization platform for synthetic biology products with precision fermentation technology; real estate for lease; hydropower plant; and investment in foreign energy, petrochemical, and natural resource businesses. The company sells its products through oil traders. It serves the transportation, aviation, shipping, construction, industrial, and agriculture sectors. The company was formerly known as The Bangchak Petroleum Public Company Limited and changed its name to Bangchak Corporation Public Company Limited in April 2017. Bangchak Corporation Public Company Limited was founded in 1984 and is headquartered in Bangkok, Thailand.",
-    "current_price": 34.0,
-    "pe_ratio": 16.35,
+    "current_price": 34.25,
+    "pe_ratio": 16.47,
     "dividend_yield": 3.09,
     "high_1m": 37.5,
     "low_1m": 34.0,
@@ -6614,8 +6614,8 @@ var STOCKS_DATABASE = {
     "symbol": "BCPG",
     "name": "BCPG Public Company Limited",
     "business_summary": "BCPG Public Company Limited, a renewable energy company, engages in the solar power, hydropower, wind power, and natural gas businesses in Thailand, Japan, Laos, and Taiwan. It operates through Production and Distribution of Electricity; and Oil Storage and Seaport Service segments. The company offers smart energy solutions, including blockchain-based peer-to-peer energy trading project; energy management system; district cooling system; battery; and decarbonization solutions. It also develops transmission line systems and oil terminal. In addition, the company operates as an EPC contractor that provides operation and maintenance services. Further, it provides project development, construction, and operation management; investment management; and asset management services. The company was incorporated in 2015 and is headquartered in Bangkok, Thailand. BCPG Public Company Limited is a subsidiary of Bangchak Corporation Public Company Limited.",
-    "current_price": 6.7,
-    "pe_ratio": 13.96,
+    "current_price": 6.75,
+    "pe_ratio": 14.06,
     "dividend_yield": 5.22,
     "high_1m": 7.7,
     "low_1m": 6.6,
@@ -7168,18 +7168,18 @@ var STOCKS_DATABASE = {
     "symbol": "GUNKUL",
     "name": "Gunkul Engineering Public Company Limited",
     "business_summary": "Gunkul Engineering Public Company Limited, together with its subsidiaries, generates and sells renewable energy in Thailand, Japan, and Vietnam. The company operates in four segments: Manufacturing and Selling of Equipment for Electrical Systems; Generating and Selling Electricity; Construction Service; and Maintenance Service, Rental Service and Others. The company operates solar farms and rooftops, and wind farms; and operates and maintains power plants. It also constructs and invests in the electricity generation and sale business; manufactures, distributes, imports, and exports equipment for electrical systems; manufactures and sells energy-saving products; investsting; and provides training services. In addition, the company offers cables and accessories, fuses and switches, hardware and connectors, insulators and preformed products, lighting protection products, service and maintenance equipment, tools and maintenance equipment products, grounding systems, live part cover and animal protection products, circuit breakers, instrument transformers, street lighting, and meters and accessories; and led and streetlamps, floodlights, solar systems, batteries, bipv glass, flexible solar PV, and solar water pump products. Further, it provides drone thermal scan, peer-to-peer energy trading platform, energy living solutions for residential platforms, virtual power plant sandbox, battery energy storage system and virtual power plant, volt energy marketplace, and godungfaifaa online marketplace services. The company was incorporated in 1982 and is headquartered in Bangkok, Thailand. Gunkul Engineering Public Company Limited is a subsidiary of Gunkul Group Company Limited.",
-    "current_price": 3.48,
-    "pe_ratio": 15.82,
+    "current_price": 3.56,
+    "pe_ratio": 16.18,
     "dividend_yield": 6.32,
     "high_1m": 3.66,
-    "low_1m": 2.68,
+    "low_1m": 2.72,
     "support_levels": [
       1.73,
       2.02,
       2.28
     ],
     "resistance_levels": [
-      3.65,
+      3.74,
       3.66
     ],
     "upcoming_xd": "2026-05-22",
@@ -7726,13 +7726,14 @@ var STOCKS_DATABASE = {
     "pe_ratio": 14.02,
     "dividend_yield": 3.53,
     "high_1m": 47.75,
-    "low_1m": 42.65,
+    "low_1m": 43.0,
     "support_levels": [
       39.51,
       41.98,
       44.57
     ],
     "resistance_levels": [
+      46.6,
       52.52
     ],
     "upcoming_xd": "2026-04-30",
@@ -8275,8 +8276,8 @@ var STOCKS_DATABASE = {
     "symbol": "HMPRO",
     "name": "Home Product Center Public Company Limited",
     "business_summary": "Home Product Center Public Company Limited, together with its subsidiaries, operates as a home improvement retailer in Thailand, Malaysia, and Vietnam. It engages in the trading of various goods and materials for construction, addition, refurbishment, and renovation, as well as improvement of buildings, houses, and residential places, including appliances, small appliances, storages and household, furniture and home decors, plumbing, bathroom, kitchen, floors and walls, lamps and light bulbs, outdoors furniture and garden, tools and hardware, construction, electrical and security, doors and windows, bedroom, paint and equipment, sport and travel, beauty and personal care, health, mom and baby, mobile IT gadgets, automotive, pet food and supplies, and TV, audio, and game products through shopping home centers under the HomePro brand name. The company also offers cleaning, repair, installation, site survey, house inspection, removal and relocation, home improvement, and other related services. In addition, it is involved in the management of leasing space; provision of facilities and utilities services; and warehousing management and distribution services. The company was founded in 1995 and is headquartered in Nonthaburi, Thailand.",
-    "current_price": 6.0,
-    "pe_ratio": 13.64,
+    "current_price": 6.05,
+    "pe_ratio": 13.75,
     "dividend_yield": 7.27,
     "high_1m": 6.15,
     "low_1m": 5.9,
@@ -8829,8 +8830,8 @@ var STOCKS_DATABASE = {
     "symbol": "CRC",
     "name": "Central Retail Corporation Public Company Limited",
     "business_summary": "Central Retail Corporation Public Company Limited operates as a multi-format retailing business in Thailand, Italy, Vietnam, and internationally. It operates through three segments: Fashion, Food Products, and Hardline. The company is involved in investing; retail; service; trademark services; pet food and gadgets retail and services; supermarkets; E-commerce; outerwear manufacturing; importing and selling; office equipment retail; warehouse rental; software development; E-book store; IT services; distribution center; consultation service; manufactures and distributes furniture; stationary retail and franchisor; convenience stores and business member shops; wholesale business; and real estates; and hypermarket, as well as operates department stores. Central Retail Corporation Public Company Limited was founded in 1947 and is headquartered in Bangkok, Thailand.",
-    "current_price": 20.8,
-    "pe_ratio": 17.78,
+    "current_price": 20.7,
+    "pe_ratio": 17.69,
     "dividend_yield": 2.55,
     "high_1m": 21.2,
     "low_1m": 17.8,
@@ -10467,11 +10468,11 @@ var STOCKS_DATABASE = {
     "symbol": "COM7",
     "name": "Com7 Public Company Limited",
     "business_summary": "Com7 Public Company Limited, together with its subsidiaries, engages in the retail business of information technology (IT) products in Thailand. It sells IT products, desktop computers, mobile phones, and accessories. The company also provides repair services for IT gadgets; financial services for mobiles, and other related services, as well as sells pet feeds. In addition, it is involved in software development; operating training centers; provision of car, fire, marine, and other insurance products, as well as ICT infrastructure solutions; sale of pet food, EV cars and providing repair and maintenance services for EV cars; providing rental services and financial services for EV cars and other relevant services; equipment and supplies, and solar cells. The company operates a chain of retail stores, as well as engages in the wholesale business. Com7 Public Company Limited was founded in 2004 and is based in Bangkok, Thailand.",
-    "current_price": 25.25,
-    "pe_ratio": 13.95,
+    "current_price": 25.5,
+    "pe_ratio": 14.09,
     "dividend_yield": 4.36,
     "high_1m": 26.25,
-    "low_1m": 21.5,
+    "low_1m": 22.1,
     "support_levels": [
       17.5,
       21.24,
@@ -11024,7 +11025,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 14.44,
     "dividend_yield": 3.57,
     "high_1m": 14.6,
-    "low_1m": 13.7,
+    "low_1m": 13.8,
     "support_levels": [
       12.97,
       13.9
@@ -12128,8 +12129,8 @@ var STOCKS_DATABASE = {
     "symbol": "KBANK",
     "name": "Kasikornbank Public Company Limited",
     "business_summary": "Kasikornbank Public Company Limited, together with its subsidiaries, provides commercial banking products and services in Thailand and internationally. The company operates through four segments: Corporate Business; Retail Business; Treasury and Investment, Capital Markets Business and World Business Group; and Muang Thai Group Holding Business. It offers e-savings, savings, fixed deposit, current, and foreign currency deposit accounts; debit and credit cards, as well as Xpress cash; personal, home, and auto loans, as well as property for sale; mutual funds, stocks, debentures/bonds, and derivatives/futures exchange; accident, health, critical illness, travel, savings, retirement and endowment, life insurance and inheritance, car, insurance for tax deduction, and other insurance products; digital banking and e-wallet; bill payment, money and global money transfers, and PromptPay; cash management, including cheques and drafts, as well as foreign exchange; alert services; and other financial services. The company also provides working capital, commercial loan, and letter of indemnity; international trade finance, international guarantee, and green solutions; payment, collection, liquidity management, and online merchant solutions; electronic payment application; e-tax invoice and receipt; import and export service solutions; various channels in overseas; corporate finance, securities, and investment; business accounts and cards; life, non-life, and group insurance; electronic service solution; fx and derivatives; and other related services. In addition, it engages in funding; centralized risk management; liquid assets investments; financial instruments; and foreign currency exchange, as well as brokerage business. The company was formerly known as Thai Farmers Bank Public Company Limited and changed its name to Kasikornbank Public Company Limited in April 2003. Kasikornbank Public Company Limited was founded in 1945 and is headquartered in Bangkok, Thailand.",
-    "current_price": 198.0,
-    "pe_ratio": 9.34,
+    "current_price": 197.5,
+    "pe_ratio": 9.31,
     "dividend_yield": 6.06,
     "high_1m": 199.5,
     "low_1m": 192.0,
@@ -12139,7 +12140,7 @@ var STOCKS_DATABASE = {
       174.71
     ],
     "resistance_levels": [
-      207.9,
+      207.38,
       199.5
     ],
     "upcoming_xd": "2026-04-21",
@@ -12682,8 +12683,8 @@ var STOCKS_DATABASE = {
     "symbol": "SCB",
     "name": "SCB X Public Company Limited",
     "business_summary": "SCB X Public Company Limited engages in the banking, consumer and digital finance, and platform and technology businesses in Thailand and internationally. It operates through Corporate, SME, Retail, and Others segments. The company offers commercial banking and associated financial management services; CardX for credit and personal loans; AutoX for vehicle title loans; MONIX for digital lending through the FINNIX app; ABACUS Digital for digital lending through the Money Thunder app; Alpha X for luxury financing services; InnovestX, an integrated investing platform; SCB 10X, a technology investment arm; Token X, an initial coin offering portal; and Point X, a point redemption service. It also engages in the hire purchase, leasing, and refinancing business for cars, motorcycles, and watercraft; title loans; credit cards, personal loans, and nano finance for non-banks; debt collection; life and non-life insurance brokerage; strategic data and AI partner business; AI-powered digital lending platform business; investment in and incubation of tech ventures related to blockchain, digital assets, the Metaverse, Web 3.0, and DeepTech; data analytics business; securities business, including fund management and investment services covering various assets such as Thai and foreign stocks, mutual funds, bonds, and digital assets; asset fractionalization and TKX enterprise solutions; consulting services for digital technology development and solutions; lending and retail lending; asset investigation; and specialized technology services. In addition, the company develops and manages customer loyalty programs; purchases, transfers, and manages non-performing assets from financial institutions and financial business operators; leases office buildings; and provides training and seminars. It serves corporate, commercial, SME, and individual customers, as well as small businesses. SCB X Public Company Limited was founded in 1906 and is headquartered in Bangkok, Thailand.",
-    "current_price": 135.0,
-    "pe_ratio": 10.06,
+    "current_price": 135.5,
+    "pe_ratio": 10.1,
     "dividend_yield": 8.36,
     "high_1m": 136.0,
     "low_1m": 130.0,
@@ -13227,10 +13228,10 @@ var STOCKS_DATABASE = {
     "symbol": "BBL",
     "name": "Bangkok Bank Public Company Limited",
     "business_summary": "Bangkok Bank Public Company Limited provides various commercial banking products and services in Thailand and internationally. It operates through Domestic Banking, International Banking, Investment Banking, and Others segments. The company provides various personal banking products and services, including savings, current, fixed deposit, foreign currency deposit, securities trading, and other accounts; home and personal loans, as well as loans for pensioners; mutual funds; bonds and debentures; life and non-life bancassurance products; payment, funds transfer, currency exchange and foreign instrument, and SMS services; debit, credit, travel, and prepaid cards; and internet and mobile banking, ATM, and other services. It also offers business banking products and services comprising operating accounts; e-bank confirmation on blockchain, loans for SMEs, and electronic guarantee services, as well as online payments for buyers/dealers; securities services, such as custodian, mutual fund supervisor, provident fund registrar, securities registrar, and debenture holders' representative services; payment, collection, liquid management, and merchant services; digital banking services; and commercial cards. In addition, the company provides trade finance, remittances, export and import, project, corporate finance, electronic, capital market, project and structured finance, and financial advisory services, as well as business property insurance, and FX and interest rate risk management services. Further, it offers fund management, securities, and assets management services. The company was founded in 1944 and is headquartered in Bangkok, Thailand.",
-    "current_price": 173.5,
-    "pe_ratio": 7.46,
+    "current_price": 174.0,
+    "pe_ratio": 7.48,
     "dividend_yield": 9.51,
-    "high_1m": 173.5,
+    "high_1m": 174.0,
     "low_1m": 160.5,
     "support_levels": [
       139.98,
@@ -13238,8 +13239,8 @@ var STOCKS_DATABASE = {
       155.93
     ],
     "resistance_levels": [
-      182.18,
-      173.5
+      182.7,
+      174.0
     ],
     "upcoming_xd": "2026-04-22",
     "upcoming_dividend_amount": 8.0,
@@ -13781,8 +13782,8 @@ var STOCKS_DATABASE = {
     "symbol": "KTB",
     "name": "Krung Thai Bank Public Company Limited",
     "business_summary": "Krung Thai Bank Public Company Limited, together with its subsidiaries, engages in commercial banking business in Thailand and internationally. The company operates through three segments: Retail Banking, Business Banking, and Money Management and Investment. It offers personal banking products and services, including current, fixed deposit, and savings accounts; foreign currency and tax-free time deposits; debit, credit, travel, and cash and top up cards; accident, health, life, motor, and others/non-life insurance products; personal and housing loans; money transfer, payment and top-up, foreign exchange, and overseas education services; e-banking; traffic ticket, direct debit for bill, and tax payment services; and e-certificate. The company also provides SME loans for small and medium businesses, as well as international business loans. In addition, it offers corporate banking services, such as cash management comprising collection, liquidity management, and transfer and payment; deposit and card services; corporate online and telebanking; and global markets, which include foreign exchange and derivatives, investment solution, and investment banking services. The company was founded in 1966 and is headquartered in Bangkok, Thailand.",
-    "current_price": 35.0,
-    "pe_ratio": 10.0,
+    "current_price": 35.25,
+    "pe_ratio": 10.07,
     "dividend_yield": 10.33,
     "high_1m": 35.25,
     "low_1m": 32.0,
@@ -13792,7 +13793,7 @@ var STOCKS_DATABASE = {
       31.0
     ],
     "resistance_levels": [
-      36.75,
+      37.01,
       35.25
     ],
     "upcoming_xd": "2026-04-10",
@@ -15443,18 +15444,19 @@ var STOCKS_DATABASE = {
     "symbol": "KKP",
     "name": "Kiatnakin Phatra Bank Public Company Limited",
     "business_summary": "Kiatnakin Phatra Bank Public Company Limited, together with its subsidiaries, provides various banking products and services for individual, business, corporate, and institution clients in Thailand. It operates through Commercial Banking Business, Capital Market Business, and Debt Restructuring segments. The company offers savings and current accounts, and fixed and foreign currency deposits; auto, personal, and home loans; life, health, and other insurance products; wealth invest link products; debit cards; digital banking, foreign exchange, and other services; and investment products. It also provides business banking products, including welfare packages; asset services; and real estate, apartment and hotel, and specialized industrial lending services. In addition, the company offers SME business loans; letters of guarantee; and car auction, PromptPay for legal entities, collection, payment, payroll, e-withholding tax, and other e-banking services. The company was formerly known as Kiatnakin Bank Public Company Limited and changed its name to Kiatnakin Phatra Bank Public Company Limited in August 2020. Kiatnakin Phatra Bank Public Company Limited was founded in 1971 and is headquartered in Bangkok, Thailand.",
-    "current_price": 83.5,
-    "pe_ratio": 10.07,
+    "current_price": 85.25,
+    "pe_ratio": 10.28,
     "dividend_yield": 6.95,
-    "high_1m": 82.75,
-    "low_1m": 78.0,
+    "high_1m": 85.5,
+    "low_1m": 78.75,
     "support_levels": [
       54.55,
       61.2,
       67.6
     ],
     "resistance_levels": [
-      82.5
+      89.51,
+      85.5
     ],
     "upcoming_xd": "2026-04-29",
     "upcoming_dividend_amount": 4.2,
@@ -15999,8 +16001,8 @@ var STOCKS_DATABASE = {
     "current_price": 60.5,
     "pe_ratio": 7.79,
     "dividend_yield": 5.79,
-    "high_1m": 60.5,
-    "low_1m": 55.25,
+    "high_1m": 60.75,
+    "low_1m": 56.0,
     "support_levels": [
       41.73,
       48.22,
@@ -16008,7 +16010,7 @@ var STOCKS_DATABASE = {
     ],
     "resistance_levels": [
       63.53,
-      60.61
+      60.75
     ],
     "upcoming_xd": "2026-04-16",
     "upcoming_dividend_amount": 2.2,
@@ -16550,8 +16552,8 @@ var STOCKS_DATABASE = {
     "symbol": "KTC",
     "name": "Krungthai Card Public Company Limited",
     "business_summary": "Krungthai Card Public Company Limited engages in the credit card, personal loan, and other related businesses in Thailand. It also involved in the merchant acquiring, payment services, provincial retail lending business, occupational retail lending business, e-money business, and hire purchase and leasing business. Krungthai Card Public Company Limited was incorporated in 1996 and is headquartered in Bangkok, Thailand.",
-    "current_price": 29.5,
-    "pe_ratio": 9.39,
+    "current_price": 29.75,
+    "pe_ratio": 9.47,
     "dividend_yield": 5.95,
     "high_1m": 30.25,
     "low_1m": 28.5,
@@ -17107,7 +17109,7 @@ var STOCKS_DATABASE = {
     "current_price": 21.7,
     "pe_ratio": 6.85,
     "dividend_yield": 3.38,
-    "high_1m": 23.63,
+    "high_1m": 23.23,
     "low_1m": 21.1,
     "support_levels": [
       14.5,
@@ -18211,8 +18213,8 @@ var STOCKS_DATABASE = {
     "symbol": "BDMS",
     "name": "Bangkok Dusit Medical Services Public Company Limited",
     "business_summary": "Bangkok Dusit Medical Services Public Company Limited, together with its subsidiaries, operates hospitals in Thailand and internationally. It operates through two segments Hospital Operations; and Other Businesses That Support Hospital Business. The company operates hospitals under the Bangkok Hospital Group, Samitivej Hospital Group, BNH Hospital, Phyathai Hospital Group, Paolo Hospital, and Royal Hospital Group names; and BDMS Wellness Clinic. It also offers medical laboratory, holistic clinical wellness, accounting, technology and information, training, investment and asset management, air transportation, skin and aesthetics telemedicine, and genomic medicine services; operates hotels and pharmacies; provides health insurance and insurance brokerage services; retails medicine and pharmaceutical products; and distributes health products and cosmetic products, as well as facility management services. In addition, the company is involved in production and distribution of medicines, pharmaceutical products, medical equipment, and saline; real estate; e-commerce; and investment and operation of BDMS silver wellness and residence products. Bangkok Dusit Medical Services Public Company Limited was founded in 1969 and is headquartered in Bangkok, Thailand.",
-    "current_price": 18.3,
-    "pe_ratio": 18.48,
+    "current_price": 18.4,
+    "pe_ratio": 18.59,
     "dividend_yield": 4.37,
     "high_1m": 18.9,
     "low_1m": 18.0,
@@ -18765,18 +18767,17 @@ var STOCKS_DATABASE = {
     "symbol": "BH",
     "name": "Bumrungrad Hospital Public Company Limited",
     "business_summary": "Bumrungrad Hospital Public Company Limited owns and operates hospitals and healthcare centers in Thailand and internationally. It offers services in the areas of allergy, arrhythmia, behavioural health, breast, home, heart valve, robotic surgery, rehabilitation, spine, pediatrics, colorectal surgery, complex coronary artery intervention, comprehensive sleep, cornea transplant, dental, diagnostic, dialysis, radiology and nuclear medicine, digestive disease, ear, nose, throat, emergency, endocrinology, esperance, diabetes, expatriate liaison, eye, fertility, gastrointestinal motility, health screening, holistic wound care, horizon regional cancer, hyperbaric oxygen therapy, nephrology, neuroscience, orthopaedics, perinatal, plastic surgery, pulmonary, refractive surgery, memory, robotic scoliosis, skin, sports medicine and joint, surgery, travel medicine, urology, scientific wellness, skin and aesthetic, and women's centers. The company also operates breastfeeding, Yangon, COVID-19 recovery, IVF, hearing and balance, medical, new life healthy aging, Parkinson's disease and movement disorders, pride, surgery, and vaccine clinics and centers. In addition, it operates spine institute, heart institute, and intensive care unit; and offers nutrition services, pharmacy services, preventive genomics and integrative medicine services. Bumrungrad Hospital Public Company Limited was founded in 1975 and is based in Bangkok, Thailand.",
-    "current_price": 177.5,
-    "pe_ratio": 20.5,
+    "current_price": 178.5,
+    "pe_ratio": 20.61,
     "dividend_yield": 2.82,
     "high_1m": 183.0,
-    "low_1m": 169.5,
+    "low_1m": 173.0,
     "support_levels": [
       129.54,
       148.52,
       161.67
     ],
     "resistance_levels": [
-      178.28,
       202.14
     ],
     "upcoming_xd": "2026-03-17",
@@ -19319,11 +19320,11 @@ var STOCKS_DATABASE = {
     "symbol": "BCH",
     "name": "Bangkok Chain Hospital Public Company Limited",
     "business_summary": "Bangkok Chain Hospital Public Company Limited, together with its subsidiaries, operates private hospitals in Bangkok vicinity, Chiang Rai, Saraburi, Nonthaburi, Pathumthani, Ayudhaya, Chachoengsao, Prachinburi, Sa Kaeo Province, and Lao People's Democratic Republic. It offers diagnosis, treatment, prevention, rehabilitation services for heart disease; open heart surgery to provide heart care and clinical treatment by cardiologists; and medical supports. The company also operates diagnostic imaging centers; eye centers that provide eye examination, treatment, and surgery services; cancer centers that offer services ranging from screening, diagnosis, and chemotherapy; fertility centers for infertility treatment, as well as diabetic wound treatment centers. In addition, the company sells health-related drinks; provides medical analysis and research services; and develops package computer programs. The company was founded in 1984 and is headquartered in Nonthaburi, Thailand.",
-    "current_price": 9.25,
-    "pe_ratio": 18.14,
+    "current_price": 9.15,
+    "pe_ratio": 17.94,
     "dividend_yield": 4.84,
     "high_1m": 9.6,
-    "low_1m": 9.15,
+    "low_1m": 9.1,
     "support_levels": [
       9.1
     ],
@@ -20981,15 +20982,15 @@ var STOCKS_DATABASE = {
     "symbol": "AOT",
     "name": "Airports of Thailand Public Company Limited",
     "business_summary": "Airports of Thailand Public Company Limited, together with its subsidiaries, engages in the airport business in Thailand. The company engages in airport management, hotel business, ground service business, security business, and management of perishable goods projects. It operates six international airports, including Suvarnabhumi Airport, Don Mueang International Airport, Chiang Mai International Airport, Hat Yai International Airport, Phuket International Airport and Mae Fah Luang - Chiang Rai International Airport. The company is involved in the hotel and restaurant business; and operation and management of the project on perishable goods at Suvarnabhumi Airport. In addition, it offers ground equipment, security services, and manages projects, as well as ground, warehouse, and cleaning services. Airports of Thailand Public Company Limited was founded in 1979 and is headquartered in Bangkok, Thailand.",
-    "current_price": 54.0,
-    "pe_ratio": 42.52,
+    "current_price": 54.25,
+    "pe_ratio": 42.72,
     "dividend_yield": 1.5,
     "high_1m": 55.0,
     "low_1m": 50.25,
     "support_levels": [
       39.03,
       47.75,
-      50.5
+      50.58
     ],
     "resistance_levels": [
       55.12,
@@ -22642,8 +22643,8 @@ var STOCKS_DATABASE = {
     "symbol": "MINT",
     "name": "Minor International Public Company Limited",
     "business_summary": "Minor International Public Company Limited, together with its subsidiaries, operates as a hospitality, restaurant, and lifestyle company in Thailand, Australia, New Zealand, Europe, Latin America, Maldives, the Middle East, the People's Republic of China, and internationally. The company operates through three segments: Hotel, Mixed use and others, and Restaurant. The company operates hotels and restaurants, entertainment venues, food and beverage outlets, property rental business, spa services, and management operations, as well as real estates for sales, distribution, and manufacturing. In addition, the company is involved in the food and beverage sale, hotel management, supply chain management, distribution, management, vacation club point sale, entertainment, franchise, airport lounge, and healthcare businesses; property investment, development, and sales activities; operation of shopping mall and school; and manufacture and sale of cheese and ice-cream. The company was formerly known as Royal Garden Resorts Plc. and changed its name to Minor International Public Company Limited in 2005. Minor International Public Company Limited was founded in 1978 and is headquartered in Bangkok, Thailand.",
-    "current_price": 22.0,
-    "pe_ratio": 16.42,
+    "current_price": 22.1,
+    "pe_ratio": 16.49,
     "dividend_yield": 3.13,
     "high_1m": 22.5,
     "low_1m": 19.91,
@@ -23197,8 +23198,8 @@ var STOCKS_DATABASE = {
     "symbol": "CENTEL",
     "name": "Central Plaza Hotel Public Company Limited",
     "business_summary": "Central Plaza Hotel Public Company Limited, together with its subsidiaries, engages in the hotel business in Thailand, the Republic of Maldives, and Japan. It operates in two segments, Hotel and Related Services Operation; and Food and Ice-Cream. It is also involved in the food and beverage, hotel management, import and export, and labour contracting businesses, as well as operates learning centre. In addition, the company operates through Centara Reserve, The Centara Collection, Centara Grand, Centara, Centara Life, COSI, SPA Cenvaree, and Centara The1 brands. Central Plaza Hotel Public Company Limited was founded in 1980 and is based in Bangkok, Thailand.",
-    "current_price": 33.25,
-    "pe_ratio": 13.25,
+    "current_price": 33.0,
+    "pe_ratio": 13.15,
     "dividend_yield": 2.0,
     "high_1m": 33.75,
     "low_1m": 29.34,
@@ -23752,8 +23753,8 @@ var STOCKS_DATABASE = {
     "symbol": "ERW",
     "name": "The Erawan Group Public Company Limited",
     "business_summary": "The Erawan Group Public Company Limited engages in hotel, and building rental and management businesses primarily in Thailand, Japan, and Philippines. The company operates hotels and resorts under the Grand Hyatt Erawan Bangkok, IBIS, JW Marriott Bangkok, The Naka Island, Courtyard by Marriott Bangkok, Holiday Inn Pattaya, IBIS Styles, Novotel Bangkok Sukhumvit 4, Holiday Inn Cebu City, Mercure Hotels, and HOP INN names. It also rents commercial retail property under the name Erawan Bangkok, as well as a shopping plaza and one office building. In addition, the company is involved in restaurant business, under Man Ho Bistro, a Chinese culinary eatery; and Chisana Nami, a modern teppanyaki. The company was incorporated in 1982 and is headquartered in Bangkok, Thailand.",
-    "current_price": 2.76,
-    "pe_ratio": 15.33,
+    "current_price": 2.78,
+    "pe_ratio": 15.44,
     "dividend_yield": 2.48,
     "high_1m": 2.94,
     "low_1m": 2.32,
@@ -23763,6 +23764,7 @@ var STOCKS_DATABASE = {
       2.34
     ],
     "resistance_levels": [
+      2.79,
       3.15
     ],
     "upcoming_xd": "2026-03-10",
@@ -25941,10 +25943,10 @@ var STOCKS_DATABASE = {
     "symbol": "DELTA",
     "name": "Delta Electronics (Thailand) Public Company Limited",
     "business_summary": "Delta Electronics (Thailand) Public Company Limited, together with its subsidiaries, researches and develops, manufactures, and distributes electronic products. The company operates through four segments: Power Electronics, Mobility, Infrastructure, and Automation. It offers inductors, RF inductors, transformers, networking products, EMI filters, solenoids, current sensing resistors, and power modules; power and system products, such as USB socket outlets, medical power, industrial power supplies, industrial battery charging, high voltage power, embedded power, and adapters; DC brushless fans and blowers, motors, thermal management products, cabinet thermal solutions, indoor air quality solutions, and automotive fans; EV powertrain systems; and display and visualization, mobile power, industrial power, and medical power products, as well as healthcare devices. The company also provides building automation products comprising building management and control system, LED lighting, smart surveillance, indoor air quality, healthy lighting, and building energy management system products; industrial automation products; data center, telecom power systems, networking systems, and UPS and datacenter infrastructure solutions; EV charging and energy storage systems, renewable energy, industrial battery charging, healthcare devices, industrial equipment, energy IoT, and display and visualization products; and visual display and smart education solutions. In addition, it offers industrial and building automation, data center, telecom energy, smart energy, displays and monitoring, and EV charging solutions. Further, the company rents properties; and manufactures and trades electric vehicle, as well as engages in holding business. It operates in Thailand, the United States, Germany, Singapore, China, India, Taiwan, the Netherlands, Hungary, Malaysia, and internationally. The company was incorporated in 1988 and is based in Samut Prakan, Thailand.",
-    "current_price": 339.0,
-    "pe_ratio": 149.34,
+    "current_price": 353.0,
+    "pe_ratio": 155.51,
     "dividend_yield": 18.0,
-    "high_1m": 342.0,
+    "high_1m": 355.0,
     "low_1m": 300.0,
     "support_levels": [
       95.78,
@@ -25952,8 +25954,8 @@ var STOCKS_DATABASE = {
       159.14
     ],
     "resistance_levels": [
-      350.7,
-      342.0
+      371.7,
+      355.0
     ],
     "upcoming_xd": "2026-02-26",
     "upcoming_dividend_amount": 0.6,
@@ -26495,10 +26497,10 @@ var STOCKS_DATABASE = {
     "symbol": "HANA",
     "name": "Hana Microelectronics Public Company Limited",
     "business_summary": "Hana Microelectronics Public Company Limited, together with its subsidiaries, engages in the manufacture and trading of electronic components. The company provides printed circuit board assemblies, chip-on-board and flex assembly and test, lamination, coil, winding, integrated circuit assemblies and tests, and LED packaging and test services. It also offers electronics manufacturing, and outsourced semiconductor assembly and testing services IC, MEMS, sensors, TO Can, system in packages, optocouplers, and SMT. In addition, the company Liquid Crystal Microdisplays, radio frequency identification RFID devices, SMT and labour-intensive microelectronics assemblies, and IC power management silicon and silicon carbide (SiC) wafer devices. It operates in the United States, Singapore, Malaysia, China, Bulgaria, and internationally. Hana Microelectronics Public Company Limited was founded in 1978 and is headquartered in Bangkok, Thailand.",
-    "current_price": 38.25,
-    "pe_ratio": 112.5,
+    "current_price": 39.25,
+    "pe_ratio": 115.44,
     "dividend_yield": 2.67,
-    "high_1m": 38.25,
+    "high_1m": 39.75,
     "low_1m": 29.0,
     "support_levels": [
       16.71,
@@ -26506,8 +26508,8 @@ var STOCKS_DATABASE = {
       21.49
     ],
     "resistance_levels": [
-      39.38,
-      38.25
+      41.21,
+      39.75
     ],
     "upcoming_xd": "2026-03-16",
     "upcoming_dividend_amount": 0.75,
@@ -27049,18 +27051,18 @@ var STOCKS_DATABASE = {
     "symbol": "KCE",
     "name": "KCE Electronics Public Company Limited",
     "business_summary": "KCE Electronics Public Company Limited together with its subsidiaries, manufactures and distributes electric printed circuit boards (PCBs) under the KCE trademark in America, Europe, and Asia. It operates in three segments: Manufacturing and Selling Prepreg and Laminate, Printed Circuit Board, and Chemical products. The company's PCBs are manufactured from copper clad laminates that are used in various applications, including automotive, industrial, computer, and telecom systems. It also manufactures and distributes prefix and laminate, printed circuit boards, and chemicals products, as well as involved in the rental out residences. In addition, the company operates a network of sales offices in Singapore, Mexico, Japan, Korea, China, and Thailand. The company was formerly known as Kuang Charoen Electronics Company Limited. KCE Electronics Public Company Limited was founded in 1982 and is based in Bangkok, Thailand.",
-    "current_price": 34.75,
-    "pe_ratio": 48.94,
+    "current_price": 35.75,
+    "pe_ratio": 50.35,
     "dividend_yield": 3.48,
-    "high_1m": 35.75,
-    "low_1m": 29.5,
+    "high_1m": 36.0,
+    "low_1m": 30.0,
     "support_levels": [
       16.35,
       22.1
     ],
     "resistance_levels": [
-      36.23,
-      35.75
+      37.54,
+      36.0
     ],
     "upcoming_xd": "2026-03-23",
     "upcoming_dividend_amount": 0.6,
@@ -27602,8 +27604,8 @@ var STOCKS_DATABASE = {
     "symbol": "CCET",
     "name": "Cal-Comp Electronics (Thailand) Public Company Limited",
     "business_summary": "Cal-Comp Electronics (Thailand) Public Company Limited, together with its subsidiaries, manufactures electronic products worldwide. The company offers computer peripherals, such as mainboards, external hard disk drives, NAS and PCBA for hard disk drives, USB pen drives, storage server PCBA, , PCBA for digital camera, media players, Smart TV, smart POS machines, and assembly products, as well as ink-jet printers, laser printers, multi-function printers, dot-matrix printers, and large format printers; telecommunication products, including set-top boxes and their component parts, and Bluetooth headsets; and smart appliances that comprise smart TV, mirrors, and POS machines, as well as digital camera PCBA and media players. It also provides consumer electronics, which include facial cleaning brushes, iron brushes, cordless airbrush makeup kits, displays, electronic keyboards, hubs, rovers, and calculators; intelligent warehouse, machinery, and robotics, as well as smart factory products; smart beauty products comprising facial moisturizing sprays, facial cleaning brushes, facial massagers, mirror, smart body scale, and electric toothbrushes; and healthcare and wearable devices. In addition, the company offers semiconductor design and packaging services; plastic injection and tooling, and sheet metal processing; 3D printing;  and robotic applications for edutainment and smart service products. Cal-Comp Electronics (Thailand) Public Company Limited was founded in 1989 and is headquartered in Bangkok, Thailand.",
-    "current_price": 9.15,
-    "pe_ratio": 48.16,
+    "current_price": 8.95,
+    "pe_ratio": 47.11,
     "dividend_yield": 1.97,
     "high_1m": 9.4,
     "low_1m": 5.7,
@@ -27613,7 +27615,7 @@ var STOCKS_DATABASE = {
       5.6
     ],
     "resistance_levels": [
-      9.61,
+      9.45,
       9.4
     ],
     "upcoming_xd": "2026-03-19",
@@ -28709,8 +28711,8 @@ var STOCKS_DATABASE = {
     "symbol": "CPN",
     "name": "Central Pattana Public Company Limited",
     "business_summary": "Central Pattana Public Company Limited develops and manages real estate properties in Thailand. It constructs, develops, and manages shopping malls, office buildings, hotels, and residential projects for lease. The company also provides utility services in shopping centers, property management consulting, corporate, and food center services. In addition, it engages in the operation of play lands and water theme parks in shopping centers; investment in real estate; education services; sale of land, houses, and condominium units; and management of a real estate investment trust. Central Pattana Public Company Limited was founded in 1980 and is headquartered in Bangkok, Thailand.",
-    "current_price": 65.75,
-    "pe_ratio": 15.05,
+    "current_price": 66.0,
+    "pe_ratio": 15.1,
     "dividend_yield": 3.65,
     "high_1m": 67.75,
     "low_1m": 61.25,
@@ -29817,14 +29819,14 @@ var STOCKS_DATABASE = {
     "symbol": "SPALI",
     "name": "Supalai Public Company Limited",
     "business_summary": "Supalai Public Company Limited, together with its subsidiaries, engages in the property development business in Thailand and Australia. It operates through Real estate Business; and Hotel Business and Management segments. The company owns and operates housing projects, such as detached houses, duplex houses, townhouses, and condominiums under the Supalai brand name. It also develops office buildings for rent; and provides real estate project management, as well as the management of hotels and resorts. In addition, the company is involved in developing shopping centers; deals in trades in land and real estate properties; provision of rental and/or leasing services for real estate; investing in securities; and hotel development business. Supalai Public Company Limited was founded in 1989 and is headquartered in Bangkok, Thailand.",
-    "current_price": 15.6,
-    "pe_ratio": 7.46,
+    "current_price": 15.7,
+    "pe_ratio": 7.51,
     "dividend_yield": 8.97,
     "high_1m": 15.8,
     "low_1m": 14.8,
     "support_levels": [
       12.48,
-      15.15
+      15.09
     ],
     "resistance_levels": [
       16.08,
@@ -30371,8 +30373,8 @@ var STOCKS_DATABASE = {
     "symbol": "AP",
     "name": "AP (Thailand) Public Company Limited",
     "business_summary": "AP (Thailand) Public Company Limited, together with its subsidiaries, engages in the provision of real estate development business in Thailand. It operates through three segments: LowRise, HighRise, and Other. The LowRise segment is involved in the development of single detached houses and townhouses. The HighRise segment develops condominiums. The Other segment provides after-sales, property brokerage, and construction services. The company was formerly known as Asian Property Development Public Company Limited and changed its name to AP (Thailand) Public Company Limited in May 2013. AP (Thailand) Public Company Limited was founded in 1984 and is based in Bangkok, Thailand.",
-    "current_price": 7.6,
-    "pe_ratio": 5.47,
+    "current_price": 7.65,
+    "pe_ratio": 5.5,
     "dividend_yield": 6.93,
     "high_1m": 8.17,
     "low_1m": 7.35,
@@ -30929,7 +30931,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 8.06,
     "dividend_yield": 10.0,
     "high_1m": 1.43,
-    "low_1m": 1.3,
+    "low_1m": 1.33,
     "support_levels": [
       1.16,
       1.21,
@@ -32588,18 +32590,18 @@ var STOCKS_DATABASE = {
     "symbol": "AMATA",
     "name": "Amata Corporation Public Company Limited",
     "business_summary": "Amata Corporation Public Company Limited, together with its subsidiaries, engages in industrial estate development in Thailand and internationally. It is involved in construction of factory for rent; production, distribution, and treatment of water for industrial use; generation and distribution of electricity from solar power; private education; commercial development; development of real estate properties; and development and operation of smart city, commercial, and mixed projects. The company also provides services for common areas. In addition, it operates as a REIT manager. Amata Corporation Public Company Limited was incorporated in March 6th, 1989 and is headquartered in Bangkok, Thailand.",
-    "current_price": 24.8,
-    "pe_ratio": 7.7,
+    "current_price": 25.0,
+    "pe_ratio": 7.76,
     "dividend_yield": 4.44,
     "high_1m": 26.0,
-    "low_1m": 19.08,
+    "low_1m": 19.7,
     "support_levels": [
       13.59,
       14.36,
       17.34
     ],
     "resistance_levels": [
-      26.04,
+      26.25,
       26.0
     ],
     "upcoming_xd": "2026-05-05",
@@ -33142,18 +33144,18 @@ var STOCKS_DATABASE = {
     "symbol": "WHA",
     "name": "WHA Corporation Public Company Limited",
     "business_summary": "WHA Corporation Public Company Limited, together with its subsidiaries, develops, rents, and sells lands, buildings, factories, warehouses, and other properties in Thailand and internationally. It also develops and manages properties in industrial estates and zones. In addition, the company provides digital, data center, Internet connection, and other IT services; and public utilities, facilities, and other related services. Further, it is involved in the water utility and power, mobility, and logistics businesses. WHA Corporation Public Company Limited was founded in 2003 and is headquartered in Samut Prakan, Thailand.",
-    "current_price": 5.0,
-    "pe_ratio": 16.13,
+    "current_price": 5.05,
+    "pe_ratio": 16.29,
     "dividend_yield": 4.21,
     "high_1m": 5.2,
-    "low_1m": 4.19,
+    "low_1m": 4.27,
     "support_levels": [
       2.98,
       3.27,
       3.82
     ],
     "resistance_levels": [
-      5.25,
+      5.3,
       5.2
     ],
     "upcoming_xd": "2026-05-11",
@@ -33696,8 +33698,8 @@ var STOCKS_DATABASE = {
     "symbol": "AWC",
     "name": "Asset World Corp Public Company Limited",
     "business_summary": "Asset World Corp Public Company Limited invests in, develops, and manages real estate properties in Thailand. It operates through two segments: Hotel and Related Services, and Rental and Rendering of Commercial Building Services. The company owns and develops hotels; lifestyle destinations, community shopping malls, and community markets; rental and rendering of commercial building services; social enterprise; and mixed-use properties. It also operates digital commerce platforms; management services; and engages in property leasing activities. Asset World Corp Public Company Limited was founded in 1960 and is headquartered in Bangkok, Thailand.",
-    "current_price": 2.28,
-    "pe_ratio": 11.4,
+    "current_price": 2.3,
+    "pe_ratio": 11.5,
     "dividend_yield": 3.51,
     "high_1m": 2.36,
     "low_1m": 1.98,
@@ -34234,8 +34236,8 @@ var STOCKS_DATABASE = {
     "symbol": "CK",
     "name": "CH. Karnchang Public Company Limited",
     "business_summary": "CH. Karnchang Public Company Limited, together with its subsidiaries, provides construction services in Thailand and the Lao People's Democratic Republic. It operates through two segments, Construction and Related Service and Investment in Infrastructure Business. The company engages in the construction of mass rapid transit systems, airports, roads and expressways, energy projects, water supply and harbour projects, and buildings. It also invests in infrastructure project development business; and sells construction materials. The company serves government agencies and private customers. CH. Karnchang Public Company Limited was founded in 1972 and is based in Bangkok, Thailand.",
-    "current_price": 17.7,
-    "pe_ratio": 8.81,
+    "current_price": 17.6,
+    "pe_ratio": 8.76,
     "dividend_yield": 2.82,
     "high_1m": 19.2,
     "low_1m": 16.6,
@@ -35340,8 +35342,8 @@ var STOCKS_DATABASE = {
     "symbol": "NOBLE",
     "name": "Noble Development Public Company Limited",
     "business_summary": "Noble Development Public Company Limited, together with its subsidiaries, develops and sells real estate properties in Thailand. It operates through Condominium, House and Land, Rental and Service Business, and Others segments. It is involved in the sale of lands, lands and single detached houses, interior equipment, and condominium units; and provision of construction, rental and services, construction consulting, management, and juristic management services. The company is also involved in the manufacturing and sale of furniture. Noble Development Public Company Limited was founded in 1991 and is headquartered in Bangkok, Thailand.",
-    "current_price": 1.83,
-    "pe_ratio": 4.46,
+    "current_price": 1.82,
+    "pe_ratio": 4.44,
     "dividend_yield": 22.13,
     "high_1m": 1.91,
     "low_1m": 1.77,
@@ -35894,11 +35896,11 @@ var STOCKS_DATABASE = {
     "symbol": "CPF",
     "name": "Charoen Pokphand Foods Public Company Limited",
     "business_summary": "Charoen Pokphand Foods Public Company Limited, together its subsidiaries, operates in the agro-industrial and integrated food businesses in Thailand and internationally. It operates in two segments, Livestock Business and Aquaculture Business. The company produces and sells swine, chicken, duck, pigs, shrimp, and fish feed; and breeds and farms swine, broiler, layer, duck, and shrimp. It is involved in the animal feed raw materials distribution, food products wholesale and retail, property investment, property lease-out, shrimp hatchery, and animal feedmill businesses. In addition, the company produces and distributes elite seeds, pet snack, chlortetracycline, aquatic feed, and seafood products; and imports and distributes eggs, fresh and processed meat, milk products, frozen fruit, and ready to eat products. Further, it provides consulting, management and advisory, financial guarantee, biological waste management, information technology, food research and development, and financial services. Additionally, the company engages in the operation of food processing plants, slaughterhouses, and training centers; agricultural and livestock farming; chicken integration business; provision and development of Asian food products; and swine farm construction activities. It also exports its products. The company Limited was incorporated in 1978 and is headquartered in Bangkok, Thailand.",
-    "current_price": 19.3,
-    "pe_ratio": 7.28,
+    "current_price": 19.2,
+    "pe_ratio": 7.25,
     "dividend_yield": 2.59,
     "high_1m": 19.8,
-    "low_1m": 18.56,
+    "low_1m": 18.8,
     "support_levels": [
       18.56
     ],
@@ -36447,11 +36449,11 @@ var STOCKS_DATABASE = {
     "symbol": "TU",
     "name": "Thai Union Group Public Company Limited",
     "business_summary": "Thai Union Group Public Company Limited, together with its subsidiaries, manufactures and sells frozen, chilled, and canned seafood in Thailand and internationally. The company operates through four segments: Ambient Seafood; Frozen and Chilled Seafood and Related Businesses; Pet food; and Value-Added and Other Businesses. It provides ambient seafood products, including tuna, sardines, mackerel, herring, and salmon for retail and wholesale customers; frozen and chilled seafood products, such as shrimp, lobster, and crab that are sold directly to restaurants, hotels, caterers, and retail customers; ready-to-cook or ready-to-serve products, and bakery treats; marine ingredients for use in consumer goods, such as infant formula, cosmetics, dietary supplements, and clinical nutrition; and pet care products comprising wet-based food and treats. The company offers its products under the Chicken of the Sea, Genova, John West, Petit Navire, Parmentier, King Oscar, Mareblu, Rügen Fisch, Sealect, Fisho, QFresh, MONORI, Bellotta, Marvo, ChangeTer, Calico Bay, Paramount, and Zeavita brand names. It also manufactures and distributes animal feeds, frozen food, aquatic animals, ingredient products, canned tuna, seafood, and smoked salmon products, as well as distributes shrimp feeds. In addition, the company offers packaging, printing, training and management, e-commerce, consultancy, and property rental services. Further, it is involved in the tuna oil refinery, shrimp farming, and shrimp breeding and hatchery businesses; import and distribution of pet food and pet related products; import of seafood; and operation of seafood restaurant outlets. The company was formerly known as Thai Union Frozen Products Public Company Limited and changed its name to Thai Union Group Public Company Limited in September 2015. The company was founded in 1977 and is headquartered in Mueang Samut Sakhon, Thailand.",
-    "current_price": 11.3,
-    "pe_ratio": 9.34,
+    "current_price": 11.2,
+    "pe_ratio": 9.26,
     "dividend_yield": 6.19,
     "high_1m": 12.0,
-    "low_1m": 11.0,
+    "low_1m": 11.2,
     "support_levels": [
       8.46,
       10.89
@@ -37001,8 +37003,8 @@ var STOCKS_DATABASE = {
     "symbol": "NER",
     "name": "North East Rubber Public Company Limited",
     "business_summary": "North East Rubber Public Company Limited manufactures and sells rubber products in Thailand. It offers rubber smoked sheets, skim block rubbers, mixtures rubber, ribbed smoked, and standard Thai rubbers primarily for the automotive industry. The company also exports its products to Singapore, China, Japan, Cambodia, and India. North East Rubber Public Company Limited was incorporated in 2006 and is headquartered in Prakhon Chai, Thailand.",
-    "current_price": 4.4,
-    "pe_ratio": 4.31,
+    "current_price": 4.42,
+    "pe_ratio": 4.33,
     "dividend_yield": 7.05,
     "high_1m": 4.74,
     "low_1m": 4.3,
@@ -39216,15 +39218,15 @@ var STOCKS_DATABASE = {
     "symbol": "CBG",
     "name": "Carabao Group Public Company Limited",
     "business_summary": "Carabao Group Public Company Limited, through its subsidiaries, manufactures, markets, distributes, and sells beverages in Thailand and internationally. The company's products primarily include carbonated and non-carbonated energy drinks, vitamin C drinks, sport drinks, coffee products, and drinking water under the Carabao, Carabao Sport, and Woody C+ Lock brands. It also manufactures and distributes bottles, glass products, aluminum cans, and packaging products. In addition, the company is involved in the investment, data and distribution management, and trading activities. Carabao Group Public Company Limited was founded in 2001 and is headquartered in Bangkok, Thailand.",
-    "current_price": 41.0,
-    "pe_ratio": 18.89,
+    "current_price": 41.25,
+    "pe_ratio": 19.01,
     "dividend_yield": 2.93,
     "high_1m": 42.5,
-    "low_1m": 35.5,
+    "low_1m": 35.75,
     "support_levels": [
-      34.25,
       35.5,
-      39.29
+      39.29,
+      41.18
     ],
     "resistance_levels": [
       44.22,
@@ -40326,8 +40328,8 @@ var STOCKS_DATABASE = {
     "symbol": "MEGA",
     "name": "Mega Lifesciences Public Company Limited",
     "business_summary": "Mega Lifesciences Public Company Limited, together with its subsidiaries, manufactures and sells health food supplements, prescription pharmaceutical products, over-the-counter products, herbal products, vitamins, and fast-moving consumer goods. The company operates through three segments: Brands, Distribution, and Original Equipment Manufacture. It offers wellness and nutrition products, including medical and sports nutrition, general well-being, vitamins, probiotics, herbal medicines, and cough and cold medicines, as well as hair, kid's, men's, and women's care products; and various health concerns products, such as allergy, bone and joint, gut, liver, diabetic, eye, heart, brain, sleep and anxiety, pain, and skin care, as well as blood circulation and memory. The company also provides prescription medicines for anti-allergic, anti-infective, cardiovascular system, central nervous system, dermatology, diabetes, gastrointestinal, gynecology, nephrology, oncology, ophthalmology, orthopedic, pain, respiratory, rheumatology, and urology areas under the MEGA We care brand name. In addition, it offers logistical and marketing services for trading and sale of goods manufactured by third parties comprising warehouse management, collections, and value-added services; natural and plant-based health foods; digital support solutions; and operation of wellness center. Further, the company is involved in social enterprise; and software design, development, and other services. It sells its products in in Southeast Asia, Sub-Saharan Africa, Australia, Europe, and South America. Mega Lifesciences Public Company Limited was incorporated in 1982 and is headquartered in Bangkok, Thailand.",
-    "current_price": 34.5,
-    "pe_ratio": 14.62,
+    "current_price": 34.75,
+    "pe_ratio": 14.72,
     "dividend_yield": 4.38,
     "high_1m": 37.75,
     "low_1m": 34.5,
@@ -40880,8 +40882,8 @@ var STOCKS_DATABASE = {
     "symbol": "MALEE",
     "name": "Malee Group Public Company Limited",
     "business_summary": "Malee Group Public Company Limited, together with its subsidiaries, manufactures and distributes fruit juices, canned fruit, milk and cereal drink, and non-alcohol beverage products in Thailand and internationally. The company manufactures and distributes fruit juice, coconut water, vegetable juice, canned fruit, dairy, and plant-based products. It is also involved in import, export, and distribution of ready-to-drink beverages; research and development of scientifically transformation agriculture; renting of office buildings; and operating agriculture and dairy farms, as well as distribution of consumer products. The company was formerly known as Malee Sampran Public Company Limited and changed its name to Malee Group Public Company Limited in April 2016. Malee Group Public Company Limited was founded in 1978 and is based in Lam Luk Ka, Thailand.",
-    "current_price": 4.22,
-    "pe_ratio": 15.63,
+    "current_price": 4.26,
+    "pe_ratio": 15.78,
     "dividend_yield": 2.44,
     "high_1m": 4.26,
     "low_1m": 3.84,
@@ -40891,7 +40893,6 @@ var STOCKS_DATABASE = {
       4.0
     ],
     "resistance_levels": [
-      4.23,
       5.0,
       6.4
     ],
@@ -41988,8 +41989,8 @@ var STOCKS_DATABASE = {
     "symbol": "SCGP",
     "name": "SCG Packaging Public Company Limited",
     "business_summary": "SCG Packaging Public Company Limited provides consumer packaging solutions in Thailand, Vietnam, Indonesia, China, and internationally. It operates through Integrated Packaging Business, Fibrous Business, and Recycling Business and Corporate segments. The Integrated Packaging segment offers fiber packaging, such as corrugated containers; retail display packaging; packaging paper products, including containerboard, coated duplex board, and sack kraft; and plasterboard liners. This segment also offers consumer and performance packaging comprising flexible packaging products; flexible packaging; rigid packaging products; and medical supplies and labware. Its Fibrous Business segment provides food service; pulp; and paper products. The Recycling Business and Others segment offers packaging materials recycling and investment services. The company was formerly known as SCG Paper Public Company Limited and changed its name to SCG Packaging Public Company Limited in June 2015. The company was founded in 1975 and is based in Bangkok, Thailand. SCG Packaging Public Company Limited is a subsidiary of The Siam Cement Public Company Limited.",
-    "current_price": 23.8,
-    "pe_ratio": 21.64,
+    "current_price": 23.9,
+    "pe_ratio": 21.73,
     "dividend_yield": 2.52,
     "high_1m": 26.25,
     "low_1m": 23.1,
@@ -42541,7 +42542,7 @@ var STOCKS_DATABASE = {
     "symbol": "IVL",
     "name": "Indorama Ventures Public Company Limited",
     "business_summary": "Indorama Ventures Public Company Limited, together with its subsidiaries, manufactures and distributes petrochemical products in Thailand, the United States, Brazil, and internationally. It operates through four segments: Combined PET, Indovida, Indovinya, and Fibers. The Combined PET segment manufactures and distributes polyethylene terephthalate (PET) value chain comprising paraxylene, purified terephthalic acid, PET, and recycling; and specialty PET-related chemicals, such as purified isophthalic acid and naphthalene dicarboxylate. The Indovida segment manufactures and distributes packaging. The Indovinya segment offers specialty chemical solutions including home and personal care, crop solutions, coatings, and energy and resources; supply ethylene oxide to the Combined PET business; and manufactures and distributes integrated downstream surfactants. The Fibers segment offers polyester, rayon, nylon, polypropylene, composites, and worsted wool fibers for the home, apparel, hygiene and medical, automotive, and industrial/technical markets. The company was formerly known as Beacon Global Limited and changed its name to Indorama Ventures Public Company Limited in March 2009. The company was incorporated in 1994 and is headquartered in Bangkok, Thailand. Indorama Ventures Public Company Limited is a subsidiary of Indorama Resources Ltd.",
-    "current_price": 24.9,
+    "current_price": 25.0,
     "pe_ratio": null,
     "dividend_yield": 2.83,
     "high_1m": 26.25,
@@ -43646,8 +43647,8 @@ var STOCKS_DATABASE = {
     "symbol": "JMT",
     "name": "JMT Network Services Public Company Limited",
     "business_summary": "JMT Network Services Public Company Limited, together with its subsidiaries, provides debt collection and distressed debt management services for financial institutions and entrepreneurs in Thailand. It operates through Debt Collection Business; Non-Performing Accounts Receivable Management Business; and Insurance Business segments. The company offers debt collection follow-up services through phone and on the field; and files lawsuits to enforce payment of debt. It also provides non-performing debt management, insurance brokerage, asset management, and appraisal services; and is involved in the purchase of non-performing accounts receivable. In addition, the company offers non-life insurance products comprising motor and non-motor insurance products; fire insurance products for residential houses, commercial buildings, factories, condominiums, and dormitory buildings; transportation insurance for marine, cargo, inland transit, and carrier liability; and miscellaneous insurance products, such as personal and group accident, travel, all risk, public liability, contract work, theft, professional liability, engineering, money, billboard, product liability, statutory liability insurance, and insurance for directors and executive officers of the company. The company was incorporated in 1994 and is headquartered in Bangkok, Thailand. JMT Network Services Public Company Limited is a subsidiary of Jaymart Group Holdings Public Company Limited.",
-    "current_price": 10.7,
-    "pe_ratio": 16.46,
+    "current_price": 10.8,
+    "pe_ratio": 16.62,
     "dividend_yield": 7.75,
     "high_1m": 11.4,
     "low_1m": 9.25,
@@ -43656,6 +43657,7 @@ var STOCKS_DATABASE = {
       7.95
     ],
     "resistance_levels": [
+      10.96,
       11.69,
       12.69
     ],
@@ -44199,18 +44201,19 @@ var STOCKS_DATABASE = {
     "symbol": "JMART",
     "name": "Jaymart Group Holdings Public Company Limited",
     "business_summary": "Jaymart Group Holdings Public Company Limited, together with its subsidiaries, engages in the wholesale and retail of mobile phones, accessories, and gadgets in Thailand. The company operates through four segments: Trading Business, Debt Collection Business, Rental Business, and Others. It is also involved in the sales of land and houses and residential condominium; debts management and collection; property development; ecommerce business; distribution of food and beverage; sale of electrical appliances; distributing consumer goods and commercial products, such as sewing machines, freezers, agricultural tools and equipment, online mobile top-up machines, coin-operated fuel dispensers, and slush machines; software consulting; insurance broker; elderly care school; blockchain business; consulting on business operation related information technology and e-commerce business; operation of electronic network for peer-to-peer lending platform; and provision of finance leasing and consumer lending, non-life insurance, digital point collection, and appraisal services. In addition, the company engages in healthcare and physical therapy business; financial technology department; brand and creator management agency; digital asset consultation; selling and renting rental spaces for mobile phone and IT retail stores; operation of coffee shop and restaurant under the Casa Lapin brand; distributing renewable energy products to retail customers and households; and offers J point, a system that allows customer to accumulate points based on spending. The company Jay Mart Public Company Limited was formerly known as Jay Mart Public Company Limited and changed its name to Jaymart Group Holdings Public Company Limited in April 2023. The company was founded in 1988 and is based in Bangkok, Thailand.",
-    "current_price": 8.9,
+    "current_price": 8.85,
     "pe_ratio": null,
     "dividend_yield": 2.92,
     "high_1m": 9.41,
     "low_1m": 6.8,
     "support_levels": [
-      5.03,
-      NaN
+      6.23,
+      6.61,
+      6.9
     ],
     "resistance_levels": [
-      NaN,
-      10.55
+      9.24,
+      10.16
     ],
     "upcoming_xd": "2026-05-27",
     "upcoming_dividend_amount": 0.14,
@@ -44752,8 +44755,8 @@ var STOCKS_DATABASE = {
     "symbol": "SINGER",
     "name": "Singer Thailand Public Company Limited",
     "business_summary": "Singer Thailand Public Company Limited, together with its subsidiaries, distributes household electrical and commercial appliances in Thailand. The company operates through three segments: Trade Sales; Hire Purchase and Loans; and Service and Others. It offers household electrical appliances, such as sewing machines, kitchen appliances, vacuums cleaners and air purifiers, refrigerator, gas stove, washing machine, television, audio, fans, shower heaters, air conditioners, small appliances, and hair styling tools. The company also provides commercial appliances comprising beverage coolers, food freezer, wine cellar, automatic coffee machine, security camera, snowy, soft serve ice cream machine, drinking water vending machine, top-up vending machine, coin- operated washing machine, and other commercial products; water pumps; and mobile phones. In addition, the company engages in the life and non-life insurance brokerage business; trade sale and hire purchase of home appliances, electronic appliances, mobile phones, commercial products, and vehicles, as well as loan receivables with vehicle collateral and others. Further, it provides repair and maintenance services for electronic appliances. The company sells its products under the Singer brand name through a network of branch outlets and sales representatives. Singer Thailand Public Company Limited was founded in 1889 and is headquartered in Bangkok, Thailand.",
-    "current_price": 7.2,
-    "pe_ratio": 23.23,
+    "current_price": 7.15,
+    "pe_ratio": 23.06,
     "dividend_yield": 0.0,
     "high_1m": 7.6,
     "low_1m": 5.35,
@@ -45305,8 +45308,8 @@ var STOCKS_DATABASE = {
     "symbol": "MAJOR",
     "name": "Major Cineplex Group Public Company Limited",
     "business_summary": "Major Cineplex Group Public Company Limited, together with its subsidiaries, engages in cinema operations and entertainment services in Thailand. It operates through five segments: Cinema Business, Advertising Business, Bowling and Karaoke Business, Rental and Services Business, and Movie Content Business. The company offers theater, foods and drinks, and relevant services; and operates cineplexes under the Major Cineplex, EGV Cinema, Paragon Cineplex, Esplanade Cineplex, Paradise Cineplex, Mega Cineplex, Hat Yai Cineplex, Quartier CineArt, Westgate Cineplex, Cineplex, Icon Cineplex, and Major Cinema brands. It also provides various advertising services, including in-theater and 4D ads. In addition, the company provides bowling services under the Major Bowl Hit and Blu-O Rhythm & Bowl brands; karaoke rooms; and Sub Zero, an ice skate rink. Further, the company offers retail spaces for rent in the cineplexes; produces and distributes films; and distributes VCD/DVD, Blu-ray, and film rights. Major Cineplex Group Public Company Limited was founded in 1995 and is based in Bangkok, Thailand.",
-    "current_price": 6.7,
-    "pe_ratio": 7.44,
+    "current_price": 6.75,
+    "pe_ratio": 7.5,
     "dividend_yield": 3.68,
     "high_1m": 7.75,
     "low_1m": 6.5,
@@ -45858,11 +45861,11 @@ var STOCKS_DATABASE = {
     "symbol": "PSL",
     "name": "Precious Shipping Public Company Limited",
     "business_summary": "Precious Shipping Public Company Limited, a holding company, owns and operates dry bulk ships on a tramp shipping basis in Thailand and internationally. The company is involved in chartering and owning ships, as well as investing in marine transportation and technical management of ships. It also owns and operates 40 vessels, including 6 Supramax, 13 Ultramax, 17 Handysize, and 4 Cement carriers with a total capacity of 1,862,905 deadweight tons. Precious Shipping Public Company Limited was founded in 1989 and is headquartered in Bangkok, Thailand.",
-    "current_price": 7.15,
-    "pe_ratio": 16.63,
+    "current_price": 7.3,
+    "pe_ratio": 16.98,
     "dividend_yield": 5.59,
     "high_1m": 7.84,
-    "low_1m": 6.56,
+    "low_1m": 6.66,
     "support_levels": [
       5.77,
       6.32,
@@ -46411,11 +46414,11 @@ var STOCKS_DATABASE = {
     "symbol": "TTA",
     "name": "Thoresen Thai Agencies Public Company Limited",
     "business_summary": "Thoresen Thai Agencies Public Company Limited, together with its subsidiaries, operates as a shipping company in Asia, Africa, the United States, Europe, and Oceania. The company operates through five segments: Shipping, Offshore Service, Agrochemical, Food and Beverage, and Investment. It owns dry bulk vessels and provides shipping services, such as hauling a range of dry and break-bulk commodities, which include mineral ore, coal, agriculture products, construction materials, and steel products. The company also provides offshore services, including subsea engineering to the oil and gas industry; and produces and markets NPK compounds, bulk blending products, and fertilizers under the Stork brand for customers' needs for coffee, rice, rubber, vegetables, and various other crops. In addition, it offers port operations business, third party logistics services, coal and logistics business, and petroleum tankering business services. Further, it provides installation and decommissioning, ship management, international maritime transportation, exploration drilling, and aircraft charter services. Additionally, the company provides diving; ROV; subsea and hydrographic survey; ship supplies and stevedoring, logistics, and transportation; and port services, as well as operates and franchises Pizza Hut and Taco Bell restaurants. it also offers management and software consultancy, boat conveyance, road transport, wood pellet trading, electric and biomass energy, general and coal trading, ship agency, water management and pipeline installation and repairment, treated water, real estate, water supply, drinking and wastewater, floating storage, offloading, cargo lashing materials, warehousing, industrial machinery and equipment installation services, and air transportation services for passengers and goods, as well as imports and distributes EV trucks and motorcycles. The company was founded in 1904 and is based in Bangkok, Thailand.",
-    "current_price": 4.98,
-    "pe_ratio": 10.6,
+    "current_price": 5.0,
+    "pe_ratio": 10.64,
     "dividend_yield": 5.02,
     "high_1m": 5.25,
-    "low_1m": 4.8,
+    "low_1m": 4.88,
     "support_levels": [
       3.94,
       4.5,
@@ -46964,18 +46967,18 @@ var STOCKS_DATABASE = {
     "symbol": "RCL",
     "name": "Regional Container Lines Public Company Limited",
     "business_summary": "Regional Container Lines Public Company Limited, together with its subsidiaries, engages in the feeder and vessel operations in Thailand, Singapore, Hong Kong, the People's Republic of China, Taiwan, and internationally. It also provides sea freight services for oversized cargo and dangerous goods; and logistics solutions comprising ocean freight/air freight/cross border, inland haulage, multiple drops pick up/delivery, domestic transportation, warehouse management and storage, consolidation center, order fulfillment, packing, loading/unloading, container inspection, fumigation, import/export documentation, customs clearance, and license application services. In addition, the company offers consulting, ship management, cargo consolidation and operation, shipping agency, and transportation and cargo handling services. As of December 31, 2025, its fleet consisted of 46 container vessels covering Northeast Asia, Southeast Asia, Indian sub-continent, South Asia, the Middle East, the Red Sea, and East Africa. Regional Container Lines Public Company Limited was founded in 1979 and is headquartered in Bangkok, Thailand.",
-    "current_price": 30.25,
-    "pe_ratio": 3.22,
+    "current_price": 30.5,
+    "pe_ratio": 3.25,
     "dividend_yield": 13.22,
     "high_1m": 32.75,
-    "low_1m": 29.5,
+    "low_1m": 30.0,
     "support_levels": [
       24.6,
       25.93,
       29.75
     ],
     "resistance_levels": [
-      32.12,
+      32.25,
       34.5
     ],
     "upcoming_xd": "2026-03-11",
@@ -48072,7 +48075,7 @@ var STOCKS_DATABASE = {
     "symbol": "3BBIF",
     "name": "3BB Internet Infrastructure Fund",
     "business_summary": "Jasmine Broadband Internet Infrastructure Fund specializes in infrastructure investments.",
-    "current_price": 6.5,
+    "current_price": 6.45,
     "pe_ratio": null,
     "dividend_yield": 0.0,
     "high_1m": 6.8,
@@ -49172,7 +49175,7 @@ var STOCKS_DATABASE = {
     "symbol": "DIF",
     "name": "Digital Telecommunications Infrastructure Fund",
     "business_summary": "Digital Telecommunications Infrastructure Fund specializes in infrastructure investments in the digital telecommunications sector.",
-    "current_price": 9.95,
+    "current_price": 10.0,
     "pe_ratio": null,
     "dividend_yield": 0.0,
     "high_1m": 10.17,
@@ -49725,7 +49728,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 10.21,
     "dividend_yield": 0.0,
     "high_1m": 7.8,
-    "low_1m": 6.74,
+    "low_1m": 6.84,
     "support_levels": [
       5.73,
       6.39,
@@ -50271,8 +50274,8 @@ var STOCKS_DATABASE = {
     "symbol": "CPNREIT",
     "name": "CPN Retail Growth Leasehold REIT",
     "business_summary": "CPN Retail Growth Leasehold REIT (CPNREIT) was established on 1 December 2017 from the conversion from CPN Retail Growth Leasehold Property Fund (CPNRF). The trust units of CPNREIT were first traded on the Stock Exchange of Thailand on 14 December 2017. At the end of 3Q25, CPNREIT had been investing in leasehold rights of seven shopping malls, which are Central Rama 2, Central Rama 3, Central Pinklao, Central Chiangmai Airport, Central Pattaya, Central Marina and Central Lampang with total leasable area of 263,214 sq.m., four office buildings namely Pinklao Tower A and Tower B, The Ninth Towers and Unilever House with total leasable area of 112,482 sq.m., and one hotel which is Hilton Pattaya totaling 304 guest rooms. On 31 July 2023, the Extraordinary General Meeting of the Trust Unitholders No. 1/2023 (EGM No. 1/2023) approved the lease renewal of Central Pinklao for a period of 15 years (from 1 January 2025 to 31 December 2039) with the investment value of not exceeding Baht 12,161 million, together with the renovation of Central Pinklao during 2024 and 2025, with the budget of not more than Baht 1,100 million, and the change of lease payment of Central Rama 2 (Renewal Period) from a lump sum payment in 2025 to be the instalments throughout the lease term, provided that the first payment will be equal to the rental fee for the first 10-year lease period of not exceeding Baht 12,853 million. On 8 May 2024, CPNREIT successfully executed its capital increase plan for the contracts of Central Pinklao project for another 15 years from 1 January 2025 to 31 December 2039. On August 15, 2025, CPNREIT borrowed from financial institutions to pay for the lease of Central Rama 2 (Renewal Period) and the additional leasable area for the first 10-year lease period (16 August 2025-15 August 2035), so CPNREIT invested 100% in the leasable area of Central Rama 2. CPN Retail Growth Leasehold REIT was established on August, 11 2005 and incorporated in Thailand.",
-    "current_price": 12.4,
-    "pe_ratio": 13.33,
+    "current_price": 12.5,
+    "pe_ratio": 13.44,
     "dividend_yield": 8.91,
     "high_1m": 12.6,
     "low_1m": 11.84,
@@ -50282,7 +50285,7 @@ var STOCKS_DATABASE = {
       11.05
     ],
     "resistance_levels": [
-      13.02,
+      13.12,
       12.6
     ],
     "upcoming_xd": "2026-05-26",
@@ -51378,8 +51381,8 @@ var STOCKS_DATABASE = {
     "symbol": "FTREIT",
     "name": "Frasers Property Thailand Industrial Freehold & Leasehold REIT",
     "business_summary": "Frasers Property Thailand Industrial Freehold & Leasehold REIT is a real estate investment trust externally managed by TICON Management Company Limited. The firm acquire, lease and/or sub-lease of immovable properties. It will take the transfer of the ownership and/or leasehold rights and/or sub-leasehold rights therein and seek benefits from those properties by way of lease, sub-lease, transferring and/or disposing of immovable properties the Trust invests in or acquires. Frasers Property Thailand Industrial Freehold & Leasehold REIT was formed on December 12, 2014 and is based in Bangkok, Thailand.",
-    "current_price": 11.9,
-    "pe_ratio": 12.02,
+    "current_price": 11.7,
+    "pe_ratio": 11.82,
     "dividend_yield": 6.55,
     "high_1m": 12.0,
     "low_1m": 11.1,
@@ -51932,18 +51935,19 @@ var STOCKS_DATABASE = {
     "symbol": "EGATIF",
     "name": "Electricity Generating Authority Of Thailand- North Bangkok Power Plant Block 1 Infrastructure Fund",
     "business_summary": "ข้อมูลธุรกิจสำหรับหุ้นนี้ยังไม่พร้อมใช้งานในระบบ",
-    "current_price": 6.35,
+    "current_price": 6.2,
     "pe_ratio": null,
     "dividend_yield": 0.0,
-    "high_1m": 6.18,
+    "high_1m": 6.2,
     "low_1m": 5.94,
     "support_levels": [
-      5.02,
-      NaN
+      5.09,
+      5.45,
+      5.77
     ],
     "resistance_levels": [
-      NaN,
-      6.18
+      6.51,
+      6.2
     ],
     "upcoming_xd": "2026-11-25",
     "upcoming_dividend_amount": 0.22,
@@ -52481,18 +52485,18 @@ var STOCKS_DATABASE = {
     "symbol": "TFFIF",
     "name": "Thailand Future Fund",
     "business_summary": "ข้อมูลธุรกิจสำหรับหุ้นนี้ยังไม่พร้อมใช้งานในระบบ",
-    "current_price": 6.65,
+    "current_price": 6.6,
     "pe_ratio": null,
     "dividend_yield": 0.0,
-    "high_1m": 6.58,
+    "high_1m": 6.6,
     "low_1m": 6.33,
     "support_levels": [
-      5.06,
-      NaN
+      5.11,
+      5.68,
+      6.33
     ],
     "resistance_levels": [
-      NaN,
-      6.73
+      6.7
     ],
     "upcoming_xd": "2026-11-25",
     "upcoming_dividend_amount": 0.12,
@@ -54137,18 +54141,18 @@ var STOCKS_DATABASE = {
     "symbol": "BOFFICE",
     "name": "Bhiraj Office Leasehold Real Estate Investment Trust",
     "business_summary": "ข้อมูลธุรกิจสำหรับหุ้นนี้ยังไม่พร้อมใช้งานในระบบ",
-    "current_price": 5.45,
-    "pe_ratio": 11.12,
+    "current_price": 5.35,
+    "pe_ratio": 10.92,
     "dividend_yield": 8.07,
     "high_1m": 5.63,
     "low_1m": 5.19,
     "support_levels": [
-      4.13,
-      NaN
+      4.57,
+      4.76,
+      4.96
     ],
     "resistance_levels": [
-      NaN,
-      5.63
+      5.58
     ],
     "upcoming_xd": "2026-05-27",
     "upcoming_dividend_amount": 0.11,
@@ -57462,7 +57466,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 9.54,
     "dividend_yield": 9.41,
     "high_1m": 9.3,
-    "low_1m": 7.3,
+    "low_1m": 7.35,
     "support_levels": [
       6.65
     ],
@@ -60222,8 +60226,8 @@ var STOCKS_DATABASE = {
     "symbol": "EASTW",
     "name": "Eastern Water Resources Development and Management Public Company Limited",
     "business_summary": "Eastern Water Resources Development and Management Public Company Limited, together with its subsidiaries, engages in the development and management of water distribution pipeline systems in the Eastern Seaboard area of Thailand. The company is involved in the supply of raw and industrial water; production and supply of tap water; wastewater treatment, waterworks management, and engineering activities; and provision of waste treatment and reclaim water services. Eastern Water Resources Development and Management Public Company Limited was founded in 1992 and is headquartered in Bangkok, Thailand.",
-    "current_price": 4.14,
-    "pe_ratio": 103.5,
+    "current_price": 4.12,
+    "pe_ratio": 103.0,
     "dividend_yield": 24.0,
     "high_1m": 4.28,
     "low_1m": 2.75,
@@ -60233,7 +60237,7 @@ var STOCKS_DATABASE = {
       2.75
     ],
     "resistance_levels": [
-      4.41,
+      4.33,
       4.28
     ],
     "upcoming_xd": "2026-05-05",
@@ -61329,8 +61333,8 @@ var STOCKS_DATABASE = {
     "symbol": "ASP",
     "name": "Asia Plus Group Holdings Public Company Limited",
     "business_summary": "Asia Plus Group Holdings Public Company Limited, together with its subsidiaries, engages in the securities business in Thailand. It operates through four segments: Securities and Derivatives Brokerage, Investment Banking, Fund Management, and Investment Trading. The company offers securities and derivatives brokering services for local and foreign investors; securities brokerage, securities trading, investment advisory, underwriting, securities borrowing and lending, private fund management, mutual fund management, and venture capital management services. It also invests in unit trusts; and buys, sells, and exchanges securities. The company was formerly known as Asia Plus Group Holdings Securities Public Company Limited and changed its name to Asia Plus Group Holdings Public Company Limited in July 2015. Asia Plus Group Holdings Public Company Limited was incorporated in 1974 and is based in Bangkok, Thailand.",
-    "current_price": 2.18,
-    "pe_ratio": 16.77,
+    "current_price": 2.16,
+    "pe_ratio": 16.62,
     "dividend_yield": 4.13,
     "high_1m": 2.2,
     "low_1m": 2.04,
@@ -62992,11 +62996,11 @@ var STOCKS_DATABASE = {
     "symbol": "AH",
     "name": "AAPICO Hitech Public Company Limited",
     "business_summary": "AAPICO Hitech Public Company Limited engages in the manufacture and distribution of automobile parts, dies, and jigs in Thailand, China, Malaysia, and Portugal. It operates through three segments: Manufacture of Auto Parts; Sales of Automobiles and Provision of Automobiles Repair Service; and Others. The company offers pressed and stamped body parts, including floor parts, cross members, side sills, brackets, clips, and sub-assembly parts; chassis frame components; banjo type housing axles; plastic parts; and plastic fuel tanks and windshield washer systems. It also provides forged and machined parts for transmission systems, power train systems, steering and suspension systems, engine parts, shafts, wheel hubs, link shafts, companion flanges, and other parts, as well as casting parts and machining parts, assembly jigs, and stamping dies. In addition, the company is involved in the sale of automobiles; venture capital business; investment in other companies; and import and export of vehicles and parts. Further, it offers automobile repair, training, technical support, and information technology consulting and advisory services; car navigation systems and its derivatives; Oracle ERP consultancy; and car accessories. AAPICO Hitech Public Company Limited was founded in 1985 and is headquartered in Phra Nakhon Si Ayutthaya, Thailand.",
-    "current_price": 13.7,
-    "pe_ratio": 6.2,
+    "current_price": 13.8,
+    "pe_ratio": 6.24,
     "dividend_yield": 7.01,
     "high_1m": 14.0,
-    "low_1m": 13.0,
+    "low_1m": 13.1,
     "support_levels": [
       11.91,
       12.6,
@@ -64098,8 +64102,8 @@ var STOCKS_DATABASE = {
     "symbol": "ASK",
     "name": "Asia Sermkij Leasing Public Company Limited",
     "business_summary": "Asia Sermkij Leasing Public Company Limited, together with its subsidiaries, engages in the provision of auto hire purchase services in Thailand. It operates through hire purchase, leasing, and loan segment. The company provides automobile hire purchase services mainly to individual customers for both new and used automobiles, including passenger and commercial cars, such as pickups, vans, trucks, taxis, and minibuses. It also offers financing services, such as car loans, sale and hire purchase back services, and SHB services; insurance, comprising vehicle voluntary and compulsory motor, machine, fire, marine and cargo, life, credit life, personal accident, and third-party liability insurance. In addition, it is involved in machinery, equipment, and vehicle leasing and hire purchase business; solar power purchase agreement business; and auto registrations and transfers, and tax renewal services. The company was founded in 1984 and is based in Bangkok, Thailand.",
-    "current_price": 9.0,
-    "pe_ratio": 10.71,
+    "current_price": 9.1,
+    "pe_ratio": 10.83,
     "dividend_yield": 4.44,
     "high_1m": 9.5,
     "low_1m": 8.7,
