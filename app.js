@@ -987,10 +987,12 @@ function renderIaaConsensusTable(symbol) {
 
 // Smart Buy Simulator logic (ช้อนซื้อคำนวณต้นทุนเฉลี่ยใหม่)
 function calculateSmartBuySimulation() {
+  const budgetInput = document.getElementById('sim-budget-amount');
+  if (!budgetInput) return; // Safely return since Smart Buy was removed from the UI
+  
   const stock = stocksData[selectedStock];
   if (!stock) return;
   
-  const budgetInput = document.getElementById('sim-budget-amount');
   const budget = parseFloat(budgetInput.value) || 0;
   
   const high = stock.high_1m || stock.current_price * 1.05;
