@@ -63,7 +63,10 @@ CURATED_FALLBACK_TICKERS = [
     
     # --- Popular MAI Stocks ---
     "PACO.BK", "KTMS.BK", "DITTO.BK", "BE8.BK", "AU.BK", 
-    "SPA.BK", "COCOCO.BK", "YGG.BK", "KCC.BK", "READY.BK"
+    "SPA.BK", "COCOCO.BK", "YGG.BK", "KCC.BK", "READY.BK",
+    
+    # --- Newly Requested Popular SET/MAI Stocks ---
+    "ICHI.BK", "TACC.BK", "PM.BK", "SABUY.BK", "TIDLOR.BK", "SAPPE.BK", "PLUS.BK"
 ]
 
 def fetch_all_active_set_tickers():
