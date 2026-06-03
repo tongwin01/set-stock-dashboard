@@ -547,8 +547,8 @@ var STOCKS_DATABASE = {
         "close": 3.06
       },
       {
-        "date": "2026-06-02",
-        "close": 3.08
+        "date": "2026-06-01",
+        "close": 3.06
       }
     ]
   },
@@ -559,11 +559,11 @@ var STOCKS_DATABASE = {
     "current_price": 4.3,
     "pe_ratio": 9.15,
     "dividend_yield": 4.3,
-    "high_1m": 4.5,
+    "high_1m": 4.48,
     "low_1m": 4.22,
     "support_levels": [
       3.8,
-      4.2
+      4.23
     ],
     "resistance_levels": [
       5.33
@@ -1211,6 +1211,10 @@ var STOCKS_DATABASE = {
         "close": 4.32
       },
       {
+        "date": "2026-06-01",
+        "close": 4.32
+      },
+      {
         "date": "2026-06-02",
         "close": 4.3
       }
@@ -1756,8 +1760,8 @@ var STOCKS_DATABASE = {
         "close": 3.4
       },
       {
-        "date": "2026-06-02",
-        "close": 3.28
+        "date": "2026-06-01",
+        "close": 3.34
       }
     ]
   },
@@ -2304,7 +2308,7 @@ var STOCKS_DATABASE = {
     "current_price": 3.58,
     "pe_ratio": 12.34,
     "dividend_yield": 7.36,
-    "high_1m": 3.74,
+    "high_1m": 3.72,
     "low_1m": 3.34,
     "support_levels": [
       3.34
@@ -2833,8 +2837,8 @@ var STOCKS_DATABASE = {
         "close": 3.64
       },
       {
-        "date": "2026-06-02",
-        "close": 3.58
+        "date": "2026-06-01",
+        "close": 3.66
       }
     ]
   },
@@ -3367,8 +3371,8 @@ var STOCKS_DATABASE = {
         "close": 1.09
       },
       {
-        "date": "2026-06-02",
-        "close": 1.08
+        "date": "2026-06-01",
+        "close": 1.09
       }
     ]
   },
@@ -3880,8 +3884,8 @@ var STOCKS_DATABASE = {
         "close": 0.44
       },
       {
-        "date": "2026-06-02",
-        "close": 0.45
+        "date": "2026-06-01",
+        "close": 0.44
       }
     ]
   },
@@ -3892,12 +3896,12 @@ var STOCKS_DATABASE = {
     "current_price": 0.38,
     "pe_ratio": null,
     "dividend_yield": 0.0,
-    "high_1m": 0.54,
+    "high_1m": 0.44,
     "low_1m": 0.36,
     "support_levels": [
-      0.28,
       0.29,
-      0.36
+      0.36,
+      0.37
     ],
     "resistance_levels": [
       0.45,
@@ -4435,8 +4439,8 @@ var STOCKS_DATABASE = {
         "close": 0.39
       },
       {
-        "date": "2026-06-02",
-        "close": 0.38
+        "date": "2026-06-01",
+        "close": 0.39
       }
     ]
   },
@@ -4448,7 +4452,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 14.44,
     "dividend_yield": 0.79,
     "high_1m": 1.33,
-    "low_1m": 1.26,
+    "low_1m": 1.27,
     "support_levels": [
       1.28
     ],
@@ -4963,7 +4967,7 @@ var STOCKS_DATABASE = {
         "close": 1.3
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 1.3
       }
     ]
@@ -4976,7 +4980,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 13.0,
     "dividend_yield": 5.13,
     "high_1m": 0.96,
-    "low_1m": 0.56,
+    "low_1m": 0.57,
     "support_levels": [
       0.54,
       0.59,
@@ -5505,8 +5509,8 @@ var STOCKS_DATABASE = {
         "close": 0.83
       },
       {
-        "date": "2026-06-02",
-        "close": 0.78
+        "date": "2026-06-01",
+        "close": 0.82
       }
     ]
   },
@@ -5518,7 +5522,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 13.2,
     "dividend_yield": 4.55,
     "high_1m": 0.69,
-    "low_1m": 0.55,
+    "low_1m": 0.56,
     "support_levels": [
       0.52,
       0.54,
@@ -6059,8 +6063,8 @@ var STOCKS_DATABASE = {
         "close": 0.63
       },
       {
-        "date": "2026-06-02",
-        "close": 0.66
+        "date": "2026-06-01",
+        "close": 0.63
       }
     ]
   },
@@ -6070,9 +6074,9 @@ var STOCKS_DATABASE = {
     "business_summary": "AddTech Hub Public Company Limited, together with its subsidiaries, provides digital content, solutions, and marketing in Thailand. It offers mobile and online digital content services, including digital content sourcing and marketing, as well as development and maintenance of digital content management systems; and IT system development services, such as cybersecurity system services and digital payment solutions. The company also provides media and background music marketing services on online platforms comprising digital content marketing; media and advertising, which include development of websites, social media channels, and mobile applications under the Review Your Living brand, as well as content creation services; and music marketing services. In addition, it engages in the research and development of various types of system and software, such as loyalty management system, mobile payment solution, stored-value card system, authenticator with fast identity online, and e-library. The company was founded in 2004 and is based in Bangkok, Thailand.",
     "current_price": 3.4,
     "pe_ratio": 13.6,
-    "dividend_yield": 6.86,
+    "dividend_yield": 7.06,
     "high_1m": 3.52,
-    "low_1m": 3.05,
+    "low_1m": 3.09,
     "support_levels": [
       2.7,
       2.92,
@@ -6612,8 +6616,8 @@ var STOCKS_DATABASE = {
         "close": 3.42
       },
       {
-        "date": "2026-06-02",
-        "close": 3.4
+        "date": "2026-06-01",
+        "close": 3.5
       }
     ]
   },
@@ -6625,7 +6629,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 21.32,
     "dividend_yield": 4.62,
     "high_1m": 372.0,
-    "low_1m": 336.0,
+    "low_1m": 342.0,
     "support_levels": [
       283.37,
       340.0,
@@ -7165,8 +7169,8 @@ var STOCKS_DATABASE = {
         "close": 353.0
       },
       {
-        "date": "2026-06-02",
-        "close": 364.0
+        "date": "2026-06-01",
+        "close": 353.0
       }
     ]
   },
@@ -7698,8 +7702,8 @@ var STOCKS_DATABASE = {
         "close": 6.6
       },
       {
-        "date": "2026-06-02",
-        "close": 6.7
+        "date": "2026-06-01",
+        "close": 6.35
       }
     ]
   },
@@ -7713,8 +7717,7 @@ var STOCKS_DATABASE = {
     "high_1m": 0.16,
     "low_1m": 0.09,
     "support_levels": [
-      0.09,
-      0.1
+      0.09
     ],
     "resistance_levels": [
       0.16,
@@ -8240,7 +8243,7 @@ var STOCKS_DATABASE = {
         "close": 0.1
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.1
       }
     ]
@@ -8794,8 +8797,8 @@ var STOCKS_DATABASE = {
         "close": 94.25
       },
       {
-        "date": "2026-06-02",
-        "close": 94.25
+        "date": "2026-06-01",
+        "close": 94.75
       }
     ]
   },
@@ -9349,7 +9352,7 @@ var STOCKS_DATABASE = {
         "close": 0.36
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.36
       }
     ]
@@ -9866,8 +9869,8 @@ var STOCKS_DATABASE = {
         "close": 3.8
       },
       {
-        "date": "2026-06-02",
-        "close": 3.86
+        "date": "2026-06-01",
+        "close": 3.8
       }
     ]
   },
@@ -9878,7 +9881,7 @@ var STOCKS_DATABASE = {
     "current_price": 1.24,
     "pe_ratio": 4.13,
     "dividend_yield": 0.0,
-    "high_1m": 1.3,
+    "high_1m": 1.29,
     "low_1m": 1.18,
     "support_levels": [
       1.03,
@@ -10421,8 +10424,8 @@ var STOCKS_DATABASE = {
         "close": 1.27
       },
       {
-        "date": "2026-06-02",
-        "close": 1.24
+        "date": "2026-06-01",
+        "close": 1.22
       }
     ]
   },
@@ -10974,8 +10977,8 @@ var STOCKS_DATABASE = {
         "close": 13.9
       },
       {
-        "date": "2026-06-02",
-        "close": 14.3
+        "date": "2026-06-01",
+        "close": 14.2
       }
     ]
   },
@@ -10986,10 +10989,10 @@ var STOCKS_DATABASE = {
     "current_price": 12.5,
     "pe_ratio": 14.71,
     "dividend_yield": 4.16,
-    "high_1m": 14.0,
+    "high_1m": 13.6,
     "low_1m": 11.7,
     "support_levels": [
-      11.55
+      11.68
     ],
     "resistance_levels": [
       13.36
@@ -11525,7 +11528,7 @@ var STOCKS_DATABASE = {
         "close": 12.5
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 12.5
       }
     ]
@@ -12078,7 +12081,7 @@ var STOCKS_DATABASE = {
         "close": 2.9
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 2.9
       }
     ]
@@ -12093,9 +12096,9 @@ var STOCKS_DATABASE = {
     "high_1m": 1.28,
     "low_1m": 1.12,
     "support_levels": [
-      0.96,
       1.02,
-      1.1
+      1.1,
+      1.15
     ],
     "resistance_levels": [
       1.25,
@@ -12608,8 +12611,8 @@ var STOCKS_DATABASE = {
         "close": 1.21
       },
       {
-        "date": "2026-06-02",
-        "close": 1.2
+        "date": "2026-06-01",
+        "close": 1.18
       }
     ]
   },
@@ -13147,8 +13150,8 @@ var STOCKS_DATABASE = {
         "close": 1.12
       },
       {
-        "date": "2026-06-02",
-        "close": 1.09
+        "date": "2026-06-01",
+        "close": 1.05
       }
     ]
   },
@@ -13700,8 +13703,8 @@ var STOCKS_DATABASE = {
         "close": 4.68
       },
       {
-        "date": "2026-06-02",
-        "close": 4.72
+        "date": "2026-06-01",
+        "close": 4.68
       }
     ]
   },
@@ -13715,9 +13718,9 @@ var STOCKS_DATABASE = {
     "high_1m": 3.62,
     "low_1m": 2.38,
     "support_levels": [
-      2.0,
       2.18,
-      2.44
+      2.44,
+      2.6
     ],
     "resistance_levels": [
       3.32
@@ -14253,8 +14256,8 @@ var STOCKS_DATABASE = {
         "close": 3.24
       },
       {
-        "date": "2026-06-02",
-        "close": 3.04
+        "date": "2026-06-01",
+        "close": 2.92
       }
     ]
   },
@@ -14770,7 +14773,7 @@ var STOCKS_DATABASE = {
         "close": 0.15
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.15
       }
     ]
@@ -14790,8 +14793,7 @@ var STOCKS_DATABASE = {
       0.62
     ],
     "resistance_levels": [
-      0.77,
-      0.76
+      0.74
     ],
     "upcoming_xd": "2026-05-11",
     "upcoming_dividend_amount": 0.05,
@@ -15324,7 +15326,7 @@ var STOCKS_DATABASE = {
         "close": 0.72
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.73
       }
     ]
@@ -15878,8 +15880,8 @@ var STOCKS_DATABASE = {
         "close": 0.87
       },
       {
-        "date": "2026-06-02",
-        "close": 0.88
+        "date": "2026-06-01",
+        "close": 0.89
       }
     ]
   },
@@ -16942,8 +16944,8 @@ var STOCKS_DATABASE = {
         "close": 1.17
       },
       {
-        "date": "2026-06-02",
-        "close": 1.17
+        "date": "2026-06-01",
+        "close": 1.18
       }
     ]
   },
@@ -17468,8 +17470,8 @@ var STOCKS_DATABASE = {
         "close": 0.27
       },
       {
-        "date": "2026-06-02",
-        "close": 0.28
+        "date": "2026-06-01",
+        "close": 0.26
       }
     ]
   },
@@ -17994,8 +17996,8 @@ var STOCKS_DATABASE = {
         "close": 1.6
       },
       {
-        "date": "2026-06-02",
-        "close": 1.57
+        "date": "2026-06-01",
+        "close": 1.55
       }
     ]
   },
@@ -18547,7 +18549,7 @@ var STOCKS_DATABASE = {
         "close": 242.0
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 238.0
       }
     ]
@@ -19099,8 +19101,8 @@ var STOCKS_DATABASE = {
         "close": 3.84
       },
       {
-        "date": "2026-06-02",
-        "close": 3.8
+        "date": "2026-06-01",
+        "close": 3.84
       }
     ]
   },
@@ -19652,7 +19654,7 @@ var STOCKS_DATABASE = {
         "close": 0.61
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.63
       }
     ]
@@ -20199,8 +20201,8 @@ var STOCKS_DATABASE = {
         "close": 3.42
       },
       {
-        "date": "2026-06-02",
-        "close": 3.4
+        "date": "2026-06-01",
+        "close": 3.34
       }
     ]
   },
@@ -20763,10 +20765,10 @@ var STOCKS_DATABASE = {
     "name": "Amata Corporation Public Company Limited",
     "business_summary": "Amata Corporation Public Company Limited, together with its subsidiaries, engages in industrial estate development in Thailand and internationally. It is involved in construction of factory for rent; production, distribution, and treatment of water for industrial use; generation and distribution of electricity from solar power; private education; commercial development; development of real estate properties; and development and operation of smart city, commercial, and mixed projects. The company also provides services for common areas. In addition, it operates as a REIT manager. Amata Corporation Public Company Limited was incorporated in March 6th, 1989 and is headquartered in Bangkok, Thailand.",
     "current_price": 25.0,
-    "pe_ratio": 7.62,
+    "pe_ratio": 7.76,
     "dividend_yield": 4.4,
     "high_1m": 26.0,
-    "low_1m": 19.7,
+    "low_1m": 19.8,
     "support_levels": [
       13.59,
       14.36,
@@ -21307,8 +21309,8 @@ var STOCKS_DATABASE = {
         "close": 24.8
       },
       {
-        "date": "2026-06-02",
-        "close": 25.0
+        "date": "2026-06-01",
+        "close": 24.5
       }
     ]
   },
@@ -21857,7 +21859,7 @@ var STOCKS_DATABASE = {
         "close": 2.02
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 2.02
       }
     ]
@@ -22411,8 +22413,8 @@ var STOCKS_DATABASE = {
         "close": 2.22
       },
       {
-        "date": "2026-06-02",
-        "close": 2.2
+        "date": "2026-06-01",
+        "close": 2.24
       }
     ]
   },
@@ -22424,7 +22426,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": null,
     "dividend_yield": 0.0,
     "high_1m": 0.43,
-    "low_1m": 0.3,
+    "low_1m": 0.31,
     "support_levels": [
       0.29,
       0.32,
@@ -22938,8 +22940,8 @@ var STOCKS_DATABASE = {
         "close": 0.4
       },
       {
-        "date": "2026-06-02",
-        "close": 0.42
+        "date": "2026-06-01",
+        "close": 0.41
       }
     ]
   },
@@ -23492,8 +23494,8 @@ var STOCKS_DATABASE = {
         "close": 0.33
       },
       {
-        "date": "2026-06-02",
-        "close": 0.34
+        "date": "2026-06-01",
+        "close": 0.33
       }
     ]
   },
@@ -24021,7 +24023,7 @@ var STOCKS_DATABASE = {
         "close": 2.56
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 2.52
       }
     ]
@@ -24574,8 +24576,8 @@ var STOCKS_DATABASE = {
         "close": 55.0
       },
       {
-        "date": "2026-06-02",
-        "close": 56.25
+        "date": "2026-06-01",
+        "close": 55.25
       }
     ]
   },
@@ -24586,7 +24588,7 @@ var STOCKS_DATABASE = {
     "current_price": 7.3,
     "pe_ratio": 5.25,
     "dividend_yield": 7.12,
-    "high_1m": 8.17,
+    "high_1m": 8.05,
     "low_1m": 7.2,
     "support_levels": [
       5.36,
@@ -25128,7 +25130,7 @@ var STOCKS_DATABASE = {
         "close": 7.35
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 7.3
       }
     ]
@@ -25682,8 +25684,8 @@ var STOCKS_DATABASE = {
         "close": 2.6
       },
       {
-        "date": "2026-06-02",
-        "close": 2.8
+        "date": "2026-06-01",
+        "close": 2.62
       }
     ]
   },
@@ -25695,7 +25697,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": null,
     "dividend_yield": 0.0,
     "high_1m": 1.52,
-    "low_1m": 1.38,
+    "low_1m": 1.39,
     "support_levels": [
       1.25,
       1.32,
@@ -26225,8 +26227,8 @@ var STOCKS_DATABASE = {
         "close": 1.51
       },
       {
-        "date": "2026-06-02",
-        "close": 1.45
+        "date": "2026-06-01",
+        "close": 1.47
       }
     ]
   },
@@ -26235,8 +26237,8 @@ var STOCKS_DATABASE = {
     "name": "APO_ASIAN PALM OIL",
     "business_summary": "Asian Palm Oil Public Company Limited manufactures and sells palm oil, dried palm kernels, and palm seedings in Thailand. It also offers by-products, including palm shells, empty fruit bunch, palm acid oil, and palm fibers, as well as by-products, such as palm kernel shells, empty fruit bunches, palm acid oil, and palm fiber. In addition, it generates electricity through its biogas project. The company was incorporated in 1983 and is based in Krabi, Thailand.",
     "current_price": 2.04,
-    "pe_ratio": 4.08,
-    "dividend_yield": 10.89,
+    "pe_ratio": 4.16,
+    "dividend_yield": 10.78,
     "high_1m": 2.38,
     "low_1m": 2.0,
     "support_levels": [
@@ -26755,8 +26757,8 @@ var STOCKS_DATABASE = {
         "close": 2.04
       },
       {
-        "date": "2026-06-02",
-        "close": 2.04
+        "date": "2026-06-01",
+        "close": 2.02
       }
     ]
   },
@@ -27297,7 +27299,7 @@ var STOCKS_DATABASE = {
         "close": 2.56
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 2.54
       }
     ]
@@ -27851,7 +27853,7 @@ var STOCKS_DATABASE = {
         "close": 2.02
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 2.02
       }
     ]
@@ -28400,8 +28402,8 @@ var STOCKS_DATABASE = {
         "close": 0.11
       },
       {
-        "date": "2026-06-02",
-        "close": 0.11
+        "date": "2026-06-01",
+        "close": 0.1
       }
     ]
   },
@@ -28914,8 +28916,8 @@ var STOCKS_DATABASE = {
         "close": 0.54
       },
       {
-        "date": "2026-06-02",
-        "close": 0.52
+        "date": "2026-06-01",
+        "close": 0.53
       }
     ]
   },
@@ -29469,7 +29471,7 @@ var STOCKS_DATABASE = {
         "close": 0.44
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.45
       }
     ]
@@ -30023,8 +30025,8 @@ var STOCKS_DATABASE = {
         "close": 5.15
       },
       {
-        "date": "2026-06-02",
-        "close": 5.3
+        "date": "2026-06-01",
+        "close": 5.25
       }
     ]
   },
@@ -30035,7 +30037,7 @@ var STOCKS_DATABASE = {
     "current_price": 2.4,
     "pe_ratio": 8.89,
     "dividend_yield": 8.33,
-    "high_1m": 2.84,
+    "high_1m": 2.8,
     "low_1m": 2.38,
     "support_levels": [
       1.83
@@ -30576,8 +30578,8 @@ var STOCKS_DATABASE = {
         "close": 2.46
       },
       {
-        "date": "2026-06-02",
-        "close": 2.4
+        "date": "2026-06-01",
+        "close": 2.46
       }
     ]
   },
@@ -31097,8 +31099,8 @@ var STOCKS_DATABASE = {
         "close": 2.18
       },
       {
-        "date": "2026-06-02",
-        "close": 2.28
+        "date": "2026-06-01",
+        "close": 2.3
       }
     ]
   },
@@ -31107,7 +31109,7 @@ var STOCKS_DATABASE = {
     "name": "Asefa Public Company Limited",
     "business_summary": "Asefa Public Company Limited manufactures and distributes electrical power distribution, switchboard, and trunking systems in Thailand. It operates through Manufacturing; Trading; Services, and Maintenance and Installation; and Decommissioning of the Power Plant segments. The company offers customize modular and type-tested switchboards, luminaire, cable ladder, and metal sheet fabrication; and integrated engineering services, such as underground and overhead power distribution, HV/MV substation, pumping station, micro-grid, EV charging station, energy storage, data center solutions, system MEP, and other services; and transformers, circuit breakers, switchgear, busways, PV solar, UPS, and relays motoring, as well as fixture, equipment, and controllers. It also provides system integration solutions, including industrial and building automation control, power quality improvement, power monitoring management and control, and lighting control and management solutions; and after-sales services, such as modification and upgrade, preventive and corrective maintenance, spare part management, and monitoring and online services. The company was incorporated in 1997 and is based in Samut Sakhon, Thailand.",
     "current_price": 5.5,
-    "pe_ratio": 9.48,
+    "pe_ratio": 9.82,
     "dividend_yield": 6.36,
     "high_1m": 5.6,
     "low_1m": 3.82,
@@ -31649,8 +31651,8 @@ var STOCKS_DATABASE = {
         "close": 5.4
       },
       {
-        "date": "2026-06-02",
-        "close": 5.5
+        "date": "2026-06-01",
+        "close": 5.35
       }
     ]
   },
@@ -31662,7 +31664,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 270.0,
     "dividend_yield": 2.48,
     "high_1m": 5.45,
-    "low_1m": 5.2,
+    "low_1m": 5.25,
     "support_levels": [
       4.94,
       5.25
@@ -32202,7 +32204,7 @@ var STOCKS_DATABASE = {
         "close": 5.4
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 5.4
       }
     ]
@@ -32214,11 +32216,11 @@ var STOCKS_DATABASE = {
     "current_price": 6.95,
     "pe_ratio": 9.27,
     "dividend_yield": 7.12,
-    "high_1m": 7.15,
+    "high_1m": 7.1,
     "low_1m": 6.85,
     "support_levels": [
       6.07,
-      6.88
+      6.89
     ],
     "resistance_levels": [
       7.15,
@@ -32755,7 +32757,7 @@ var STOCKS_DATABASE = {
         "close": 6.95
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 6.95
       }
     ]
@@ -33308,8 +33310,8 @@ var STOCKS_DATABASE = {
         "close": 1.36
       },
       {
-        "date": "2026-06-02",
-        "close": 1.37
+        "date": "2026-06-01",
+        "close": 1.36
       }
     ]
   },
@@ -33862,8 +33864,8 @@ var STOCKS_DATABASE = {
         "close": 9.1
       },
       {
-        "date": "2026-06-02",
-        "close": 9.2
+        "date": "2026-06-01",
+        "close": 9.1
       }
     ]
   },
@@ -34399,8 +34401,8 @@ var STOCKS_DATABASE = {
         "close": 0.73
       },
       {
-        "date": "2026-06-02",
-        "close": 0.72
+        "date": "2026-06-01",
+        "close": 0.73
       }
     ]
   },
@@ -34412,7 +34414,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 16.62,
     "dividend_yield": 4.17,
     "high_1m": 2.2,
-    "low_1m": 2.04,
+    "low_1m": 2.06,
     "support_levels": [
       1.83,
       1.9,
@@ -34954,7 +34956,7 @@ var STOCKS_DATABASE = {
         "close": 2.16
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 2.16
       }
     ]
@@ -35467,8 +35469,8 @@ var STOCKS_DATABASE = {
         "close": 5.1
       },
       {
-        "date": "2026-06-02",
-        "close": 4.96
+        "date": "2026-06-01",
+        "close": 5.1
       }
     ]
   },
@@ -36000,8 +36002,8 @@ var STOCKS_DATABASE = {
         "close": 7.0
       },
       {
-        "date": "2026-06-02",
-        "close": 6.95
+        "date": "2026-06-01",
+        "close": 7.0
       }
     ]
   },
@@ -36012,12 +36014,12 @@ var STOCKS_DATABASE = {
     "current_price": 1.83,
     "pe_ratio": 7.96,
     "dividend_yield": 8.2,
-    "high_1m": 1.97,
+    "high_1m": 1.94,
     "low_1m": 1.78,
     "support_levels": [
       1.56,
       1.67,
-      1.8
+      1.79
     ],
     "resistance_levels": [
       1.92,
@@ -36634,6 +36636,10 @@ var STOCKS_DATABASE = {
         "close": 1.83
       },
       {
+        "date": "2026-06-01",
+        "close": 1.83
+      },
+      {
         "date": "2026-06-02",
         "close": 1.83
       }
@@ -37187,7 +37193,7 @@ var STOCKS_DATABASE = {
         "close": 0.79
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.8
       }
     ]
@@ -37197,7 +37203,7 @@ var STOCKS_DATABASE = {
     "name": "After You Public Company Limited",
     "business_summary": "After You Public Company Limited, together with its subsidiaries, operates food and beverage outlets in Thailand. It engages in the operation of dessert and beverage cafes; distribution of bakery products and equipment; manufacturing and distribution of food and beverage; franchise operation; and production of advertising media. The company was founded in 2005 and is headquartered in Bangkok, Thailand.",
     "current_price": 4.7,
-    "pe_ratio": 18.8,
+    "pe_ratio": 19.58,
     "dividend_yield": 5.32,
     "high_1m": 4.8,
     "low_1m": 4.3,
@@ -37737,8 +37743,8 @@ var STOCKS_DATABASE = {
         "close": 4.6
       },
       {
-        "date": "2026-06-02",
-        "close": 4.7
+        "date": "2026-06-01",
+        "close": 4.58
       }
     ]
   },
@@ -38291,7 +38297,7 @@ var STOCKS_DATABASE = {
         "close": 3.88
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 3.88
       }
     ]
@@ -38820,8 +38826,8 @@ var STOCKS_DATABASE = {
         "close": 14.6
       },
       {
-        "date": "2026-06-02",
-        "close": 14.5
+        "date": "2026-06-01",
+        "close": 14.6
       }
     ]
   },
@@ -38831,9 +38837,9 @@ var STOCKS_DATABASE = {
     "business_summary": "Asset World Corp Public Company Limited invests in, develops, and manages real estate properties in Thailand. It operates through two segments: Hotel and Related Services, and Rental and Rendering of Commercial Building Services. The company owns and develops hotels; lifestyle destinations, community shopping malls, and community markets; rental and rendering of commercial building services; social enterprise; and mixed-use properties. It also operates digital commerce platforms; management services; and engages in property leasing activities. Asset World Corp Public Company Limited was founded in 1960 and is headquartered in Bangkok, Thailand.",
     "current_price": 2.32,
     "pe_ratio": 11.6,
-    "dividend_yield": 3.51,
+    "dividend_yield": 3.45,
     "high_1m": 2.36,
-    "low_1m": 2.0,
+    "low_1m": 2.02,
     "support_levels": [
       1.85,
       1.99,
@@ -39358,8 +39364,8 @@ var STOCKS_DATABASE = {
         "close": 2.26
       },
       {
-        "date": "2026-06-02",
-        "close": 2.32
+        "date": "2026-06-01",
+        "close": 2.28
       }
     ]
   },
@@ -39912,8 +39918,8 @@ var STOCKS_DATABASE = {
         "close": 40.0
       },
       {
-        "date": "2026-06-02",
-        "close": 40.0
+        "date": "2026-06-01",
+        "close": 39.75
       }
     ]
   },
@@ -40422,7 +40428,7 @@ var STOCKS_DATABASE = {
         "close": 0.04
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.04
       }
     ]
@@ -40953,8 +40959,8 @@ var STOCKS_DATABASE = {
         "close": 0.25
       },
       {
-        "date": "2026-06-02",
-        "close": 0.23
+        "date": "2026-06-01",
+        "close": 0.24
       }
     ]
   },
@@ -40966,7 +40972,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 8.32,
     "dividend_yield": 8.86,
     "high_1m": 16.0,
-    "low_1m": 13.2,
+    "low_1m": 13.5,
     "support_levels": [
       12.31,
       13.01,
@@ -41506,8 +41512,8 @@ var STOCKS_DATABASE = {
         "close": 15.2
       },
       {
-        "date": "2026-06-02",
-        "close": 15.8
+        "date": "2026-06-01",
+        "close": 15.6
       }
     ]
   },
@@ -41519,7 +41525,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 32.96,
     "dividend_yield": 3.71,
     "high_1m": 8.95,
-    "low_1m": 8.23,
+    "low_1m": 8.35,
     "support_levels": [
       6.68,
       7.89,
@@ -42061,8 +42067,8 @@ var STOCKS_DATABASE = {
         "close": 8.55
       },
       {
-        "date": "2026-06-02",
-        "close": 8.9
+        "date": "2026-06-01",
+        "close": 8.75
       }
     ]
   },
@@ -42602,8 +42608,8 @@ var STOCKS_DATABASE = {
         "close": 6.45
       },
       {
-        "date": "2026-06-02",
-        "close": 6.4
+        "date": "2026-06-01",
+        "close": 6.45
       }
     ]
   },
@@ -43156,8 +43162,8 @@ var STOCKS_DATABASE = {
         "close": 5.85
       },
       {
-        "date": "2026-06-02",
-        "close": 5.75
+        "date": "2026-06-01",
+        "close": 5.7
       }
     ]
   },
@@ -43710,8 +43716,8 @@ var STOCKS_DATABASE = {
         "close": 35.0
       },
       {
-        "date": "2026-06-02",
-        "close": 36.25
+        "date": "2026-06-01",
+        "close": 35.0
       }
     ]
   },
@@ -44247,8 +44253,8 @@ var STOCKS_DATABASE = {
         "close": 4.14
       },
       {
-        "date": "2026-06-02",
-        "close": 4.34
+        "date": "2026-06-01",
+        "close": 4.08
       }
     ]
   },
@@ -44781,8 +44787,8 @@ var STOCKS_DATABASE = {
         "close": 17.8
       },
       {
-        "date": "2026-06-02",
-        "close": 18.0
+        "date": "2026-06-01",
+        "close": 17.2
       }
     ]
   },
@@ -44794,7 +44800,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 7.55,
     "dividend_yield": 9.4,
     "high_1m": 176.0,
-    "low_1m": 160.5,
+    "low_1m": 161.5,
     "support_levels": [
       139.98,
       147.6,
@@ -45335,8 +45341,8 @@ var STOCKS_DATABASE = {
         "close": 172.0
       },
       {
-        "date": "2026-06-02",
-        "close": 175.5
+        "date": "2026-06-01",
+        "close": 173.0
       }
     ]
   },
@@ -45857,7 +45863,7 @@ var STOCKS_DATABASE = {
         "close": 0.66
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.65
       }
     ]
@@ -45872,7 +45878,7 @@ var STOCKS_DATABASE = {
     "high_1m": 9.75,
     "low_1m": 9.1,
     "support_levels": [
-      9.14
+      9.15
     ],
     "resistance_levels": [
       9.68,
@@ -46410,8 +46416,8 @@ var STOCKS_DATABASE = {
         "close": 9.5
       },
       {
-        "date": "2026-06-02",
-        "close": 9.35
+        "date": "2026-06-01",
+        "close": 9.45
       }
     ]
   },
@@ -46422,7 +46428,7 @@ var STOCKS_DATABASE = {
     "current_price": 34.25,
     "pe_ratio": 16.47,
     "dividend_yield": 3.07,
-    "high_1m": 37.5,
+    "high_1m": 37.25,
     "low_1m": 33.25,
     "support_levels": [
       27.46,
@@ -46964,8 +46970,8 @@ var STOCKS_DATABASE = {
         "close": 34.25
       },
       {
-        "date": "2026-06-02",
-        "close": 34.25
+        "date": "2026-06-01",
+        "close": 33.25
       }
     ]
   },
@@ -47518,8 +47524,8 @@ var STOCKS_DATABASE = {
         "close": 6.7
       },
       {
-        "date": "2026-06-02",
-        "close": 6.65
+        "date": "2026-06-01",
+        "close": 6.75
       }
     ]
   },
@@ -48072,7 +48078,7 @@ var STOCKS_DATABASE = {
         "close": 50.0
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 50.0
       }
     ]
@@ -48626,7 +48632,7 @@ var STOCKS_DATABASE = {
         "close": 18.1
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 18.2
       }
     ]
@@ -49161,8 +49167,8 @@ var STOCKS_DATABASE = {
         "close": 5.35
       },
       {
-        "date": "2026-06-02",
-        "close": 5.6
+        "date": "2026-06-01",
+        "close": 5.2
       }
     ]
   },
@@ -49716,8 +49722,8 @@ var STOCKS_DATABASE = {
         "close": 0.38
       },
       {
-        "date": "2026-06-02",
-        "close": 0.39
+        "date": "2026-06-01",
+        "close": 0.38
       }
     ]
   },
@@ -50270,8 +50276,8 @@ var STOCKS_DATABASE = {
         "close": 1.9
       },
       {
-        "date": "2026-06-02",
-        "close": 2.08
+        "date": "2026-06-01",
+        "close": 1.9
       }
     ]
   },
@@ -50824,7 +50830,7 @@ var STOCKS_DATABASE = {
         "close": 5.15
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 5.2
       }
     ]
@@ -51378,7 +51384,7 @@ var STOCKS_DATABASE = {
         "close": 8.9
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 9.0
       }
     ]
@@ -51393,9 +51399,9 @@ var STOCKS_DATABASE = {
     "high_1m": 6.2,
     "low_1m": 4.97,
     "support_levels": [
-      3.79,
       4.17,
-      4.43
+      4.43,
+      5.21
     ],
     "resistance_levels": [
       6.51,
@@ -51932,8 +51938,8 @@ var STOCKS_DATABASE = {
         "close": 6.0
       },
       {
-        "date": "2026-06-02",
-        "close": 6.2
+        "date": "2026-06-01",
+        "close": 6.15
       }
     ]
   },
@@ -51945,7 +51951,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 43.75,
     "dividend_yield": 2.94,
     "high_1m": 14.3,
-    "low_1m": 12.7,
+    "low_1m": 12.8,
     "support_levels": [
       10.73,
       12.35,
@@ -52487,8 +52493,8 @@ var STOCKS_DATABASE = {
         "close": 13.8
       },
       {
-        "date": "2026-06-02",
-        "close": 14.0
+        "date": "2026-06-01",
+        "close": 13.9
       }
     ]
   },
@@ -53041,7 +53047,7 @@ var STOCKS_DATABASE = {
         "close": 0.37
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.36
       }
     ]
@@ -53595,8 +53601,8 @@ var STOCKS_DATABASE = {
         "close": 177.5
       },
       {
-        "date": "2026-06-02",
-        "close": 178.0
+        "date": "2026-06-01",
+        "close": 179.5
       }
     ]
   },
@@ -54150,7 +54156,7 @@ var STOCKS_DATABASE = {
         "close": 0.3
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.3
       }
     ]
@@ -54556,6 +54562,10 @@ var STOCKS_DATABASE = {
       },
       {
         "date": "2026-05-29",
+        "close": 2.76
+      },
+      {
+        "date": "2026-06-01",
         "close": 2.76
       },
       {
@@ -55084,8 +55094,8 @@ var STOCKS_DATABASE = {
         "close": 0.28
       },
       {
-        "date": "2026-06-02",
-        "close": 0.29
+        "date": "2026-06-01",
+        "close": 0.28
       }
     ]
   },
@@ -55630,8 +55640,8 @@ var STOCKS_DATABASE = {
         "close": 2.04
       },
       {
-        "date": "2026-06-02",
-        "close": 2.06
+        "date": "2026-06-01",
+        "close": 2.1
       }
     ]
   },
@@ -55643,7 +55653,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 8.48,
     "dividend_yield": 8.93,
     "high_1m": 5.6,
-    "low_1m": 4.66,
+    "low_1m": 4.68,
     "support_levels": [
       3.12,
       3.38,
@@ -56184,8 +56194,8 @@ var STOCKS_DATABASE = {
         "close": 5.25
       },
       {
-        "date": "2026-06-02",
-        "close": 5.6
+        "date": "2026-06-01",
+        "close": 5.25
       }
     ]
   },
@@ -56738,8 +56748,8 @@ var STOCKS_DATABASE = {
         "close": 14.2
       },
       {
-        "date": "2026-06-02",
-        "close": 14.3
+        "date": "2026-06-01",
+        "close": 14.2
       }
     ]
   },
@@ -57292,7 +57302,7 @@ var STOCKS_DATABASE = {
         "close": 0.79
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.79
       }
     ]
@@ -57315,9 +57325,9 @@ var STOCKS_DATABASE = {
       0.95,
       1.02
     ],
-    "upcoming_xd": "2026-07-02",
+    "upcoming_xd": "2026-07-03",
     "upcoming_dividend_amount": 0.06,
-    "upcoming_payment_date": "2026-07-17",
+    "upcoming_payment_date": "2026-07-18",
     "dividend_history": [
       {
         "date": "2025-05-26",
@@ -57810,7 +57820,7 @@ var STOCKS_DATABASE = {
         "close": 0.73
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.72
       }
     ]
@@ -58363,8 +58373,8 @@ var STOCKS_DATABASE = {
         "close": 1.12
       },
       {
-        "date": "2026-06-02",
-        "close": 1.13
+        "date": "2026-06-01",
+        "close": 1.12
       }
     ]
   },
@@ -58374,7 +58384,7 @@ var STOCKS_DATABASE = {
     "business_summary": "Bangkok Genomics Innovation Public Company Limited provides medical analysis services in Thailand. The company offers screening for fetal chromosomal abnormalities using non-invasive prenatal testing under the NIFTY brand, preimplantation chromosomal abnormality and thalassemia carrier gene screening, infectious disease group analysis, and monkeypox virus analysis. It also provides other screening tests, such as cancer-related gene screening to predict the risk of inherited cancer, monitor treatment, select drugs that are appropriate for one's genetics, and provide treatment and disease prevention. In addition, the company offers genetic analysis using whole exome sequencing, a technology that can detect gene abnormalities that cause diseases; individual genetic decoding, which involves detailed genetic sequencing to analyze genetic information and identify aspects such as ethnicity or ancestry, optimal exercise profiles, metabolic capabilities, and the risk of genetic diseases; newborn screening; and health check-ups for various needs. Further, it supports research services in both medical and other fields, offers DNA and RNA sequencing, metabolomics and proteomics services, and medical products comprising genetic sequencers; NIPT, PGT-A, hereditary cancer screening, and precision oncology solutions; real-time PCR that includes beta thalassemia genotyping and human papillomavirus genotyping kits; and cell-free DNA storage tubes. The company serves government sectors such as medical schools and health centers, as well as private sectors such as clinics, hospitals, private medical laboratories, research institutes, and universities. Bangkok Genomics Innovation Public Company Limited was founded in 2017 and is headquartered in Bangkok, Thailand.",
     "current_price": 2.0,
     "pe_ratio": 25.0,
-    "dividend_yield": 2.51,
+    "dividend_yield": 2.5,
     "high_1m": 2.22,
     "low_1m": 1.35,
     "support_levels": [
@@ -58885,8 +58895,8 @@ var STOCKS_DATABASE = {
         "close": 1.81
       },
       {
-        "date": "2026-06-02",
-        "close": 2.0
+        "date": "2026-06-01",
+        "close": 1.99
       }
     ]
   },
@@ -58898,7 +58908,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 10.1,
     "dividend_yield": 5.1,
     "high_1m": 356.0,
-    "low_1m": 313.81,
+    "low_1m": 314.79,
     "support_levels": [
       269.82,
       285.48,
@@ -59427,8 +59437,8 @@ var STOCKS_DATABASE = {
         "close": 353.0
       },
       {
-        "date": "2026-06-02",
-        "close": 353.0
+        "date": "2026-06-01",
+        "close": 351.0
       }
     ]
   },
@@ -59440,7 +59450,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 5.41,
     "dividend_yield": 3.71,
     "high_1m": 23.8,
-    "low_1m": 19.5,
+    "low_1m": 19.8,
     "support_levels": [
       18.07,
       18.66,
@@ -59981,8 +59991,8 @@ var STOCKS_DATABASE = {
         "close": 23.5
       },
       {
-        "date": "2026-06-02",
-        "close": 23.2
+        "date": "2026-06-01",
+        "close": 22.8
       }
     ]
   },
@@ -60535,8 +60545,8 @@ var STOCKS_DATABASE = {
         "close": 0.45
       },
       {
-        "date": "2026-06-02",
-        "close": 0.45
+        "date": "2026-06-01",
+        "close": 0.44
       }
     ]
   },
@@ -61081,7 +61091,7 @@ var STOCKS_DATABASE = {
         "close": 4.02
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 4.0
       }
     ]
@@ -61600,7 +61610,7 @@ var STOCKS_DATABASE = {
         "close": 0.26
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.24
       }
     ]
@@ -62154,7 +62164,7 @@ var STOCKS_DATABASE = {
         "close": 1.03
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 1.03
       }
     ]
@@ -62173,7 +62183,7 @@ var STOCKS_DATABASE = {
       4.87
     ],
     "resistance_levels": [
-      5.03,
+      5.02,
       5.23,
       5.47
     ],
@@ -62708,7 +62718,7 @@ var STOCKS_DATABASE = {
         "close": 4.92
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 4.9
       }
     ]
@@ -63261,7 +63271,7 @@ var STOCKS_DATABASE = {
         "close": 12.1
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 12.0
       }
     ]
@@ -63272,7 +63282,7 @@ var STOCKS_DATABASE = {
     "business_summary": "BPS Technology Public Company Limited engages in the distribution of electrical connectivity equipment, technology related products, and solar cell products in Thailand. It operates through Sales, Service, and Fiber Optic Network segments. The company offers one smart supply (OSS), which includes construction materials and hardware; electrical appliances, plumbing, air conditioning; electrical and communication equipment; and data center and UPS. It also provides one smart builder (OSB), comprising ERV Air solution, water filter, smart network, security system, solar rooftop, and EV charger; and one smart factory (OSF), including data centers, building operation digital assistance, grounding/lightning protection, SVG power quality solutions, and smart factory solutions. The company was formerly known as Bigphaisan Project Company Limited. BPS Technology Public Company Limited was incorporated in 2001 and is headquartered in Samut Prakan, Thailand.",
     "current_price": 0.5,
     "pe_ratio": 50.0,
-    "dividend_yield": 2.72,
+    "dividend_yield": 2.5,
     "high_1m": 0.57,
     "low_1m": 0.44,
     "support_levels": [
@@ -63782,8 +63792,8 @@ var STOCKS_DATABASE = {
         "close": 0.44
       },
       {
-        "date": "2026-06-02",
-        "close": 0.5
+        "date": "2026-06-01",
+        "close": 0.46
       }
     ]
   },
@@ -64334,8 +64344,8 @@ var STOCKS_DATABASE = {
         "close": 1.71
       },
       {
-        "date": "2026-06-02",
-        "close": 1.7
+        "date": "2026-06-01",
+        "close": 1.71
       }
     ]
   },
@@ -64872,8 +64882,8 @@ var STOCKS_DATABASE = {
         "close": 1.28
       },
       {
-        "date": "2026-06-02",
-        "close": 1.29
+        "date": "2026-06-01",
+        "close": 1.27
       }
     ]
   },
@@ -65425,7 +65435,7 @@ var STOCKS_DATABASE = {
         "close": 1.19
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 1.22
       }
     ]
@@ -65979,7 +65989,7 @@ var STOCKS_DATABASE = {
         "close": 3.54
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 3.58
       }
     ]
@@ -66533,8 +66543,8 @@ var STOCKS_DATABASE = {
         "close": 0.6
       },
       {
-        "date": "2026-06-02",
-        "close": 0.59
+        "date": "2026-06-01",
+        "close": 0.6
       }
     ]
   },
@@ -67074,8 +67084,8 @@ var STOCKS_DATABASE = {
         "close": 0.33
       },
       {
-        "date": "2026-06-02",
-        "close": 0.34
+        "date": "2026-06-01",
+        "close": 0.32
       }
     ]
   },
@@ -67628,8 +67638,8 @@ var STOCKS_DATABASE = {
         "close": 0.15
       },
       {
-        "date": "2026-06-02",
-        "close": 0.15
+        "date": "2026-06-01",
+        "close": 0.16
       }
     ]
   },
@@ -68157,7 +68167,7 @@ var STOCKS_DATABASE = {
         "close": 20.0
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 19.9
       }
     ]
@@ -68710,8 +68720,8 @@ var STOCKS_DATABASE = {
         "close": 14.8
       },
       {
-        "date": "2026-06-02",
-        "close": 15.0
+        "date": "2026-06-01",
+        "close": 15.2
       }
     ]
   },
@@ -69263,8 +69273,8 @@ var STOCKS_DATABASE = {
         "close": 2.06
       },
       {
-        "date": "2026-06-02",
-        "close": 2.08
+        "date": "2026-06-01",
+        "close": 2.04
       }
     ]
   },
@@ -69793,7 +69803,7 @@ var STOCKS_DATABASE = {
         "close": 0.07
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.07
       }
     ]
@@ -70346,7 +70356,7 @@ var STOCKS_DATABASE = {
         "close": 11.3
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 11.3
       }
     ]
@@ -70358,7 +70368,7 @@ var STOCKS_DATABASE = {
     "current_price": 1.59,
     "pe_ratio": 11.36,
     "dividend_yield": 5.0,
-    "high_1m": 1.75,
+    "high_1m": 1.66,
     "low_1m": 1.55,
     "support_levels": [
       1.41
@@ -70887,8 +70897,8 @@ var STOCKS_DATABASE = {
         "close": 1.59
       },
       {
-        "date": "2026-06-02",
-        "close": 1.59
+        "date": "2026-06-01",
+        "close": 1.58
       }
     ]
   },
@@ -71442,8 +71452,8 @@ var STOCKS_DATABASE = {
         "close": 0.33
       },
       {
-        "date": "2026-06-02",
-        "close": 0.3
+        "date": "2026-06-01",
+        "close": 0.32
       }
     ]
   },
@@ -71969,7 +71979,7 @@ var STOCKS_DATABASE = {
         "close": 0.53
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.52
       }
     ]
@@ -71982,7 +71992,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": null,
     "dividend_yield": 0.0,
     "high_1m": 1.8,
-    "low_1m": 1.49,
+    "low_1m": 1.52,
     "support_levels": [
       1.38,
       1.5
@@ -72507,8 +72517,8 @@ var STOCKS_DATABASE = {
         "close": 1.56
       },
       {
-        "date": "2026-06-02",
-        "close": 1.55
+        "date": "2026-06-01",
+        "close": 1.54
       }
     ]
   },
@@ -72520,7 +72530,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 18.89,
     "dividend_yield": 2.93,
     "high_1m": 42.5,
-    "low_1m": 36.0,
+    "low_1m": 36.5,
     "support_levels": [
       34.25,
       35.5,
@@ -73062,8 +73072,8 @@ var STOCKS_DATABASE = {
         "close": 40.5
       },
       {
-        "date": "2026-06-02",
-        "close": 41.0
+        "date": "2026-06-01",
+        "close": 40.25
       }
     ]
   },
@@ -73616,8 +73626,8 @@ var STOCKS_DATABASE = {
         "close": 8.95
       },
       {
-        "date": "2026-06-02",
-        "close": 10.2
+        "date": "2026-06-01",
+        "close": 8.8
       }
     ]
   },
@@ -74170,8 +74180,8 @@ var STOCKS_DATABASE = {
         "close": 0.27
       },
       {
-        "date": "2026-06-02",
-        "close": 0.27
+        "date": "2026-06-01",
+        "close": 0.26
       }
     ]
   },
@@ -74707,7 +74717,7 @@ var STOCKS_DATABASE = {
         "close": 0.62
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.62
       }
     ]
@@ -74720,7 +74730,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 13.45,
     "dividend_yield": 1.99,
     "high_1m": 33.75,
-    "low_1m": 29.34,
+    "low_1m": 29.75,
     "support_levels": [
       25.42,
       29.34,
@@ -75261,7 +75271,7 @@ var STOCKS_DATABASE = {
         "close": 33.5
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 33.75
       }
     ]
@@ -75793,7 +75803,7 @@ var STOCKS_DATABASE = {
         "close": 1.17
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 1.19
       }
     ]
@@ -75813,6 +75823,7 @@ var STOCKS_DATABASE = {
       0.78
     ],
     "resistance_levels": [
+      0.81,
       0.86
     ],
     "upcoming_xd": "2026-04-17",
@@ -76310,8 +76321,8 @@ var STOCKS_DATABASE = {
         "close": 0.8
       },
       {
-        "date": "2026-06-02",
-        "close": 0.8
+        "date": "2026-06-01",
+        "close": 0.79
       }
     ]
   },
@@ -76865,8 +76876,8 @@ var STOCKS_DATABASE = {
         "close": 0.99
       },
       {
-        "date": "2026-06-02",
-        "close": 0.99
+        "date": "2026-06-01",
+        "close": 1.0
       }
     ]
   },
@@ -77377,8 +77388,8 @@ var STOCKS_DATABASE = {
         "close": 0.11
       },
       {
-        "date": "2026-06-02",
-        "close": 0.1
+        "date": "2026-06-01",
+        "close": 0.11
       }
     ]
   },
@@ -77923,7 +77934,7 @@ var STOCKS_DATABASE = {
         "close": 0.53
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.53
       }
     ]
@@ -78452,8 +78463,8 @@ var STOCKS_DATABASE = {
         "close": 1.52
       },
       {
-        "date": "2026-06-02",
-        "close": 1.51
+        "date": "2026-06-01",
+        "close": 1.52
       }
     ]
   },
@@ -78463,7 +78474,7 @@ var STOCKS_DATABASE = {
     "business_summary": "Chaosua Foods Industry Public Company Limited, together with its subsidiaries, manufactures and distributes snacks and processed meat products in Thailand, China, the United States, Hong Kong, Australia, and internationally. It operates in two segments, Snacks and Meal. The company offers snack products, including rice crackers, pork sticks, crispy pork, cereal crackers, cashew nut bars, white and black sesame bars, and peanut bars and nougats; ready-to-cook food products, such as Chinese-style sausages and stir-fried noodles; and ready-to-eat meals comprising chili paste, roasted pork, and pork floss, strips, and jerky. It also provides mini rice chips; fish sticks, chips, and skins; grain crackers; desserts; drinks; and health products, as well as gift sets. In addition, the company engages in the import and distribution of consumer products. It exports its products. The company was founded in 1958 and is headquartered in Nakhon Ratchasima, Thailand.",
     "current_price": 4.2,
     "pe_ratio": 16.8,
-    "dividend_yield": 4.07,
+    "dividend_yield": 4.05,
     "high_1m": 4.38,
     "low_1m": 4.16,
     "support_levels": [
@@ -78974,8 +78985,8 @@ var STOCKS_DATABASE = {
         "close": 4.18
       },
       {
-        "date": "2026-06-02",
-        "close": 4.2
+        "date": "2026-06-01",
+        "close": 4.18
       }
     ]
   },
@@ -80045,8 +80056,8 @@ var STOCKS_DATABASE = {
         "close": 0.49
       },
       {
-        "date": "2026-06-02",
-        "close": 0.5
+        "date": "2026-06-01",
+        "close": 0.49
       }
     ]
   },
@@ -80058,7 +80069,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": null,
     "dividend_yield": 14.0,
     "high_1m": 1.32,
-    "low_1m": 0.99,
+    "low_1m": 1.0,
     "support_levels": [
       1.0,
       1.19,
@@ -80600,8 +80611,8 @@ var STOCKS_DATABASE = {
         "close": 1.2
       },
       {
-        "date": "2026-06-02",
-        "close": 1.31
+        "date": "2026-06-01",
+        "close": 1.24
       }
     ]
   },
@@ -81142,8 +81153,8 @@ var STOCKS_DATABASE = {
         "close": 0.17
       },
       {
-        "date": "2026-06-02",
-        "close": 0.16
+        "date": "2026-06-01",
+        "close": 0.18
       }
     ]
   },
@@ -81695,8 +81706,8 @@ var STOCKS_DATABASE = {
         "close": 1.47
       },
       {
-        "date": "2026-06-02",
-        "close": 1.42
+        "date": "2026-06-01",
+        "close": 1.44
       }
     ]
   },
@@ -82214,7 +82225,7 @@ var STOCKS_DATABASE = {
         "close": 0.3
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.3
       }
     ]
@@ -82225,7 +82236,7 @@ var STOCKS_DATABASE = {
     "business_summary": "China Mobile Limited provides communication, computing, and AI services in Mainland China and Hong Kong. It offers communications services, including mobile communications, broadband networks, cellular IoT, and satellite Internet; computing services comprising data centers, cloud computing services, and cloud computing applications; and AI services, such as data algorithms, embodied intelligence, digital intelligence culture, digital intelligence e-commerce, and industry digital intelligence services. The company was formerly known as China Mobile (Hong Kong) Limited and changed its name to China Mobile Limited in May 2006. The company was incorporated in 1997 and is based in Central, Hong Kong. China Mobile Limited operates as a subsidiary of China Mobile Hong Kong (BVI) Limited.",
     "current_price": 2.78,
     "pe_ratio": null,
-    "dividend_yield": 1.72,
+    "dividend_yield": 1.7,
     "high_1m": 2.84,
     "low_1m": 2.62,
     "support_levels": [
@@ -82443,7 +82454,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": null,
     "dividend_yield": 0.0,
     "high_1m": 9.5,
-    "low_1m": 8.25,
+    "low_1m": 8.35,
     "support_levels": [
       6.6,
       6.9
@@ -82947,6 +82958,10 @@ var STOCKS_DATABASE = {
       },
       {
         "date": "2026-05-29",
+        "close": 9.3
+      },
+      {
+        "date": "2026-06-01",
         "close": 9.3
       },
       {
@@ -84040,7 +84055,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 20.29,
     "dividend_yield": 0.0,
     "high_1m": 1.67,
-    "low_1m": 1.31,
+    "low_1m": 1.32,
     "support_levels": [
       1.06,
       1.21,
@@ -84549,8 +84564,8 @@ var STOCKS_DATABASE = {
         "close": 1.44
       },
       {
-        "date": "2026-06-02",
-        "close": 1.42
+        "date": "2026-06-01",
+        "close": 1.4
       }
     ]
   },
@@ -85104,7 +85119,7 @@ var STOCKS_DATABASE = {
         "close": 0.33
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.32
       }
     ]
@@ -85640,7 +85655,7 @@ var STOCKS_DATABASE = {
         "close": 0.03
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.03
       }
     ]
@@ -86745,7 +86760,7 @@ var STOCKS_DATABASE = {
         "close": 1.18
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 1.18
       }
     ]
@@ -87275,7 +87290,7 @@ var STOCKS_DATABASE = {
         "close": 1.3
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 1.32
       }
     ]
@@ -87288,7 +87303,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 9.75,
     "dividend_yield": 2.55,
     "high_1m": 19.6,
-    "low_1m": 16.7,
+    "low_1m": 17.1,
     "support_levels": [
       11.51,
       14.5,
@@ -87829,8 +87844,8 @@ var STOCKS_DATABASE = {
         "close": 17.8
       },
       {
-        "date": "2026-06-02",
-        "close": 19.6
+        "date": "2026-06-01",
+        "close": 18.0
       }
     ]
   },
@@ -87842,7 +87857,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 6.74,
     "dividend_yield": 3.73,
     "high_1m": 2.42,
-    "low_1m": 2.22,
+    "low_1m": 2.24,
     "support_levels": [
       2.04,
       2.17
@@ -88383,8 +88398,8 @@ var STOCKS_DATABASE = {
         "close": 2.3
       },
       {
-        "date": "2026-06-02",
-        "close": 2.36
+        "date": "2026-06-01",
+        "close": 2.3
       }
     ]
   },
@@ -88936,8 +88951,8 @@ var STOCKS_DATABASE = {
         "close": 1.58
       },
       {
-        "date": "2026-06-02",
-        "close": 1.58
+        "date": "2026-06-01",
+        "close": 1.57
       }
     ]
   },
@@ -88949,7 +88964,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 6.62,
     "dividend_yield": 5.4,
     "high_1m": 2.96,
-    "low_1m": 2.52,
+    "low_1m": 2.56,
     "support_levels": [
       2.06,
       2.25,
@@ -89481,8 +89496,8 @@ var STOCKS_DATABASE = {
         "close": 2.74
       },
       {
-        "date": "2026-06-02",
-        "close": 2.78
+        "date": "2026-06-01",
+        "close": 2.74
       }
     ]
   },
@@ -90022,7 +90037,7 @@ var STOCKS_DATABASE = {
         "close": 0.35
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.35
       }
     ]
@@ -90577,7 +90592,7 @@ var STOCKS_DATABASE = {
         "close": 0.63
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.62
       }
     ]
@@ -91131,8 +91146,8 @@ var STOCKS_DATABASE = {
         "close": 1.31
       },
       {
-        "date": "2026-06-02",
-        "close": 1.32
+        "date": "2026-06-01",
+        "close": 1.31
       }
     ]
   },
@@ -92657,8 +92672,8 @@ var STOCKS_DATABASE = {
         "close": 1.57
       },
       {
-        "date": "2026-06-02",
-        "close": 1.69
+        "date": "2026-06-01",
+        "close": 1.66
       }
     ]
   },
@@ -93188,8 +93203,8 @@ var STOCKS_DATABASE = {
         "close": 5.7
       },
       {
-        "date": "2026-06-02",
-        "close": 5.8
+        "date": "2026-06-01",
+        "close": 5.65
       }
     ]
   },
@@ -93740,8 +93755,8 @@ var STOCKS_DATABASE = {
         "close": 0.99
       },
       {
-        "date": "2026-06-02",
-        "close": 1.03
+        "date": "2026-06-01",
+        "close": 1.04
       }
     ]
   },
@@ -94293,8 +94308,8 @@ var STOCKS_DATABASE = {
         "close": 25.5
       },
       {
-        "date": "2026-06-02",
-        "close": 26.5
+        "date": "2026-06-01",
+        "close": 26.0
       }
     ]
   },
@@ -94308,7 +94323,8 @@ var STOCKS_DATABASE = {
     "high_1m": 0.67,
     "low_1m": 0.44,
     "support_levels": [
-      0.37
+      0.37,
+      0.5
     ],
     "resistance_levels": [
       0.59,
@@ -94826,8 +94842,8 @@ var STOCKS_DATABASE = {
         "close": 0.5
       },
       {
-        "date": "2026-06-02",
-        "close": 0.51
+        "date": "2026-06-01",
+        "close": 0.5
       }
     ]
   },
@@ -94839,7 +94855,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 14.25,
     "dividend_yield": 3.53,
     "high_1m": 47.75,
-    "low_1m": 43.0,
+    "low_1m": 43.25,
     "support_levels": [
       39.51,
       42.1,
@@ -95379,8 +95395,8 @@ var STOCKS_DATABASE = {
         "close": 46.5
       },
       {
-        "date": "2026-06-02",
-        "close": 46.75
+        "date": "2026-06-01",
+        "close": 47.25
       }
     ]
   },
@@ -95905,8 +95921,8 @@ var STOCKS_DATABASE = {
         "close": 1.28
       },
       {
-        "date": "2026-06-02",
-        "close": 1.22
+        "date": "2026-06-01",
+        "close": 1.2
       }
     ]
   },
@@ -96432,7 +96448,7 @@ var STOCKS_DATABASE = {
         "close": 15.5
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 15.2
       }
     ]
@@ -96985,7 +97001,7 @@ var STOCKS_DATABASE = {
         "close": 19.1
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 19.0
       }
     ]
@@ -97519,7 +97535,7 @@ var STOCKS_DATABASE = {
         "close": 7.8
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 7.8
       }
     ]
@@ -98073,7 +98089,7 @@ var STOCKS_DATABASE = {
         "close": 3.4
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 3.46
       }
     ]
@@ -98627,7 +98643,7 @@ var STOCKS_DATABASE = {
         "close": 0.67
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.68
       }
     ]
@@ -98640,7 +98656,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 14.93,
     "dividend_yield": 3.68,
     "high_1m": 67.75,
-    "low_1m": 61.25,
+    "low_1m": 61.75,
     "support_levels": [
       49.0,
       52.25,
@@ -99181,8 +99197,8 @@ var STOCKS_DATABASE = {
         "close": 64.5
       },
       {
-        "date": "2026-06-02",
-        "close": 65.25
+        "date": "2026-06-01",
+        "close": 64.5
       }
     ]
   },
@@ -99734,8 +99750,8 @@ var STOCKS_DATABASE = {
         "close": 2.66
       },
       {
-        "date": "2026-06-02",
-        "close": 2.62
+        "date": "2026-06-01",
+        "close": 2.66
       }
     ]
   },
@@ -100269,8 +100285,8 @@ var STOCKS_DATABASE = {
         "close": 1.06
       },
       {
-        "date": "2026-06-02",
-        "close": 1.05
+        "date": "2026-06-01",
+        "close": 1.04
       }
     ]
   },
@@ -100290,9 +100306,9 @@ var STOCKS_DATABASE = {
     "resistance_levels": [
       9.7
     ],
-    "upcoming_xd": "2026-07-02",
+    "upcoming_xd": "2026-07-03",
     "upcoming_dividend_amount": 0.13,
-    "upcoming_payment_date": "2026-07-17",
+    "upcoming_payment_date": "2026-07-18",
     "dividend_history": [
       {
         "date": "2021-08-27",
@@ -100834,7 +100850,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 10.42,
     "dividend_yield": 7.6,
     "high_1m": 2.6,
-    "low_1m": 2.1,
+    "low_1m": 2.24,
     "support_levels": [
       1.86,
       1.98,
@@ -101375,8 +101391,8 @@ var STOCKS_DATABASE = {
         "close": 2.34
       },
       {
-        "date": "2026-06-02",
-        "close": 2.5
+        "date": "2026-06-01",
+        "close": 2.4
       }
     ]
   },
@@ -101918,7 +101934,7 @@ var STOCKS_DATABASE = {
         "close": 0.41
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.39
       }
     ]
@@ -101931,7 +101947,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 18.03,
     "dividend_yield": 2.51,
     "high_1m": 21.2,
-    "low_1m": 17.8,
+    "low_1m": 18.3,
     "support_levels": [
       15.75,
       16.7,
@@ -102459,7 +102475,7 @@ var STOCKS_DATABASE = {
         "close": 20.7
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 21.1
       }
     ]
@@ -102985,8 +103001,8 @@ var STOCKS_DATABASE = {
         "close": 0.35
       },
       {
-        "date": "2026-06-02",
-        "close": 0.37
+        "date": "2026-06-01",
+        "close": 0.36
       }
     ]
   },
@@ -102998,7 +103014,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 5.52,
     "dividend_yield": 5.13,
     "high_1m": 19.5,
-    "low_1m": 17.64,
+    "low_1m": 17.7,
     "support_levels": [
       14.03,
       15.17,
@@ -103507,8 +103523,8 @@ var STOCKS_DATABASE = {
         "close": 18.9
       },
       {
-        "date": "2026-06-02",
-        "close": 19.1
+        "date": "2026-06-01",
+        "close": 18.9
       }
     ]
   },
@@ -103520,7 +103536,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 9.37,
     "dividend_yield": 5.14,
     "high_1m": 44.25,
-    "low_1m": 42.0,
+    "low_1m": 42.25,
     "support_levels": [
       42.41
     ],
@@ -104059,8 +104075,8 @@ var STOCKS_DATABASE = {
         "close": 44.0
       },
       {
-        "date": "2026-06-02",
-        "close": 43.75
+        "date": "2026-06-01",
+        "close": 44.0
       }
     ]
   },
@@ -104612,8 +104628,8 @@ var STOCKS_DATABASE = {
         "close": 0.5
       },
       {
-        "date": "2026-06-02",
-        "close": 0.5
+        "date": "2026-06-01",
+        "close": 0.49
       }
     ]
   },
@@ -105165,8 +105181,8 @@ var STOCKS_DATABASE = {
         "close": 76.75
       },
       {
-        "date": "2026-06-02",
-        "close": 73.25
+        "date": "2026-06-01",
+        "close": 74.0
       }
     ]
   },
@@ -105717,8 +105733,8 @@ var STOCKS_DATABASE = {
         "close": 1.06
       },
       {
-        "date": "2026-06-02",
-        "close": 1.01
+        "date": "2026-06-01",
+        "close": 1.02
       }
     ]
   },
@@ -106270,7 +106286,7 @@ var STOCKS_DATABASE = {
         "close": 5.95
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 6.05
       }
     ]
@@ -106803,6 +106819,7 @@ var STOCKS_DATABASE = {
     "low_1m": 0.64,
     "support_levels": [
       0.6,
+      0.66,
       0.69
     ],
     "resistance_levels": [
@@ -107337,8 +107354,8 @@ var STOCKS_DATABASE = {
         "close": 0.78
       },
       {
-        "date": "2026-06-02",
-        "close": 0.75
+        "date": "2026-06-01",
+        "close": 0.76
       }
     ]
   },
@@ -107890,8 +107907,8 @@ var STOCKS_DATABASE = {
         "close": 2.9
       },
       {
-        "date": "2026-06-02",
-        "close": 2.94
+        "date": "2026-06-01",
+        "close": 2.9
       }
     ]
   },
@@ -107903,7 +107920,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 13.4,
     "dividend_yield": 5.97,
     "high_1m": 1.35,
-    "low_1m": 1.22,
+    "low_1m": 1.26,
     "support_levels": [
       1.17,
       1.22,
@@ -108443,8 +108460,8 @@ var STOCKS_DATABASE = {
         "close": 1.31
       },
       {
-        "date": "2026-06-02",
-        "close": 1.34
+        "date": "2026-06-01",
+        "close": 1.33
       }
     ]
   },
@@ -108997,7 +109014,7 @@ var STOCKS_DATABASE = {
         "close": 0.2
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.2
       }
     ]
@@ -109551,8 +109568,8 @@ var STOCKS_DATABASE = {
         "close": 4.72
       },
       {
-        "date": "2026-06-02",
-        "close": 4.7
+        "date": "2026-06-01",
+        "close": 4.8
       }
     ]
   },
@@ -110105,8 +110122,8 @@ var STOCKS_DATABASE = {
         "close": 353.0
       },
       {
-        "date": "2026-06-02",
-        "close": 355.0
+        "date": "2026-06-01",
+        "close": 353.0
       }
     ]
   },
@@ -110118,7 +110135,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 36.5,
     "dividend_yield": 0.0,
     "high_1m": 3.06,
-    "low_1m": 2.2,
+    "low_1m": 2.22,
     "support_levels": [
       1.83,
       2.13,
@@ -110659,8 +110676,8 @@ var STOCKS_DATABASE = {
         "close": 2.74
       },
       {
-        "date": "2026-06-02",
-        "close": 2.92
+        "date": "2026-06-01",
+        "close": 2.84
       }
     ]
   },
@@ -111198,9 +111215,9 @@ var STOCKS_DATABASE = {
       0.36
     ],
     "resistance_levels": [
+      0.39,
       0.4,
-      0.41,
-      0.42
+      0.41
     ],
     "upcoming_xd": "2021-03-23",
     "upcoming_dividend_amount": 0.03,
@@ -111697,8 +111714,8 @@ var STOCKS_DATABASE = {
         "close": 0.39
       },
       {
-        "date": "2026-06-02",
-        "close": 0.37
+        "date": "2026-06-01",
+        "close": 0.38
       }
     ]
   },
@@ -112222,7 +112239,7 @@ var STOCKS_DATABASE = {
         "close": 0.05
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.05
       }
     ]
@@ -112759,8 +112776,8 @@ var STOCKS_DATABASE = {
         "close": 14.6
       },
       {
-        "date": "2026-06-02",
-        "close": 13.8
+        "date": "2026-06-01",
+        "close": 13.7
       }
     ]
   },
@@ -113312,8 +113329,8 @@ var STOCKS_DATABASE = {
         "close": 11.2
       },
       {
-        "date": "2026-06-02",
-        "close": 11.3
+        "date": "2026-06-01",
+        "close": 11.2
       }
     ]
   },
@@ -113839,7 +113856,7 @@ var STOCKS_DATABASE = {
         "close": 1.66
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 1.64
       }
     ]
@@ -114382,7 +114399,7 @@ var STOCKS_DATABASE = {
         "close": 3.48
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 3.46
       }
     ]
@@ -114395,7 +114412,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": null,
     "dividend_yield": 0.0,
     "high_1m": 0.74,
-    "low_1m": 0.65,
+    "low_1m": 0.66,
     "support_levels": [
       0.61,
       0.63,
@@ -114901,8 +114918,8 @@ var STOCKS_DATABASE = {
         "close": 0.7
       },
       {
-        "date": "2026-06-02",
-        "close": 0.7
+        "date": "2026-06-01",
+        "close": 0.71
       }
     ]
   },
@@ -115455,7 +115472,7 @@ var STOCKS_DATABASE = {
         "close": 5.05
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 5.0
       }
     ]
@@ -115984,7 +116001,7 @@ var STOCKS_DATABASE = {
         "close": 0.94
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.94
       }
     ]
@@ -116554,7 +116571,7 @@ var STOCKS_DATABASE = {
     "support_levels": [
       8.25,
       9.5,
-      9.97
+      9.98
     ],
     "resistance_levels": [
       10.4,
@@ -117092,8 +117109,8 @@ var STOCKS_DATABASE = {
         "close": 10.1
       },
       {
-        "date": "2026-06-02",
-        "close": 10.2
+        "date": "2026-06-01",
+        "close": 10.1
       }
     ]
   },
@@ -117605,8 +117622,8 @@ var STOCKS_DATABASE = {
         "close": 5.1
       },
       {
-        "date": "2026-06-02",
-        "close": 4.96
+        "date": "2026-06-01",
+        "close": 5.1
       }
     ]
   },
@@ -118158,8 +118175,8 @@ var STOCKS_DATABASE = {
         "close": 3.42
       },
       {
-        "date": "2026-06-02",
-        "close": 3.52
+        "date": "2026-06-01",
+        "close": 3.4
       }
     ]
   },
@@ -118713,8 +118730,8 @@ var STOCKS_DATABASE = {
         "close": 1.07
       },
       {
-        "date": "2026-06-02",
-        "close": 1.09
+        "date": "2026-06-01",
+        "close": 1.1
       }
     ]
   },
@@ -119266,8 +119283,8 @@ var STOCKS_DATABASE = {
         "close": 0.6
       },
       {
-        "date": "2026-06-02",
-        "close": 0.72
+        "date": "2026-06-01",
+        "close": 0.7
       }
     ]
   },
@@ -119279,7 +119296,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 105.5,
     "dividend_yield": 24.0,
     "high_1m": 4.38,
-    "low_1m": 2.96,
+    "low_1m": 3.02,
     "support_levels": [
       1.85,
       2.41,
@@ -119820,8 +119837,8 @@ var STOCKS_DATABASE = {
         "close": 4.26
       },
       {
-        "date": "2026-06-02",
-        "close": 4.22
+        "date": "2026-06-01",
+        "close": 4.26
       }
     ]
   },
@@ -120900,8 +120917,8 @@ var STOCKS_DATABASE = {
         "close": 0.13
       },
       {
-        "date": "2026-06-02",
-        "close": 0.14
+        "date": "2026-06-01",
+        "close": 0.13
       }
     ]
   },
@@ -120913,7 +120930,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 30.34,
     "dividend_yield": 5.58,
     "high_1m": 119.0,
-    "low_1m": 111.0,
+    "low_1m": 111.5,
     "support_levels": [
       94.46,
       109.01
@@ -121453,7 +121470,7 @@ var STOCKS_DATABASE = {
         "close": 116.0
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 116.5
       }
     ]
@@ -122006,7 +122023,7 @@ var STOCKS_DATABASE = {
         "close": 5.0
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 5.0
       }
     ]
@@ -122535,7 +122552,7 @@ var STOCKS_DATABASE = {
         "close": 0.02
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.02
       }
     ]
@@ -123048,8 +123065,8 @@ var STOCKS_DATABASE = {
         "close": 0.34
       },
       {
-        "date": "2026-06-02",
-        "close": 0.34
+        "date": "2026-06-01",
+        "close": 0.33
       }
     ]
   },
@@ -123602,7 +123619,7 @@ var STOCKS_DATABASE = {
         "close": 1.05
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 1.05
       }
     ]
@@ -124156,8 +124173,8 @@ var STOCKS_DATABASE = {
         "close": 5.4
       },
       {
-        "date": "2026-06-02",
-        "close": 5.9
+        "date": "2026-06-01",
+        "close": 5.8
       }
     ]
   },
@@ -124169,7 +124186,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 16.11,
     "dividend_yield": 2.41,
     "high_1m": 2.94,
-    "low_1m": 2.32,
+    "low_1m": 2.36,
     "support_levels": [
       1.99,
       2.12,
@@ -124709,8 +124726,8 @@ var STOCKS_DATABASE = {
         "close": 2.82
       },
       {
-        "date": "2026-06-02",
-        "close": 2.9
+        "date": "2026-06-01",
+        "close": 2.86
       }
     ]
   },
@@ -125255,7 +125272,7 @@ var STOCKS_DATABASE = {
         "close": 0.23
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.23
       }
     ]
@@ -125266,7 +125283,7 @@ var STOCKS_DATABASE = {
     "business_summary": "Earth Tech Environment Public Company Limited, together with its subsidiaries, engages in the generation and distribution of electricity from industrial waste in Thailand. The company operates in two segments, Generation of Electricity and Construction and Repair. It is involved in the sale of electricity from alternative energy; electricity plant engineering design; procurement of plant machinery and equipment; and integrated plant construction. The company was incorporated in 2004 and is headquartered in Sara Buri, Thailand.",
     "current_price": 0.75,
     "pe_ratio": 3.26,
-    "dividend_yield": 6.58,
+    "dividend_yield": 6.4,
     "high_1m": 0.77,
     "low_1m": 0.69,
     "support_levels": [
@@ -125772,8 +125789,8 @@ var STOCKS_DATABASE = {
         "close": 0.75
       },
       {
-        "date": "2026-06-02",
-        "close": 0.75
+        "date": "2026-06-01",
+        "close": 0.73
       }
     ]
   },
@@ -126302,7 +126319,7 @@ var STOCKS_DATABASE = {
         "close": 0.58
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.57
       }
     ]
@@ -126815,7 +126832,7 @@ var STOCKS_DATABASE = {
         "close": 0.4
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.37
       }
     ]
@@ -127359,8 +127376,8 @@ var STOCKS_DATABASE = {
         "close": 5.0
       },
       {
-        "date": "2026-06-02",
-        "close": 5.05
+        "date": "2026-06-01",
+        "close": 5.0
       }
     ]
   },
@@ -127879,7 +127896,7 @@ var STOCKS_DATABASE = {
         "close": 0.06
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.06
       }
     ]
@@ -127900,9 +127917,9 @@ var STOCKS_DATABASE = {
       56.25,
       60.5
     ],
-    "upcoming_xd": "2026-07-02",
+    "upcoming_xd": "2026-07-03",
     "upcoming_dividend_amount": 2.55,
-    "upcoming_payment_date": "2026-07-17",
+    "upcoming_payment_date": "2026-07-18",
     "dividend_history": [
       {
         "date": "2025-04-22",
@@ -128275,7 +128292,7 @@ var STOCKS_DATABASE = {
     "current_price": 0.28,
     "pe_ratio": null,
     "dividend_yield": 0.0,
-    "high_1m": 0.31,
+    "high_1m": 0.3,
     "low_1m": 0.16,
     "support_levels": [
       0.25,
@@ -128818,8 +128835,8 @@ var STOCKS_DATABASE = {
         "close": 0.25
       },
       {
-        "date": "2026-06-02",
-        "close": 0.28
+        "date": "2026-06-01",
+        "close": 0.3
       }
     ]
   },
@@ -129913,8 +129930,8 @@ var STOCKS_DATABASE = {
         "close": 1.06
       },
       {
-        "date": "2026-06-02",
-        "close": 1.08
+        "date": "2026-06-01",
+        "close": 1.06
       }
     ]
   },
@@ -130443,8 +130460,8 @@ var STOCKS_DATABASE = {
         "close": 4.18
       },
       {
-        "date": "2026-06-02",
-        "close": 4.16
+        "date": "2026-06-01",
+        "close": 4.18
       }
     ]
   },
@@ -130996,7 +131013,7 @@ var STOCKS_DATABASE = {
         "close": 20.0
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 19.6
       }
     ]
@@ -131534,8 +131551,8 @@ var STOCKS_DATABASE = {
         "close": 0.48
       },
       {
-        "date": "2026-06-02",
-        "close": 0.5
+        "date": "2026-06-01",
+        "close": 0.49
       }
     ]
   },
@@ -132087,8 +132104,8 @@ var STOCKS_DATABASE = {
         "close": 0.47
       },
       {
-        "date": "2026-06-02",
-        "close": 0.51
+        "date": "2026-06-01",
+        "close": 0.5
       }
     ]
   },
@@ -132100,7 +132117,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 16.26,
     "dividend_yield": 1.3,
     "high_1m": 18.9,
-    "low_1m": 9.3,
+    "low_1m": 11.1,
     "support_levels": [
       5.36,
       6.54
@@ -132640,8 +132657,8 @@ var STOCKS_DATABASE = {
         "close": 16.8
       },
       {
-        "date": "2026-06-02",
-        "close": 16.1
+        "date": "2026-06-01",
+        "close": 15.6
       }
     ]
   },
@@ -132652,7 +132669,7 @@ var STOCKS_DATABASE = {
     "current_price": 1.52,
     "pe_ratio": 8.94,
     "dividend_yield": 5.26,
-    "high_1m": 1.62,
+    "high_1m": 1.61,
     "low_1m": 1.46,
     "support_levels": [
       1.38,
@@ -133194,8 +133211,8 @@ var STOCKS_DATABASE = {
         "close": 1.52
       },
       {
-        "date": "2026-06-02",
-        "close": 1.52
+        "date": "2026-06-01",
+        "close": 1.53
       }
     ]
   },
@@ -133207,7 +133224,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 5.97,
     "dividend_yield": 4.96,
     "high_1m": 6.7,
-    "low_1m": 6.25,
+    "low_1m": 6.3,
     "support_levels": [
       5.82
     ],
@@ -133746,8 +133763,8 @@ var STOCKS_DATABASE = {
         "close": 6.45
       },
       {
-        "date": "2026-06-02",
-        "close": 6.45
+        "date": "2026-06-01",
+        "close": 6.4
       }
     ]
   },
@@ -133761,9 +133778,9 @@ var STOCKS_DATABASE = {
     "high_1m": 8.3,
     "low_1m": 6.5,
     "support_levels": [
-      5.13,
       5.44,
-      6.09
+      6.09,
+      6.5
     ],
     "resistance_levels": [
       9.16
@@ -134299,8 +134316,8 @@ var STOCKS_DATABASE = {
         "close": 7.7
       },
       {
-        "date": "2026-06-02",
-        "close": 7.5
+        "date": "2026-06-01",
+        "close": 7.35
       }
     ]
   },
@@ -134813,8 +134830,8 @@ var STOCKS_DATABASE = {
         "close": 1.15
       },
       {
-        "date": "2026-06-02",
-        "close": 1.15
+        "date": "2026-06-01",
+        "close": 1.13
       }
     ]
   },
@@ -134826,7 +134843,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 11.62,
     "dividend_yield": 7.38,
     "high_1m": 2.48,
-    "low_1m": 1.94,
+    "low_1m": 1.97,
     "support_levels": [
       1.63,
       1.78,
@@ -135367,7 +135384,7 @@ var STOCKS_DATABASE = {
         "close": 2.46
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 2.44
       }
     ]
@@ -135907,8 +135924,8 @@ var STOCKS_DATABASE = {
         "close": 1.81
       },
       {
-        "date": "2026-06-02",
-        "close": 1.76
+        "date": "2026-06-01",
+        "close": 1.73
       }
     ]
   },
@@ -135928,9 +135945,9 @@ var STOCKS_DATABASE = {
       13.12,
       12.5
     ],
-    "upcoming_xd": "2026-07-02",
+    "upcoming_xd": "2026-07-03",
     "upcoming_dividend_amount": 0.36,
-    "upcoming_payment_date": "2026-07-17",
+    "upcoming_payment_date": "2026-07-18",
     "dividend_history": [
       {
         "date": "2024-08-28",
@@ -136471,7 +136488,7 @@ var STOCKS_DATABASE = {
     "current_price": 0.31,
     "pe_ratio": null,
     "dividend_yield": 0.0,
-    "high_1m": 0.36,
+    "high_1m": 0.35,
     "low_1m": 0.28,
     "support_levels": [
       0.3
@@ -137004,7 +137021,7 @@ var STOCKS_DATABASE = {
         "close": 0.32
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.31
       }
     ]
@@ -137017,7 +137034,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 7.37,
     "dividend_yield": 7.62,
     "high_1m": 4.36,
-    "low_1m": 3.66,
+    "low_1m": 3.68,
     "support_levels": [
       2.5,
       2.65,
@@ -137530,8 +137547,8 @@ var STOCKS_DATABASE = {
         "close": 4.34
       },
       {
-        "date": "2026-06-02",
-        "close": 4.2
+        "date": "2026-06-01",
+        "close": 4.24
       }
     ]
   },
@@ -137541,7 +137558,7 @@ var STOCKS_DATABASE = {
     "business_summary": "Ganfeng Lithium Group Co., Ltd. manufactures and sells lithium products in China. The company offers lithium hydroxide, carbonate, fluoride, chloride, and other compounds; lithium metals, battery grade lithium metal, lithium foil, and other lithium alloys; cesium and rubidium compounds; and Organo lithium compounds. It also provides power battery, energy storage system, 3C digital batteries, consumer electronics battery, and solid state lithium batteries; lithium battery materials, such as precursor materials and materials for solid state lithium batteries; and battery recycling solutions. In addition, the company offers raw materials to automotive, battery, and materials manufacturers; energy storage equipment for clean energy sources, including solar and wind power; battery solutions for consumer electronic devices, such as mobile phones, headphones, and robot vacuum cleaners; and lithium-ion battery systems for industrial vehicles, as well as engages in recycling, processing, and reusing resources from used batteries. Its products are used in electric vehicles, energy storage, aerospace, functional materials, and pharmaceuticals industries. Ganfeng Lithium Group Co., Ltd. was founded in 2000 and is headquartered in Xinyu, China.",
     "current_price": 2.62,
     "pe_ratio": null,
-    "dividend_yield": 5.56,
+    "dividend_yield": 5.73,
     "high_1m": 3.71,
     "low_1m": 2.54,
     "support_levels": [
@@ -138307,8 +138324,8 @@ var STOCKS_DATABASE = {
         "close": 0.54
       },
       {
-        "date": "2026-06-02",
-        "close": 0.58
+        "date": "2026-06-01",
+        "close": 0.56
       }
     ]
   },
@@ -138861,7 +138878,7 @@ var STOCKS_DATABASE = {
         "close": 4.48
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 4.5
       }
     ]
@@ -138873,7 +138890,7 @@ var STOCKS_DATABASE = {
     "current_price": 0.25,
     "pe_ratio": null,
     "dividend_yield": 0.0,
-    "high_1m": 0.27,
+    "high_1m": 0.26,
     "low_1m": 0.23,
     "support_levels": [
       0.24
@@ -139414,7 +139431,7 @@ var STOCKS_DATABASE = {
         "close": 0.24
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.25
       }
     ]
@@ -139930,8 +139947,8 @@ var STOCKS_DATABASE = {
         "close": 0.03
       },
       {
-        "date": "2026-06-02",
-        "close": 0.03
+        "date": "2026-06-01",
+        "close": 0.02
       }
     ]
   },
@@ -139945,9 +139962,9 @@ var STOCKS_DATABASE = {
     "high_1m": 0.34,
     "low_1m": 0.3,
     "support_levels": [
-      0.24,
       0.25,
-      0.26
+      0.26,
+      0.3
     ],
     "resistance_levels": [
       0.37
@@ -140479,7 +140496,7 @@ var STOCKS_DATABASE = {
         "close": 0.33
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.33
       }
     ]
@@ -141017,7 +141034,7 @@ var STOCKS_DATABASE = {
         "close": 2.66
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 2.6
       }
     ]
@@ -141570,7 +141587,7 @@ var STOCKS_DATABASE = {
         "close": 8.6
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 8.55
       }
     ]
@@ -141582,7 +141599,7 @@ var STOCKS_DATABASE = {
     "current_price": 3.96,
     "pe_ratio": null,
     "dividend_yield": 3.36,
-    "high_1m": 4.2,
+    "high_1m": 4.08,
     "low_1m": 3.8,
     "support_levels": [
       2.78,
@@ -142124,8 +142141,8 @@ var STOCKS_DATABASE = {
         "close": 4.0
       },
       {
-        "date": "2026-06-02",
-        "close": 3.96
+        "date": "2026-06-01",
+        "close": 3.98
       }
     ]
   },
@@ -142637,8 +142654,8 @@ var STOCKS_DATABASE = {
         "close": 0.13
       },
       {
-        "date": "2026-06-02",
-        "close": 0.13
+        "date": "2026-06-01",
+        "close": 0.15
       }
     ]
   },
@@ -143743,8 +143760,8 @@ var STOCKS_DATABASE = {
         "close": 7.35
       },
       {
-        "date": "2026-06-02",
-        "close": 7.35
+        "date": "2026-06-01",
+        "close": 7.4
       }
     ]
   },
@@ -143755,12 +143772,12 @@ var STOCKS_DATABASE = {
     "current_price": 1.15,
     "pe_ratio": null,
     "dividend_yield": 0.0,
-    "high_1m": 1.36,
+    "high_1m": 1.32,
     "low_1m": 0.98,
     "support_levels": [
-      0.71,
       0.8,
-      0.98
+      0.98,
+      1.01
     ],
     "resistance_levels": [
       1.18,
@@ -144265,8 +144282,8 @@ var STOCKS_DATABASE = {
         "close": 1.12
       },
       {
-        "date": "2026-06-02",
-        "close": 1.15
+        "date": "2026-06-01",
+        "close": 1.12
       }
     ]
   },
@@ -144817,8 +144834,8 @@ var STOCKS_DATABASE = {
         "close": 1.7
       },
       {
-        "date": "2026-06-02",
-        "close": 1.69
+        "date": "2026-06-01",
+        "close": 1.71
       }
     ]
   },
@@ -144830,7 +144847,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 16.63,
     "dividend_yield": 4.61,
     "high_1m": 42.5,
-    "low_1m": 34.25,
+    "low_1m": 35.25,
     "support_levels": [
       33.52,
       34.74,
@@ -145371,8 +145388,8 @@ var STOCKS_DATABASE = {
         "close": 40.25
       },
       {
-        "date": "2026-06-02",
-        "close": 41.25
+        "date": "2026-06-01",
+        "close": 40.5
       }
     ]
   },
@@ -145383,7 +145400,7 @@ var STOCKS_DATABASE = {
     "current_price": 3.04,
     "pe_ratio": null,
     "dividend_yield": 0.0,
-    "high_1m": 3.5,
+    "high_1m": 3.48,
     "low_1m": 2.54,
     "support_levels": [
       2.96
@@ -145924,8 +145941,8 @@ var STOCKS_DATABASE = {
         "close": 3.1
       },
       {
-        "date": "2026-06-02",
-        "close": 3.04
+        "date": "2026-06-01",
+        "close": 3.1
       }
     ]
   },
@@ -146448,8 +146465,8 @@ var STOCKS_DATABASE = {
         "close": 0.03
       },
       {
-        "date": "2026-06-02",
-        "close": 0.03
+        "date": "2026-06-01",
+        "close": 0.02
       }
     ]
   },
@@ -146970,8 +146987,8 @@ var STOCKS_DATABASE = {
         "close": 0.71
       },
       {
-        "date": "2026-06-02",
-        "close": 0.73
+        "date": "2026-06-01",
+        "close": 0.71
       }
     ]
   },
@@ -147519,7 +147536,7 @@ var STOCKS_DATABASE = {
         "close": 0.71
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.71
       }
     ]
@@ -148031,7 +148048,7 @@ var STOCKS_DATABASE = {
         "close": 0.03
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.03
       }
     ]
@@ -148041,10 +148058,10 @@ var STOCKS_DATABASE = {
     "name": "Gulf Development Public Company Limited",
     "business_summary": "Gulf Development Public Company Limited generates and sells electricity and steam to public and private clients in Thailand and internationally. The company operates through Power Business, Consulting Business, Infrastructure Business and Satellite and Digital Business segments. It generates electricity through gas-fired, solar, biomass hydroelectric, waste-to-energy, and wind power projects under independent power producers and small power producers. The company undertakes infrastructure and logistics projects; distributes, supplies, and sells natural gas; and operates a digital infrastructure. In addition, the company is involved in the management, technical support, technology, investment services; storing and converting natural gas; satellite and related services; sale of direct television and satellite equipment; transponder services; engineering and development services; broadband network and content services; and broadcasting, television, and telecommunication services. Further, it provides system integration consultancy services for broadband network and technology systems, products and services related to artificial intelligence and space technology. Gulf Development Public Company Limited was founded in 2007 and is based in Bangkok, Thailand.",
     "current_price": 64.5,
-    "pe_ratio": 37.5,
+    "pe_ratio": 36.03,
     "dividend_yield": 1.63,
     "high_1m": 66.0,
-    "low_1m": 56.75,
+    "low_1m": 58.0,
     "support_levels": [
       40.51,
       54.0,
@@ -148549,8 +148566,8 @@ var STOCKS_DATABASE = {
         "close": 61.75
       },
       {
-        "date": "2026-06-02",
-        "close": 64.5
+        "date": "2026-06-01",
+        "close": 62.0
       }
     ]
   },
@@ -148562,7 +148579,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 18.0,
     "dividend_yield": 5.56,
     "high_1m": 4.04,
-    "low_1m": 2.72,
+    "low_1m": 3.05,
     "support_levels": [
       1.73,
       2.02,
@@ -149103,8 +149120,8 @@ var STOCKS_DATABASE = {
         "close": 3.9
       },
       {
-        "date": "2026-06-02",
-        "close": 3.96
+        "date": "2026-06-01",
+        "close": 3.98
       }
     ]
   },
@@ -150211,8 +150228,8 @@ var STOCKS_DATABASE = {
         "close": 38.5
       },
       {
-        "date": "2026-06-02",
-        "close": 39.0
+        "date": "2026-06-01",
+        "close": 37.25
       }
     ]
   },
@@ -151019,6 +151036,10 @@ var STOCKS_DATABASE = {
         "close": 0.92
       },
       {
+        "date": "2026-06-01",
+        "close": 0.92
+      },
+      {
         "date": "2026-06-02",
         "close": 0.92
       }
@@ -151032,7 +151053,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 12.47,
     "dividend_yield": 5.66,
     "high_1m": 2.22,
-    "low_1m": 1.88,
+    "low_1m": 1.9,
     "support_levels": [
       1.85
     ],
@@ -151571,8 +151592,8 @@ var STOCKS_DATABASE = {
         "close": 2.08
       },
       {
-        "date": "2026-06-02",
-        "close": 2.12
+        "date": "2026-06-01",
+        "close": 2.08
       }
     ]
   },
@@ -153069,7 +153090,7 @@ var STOCKS_DATABASE = {
         "close": 0.89
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.89
       }
     ]
@@ -153622,8 +153643,8 @@ var STOCKS_DATABASE = {
         "close": 4.18
       },
       {
-        "date": "2026-06-02",
-        "close": 4.2
+        "date": "2026-06-01",
+        "close": 4.14
       }
     ]
   },
@@ -153633,7 +153654,7 @@ var STOCKS_DATABASE = {
     "business_summary": "Hitachi, Ltd. provides digital system and services, green energy and mobility, and connective industry solutions in Japan and internationally. It operates through Digital Systems & Services, Green Energy & Mobility, Connective Industries, and Others segments. The company offers system integration, consulting, cloud services, storage, servers, software, and ATMs; finance solutions, social infrastructure information systems, public IT solutions, industrial internet of things, digital engineering, control system, and cloud services; and IT products, such as data management and storage. It also provides power grids, clean, nuclear, renewable energy, and railway systems, such as rolling stock, signaling, supervision, telecommunications, and ticketing and payment solutions; automotive automation, including automotive assembly, glass applications, press automation, powertrain, paint and sealer applications, and tyre and wheel systems; and emobility solutions, as well as elevators and escalators, home appliances, air conditioners, industry and distribution solution, water and environment solutions, and industrial machinery. In addition, the company offers semiconductor manufacturing equipment; electron microscopes and atomic force microscopes; analytical systems, such as spectrophotometers, thermal analysis and chromatography systems, x-ray fluorescence analyzers, silicon drift detectors, potentiometric titrator, laser induced breakdown spectroscopy, and magnetic induction devices; clinical analyzers, and treatment and diagnostics solutions; and property management and other services. The company serves semiconductors, automotive , electrical, chemical and pharmaceuticals, healthcare, life-sciences, ICT, metals and mining, engineering and manufacturing, oils and petrochemicals, nonmetal materials, energy and batteries, environment, recycling, food and beverage, utilities, and other industries. Hitachi, Ltd. was founded in 1910 and is headquartered in Tokyo, Japan.",
     "current_price": 1.32,
     "pe_ratio": 0.04,
-    "dividend_yield": 36.76,
+    "dividend_yield": 37.88,
     "high_1m": 1.36,
     "low_1m": 1.19,
     "support_levels": [],
@@ -153708,6 +153729,10 @@ var STOCKS_DATABASE = {
         "close": 1.36
       },
       {
+        "date": "2026-06-01",
+        "close": 1.36
+      },
+      {
         "date": "2026-06-02",
         "close": 1.32
       }
@@ -153720,7 +153745,7 @@ var STOCKS_DATABASE = {
     "current_price": 5.85,
     "pe_ratio": 20.89,
     "dividend_yield": 3.76,
-    "high_1m": 6.25,
+    "high_1m": 6.2,
     "low_1m": 5.5,
     "support_levels": [
       5.23,
@@ -154242,8 +154267,8 @@ var STOCKS_DATABASE = {
         "close": 5.85
       },
       {
-        "date": "2026-06-02",
-        "close": 5.85
+        "date": "2026-06-01",
+        "close": 5.8
       }
     ]
   },
@@ -154796,7 +154821,7 @@ var STOCKS_DATABASE = {
         "close": 6.0
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 6.05
       }
     ]
@@ -156451,8 +156476,8 @@ var STOCKS_DATABASE = {
         "close": 15.7
       },
       {
-        "date": "2026-06-02",
-        "close": 15.9
+        "date": "2026-06-01",
+        "close": 15.7
       }
     ]
   },
@@ -157005,8 +157030,8 @@ var STOCKS_DATABASE = {
         "close": 3.68
       },
       {
-        "date": "2026-06-02",
-        "close": 3.6
+        "date": "2026-06-01",
+        "close": 3.44
       }
     ]
   },
@@ -157558,8 +157583,8 @@ var STOCKS_DATABASE = {
         "close": 4.6
       },
       {
-        "date": "2026-06-02",
-        "close": 4.94
+        "date": "2026-06-01",
+        "close": 4.6
       }
     ]
   },
@@ -157570,7 +157595,7 @@ var STOCKS_DATABASE = {
     "current_price": 1.23,
     "pe_ratio": 8.79,
     "dividend_yield": 0.0,
-    "high_1m": 2.8,
+    "high_1m": 2.78,
     "low_1m": 1.13,
     "support_levels": [
       1.01
@@ -158079,8 +158104,8 @@ var STOCKS_DATABASE = {
         "close": 1.36
       },
       {
-        "date": "2026-06-02",
-        "close": 1.23
+        "date": "2026-06-01",
+        "close": 1.32
       }
     ]
   },
@@ -158610,7 +158635,7 @@ var STOCKS_DATABASE = {
         "close": 0.75
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.74
       }
     ]
@@ -159162,8 +159187,8 @@ var STOCKS_DATABASE = {
         "close": 24.5
       },
       {
-        "date": "2026-06-02",
-        "close": 24.8
+        "date": "2026-06-01",
+        "close": 24.0
       }
     ]
   },
@@ -159715,8 +159740,8 @@ var STOCKS_DATABASE = {
         "close": 12.9
       },
       {
-        "date": "2026-06-02",
-        "close": 13.0
+        "date": "2026-06-01",
+        "close": 12.9
       }
     ]
   },
@@ -160269,8 +160294,8 @@ var STOCKS_DATABASE = {
         "close": 2.12
       },
       {
-        "date": "2026-06-02",
-        "close": 2.12
+        "date": "2026-06-01",
+        "close": 2.08
       }
     ]
   },
@@ -160886,6 +160911,10 @@ var STOCKS_DATABASE = {
         "close": 1.27
       },
       {
+        "date": "2026-06-01",
+        "close": 1.27
+      },
+      {
         "date": "2026-06-02",
         "close": 1.26
       }
@@ -160897,7 +160926,7 @@ var STOCKS_DATABASE = {
     "business_summary": "iFLYTEK CO.,LTD, together with its subsidiaries, provides intelligent speech and technology solutions and services in China and internationally. The company offers smart recorder, translator, voicebook, dictionary pen, space products, and microphones; AINOTE, a voice transcription device; Spark Trans, a multilingual simultaneous interpreting system; Deepting, an AI-powered transcription tool; and global Chinese learning platform and AI + marketing solutions. It also provides intelligent application systems; software for voice and speech recognition and conversion; computer software design and programming services; technical research in the field of computer software; advertising; online trading; marketing; and computer database information system through platform and website. In addition, the company offers telecommunication services, including wireless telephone services, wireless telephony and wireless broadband communications services, and consulting services for transmission of voice, data, and documents via telecommunications networks. Further, it is involved in education and training; software development; installation engineering; system integration; data processing and storage support; cultural and artistic services; rental business; investment activities; childcare; insurance; provision of internet data and network services; AI application; and industrial robot manufacturing. The company was formerly known as Anhui USTC iFLYTEK Co., Ltd. and changed its name to iFLYTEK CO.,LTD in April 2014. iFLYTEK CO.,LTD was founded in 1999 and is headquartered in Hefei, China.",
     "current_price": 2.36,
     "pe_ratio": null,
-    "dividend_yield": 4.27,
+    "dividend_yield": 4.24,
     "high_1m": 2.44,
     "low_1m": 2.24,
     "support_levels": [
@@ -161673,8 +161702,8 @@ var STOCKS_DATABASE = {
         "close": 1.79
       },
       {
-        "date": "2026-06-02",
-        "close": 1.84
+        "date": "2026-06-01",
+        "close": 1.83
       }
     ]
   },
@@ -162226,7 +162255,7 @@ var STOCKS_DATABASE = {
         "close": 1.49
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 1.48
       }
     ]
@@ -162239,7 +162268,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": null,
     "dividend_yield": 0.0,
     "high_1m": 1.69,
-    "low_1m": 1.31,
+    "low_1m": 1.32,
     "support_levels": [
       1.2,
       1.24,
@@ -162749,7 +162778,7 @@ var STOCKS_DATABASE = {
         "close": 1.5
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 1.48
       }
     ]
@@ -163303,8 +163332,8 @@ var STOCKS_DATABASE = {
         "close": 4.08
       },
       {
-        "date": "2026-06-02",
-        "close": 4.16
+        "date": "2026-06-01",
+        "close": 4.18
       }
     ]
   },
@@ -163316,7 +163345,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": null,
     "dividend_yield": 6.38,
     "high_1m": 4.94,
-    "low_1m": 4.43,
+    "low_1m": 4.48,
     "support_levels": [
       4.21,
       4.45
@@ -163856,8 +163885,8 @@ var STOCKS_DATABASE = {
         "close": 4.86
       },
       {
-        "date": "2026-06-02",
-        "close": 4.86
+        "date": "2026-06-01",
+        "close": 4.84
       }
     ]
   },
@@ -164410,7 +164439,7 @@ var STOCKS_DATABASE = {
         "close": 12.5
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 12.5
       }
     ]
@@ -164931,8 +164960,8 @@ var STOCKS_DATABASE = {
         "close": 2.92
       },
       {
-        "date": "2026-06-02",
-        "close": 2.9
+        "date": "2026-06-01",
+        "close": 2.92
       }
     ]
   },
@@ -165457,8 +165486,8 @@ var STOCKS_DATABASE = {
         "close": 0.87
       },
       {
-        "date": "2026-06-02",
-        "close": 0.88
+        "date": "2026-06-01",
+        "close": 0.89
       }
     ]
   },
@@ -165470,7 +165499,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 8.81,
     "dividend_yield": 3.04,
     "high_1m": 4.36,
-    "low_1m": 3.6,
+    "low_1m": 3.72,
     "support_levels": [
       3.35,
       3.71,
@@ -166010,8 +166039,8 @@ var STOCKS_DATABASE = {
         "close": 4.0
       },
       {
-        "date": "2026-06-02",
-        "close": 4.14
+        "date": "2026-06-01",
+        "close": 3.94
       }
     ]
   },
@@ -166564,7 +166593,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 22.1,
     "dividend_yield": 5.61,
     "high_1m": 5.3,
-    "low_1m": 4.1,
+    "low_1m": 4.2,
     "support_levels": [
       3.74,
       4.3
@@ -167105,8 +167134,8 @@ var STOCKS_DATABASE = {
         "close": 4.44
       },
       {
-        "date": "2026-06-02",
-        "close": 4.42
+        "date": "2026-06-01",
+        "close": 4.4
       }
     ]
   },
@@ -167659,8 +167688,8 @@ var STOCKS_DATABASE = {
         "close": 3.44
       },
       {
-        "date": "2026-06-02",
-        "close": 3.4
+        "date": "2026-06-01",
+        "close": 3.36
       }
     ]
   },
@@ -168214,7 +168243,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 19.64,
     "dividend_yield": 1.69,
     "high_1m": 4.4,
-    "low_1m": 3.93,
+    "low_1m": 4.0,
     "support_levels": [
       3.42,
       3.89,
@@ -168735,8 +168764,8 @@ var STOCKS_DATABASE = {
         "close": 4.28
       },
       {
-        "date": "2026-06-02",
-        "close": 4.32
+        "date": "2026-06-01",
+        "close": 4.28
       }
     ]
   },
@@ -169287,7 +169316,7 @@ var STOCKS_DATABASE = {
         "close": 11.8
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 12.0
       }
     ]
@@ -169841,7 +169870,7 @@ var STOCKS_DATABASE = {
         "close": 0.27
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.26
       }
     ]
@@ -170360,8 +170389,8 @@ var STOCKS_DATABASE = {
         "close": 4.66
       },
       {
-        "date": "2026-06-02",
-        "close": 4.54
+        "date": "2026-06-01",
+        "close": 4.58
       }
     ]
   },
@@ -170914,8 +170943,8 @@ var STOCKS_DATABASE = {
         "close": 1.94
       },
       {
-        "date": "2026-06-02",
-        "close": 1.85
+        "date": "2026-06-01",
+        "close": 1.82
       }
     ]
   },
@@ -170927,7 +170956,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 9.06,
     "dividend_yield": 5.63,
     "high_1m": 5.85,
-    "low_1m": 4.2,
+    "low_1m": 4.6,
     "support_levels": [
       3.2,
       3.72
@@ -171467,8 +171496,8 @@ var STOCKS_DATABASE = {
         "close": 5.35
       },
       {
-        "date": "2026-06-02",
-        "close": 5.8
+        "date": "2026-06-01",
+        "close": 5.4
       }
     ]
   },
@@ -171479,7 +171508,7 @@ var STOCKS_DATABASE = {
     "current_price": 16.3,
     "pe_ratio": 15.52,
     "dividend_yield": 5.52,
-    "high_1m": 17.1,
+    "high_1m": 16.7,
     "low_1m": 15.8,
     "support_levels": [
       9.56,
@@ -172008,8 +172037,8 @@ var STOCKS_DATABASE = {
         "close": 16.2
       },
       {
-        "date": "2026-06-02",
-        "close": 16.3
+        "date": "2026-06-01",
+        "close": 16.1
       }
     ]
   },
@@ -172021,7 +172050,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": null,
     "dividend_yield": 0.0,
     "high_1m": 0.41,
-    "low_1m": 0.25,
+    "low_1m": 0.26,
     "support_levels": [
       0.24,
       0.25,
@@ -172550,8 +172579,8 @@ var STOCKS_DATABASE = {
         "close": 0.37
       },
       {
-        "date": "2026-06-02",
-        "close": 0.38
+        "date": "2026-06-01",
+        "close": 0.37
       }
     ]
   },
@@ -173080,8 +173109,8 @@ var STOCKS_DATABASE = {
         "close": 1.44
       },
       {
-        "date": "2026-06-02",
-        "close": 1.39
+        "date": "2026-06-01",
+        "close": 1.37
       }
     ]
   },
@@ -173092,7 +173121,7 @@ var STOCKS_DATABASE = {
     "current_price": 1.74,
     "pe_ratio": 9.16,
     "dividend_yield": 9.94,
-    "high_1m": 2.02,
+    "high_1m": 2.0,
     "low_1m": 1.64,
     "support_levels": [
       1.25,
@@ -173610,7 +173639,7 @@ var STOCKS_DATABASE = {
         "close": 1.73
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 1.74
       }
     ]
@@ -174132,7 +174161,7 @@ var STOCKS_DATABASE = {
         "close": 1.18
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 1.18
       }
     ]
@@ -174649,7 +174678,7 @@ var STOCKS_DATABASE = {
         "close": 0.63
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.62
       }
     ]
@@ -175202,8 +175231,8 @@ var STOCKS_DATABASE = {
         "close": 24.3
       },
       {
-        "date": "2026-06-02",
-        "close": 23.9
+        "date": "2026-06-01",
+        "close": 23.3
       }
     ]
   },
@@ -175731,8 +175760,8 @@ var STOCKS_DATABASE = {
         "close": 0.59
       },
       {
-        "date": "2026-06-02",
-        "close": 0.59
+        "date": "2026-06-01",
+        "close": 0.6
       }
     ]
   },
@@ -175752,7 +175781,6 @@ var STOCKS_DATABASE = {
     ],
     "resistance_levels": [
       0.75,
-      0.76,
       0.92
     ],
     "upcoming_xd": "2026-03-30",
@@ -176262,7 +176290,7 @@ var STOCKS_DATABASE = {
         "close": 0.73
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.74
       }
     ]
@@ -176815,7 +176843,7 @@ var STOCKS_DATABASE = {
         "close": 1.09
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 1.1
       }
     ]
@@ -177923,8 +177951,8 @@ var STOCKS_DATABASE = {
         "close": 0.12
       },
       {
-        "date": "2026-06-02",
-        "close": 0.14
+        "date": "2026-06-01",
+        "close": 0.13
       }
     ]
   },
@@ -178476,8 +178504,8 @@ var STOCKS_DATABASE = {
         "close": 81.5
       },
       {
-        "date": "2026-06-02",
-        "close": 82.75
+        "date": "2026-06-01",
+        "close": 81.0
       }
     ]
   },
@@ -178487,7 +178515,7 @@ var STOCKS_DATABASE = {
     "business_summary": "JD Food Public Company Limited produces and distributes food seasonings, sauces, fillings, and dehydrated food products in Thailand, China, South Korea, the United Kingdom, and internationally. The company offers seasonings for savory and sweet food products and instant soup powders, as well as Thai, western, and Asian style and other products; and coconut chips and dehydrated vegetables, meat, herbs, and spices. It provides instant soup and flavors under the GOOD EATS brand; Thai food under the Kin dee brand; coconut chips, bites, and clusters under the Crispconut brand; and seasonings, fillings, and mayonnaise under the OK brand. The company serves entrepreneurs, SMEs, and large food industries. The company was incorporated in 1999 and is headquartered in Samut Sakhon, Thailand.",
     "current_price": 1.99,
     "pe_ratio": 11.71,
-    "dividend_yield": 9.0,
+    "dividend_yield": 9.05,
     "high_1m": 2.12,
     "low_1m": 1.56,
     "support_levels": [
@@ -179006,8 +179034,8 @@ var STOCKS_DATABASE = {
         "close": 2.0
       },
       {
-        "date": "2026-06-02",
-        "close": 1.99
+        "date": "2026-06-01",
+        "close": 2.0
       }
     ]
   },
@@ -179019,7 +179047,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": null,
     "dividend_yield": 2.92,
     "high_1m": 9.6,
-    "low_1m": 6.8,
+    "low_1m": 6.9,
     "support_levels": [
       6.23,
       6.61,
@@ -179559,8 +179587,8 @@ var STOCKS_DATABASE = {
         "close": 8.85
       },
       {
-        "date": "2026-06-02",
-        "close": 9.25
+        "date": "2026-06-01",
+        "close": 9.05
       }
     ]
   },
@@ -179572,7 +179600,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 17.08,
     "dividend_yield": 7.75,
     "high_1m": 11.5,
-    "low_1m": 9.25,
+    "low_1m": 9.35,
     "support_levels": [
       7.38,
       7.95
@@ -180112,7 +180140,7 @@ var STOCKS_DATABASE = {
         "close": 10.8
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 11.1
       }
     ]
@@ -180198,6 +180226,10 @@ var STOCKS_DATABASE = {
         "close": 1.23
       },
       {
+        "date": "2026-06-01",
+        "close": 1.23
+      },
+      {
         "date": "2026-06-02",
         "close": 1.24
       }
@@ -180211,7 +180243,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 13.91,
     "dividend_yield": 3.13,
     "high_1m": 3.26,
-    "low_1m": 2.92,
+    "low_1m": 3.04,
     "support_levels": [
       2.2,
       2.61,
@@ -180725,7 +180757,7 @@ var STOCKS_DATABASE = {
         "close": 3.18
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 3.2
       }
     ]
@@ -180808,6 +180840,10 @@ var STOCKS_DATABASE = {
       },
       {
         "date": "2026-05-29",
+        "close": 1.49
+      },
+      {
+        "date": "2026-06-01",
         "close": 1.49
       },
       {
@@ -181346,7 +181382,7 @@ var STOCKS_DATABASE = {
         "close": 1.69
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 1.68
       }
     ]
@@ -181875,8 +181911,8 @@ var STOCKS_DATABASE = {
         "close": 1.77
       },
       {
-        "date": "2026-06-02",
-        "close": 1.83
+        "date": "2026-06-01",
+        "close": 1.77
       }
     ]
   },
@@ -182426,8 +182462,8 @@ var STOCKS_DATABASE = {
         "close": 39.75
       },
       {
-        "date": "2026-06-02",
-        "close": 39.0
+        "date": "2026-06-01",
+        "close": 39.75
       }
     ]
   },
@@ -182438,7 +182474,7 @@ var STOCKS_DATABASE = {
     "current_price": 7.2,
     "pe_ratio": 11.25,
     "dividend_yield": 3.89,
-    "high_1m": 7.3,
+    "high_1m": 7.25,
     "low_1m": 6.95,
     "support_levels": [
       6.45,
@@ -182979,8 +183015,8 @@ var STOCKS_DATABASE = {
         "close": 7.15
       },
       {
-        "date": "2026-06-02",
-        "close": 7.2
+        "date": "2026-06-01",
+        "close": 7.15
       }
     ]
   },
@@ -183528,7 +183564,7 @@ var STOCKS_DATABASE = {
         "close": 0.99
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 1.0
       }
     ]
@@ -184083,8 +184119,8 @@ var STOCKS_DATABASE = {
         "close": 7.4
       },
       {
-        "date": "2026-06-02",
-        "close": 7.4
+        "date": "2026-06-01",
+        "close": 7.35
       }
     ]
   },
@@ -184625,8 +184661,8 @@ var STOCKS_DATABASE = {
         "close": 0.73
       },
       {
-        "date": "2026-06-02",
-        "close": 0.72
+        "date": "2026-06-01",
+        "close": 0.71
       }
     ]
   },
@@ -184638,7 +184674,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 9.62,
     "dividend_yield": 5.88,
     "high_1m": 204.0,
-    "low_1m": 192.0,
+    "low_1m": 193.5,
     "support_levels": [
       151.7,
       174.71
@@ -185178,8 +185214,8 @@ var STOCKS_DATABASE = {
         "close": 199.0
       },
       {
-        "date": "2026-06-02",
-        "close": 204.0
+        "date": "2026-06-01",
+        "close": 201.0
       }
     ]
   },
@@ -185732,8 +185768,8 @@ var STOCKS_DATABASE = {
         "close": 5.7
       },
       {
-        "date": "2026-06-02",
-        "close": 5.65
+        "date": "2026-06-01",
+        "close": 5.6
       }
     ]
   },
@@ -186268,7 +186304,7 @@ var STOCKS_DATABASE = {
         "close": 0.03
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.02
       }
     ]
@@ -186822,7 +186858,7 @@ var STOCKS_DATABASE = {
         "close": 4.82
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 4.8
       }
     ]
@@ -186833,7 +186869,7 @@ var STOCKS_DATABASE = {
     "business_summary": "Knight Club Capital Holding Public Company Limited engages in the management of non-performing assets in Thailand. The company manages distressed assets and non-performing assets purchased or transferred from financial intuitions and financial business operators. Knight Club Capital Holding Public Company Limited was incorporated in 2023 and is based in Bangkok, Thailand.",
     "current_price": 3.0,
     "pe_ratio": 3.7,
-    "dividend_yield": 4.32,
+    "dividend_yield": 4.26,
     "high_1m": 3.24,
     "low_1m": 1.9,
     "support_levels": [
@@ -187359,8 +187395,8 @@ var STOCKS_DATABASE = {
         "close": 3.04
       },
       {
-        "date": "2026-06-02",
-        "close": 3.0
+        "date": "2026-06-01",
+        "close": 2.96
       }
     ]
   },
@@ -187912,8 +187948,8 @@ var STOCKS_DATABASE = {
         "close": 37.0
       },
       {
-        "date": "2026-06-02",
-        "close": 39.75
+        "date": "2026-06-01",
+        "close": 37.5
       }
     ]
   },
@@ -187925,14 +187961,13 @@ var STOCKS_DATABASE = {
     "pe_ratio": 9.8,
     "dividend_yield": 5.31,
     "high_1m": 9.9,
-    "low_1m": 9.15,
+    "low_1m": 9.2,
     "support_levels": [
       7.46,
       8.67
     ],
     "resistance_levels": [
-      10.08,
-      9.9
+      9.8
     ],
     "upcoming_xd": "2026-05-05",
     "upcoming_dividend_amount": 0.51,
@@ -188437,8 +188472,8 @@ var STOCKS_DATABASE = {
         "close": 9.6
       },
       {
-        "date": "2026-06-02",
-        "close": 9.6
+        "date": "2026-06-01",
+        "close": 9.55
       }
     ]
   },
@@ -188971,8 +189006,8 @@ var STOCKS_DATABASE = {
         "close": 0.29
       },
       {
-        "date": "2026-06-02",
-        "close": 0.27
+        "date": "2026-06-01",
+        "close": 0.28
       }
     ]
   },
@@ -189534,7 +189569,7 @@ var STOCKS_DATABASE = {
     "business_summary": "Keyence Corporation, together with its subsidiaries, manufactures and sells electronic application equipment. It offers photoelectric, fiber optic, laser, positioning, vision, and inductive proximity sensors; network communication units; measurement sensors, such as laser displacement and profiler/3D laser snapshot sensors, optical/laser micrometers, inductive displacement sensors, 3D interference measurement sensors, spectral interference displacement sensors, inductive displacement sensors, and LVDT/contact displacement sensors. It also provides machine vision systems and sensors; pressure, flow, level, temperature sensors, and flow meters; and safety equipment consists of light curtains, interlock switches, laser scanners, and controllers. In addition, the company provides microscopes, including digital microscopes, laser-based elemental analyzers, all-in-one fluorescence microscopes, 3D surface profilers, and automated colony counters; and optical metrology systems, include image dimension and multisensor measurement systems. Further, it offers 3D measurement systems comprising 3D scanners, wide area CMMs, handheld probe coordinate measuring machines, and 3D optical profilometers and surface profilers; and control products, include programmable logic controllers, micro/small PLCs, HMIs, servo motors/systems, and other controls. The company provides marking/coding products, such as 3-axis hybrid and CO2 laser markers, continuous inkjet printers, 3-axis fiber and UV laser markers, case coders, UV laser coders, and telecentric green laser markers; barcode readers comprising AI-powered scan tunnel systems, logistics, 1D/2D readers, rugged industrial handheld readers, handheld DPM readers, and handheld code readers; and mobile and handheld computers. It offers data acquisition systems, such as multi-input data loggers; static eliminators/ionizers and electrostatic sensors; and Navigation RPA. The company was founded in 1972 and is headquartered in Osaka, Japan.",
     "current_price": 2.86,
     "pe_ratio": null,
-    "dividend_yield": 189.66,
+    "dividend_yield": 192.31,
     "high_1m": 3.06,
     "low_1m": 2.6,
     "support_levels": [
@@ -190628,8 +190663,8 @@ var STOCKS_DATABASE = {
         "close": 1.6
       },
       {
-        "date": "2026-06-02",
-        "close": 1.58
+        "date": "2026-06-01",
+        "close": 1.59
       }
     ]
   },
@@ -190641,7 +190676,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 8.82,
     "dividend_yield": 7.18,
     "high_1m": 4.32,
-    "low_1m": 4.02,
+    "low_1m": 4.04,
     "support_levels": [
       3.47,
       3.59,
@@ -191182,8 +191217,8 @@ var STOCKS_DATABASE = {
         "close": 4.22
       },
       {
-        "date": "2026-06-02",
-        "close": 4.32
+        "date": "2026-06-01",
+        "close": 4.26
       }
     ]
   },
@@ -191735,8 +191770,8 @@ var STOCKS_DATABASE = {
         "close": 0.33
       },
       {
-        "date": "2026-06-02",
-        "close": 0.34
+        "date": "2026-06-01",
+        "close": 0.33
       }
     ]
   },
@@ -191757,10 +191792,15 @@ var STOCKS_DATABASE = {
       1.75,
       2.22
     ],
-    "upcoming_xd": null,
-    "upcoming_dividend_amount": null,
-    "upcoming_payment_date": null,
-    "dividend_history": [],
+    "upcoming_xd": "2026-12-01",
+    "upcoming_dividend_amount": 0.01,
+    "upcoming_payment_date": "2026-12-16",
+    "dividend_history": [
+      {
+        "date": "2026-06-02",
+        "amount": 0.0091
+      }
+    ],
     "history": [
       {
         "date": "2025-11-13",
@@ -192288,7 +192328,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 11.27,
     "dividend_yield": 7.4,
     "high_1m": 3.44,
-    "low_1m": 2.72,
+    "low_1m": 2.74,
     "support_levels": [
       2.24,
       2.65,
@@ -192828,8 +192868,8 @@ var STOCKS_DATABASE = {
         "close": 3.4
       },
       {
-        "date": "2026-06-02",
-        "close": 3.38
+        "date": "2026-06-01",
+        "close": 3.4
       }
     ]
   },
@@ -193368,8 +193408,8 @@ var STOCKS_DATABASE = {
         "close": 6.0
       },
       {
-        "date": "2026-06-02",
-        "close": 6.15
+        "date": "2026-06-01",
+        "close": 6.0
       }
     ]
   },
@@ -193905,8 +193945,8 @@ var STOCKS_DATABASE = {
         "close": 1.11
       },
       {
-        "date": "2026-06-02",
-        "close": 1.1
+        "date": "2026-06-01",
+        "close": 1.13
       }
     ]
   },
@@ -194471,7 +194511,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 10.92,
     "dividend_yield": 6.3,
     "high_1m": 92.0,
-    "low_1m": 79.5,
+    "low_1m": 80.25,
     "support_levels": [
       54.55,
       61.2,
@@ -195012,8 +195052,8 @@ var STOCKS_DATABASE = {
         "close": 86.25
       },
       {
-        "date": "2026-06-02",
-        "close": 90.5
+        "date": "2026-06-01",
+        "close": 88.0
       }
     ]
   },
@@ -195553,8 +195593,8 @@ var STOCKS_DATABASE = {
         "close": 27.5
       },
       {
-        "date": "2026-06-02",
-        "close": 26.25
+        "date": "2026-06-01",
+        "close": 26.5
       }
     ]
   },
@@ -196095,7 +196135,7 @@ var STOCKS_DATABASE = {
         "close": 0.28
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.29
       }
     ]
@@ -197203,8 +197243,8 @@ var STOCKS_DATABASE = {
         "close": 1.52
       },
       {
-        "date": "2026-06-02",
-        "close": 1.52
+        "date": "2026-06-01",
+        "close": 1.5
       }
     ]
   },
@@ -197216,7 +197256,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 10.07,
     "dividend_yield": 10.26,
     "high_1m": 35.75,
-    "low_1m": 32.0,
+    "low_1m": 32.25,
     "support_levels": [
       22.4,
       26.1,
@@ -197757,8 +197797,8 @@ var STOCKS_DATABASE = {
         "close": 35.0
       },
       {
-        "date": "2026-06-02",
-        "close": 35.25
+        "date": "2026-06-01",
+        "close": 34.75
       }
     ]
   },
@@ -198310,8 +198350,8 @@ var STOCKS_DATABASE = {
         "close": 30.0
       },
       {
-        "date": "2026-06-02",
-        "close": 30.75
+        "date": "2026-06-01",
+        "close": 30.0
       }
     ]
   },
@@ -198328,7 +198368,7 @@ var STOCKS_DATABASE = {
       1.87
     ],
     "resistance_levels": [
-      1.98,
+      1.97,
       2.06,
       2.3
     ],
@@ -198863,8 +198903,8 @@ var STOCKS_DATABASE = {
         "close": 1.91
       },
       {
-        "date": "2026-06-02",
-        "close": 1.93
+        "date": "2026-06-01",
+        "close": 1.91
       }
     ]
   },
@@ -198874,7 +198914,7 @@ var STOCKS_DATABASE = {
     "business_summary": "KT Medical Service Public Company Limited engages in the operation of hemodialysis centers in Thailand. It also engages in the design, assembly, installation, and maintenance of pure water treatment system and service; and design and installation of pneumatic tube system equipment for medical service. The company's water treatment system is used in commercial, residential, medical service, industrial, and original equipment manufacturers of water system and medical service sector. KT Medical Service Public Company Limited was incorporated in 2015 and is based in Bangkok, Thailand. KT Medical Service Public Company Limited is a subsidiary of Filter Vision Public Company Limited.",
     "current_price": 1.17,
     "pe_ratio": 8.36,
-    "dividend_yield": 1.1,
+    "dividend_yield": 1.11,
     "high_1m": 1.39,
     "low_1m": 1.13,
     "support_levels": [
@@ -199393,8 +199433,8 @@ var STOCKS_DATABASE = {
         "close": 1.18
       },
       {
-        "date": "2026-06-02",
-        "close": 1.17
+        "date": "2026-06-01",
+        "close": 1.18
       }
     ]
   },
@@ -199406,7 +199446,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 10.42,
     "dividend_yield": 3.03,
     "high_1m": 2.24,
-    "low_1m": 1.03,
+    "low_1m": 1.05,
     "support_levels": [
       0.97,
       1.06
@@ -199934,8 +199974,8 @@ var STOCKS_DATABASE = {
         "close": 2.02
       },
       {
-        "date": "2026-06-02",
-        "close": 1.98
+        "date": "2026-06-01",
+        "close": 2.0
       }
     ]
   },
@@ -200484,8 +200524,8 @@ var STOCKS_DATABASE = {
         "close": 0.59
       },
       {
-        "date": "2026-06-02",
-        "close": 0.58
+        "date": "2026-06-01",
+        "close": 0.63
       }
     ]
   },
@@ -202092,7 +202132,7 @@ var STOCKS_DATABASE = {
         "close": 0.79
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.78
       }
     ]
@@ -202643,8 +202683,8 @@ var STOCKS_DATABASE = {
         "close": 301.0
       },
       {
-        "date": "2026-06-02",
-        "close": 299.0
+        "date": "2026-06-01",
+        "close": 302.0
       }
     ]
   },
@@ -203653,7 +203693,7 @@ var STOCKS_DATABASE = {
     "current_price": 4.36,
     "pe_ratio": 9.08,
     "dividend_yield": 6.85,
-    "high_1m": 4.46,
+    "high_1m": 4.44,
     "low_1m": 4.34,
     "support_levels": [
       4.34,
@@ -204194,8 +204234,8 @@ var STOCKS_DATABASE = {
         "close": 4.38
       },
       {
-        "date": "2026-06-02",
-        "close": 4.36
+        "date": "2026-06-01",
+        "close": 4.4
       }
     ]
   },
@@ -204748,8 +204788,8 @@ var STOCKS_DATABASE = {
         "close": 14.1
       },
       {
-        "date": "2026-06-02",
-        "close": 14.2
+        "date": "2026-06-01",
+        "close": 14.3
       }
     ]
   },
@@ -205265,8 +205305,8 @@ var STOCKS_DATABASE = {
         "close": 0.25
       },
       {
-        "date": "2026-06-02",
-        "close": 0.25
+        "date": "2026-06-01",
+        "close": 0.24
       }
     ]
   },
@@ -205281,8 +205321,7 @@ var STOCKS_DATABASE = {
     "low_1m": 2.4,
     "support_levels": [
       2.21,
-      2.35,
-      2.45
+      2.4
     ],
     "resistance_levels": [
       2.54
@@ -205818,8 +205857,8 @@ var STOCKS_DATABASE = {
         "close": 2.44
       },
       {
-        "date": "2026-06-02",
-        "close": 2.46
+        "date": "2026-06-01",
+        "close": 2.44
       }
     ]
   },
@@ -206362,8 +206401,8 @@ var STOCKS_DATABASE = {
         "close": 1.76
       },
       {
-        "date": "2026-06-02",
-        "close": 1.95
+        "date": "2026-06-01",
+        "close": 1.77
       }
     ]
   },
@@ -206917,8 +206956,8 @@ var STOCKS_DATABASE = {
         "close": 3.62
       },
       {
-        "date": "2026-06-02",
-        "close": 3.64
+        "date": "2026-06-01",
+        "close": 3.6
       }
     ]
   },
@@ -207471,8 +207510,8 @@ var STOCKS_DATABASE = {
         "close": 1.17
       },
       {
-        "date": "2026-06-02",
-        "close": 1.17
+        "date": "2026-06-01",
+        "close": 1.16
       }
     ]
   },
@@ -208024,8 +208063,8 @@ var STOCKS_DATABASE = {
         "close": 3.48
       },
       {
-        "date": "2026-06-02",
-        "close": 3.62
+        "date": "2026-06-01",
+        "close": 3.58
       }
     ]
   },
@@ -208589,7 +208628,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 36.0,
     "dividend_yield": 0.0,
     "high_1m": 0.76,
-    "low_1m": 0.58,
+    "low_1m": 0.6,
     "support_levels": [
       0.55,
       0.6,
@@ -209122,8 +209161,8 @@ var STOCKS_DATABASE = {
         "close": 0.68
       },
       {
-        "date": "2026-06-02",
-        "close": 0.72
+        "date": "2026-06-01",
+        "close": 0.7
       }
     ]
   },
@@ -209135,7 +209174,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 5.96,
     "dividend_yield": 5.23,
     "high_1m": 1.66,
-    "low_1m": 1.32,
+    "low_1m": 1.35,
     "support_levels": [
       1.19,
       1.3,
@@ -209675,8 +209714,8 @@ var STOCKS_DATABASE = {
         "close": 1.62
       },
       {
-        "date": "2026-06-02",
-        "close": 1.61
+        "date": "2026-06-01",
+        "close": 1.62
       }
     ]
   },
@@ -210779,8 +210818,8 @@ var STOCKS_DATABASE = {
         "close": 3.68
       },
       {
-        "date": "2026-06-02",
-        "close": 3.7
+        "date": "2026-06-01",
+        "close": 3.68
       }
     ]
   },
@@ -211333,7 +211372,7 @@ var STOCKS_DATABASE = {
         "close": 1.57
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 1.55
       }
     ]
@@ -212438,7 +212477,7 @@ var STOCKS_DATABASE = {
         "close": 4.66
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 4.68
       }
     ]
@@ -212954,7 +212993,7 @@ var STOCKS_DATABASE = {
         "close": 5.15
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 5.0
       }
     ]
@@ -212967,7 +213006,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": null,
     "dividend_yield": 0.0,
     "high_1m": 3.2,
-    "low_1m": 1.62,
+    "low_1m": 1.64,
     "support_levels": [
       1.96,
       2.2,
@@ -213468,8 +213507,8 @@ var STOCKS_DATABASE = {
         "close": 2.82
       },
       {
-        "date": "2026-06-02",
-        "close": 2.88
+        "date": "2026-06-01",
+        "close": 2.72
       }
     ]
   },
@@ -213481,7 +213520,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 24.94,
     "dividend_yield": 4.72,
     "high_1m": 23.1,
-    "low_1m": 18.31,
+    "low_1m": 18.41,
     "support_levels": [
       17.83,
       18.41,
@@ -214022,8 +214061,8 @@ var STOCKS_DATABASE = {
         "close": 21.7
       },
       {
-        "date": "2026-06-02",
-        "close": 21.2
+        "date": "2026-06-01",
+        "close": 20.5
       }
     ]
   },
@@ -214572,7 +214611,7 @@ var STOCKS_DATABASE = {
         "close": 0.46
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.48
       }
     ]
@@ -214584,10 +214623,10 @@ var STOCKS_DATABASE = {
     "current_price": 17.8,
     "pe_ratio": 14.96,
     "dividend_yield": 4.49,
-    "high_1m": 18.4,
+    "high_1m": 18.1,
     "low_1m": 15.4,
     "support_levels": [
-      16.21,
+      16.01,
       17.12
     ],
     "resistance_levels": [
@@ -215098,8 +215137,8 @@ var STOCKS_DATABASE = {
         "close": 17.7
       },
       {
-        "date": "2026-06-02",
-        "close": 17.8
+        "date": "2026-06-01",
+        "close": 17.6
       }
     ]
   },
@@ -215111,7 +215150,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 7.44,
     "dividend_yield": 3.73,
     "high_1m": 7.75,
-    "low_1m": 6.5,
+    "low_1m": 6.55,
     "support_levels": [
       6.31
     ],
@@ -215651,8 +215690,8 @@ var STOCKS_DATABASE = {
         "close": 6.75
       },
       {
-        "date": "2026-06-02",
-        "close": 6.7
+        "date": "2026-06-01",
+        "close": 6.75
       }
     ]
   },
@@ -216206,8 +216245,8 @@ var STOCKS_DATABASE = {
         "close": 4.2
       },
       {
-        "date": "2026-06-02",
-        "close": 4.18
+        "date": "2026-06-01",
+        "close": 4.14
       }
     ]
   },
@@ -216772,7 +216811,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 10.62,
     "dividend_yield": 10.14,
     "high_1m": 1.49,
-    "low_1m": 1.16,
+    "low_1m": 1.18,
     "support_levels": [
       0.88,
       1.17
@@ -217372,6 +217411,10 @@ var STOCKS_DATABASE = {
         "close": 1.38
       },
       {
+        "date": "2026-06-01",
+        "close": 1.38
+      },
+      {
         "date": "2026-06-02",
         "close": 1.38
       }
@@ -217383,7 +217426,7 @@ var STOCKS_DATABASE = {
     "business_summary": "Master Style Public Company Limited operates a cosmetic surgery hospital under the Masterpiece Hospital name in Thailand. The company offers surgical services, including rhinoplasty; eye, eyebrow, and forehead lifts; vaser liposuction and body transformation; tummy tuck; facial restructuring; eye; and other beauty surgeries. It also provides hair transplant and treatment services; skin care and laser treatments; after-surgery and hair transplant services, such as after breast augmentation surgery program, after liposuction surgery program, and after hair transplantation program; and after surgery self-care products comprising support bra for breast augmentation surgery, forehead bandage for eyebrow lift surgery, and other products. In addition, the company engages in the trading of cosmetic products. Master Style Public Company Limited was founded in 2012 and is headquartered in Bangkok, Thailand.",
     "current_price": 8.75,
     "pe_ratio": 12.87,
-    "dividend_yield": 4.65,
+    "dividend_yield": 4.57,
     "high_1m": 9.0,
     "low_1m": 7.8,
     "support_levels": [
@@ -217907,8 +217950,8 @@ var STOCKS_DATABASE = {
         "close": 8.75
       },
       {
-        "date": "2026-06-02",
-        "close": 8.75
+        "date": "2026-06-01",
+        "close": 8.6
       }
     ]
   },
@@ -218456,7 +218499,7 @@ var STOCKS_DATABASE = {
         "close": 0.82
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.84
       }
     ]
@@ -219023,7 +219066,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 8.13,
     "dividend_yield": 5.35,
     "high_1m": 2.1,
-    "low_1m": 1.7,
+    "low_1m": 1.72,
     "support_levels": [
       1.3,
       1.58
@@ -219563,8 +219606,8 @@ var STOCKS_DATABASE = {
         "close": 1.85
       },
       {
-        "date": "2026-06-02",
-        "close": 1.87
+        "date": "2026-06-01",
+        "close": 1.86
       }
     ]
   },
@@ -219576,7 +219619,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 6.78,
     "dividend_yield": 6.42,
     "high_1m": 18.9,
-    "low_1m": 16.6,
+    "low_1m": 16.7,
     "support_levels": [
       15.32,
       16.01,
@@ -220116,8 +220159,8 @@ var STOCKS_DATABASE = {
         "close": 18.4
       },
       {
-        "date": "2026-06-02",
-        "close": 18.7
+        "date": "2026-06-01",
+        "close": 18.6
       }
     ]
   },
@@ -220670,7 +220713,7 @@ var STOCKS_DATABASE = {
         "close": 11.2
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 11.2
       }
     ]
@@ -220681,7 +220724,7 @@ var STOCKS_DATABASE = {
     "business_summary": "Market Connections Asia Public Company Limited provides event marketing services in Thailand and Singapore. The company operates through three segments: Marketing Services; Distributor; and Printing and Advertising Media. It offers shopper engagement, including PC/BA/PtG, merchandising, and in-store activation; field force activation, such as trade activation, sales troop/caravan, brand visibility channel penetration, and distribution expansion; experiential marketing comprising roadshow, troop/commando, and caravan; and event marketing, which includes product launch, press conference, teambuilding, seminar, and corporate party. The company also provides local/retail media research analytics; logistics, such as transportation, set up and pull-out, airfare, and tours and trips; and digital solutions comprising interactive games, onsite to online integration, and online conference. In addition, it engages in packing; product consultancy; distribution of consumers products; and printing and advertising media services. The company was founded in 2011 and is based in Bangkok, Thailand. Market Connections Asia Public Company Limited operates as a subsidiary of Bhakdee 2019 Holding Co., Ltd.",
     "current_price": 1.15,
     "pe_ratio": 12.78,
-    "dividend_yield": 3.86,
+    "dividend_yield": 3.83,
     "high_1m": 1.17,
     "low_1m": 1.07,
     "support_levels": [
@@ -221197,8 +221240,8 @@ var STOCKS_DATABASE = {
         "close": 1.15
       },
       {
-        "date": "2026-06-02",
-        "close": 1.15
+        "date": "2026-06-01",
+        "close": 1.14
       }
     ]
   },
@@ -221750,7 +221793,7 @@ var STOCKS_DATABASE = {
         "close": 5.9
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 6.0
       }
     ]
@@ -222303,8 +222346,8 @@ var STOCKS_DATABASE = {
         "close": 7.5
       },
       {
-        "date": "2026-06-02",
-        "close": 7.45
+        "date": "2026-06-01",
+        "close": 7.5
       }
     ]
   },
@@ -222316,7 +222359,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 3.24,
     "dividend_yield": 0.0,
     "high_1m": 2.72,
-    "low_1m": 2.32,
+    "low_1m": 2.34,
     "support_levels": [
       2.24,
       2.38
@@ -222814,8 +222857,8 @@ var STOCKS_DATABASE = {
         "close": 2.66
       },
       {
-        "date": "2026-06-02",
-        "close": 2.66
+        "date": "2026-06-01",
+        "close": 2.62
       }
     ]
   },
@@ -222825,7 +222868,7 @@ var STOCKS_DATABASE = {
     "business_summary": "MEB Corporation Public Company Limited engages in distribution and service of e-books in Thailand. The company offers meb, an online literature platform that offers E-Books, including novels, translated novels, comics, non-fiction, magazines, and newspapers, as well as audio books and a meb Buffet service for members who enjoy a variety of literature from publishers and independent authors; and readAwrite, an online platform and application for reading and writing online novels. It also provides Hibrary, an E-library system for organizations and their employee; E-reader, an electronic book reader that is a portable device for reading E-Books, as well as engages in the computer system inspection and consulting, and provision of advisory services on problems and knowledge on information technology security. The company was incorporated in 2022 and is headquartered in Nonthaburi, Thailand. MEB Corporation Public Company Limited is a subsidiary of B2S Company Limited.",
     "current_price": 12.1,
     "pe_ratio": 9.24,
-    "dividend_yield": 9.02,
+    "dividend_yield": 9.09,
     "high_1m": 12.4,
     "low_1m": 11.3,
     "support_levels": [
@@ -223343,8 +223386,8 @@ var STOCKS_DATABASE = {
         "close": 11.8
       },
       {
-        "date": "2026-06-02",
-        "close": 12.1
+        "date": "2026-06-01",
+        "close": 12.2
       }
     ]
   },
@@ -223872,7 +223915,7 @@ var STOCKS_DATABASE = {
         "close": 6.35
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 6.2
       }
     ]
@@ -223882,7 +223925,7 @@ var STOCKS_DATABASE = {
     "name": "Mega Lifesciences Public Company Limited",
     "business_summary": "Mega Lifesciences Public Company Limited, together with its subsidiaries, manufactures and sells health food supplements, prescription pharmaceutical products, over-the-counter products, herbal products, vitamins, and fast-moving consumer goods. The company operates through three segments: Brands, Distribution, and Original Equipment Manufacture. It offers wellness and nutrition products, including medical and sports nutrition, general well-being, vitamins, probiotics, herbal medicines, and cough and cold medicines, as well as hair, kid's, men's, and women's care products; and various health concerns products, such as allergy, bone and joint, gut, liver, diabetic, eye, heart, brain, sleep and anxiety, pain, and skin care, as well as blood circulation and memory. The company also provides prescription medicines for anti-allergic, anti-infective, cardiovascular system, central nervous system, dermatology, diabetes, gastrointestinal, gynecology, nephrology, oncology, ophthalmology, orthopedic, pain, respiratory, rheumatology, and urology areas under the MEGA We care brand name. In addition, it offers logistical and marketing services for trading and sale of goods manufactured by third parties comprising warehouse management, collections, and value-added services; natural and plant-based health foods; digital support solutions; and operation of wellness center. Further, the company is involved in social enterprise; and software design, development, and other services. It sells its products in in Southeast Asia, Sub-Saharan Africa, Australia, Europe, and South America. Mega Lifesciences Public Company Limited was incorporated in 1982 and is headquartered in Bangkok, Thailand.",
     "current_price": 35.5,
-    "pe_ratio": 15.24,
+    "pe_ratio": 15.04,
     "dividend_yield": 4.38,
     "high_1m": 37.75,
     "low_1m": 34.5,
@@ -224427,8 +224470,8 @@ var STOCKS_DATABASE = {
         "close": 34.5
       },
       {
-        "date": "2026-06-02",
-        "close": 35.5
+        "date": "2026-06-01",
+        "close": 36.0
       }
     ]
   },
@@ -225174,7 +225217,7 @@ var STOCKS_DATABASE = {
         "close": 0.61
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.63
       }
     ]
@@ -226262,8 +226305,8 @@ var STOCKS_DATABASE = {
         "close": 284.0
       },
       {
-        "date": "2026-06-02",
-        "close": 287.0
+        "date": "2026-06-01",
+        "close": 285.0
       }
     ]
   },
@@ -226815,8 +226858,8 @@ var STOCKS_DATABASE = {
         "close": 19.2
       },
       {
-        "date": "2026-06-02",
-        "close": 19.0
+        "date": "2026-06-01",
+        "close": 19.1
       }
     ]
   },
@@ -227368,8 +227411,8 @@ var STOCKS_DATABASE = {
         "close": 5.85
       },
       {
-        "date": "2026-06-02",
-        "close": 5.85
+        "date": "2026-06-01",
+        "close": 5.75
       }
     ]
   },
@@ -227381,7 +227424,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 4.42,
     "dividend_yield": 4.07,
     "high_1m": 6.3,
-    "low_1m": 4.72,
+    "low_1m": 4.78,
     "support_levels": [
       2.49,
       3.74,
@@ -227894,8 +227937,8 @@ var STOCKS_DATABASE = {
         "close": 6.05
       },
       {
-        "date": "2026-06-02",
-        "close": 6.15
+        "date": "2026-06-01",
+        "close": 6.25
       }
     ]
   },
@@ -228423,8 +228466,8 @@ var STOCKS_DATABASE = {
         "close": 4.94
       },
       {
-        "date": "2026-06-02",
-        "close": 4.96
+        "date": "2026-06-01",
+        "close": 4.9
       }
     ]
   },
@@ -228443,7 +228486,7 @@ var STOCKS_DATABASE = {
       1.8
     ],
     "resistance_levels": [
-      1.97
+      1.99
     ],
     "upcoming_xd": "2026-05-07",
     "upcoming_dividend_amount": 0.07,
@@ -228976,8 +229019,8 @@ var STOCKS_DATABASE = {
         "close": 1.92
       },
       {
-        "date": "2026-06-02",
-        "close": 1.92
+        "date": "2026-06-01",
+        "close": 1.91
       }
     ]
   },
@@ -228987,9 +229030,9 @@ var STOCKS_DATABASE = {
     "business_summary": "Micro Leasing Public Company Limited, together with its subsidiaries, provides hire-purchase financial services for trucks and motorcycles in Thailand. The company offers loans for second-hand trucks, such as six-wheel trucks, ten-wheel trucks, twelve-wheel trucks, tow trucks, trailers, and tractor trucks. It also provides liquidity enhancing loans or secured loans; refinancing loans; motorcycle leasing loan; truck registration loan; insurance broker; personal loan; and truck auction services. Micro Leasing Public Company Limited was founded in 1994 and is headquartered in Nakhon Pathom, Thailand.",
     "current_price": 1.04,
     "pe_ratio": 20.8,
-    "dividend_yield": 2.62,
+    "dividend_yield": 2.6,
     "high_1m": 1.13,
-    "low_1m": 0.83,
+    "low_1m": 0.85,
     "support_levels": [
       0.72,
       0.77
@@ -229505,8 +229548,8 @@ var STOCKS_DATABASE = {
         "close": 0.91
       },
       {
-        "date": "2026-06-02",
-        "close": 1.04
+        "date": "2026-06-01",
+        "close": 1.03
       }
     ]
   },
@@ -230034,8 +230077,8 @@ var STOCKS_DATABASE = {
         "close": 0.28
       },
       {
-        "date": "2026-06-02",
-        "close": 0.3
+        "date": "2026-06-01",
+        "close": 0.29
       }
     ]
   },
@@ -231142,8 +231185,8 @@ var STOCKS_DATABASE = {
         "close": 22.5
       },
       {
-        "date": "2026-06-02",
-        "close": 22.1
+        "date": "2026-06-01",
+        "close": 22.5
       }
     ]
   },
@@ -231678,8 +231721,8 @@ var STOCKS_DATABASE = {
         "close": 0.55
       },
       {
-        "date": "2026-06-02",
-        "close": 0.55
+        "date": "2026-06-01",
+        "close": 0.54
       }
     ]
   },
@@ -232212,8 +232255,8 @@ var STOCKS_DATABASE = {
         "close": 0.31
       },
       {
-        "date": "2026-06-02",
-        "close": 0.31
+        "date": "2026-06-01",
+        "close": 0.32
       }
     ]
   },
@@ -232766,8 +232809,8 @@ var STOCKS_DATABASE = {
         "close": 0.52
       },
       {
-        "date": "2026-06-02",
-        "close": 0.52
+        "date": "2026-06-01",
+        "close": 0.51
       }
     ]
   },
@@ -233307,8 +233350,8 @@ var STOCKS_DATABASE = {
         "close": 0.6
       },
       {
-        "date": "2026-06-02",
-        "close": 0.99
+        "date": "2026-06-01",
+        "close": 0.76
       }
     ]
   },
@@ -233893,6 +233936,10 @@ var STOCKS_DATABASE = {
         "close": 2.56
       },
       {
+        "date": "2026-06-01",
+        "close": 2.56
+      },
+      {
         "date": "2026-06-02",
         "close": 2.64
       }
@@ -233908,7 +233955,7 @@ var STOCKS_DATABASE = {
     "high_1m": 2.04,
     "low_1m": 2.0,
     "support_levels": [
-      1.9
+      1.91
     ],
     "resistance_levels": [
       2.06,
@@ -234445,8 +234492,8 @@ var STOCKS_DATABASE = {
         "close": 2.02
       },
       {
-        "date": "2026-06-02",
-        "close": 2.04
+        "date": "2026-06-01",
+        "close": 2.02
       }
     ]
   },
@@ -234991,7 +235038,7 @@ var STOCKS_DATABASE = {
         "close": 0.7
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.73
       }
     ]
@@ -235004,7 +235051,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 12.0,
     "dividend_yield": 9.58,
     "high_1m": 2.42,
-    "low_1m": 2.1,
+    "low_1m": 2.12,
     "support_levels": [
       1.67,
       1.85,
@@ -235545,7 +235592,7 @@ var STOCKS_DATABASE = {
         "close": 2.42
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 2.4
       }
     ]
@@ -236067,7 +236114,7 @@ var STOCKS_DATABASE = {
         "close": 0.06
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.06
       }
     ]
@@ -236597,8 +236644,8 @@ var STOCKS_DATABASE = {
         "close": 37.25
       },
       {
-        "date": "2026-06-02",
-        "close": 38.0
+        "date": "2026-06-01",
+        "close": 36.75
       }
     ]
   },
@@ -236610,7 +236657,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 13.22,
     "dividend_yield": 2.91,
     "high_1m": 1.3,
-    "low_1m": 1.1,
+    "low_1m": 1.11,
     "support_levels": [
       0.89,
       0.97,
@@ -237116,8 +237163,8 @@ var STOCKS_DATABASE = {
         "close": 1.2
       },
       {
-        "date": "2026-06-02",
-        "close": 1.19
+        "date": "2026-06-01",
+        "close": 1.21
       }
     ]
   },
@@ -237638,8 +237685,8 @@ var STOCKS_DATABASE = {
         "close": 3.6
       },
       {
-        "date": "2026-06-02",
-        "close": 3.54
+        "date": "2026-06-01",
+        "close": 3.56
       }
     ]
   },
@@ -238232,6 +238279,10 @@ var STOCKS_DATABASE = {
         "close": 8.7
       },
       {
+        "date": "2026-06-01",
+        "close": 8.7
+      },
+      {
         "date": "2026-06-02",
         "close": 8.8
       }
@@ -238784,8 +238835,8 @@ var STOCKS_DATABASE = {
         "close": 5.8
       },
       {
-        "date": "2026-06-02",
-        "close": 5.65
+        "date": "2026-06-01",
+        "close": 5.7
       }
     ]
   },
@@ -238797,7 +238848,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 15.11,
     "dividend_yield": 4.08,
     "high_1m": 7.15,
-    "low_1m": 6.75,
+    "low_1m": 6.8,
     "support_levels": [
       6.6
     ],
@@ -239336,7 +239387,7 @@ var STOCKS_DATABASE = {
         "close": 7.05
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 7.1
       }
     ]
@@ -239889,8 +239940,8 @@ var STOCKS_DATABASE = {
         "close": 28.75
       },
       {
-        "date": "2026-06-02",
-        "close": 29.0
+        "date": "2026-06-01",
+        "close": 28.75
       }
     ]
   },
@@ -239907,7 +239958,7 @@ var STOCKS_DATABASE = {
       14.8
     ],
     "resistance_levels": [
-      15.58,
+      15.57,
       16.96
     ],
     "upcoming_xd": "2026-03-12",
@@ -240441,7 +240492,7 @@ var STOCKS_DATABASE = {
         "close": 15.4
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 15.3
       }
     ]
@@ -240960,8 +241011,8 @@ var STOCKS_DATABASE = {
         "close": 0.8
       },
       {
-        "date": "2026-06-02",
-        "close": 0.79
+        "date": "2026-06-01",
+        "close": 0.8
       }
     ]
   },
@@ -241486,7 +241537,7 @@ var STOCKS_DATABASE = {
         "close": 0.61
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.64
       }
     ]
@@ -242527,8 +242578,8 @@ var STOCKS_DATABASE = {
         "close": 3.6
       },
       {
-        "date": "2026-06-02",
-        "close": 3.56
+        "date": "2026-06-01",
+        "close": 3.52
       }
     ]
   },
@@ -242539,7 +242590,7 @@ var STOCKS_DATABASE = {
     "current_price": 1.81,
     "pe_ratio": 181.0,
     "dividend_yield": 18.04,
-    "high_1m": 2.04,
+    "high_1m": 2.02,
     "low_1m": 1.77,
     "support_levels": [
       1.77,
@@ -243053,8 +243104,8 @@ var STOCKS_DATABASE = {
         "close": 1.84
       },
       {
-        "date": "2026-06-02",
-        "close": 1.81
+        "date": "2026-06-01",
+        "close": 1.83
       }
     ]
   },
@@ -243593,7 +243644,7 @@ var STOCKS_DATABASE = {
         "close": 0.04
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.04
       }
     ]
@@ -243605,7 +243656,7 @@ var STOCKS_DATABASE = {
     "current_price": 1.8,
     "pe_ratio": 90.0,
     "dividend_yield": 0.58,
-    "high_1m": 1.94,
+    "high_1m": 1.9,
     "low_1m": 1.7,
     "support_levels": [
       1.7,
@@ -244147,8 +244198,8 @@ var STOCKS_DATABASE = {
         "close": 1.76
       },
       {
-        "date": "2026-06-02",
-        "close": 1.8
+        "date": "2026-06-01",
+        "close": 1.81
       }
     ]
   },
@@ -244160,7 +244211,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 6.27,
     "dividend_yield": 1.49,
     "high_1m": 2.86,
-    "low_1m": 2.16,
+    "low_1m": 2.18,
     "support_levels": [
       1.92,
       2.18,
@@ -244670,7 +244721,7 @@ var STOCKS_DATABASE = {
         "close": 2.62
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 2.76
       }
     ]
@@ -245223,7 +245274,7 @@ var STOCKS_DATABASE = {
         "close": 0.39
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.38
       }
     ]
@@ -245745,8 +245796,8 @@ var STOCKS_DATABASE = {
         "close": 0.19
       },
       {
-        "date": "2026-06-02",
-        "close": 0.19
+        "date": "2026-06-01",
+        "close": 0.2
       }
     ]
   },
@@ -245758,7 +245809,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 10.18,
     "dividend_yield": 10.04,
     "high_1m": 1.13,
-    "low_1m": 0.98,
+    "low_1m": 0.99,
     "support_levels": [
       0.87,
       0.98,
@@ -246271,7 +246322,7 @@ var STOCKS_DATABASE = {
         "close": 1.11
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 1.12
       }
     ]
@@ -246825,8 +246876,8 @@ var STOCKS_DATABASE = {
         "close": 2.16
       },
       {
-        "date": "2026-06-02",
-        "close": 2.18
+        "date": "2026-06-01",
+        "close": 2.16
       }
     ]
   },
@@ -247347,8 +247398,8 @@ var STOCKS_DATABASE = {
         "close": 16.8
       },
       {
-        "date": "2026-06-02",
-        "close": 16.9
+        "date": "2026-06-01",
+        "close": 17.0
       }
     ]
   },
@@ -247860,7 +247911,7 @@ var STOCKS_DATABASE = {
         "close": 0.19
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.2
       }
     ]
@@ -248415,7 +248466,7 @@ var STOCKS_DATABASE = {
         "close": 4.46
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 4.44
       }
     ]
@@ -248425,9 +248476,9 @@ var STOCKS_DATABASE = {
     "name": "Netbay Public Company Limited",
     "business_summary": "Netbay Public Company Limited engages in the provision of Software as a Service (SaaS) for online electronic transactions between business-to-government, business-to-business, and business-to-consumer groups in Thailand. It operates in two segments, The e-Business and The e-Service. The company invents, creates, and develops various digital business technology platforms and e-business service applications for digital business service transactions. It also provides electronic transaction system in the form of SaaS model that covers data center system, backup processing system, and operating software system that supports transaction system; and networking and data security protection services. The company's software applications include ShippingNet, an e-customs declaration application offered to prepare and deliver urgently signed import/outgoing invoices with e-signatures; e-Express Consignment, an application for the preparation and delivery of express import/export declaration with electronic signature; e-Manifest, an application that generates and delivers inbound and outbound vehicle report data; e-Customs Permit, an application for printing documents; e-Payment Gateway, an electronic payment tool for companies to work smart, and reducing financial risks and the workflow of paying customs; e-Transit/Transshipment, an application to prepare and deliver information on cargo declaration for transshipment; and License Per Invoice, an e-Single Entry Form NSW application for preparing license information according to the import and export project of regulated goods. It also offers Intelligent Box, an online document exchange platform. The company was incorporated in 2004 and is based in Bangkok, Thailand.",
     "current_price": 9.55,
-    "pe_ratio": 8.23,
+    "pe_ratio": 8.3,
     "dividend_yield": 12.57,
-    "high_1m": 15.86,
+    "high_1m": 15.5,
     "low_1m": 9.05,
     "support_levels": [
       9.05,
@@ -248969,8 +249020,8 @@ var STOCKS_DATABASE = {
         "close": 9.65
       },
       {
-        "date": "2026-06-02",
-        "close": 9.55
+        "date": "2026-06-01",
+        "close": 9.5
       }
     ]
   },
@@ -250079,8 +250130,8 @@ var STOCKS_DATABASE = {
         "close": 1.07
       },
       {
-        "date": "2026-06-02",
-        "close": 1.1
+        "date": "2026-06-01",
+        "close": 1.08
       }
     ]
   },
@@ -250611,7 +250662,7 @@ var STOCKS_DATABASE = {
     "business_summary": "Nintendo Co., Ltd., together with its subsidiaries, develops, manufactures, and sells home entertainment products in Japan, the Americas, Europe, and internationally. It offers home console gaming hardware, software, accessories, and other products. The company also provides various services, such as Nintendo Switch Online; and services and content. In addition, it offers develop IP, including video content and mobile apps. The company was formerly known as Nintendo Playing Card Co., Ltd. and changed its name to Nintendo Co., Ltd. in 1963. Nintendo Co., Ltd. was founded in 1889 and is headquartered in Kyoto, Japan.",
     "current_price": 1.33,
     "pe_ratio": null,
-    "dividend_yield": 171.09,
+    "dividend_yield": 164.66,
     "high_1m": 1.43,
     "low_1m": 1.24,
     "support_levels": [
@@ -251705,8 +251756,8 @@ var STOCKS_DATABASE = {
         "close": 14.0
       },
       {
-        "date": "2026-06-02",
-        "close": 13.5
+        "date": "2026-06-01",
+        "close": 15.0
       }
     ]
   },
@@ -252224,8 +252275,8 @@ var STOCKS_DATABASE = {
         "close": 3.92
       },
       {
-        "date": "2026-06-02",
-        "close": 3.94
+        "date": "2026-06-01",
+        "close": 3.92
       }
     ]
   },
@@ -252747,8 +252798,8 @@ var STOCKS_DATABASE = {
         "close": 0.66
       },
       {
-        "date": "2026-06-02",
-        "close": 0.7
+        "date": "2026-06-01",
+        "close": 0.68
       }
     ]
   },
@@ -252760,7 +252811,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 11.79,
     "dividend_yield": 7.27,
     "high_1m": 1.68,
-    "low_1m": 1.5,
+    "low_1m": 1.51,
     "support_levels": [
       1.33,
       1.42,
@@ -253301,8 +253352,8 @@ var STOCKS_DATABASE = {
         "close": 1.64
       },
       {
-        "date": "2026-06-02",
-        "close": 1.65
+        "date": "2026-06-01",
+        "close": 1.64
       }
     ]
   },
@@ -253317,7 +253368,8 @@ var STOCKS_DATABASE = {
     "low_1m": 1.77,
     "support_levels": [
       1.63,
-      1.71
+      1.71,
+      1.79
     ],
     "resistance_levels": [
       1.88,
@@ -253855,8 +253907,8 @@ var STOCKS_DATABASE = {
         "close": 1.85
       },
       {
-        "date": "2026-06-02",
-        "close": 1.83
+        "date": "2026-06-01",
+        "close": 1.86
       }
     ]
   },
@@ -256041,7 +256093,7 @@ var STOCKS_DATABASE = {
         "close": 21.0
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 21.2
       }
     ]
@@ -256513,6 +256565,10 @@ var STOCKS_DATABASE = {
         "close": 15.3
       },
       {
+        "date": "2026-06-01",
+        "close": 15.3
+      },
+      {
         "date": "2026-06-02",
         "close": 15.4
       }
@@ -256526,7 +256582,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 6.72,
     "dividend_yield": 4.8,
     "high_1m": 6.5,
-    "low_1m": 6.05,
+    "low_1m": 6.1,
     "support_levels": [
       5.32,
       5.77
@@ -257039,8 +257095,8 @@ var STOCKS_DATABASE = {
         "close": 6.4
       },
       {
-        "date": "2026-06-02",
-        "close": 6.25
+        "date": "2026-06-01",
+        "close": 6.2
       }
     ]
   },
@@ -257054,8 +257110,7 @@ var STOCKS_DATABASE = {
     "high_1m": 22.2,
     "low_1m": 18.9,
     "support_levels": [
-      18.9,
-      18.15
+      19.0
     ],
     "resistance_levels": [
       22.05,
@@ -257593,8 +257648,8 @@ var STOCKS_DATABASE = {
         "close": 19.1
       },
       {
-        "date": "2026-06-02",
-        "close": 19.1
+        "date": "2026-06-01",
+        "close": 19.0
       }
     ]
   },
@@ -258579,6 +258634,10 @@ var STOCKS_DATABASE = {
         "close": 4.2
       },
       {
+        "date": "2026-06-01",
+        "close": 4.2
+      },
+      {
         "date": "2026-06-02",
         "close": 4.18
       }
@@ -259097,7 +259156,7 @@ var STOCKS_DATABASE = {
         "close": 0.49
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.49
       }
     ]
@@ -259643,8 +259702,8 @@ var STOCKS_DATABASE = {
         "close": 0.55
       },
       {
-        "date": "2026-06-02",
-        "close": 0.56
+        "date": "2026-06-01",
+        "close": 0.57
       }
     ]
   },
@@ -260718,7 +260777,7 @@ var STOCKS_DATABASE = {
         "close": 3.6
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 3.68
       }
     ]
@@ -261269,8 +261328,8 @@ var STOCKS_DATABASE = {
         "close": 9.9
       },
       {
-        "date": "2026-06-02",
-        "close": 10.0
+        "date": "2026-06-01",
+        "close": 9.8
       }
     ]
   },
@@ -261822,8 +261881,8 @@ var STOCKS_DATABASE = {
         "close": 9.1
       },
       {
-        "date": "2026-06-02",
-        "close": 9.15
+        "date": "2026-06-01",
+        "close": 8.7
       }
     ]
   },
@@ -262382,7 +262441,7 @@ var STOCKS_DATABASE = {
   },
   "OKJ": {
     "symbol": "OKJ",
-    "name": "Pluk Phak Praw Rak Mae Public Company Limited",
+    "name": "OKJ_PLUK PHAK PRAW RAK MAE",
     "business_summary": "Pluk Phak Praw Rak Mae Public Company Limited engages in the sales of food and beverages in Thailand. The company offers health food and beverages, such as salads, steaks, soups, spaghetti, single dish meals, desserts, vegetable and fruit juices, bakery, snacks, as well as sandwiches, wraps, and ready-to-eat meals. It is also involved in cultivating organic vegetables and fruits; operation of full-service restaurant, delivery and kiosk, café amazon, and supermarket, as well as quick service restaurant, and healthy vegetable and fruit juice business. The company sells its products and services under the Oh Ka Jhu, Ohkajhu Wrap & Roll, Oh! Juice, and Oh-Kad brands. The company was incorporated in 2024 and is based in Chiang Mai, Thailand.",
     "current_price": 3.86,
     "pe_ratio": null,
@@ -262897,8 +262956,8 @@ var STOCKS_DATABASE = {
         "close": 3.02
       },
       {
-        "date": "2026-06-02",
-        "close": 3.86
+        "date": "2026-06-01",
+        "close": 3.02
       }
     ]
   },
@@ -263446,7 +263505,7 @@ var STOCKS_DATABASE = {
         "close": 2.82
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 2.78
       }
     ]
@@ -263458,7 +263517,7 @@ var STOCKS_DATABASE = {
     "current_price": 1.14,
     "pe_ratio": 22.8,
     "dividend_yield": 1.67,
-    "high_1m": 1.16,
+    "high_1m": 1.15,
     "low_1m": 1.12,
     "support_levels": [
       1.0,
@@ -264104,6 +264163,10 @@ var STOCKS_DATABASE = {
         "close": 1.14
       },
       {
+        "date": "2026-06-01",
+        "close": 1.14
+      },
+      {
         "date": "2026-06-02",
         "close": 1.14
       }
@@ -264659,8 +264722,8 @@ var STOCKS_DATABASE = {
         "close": 12.4
       },
       {
-        "date": "2026-06-02",
-        "close": 12.5
+        "date": "2026-06-01",
+        "close": 12.4
       }
     ]
   },
@@ -265214,8 +265277,8 @@ var STOCKS_DATABASE = {
         "close": 1.72
       },
       {
-        "date": "2026-06-02",
-        "close": 1.7
+        "date": "2026-06-01",
+        "close": 1.71
       }
     ]
   },
@@ -265740,8 +265803,8 @@ var STOCKS_DATABASE = {
         "close": 0.79
       },
       {
-        "date": "2026-06-02",
-        "close": 0.8
+        "date": "2026-06-01",
+        "close": 0.79
       }
     ]
   },
@@ -266295,8 +266358,8 @@ var STOCKS_DATABASE = {
         "close": 15.3
       },
       {
-        "date": "2026-06-02",
-        "close": 15.5
+        "date": "2026-06-01",
+        "close": 15.3
       }
     ]
   },
@@ -266841,8 +266904,8 @@ var STOCKS_DATABASE = {
         "close": 1.36
       },
       {
-        "date": "2026-06-02",
-        "close": 1.37
+        "date": "2026-06-01",
+        "close": 1.36
       }
     ]
   },
@@ -266853,7 +266916,7 @@ var STOCKS_DATABASE = {
     "current_price": 0.82,
     "pe_ratio": 20.5,
     "dividend_yield": 1.22,
-    "high_1m": 0.99,
+    "high_1m": 0.98,
     "low_1m": 0.77,
     "support_levels": [
       0.66,
@@ -267396,8 +267459,8 @@ var STOCKS_DATABASE = {
         "close": 0.8
       },
       {
-        "date": "2026-06-02",
-        "close": 0.82
+        "date": "2026-06-01",
+        "close": 0.8
       }
     ]
   },
@@ -267922,8 +267985,8 @@ var STOCKS_DATABASE = {
         "close": 1.23
       },
       {
-        "date": "2026-06-02",
-        "close": 1.18
+        "date": "2026-06-01",
+        "close": 1.21
       }
     ]
   },
@@ -268475,8 +268538,8 @@ var STOCKS_DATABASE = {
         "close": 2.52
       },
       {
-        "date": "2026-06-02",
-        "close": 2.52
+        "date": "2026-06-01",
+        "close": 2.48
       }
     ]
   },
@@ -268487,7 +268550,7 @@ var STOCKS_DATABASE = {
     "current_price": 6.15,
     "pe_ratio": 13.98,
     "dividend_yield": 7.5,
-    "high_1m": 6.35,
+    "high_1m": 6.3,
     "low_1m": 5.95,
     "support_levels": [
       6.0
@@ -269028,8 +269091,8 @@ var STOCKS_DATABASE = {
         "close": 6.15
       },
       {
-        "date": "2026-06-02",
-        "close": 6.15
+        "date": "2026-06-01",
+        "close": 6.1
       }
     ]
   },
@@ -269582,7 +269645,7 @@ var STOCKS_DATABASE = {
         "close": 48.0
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 48.0
       }
     ]
@@ -269595,7 +269658,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 9.33,
     "dividend_yield": 8.03,
     "high_1m": 3.2,
-    "low_1m": 2.66,
+    "low_1m": 2.68,
     "support_levels": [
       2.32,
       2.51,
@@ -270124,8 +270187,8 @@ var STOCKS_DATABASE = {
         "close": 3.08
       },
       {
-        "date": "2026-06-02",
-        "close": 3.08
+        "date": "2026-06-01",
+        "close": 3.0
       }
     ]
   },
@@ -270136,7 +270199,7 @@ var STOCKS_DATABASE = {
     "current_price": 2.24,
     "pe_ratio": 22.4,
     "dividend_yield": 3.57,
-    "high_1m": 2.52,
+    "high_1m": 2.46,
     "low_1m": 2.16,
     "support_levels": [
       1.94,
@@ -270647,8 +270710,8 @@ var STOCKS_DATABASE = {
         "close": 2.28
       },
       {
-        "date": "2026-06-02",
-        "close": 2.24
+        "date": "2026-06-01",
+        "close": 2.26
       }
     ]
   },
@@ -271199,8 +271262,8 @@ var STOCKS_DATABASE = {
         "close": 2.98
       },
       {
-        "date": "2026-06-02",
-        "close": 2.98
+        "date": "2026-06-01",
+        "close": 3.0
       }
     ]
   },
@@ -271753,8 +271816,8 @@ var STOCKS_DATABASE = {
         "close": 3.14
       },
       {
-        "date": "2026-06-02",
-        "close": 3.12
+        "date": "2026-06-01",
+        "close": 3.14
       }
     ]
   },
@@ -272306,8 +272369,8 @@ var STOCKS_DATABASE = {
         "close": 0.95
       },
       {
-        "date": "2026-06-02",
-        "close": 0.96
+        "date": "2026-06-01",
+        "close": 0.95
       }
     ]
   },
@@ -272317,7 +272380,7 @@ var STOCKS_DATABASE = {
     "business_summary": "Peace & Living Public Company Limited engages in the property development business in Thailand. It sells its projects under the CHER, CHERENE, CHEREA, and INNER PEACE brands. The company was incorporated in 1989 and is based in Bangkok, Thailand.",
     "current_price": 1.59,
     "pe_ratio": 53.0,
-    "dividend_yield": 3.8,
+    "dividend_yield": 3.77,
     "high_1m": 1.7,
     "low_1m": 1.53,
     "support_levels": [
@@ -272840,8 +272903,8 @@ var STOCKS_DATABASE = {
         "close": 1.55
       },
       {
-        "date": "2026-06-02",
-        "close": 1.59
+        "date": "2026-06-01",
+        "close": 1.58
       }
     ]
   },
@@ -273394,7 +273457,7 @@ var STOCKS_DATABASE = {
         "close": 0.09
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.1
       }
     ]
@@ -273944,8 +274007,8 @@ var STOCKS_DATABASE = {
         "close": 0.25
       },
       {
-        "date": "2026-06-02",
-        "close": 0.25
+        "date": "2026-06-01",
+        "close": 0.26
       }
     ]
   },
@@ -274509,6 +274572,10 @@ var STOCKS_DATABASE = {
         "close": 4.54
       },
       {
+        "date": "2026-06-01",
+        "close": 4.54
+      },
+      {
         "date": "2026-06-02",
         "close": 4.44
       }
@@ -275062,8 +275129,8 @@ var STOCKS_DATABASE = {
         "close": 0.04
       },
       {
-        "date": "2026-06-02",
-        "close": 0.04
+        "date": "2026-06-01",
+        "close": 0.05
       }
     ]
   },
@@ -275616,8 +275683,8 @@ var STOCKS_DATABASE = {
         "close": 6.5
       },
       {
-        "date": "2026-06-02",
-        "close": 6.55
+        "date": "2026-06-01",
+        "close": 6.65
       }
     ]
   },
@@ -276141,7 +276208,7 @@ var STOCKS_DATABASE = {
         "close": 10.5
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 10.6
       }
     ]
@@ -276694,8 +276761,8 @@ var STOCKS_DATABASE = {
         "close": 2.98
       },
       {
-        "date": "2026-06-02",
-        "close": 3.04
+        "date": "2026-06-01",
+        "close": 3.02
       }
     ]
   },
@@ -277798,7 +277865,7 @@ var STOCKS_DATABASE = {
         "close": 1.04
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 1.08
       }
     ]
@@ -278330,8 +278397,8 @@ var STOCKS_DATABASE = {
         "close": 4.42
       },
       {
-        "date": "2026-06-02",
-        "close": 4.36
+        "date": "2026-06-01",
+        "close": 4.38
       }
     ]
   },
@@ -278848,8 +278915,8 @@ var STOCKS_DATABASE = {
         "close": 3.82
       },
       {
-        "date": "2026-06-02",
-        "close": 3.94
+        "date": "2026-06-01",
+        "close": 3.84
       }
     ]
   },
@@ -279399,7 +279466,7 @@ var STOCKS_DATABASE = {
         "close": 2.0
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 2.02
       }
     ]
@@ -279411,7 +279478,7 @@ var STOCKS_DATABASE = {
     "current_price": 0.45,
     "pe_ratio": null,
     "dividend_yield": 0.0,
-    "high_1m": 0.58,
+    "high_1m": 0.57,
     "low_1m": 0.38,
     "support_levels": [
       0.38,
@@ -279945,8 +280012,8 @@ var STOCKS_DATABASE = {
         "close": 0.43
       },
       {
-        "date": "2026-06-02",
-        "close": 0.45
+        "date": "2026-06-01",
+        "close": 0.44
       }
     ]
   },
@@ -280499,8 +280566,8 @@ var STOCKS_DATABASE = {
         "close": 1.25
       },
       {
-        "date": "2026-06-02",
-        "close": 1.28
+        "date": "2026-06-01",
+        "close": 1.25
       }
     ]
   },
@@ -281054,7 +281121,7 @@ var STOCKS_DATABASE = {
         "close": 4.18
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 4.18
       }
     ]
@@ -281576,8 +281643,8 @@ var STOCKS_DATABASE = {
         "close": 0.9
       },
       {
-        "date": "2026-06-02",
-        "close": 0.87
+        "date": "2026-06-01",
+        "close": 0.89
       }
     ]
   },
@@ -282117,8 +282184,8 @@ var STOCKS_DATABASE = {
         "close": 1.13
       },
       {
-        "date": "2026-06-02",
-        "close": 1.16
+        "date": "2026-06-01",
+        "close": 1.13
       }
     ]
   },
@@ -282671,8 +282738,8 @@ var STOCKS_DATABASE = {
         "close": 0.11
       },
       {
-        "date": "2026-06-02",
-        "close": 0.11
+        "date": "2026-06-01",
+        "close": 0.12
       }
     ]
   },
@@ -282683,7 +282750,7 @@ var STOCKS_DATABASE = {
     "current_price": 0.54,
     "pe_ratio": 9.0,
     "dividend_yield": 3.7,
-    "high_1m": 0.6,
+    "high_1m": 0.59,
     "low_1m": 0.52,
     "support_levels": [
       0.51
@@ -283204,7 +283271,7 @@ var STOCKS_DATABASE = {
         "close": 0.54
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.54
       }
     ]
@@ -283729,8 +283796,8 @@ var STOCKS_DATABASE = {
         "close": 1.22
       },
       {
-        "date": "2026-06-02",
-        "close": 1.15
+        "date": "2026-06-01",
+        "close": 1.16
       }
     ]
   },
@@ -284282,8 +284349,8 @@ var STOCKS_DATABASE = {
         "close": 10.7
       },
       {
-        "date": "2026-06-02",
-        "close": 10.8
+        "date": "2026-06-01",
+        "close": 10.6
       }
     ]
   },
@@ -284295,7 +284362,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 5.31,
     "dividend_yield": 2.15,
     "high_1m": 0.9,
-    "low_1m": 0.8,
+    "low_1m": 0.84,
     "support_levels": [
       0.74,
       0.8
@@ -284804,8 +284871,8 @@ var STOCKS_DATABASE = {
         "close": 0.86
       },
       {
-        "date": "2026-06-02",
-        "close": 0.85
+        "date": "2026-06-01",
+        "close": 0.84
       }
     ]
   },
@@ -285356,8 +285423,8 @@ var STOCKS_DATABASE = {
         "close": 9.6
       },
       {
-        "date": "2026-06-02",
-        "close": 9.5
+        "date": "2026-06-01",
+        "close": 9.65
       }
     ]
   },
@@ -285898,8 +285965,8 @@ var STOCKS_DATABASE = {
         "close": 6.7
       },
       {
-        "date": "2026-06-02",
-        "close": 6.8
+        "date": "2026-06-01",
+        "close": 6.85
       }
     ]
   },
@@ -285909,7 +285976,7 @@ var STOCKS_DATABASE = {
     "business_summary": "Pop Mart International Group Limited, an investment holding company, designs, develops, and sells pop toys in the People's Republic of China, Hong Kong, Macau, Taiwan, and internationally. The company offers blind boxes. It sells its products through a network of retail stores and roboshops; online channels, including Tmall flagship store, DouYin, Pop Draw, and other online channels; and wholesale channels and others. The company also provides internet technology, customer, and technology development services; and operates playgrounds, as well as engages in investment and exhibition activities. Pop Mart International Group Limited was founded in 2010 and is headquartered in Beijing, the People's Republic of China.",
     "current_price": 1.79,
     "pe_ratio": null,
-    "dividend_yield": 1.38,
+    "dividend_yield": 1.33,
     "high_1m": 1.79,
     "low_1m": 1.44,
     "support_levels": [
@@ -286986,7 +287053,7 @@ var STOCKS_DATABASE = {
         "close": 0.6
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.59
       }
     ]
@@ -287540,8 +287607,8 @@ var STOCKS_DATABASE = {
         "close": 1.82
       },
       {
-        "date": "2026-06-02",
-        "close": 1.82
+        "date": "2026-06-01",
+        "close": 1.83
       }
     ]
   },
@@ -288095,7 +288162,7 @@ var STOCKS_DATABASE = {
         "close": 1.0
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.93
       }
     ]
@@ -288107,7 +288174,7 @@ var STOCKS_DATABASE = {
     "current_price": 0.19,
     "pe_ratio": null,
     "dividend_yield": 0.0,
-    "high_1m": 0.32,
+    "high_1m": 0.3,
     "low_1m": 0.18,
     "support_levels": [
       0.18,
@@ -288649,7 +288716,7 @@ var STOCKS_DATABASE = {
         "close": 0.2
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.19
       }
     ]
@@ -289199,8 +289266,8 @@ var STOCKS_DATABASE = {
         "close": 0.16
       },
       {
-        "date": "2026-06-02",
-        "close": 0.17
+        "date": "2026-06-01",
+        "close": 0.16
       }
     ]
   },
@@ -289211,8 +289278,8 @@ var STOCKS_DATABASE = {
     "current_price": 1.72,
     "pe_ratio": null,
     "dividend_yield": 7.56,
-    "high_1m": 1.99,
-    "low_1m": 1.62,
+    "high_1m": 1.78,
+    "low_1m": 1.66,
     "support_levels": [
       1.39,
       1.45,
@@ -289733,8 +289800,8 @@ var STOCKS_DATABASE = {
         "close": 1.7
       },
       {
-        "date": "2026-06-02",
-        "close": 1.72
+        "date": "2026-06-01",
+        "close": 1.7
       }
     ]
   },
@@ -290286,8 +290353,8 @@ var STOCKS_DATABASE = {
         "close": 16.6
       },
       {
-        "date": "2026-06-02",
-        "close": 16.4
+        "date": "2026-06-01",
+        "close": 16.5
       }
     ]
   },
@@ -290298,7 +290365,7 @@ var STOCKS_DATABASE = {
     "current_price": 10.4,
     "pe_ratio": null,
     "dividend_yield": 8.65,
-    "high_1m": 11.09,
+    "high_1m": 10.9,
     "low_1m": 10.4,
     "support_levels": [
       9.93
@@ -290839,8 +290906,8 @@ var STOCKS_DATABASE = {
         "close": 10.7
       },
       {
-        "date": "2026-06-02",
-        "close": 10.4
+        "date": "2026-06-01",
+        "close": 10.7
       }
     ]
   },
@@ -291374,8 +291441,8 @@ var STOCKS_DATABASE = {
         "close": 0.82
       },
       {
-        "date": "2026-06-02",
-        "close": 0.8
+        "date": "2026-06-01",
+        "close": 0.82
       }
     ]
   },
@@ -291927,8 +291994,8 @@ var STOCKS_DATABASE = {
         "close": 3.44
       },
       {
-        "date": "2026-06-02",
-        "close": 3.44
+        "date": "2026-06-01",
+        "close": 3.42
       }
     ]
   },
@@ -292461,8 +292528,8 @@ var STOCKS_DATABASE = {
         "close": 0.37
       },
       {
-        "date": "2026-06-02",
-        "close": 0.4
+        "date": "2026-06-01",
+        "close": 0.38
       }
     ]
   },
@@ -293015,8 +293082,8 @@ var STOCKS_DATABASE = {
         "close": 9.2
       },
       {
-        "date": "2026-06-02",
-        "close": 9.15
+        "date": "2026-06-01",
+        "close": 9.2
       }
     ]
   },
@@ -293549,8 +293616,8 @@ var STOCKS_DATABASE = {
         "close": 3.5
       },
       {
-        "date": "2026-06-02",
-        "close": 3.48
+        "date": "2026-06-01",
+        "close": 3.5
       }
     ]
   },
@@ -294066,7 +294133,7 @@ var STOCKS_DATABASE = {
         "close": 0.05
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.06
       }
     ]
@@ -294620,8 +294687,8 @@ var STOCKS_DATABASE = {
         "close": 1.39
       },
       {
-        "date": "2026-06-02",
-        "close": 1.34
+        "date": "2026-06-01",
+        "close": 1.33
       }
     ]
   },
@@ -295149,8 +295216,8 @@ var STOCKS_DATABASE = {
         "close": 1.74
       },
       {
-        "date": "2026-06-02",
-        "close": 1.73
+        "date": "2026-06-01",
+        "close": 1.72
       }
     ]
   },
@@ -295169,8 +295236,7 @@ var STOCKS_DATABASE = {
       8.4
     ],
     "resistance_levels": [
-      9.03,
-      9.05
+      8.95
     ],
     "upcoming_xd": "2026-05-06",
     "upcoming_dividend_amount": 0.25,
@@ -295703,8 +295769,8 @@ var STOCKS_DATABASE = {
         "close": 8.7
       },
       {
-        "date": "2026-06-02",
-        "close": 8.6
+        "date": "2026-06-01",
+        "close": 8.7
       }
     ]
   },
@@ -296228,8 +296294,8 @@ var STOCKS_DATABASE = {
         "close": 0.94
       },
       {
-        "date": "2026-06-02",
-        "close": 0.95
+        "date": "2026-06-01",
+        "close": 0.93
       }
     ]
   },
@@ -296240,7 +296306,7 @@ var STOCKS_DATABASE = {
     "current_price": 0.21,
     "pe_ratio": null,
     "dividend_yield": 0.0,
-    "high_1m": 0.25,
+    "high_1m": 0.24,
     "low_1m": 0.14,
     "support_levels": [
       0.14,
@@ -296750,7 +296816,7 @@ var STOCKS_DATABASE = {
         "close": 0.2
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.21
       }
     ]
@@ -297269,8 +297335,8 @@ var STOCKS_DATABASE = {
         "close": 0.92
       },
       {
-        "date": "2026-06-02",
-        "close": 0.96
+        "date": "2026-06-01",
+        "close": 0.95
       }
     ]
   },
@@ -297282,7 +297348,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 9.44,
     "dividend_yield": 8.82,
     "high_1m": 3.46,
-    "low_1m": 3.24,
+    "low_1m": 3.26,
     "support_levels": [
       2.86,
       3.12,
@@ -297795,7 +297861,7 @@ var STOCKS_DATABASE = {
         "close": 3.4
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 3.4
       }
     ]
@@ -298314,8 +298380,8 @@ var STOCKS_DATABASE = {
         "close": 6.05
       },
       {
-        "date": "2026-06-02",
-        "close": 6.05
+        "date": "2026-06-01",
+        "close": 6.0
       }
     ]
   },
@@ -298867,8 +298933,8 @@ var STOCKS_DATABASE = {
         "close": 3.46
       },
       {
-        "date": "2026-06-02",
-        "close": 3.46
+        "date": "2026-06-01",
+        "close": 3.42
       }
     ]
   },
@@ -298880,7 +298946,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 17.67,
     "dividend_yield": 5.26,
     "high_1m": 7.84,
-    "low_1m": 6.66,
+    "low_1m": 6.9,
     "support_levels": [
       5.77,
       6.32,
@@ -299420,8 +299486,8 @@ var STOCKS_DATABASE = {
         "close": 7.3
       },
       {
-        "date": "2026-06-02",
-        "close": 7.6
+        "date": "2026-06-01",
+        "close": 7.65
       }
     ]
   },
@@ -299953,8 +300019,8 @@ var STOCKS_DATABASE = {
         "close": 4.56
       },
       {
-        "date": "2026-06-02",
-        "close": 4.7
+        "date": "2026-06-01",
+        "close": 4.62
       }
     ]
   },
@@ -300488,8 +300554,8 @@ var STOCKS_DATABASE = {
         "close": 0.28
       },
       {
-        "date": "2026-06-02",
-        "close": 0.29
+        "date": "2026-06-01",
+        "close": 0.28
       }
     ]
   },
@@ -301041,8 +301107,8 @@ var STOCKS_DATABASE = {
         "close": 10.8
       },
       {
-        "date": "2026-06-02",
-        "close": 11.0
+        "date": "2026-06-01",
+        "close": 10.9
       }
     ]
   },
@@ -301056,8 +301122,7 @@ var STOCKS_DATABASE = {
     "high_1m": 0.64,
     "low_1m": 0.56,
     "support_levels": [
-      0.54,
-      0.57
+      0.56
     ],
     "resistance_levels": [
       0.61,
@@ -301575,8 +301640,8 @@ var STOCKS_DATABASE = {
         "close": 0.62
       },
       {
-        "date": "2026-06-02",
-        "close": 0.6
+        "date": "2026-06-01",
+        "close": 0.59
       }
     ]
   },
@@ -301593,9 +301658,9 @@ var STOCKS_DATABASE = {
       0.95
     ],
     "resistance_levels": [
+      1.33,
       1.72,
-      1.97,
-      2.06
+      1.97
     ],
     "upcoming_xd": "2021-09-16",
     "upcoming_dividend_amount": 0.78,
@@ -302128,8 +302193,8 @@ var STOCKS_DATABASE = {
         "close": 1.15
       },
       {
-        "date": "2026-06-02",
-        "close": 1.19
+        "date": "2026-06-01",
+        "close": 1.15
       }
     ]
   },
@@ -302140,7 +302205,7 @@ var STOCKS_DATABASE = {
     "current_price": 7.25,
     "pe_ratio": 19.08,
     "dividend_yield": 4.83,
-    "high_1m": 8.05,
+    "high_1m": 7.95,
     "low_1m": 7.05,
     "support_levels": [
       5.27,
@@ -302682,8 +302747,8 @@ var STOCKS_DATABASE = {
         "close": 7.3
       },
       {
-        "date": "2026-06-02",
-        "close": 7.25
+        "date": "2026-06-01",
+        "close": 7.3
       }
     ]
   },
@@ -303236,8 +303301,8 @@ var STOCKS_DATABASE = {
         "close": 10.0
       },
       {
-        "date": "2026-06-02",
-        "close": 10.2
+        "date": "2026-06-01",
+        "close": 9.95
       }
     ]
   },
@@ -303249,7 +303314,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 11.23,
     "dividend_yield": 5.75,
     "high_1m": 37.25,
-    "low_1m": 35.25,
+    "low_1m": 35.5,
     "support_levels": [
       29.03,
       33.25,
@@ -303789,8 +303854,8 @@ var STOCKS_DATABASE = {
         "close": 36.25
       },
       {
-        "date": "2026-06-02",
-        "close": 36.5
+        "date": "2026-06-01",
+        "close": 36.25
       }
     ]
   },
@@ -303801,7 +303866,7 @@ var STOCKS_DATABASE = {
     "current_price": 143.0,
     "pe_ratio": 10.22,
     "dividend_yield": 6.12,
-    "high_1m": 158.0,
+    "high_1m": 156.0,
     "low_1m": 140.5,
     "support_levels": [
       101.17,
@@ -304343,8 +304408,8 @@ var STOCKS_DATABASE = {
         "close": 144.0
       },
       {
-        "date": "2026-06-02",
-        "close": 143.0
+        "date": "2026-06-01",
+        "close": 141.5
       }
     ]
   },
@@ -304355,7 +304420,7 @@ var STOCKS_DATABASE = {
     "current_price": 34.5,
     "pe_ratio": null,
     "dividend_yield": 1.45,
-    "high_1m": 41.25,
+    "high_1m": 40.5,
     "low_1m": 33.0,
     "support_levels": [
       18.45,
@@ -304896,8 +304961,8 @@ var STOCKS_DATABASE = {
         "close": 35.5
       },
       {
-        "date": "2026-06-02",
-        "close": 34.5
+        "date": "2026-06-01",
+        "close": 33.5
       }
     ]
   },
@@ -304909,7 +304974,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 9.5,
     "dividend_yield": 7.02,
     "high_1m": 3.48,
-    "low_1m": 2.88,
+    "low_1m": 2.92,
     "support_levels": [
       2.19,
       2.39,
@@ -305450,8 +305515,8 @@ var STOCKS_DATABASE = {
         "close": 3.36
       },
       {
-        "date": "2026-06-02",
-        "close": 3.42
+        "date": "2026-06-01",
+        "close": 3.34
       }
     ]
   },
@@ -305977,7 +306042,7 @@ var STOCKS_DATABASE = {
         "close": 0.13
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.13
       }
     ]
@@ -306532,7 +306597,7 @@ var STOCKS_DATABASE = {
         "close": 1.35
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 1.35
       }
     ]
@@ -308194,8 +308259,8 @@ var STOCKS_DATABASE = {
         "close": 1.51
       },
       {
-        "date": "2026-06-02",
-        "close": 1.49
+        "date": "2026-06-01",
+        "close": 1.51
       }
     ]
   },
@@ -308207,7 +308272,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 116.5,
     "dividend_yield": 4.29,
     "high_1m": 4.72,
-    "low_1m": 3.26,
+    "low_1m": 3.3,
     "support_levels": [
       3.3
     ],
@@ -308746,8 +308811,8 @@ var STOCKS_DATABASE = {
         "close": 4.34
       },
       {
-        "date": "2026-06-02",
-        "close": 4.66
+        "date": "2026-06-01",
+        "close": 4.44
       }
     ]
   },
@@ -308759,7 +308824,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": null,
     "dividend_yield": 0.0,
     "high_1m": 0.13,
-    "low_1m": 0.09,
+    "low_1m": 0.1,
     "support_levels": [
       0.08,
       0.1,
@@ -309260,8 +309325,8 @@ var STOCKS_DATABASE = {
         "close": 0.1
       },
       {
-        "date": "2026-06-02",
-        "close": 0.11
+        "date": "2026-06-01",
+        "close": 0.1
       }
     ]
   },
@@ -309774,8 +309839,8 @@ var STOCKS_DATABASE = {
         "close": 0.36
       },
       {
-        "date": "2026-06-02",
-        "close": 0.37
+        "date": "2026-06-01",
+        "close": 0.34
       }
     ]
   },
@@ -310328,7 +310393,7 @@ var STOCKS_DATABASE = {
         "close": 18.6
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 18.4
       }
     ]
@@ -310881,7 +310946,7 @@ var STOCKS_DATABASE = {
         "close": 30.5
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 30.75
       }
     ]
@@ -311423,8 +311488,8 @@ var STOCKS_DATABASE = {
         "close": 4.26
       },
       {
-        "date": "2026-06-02",
-        "close": 4.3
+        "date": "2026-06-01",
+        "close": 4.26
       }
     ]
   },
@@ -311977,7 +312042,7 @@ var STOCKS_DATABASE = {
         "close": 30.75
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 31.5
       }
     ]
@@ -312508,7 +312573,7 @@ var STOCKS_DATABASE = {
         "close": 2.88
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 2.94
       }
     ]
@@ -313058,8 +313123,8 @@ var STOCKS_DATABASE = {
         "close": 0.17
       },
       {
-        "date": "2026-06-02",
-        "close": 0.16
+        "date": "2026-06-01",
+        "close": 0.17
       }
     ]
   },
@@ -313610,8 +313675,8 @@ var STOCKS_DATABASE = {
         "close": 12.7
       },
       {
-        "date": "2026-06-02",
-        "close": 12.9
+        "date": "2026-06-01",
+        "close": 13.0
       }
     ]
   },
@@ -314152,7 +314217,7 @@ var STOCKS_DATABASE = {
         "close": 0.1
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.1
       }
     ]
@@ -314162,7 +314227,7 @@ var STOCKS_DATABASE = {
     "name": "Rockworth Public Company Limited",
     "business_summary": "Rockworth Public Company Limited engages in the manufacture and distribution of furniture in Thailand and Asia. It offers smart office solutions, such as workspace booking software and smart lockers; architectural and acoustic solutions, including modular carpets and acoustic panels; storage and workshop tools; and seating products comprising chairs, modular seating lounges, sofas, and beam seating products. The company also provides desk systems and tables; room elements and space division products that include pods, screen and space dividers, panel systems, and reception; pedestals and personal storage systems, shelves and cabinets, and lockers; and collaborative tools, desk accessories and decor products, as well as technology support, power access, and lighting solutions. Rockworth Public Company Limited was founded in 1972 and is headquartered in Bangkok, Thailand.",
     "current_price": 9.8,
-    "pe_ratio": 2.87,
+    "pe_ratio": 2.94,
     "dividend_yield": 10.2,
     "high_1m": 11.4,
     "low_1m": 9.0,
@@ -314702,8 +314767,8 @@ var STOCKS_DATABASE = {
         "close": 9.65
       },
       {
-        "date": "2026-06-02",
-        "close": 9.8
+        "date": "2026-06-01",
+        "close": 9.55
       }
     ]
   },
@@ -314715,7 +314780,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 11.33,
     "dividend_yield": 2.71,
     "high_1m": 0.79,
-    "low_1m": 0.55,
+    "low_1m": 0.56,
     "support_levels": [
       0.55,
       0.59,
@@ -315256,8 +315321,8 @@ var STOCKS_DATABASE = {
         "close": 0.74
       },
       {
-        "date": "2026-06-02",
-        "close": 0.68
+        "date": "2026-06-01",
+        "close": 0.69
       }
     ]
   },
@@ -315822,7 +315887,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 4.08,
     "dividend_yield": 9.43,
     "high_1m": 5.4,
-    "low_1m": 4.6,
+    "low_1m": 4.62,
     "support_levels": [
       3.94,
       4.2,
@@ -316363,8 +316428,8 @@ var STOCKS_DATABASE = {
         "close": 5.2
       },
       {
-        "date": "2026-06-02",
-        "close": 5.3
+        "date": "2026-06-01",
+        "close": 5.25
       }
     ]
   },
@@ -316898,8 +316963,8 @@ var STOCKS_DATABASE = {
         "close": 0.71
       },
       {
-        "date": "2026-06-02",
-        "close": 0.69
+        "date": "2026-06-01",
+        "close": 0.67
       }
     ]
   },
@@ -317452,7 +317517,7 @@ var STOCKS_DATABASE = {
         "close": 0.37
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.37
       }
     ]
@@ -318004,7 +318069,7 @@ var STOCKS_DATABASE = {
         "close": 4.9
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 4.9
       }
     ]
@@ -318558,7 +318623,7 @@ var STOCKS_DATABASE = {
         "close": 0.15
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.14
       }
     ]
@@ -319103,8 +319168,8 @@ var STOCKS_DATABASE = {
         "close": 0.95
       },
       {
-        "date": "2026-06-02",
-        "close": 0.97
+        "date": "2026-06-01",
+        "close": 0.98
       }
     ]
   },
@@ -319626,7 +319691,7 @@ var STOCKS_DATABASE = {
         "close": 0.29
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.29
       }
     ]
@@ -320148,7 +320213,7 @@ var STOCKS_DATABASE = {
         "close": 0.17
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.17
       }
     ]
@@ -321481,7 +321546,7 @@ var STOCKS_DATABASE = {
         "close": 0.49
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.49
       }
     ]
@@ -321494,7 +321559,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 6.12,
     "dividend_yield": 8.79,
     "high_1m": 4.18,
-    "low_1m": 3.68,
+    "low_1m": 3.7,
     "support_levels": [
       3.1,
       3.39,
@@ -322034,8 +322099,8 @@ var STOCKS_DATABASE = {
         "close": 4.02
       },
       {
-        "date": "2026-06-02",
-        "close": 3.98
+        "date": "2026-06-01",
+        "close": 4.02
       }
     ]
   },
@@ -322565,8 +322630,8 @@ var STOCKS_DATABASE = {
         "close": 7.2
       },
       {
-        "date": "2026-06-02",
-        "close": 7.2
+        "date": "2026-06-01",
+        "close": 7.15
       }
     ]
   },
@@ -322581,7 +322646,7 @@ var STOCKS_DATABASE = {
     "low_1m": 3.92,
     "support_levels": [
       3.48,
-      4.71
+      4.72
     ],
     "resistance_levels": [
       4.86,
@@ -323119,8 +323184,8 @@ var STOCKS_DATABASE = {
         "close": 4.74
       },
       {
-        "date": "2026-06-02",
-        "close": 4.76
+        "date": "2026-06-01",
+        "close": 4.74
       }
     ]
   },
@@ -323672,8 +323737,8 @@ var STOCKS_DATABASE = {
         "close": 15.3
       },
       {
-        "date": "2026-06-02",
-        "close": 15.2
+        "date": "2026-06-01",
+        "close": 15.3
       }
     ]
   },
@@ -324199,8 +324264,8 @@ var STOCKS_DATABASE = {
         "close": 0.32
       },
       {
-        "date": "2026-06-02",
-        "close": 0.34
+        "date": "2026-06-01",
+        "close": 0.33
       }
     ]
   },
@@ -324725,7 +324790,7 @@ var STOCKS_DATABASE = {
         "close": 5.85
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 5.8
       }
     ]
@@ -325264,7 +325329,7 @@ var STOCKS_DATABASE = {
         "close": 3.2
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 3.18
       }
     ]
@@ -325274,7 +325339,7 @@ var STOCKS_DATABASE = {
     "name": "Salee Industry Public Company Limited",
     "business_summary": "Salee Industry Public Company Limited, together with its subsidiaries, manufactures and distributes plastic supplies, parts, tools, and equipment primarily in Thailand. It operates through Manufacture and Distribution of Plastic Parts; Label Printing Service; Manufacture and Distribution of Household Plastic Supplies; and Manufacture and Distribution of Religious Supplies segments. The company offers mold, injection, and vacuum parts, as well as corrugated plastic containers. The company was founded in 1993 and is based in Pathum Thani, Thailand.",
     "current_price": 0.56,
-    "pe_ratio": 18.67,
+    "pe_ratio": 28.0,
     "dividend_yield": 2.14,
     "high_1m": 0.68,
     "low_1m": 0.37,
@@ -325817,8 +325882,8 @@ var STOCKS_DATABASE = {
         "close": 0.61
       },
       {
-        "date": "2026-06-02",
-        "close": 0.56
+        "date": "2026-06-01",
+        "close": 0.59
       }
     ]
   },
@@ -326359,7 +326424,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 10.09,
     "dividend_yield": 4.96,
     "high_1m": 5.9,
-    "low_1m": 4.98,
+    "low_1m": 5.2,
     "support_levels": [
       4.92,
       5.2
@@ -326899,8 +326964,8 @@ var STOCKS_DATABASE = {
         "close": 5.45
       },
       {
-        "date": "2026-06-02",
-        "close": 5.65
+        "date": "2026-06-01",
+        "close": 5.5
       }
     ]
   },
@@ -326912,7 +326977,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 3.91,
     "dividend_yield": 2.33,
     "high_1m": 1.04,
-    "low_1m": 0.65,
+    "low_1m": 0.75,
     "support_levels": [
       0.58,
       0.64,
@@ -327454,7 +327519,7 @@ var STOCKS_DATABASE = {
         "close": 0.86
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.86
       }
     ]
@@ -327466,7 +327531,7 @@ var STOCKS_DATABASE = {
     "current_price": 3.5,
     "pe_ratio": 31.82,
     "dividend_yield": 2.86,
-    "high_1m": 3.92,
+    "high_1m": 3.88,
     "low_1m": 3.48,
     "support_levels": [
       3.39
@@ -328007,8 +328072,8 @@ var STOCKS_DATABASE = {
         "close": 3.56
       },
       {
-        "date": "2026-06-02",
-        "close": 3.5
+        "date": "2026-06-01",
+        "close": 3.56
       }
     ]
   },
@@ -328551,7 +328616,7 @@ var STOCKS_DATABASE = {
         "close": 0.93
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.93
       }
     ]
@@ -329106,8 +329171,8 @@ var STOCKS_DATABASE = {
         "close": 29.75
       },
       {
-        "date": "2026-06-02",
-        "close": 30.0
+        "date": "2026-06-01",
+        "close": 29.75
       }
     ]
   },
@@ -329660,8 +329725,8 @@ var STOCKS_DATABASE = {
         "close": 15.4
       },
       {
-        "date": "2026-06-02",
-        "close": 15.5
+        "date": "2026-06-01",
+        "close": 15.3
       }
     ]
   },
@@ -329672,7 +329737,7 @@ var STOCKS_DATABASE = {
     "current_price": 40.75,
     "pe_ratio": 18.61,
     "dividend_yield": 4.44,
-    "high_1m": 41.25,
+    "high_1m": 41.0,
     "low_1m": 40.0,
     "support_levels": [
       35.87,
@@ -330214,7 +330279,7 @@ var STOCKS_DATABASE = {
         "close": 40.25
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 40.75
       }
     ]
@@ -330749,8 +330814,8 @@ var STOCKS_DATABASE = {
         "close": 10.9
       },
       {
-        "date": "2026-06-02",
-        "close": 11.1
+        "date": "2026-06-01",
+        "close": 10.9
       }
     ]
   },
@@ -330761,7 +330826,7 @@ var STOCKS_DATABASE = {
     "current_price": 21.9,
     "pe_ratio": 6.91,
     "dividend_yield": 3.38,
-    "high_1m": 23.04,
+    "high_1m": 22.9,
     "low_1m": 21.1,
     "support_levels": [
       14.5,
@@ -331303,7 +331368,7 @@ var STOCKS_DATABASE = {
         "close": 21.5
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 21.9
       }
     ]
@@ -332411,8 +332476,8 @@ var STOCKS_DATABASE = {
         "close": 1.82
       },
       {
-        "date": "2026-06-02",
-        "close": 1.82
+        "date": "2026-06-01",
+        "close": 1.83
       }
     ]
   },
@@ -332424,7 +332489,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 11.19,
     "dividend_yield": 3.91,
     "high_1m": 1.79,
-    "low_1m": 1.01,
+    "low_1m": 1.02,
     "support_levels": [
       0.91,
       0.97
@@ -332964,8 +333029,8 @@ var STOCKS_DATABASE = {
         "close": 1.28
       },
       {
-        "date": "2026-06-02",
-        "close": 1.79
+        "date": "2026-06-01",
+        "close": 1.63
       }
     ]
   },
@@ -333509,8 +333574,8 @@ var STOCKS_DATABASE = {
         "close": 134.5
       },
       {
-        "date": "2026-06-02",
-        "close": 137.5
+        "date": "2026-06-01",
+        "close": 134.5
       }
     ]
   },
@@ -333524,9 +333589,9 @@ var STOCKS_DATABASE = {
     "high_1m": 239.0,
     "low_1m": 224.0,
     "support_levels": [
-      151.73,
       164.49,
-      174.86
+      174.86,
+      225.0
     ],
     "resistance_levels": [
       240.0
@@ -334062,8 +334127,8 @@ var STOCKS_DATABASE = {
         "close": 227.0
       },
       {
-        "date": "2026-06-02",
-        "close": 229.0
+        "date": "2026-06-01",
+        "close": 227.0
       }
     ]
   },
@@ -334614,8 +334679,8 @@ var STOCKS_DATABASE = {
         "close": 145.5
       },
       {
-        "date": "2026-06-02",
-        "close": 146.5
+        "date": "2026-06-01",
+        "close": 147.0
       }
     ]
   },
@@ -335169,7 +335234,7 @@ var STOCKS_DATABASE = {
         "close": 2.26
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 2.3
       }
     ]
@@ -335702,7 +335767,7 @@ var STOCKS_DATABASE = {
         "close": 4.98
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 4.98
       }
     ]
@@ -336255,8 +336320,8 @@ var STOCKS_DATABASE = {
         "close": 23.9
       },
       {
-        "date": "2026-06-02",
-        "close": 25.0
+        "date": "2026-06-01",
+        "close": 23.6
       }
     ]
   },
@@ -336790,7 +336855,7 @@ var STOCKS_DATABASE = {
         "close": 0.96
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.97
       }
     ]
@@ -337316,8 +337381,8 @@ var STOCKS_DATABASE = {
         "close": 1.39
       },
       {
-        "date": "2026-06-02",
-        "close": 1.48
+        "date": "2026-06-01",
+        "close": 1.46
       }
     ]
   },
@@ -337862,7 +337927,7 @@ var STOCKS_DATABASE = {
         "close": 0.13
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.13
       }
     ]
@@ -338412,8 +338477,8 @@ var STOCKS_DATABASE = {
         "close": 0.44
       },
       {
-        "date": "2026-06-02",
-        "close": 0.45
+        "date": "2026-06-01",
+        "close": 0.44
       }
     ]
   },
@@ -338966,7 +339031,7 @@ var STOCKS_DATABASE = {
         "close": 9.0
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 9.0
       }
     ]
@@ -339520,7 +339585,7 @@ var STOCKS_DATABASE = {
         "close": 0.03
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.02
       }
     ]
@@ -340074,8 +340139,8 @@ var STOCKS_DATABASE = {
         "close": 0.47
       },
       {
-        "date": "2026-06-02",
-        "close": 0.46
+        "date": "2026-06-01",
+        "close": 0.48
       }
     ]
   },
@@ -340087,7 +340152,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 0.01,
     "dividend_yield": 4.17,
     "high_1m": 2.92,
-    "low_1m": 2.32,
+    "low_1m": 2.38,
     "support_levels": [
       1.88,
       2.25,
@@ -340628,8 +340693,8 @@ var STOCKS_DATABASE = {
         "close": 2.78
       },
       {
-        "date": "2026-06-02",
-        "close": 2.88
+        "date": "2026-06-01",
+        "close": 2.84
       }
     ]
   },
@@ -340637,9 +340702,9 @@ var STOCKS_DATABASE = {
     "symbol": "SEAGATE23",
     "name": "Seagate Technology Holdings plc",
     "business_summary": "Seagate Technology Holdings plc engages in the provision of data storage technology and infrastructure solutions in Singapore, the United States, the Netherlands, and internationally. The company offers mass capacity storage products, including enterprise nearline hard disk drives (HDDs), enterprise nearline solid state drives (SSDs), enterprise nearline systems, video and image HDDs, and network-attached storage drives. It also offers legacy applications comprising Mission Critical HDDs and SSDs; external storage solutions under the Seagate Ultra Touch, One Touch, Expansion, and Basics product lines, as well as under the LaCie brand name; desktop drives for personal computers and workstation applications; notebook drives traditional notebooks, convertible systems, and external storage applications, DVR HDDs for video streaming applications, and gaming SSDs for gaming rigs. In addition, the company provides Lyve edge-to-cloud mass capacity platform, that includes modular hardware and software to support enterprises' on-premise and cloud storage infrastructure needs. It sells its products primarily to original equipment manufacturers, distributors, and retailers. The company was founded in 1978 and is based in Singapore.",
-    "current_price": 6.25,
+    "current_price": 6.35,
     "pe_ratio": null,
-    "dividend_yield": 0.48,
+    "dividend_yield": 0.47,
     "high_1m": 6.3,
     "low_1m": 4.36,
     "support_levels": [
@@ -340816,7 +340881,7 @@ var STOCKS_DATABASE = {
     "current_price": 3.16,
     "pe_ratio": 8.32,
     "dividend_yield": 5.7,
-    "high_1m": 3.54,
+    "high_1m": 3.5,
     "low_1m": 3.08,
     "support_levels": [
       2.35,
@@ -341358,8 +341423,8 @@ var STOCKS_DATABASE = {
         "close": 3.12
       },
       {
-        "date": "2026-06-02",
-        "close": 3.16
+        "date": "2026-06-01",
+        "close": 3.12
       }
     ]
   },
@@ -341895,8 +341960,8 @@ var STOCKS_DATABASE = {
         "close": 11.9
       },
       {
-        "date": "2026-06-02",
-        "close": 12.5
+        "date": "2026-06-01",
+        "close": 12.4
       }
     ]
   },
@@ -342417,8 +342482,8 @@ var STOCKS_DATABASE = {
         "close": 1.62
       },
       {
-        "date": "2026-06-02",
-        "close": 1.62
+        "date": "2026-06-01",
+        "close": 1.56
       }
     ]
   },
@@ -342430,7 +342495,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 10.46,
     "dividend_yield": 1.29,
     "high_1m": 2.74,
-    "low_1m": 2.51,
+    "low_1m": 2.58,
     "support_levels": [
       2.39
     ],
@@ -342969,8 +343034,8 @@ var STOCKS_DATABASE = {
         "close": 2.66
       },
       {
-        "date": "2026-06-02",
-        "close": 2.72
+        "date": "2026-06-01",
+        "close": 2.68
       }
     ]
   },
@@ -343523,8 +343588,8 @@ var STOCKS_DATABASE = {
         "close": 1.8
       },
       {
-        "date": "2026-06-02",
-        "close": 1.79
+        "date": "2026-06-01",
+        "close": 1.78
       }
     ]
   },
@@ -344073,8 +344138,8 @@ var STOCKS_DATABASE = {
         "close": 0.22
       },
       {
-        "date": "2026-06-02",
-        "close": 0.22
+        "date": "2026-06-01",
+        "close": 0.21
       }
     ]
   },
@@ -344627,8 +344692,8 @@ var STOCKS_DATABASE = {
         "close": 2.78
       },
       {
-        "date": "2026-06-02",
-        "close": 2.78
+        "date": "2026-06-01",
+        "close": 2.8
       }
     ]
   },
@@ -345165,8 +345230,8 @@ var STOCKS_DATABASE = {
         "close": 1.51
       },
       {
-        "date": "2026-06-02",
-        "close": 1.5
+        "date": "2026-06-01",
+        "close": 1.52
       }
     ]
   },
@@ -345178,7 +345243,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 16.88,
     "dividend_yield": 0.0,
     "high_1m": 1.4,
-    "low_1m": 0.86,
+    "low_1m": 0.88,
     "support_levels": [
       0.72,
       0.8,
@@ -345683,8 +345748,8 @@ var STOCKS_DATABASE = {
         "close": 1.25
       },
       {
-        "date": "2026-06-02",
-        "close": 1.35
+        "date": "2026-06-01",
+        "close": 1.34
       }
     ]
   },
@@ -346196,7 +346261,7 @@ var STOCKS_DATABASE = {
         "close": 0.13
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.13
       }
     ]
@@ -346750,8 +346815,8 @@ var STOCKS_DATABASE = {
         "close": 8.85
       },
       {
-        "date": "2026-06-02",
-        "close": 9.2
+        "date": "2026-06-01",
+        "close": 9.15
       }
     ]
   },
@@ -347835,8 +347900,8 @@ var STOCKS_DATABASE = {
         "close": 1.62
       },
       {
-        "date": "2026-06-02",
-        "close": 1.61
+        "date": "2026-06-01",
+        "close": 1.62
       }
     ]
   },
@@ -348390,7 +348455,7 @@ var STOCKS_DATABASE = {
         "close": 0.72
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.75
       }
     ]
@@ -348928,8 +348993,8 @@ var STOCKS_DATABASE = {
         "close": 3.1
       },
       {
-        "date": "2026-06-02",
-        "close": 3.18
+        "date": "2026-06-01",
+        "close": 3.02
       }
     ]
   },
@@ -348940,12 +349005,12 @@ var STOCKS_DATABASE = {
     "current_price": 1.35,
     "pe_ratio": 19.29,
     "dividend_yield": 6.67,
-    "high_1m": 1.49,
+    "high_1m": 1.48,
     "low_1m": 1.3,
     "support_levels": [
-      0.81,
       1.0,
-      1.27
+      1.27,
+      1.34
     ],
     "resistance_levels": [
       1.47,
@@ -349478,8 +349543,8 @@ var STOCKS_DATABASE = {
         "close": 1.41
       },
       {
-        "date": "2026-06-02",
-        "close": 1.35
+        "date": "2026-06-01",
+        "close": 1.4
       }
     ]
   },
@@ -349491,7 +349556,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 25.16,
     "dividend_yield": 0.0,
     "high_1m": 8.15,
-    "low_1m": 5.35,
+    "low_1m": 5.5,
     "support_levels": [
       3.98,
       4.2,
@@ -350032,8 +350097,8 @@ var STOCKS_DATABASE = {
         "close": 7.15
       },
       {
-        "date": "2026-06-02",
-        "close": 7.8
+        "date": "2026-06-01",
+        "close": 7.1
       }
     ]
   },
@@ -350567,8 +350632,8 @@ var STOCKS_DATABASE = {
         "close": 0.91
       },
       {
-        "date": "2026-06-02",
-        "close": 0.91
+        "date": "2026-06-01",
+        "close": 0.93
       }
     ]
   },
@@ -351121,8 +351186,8 @@ var STOCKS_DATABASE = {
         "close": 1.42
       },
       {
-        "date": "2026-06-02",
-        "close": 1.41
+        "date": "2026-06-01",
+        "close": 1.43
       }
     ]
   },
@@ -351131,7 +351196,7 @@ var STOCKS_DATABASE = {
     "name": "SiS Distribution (Thailand) Public Company Limited",
     "business_summary": "SiS Distribution (Thailand) Public Company Limited, together with its subsidiaries, distributes computer components, smartphones, and office automation equipment in Thailand. It operates in four segments: Commercial Products, Consumer Products, Value Added Products, and Phones. The company is also involved in the servicing and rental of computers and accessories. SiS Distribution (Thailand) Public Company Limited was incorporated in 1998 and is based in Bangkok, Thailand.",
     "current_price": 21.9,
-    "pe_ratio": 8.05,
+    "pe_ratio": 8.23,
     "dividend_yield": 5.57,
     "high_1m": 24.4,
     "low_1m": 20.4,
@@ -351675,8 +351740,8 @@ var STOCKS_DATABASE = {
         "close": 21.6
       },
       {
-        "date": "2026-06-02",
-        "close": 21.9
+        "date": "2026-06-01",
+        "close": 21.4
       }
     ]
   },
@@ -352216,8 +352281,8 @@ var STOCKS_DATABASE = {
         "close": 9.9
       },
       {
-        "date": "2026-06-02",
-        "close": 9.85
+        "date": "2026-06-01",
+        "close": 9.9
       }
     ]
   },
@@ -352229,7 +352294,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 10.7,
     "dividend_yield": 5.61,
     "high_1m": 1.08,
-    "low_1m": 0.97,
+    "low_1m": 0.98,
     "support_levels": [
       0.94,
       0.97,
@@ -352770,7 +352835,7 @@ var STOCKS_DATABASE = {
         "close": 1.06
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 1.07
       }
     ]
@@ -352783,7 +352848,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 12.92,
     "dividend_yield": 8.77,
     "high_1m": 8.45,
-    "low_1m": 7.3,
+    "low_1m": 7.4,
     "support_levels": [
       6.21,
       6.88,
@@ -353325,8 +353390,8 @@ var STOCKS_DATABASE = {
         "close": 7.65
       },
       {
-        "date": "2026-06-02",
-        "close": 7.75
+        "date": "2026-06-01",
+        "close": 7.6
       }
     ]
   },
@@ -353857,8 +353922,8 @@ var STOCKS_DATABASE = {
         "close": 0.54
       },
       {
-        "date": "2026-06-02",
-        "close": 0.54
+        "date": "2026-06-01",
+        "close": 0.53
       }
     ]
   },
@@ -354384,8 +354449,8 @@ var STOCKS_DATABASE = {
         "close": 0.18
       },
       {
-        "date": "2026-06-02",
-        "close": 0.18
+        "date": "2026-06-01",
+        "close": 0.17
       }
     ]
   },
@@ -355077,6 +355142,10 @@ var STOCKS_DATABASE = {
         "close": 1.0
       },
       {
+        "date": "2026-06-01",
+        "close": 1.0
+      },
+      {
         "date": "2026-06-02",
         "close": 0.99
       }
@@ -355623,8 +355692,8 @@ var STOCKS_DATABASE = {
         "close": 5.45
       },
       {
-        "date": "2026-06-02",
-        "close": 5.3
+        "date": "2026-06-01",
+        "close": 5.4
       }
     ]
   },
@@ -356176,7 +356245,7 @@ var STOCKS_DATABASE = {
         "close": 7.4
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 7.5
       }
     ]
@@ -356189,7 +356258,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 13.55,
     "dividend_yield": 2.33,
     "high_1m": 15.4,
-    "low_1m": 11.61,
+    "low_1m": 11.8,
     "support_levels": [
       9.76,
       11.55,
@@ -356705,8 +356774,8 @@ var STOCKS_DATABASE = {
         "close": 14.3
       },
       {
-        "date": "2026-06-02",
-        "close": 14.9
+        "date": "2026-06-01",
+        "close": 14.3
       }
     ]
   },
@@ -357249,7 +357318,7 @@ var STOCKS_DATABASE = {
         "close": 0.47
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.44
       }
     ]
@@ -357791,8 +357860,8 @@ var STOCKS_DATABASE = {
         "close": 0.54
       },
       {
-        "date": "2026-06-02",
-        "close": 0.54
+        "date": "2026-06-01",
+        "close": 0.53
       }
     ]
   },
@@ -357810,9 +357879,9 @@ var STOCKS_DATABASE = {
       1.19
     ],
     "resistance_levels": [
+      1.59,
       2.77,
-      3.71,
-      3.81
+      3.71
     ],
     "upcoming_xd": "2026-05-08",
     "upcoming_dividend_amount": 0.06,
@@ -358337,7 +358406,7 @@ var STOCKS_DATABASE = {
         "close": 1.28
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 1.25
       }
     ]
@@ -358889,8 +358958,8 @@ var STOCKS_DATABASE = {
         "close": 3.48
       },
       {
-        "date": "2026-06-02",
-        "close": 3.46
+        "date": "2026-06-01",
+        "close": 3.5
       }
     ]
   },
@@ -359465,6 +359534,10 @@ var STOCKS_DATABASE = {
         "close": 3.96
       },
       {
+        "date": "2026-06-01",
+        "close": 3.96
+      },
+      {
         "date": "2026-06-02",
         "close": 3.92
       }
@@ -359478,7 +359551,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 7.71,
     "dividend_yield": 7.69,
     "high_1m": 9.1,
-    "low_1m": 8.8,
+    "low_1m": 8.85,
     "support_levels": [
       7.69,
       8.65
@@ -360018,8 +360091,8 @@ var STOCKS_DATABASE = {
         "close": 9.1
       },
       {
-        "date": "2026-06-02",
-        "close": 9.1
+        "date": "2026-06-01",
+        "close": 9.05
       }
     ]
   },
@@ -360571,8 +360644,8 @@ var STOCKS_DATABASE = {
         "close": 3.22
       },
       {
-        "date": "2026-06-02",
-        "close": 3.2
+        "date": "2026-06-01",
+        "close": 2.94
       }
     ]
   },
@@ -361123,8 +361196,8 @@ var STOCKS_DATABASE = {
         "close": 6.5
       },
       {
-        "date": "2026-06-02",
-        "close": 6.85
+        "date": "2026-06-01",
+        "close": 6.8
       }
     ]
   },
@@ -361135,10 +361208,10 @@ var STOCKS_DATABASE = {
     "current_price": 6.65,
     "pe_ratio": 14.46,
     "dividend_yield": 8.95,
-    "high_1m": 7.0,
+    "high_1m": 6.85,
     "low_1m": 6.4,
     "support_levels": [
-      6.51
+      6.5
     ],
     "resistance_levels": [
       6.96,
@@ -361676,7 +361749,7 @@ var STOCKS_DATABASE = {
         "close": 6.6
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 6.65
       }
     ]
@@ -362227,8 +362300,8 @@ var STOCKS_DATABASE = {
         "close": 8.95
       },
       {
-        "date": "2026-06-02",
-        "close": 8.95
+        "date": "2026-06-01",
+        "close": 9.0
       }
     ]
   },
@@ -362752,7 +362825,7 @@ var STOCKS_DATABASE = {
         "close": 4.48
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 4.48
       }
     ]
@@ -363306,8 +363379,8 @@ var STOCKS_DATABASE = {
         "close": 4.62
       },
       {
-        "date": "2026-06-02",
-        "close": 4.64
+        "date": "2026-06-01",
+        "close": 4.62
       }
     ]
   },
@@ -363738,6 +363811,10 @@ var STOCKS_DATABASE = {
         "close": 2.92
       },
       {
+        "date": "2026-06-01",
+        "close": 2.92
+      },
+      {
         "date": "2026-06-02",
         "close": 3.42
       }
@@ -363750,7 +363827,7 @@ var STOCKS_DATABASE = {
     "current_price": 0.3,
     "pe_ratio": null,
     "dividend_yield": 0.0,
-    "high_1m": 0.37,
+    "high_1m": 0.36,
     "low_1m": 0.28,
     "support_levels": [
       0.18,
@@ -364273,7 +364350,7 @@ var STOCKS_DATABASE = {
         "close": 0.3
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.3
       }
     ]
@@ -364817,8 +364894,8 @@ var STOCKS_DATABASE = {
         "close": 1.49
       },
       {
-        "date": "2026-06-02",
-        "close": 1.52
+        "date": "2026-06-01",
+        "close": 1.48
       }
     ]
   },
@@ -364827,7 +364904,7 @@ var STOCKS_DATABASE = {
     "name": "S. Khonkaen Foods Public Company Limited",
     "business_summary": "S. Khonkaen Foods Public Company Limited, together with its subsidiaries, manufactures and distributes processed food products in Asia, the Americas, and Europe. It operates through four segments: Processed Food from Meat, Processed Seafood, Restaurants, and Swine Farm. The company offers local food products, such as sausages, pork rilo, and nuggets; jar yok, shredded pork, pork stick, pork ball, crispy pork, and dried pork products; and seafood products, including shrimp balls, fish balls, and fish tofu and fried fish cake products. It also provides frozen food items comprising pork leg, spicy soup, and cabbage soup with shiitake; snacks that consist of baked chicken breast, crispy pork, and roast chicken; and other food items, such as chili flakes, herbal drinks, and roasted red pork. In addition, the company is involved in breeding and sale of finishing swine products; restaurant and investment businesses; and provision of training and seminar services. S. Khonkaen Foods Public Company Limited was founded in 1984 and is headquartered in Samut Prakan, Thailand.",
     "current_price": 3.48,
-    "pe_ratio": 13.92,
+    "pe_ratio": 14.5,
     "dividend_yield": 7.18,
     "high_1m": 3.79,
     "low_1m": 3.38,
@@ -365368,8 +365445,8 @@ var STOCKS_DATABASE = {
         "close": 3.44
       },
       {
-        "date": "2026-06-02",
-        "close": 3.48
+        "date": "2026-06-01",
+        "close": 3.44
       }
     ]
   },
@@ -366097,7 +366174,7 @@ var STOCKS_DATABASE = {
     "symbol": "SP500US80",
     "name": "SP500US80_DR SP500US#KTB",
     "business_summary": "SPDR Series Trust - State Street SPDR Portfolio S&P 500 ETF is an exchange traded fund launched by State Street Global Advisors, Inc. The fund is managed by SSGA Funds Management, Inc. It invests in public equity markets of the United States. It invests in stocks of companies operating across diversified sectors. It invests in growth and value stocks of large-cap companies. It seeks to track the performance of the S&P 500 Index, by using representative sampling technique. SPDR Series Trust - State Street SPDR Portfolio S&P 500 ETF was formed on November 8, 2005 and is domiciled in the United States.",
-    "current_price": 2.9,
+    "current_price": 2.94,
     "pe_ratio": null,
     "dividend_yield": 0.0,
     "high_1m": 2.94,
@@ -367203,8 +367280,8 @@ var STOCKS_DATABASE = {
         "close": 2.94
       },
       {
-        "date": "2026-06-02",
-        "close": 2.98
+        "date": "2026-06-01",
+        "close": 2.92
       }
     ]
   },
@@ -367756,8 +367833,8 @@ var STOCKS_DATABASE = {
         "close": 1.16
       },
       {
-        "date": "2026-06-02",
-        "close": 1.14
+        "date": "2026-06-01",
+        "close": 1.15
       }
     ]
   },
@@ -368310,7 +368387,7 @@ var STOCKS_DATABASE = {
         "close": 15.5
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 15.5
       }
     ]
@@ -368861,7 +368938,7 @@ var STOCKS_DATABASE = {
         "close": 55.5
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 55.5
       }
     ]
@@ -369416,8 +369493,8 @@ var STOCKS_DATABASE = {
         "close": 8.8
       },
       {
-        "date": "2026-06-02",
-        "close": 8.95
+        "date": "2026-06-01",
+        "close": 8.85
       }
     ]
   },
@@ -369969,7 +370046,7 @@ var STOCKS_DATABASE = {
         "close": 10.8
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 10.8
       }
     ]
@@ -369982,7 +370059,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 27.78,
     "dividend_yield": 1.23,
     "high_1m": 40.0,
-    "low_1m": 31.14,
+    "low_1m": 31.25,
     "support_levels": [
       26.17,
       27.88
@@ -370521,8 +370598,8 @@ var STOCKS_DATABASE = {
         "close": 32.5
       },
       {
-        "date": "2026-06-02",
-        "close": 32.5
+        "date": "2026-06-01",
+        "close": 32.25
       }
     ]
   },
@@ -371075,8 +371152,8 @@ var STOCKS_DATABASE = {
         "close": 7.45
       },
       {
-        "date": "2026-06-02",
-        "close": 7.35
+        "date": "2026-06-01",
+        "close": 7.4
       }
     ]
   },
@@ -371090,9 +371167,9 @@ var STOCKS_DATABASE = {
     "high_1m": 1.63,
     "low_1m": 1.48,
     "support_levels": [
-      1.21,
       1.29,
-      1.41
+      1.41,
+      1.48
     ],
     "resistance_levels": [
       1.54,
@@ -371597,8 +371674,8 @@ var STOCKS_DATABASE = {
         "close": 1.54
       },
       {
-        "date": "2026-06-02",
-        "close": 1.52
+        "date": "2026-06-01",
+        "close": 1.53
       }
     ]
   },
@@ -371609,7 +371686,7 @@ var STOCKS_DATABASE = {
     "current_price": 0.01,
     "pe_ratio": null,
     "dividend_yield": 0.0,
-    "high_1m": 0.02,
+    "high_1m": 0.01,
     "low_1m": 0.01,
     "support_levels": [
       0.01,
@@ -372108,7 +372185,7 @@ var STOCKS_DATABASE = {
         "close": 0.01
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.01
       }
     ]
@@ -372121,7 +372198,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 10.53,
     "dividend_yield": 4.05,
     "high_1m": 3.58,
-    "low_1m": 2.84,
+    "low_1m": 3.0,
     "support_levels": [
       2.1,
       2.2,
@@ -372662,8 +372739,8 @@ var STOCKS_DATABASE = {
         "close": 3.3
       },
       {
-        "date": "2026-06-02",
-        "close": 3.58
+        "date": "2026-06-01",
+        "close": 3.3
       }
     ]
   },
@@ -373200,7 +373277,7 @@ var STOCKS_DATABASE = {
         "close": 0.18
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.2
       }
     ]
@@ -373743,8 +373820,8 @@ var STOCKS_DATABASE = {
         "close": 0.32
       },
       {
-        "date": "2026-06-02",
-        "close": 0.31
+        "date": "2026-06-01",
+        "close": 0.32
       }
     ]
   },
@@ -374297,8 +374374,8 @@ var STOCKS_DATABASE = {
         "close": 18.4
       },
       {
-        "date": "2026-06-02",
-        "close": 17.1
+        "date": "2026-06-01",
+        "close": 17.0
       }
     ]
   },
@@ -374309,7 +374386,7 @@ var STOCKS_DATABASE = {
     "current_price": 1.79,
     "pe_ratio": null,
     "dividend_yield": 14.16,
-    "high_1m": 1.92,
+    "high_1m": 1.9,
     "low_1m": 1.69,
     "support_levels": [
       1.47,
@@ -374831,8 +374908,8 @@ var STOCKS_DATABASE = {
         "close": 1.74
       },
       {
-        "date": "2026-06-02",
-        "close": 1.79
+        "date": "2026-06-01",
+        "close": 1.8
       }
     ]
   },
@@ -374841,7 +374918,7 @@ var STOCKS_DATABASE = {
     "name": "Surapon Foods Public Company Limited",
     "business_summary": "Surapon Foods Public Company Limited manufactures and distributes seafood, and finished and semi-finished frozen foods in Thailand, Japan, Australia, Taiwan, the United Kingdom, South Korea, the United Arab Emirates, and internationally. The company provides various food products, including boiled shrimp, sushi shrimp, fish, squid, etc.; ready to eat products, such as dim sum, deep-fried food, and processed chicken; Halal products comprising dim sum and deep-fried foods under the Farhana brand name; and sales and marketing, as well as cold storage warehouse and logistic services. It exports its products to Cambodia, Laos, and Myanmar. The company was founded in 1977 and is headquartered in Muang, Thailand.",
     "current_price": 4.98,
-    "pe_ratio": 11.07,
+    "pe_ratio": 10.83,
     "dividend_yield": 7.44,
     "high_1m": 5.25,
     "low_1m": 4.96,
@@ -375384,8 +375461,8 @@ var STOCKS_DATABASE = {
         "close": 5.1
       },
       {
-        "date": "2026-06-02",
-        "close": 4.98
+        "date": "2026-06-01",
+        "close": 5.1
       }
     ]
   },
@@ -375938,8 +376015,8 @@ var STOCKS_DATABASE = {
         "close": 3.62
       },
       {
-        "date": "2026-06-02",
-        "close": 3.66
+        "date": "2026-06-01",
+        "close": 3.62
       }
     ]
   },
@@ -376491,8 +376568,8 @@ var STOCKS_DATABASE = {
         "close": 2.14
       },
       {
-        "date": "2026-06-02",
-        "close": 2.14
+        "date": "2026-06-01",
+        "close": 2.12
       }
     ]
   },
@@ -376503,7 +376580,7 @@ var STOCKS_DATABASE = {
     "current_price": 1.0,
     "pe_ratio": null,
     "dividend_yield": 0.0,
-    "high_1m": 1.12,
+    "high_1m": 1.11,
     "low_1m": 0.98,
     "support_levels": [
       0.98,
@@ -377045,7 +377122,7 @@ var STOCKS_DATABASE = {
         "close": 1.02
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 1.0
       }
     ]
@@ -377598,8 +377675,8 @@ var STOCKS_DATABASE = {
         "close": 19.3
       },
       {
-        "date": "2026-06-02",
-        "close": 19.7
+        "date": "2026-06-01",
+        "close": 19.2
       }
     ]
   },
@@ -378152,8 +378229,8 @@ var STOCKS_DATABASE = {
         "close": 223.0
       },
       {
-        "date": "2026-06-02",
-        "close": 230.0
+        "date": "2026-06-01",
+        "close": 224.0
       }
     ]
   },
@@ -378165,7 +378242,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 12.25,
     "dividend_yield": 5.92,
     "high_1m": 0.98,
-    "low_1m": 0.79,
+    "low_1m": 0.81,
     "support_levels": [
       0.78,
       0.92
@@ -378680,8 +378757,8 @@ var STOCKS_DATABASE = {
         "close": 0.9
       },
       {
-        "date": "2026-06-02",
-        "close": 0.98
+        "date": "2026-06-01",
+        "close": 0.91
       }
     ]
   },
@@ -379213,7 +379290,7 @@ var STOCKS_DATABASE = {
         "close": 0.55
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.58
       }
     ]
@@ -379741,8 +379818,8 @@ var STOCKS_DATABASE = {
         "close": 1.06
       },
       {
-        "date": "2026-06-02",
-        "close": 1.06
+        "date": "2026-06-01",
+        "close": 1.03
       }
     ]
   },
@@ -379754,7 +379831,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 12.6,
     "dividend_yield": 4.2,
     "high_1m": 16.5,
-    "low_1m": 11.8,
+    "low_1m": 12.5,
     "support_levels": [
       7.68,
       11.0,
@@ -380259,8 +380336,8 @@ var STOCKS_DATABASE = {
         "close": 14.7
       },
       {
-        "date": "2026-06-02",
-        "close": 16.5
+        "date": "2026-06-01",
+        "close": 15.7
       }
     ]
   },
@@ -380772,8 +380849,8 @@ var STOCKS_DATABASE = {
         "close": 0.27
       },
       {
-        "date": "2026-06-02",
-        "close": 0.3
+        "date": "2026-06-01",
+        "close": 0.29
       }
     ]
   },
@@ -380785,7 +380862,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": null,
     "dividend_yield": 4.24,
     "high_1m": 12.2,
-    "low_1m": 10.3,
+    "low_1m": 10.4,
     "support_levels": [
       6.19,
       7.95,
@@ -381326,8 +381403,8 @@ var STOCKS_DATABASE = {
         "close": 11.7
       },
       {
-        "date": "2026-06-02",
-        "close": 11.8
+        "date": "2026-06-01",
+        "close": 11.5
       }
     ]
   },
@@ -381339,7 +381416,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 21.5,
     "dividend_yield": 1.51,
     "high_1m": 1.74,
-    "low_1m": 1.54,
+    "low_1m": 1.56,
     "support_levels": [
       1.58,
       1.63,
@@ -381873,8 +381950,8 @@ var STOCKS_DATABASE = {
         "close": 1.7
       },
       {
-        "date": "2026-06-02",
-        "close": 1.72
+        "date": "2026-06-01",
+        "close": 1.7
       }
     ]
   },
@@ -382390,7 +382467,7 @@ var STOCKS_DATABASE = {
         "close": 0.03
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.03
       }
     ]
@@ -382936,8 +383013,8 @@ var STOCKS_DATABASE = {
         "close": 11.1
       },
       {
-        "date": "2026-06-02",
-        "close": 11.1
+        "date": "2026-06-01",
+        "close": 11.2
       }
     ]
   },
@@ -382949,7 +383026,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 87.5,
     "dividend_yield": 0.0,
     "high_1m": 5.45,
-    "low_1m": 4.02,
+    "low_1m": 4.12,
     "support_levels": [
       4.0,
       4.18,
@@ -383489,8 +383566,8 @@ var STOCKS_DATABASE = {
         "close": 5.3
       },
       {
-        "date": "2026-06-02",
-        "close": 5.25
+        "date": "2026-06-01",
+        "close": 5.2
       }
     ]
   },
@@ -384015,8 +384092,8 @@ var STOCKS_DATABASE = {
         "close": 0.87
       },
       {
-        "date": "2026-06-02",
-        "close": 0.86
+        "date": "2026-06-01",
+        "close": 0.87
       }
     ]
   },
@@ -384567,7 +384644,7 @@ var STOCKS_DATABASE = {
         "close": 27.0
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 27.25
       }
     ]
@@ -385121,8 +385198,8 @@ var STOCKS_DATABASE = {
         "close": 2.4
       },
       {
-        "date": "2026-06-02",
-        "close": 2.44
+        "date": "2026-06-01",
+        "close": 2.46
       }
     ]
   },
@@ -385647,7 +385724,7 @@ var STOCKS_DATABASE = {
         "close": 0.12
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.13
       }
     ]
@@ -386200,8 +386277,8 @@ var STOCKS_DATABASE = {
         "close": 2.08
       },
       {
-        "date": "2026-06-02",
-        "close": 2.1
+        "date": "2026-06-01",
+        "close": 2.08
       }
     ]
   },
@@ -386752,8 +386829,8 @@ var STOCKS_DATABASE = {
         "close": 2.36
       },
       {
-        "date": "2026-06-02",
-        "close": 2.58
+        "date": "2026-06-01",
+        "close": 2.38
       }
     ]
   },
@@ -387775,7 +387852,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 6.59,
     "dividend_yield": 4.65,
     "high_1m": 1.86,
-    "low_1m": 1.48,
+    "low_1m": 1.61,
     "support_levels": [
       1.28,
       1.36,
@@ -388316,8 +388393,8 @@ var STOCKS_DATABASE = {
         "close": 1.74
       },
       {
-        "date": "2026-06-02",
-        "close": 1.78
+        "date": "2026-06-01",
+        "close": 1.73
       }
     ]
   },
@@ -388332,7 +388409,8 @@ var STOCKS_DATABASE = {
     "low_1m": 0.29,
     "support_levels": [
       0.27,
-      0.28
+      0.28,
+      0.29
     ],
     "resistance_levels": [
       0.31,
@@ -388834,7 +388912,7 @@ var STOCKS_DATABASE = {
         "close": 0.3
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.3
       }
     ]
@@ -389369,8 +389447,8 @@ var STOCKS_DATABASE = {
         "close": 1.25
       },
       {
-        "date": "2026-06-02",
-        "close": 1.28
+        "date": "2026-06-01",
+        "close": 1.27
       }
     ]
   },
@@ -389382,7 +389460,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 14.06,
     "dividend_yield": 7.22,
     "high_1m": 4.6,
-    "low_1m": 3.96,
+    "low_1m": 4.18,
     "support_levels": [
       3.31,
       3.58,
@@ -389923,7 +390001,7 @@ var STOCKS_DATABASE = {
         "close": 4.46
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 4.5
       }
     ]
@@ -389936,7 +390014,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 20.0,
     "dividend_yield": 1.87,
     "high_1m": 5.5,
-    "low_1m": 4.12,
+    "low_1m": 4.14,
     "support_levels": [
       3.49,
       3.7,
@@ -390477,7 +390555,7 @@ var STOCKS_DATABASE = {
         "close": 5.4
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 5.2
       }
     ]
@@ -391031,8 +391109,8 @@ var STOCKS_DATABASE = {
         "close": 9.3
       },
       {
-        "date": "2026-06-02",
-        "close": 9.25
+        "date": "2026-06-01",
+        "close": 9.05
       }
     ]
   },
@@ -391583,7 +391661,7 @@ var STOCKS_DATABASE = {
         "close": 1.65
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 1.64
       }
     ]
@@ -391596,7 +391674,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 10.55,
     "dividend_yield": 7.24,
     "high_1m": 6.0,
-    "low_1m": 5.35,
+    "low_1m": 5.4,
     "support_levels": [
       4.55,
       4.74,
@@ -392136,7 +392214,7 @@ var STOCKS_DATABASE = {
         "close": 5.75
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 5.8
       }
     ]
@@ -392149,7 +392227,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 15.0,
     "dividend_yield": 0.0,
     "high_1m": 1.87,
-    "low_1m": 1.27,
+    "low_1m": 1.32,
     "support_levels": [
       0.48,
       0.57,
@@ -392690,8 +392768,8 @@ var STOCKS_DATABASE = {
         "close": 1.56
       },
       {
-        "date": "2026-06-02",
-        "close": 1.8
+        "date": "2026-06-01",
+        "close": 1.56
       }
     ]
   },
@@ -393241,8 +393319,8 @@ var STOCKS_DATABASE = {
         "close": 0.37
       },
       {
-        "date": "2026-06-02",
-        "close": 0.39
+        "date": "2026-06-01",
+        "close": 0.38
       }
     ]
   },
@@ -393771,8 +393849,8 @@ var STOCKS_DATABASE = {
         "close": 3.68
       },
       {
-        "date": "2026-06-02",
-        "close": 3.78
+        "date": "2026-06-01",
+        "close": 3.7
       }
     ]
   },
@@ -393793,9 +393871,9 @@ var STOCKS_DATABASE = {
       0.57,
       0.54
     ],
-    "upcoming_xd": "2026-07-02",
+    "upcoming_xd": "2026-07-03",
     "upcoming_dividend_amount": 0.04,
-    "upcoming_payment_date": "2026-07-17",
+    "upcoming_payment_date": "2026-07-18",
     "dividend_history": [
       {
         "date": "2024-04-17",
@@ -394337,7 +394415,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 18.77,
     "dividend_yield": 7.3,
     "high_1m": 13.9,
-    "low_1m": 13.5,
+    "low_1m": 13.6,
     "support_levels": [
       12.56,
       13.49
@@ -394878,8 +394956,8 @@ var STOCKS_DATABASE = {
         "close": 13.7
       },
       {
-        "date": "2026-06-02",
-        "close": 13.7
+        "date": "2026-06-01",
+        "close": 13.8
       }
     ]
   },
@@ -395399,8 +395477,8 @@ var STOCKS_DATABASE = {
         "close": 0.97
       },
       {
-        "date": "2026-06-02",
-        "close": 0.97
+        "date": "2026-06-01",
+        "close": 0.96
       }
     ]
   },
@@ -395925,8 +396003,8 @@ var STOCKS_DATABASE = {
         "close": 3.56
       },
       {
-        "date": "2026-06-02",
-        "close": 3.52
+        "date": "2026-06-01",
+        "close": 3.64
       }
     ]
   },
@@ -395943,9 +396021,9 @@ var STOCKS_DATABASE = {
       0.95
     ],
     "resistance_levels": [
+      1.33,
       1.72,
-      1.97,
-      2.06
+      1.97
     ],
     "upcoming_xd": "2021-09-16",
     "upcoming_dividend_amount": 0.78,
@@ -396478,8 +396556,8 @@ var STOCKS_DATABASE = {
         "close": 1.15
       },
       {
-        "date": "2026-06-02",
-        "close": 1.19
+        "date": "2026-06-01",
+        "close": 1.15
       }
     ]
   },
@@ -396491,7 +396569,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 8.91,
     "dividend_yield": 5.26,
     "high_1m": 5.8,
-    "low_1m": 5.27,
+    "low_1m": 5.36,
     "support_levels": [
       4.8,
       5.13
@@ -397031,8 +397109,8 @@ var STOCKS_DATABASE = {
         "close": 5.7
       },
       {
-        "date": "2026-06-02",
-        "close": 5.7
+        "date": "2026-06-01",
+        "close": 5.6
       }
     ]
   },
@@ -397044,7 +397122,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 7.88,
     "dividend_yield": 5.71,
     "high_1m": 61.25,
-    "low_1m": 56.25,
+    "low_1m": 56.5,
     "support_levels": [
       41.73,
       48.22,
@@ -397585,8 +397663,8 @@ var STOCKS_DATABASE = {
         "close": 60.0
       },
       {
-        "date": "2026-06-02",
-        "close": 61.25
+        "date": "2026-06-01",
+        "close": 59.75
       }
     ]
   },
@@ -397597,7 +397675,7 @@ var STOCKS_DATABASE = {
     "current_price": 0.33,
     "pe_ratio": 33.0,
     "dividend_yield": 0.0,
-    "high_1m": 0.37,
+    "high_1m": 0.36,
     "low_1m": 0.3,
     "support_levels": [
       0.27,
@@ -398112,7 +398190,7 @@ var STOCKS_DATABASE = {
         "close": 0.33
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.33
       }
     ]
@@ -398646,8 +398724,8 @@ var STOCKS_DATABASE = {
         "close": 2.4
       },
       {
-        "date": "2026-06-02",
-        "close": 2.4
+        "date": "2026-06-01",
+        "close": 2.36
       }
     ]
   },
@@ -399187,8 +399265,8 @@ var STOCKS_DATABASE = {
         "close": 0.31
       },
       {
-        "date": "2026-06-02",
-        "close": 0.31
+        "date": "2026-06-01",
+        "close": 0.3
       }
     ]
   },
@@ -400293,8 +400371,8 @@ var STOCKS_DATABASE = {
         "close": 5.05
       },
       {
-        "date": "2026-06-02",
-        "close": 5.0
+        "date": "2026-06-01",
+        "close": 4.72
       }
     ]
   },
@@ -400304,7 +400382,7 @@ var STOCKS_DATABASE = {
     "business_summary": "TEAM Consulting Engineering and Management Public Company Limited, together with its subsidiaries, provides integrated engineering, environment, and management consultancy services in Thailand and internationally. The company offers transportation and logistics services, such as roads, bridges, intercity expressways, mass transit systems, rail systems, double-track railways, high-speed trains, airports, ports, traffic engineering and management, and logistics management. It also provides services related to water supply development, and water resource management and development for consumption, irrigation, hydropower, flood prevention and drainage, coastal engineering, and water situation forecasting. The company also offers planning, designing, project analysis and management, construction supervision, operation, and maintenance for building and infrastructure projects; and services related to building and utility systems, including real estate development projects, such as condominiums, hotels, shopping centers and mixed-use complexes, industrial estates, factories, green buildings, urban and regional planning, land development planning, buildings, and industrial estates, as well as the transit oriented development. It provides consulting services related to energy, power, oil and gas, and petroleum as well as related industries including port and utilities; in the areas of strategic management, finance and investment, accounting, marketing, project management, and project development; and in the field of geotechnical, foundation, and underground structure engineering services. The company also offers architectural planning and design, interior design, urban development, and landscape architecture services; engineering, procurement, and construction services; and asset management, and climate and sustainability services, as well as installs and manages various measurement systems. The company was incorporated in 1978 and is based in Bangkok, Thailand.",
     "current_price": 3.06,
     "pe_ratio": 12.75,
-    "dividend_yield": 5.3,
+    "dividend_yield": 5.23,
     "high_1m": 3.32,
     "low_1m": 2.66,
     "support_levels": [
@@ -400848,8 +400926,8 @@ var STOCKS_DATABASE = {
         "close": 3.16
       },
       {
-        "date": "2026-06-02",
-        "close": 3.06
+        "date": "2026-06-01",
+        "close": 3.02
       }
     ]
   },
@@ -401378,7 +401456,7 @@ var STOCKS_DATABASE = {
         "close": 3.2
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 3.14
       }
     ]
@@ -401912,8 +401990,8 @@ var STOCKS_DATABASE = {
         "close": 1.74
       },
       {
-        "date": "2026-06-02",
-        "close": 1.74
+        "date": "2026-06-01",
+        "close": 1.77
       }
     ]
   },
@@ -401923,7 +402001,7 @@ var STOCKS_DATABASE = {
     "business_summary": "Tencent Holdings Limited, an investment holding company, provides value-added services, marketing services, fintech, and business services in Mainland China and internationally. The company's consumers business includes communications and social services, such as instant messaging and social networks; digital content, including online games, videos, live streaming, news, music, and literature; fintech services, which include mobile payment, wealth management, consumer loans, and securities trading; and various tools comprising network security management, browsing, navigation, application management, email, etc. Its enterprise business comprises marketing solutions, which offer digital tools, including user insight, creative management, placement strategy, and digital assets management; and cloud services, such as cloud computing, big data analytics, artificial intelligence, Internet of Things, and security and other technologies for financial services, education, healthcare, retail, industry, transport, energy, and radio and television industries. The company also invests in, produces, and distributes films and television programs; offers copyrights licensing and merchandise sales and other services; provides internet advertisement services; and offers software development, and information technology and system integration services, as well as develops and operates mobile games. The company was formerly known as Tencent (BVI) Limited and changed its name to Tencent Holdings Limited in February 2004. Tencent Holdings Limited was founded in 1998 and is headquartered in Shenzhen, the People's Republic of China.",
     "current_price": 1.99,
     "pe_ratio": null,
-    "dividend_yield": 2.62,
+    "dividend_yield": 2.39,
     "high_1m": 2.02,
     "low_1m": 1.76,
     "support_levels": [
@@ -402549,7 +402627,7 @@ var STOCKS_DATABASE = {
     "business_summary": "Tencent Holdings Limited, an investment holding company, provides value-added services, marketing services, fintech, and business services in Mainland China and internationally. The company's consumers business includes communications and social services, such as instant messaging and social networks; digital content, including online games, videos, live streaming, news, music, and literature; fintech services, which include mobile payment, wealth management, consumer loans, and securities trading; and various tools comprising network security management, browsing, navigation, application management, email, etc. Its enterprise business comprises marketing solutions, which offer digital tools, including user insight, creative management, placement strategy, and digital assets management; and cloud services, such as cloud computing, big data analytics, artificial intelligence, Internet of Things, and security and other technologies for financial services, education, healthcare, retail, industry, transport, energy, and radio and television industries. The company also invests in, produces, and distributes films and television programs; offers copyrights licensing and merchandise sales and other services; provides internet advertisement services; and offers software development, and information technology and system integration services, as well as develops and operates mobile games. The company was formerly known as Tencent (BVI) Limited and changed its name to Tencent Holdings Limited in February 2004. Tencent Holdings Limited was founded in 1998 and is headquartered in Shenzhen, the People's Republic of China.",
     "current_price": 2.24,
     "pe_ratio": null,
-    "dividend_yield": 2.33,
+    "dividend_yield": 2.13,
     "high_1m": 2.24,
     "low_1m": 1.96,
     "support_levels": [
@@ -402775,13 +402853,12 @@ var STOCKS_DATABASE = {
     "pe_ratio": 15.86,
     "dividend_yield": 6.04,
     "high_1m": 1.17,
-    "low_1m": 1.04,
+    "low_1m": 1.05,
     "support_levels": [
       0.92
     ],
     "resistance_levels": [
-      1.17,
-      1.22
+      1.14
     ],
     "upcoming_xd": "2026-04-29",
     "upcoming_dividend_amount": 0.07,
@@ -403286,8 +403363,8 @@ var STOCKS_DATABASE = {
         "close": 1.12
       },
       {
-        "date": "2026-06-02",
-        "close": 1.11
+        "date": "2026-06-01",
+        "close": 1.12
       }
     ]
   },
@@ -403296,7 +403373,7 @@ var STOCKS_DATABASE = {
     "name": "Thaifoods Group Public Company Limited",
     "business_summary": "Thaifoods Group Public Company Limited, together with its subsidiaries, engages in the production and distribution of chicken and swine products in Thailand, Vietnam, Japan, and internationally. It operates through five segments: Poultry Business, Swine Business, Feed Mill Business, Retail Business, and Other Businesses. The company offers frozen chicken products; and processed foods, including jumbo cheese, chicken hotdog cheese, footlong chicken, chicken cocktail cheese, chicken garlic, cheese, smoked chicken, smoked crispy chicken, and jumbo smoked chicken sausages; chili chicken and chicken yor roll, chili chicken and chicken yor slide, chili bologna, bolognas, chicken meatball with crab stick, chicken tendon meat ball, and chicken meatball with seaweed. It also provides pork products comprising collar, shoulder, knuckle, spare rib, ham, tenderloin, belly, and head; and feed products. In addition, the company is involved in production and distribution of broiler chick, and sauce and seasoning products; research of cattle disease; manufacturing of vaccine, sack, and plastic sack; retail and real estate development businesses, as well as construction business and related services; breeding and distribution of pets; production and distribution of renewable energy; and operates as a consulting and service provider for logistics software. Further, it provides credit and leasing; and asset management services. Thaifoods Group Public Company Limited was founded in 1987 and is based in Bangkok, Thailand.",
     "current_price": 9.25,
-    "pe_ratio": 7.77,
+    "pe_ratio": 7.4,
     "dividend_yield": 7.68,
     "high_1m": 11.5,
     "low_1m": 9.0,
@@ -403840,8 +403917,8 @@ var STOCKS_DATABASE = {
         "close": 9.75
       },
       {
-        "date": "2026-06-02",
-        "close": 9.25
+        "date": "2026-06-01",
+        "close": 9.75
       }
     ]
   },
@@ -404361,7 +404438,7 @@ var STOCKS_DATABASE = {
         "close": 0.04
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.04
       }
     ]
@@ -404373,7 +404450,7 @@ var STOCKS_DATABASE = {
     "current_price": 6.45,
     "pe_ratio": 7.87,
     "dividend_yield": 9.3,
-    "high_1m": 6.85,
+    "high_1m": 6.75,
     "low_1m": 6.4,
     "support_levels": [
       4.2,
@@ -404906,8 +404983,8 @@ var STOCKS_DATABASE = {
         "close": 6.5
       },
       {
-        "date": "2026-06-02",
-        "close": 6.45
+        "date": "2026-06-01",
+        "close": 6.5
       }
     ]
   },
@@ -404924,7 +405001,7 @@ var STOCKS_DATABASE = {
       188.49
     ],
     "resistance_levels": [
-      191.64
+      191.38
     ],
     "upcoming_xd": "2026-05-11",
     "upcoming_dividend_amount": 2.02,
@@ -405457,8 +405534,8 @@ var STOCKS_DATABASE = {
         "close": 188.0
       },
       {
-        "date": "2026-06-02",
-        "close": 189.5
+        "date": "2026-06-01",
+        "close": 187.0
       }
     ]
   },
@@ -405987,8 +406064,8 @@ var STOCKS_DATABASE = {
         "close": 1.12
       },
       {
-        "date": "2026-06-02",
-        "close": 1.08
+        "date": "2026-06-01",
+        "close": 1.09
       }
     ]
   },
@@ -406508,8 +406585,8 @@ var STOCKS_DATABASE = {
         "close": 10.3
       },
       {
-        "date": "2026-06-02",
-        "close": 10.8
+        "date": "2026-06-01",
+        "close": 10.7
       }
     ]
   },
@@ -407020,7 +407097,7 @@ var STOCKS_DATABASE = {
         "close": 0.04
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.04
       }
     ]
@@ -407553,7 +407630,7 @@ var STOCKS_DATABASE = {
         "close": 0.44
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.46
       }
     ]
@@ -407569,7 +407646,7 @@ var STOCKS_DATABASE = {
     "low_1m": 5.85,
     "support_levels": [
       5.6,
-      5.87,
+      5.9,
       6.52
     ],
     "resistance_levels": [
@@ -408108,8 +408185,8 @@ var STOCKS_DATABASE = {
         "close": 6.75
       },
       {
-        "date": "2026-06-02",
-        "close": 6.8
+        "date": "2026-06-01",
+        "close": 6.7
       }
     ]
   },
@@ -408663,7 +408740,7 @@ var STOCKS_DATABASE = {
         "close": 1.54
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 1.54
       }
     ]
@@ -409217,8 +409294,8 @@ var STOCKS_DATABASE = {
         "close": 1.63
       },
       {
-        "date": "2026-06-02",
-        "close": 1.66
+        "date": "2026-06-01",
+        "close": 1.65
       }
     ]
   },
@@ -409771,8 +409848,8 @@ var STOCKS_DATABASE = {
         "close": 11.5
       },
       {
-        "date": "2026-06-02",
-        "close": 11.8
+        "date": "2026-06-01",
+        "close": 11.5
       }
     ]
   },
@@ -410325,8 +410402,8 @@ var STOCKS_DATABASE = {
         "close": 0.81
       },
       {
-        "date": "2026-06-02",
-        "close": 0.8
+        "date": "2026-06-01",
+        "close": 0.81
       }
     ]
   },
@@ -410337,7 +410414,7 @@ var STOCKS_DATABASE = {
     "current_price": 7.8,
     "pe_ratio": 86.67,
     "dividend_yield": 1.79,
-    "high_1m": 8.45,
+    "high_1m": 8.15,
     "low_1m": 7.4,
     "support_levels": [
       6.15,
@@ -410880,8 +410957,8 @@ var STOCKS_DATABASE = {
         "close": 7.85
       },
       {
-        "date": "2026-06-02",
-        "close": 7.8
+        "date": "2026-06-01",
+        "close": 7.75
       }
     ]
   },
@@ -411434,8 +411511,8 @@ var STOCKS_DATABASE = {
         "close": 21.0
       },
       {
-        "date": "2026-06-02",
-        "close": 21.0
+        "date": "2026-06-01",
+        "close": 20.9
       }
     ]
   },
@@ -411961,8 +412038,8 @@ var STOCKS_DATABASE = {
         "close": 0.32
       },
       {
-        "date": "2026-06-02",
-        "close": 0.32
+        "date": "2026-06-01",
+        "close": 0.33
       }
     ]
   },
@@ -412515,7 +412592,7 @@ var STOCKS_DATABASE = {
         "close": 0.34
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.35
       }
     ]
@@ -413068,8 +413145,8 @@ var STOCKS_DATABASE = {
         "close": 1.03
       },
       {
-        "date": "2026-06-02",
-        "close": 1.02
+        "date": "2026-06-01",
+        "close": 1.01
       }
     ]
   },
@@ -413080,17 +413157,17 @@ var STOCKS_DATABASE = {
     "current_price": 17.8,
     "pe_ratio": 9.62,
     "dividend_yield": 5.79,
-    "high_1m": 18.6,
-    "low_1m": 15.7,
+    "high_1m": 17.9,
+    "low_1m": 15.11,
     "support_levels": [
-      14.1,
-      14.9,
-      16.45
+      14.34,
+      15.83,
+      17.38
     ],
     "resistance_levels": [
-      19.4,
-      20.44,
-      21.7
+      18.67,
+      19.67,
+      20.88
     ],
     "upcoming_xd": "2026-06-02",
     "upcoming_dividend_amount": 0.69,
@@ -413108,491 +413185,491 @@ var STOCKS_DATABASE = {
     "history": [
       {
         "date": "2025-06-04",
-        "close": 16.1
+        "close": 15.49
       },
       {
         "date": "2025-06-06",
-        "close": 16.0
+        "close": 15.4
       },
       {
         "date": "2025-06-10",
-        "close": 15.9
-      },
-      {
-        "date": "2025-06-12",
-        "close": 15.12
-      },
-      {
-        "date": "2025-06-16",
-        "close": 14.53
-      },
-      {
-        "date": "2025-06-18",
-        "close": 14.53
-      },
-      {
-        "date": "2025-06-20",
-        "close": 13.55
-      },
-      {
-        "date": "2025-06-24",
-        "close": 14.23
-      },
-      {
-        "date": "2025-06-26",
-        "close": 15.12
-      },
-      {
-        "date": "2025-06-30",
-        "close": 14.82
-      },
-      {
-        "date": "2025-07-02",
-        "close": 15.02
-      },
-      {
-        "date": "2025-07-04",
-        "close": 15.02
-      },
-      {
-        "date": "2025-07-08",
-        "close": 15.02
-      },
-      {
-        "date": "2025-07-11",
-        "close": 15.22
-      },
-      {
-        "date": "2025-07-15",
-        "close": 17.08
-      },
-      {
-        "date": "2025-07-17",
-        "close": 17.18
-      },
-      {
-        "date": "2025-07-21",
-        "close": 17.18
-      },
-      {
-        "date": "2025-07-23",
-        "close": 17.18
-      },
-      {
-        "date": "2025-07-25",
-        "close": 16.39
-      },
-      {
-        "date": "2025-07-30",
-        "close": 17.57
-      },
-      {
-        "date": "2025-08-01",
-        "close": 16.39
-      },
-      {
-        "date": "2025-08-05",
-        "close": 17.47
-      },
-      {
-        "date": "2025-08-07",
-        "close": 17.87
-      },
-      {
-        "date": "2025-08-13",
-        "close": 18.36
-      },
-      {
-        "date": "2025-08-15",
-        "close": 18.75
-      },
-      {
-        "date": "2025-08-19",
-        "close": 18.26
-      },
-      {
-        "date": "2025-08-21",
-        "close": 18.46
-      },
-      {
-        "date": "2025-08-25",
-        "close": 19.05
-      },
-      {
-        "date": "2025-08-27",
-        "close": 18.46
-      },
-      {
-        "date": "2025-08-29",
-        "close": 18.46
-      },
-      {
-        "date": "2025-09-02",
-        "close": 19.14
-      },
-      {
-        "date": "2025-09-04",
-        "close": 19.73
-      },
-      {
-        "date": "2025-09-08",
-        "close": 19.93
-      },
-      {
-        "date": "2025-09-10",
-        "close": 20.32
-      },
-      {
-        "date": "2025-09-12",
-        "close": 20.03
-      },
-      {
-        "date": "2025-09-16",
-        "close": 20.52
-      },
-      {
-        "date": "2025-09-18",
-        "close": 20.03
-      },
-      {
-        "date": "2025-09-22",
-        "close": 19.63
-      },
-      {
-        "date": "2025-09-24",
-        "close": 19.54
-      },
-      {
-        "date": "2025-09-26",
-        "close": 19.73
-      },
-      {
-        "date": "2025-09-30",
-        "close": 19.34
-      },
-      {
-        "date": "2025-10-02",
-        "close": 19.63
-      },
-      {
-        "date": "2025-10-06",
-        "close": 19.83
-      },
-      {
-        "date": "2025-10-08",
-        "close": 20.03
-      },
-      {
-        "date": "2025-10-10",
-        "close": 20.81
-      },
-      {
-        "date": "2025-10-15",
-        "close": 21.7
-      },
-      {
-        "date": "2025-10-17",
-        "close": 21.21
-      },
-      {
-        "date": "2025-10-21",
-        "close": 21.5
-      },
-      {
-        "date": "2025-10-24",
-        "close": 21.6
-      },
-      {
-        "date": "2025-10-28",
-        "close": 21.01
-      },
-      {
-        "date": "2025-10-30",
-        "close": 21.01
-      },
-      {
-        "date": "2025-11-03",
-        "close": 20.91
-      },
-      {
-        "date": "2025-11-05",
-        "close": 20.32
-      },
-      {
-        "date": "2025-11-07",
-        "close": 20.71
-      },
-      {
-        "date": "2025-11-11",
-        "close": 20.42
-      },
-      {
-        "date": "2025-11-13",
-        "close": 19.93
-      },
-      {
-        "date": "2025-11-17",
-        "close": 19.93
-      },
-      {
-        "date": "2025-11-19",
-        "close": 19.24
-      },
-      {
-        "date": "2025-11-21",
-        "close": 18.95
-      },
-      {
-        "date": "2025-11-25",
-        "close": 18.46
-      },
-      {
-        "date": "2025-11-27",
-        "close": 18.55
-      },
-      {
-        "date": "2025-12-01",
-        "close": 18.85
-      },
-      {
-        "date": "2025-12-03",
-        "close": 18.75
-      },
-      {
-        "date": "2025-12-08",
-        "close": 18.4
-      },
-      {
-        "date": "2025-12-11",
-        "close": 18.6
-      },
-      {
-        "date": "2025-12-15",
-        "close": 19.3
-      },
-      {
-        "date": "2025-12-17",
-        "close": 18.8
-      },
-      {
-        "date": "2025-12-19",
-        "close": 17.8
-      },
-      {
-        "date": "2025-12-23",
-        "close": 17.4
-      },
-      {
-        "date": "2025-12-25",
-        "close": 17.4
-      },
-      {
-        "date": "2025-12-29",
-        "close": 17.0
-      },
-      {
-        "date": "2026-01-05",
-        "close": 16.3
-      },
-      {
-        "date": "2026-01-07",
-        "close": 16.9
-      },
-      {
-        "date": "2026-01-09",
-        "close": 16.1
-      },
-      {
-        "date": "2026-01-13",
-        "close": 14.9
-      },
-      {
-        "date": "2026-01-15",
-        "close": 16.5
-      },
-      {
-        "date": "2026-01-19",
-        "close": 16.9
-      },
-      {
-        "date": "2026-01-21",
-        "close": 17.4
-      },
-      {
-        "date": "2026-01-23",
-        "close": 17.0
-      },
-      {
-        "date": "2026-01-27",
-        "close": 17.3
-      },
-      {
-        "date": "2026-01-29",
-        "close": 17.1
-      },
-      {
-        "date": "2026-02-02",
-        "close": 16.5
-      },
-      {
-        "date": "2026-02-04",
-        "close": 17.1
-      },
-      {
-        "date": "2026-02-06",
-        "close": 17.6
-      },
-      {
-        "date": "2026-02-10",
-        "close": 18.9
-      },
-      {
-        "date": "2026-02-12",
-        "close": 19.0
-      },
-      {
-        "date": "2026-02-16",
-        "close": 18.6
-      },
-      {
-        "date": "2026-02-18",
-        "close": 19.7
-      },
-      {
-        "date": "2026-02-20",
-        "close": 20.2
-      },
-      {
-        "date": "2026-02-24",
-        "close": 19.6
-      },
-      {
-        "date": "2026-02-26",
-        "close": 20.4
-      },
-      {
-        "date": "2026-03-02",
-        "close": 18.4
-      },
-      {
-        "date": "2026-03-05",
-        "close": 17.9
-      },
-      {
-        "date": "2026-03-09",
-        "close": 17.1
-      },
-      {
-        "date": "2026-03-11",
-        "close": 17.0
-      },
-      {
-        "date": "2026-03-13",
-        "close": 16.7
-      },
-      {
-        "date": "2026-03-17",
-        "close": 16.5
-      },
-      {
-        "date": "2026-03-19",
-        "close": 15.0
-      },
-      {
-        "date": "2026-03-23",
-        "close": 14.1
-      },
-      {
-        "date": "2026-03-25",
         "close": 15.3
       },
       {
+        "date": "2025-06-12",
+        "close": 14.55
+      },
+      {
+        "date": "2025-06-16",
+        "close": 13.98
+      },
+      {
+        "date": "2025-06-18",
+        "close": 13.98
+      },
+      {
+        "date": "2025-06-20",
+        "close": 13.04
+      },
+      {
+        "date": "2025-06-24",
+        "close": 13.7
+      },
+      {
+        "date": "2025-06-26",
+        "close": 14.55
+      },
+      {
+        "date": "2025-06-30",
+        "close": 14.27
+      },
+      {
+        "date": "2025-07-02",
+        "close": 14.45
+      },
+      {
+        "date": "2025-07-04",
+        "close": 14.45
+      },
+      {
+        "date": "2025-07-08",
+        "close": 14.45
+      },
+      {
+        "date": "2025-07-11",
+        "close": 14.64
+      },
+      {
+        "date": "2025-07-15",
+        "close": 16.44
+      },
+      {
+        "date": "2025-07-17",
+        "close": 16.53
+      },
+      {
+        "date": "2025-07-21",
+        "close": 16.53
+      },
+      {
+        "date": "2025-07-23",
+        "close": 16.53
+      },
+      {
+        "date": "2025-07-25",
+        "close": 15.78
+      },
+      {
+        "date": "2025-07-30",
+        "close": 16.91
+      },
+      {
+        "date": "2025-08-01",
+        "close": 15.78
+      },
+      {
+        "date": "2025-08-05",
+        "close": 16.82
+      },
+      {
+        "date": "2025-08-07",
+        "close": 17.19
+      },
+      {
+        "date": "2025-08-13",
+        "close": 17.67
+      },
+      {
+        "date": "2025-08-15",
+        "close": 18.04
+      },
+      {
+        "date": "2025-08-19",
+        "close": 17.57
+      },
+      {
+        "date": "2025-08-21",
+        "close": 17.76
+      },
+      {
+        "date": "2025-08-25",
+        "close": 18.33
+      },
+      {
+        "date": "2025-08-27",
+        "close": 17.76
+      },
+      {
+        "date": "2025-08-29",
+        "close": 17.76
+      },
+      {
+        "date": "2025-09-02",
+        "close": 18.42
+      },
+      {
+        "date": "2025-09-04",
+        "close": 18.99
+      },
+      {
+        "date": "2025-09-08",
+        "close": 19.18
+      },
+      {
+        "date": "2025-09-10",
+        "close": 19.56
+      },
+      {
+        "date": "2025-09-12",
+        "close": 19.27
+      },
+      {
+        "date": "2025-09-16",
+        "close": 19.74
+      },
+      {
+        "date": "2025-09-18",
+        "close": 19.27
+      },
+      {
+        "date": "2025-09-22",
+        "close": 18.89
+      },
+      {
+        "date": "2025-09-24",
+        "close": 18.8
+      },
+      {
+        "date": "2025-09-26",
+        "close": 18.99
+      },
+      {
+        "date": "2025-09-30",
+        "close": 18.61
+      },
+      {
+        "date": "2025-10-02",
+        "close": 18.89
+      },
+      {
+        "date": "2025-10-06",
+        "close": 19.08
+      },
+      {
+        "date": "2025-10-08",
+        "close": 19.27
+      },
+      {
+        "date": "2025-10-10",
+        "close": 20.03
+      },
+      {
+        "date": "2025-10-15",
+        "close": 20.88
+      },
+      {
+        "date": "2025-10-17",
+        "close": 20.41
+      },
+      {
+        "date": "2025-10-21",
+        "close": 20.69
+      },
+      {
+        "date": "2025-10-24",
+        "close": 20.78
+      },
+      {
+        "date": "2025-10-28",
+        "close": 20.22
+      },
+      {
+        "date": "2025-10-30",
+        "close": 20.22
+      },
+      {
+        "date": "2025-11-03",
+        "close": 20.12
+      },
+      {
+        "date": "2025-11-05",
+        "close": 19.56
+      },
+      {
+        "date": "2025-11-07",
+        "close": 19.93
+      },
+      {
+        "date": "2025-11-11",
+        "close": 19.65
+      },
+      {
+        "date": "2025-11-13",
+        "close": 19.18
+      },
+      {
+        "date": "2025-11-17",
+        "close": 19.18
+      },
+      {
+        "date": "2025-11-19",
+        "close": 18.52
+      },
+      {
+        "date": "2025-11-21",
+        "close": 18.23
+      },
+      {
+        "date": "2025-11-25",
+        "close": 17.76
+      },
+      {
+        "date": "2025-11-27",
+        "close": 17.85
+      },
+      {
+        "date": "2025-12-01",
+        "close": 18.14
+      },
+      {
+        "date": "2025-12-03",
+        "close": 18.04
+      },
+      {
+        "date": "2025-12-08",
+        "close": 17.71
+      },
+      {
+        "date": "2025-12-11",
+        "close": 17.9
+      },
+      {
+        "date": "2025-12-15",
+        "close": 18.57
+      },
+      {
+        "date": "2025-12-17",
+        "close": 18.09
+      },
+      {
+        "date": "2025-12-19",
+        "close": 17.13
+      },
+      {
+        "date": "2025-12-23",
+        "close": 16.74
+      },
+      {
+        "date": "2025-12-25",
+        "close": 16.74
+      },
+      {
+        "date": "2025-12-29",
+        "close": 16.36
+      },
+      {
+        "date": "2026-01-05",
+        "close": 15.69
+      },
+      {
+        "date": "2026-01-07",
+        "close": 16.26
+      },
+      {
+        "date": "2026-01-09",
+        "close": 15.49
+      },
+      {
+        "date": "2026-01-13",
+        "close": 14.34
+      },
+      {
+        "date": "2026-01-15",
+        "close": 15.88
+      },
+      {
+        "date": "2026-01-19",
+        "close": 16.26
+      },
+      {
+        "date": "2026-01-21",
+        "close": 16.74
+      },
+      {
+        "date": "2026-01-23",
+        "close": 16.36
+      },
+      {
+        "date": "2026-01-27",
+        "close": 16.65
+      },
+      {
+        "date": "2026-01-29",
+        "close": 16.46
+      },
+      {
+        "date": "2026-02-02",
+        "close": 15.88
+      },
+      {
+        "date": "2026-02-04",
+        "close": 16.46
+      },
+      {
+        "date": "2026-02-06",
+        "close": 16.94
+      },
+      {
+        "date": "2026-02-10",
+        "close": 18.19
+      },
+      {
+        "date": "2026-02-12",
+        "close": 18.28
+      },
+      {
+        "date": "2026-02-16",
+        "close": 17.9
+      },
+      {
+        "date": "2026-02-18",
+        "close": 18.96
+      },
+      {
+        "date": "2026-02-20",
+        "close": 19.44
+      },
+      {
+        "date": "2026-02-24",
+        "close": 18.86
+      },
+      {
+        "date": "2026-02-26",
+        "close": 19.63
+      },
+      {
+        "date": "2026-03-02",
+        "close": 17.71
+      },
+      {
+        "date": "2026-03-05",
+        "close": 17.23
+      },
+      {
+        "date": "2026-03-09",
+        "close": 16.46
+      },
+      {
+        "date": "2026-03-11",
+        "close": 16.36
+      },
+      {
+        "date": "2026-03-13",
+        "close": 16.07
+      },
+      {
+        "date": "2026-03-17",
+        "close": 15.88
+      },
+      {
+        "date": "2026-03-19",
+        "close": 14.43
+      },
+      {
+        "date": "2026-03-23",
+        "close": 13.57
+      },
+      {
+        "date": "2026-03-25",
+        "close": 14.72
+      },
+      {
         "date": "2026-03-27",
-        "close": 14.3
+        "close": 13.76
       },
       {
         "date": "2026-03-31",
-        "close": 14.8
+        "close": 14.24
       },
       {
         "date": "2026-04-02",
-        "close": 15.4
+        "close": 14.82
       },
       {
         "date": "2026-04-07",
-        "close": 14.4
+        "close": 13.86
       },
       {
         "date": "2026-04-09",
-        "close": 15.0
+        "close": 14.43
       },
       {
         "date": "2026-04-16",
-        "close": 15.0
+        "close": 14.43
       },
       {
         "date": "2026-04-20",
-        "close": 15.4
+        "close": 14.82
       },
       {
         "date": "2026-04-22",
-        "close": 16.9
+        "close": 16.26
       },
       {
         "date": "2026-04-24",
-        "close": 17.4
+        "close": 16.74
       },
       {
         "date": "2026-04-28",
-        "close": 16.8
+        "close": 16.17
       },
       {
         "date": "2026-04-30",
-        "close": 17.0
+        "close": 16.36
       },
       {
         "date": "2026-05-04",
-        "close": 17.0
+        "close": 16.36
       },
       {
         "date": "2026-05-06",
-        "close": 16.4
+        "close": 15.78
       },
       {
         "date": "2026-05-08",
-        "close": 17.0
+        "close": 16.36
       },
       {
         "date": "2026-05-12",
-        "close": 16.4
+        "close": 15.78
       },
       {
         "date": "2026-05-14",
-        "close": 16.8
+        "close": 16.17
       },
       {
         "date": "2026-05-18",
-        "close": 15.8
+        "close": 15.2
       },
       {
         "date": "2026-05-20",
-        "close": 16.1
+        "close": 15.49
       },
       {
         "date": "2026-05-22",
-        "close": 17.8
+        "close": 17.13
       },
       {
         "date": "2026-05-26",
-        "close": 18.3
+        "close": 17.61
       },
       {
         "date": "2026-05-28",
-        "close": 18.1
+        "close": 17.42
       },
       {
-        "date": "2026-06-02",
-        "close": 17.8
+        "date": "2026-06-01",
+        "close": 17.61
       }
     ]
   },
@@ -414122,8 +414199,8 @@ var STOCKS_DATABASE = {
         "close": 0.28
       },
       {
-        "date": "2026-06-02",
-        "close": 0.27
+        "date": "2026-06-01",
+        "close": 0.26
       }
     ]
   },
@@ -414674,8 +414751,8 @@ var STOCKS_DATABASE = {
         "close": 6.2
       },
       {
-        "date": "2026-06-02",
-        "close": 6.05
+        "date": "2026-06-01",
+        "close": 6.15
       }
     ]
   },
@@ -414687,7 +414764,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 11.89,
     "dividend_yield": 7.01,
     "high_1m": 22.3,
-    "low_1m": 20.8,
+    "low_1m": 21.2,
     "support_levels": [
       16.02,
       18.9,
@@ -415223,7 +415300,7 @@ var STOCKS_DATABASE = {
         "close": 21.5
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 21.4
       }
     ]
@@ -415236,7 +415313,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 13.51,
     "dividend_yield": 6.8,
     "high_1m": 114.0,
-    "low_1m": 109.5,
+    "low_1m": 110.5,
     "support_levels": [
       90.12,
       100.7,
@@ -415777,8 +415854,8 @@ var STOCKS_DATABASE = {
         "close": 113.0
       },
       {
-        "date": "2026-06-02",
-        "close": 114.0
+        "date": "2026-06-01",
+        "close": 113.0
       }
     ]
   },
@@ -416310,8 +416387,8 @@ var STOCKS_DATABASE = {
         "close": 7.9
       },
       {
-        "date": "2026-06-02",
-        "close": 8.05
+        "date": "2026-06-01",
+        "close": 7.9
       }
     ]
   },
@@ -416864,8 +416941,8 @@ var STOCKS_DATABASE = {
         "close": 4.24
       },
       {
-        "date": "2026-06-02",
-        "close": 4.12
+        "date": "2026-06-01",
+        "close": 4.22
       }
     ]
   },
@@ -417402,8 +417479,8 @@ var STOCKS_DATABASE = {
         "close": 9.6
       },
       {
-        "date": "2026-06-02",
-        "close": 10.7
+        "date": "2026-06-01",
+        "close": 9.85
       }
     ]
   },
@@ -417955,8 +418032,8 @@ var STOCKS_DATABASE = {
         "close": 4.16
       },
       {
-        "date": "2026-06-02",
-        "close": 4.14
+        "date": "2026-06-01",
+        "close": 4.12
       }
     ]
   },
@@ -417968,7 +418045,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 10.14,
     "dividend_yield": 6.62,
     "high_1m": 7.35,
-    "low_1m": 6.05,
+    "low_1m": 6.15,
     "support_levels": [
       4.56,
       5.11,
@@ -418509,8 +418586,8 @@ var STOCKS_DATABASE = {
         "close": 7.25
       },
       {
-        "date": "2026-06-02",
-        "close": 7.3
+        "date": "2026-06-01",
+        "close": 7.2
       }
     ]
   },
@@ -419064,8 +419141,8 @@ var STOCKS_DATABASE = {
         "close": 0.73
       },
       {
-        "date": "2026-06-02",
-        "close": 0.74
+        "date": "2026-06-01",
+        "close": 0.75
       }
     ]
   },
@@ -419578,8 +419655,8 @@ var STOCKS_DATABASE = {
         "close": 0.36
       },
       {
-        "date": "2026-06-02",
-        "close": 0.38
+        "date": "2026-06-01",
+        "close": 0.39
       }
     ]
   },
@@ -420111,8 +420188,8 @@ var STOCKS_DATABASE = {
         "close": 11.0
       },
       {
-        "date": "2026-06-02",
-        "close": 11.0
+        "date": "2026-06-01",
+        "close": 11.1
       }
     ]
   },
@@ -420658,8 +420735,8 @@ var STOCKS_DATABASE = {
         "close": 0.89
       },
       {
-        "date": "2026-06-02",
-        "close": 0.91
+        "date": "2026-06-01",
+        "close": 0.9
       }
     ]
   },
@@ -420670,7 +420747,7 @@ var STOCKS_DATABASE = {
     "current_price": 11.2,
     "pe_ratio": 8.62,
     "dividend_yield": 5.0,
-    "high_1m": 12.66,
+    "high_1m": 12.56,
     "low_1m": 10.5,
     "support_levels": [
       9.69,
@@ -421184,7 +421261,7 @@ var STOCKS_DATABASE = {
         "close": 11.0
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 11.2
       }
     ]
@@ -421710,7 +421787,7 @@ var STOCKS_DATABASE = {
         "close": 0.7
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.7
       }
     ]
@@ -422264,7 +422341,7 @@ var STOCKS_DATABASE = {
         "close": 26.75
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 26.0
       }
     ]
@@ -422818,7 +422895,7 @@ var STOCKS_DATABASE = {
         "close": 0.49
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.48
       }
     ]
@@ -423371,8 +423448,8 @@ var STOCKS_DATABASE = {
         "close": 2.32
       },
       {
-        "date": "2026-06-02",
-        "close": 2.3
+        "date": "2026-06-01",
+        "close": 2.28
       }
     ]
   },
@@ -423384,7 +423461,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 22.12,
     "dividend_yield": 5.65,
     "high_1m": 3.9,
-    "low_1m": 3.42,
+    "low_1m": 3.46,
     "support_levels": [
       2.68,
       2.92,
@@ -423924,8 +424001,8 @@ var STOCKS_DATABASE = {
         "close": 3.54
       },
       {
-        "date": "2026-06-02",
-        "close": 3.54
+        "date": "2026-06-01",
+        "close": 3.5
       }
     ]
   },
@@ -424477,8 +424554,8 @@ var STOCKS_DATABASE = {
         "close": 61.5
       },
       {
-        "date": "2026-06-02",
-        "close": 60.0
+        "date": "2026-06-01",
+        "close": 58.75
       }
     ]
   },
@@ -425032,7 +425109,7 @@ var STOCKS_DATABASE = {
         "close": 0.14
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.13
       }
     ]
@@ -425586,7 +425663,7 @@ var STOCKS_DATABASE = {
         "close": 29.75
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 29.75
       }
     ]
@@ -426141,7 +426218,7 @@ var STOCKS_DATABASE = {
         "close": 2.5
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 2.52
       }
     ]
@@ -427247,8 +427324,8 @@ var STOCKS_DATABASE = {
         "close": 3.0
       },
       {
-        "date": "2026-06-02",
-        "close": 2.96
+        "date": "2026-06-01",
+        "close": 3.02
       }
     ]
   },
@@ -427801,8 +427878,8 @@ var STOCKS_DATABASE = {
         "close": 0.96
       },
       {
-        "date": "2026-06-02",
-        "close": 0.98
+        "date": "2026-06-01",
+        "close": 0.96
       }
     ]
   },
@@ -428354,8 +428431,8 @@ var STOCKS_DATABASE = {
         "close": 5.15
       },
       {
-        "date": "2026-06-02",
-        "close": 5.0
+        "date": "2026-06-01",
+        "close": 5.2
       }
     ]
   },
@@ -428370,7 +428447,7 @@ var STOCKS_DATABASE = {
     "low_1m": 11.5,
     "support_levels": [
       8.93,
-      11.8,
+      11.77,
       12.8
     ],
     "resistance_levels": [
@@ -428909,8 +428986,8 @@ var STOCKS_DATABASE = {
         "close": 12.3
       },
       {
-        "date": "2026-06-02",
-        "close": 12.8
+        "date": "2026-06-01",
+        "close": 12.2
       }
     ]
   },
@@ -429462,8 +429539,8 @@ var STOCKS_DATABASE = {
         "close": 6.8
       },
       {
-        "date": "2026-06-02",
-        "close": 6.9
+        "date": "2026-06-01",
+        "close": 6.95
       }
     ]
   },
@@ -430017,7 +430094,7 @@ var STOCKS_DATABASE = {
         "close": 46.0
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 46.25
       }
     ]
@@ -431124,7 +431201,7 @@ var STOCKS_DATABASE = {
         "close": 2.72
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 2.7
       }
     ]
@@ -431677,8 +431754,8 @@ var STOCKS_DATABASE = {
         "close": 8.9
       },
       {
-        "date": "2026-06-02",
-        "close": 8.9
+        "date": "2026-06-01",
+        "close": 8.65
       }
     ]
   },
@@ -432222,8 +432299,8 @@ var STOCKS_DATABASE = {
         "close": 2.98
       },
       {
-        "date": "2026-06-02",
-        "close": 2.98
+        "date": "2026-06-01",
+        "close": 3.0
       }
     ]
   },
@@ -432776,8 +432853,8 @@ var STOCKS_DATABASE = {
         "close": 1.41
       },
       {
-        "date": "2026-06-02",
-        "close": 1.42
+        "date": "2026-06-01",
+        "close": 1.41
       }
     ]
   },
@@ -433330,8 +433407,8 @@ var STOCKS_DATABASE = {
         "close": 9.8
       },
       {
-        "date": "2026-06-02",
-        "close": 9.95
+        "date": "2026-06-01",
+        "close": 9.8
       }
     ]
   },
@@ -433881,8 +433958,8 @@ var STOCKS_DATABASE = {
         "close": 0.81
       },
       {
-        "date": "2026-06-02",
-        "close": 0.82
+        "date": "2026-06-01",
+        "close": 0.81
       }
     ]
   },
@@ -434436,7 +434513,7 @@ var STOCKS_DATABASE = {
         "close": 1.78
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 1.78
       }
     ]
@@ -434949,8 +435026,8 @@ var STOCKS_DATABASE = {
         "close": 0.64
       },
       {
-        "date": "2026-06-02",
-        "close": 0.65
+        "date": "2026-06-01",
+        "close": 0.63
       }
     ]
   },
@@ -435493,7 +435570,7 @@ var STOCKS_DATABASE = {
         "close": 1.12
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 1.06
       }
     ]
@@ -436039,7 +436116,7 @@ var STOCKS_DATABASE = {
         "close": 0.12
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.12
       }
     ]
@@ -436592,8 +436669,8 @@ var STOCKS_DATABASE = {
         "close": 11.8
       },
       {
-        "date": "2026-06-02",
-        "close": 11.9
+        "date": "2026-06-01",
+        "close": 11.8
       }
     ]
   },
@@ -436604,7 +436681,7 @@ var STOCKS_DATABASE = {
     "current_price": 3.1,
     "pe_ratio": 9.69,
     "dividend_yield": 12.9,
-    "high_1m": 3.26,
+    "high_1m": 3.24,
     "low_1m": 3.0,
     "support_levels": [
       2.24
@@ -437137,8 +437214,8 @@ var STOCKS_DATABASE = {
         "close": 3.14
       },
       {
-        "date": "2026-06-02",
-        "close": 3.1
+        "date": "2026-06-01",
+        "close": 3.14
       }
     ]
   },
@@ -437149,7 +437226,7 @@ var STOCKS_DATABASE = {
     "current_price": 13.9,
     "pe_ratio": 11.98,
     "dividend_yield": 7.91,
-    "high_1m": 15.1,
+    "high_1m": 15.0,
     "low_1m": 13.2,
     "support_levels": [
       12.17,
@@ -437691,8 +437768,8 @@ var STOCKS_DATABASE = {
         "close": 13.4
       },
       {
-        "date": "2026-06-02",
-        "close": 13.9
+        "date": "2026-06-01",
+        "close": 13.5
       }
     ]
   },
@@ -437704,7 +437781,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 11.89,
     "dividend_yield": 8.41,
     "high_1m": 5.4,
-    "low_1m": 4.94,
+    "low_1m": 4.96,
     "support_levels": [
       4.75
     ],
@@ -438242,8 +438319,8 @@ var STOCKS_DATABASE = {
         "close": 5.3
       },
       {
-        "date": "2026-06-02",
-        "close": 5.35
+        "date": "2026-06-01",
+        "close": 5.25
       }
     ]
   },
@@ -438253,7 +438330,7 @@ var STOCKS_DATABASE = {
     "business_summary": "Thai Rayon Public Company Limited engages in the manufacture and sale of viscose rayon staple fiber and anhydrous sodium sulphate products in Thailand and internationally. The company offers fibers that are used in apparel, home textiles, dress material, knitwear, wipes, personal hygiene, and medical usages under the Birla Cellulose brand name; textile fashion products under the Birla Modal brand; and anhydrous sodium sulphate for use in detergent, pulp, glass, leather, and textile industries. Thai Rayon Public Company Limited was incorporated in 1974 and is headquartered in Bangkok, Thailand.",
     "current_price": 26.25,
     "pe_ratio": null,
-    "dividend_yield": 19.0,
+    "dividend_yield": 0.19,
     "high_1m": 26.25,
     "low_1m": 26.25,
     "support_levels": [
@@ -439347,8 +439424,8 @@ var STOCKS_DATABASE = {
         "close": 0.65
       },
       {
-        "date": "2026-06-02",
-        "close": 0.6
+        "date": "2026-06-01",
+        "close": 0.63
       }
     ]
   },
@@ -440413,7 +440490,7 @@ var STOCKS_DATABASE = {
         "close": 0.02
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.02
       }
     ]
@@ -440426,7 +440503,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 17.04,
     "dividend_yield": 5.87,
     "high_1m": 4.64,
-    "low_1m": 4.12,
+    "low_1m": 4.14,
     "support_levels": [
       4.06
     ],
@@ -440942,7 +441019,7 @@ var STOCKS_DATABASE = {
         "close": 4.26
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 4.26
       }
     ]
@@ -440955,7 +441032,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 12.33,
     "dividend_yield": 3.14,
     "high_1m": 9.25,
-    "low_1m": 4.58,
+    "low_1m": 4.6,
     "support_levels": [
       2.97,
       3.75
@@ -441495,8 +441572,8 @@ var STOCKS_DATABASE = {
         "close": 7.75
       },
       {
-        "date": "2026-06-02",
-        "close": 9.25
+        "date": "2026-06-01",
+        "close": 7.95
       }
     ]
   },
@@ -442048,8 +442125,8 @@ var STOCKS_DATABASE = {
         "close": 3.84
       },
       {
-        "date": "2026-06-02",
-        "close": 3.88
+        "date": "2026-06-01",
+        "close": 3.82
       }
     ]
   },
@@ -442602,8 +442679,8 @@ var STOCKS_DATABASE = {
         "close": 0.97
       },
       {
-        "date": "2026-06-02",
-        "close": 0.94
+        "date": "2026-06-01",
+        "close": 0.91
       }
     ]
   },
@@ -442615,7 +442692,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 34.15,
     "dividend_yield": 3.21,
     "high_1m": 14.86,
-    "low_1m": 13.26,
+    "low_1m": 13.46,
     "support_levels": [
       10.56,
       12.77,
@@ -443151,8 +443228,8 @@ var STOCKS_DATABASE = {
         "close": 13.7
       },
       {
-        "date": "2026-06-02",
-        "close": 14.0
+        "date": "2026-06-01",
+        "close": 13.8
       }
     ]
   },
@@ -443665,7 +443742,7 @@ var STOCKS_DATABASE = {
         "close": 1.52
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 1.49
       }
     ]
@@ -444219,8 +444296,8 @@ var STOCKS_DATABASE = {
         "close": 14.6
       },
       {
-        "date": "2026-06-02",
-        "close": 14.8
+        "date": "2026-06-01",
+        "close": 14.7
       }
     ]
   },
@@ -444231,7 +444308,7 @@ var STOCKS_DATABASE = {
     "current_price": 0.86,
     "pe_ratio": 86.0,
     "dividend_yield": 0.0,
-    "high_1m": 1.08,
+    "high_1m": 1.04,
     "low_1m": 0.76,
     "support_levels": [
       0.34,
@@ -444771,8 +444848,8 @@ var STOCKS_DATABASE = {
         "close": 0.85
       },
       {
-        "date": "2026-06-02",
-        "close": 0.86
+        "date": "2026-06-01",
+        "close": 0.83
       }
     ]
   },
@@ -445324,7 +445401,7 @@ var STOCKS_DATABASE = {
         "close": 0.06
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.06
       }
     ]
@@ -445347,9 +445424,9 @@ var STOCKS_DATABASE = {
       0.14,
       0.15
     ],
-    "upcoming_xd": "2026-07-02",
+    "upcoming_xd": "2026-07-03",
     "upcoming_dividend_amount": 0.01,
-    "upcoming_payment_date": "2026-07-17",
+    "upcoming_payment_date": "2026-07-18",
     "dividend_history": [
       {
         "date": "2023-05-03",
@@ -446963,8 +447040,8 @@ var STOCKS_DATABASE = {
         "close": 0.95
       },
       {
-        "date": "2026-06-02",
-        "close": 0.91
+        "date": "2026-06-01",
+        "close": 0.92
       }
     ]
   },
@@ -447517,8 +447594,8 @@ var STOCKS_DATABASE = {
         "close": 5.15
       },
       {
-        "date": "2026-06-02",
-        "close": 5.2
+        "date": "2026-06-01",
+        "close": 5.35
       }
     ]
   },
@@ -448071,8 +448148,8 @@ var STOCKS_DATABASE = {
         "close": 2.3
       },
       {
-        "date": "2026-06-02",
-        "close": 2.32
+        "date": "2026-06-01",
+        "close": 2.28
       }
     ]
   },
@@ -450285,8 +450362,8 @@ var STOCKS_DATABASE = {
         "close": 9.4
       },
       {
-        "date": "2026-06-02",
-        "close": 9.4
+        "date": "2026-06-01",
+        "close": 9.3
       }
     ]
   },
@@ -450839,7 +450916,7 @@ var STOCKS_DATABASE = {
         "close": 11.1
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 11.2
       }
     ]
@@ -451497,6 +451574,10 @@ var STOCKS_DATABASE = {
       },
       {
         "date": "2026-05-29",
+        "close": 1.47
+      },
+      {
+        "date": "2026-06-01",
         "close": 1.47
       },
       {
@@ -452592,7 +452673,7 @@ var STOCKS_DATABASE = {
         "close": 0.05
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.05
       }
     ]
@@ -452605,7 +452686,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 5.5,
     "dividend_yield": 4.44,
     "high_1m": 10.0,
-    "low_1m": 9.05,
+    "low_1m": 9.1,
     "support_levels": [
       7.4,
       8.44
@@ -453117,8 +453198,8 @@ var STOCKS_DATABASE = {
         "close": 9.9
       },
       {
-        "date": "2026-06-02",
-        "close": 9.9
+        "date": "2026-06-01",
+        "close": 9.85
       }
     ]
   },
@@ -453130,7 +453211,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 9.68,
     "dividend_yield": 9.09,
     "high_1m": 26.0,
-    "low_1m": 23.9,
+    "low_1m": 24.1,
     "support_levels": [
       21.85,
       22.71,
@@ -453671,8 +453752,8 @@ var STOCKS_DATABASE = {
         "close": 25.0
       },
       {
-        "date": "2026-06-02",
-        "close": 25.75
+        "date": "2026-06-01",
+        "close": 25.0
       }
     ]
   },
@@ -454200,8 +454281,8 @@ var STOCKS_DATABASE = {
         "close": 0.2
       },
       {
-        "date": "2026-06-02",
-        "close": 0.2
+        "date": "2026-06-01",
+        "close": 0.21
       }
     ]
   },
@@ -454753,8 +454834,8 @@ var STOCKS_DATABASE = {
         "close": 1.13
       },
       {
-        "date": "2026-06-02",
-        "close": 1.16
+        "date": "2026-06-01",
+        "close": 1.14
       }
     ]
   },
@@ -455306,8 +455387,8 @@ var STOCKS_DATABASE = {
         "close": 2.88
       },
       {
-        "date": "2026-06-02",
-        "close": 2.94
+        "date": "2026-06-01",
+        "close": 2.88
       }
     ]
   },
@@ -455858,8 +455939,8 @@ var STOCKS_DATABASE = {
         "close": 0.01
       },
       {
-        "date": "2026-06-02",
-        "close": 0.02
+        "date": "2026-06-01",
+        "close": 0.01
       }
     ]
   },
@@ -456383,8 +456464,8 @@ var STOCKS_DATABASE = {
         "close": 1.65
       },
       {
-        "date": "2026-06-02",
-        "close": 1.67
+        "date": "2026-06-01",
+        "close": 1.65
       }
     ]
   },
@@ -456935,8 +457016,8 @@ var STOCKS_DATABASE = {
         "close": 2.64
       },
       {
-        "date": "2026-06-02",
-        "close": 2.6
+        "date": "2026-06-01",
+        "close": 2.62
       }
     ]
   },
@@ -457465,8 +457546,8 @@ var STOCKS_DATABASE = {
         "close": 1.07
       },
       {
-        "date": "2026-06-02",
-        "close": 1.07
+        "date": "2026-06-01",
+        "close": 1.05
       }
     ]
   },
@@ -457477,7 +457558,7 @@ var STOCKS_DATABASE = {
     "current_price": 0.56,
     "pe_ratio": null,
     "dividend_yield": 2.73,
-    "high_1m": 0.78,
+    "high_1m": 0.75,
     "low_1m": 0.53,
     "support_levels": [
       0.42,
@@ -457999,8 +458080,8 @@ var STOCKS_DATABASE = {
         "close": 0.57
       },
       {
-        "date": "2026-06-02",
-        "close": 0.56
+        "date": "2026-06-01",
+        "close": 0.54
       }
     ]
   },
@@ -458012,7 +458093,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 11.18,
     "dividend_yield": 0.0,
     "high_1m": 1.55,
-    "low_1m": 0.99,
+    "low_1m": 1.0,
     "support_levels": [
       0.99,
       1.06,
@@ -458553,8 +458634,8 @@ var STOCKS_DATABASE = {
         "close": 1.22
       },
       {
-        "date": "2026-06-02",
-        "close": 1.23
+        "date": "2026-06-01",
+        "close": 1.25
       }
     ]
   },
@@ -459107,8 +459188,8 @@ var STOCKS_DATABASE = {
         "close": 0.82
       },
       {
-        "date": "2026-06-02",
-        "close": 0.83
+        "date": "2026-06-01",
+        "close": 0.82
       }
     ]
   },
@@ -459119,7 +459200,7 @@ var STOCKS_DATABASE = {
     "current_price": 1.14,
     "pe_ratio": 8.77,
     "dividend_yield": 1.32,
-    "high_1m": 1.28,
+    "high_1m": 1.26,
     "low_1m": 1.05,
     "support_levels": [
       0.49,
@@ -459660,8 +459741,8 @@ var STOCKS_DATABASE = {
         "close": 1.17
       },
       {
-        "date": "2026-06-02",
-        "close": 1.14
+        "date": "2026-06-01",
+        "close": 1.07
       }
     ]
   },
@@ -459673,7 +459754,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 1.98,
     "dividend_yield": 4.49,
     "high_1m": 0.98,
-    "low_1m": 0.66,
+    "low_1m": 0.68,
     "support_levels": [
       0.61,
       0.65,
@@ -460214,8 +460295,8 @@ var STOCKS_DATABASE = {
         "close": 0.92
       },
       {
-        "date": "2026-06-02",
-        "close": 0.89
+        "date": "2026-06-01",
+        "close": 0.9
       }
     ]
   },
@@ -460762,8 +460843,8 @@ var STOCKS_DATABASE = {
         "close": 0.26
       },
       {
-        "date": "2026-06-02",
-        "close": 0.4
+        "date": "2026-06-01",
+        "close": 0.3
       }
     ]
   },
@@ -460775,7 +460856,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 3.12,
     "dividend_yield": 2.82,
     "high_1m": 2.98,
-    "low_1m": 2.48,
+    "low_1m": 2.54,
     "support_levels": [
       2.58,
       2.68,
@@ -461317,8 +461398,8 @@ var STOCKS_DATABASE = {
         "close": 2.74
       },
       {
-        "date": "2026-06-02",
-        "close": 2.84
+        "date": "2026-06-01",
+        "close": 2.8
       }
     ]
   },
@@ -461330,7 +461411,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 7.35,
     "dividend_yield": 6.75,
     "high_1m": 1.83,
-    "low_1m": 1.65,
+    "low_1m": 1.66,
     "support_levels": [
       1.66
     ],
@@ -461501,6 +461582,10 @@ var STOCKS_DATABASE = {
       },
       {
         "date": "2026-05-29",
+        "close": 1.68
+      },
+      {
+        "date": "2026-06-01",
         "close": 1.68
       },
       {
@@ -462056,8 +462141,8 @@ var STOCKS_DATABASE = {
         "close": 23.8
       },
       {
-        "date": "2026-06-02",
-        "close": 23.6
+        "date": "2026-06-01",
+        "close": 23.3
       }
     ]
   },
@@ -462609,8 +462694,8 @@ var STOCKS_DATABASE = {
         "close": 21.4
       },
       {
-        "date": "2026-06-02",
-        "close": 21.6
+        "date": "2026-06-01",
+        "close": 22.2
       }
     ]
   },
@@ -463162,8 +463247,8 @@ var STOCKS_DATABASE = {
         "close": 6.95
       },
       {
-        "date": "2026-06-02",
-        "close": 6.9
+        "date": "2026-06-01",
+        "close": 6.95
       }
     ]
   },
@@ -463687,8 +463772,8 @@ var STOCKS_DATABASE = {
         "close": 0.32
       },
       {
-        "date": "2026-06-02",
-        "close": 0.41
+        "date": "2026-06-01",
+        "close": 0.37
       }
     ]
   },
@@ -463700,7 +463785,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 9.47,
     "dividend_yield": 7.45,
     "high_1m": 8.3,
-    "low_1m": 7.35,
+    "low_1m": 7.4,
     "support_levels": [
       7.18
     ],
@@ -464239,8 +464324,8 @@ var STOCKS_DATABASE = {
         "close": 8.05
       },
       {
-        "date": "2026-06-02",
-        "close": 8.05
+        "date": "2026-06-01",
+        "close": 8.0
       }
     ]
   },
@@ -464792,8 +464877,8 @@ var STOCKS_DATABASE = {
         "close": 0.85
       },
       {
-        "date": "2026-06-02",
-        "close": 0.86
+        "date": "2026-06-01",
+        "close": 0.84
       }
     ]
   },
@@ -464812,6 +464897,7 @@ var STOCKS_DATABASE = {
       14.0
     ],
     "resistance_levels": [
+      15.1,
       16.8
     ],
     "upcoming_xd": "2026-03-06",
@@ -465345,7 +465431,7 @@ var STOCKS_DATABASE = {
         "close": 14.7
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 14.9
       }
     ]
@@ -466452,8 +466538,8 @@ var STOCKS_DATABASE = {
         "close": 3.76
       },
       {
-        "date": "2026-06-02",
-        "close": 3.8
+        "date": "2026-06-01",
+        "close": 3.76
       }
     ]
   },
@@ -467006,8 +467092,8 @@ var STOCKS_DATABASE = {
         "close": 0.95
       },
       {
-        "date": "2026-06-02",
-        "close": 1.0
+        "date": "2026-06-01",
+        "close": 0.95
       }
     ]
   },
@@ -467018,7 +467104,7 @@ var STOCKS_DATABASE = {
     "current_price": 0.36,
     "pe_ratio": null,
     "dividend_yield": 0.0,
-    "high_1m": 0.42,
+    "high_1m": 0.41,
     "low_1m": 0.33,
     "support_levels": [
       0.22,
@@ -467528,7 +467614,7 @@ var STOCKS_DATABASE = {
         "close": 0.35
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.36
       }
     ]
@@ -467541,7 +467627,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 9.79,
     "dividend_yield": 4.38,
     "high_1m": 1.39,
-    "low_1m": 1.34,
+    "low_1m": 1.35,
     "support_levels": [
       1.31
     ],
@@ -468079,7 +468165,7 @@ var STOCKS_DATABASE = {
         "close": 1.37
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 1.37
       }
     ]
@@ -468633,8 +468719,8 @@ var STOCKS_DATABASE = {
         "close": 8.25
       },
       {
-        "date": "2026-06-02",
-        "close": 8.25
+        "date": "2026-06-01",
+        "close": 8.2
       }
     ]
   },
@@ -469185,8 +469271,8 @@ var STOCKS_DATABASE = {
         "close": 0.78
       },
       {
-        "date": "2026-06-02",
-        "close": 0.81
+        "date": "2026-06-01",
+        "close": 0.8
       }
     ]
   },
@@ -469738,7 +469824,7 @@ var STOCKS_DATABASE = {
         "close": 1.87
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 1.92
       }
     ]
@@ -469750,7 +469836,7 @@ var STOCKS_DATABASE = {
     "current_price": 0.5,
     "pe_ratio": 16.67,
     "dividend_yield": 0.0,
-    "high_1m": 0.64,
+    "high_1m": 0.62,
     "low_1m": 0.48,
     "support_levels": [
       0.39,
@@ -470257,8 +470343,8 @@ var STOCKS_DATABASE = {
         "close": 0.5
       },
       {
-        "date": "2026-06-02",
-        "close": 0.5
+        "date": "2026-06-01",
+        "close": 0.49
       }
     ]
   },
@@ -470784,7 +470870,7 @@ var STOCKS_DATABASE = {
         "close": 4.5
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 4.5
       }
     ]
@@ -472386,8 +472472,8 @@ var STOCKS_DATABASE = {
         "close": 1.44
       },
       {
-        "date": "2026-06-02",
-        "close": 1.43
+        "date": "2026-06-01",
+        "close": 1.44
       }
     ]
   },
@@ -472983,6 +473069,10 @@ var STOCKS_DATABASE = {
         "close": 4.04
       },
       {
+        "date": "2026-06-01",
+        "close": 4.04
+      },
+      {
         "date": "2026-06-02",
         "close": 4.08
       }
@@ -473514,7 +473604,7 @@ var STOCKS_DATABASE = {
         "close": 0.02
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.03
       }
     ]
@@ -474040,8 +474130,8 @@ var STOCKS_DATABASE = {
         "close": 1.01
       },
       {
-        "date": "2026-06-02",
-        "close": 0.98
+        "date": "2026-06-01",
+        "close": 0.99
       }
     ]
   },
@@ -474557,8 +474647,8 @@ var STOCKS_DATABASE = {
         "close": 0.72
       },
       {
-        "date": "2026-06-02",
-        "close": 0.71
+        "date": "2026-06-01",
+        "close": 0.7
       }
     ]
   },
@@ -474570,7 +474660,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 16.13,
     "dividend_yield": 4.21,
     "high_1m": 5.2,
-    "low_1m": 4.27,
+    "low_1m": 4.3,
     "support_levels": [
       2.98,
       3.27,
@@ -475111,8 +475201,8 @@ var STOCKS_DATABASE = {
         "close": 4.96
       },
       {
-        "date": "2026-06-02",
-        "close": 5.0
+        "date": "2026-06-01",
+        "close": 4.9
       }
     ]
   },
@@ -475124,7 +475214,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 20.34,
     "dividend_yield": 4.28,
     "high_1m": 5.95,
-    "low_1m": 4.74,
+    "low_1m": 4.76,
     "support_levels": [
       3.14,
       3.71,
@@ -475665,8 +475755,8 @@ var STOCKS_DATABASE = {
         "close": 5.6
       },
       {
-        "date": "2026-06-02",
-        "close": 5.9
+        "date": "2026-06-01",
+        "close": 5.7
       }
     ]
   },
@@ -476220,8 +476310,8 @@ var STOCKS_DATABASE = {
         "close": 2.34
       },
       {
-        "date": "2026-06-02",
-        "close": 2.36
+        "date": "2026-06-01",
+        "close": 2.38
       }
     ]
   },
@@ -476233,7 +476323,7 @@ var STOCKS_DATABASE = {
     "pe_ratio": 9.7,
     "dividend_yield": 5.67,
     "high_1m": 1.0,
-    "low_1m": 0.85,
+    "low_1m": 0.86,
     "support_levels": [
       0.8,
       0.86
@@ -476773,8 +476863,8 @@ var STOCKS_DATABASE = {
         "close": 0.89
       },
       {
-        "date": "2026-06-02",
-        "close": 0.97
+        "date": "2026-06-01",
+        "close": 0.92
       }
     ]
   },
@@ -477286,7 +477376,7 @@ var STOCKS_DATABASE = {
         "close": 0.27
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.27
       }
     ]
@@ -477306,7 +477396,7 @@ var STOCKS_DATABASE = {
       0.71
     ],
     "resistance_levels": [
-      0.73,
+      0.74,
       0.77,
       0.83
     ],
@@ -477813,7 +477903,7 @@ var STOCKS_DATABASE = {
         "close": 0.73
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.73
       }
     ]
@@ -478347,8 +478437,8 @@ var STOCKS_DATABASE = {
         "close": 0.87
       },
       {
-        "date": "2026-06-02",
-        "close": 0.86
+        "date": "2026-06-01",
+        "close": 0.87
       }
     ]
   },
@@ -478900,8 +478990,8 @@ var STOCKS_DATABASE = {
         "close": 2.08
       },
       {
-        "date": "2026-06-02",
-        "close": 2.08
+        "date": "2026-06-01",
+        "close": 2.06
       }
     ]
   },
@@ -479453,8 +479543,8 @@ var STOCKS_DATABASE = {
         "close": 3.54
       },
       {
-        "date": "2026-06-02",
-        "close": 3.52
+        "date": "2026-06-01",
+        "close": 3.54
       }
     ]
   },
@@ -479996,8 +480086,8 @@ var STOCKS_DATABASE = {
         "close": 3.58
       },
       {
-        "date": "2026-06-02",
-        "close": 3.58
+        "date": "2026-06-01",
+        "close": 3.6
       }
     ]
   },
@@ -480546,7 +480636,7 @@ var STOCKS_DATABASE = {
         "close": 6.0
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 5.95
       }
     ]
@@ -481615,7 +481705,7 @@ var STOCKS_DATABASE = {
         "close": 0.08
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.08
       }
     ]
@@ -481627,7 +481717,7 @@ var STOCKS_DATABASE = {
     "current_price": 13.0,
     "pe_ratio": 10.66,
     "dividend_yield": 5.38,
-    "high_1m": 13.6,
+    "high_1m": 13.4,
     "low_1m": 12.7,
     "support_levels": [
       12.8
@@ -482168,7 +482258,7 @@ var STOCKS_DATABASE = {
         "close": 13.0
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 13.0
       }
     ]
@@ -482723,7 +482813,7 @@ var STOCKS_DATABASE = {
         "close": 0.47
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.47
       }
     ]
@@ -483276,8 +483366,8 @@ var STOCKS_DATABASE = {
         "close": 0.35
       },
       {
-        "date": "2026-06-02",
-        "close": 0.35
+        "date": "2026-06-01",
+        "close": 0.33
       }
     ]
   },
@@ -483829,8 +483919,8 @@ var STOCKS_DATABASE = {
         "close": 0.2
       },
       {
-        "date": "2026-06-02",
-        "close": 0.2
+        "date": "2026-06-01",
+        "close": 0.19
       }
     ]
   },
@@ -484359,8 +484449,8 @@ var STOCKS_DATABASE = {
         "close": 0.72
       },
       {
-        "date": "2026-06-02",
-        "close": 0.7
+        "date": "2026-06-01",
+        "close": 0.71
       }
     ]
   },
@@ -484913,8 +485003,8 @@ var STOCKS_DATABASE = {
         "close": 14.3
       },
       {
-        "date": "2026-06-02",
-        "close": 14.5
+        "date": "2026-06-01",
+        "close": 14.3
       }
     ]
   },
@@ -484925,7 +485015,7 @@ var STOCKS_DATABASE = {
     "current_price": 1.71,
     "pe_ratio": null,
     "dividend_yield": 0.0,
-    "high_1m": 1.83,
+    "high_1m": 1.8,
     "low_1m": 1.6,
     "support_levels": [
       0.86,
@@ -485440,8 +485530,8 @@ var STOCKS_DATABASE = {
         "close": 1.7
       },
       {
-        "date": "2026-06-02",
-        "close": 1.71
+        "date": "2026-06-01",
+        "close": 1.7
       }
     ]
   },
@@ -485978,8 +486068,8 @@ var STOCKS_DATABASE = {
         "close": 5.35
       },
       {
-        "date": "2026-06-02",
-        "close": 5.4
+        "date": "2026-06-01",
+        "close": 5.6
       }
     ]
   },
@@ -486512,7 +486602,7 @@ var STOCKS_DATABASE = {
         "close": 0.89
       },
       {
-        "date": "2026-06-02",
+        "date": "2026-06-01",
         "close": 0.89
       }
     ]
