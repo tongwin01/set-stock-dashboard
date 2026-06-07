@@ -18152,7 +18152,7 @@ var STOCKS_DATABASE = {
     "business_summary": "Alucon Public Company Limited engages in producing and distributing aluminum containers primarily in Thailand. It operates in two segments, Can and Tube, and Slug. The company offers aluminum collapsible tubes; monobloc aerosol cans, and bottles; and rigid wall containers. It also provides technical impact extrusions, aluminum slugs, aluminum coils, aluminum pellets, strips, plates, etc. The company exports its products to various countries, including Japan, Australia, the United States, Indonesia, and South Africa. The company was founded in 1961 and is headquartered in Mueang Samut Prakan, Thailand. Alucon Public Company Limited operates as a subsidiary of TAKEUCHI PRESS INDUSTRIES CO., LTD.",
     "current_price": 234.0,
     "pe_ratio": 9.4,
-    "dividend_yield": 6.69,
+    "dividend_yield": 6.84,
     "high_1m": 242.0,
     "low_1m": 226.0,
     "support_levels": [
@@ -57767,9 +57767,9 @@ var STOCKS_DATABASE = {
       0.95,
       1.02
     ],
-    "upcoming_xd": "2026-07-06",
+    "upcoming_xd": "2026-07-07",
     "upcoming_dividend_amount": 0.06,
-    "upcoming_payment_date": "2026-07-21",
+    "upcoming_payment_date": "2026-07-22",
     "dividend_history": [
       {
         "date": "2025-05-26",
@@ -69256,7 +69256,7 @@ var STOCKS_DATABASE = {
   "BTS": {
     "symbol": "BTS",
     "name": "BTS Group Holdings Public Company Limited",
-    "business_summary": "BTS Group Holdings Public Company Limited engages in mass transportation, marketing, and other businesses in Thailand. It operates in three segments: Move, Mix, and Match. The Move segment operates and maintains BTS Sky Train system; constructs, installs, operates, and maintains electric rails; and provides train procurement services and other related, and bus rapid transit services. Its Mix segment offers marketing solutions through offline and online media; advertising, digital, and sales services; system installation and integration services; and insurance brokerage services for offline and online distribution channels, as well as services related to rabbit card. The Match segment offers investment in various businesses, such as hotel business, rental business, management business real estate for sale business, insurance business, asset management business restaurants operations, construction service business, golf course services, system installation service business, and other services business. The company invests in the securities of other companies; and provides management and consultancy, real estate development and financial services business, property development, architecture and engineering work consultancy, office space rental, ecommerce, electronic payment, electronic money, bill payment, and CRM loyalty program and coupon kiosks services, as well as lending services through digital platform. In addition, it publishes and distributes books for edutainment; develops software and provides technology and system integration services; and manages food and beverage businesses, as well as involved in cleaning services business. The company was formerly known as Tanayong Public Company Limited and changed its name to BTS Group Holdings Public Company Limited in May 2010. BTS Group Holdings Public Company Limited was founded in 1968 and is headquartered in Bangkok, Thailand.",
+    "business_summary": "BTS Group Holdings Public Company Limited engages in transportation, marketing, and other businesses in Thailand. It operates in three segments: Move, Mix, and Match. The Move segment provides mass transportation for rail and others; operates and maintains Bus Rapid Transit and Automated People Mover systems; constructs and installs elevated rails; and train procurement services and other related services. The Mix segment offers marketing solutions through offline and online media; advertising, digital, and sales services; system installation and integration services; and insurance brokerage services for offline and online distribution channels, as well as services related to rabbit card. The Match segment offers investment in various businesses, such as hotel business, rental business, management business real estate for sale business, insurance business, asset management business restaurants operations, construction service business, golf course services, system installation service business, and other services business. The company invests in securities; and provides accounting software and services, management consultancy, real estate development and financial services business, property development, architecture and engineering work consultancy, office space rental, ecommerce, electronic payment, electronic money, bill payment, and CRM loyalty program and coupon kiosks services, as well as lending services. In addition, it publishes and distributes books for edutainment; develops software and provides technology and system integration services; and manages food and beverage businesses, as well as involved in cleansing services business. The company was formerly known as Tanayong Public Company Limited and changed its name to BTS Group Holdings Public Company Limited in May 2010. The company was founded in 1968 and is headquartered in Bangkok, Thailand.",
     "current_price": 2.06,
     "pe_ratio": null,
     "dividend_yield": 0.0,
@@ -101104,9 +101104,9 @@ var STOCKS_DATABASE = {
     "resistance_levels": [
       9.7
     ],
-    "upcoming_xd": "2026-07-06",
+    "upcoming_xd": "2026-07-07",
     "upcoming_dividend_amount": 0.13,
-    "upcoming_payment_date": "2026-07-21",
+    "upcoming_payment_date": "2026-07-22",
     "dividend_history": [
       {
         "date": "2021-08-27",
@@ -124603,7 +124603,7 @@ var STOCKS_DATABASE = {
     "business_summary": "Eastern Polymer Group Public Company Limited, through its subsidiaries, engages in the manufacture and distribution of rubber insulation, automotive, and plastic packing products in Thailand and internationally. It operates through Rubber Insulation, Automotive Plastics, Packaging Plastics, and Others segments. The company manufactures bedliners and covers of pickup trucks; automotive accessories products; and rubber for cars, machinery, buildings, and other products. It also engages in the and injection and molding of plastic parts; import and export of machinery and chemicals; manufacturing and distributing automotive parts assembly and accessories for vehicle; distribution of molded plastic parts; and design, manufacture, and trading in accessories for 2, 4WD, light commercial, and heavy transportation vehicles. In addition, the company provides research and development, and calibration services. Eastern Polymer Group Public Company Limited was incorporated in 1978 and is headquartered in Mueang Samut Prakan, Thailand. Eastern Polymer Group Public Company Limited is a subsidiary of Vitoorapakorn Holding Co., Ltd.",
     "current_price": 5.75,
     "pe_ratio": 12.5,
-    "dividend_yield": 4.61,
+    "dividend_yield": 3.48,
     "high_1m": 6.3,
     "low_1m": 3.48,
     "support_levels": [
@@ -128922,9 +128922,9 @@ var STOCKS_DATABASE = {
     "resistance_levels": [
       60.5
     ],
-    "upcoming_xd": "2026-07-06",
+    "upcoming_xd": "2026-07-07",
     "upcoming_dividend_amount": 2.55,
-    "upcoming_payment_date": "2026-07-21",
+    "upcoming_payment_date": "2026-07-22",
     "dividend_history": [
       {
         "date": "2025-04-22",
@@ -137006,9 +137006,9 @@ var STOCKS_DATABASE = {
       13.12,
       12.5
     ],
-    "upcoming_xd": "2026-07-06",
+    "upcoming_xd": "2026-07-07",
     "upcoming_dividend_amount": 0.36,
-    "upcoming_payment_date": "2026-07-21",
+    "upcoming_payment_date": "2026-07-22",
     "dividend_history": [
       {
         "date": "2024-08-28",
@@ -158837,16 +158837,15 @@ var STOCKS_DATABASE = {
     "current_price": 0.19,
     "pe_ratio": 1.36,
     "dividend_yield": 0.0,
-    "high_1m": 2.68,
+    "high_1m": 0.34,
     "low_1m": 0.14,
     "support_levels": [
-      0.14,
-      0.18
+      0.13
     ],
     "resistance_levels": [
-      1.2,
-      2.88,
-      3.28
+      0.36,
+      0.41,
+      0.62
     ],
     "upcoming_xd": "2013-04-12",
     "upcoming_dividend_amount": 0.14,
@@ -158864,483 +158863,483 @@ var STOCKS_DATABASE = {
     "history": [
       {
         "date": "2025-06-05",
-        "close": 1.1
+        "close": 0.14
       },
       {
         "date": "2025-06-09",
-        "close": 1.21
+        "close": 0.15
       },
       {
         "date": "2025-06-11",
-        "close": 1.11
+        "close": 0.14
       },
       {
         "date": "2025-06-13",
-        "close": 1.1
+        "close": 0.14
       },
       {
         "date": "2025-06-17",
-        "close": 1.05
+        "close": 0.13
       },
       {
         "date": "2025-06-19",
-        "close": 1.07
+        "close": 0.13
       },
       {
         "date": "2025-06-23",
-        "close": 1.05
+        "close": 0.13
       },
       {
         "date": "2025-06-25",
-        "close": 1.05
+        "close": 0.13
       },
       {
         "date": "2025-06-27",
-        "close": 1.2
+        "close": 0.15
       },
       {
         "date": "2025-07-01",
-        "close": 1.13
+        "close": 0.14
       },
       {
         "date": "2025-07-03",
-        "close": 1.14
+        "close": 0.14
       },
       {
         "date": "2025-07-07",
-        "close": 1.18
+        "close": 0.15
       },
       {
         "date": "2025-07-09",
-        "close": 1.12
+        "close": 0.14
       },
       {
         "date": "2025-07-14",
-        "close": 1.05
+        "close": 0.13
       },
       {
         "date": "2025-07-16",
-        "close": 1.17
+        "close": 0.15
       },
       {
         "date": "2025-07-18",
-        "close": 1.24
+        "close": 0.16
       },
       {
         "date": "2025-07-22",
-        "close": 1.39
+        "close": 0.17
       },
       {
         "date": "2025-07-24",
-        "close": 1.23
+        "close": 0.15
       },
       {
         "date": "2025-07-29",
-        "close": 1.38
+        "close": 0.17
       },
       {
         "date": "2025-07-31",
-        "close": 1.88
+        "close": 0.23
       },
       {
         "date": "2025-08-04",
-        "close": 2.2
+        "close": 0.28
       },
       {
         "date": "2025-08-06",
-        "close": 2.92
+        "close": 0.37
       },
       {
         "date": "2025-08-08",
-        "close": 3.4
+        "close": 0.43
       },
       {
         "date": "2025-08-14",
-        "close": 3.56
+        "close": 0.44
       },
       {
         "date": "2025-08-18",
-        "close": 4.62
+        "close": 0.58
       },
       {
         "date": "2025-08-20",
-        "close": 5.15
+        "close": 0.64
       },
       {
         "date": "2025-08-22",
-        "close": 5.45
+        "close": 0.68
       },
       {
         "date": "2025-08-26",
-        "close": 5.2
+        "close": 0.65
       },
       {
         "date": "2025-08-28",
-        "close": 5.15
+        "close": 0.64
       },
       {
         "date": "2025-09-01",
-        "close": 5.05
+        "close": 0.63
       },
       {
         "date": "2025-09-03",
-        "close": 5.05
+        "close": 0.63
       },
       {
         "date": "2025-09-05",
-        "close": 4.98
+        "close": 0.62
       },
       {
         "date": "2025-09-09",
-        "close": 4.96
+        "close": 0.62
       },
       {
         "date": "2025-09-11",
-        "close": 4.9
+        "close": 0.61
       },
       {
         "date": "2025-09-15",
-        "close": 4.76
+        "close": 0.6
       },
       {
         "date": "2025-09-17",
-        "close": 4.76
+        "close": 0.6
       },
       {
         "date": "2025-09-19",
-        "close": 4.46
+        "close": 0.56
       },
       {
         "date": "2025-09-23",
-        "close": 3.38
+        "close": 0.42
       },
       {
         "date": "2025-09-25",
-        "close": 3.28
+        "close": 0.41
       },
       {
         "date": "2025-09-29",
-        "close": 4.0
+        "close": 0.5
       },
       {
         "date": "2025-10-01",
-        "close": 4.44
+        "close": 0.56
       },
       {
         "date": "2025-10-03",
-        "close": 4.08
+        "close": 0.51
       },
       {
         "date": "2025-10-07",
-        "close": 4.12
+        "close": 0.51
       },
       {
         "date": "2025-10-09",
-        "close": 4.78
+        "close": 0.6
       },
       {
         "date": "2025-10-14",
-        "close": 4.98
+        "close": 0.62
       },
       {
         "date": "2025-10-16",
-        "close": 4.8
+        "close": 0.6
       },
       {
         "date": "2025-10-20",
-        "close": 4.7
+        "close": 0.59
       },
       {
         "date": "2025-10-22",
-        "close": 4.58
+        "close": 0.57
       },
       {
         "date": "2025-10-27",
-        "close": 4.38
+        "close": 0.55
       },
       {
         "date": "2025-10-29",
-        "close": 4.56
+        "close": 0.57
       },
       {
         "date": "2025-10-31",
-        "close": 4.84
+        "close": 0.61
       },
       {
         "date": "2025-11-04",
-        "close": 4.98
+        "close": 0.62
       },
       {
         "date": "2025-11-06",
-        "close": 5.2
+        "close": 0.65
       },
       {
         "date": "2025-11-10",
-        "close": 5.45
+        "close": 0.68
       },
       {
         "date": "2025-11-12",
-        "close": 5.55
+        "close": 0.69
       },
       {
         "date": "2025-11-14",
-        "close": 5.35
+        "close": 0.67
       },
       {
         "date": "2025-11-18",
-        "close": 5.05
+        "close": 0.63
       },
       {
         "date": "2025-11-20",
-        "close": 5.05
+        "close": 0.63
       },
       {
         "date": "2025-11-24",
-        "close": 5.05
+        "close": 0.63
       },
       {
         "date": "2025-11-26",
-        "close": 5.2
+        "close": 0.65
       },
       {
         "date": "2025-11-28",
-        "close": 5.2
+        "close": 0.65
       },
       {
         "date": "2025-12-02",
-        "close": 5.45
+        "close": 0.68
       },
       {
         "date": "2025-12-04",
-        "close": 5.5
+        "close": 0.69
       },
       {
         "date": "2025-12-09",
-        "close": 6.7
+        "close": 0.84
       },
       {
         "date": "2025-12-12",
-        "close": 7.6
+        "close": 0.95
       },
       {
         "date": "2025-12-16",
-        "close": 5.45
+        "close": 0.68
       },
       {
         "date": "2025-12-18",
-        "close": 5.05
+        "close": 0.63
       },
       {
         "date": "2025-12-22",
-        "close": 4.92
+        "close": 0.62
       },
       {
         "date": "2025-12-24",
-        "close": 5.0
+        "close": 0.62
       },
       {
         "date": "2025-12-26",
-        "close": 5.3
+        "close": 0.66
       },
       {
         "date": "2025-12-30",
-        "close": 4.64
+        "close": 0.58
       },
       {
         "date": "2026-01-06",
-        "close": 3.18
+        "close": 0.4
       },
       {
         "date": "2026-01-08",
-        "close": 3.5
+        "close": 0.44
       },
       {
         "date": "2026-01-12",
-        "close": 3.54
+        "close": 0.44
       },
       {
         "date": "2026-01-14",
-        "close": 3.92
+        "close": 0.49
       },
       {
         "date": "2026-01-16",
-        "close": 3.94
+        "close": 0.49
       },
       {
         "date": "2026-01-20",
-        "close": 3.42
+        "close": 0.43
       },
       {
         "date": "2026-01-22",
-        "close": 3.12
+        "close": 0.39
       },
       {
         "date": "2026-01-26",
-        "close": 3.32
+        "close": 0.41
       },
       {
         "date": "2026-01-28",
-        "close": 3.14
+        "close": 0.39
       },
       {
         "date": "2026-01-30",
-        "close": 2.8
+        "close": 0.35
       },
       {
         "date": "2026-02-03",
-        "close": 2.52
+        "close": 0.31
       },
       {
         "date": "2026-02-05",
-        "close": 2.54
+        "close": 0.32
       },
       {
         "date": "2026-02-09",
-        "close": 2.42
+        "close": 0.3
       },
       {
         "date": "2026-02-11",
-        "close": 2.62
+        "close": 0.33
       },
       {
         "date": "2026-02-13",
-        "close": 2.66
+        "close": 0.33
       },
       {
         "date": "2026-02-17",
-        "close": 2.6
+        "close": 0.32
       },
       {
         "date": "2026-02-19",
-        "close": 2.88
+        "close": 0.36
       },
       {
         "date": "2026-02-23",
-        "close": 2.72
+        "close": 0.34
       },
       {
         "date": "2026-02-25",
-        "close": 2.7
+        "close": 0.34
       },
       {
         "date": "2026-02-27",
-        "close": 2.78
+        "close": 0.35
       },
       {
         "date": "2026-03-04",
-        "close": 2.48
+        "close": 0.31
       },
       {
         "date": "2026-03-06",
-        "close": 2.68
+        "close": 0.34
       },
       {
         "date": "2026-03-10",
-        "close": 2.68
+        "close": 0.34
       },
       {
         "date": "2026-03-12",
-        "close": 2.72
+        "close": 0.34
       },
       {
         "date": "2026-03-16",
-        "close": 2.62
+        "close": 0.33
       },
       {
         "date": "2026-03-18",
-        "close": 2.62
+        "close": 0.33
       },
       {
         "date": "2026-03-20",
-        "close": 2.62
+        "close": 0.33
       },
       {
         "date": "2026-03-24",
-        "close": 2.56
+        "close": 0.32
       },
       {
         "date": "2026-03-26",
-        "close": 2.56
+        "close": 0.32
       },
       {
         "date": "2026-03-30",
-        "close": 2.62
+        "close": 0.33
       },
       {
         "date": "2026-04-01",
-        "close": 2.94
+        "close": 0.37
       },
       {
         "date": "2026-04-03",
-        "close": 3.28
+        "close": 0.41
       },
       {
         "date": "2026-04-08",
-        "close": 3.12
+        "close": 0.39
       },
       {
         "date": "2026-04-10",
-        "close": 2.8
+        "close": 0.35
       },
       {
         "date": "2026-04-17",
-        "close": 2.8
+        "close": 0.35
       },
       {
         "date": "2026-04-21",
-        "close": 2.8
+        "close": 0.35
       },
       {
         "date": "2026-04-23",
-        "close": 2.74
+        "close": 0.34
       },
       {
         "date": "2026-04-27",
-        "close": 2.58
+        "close": 0.32
       },
       {
         "date": "2026-04-29",
-        "close": 2.66
+        "close": 0.33
       },
       {
         "date": "2026-05-01",
-        "close": 2.74
+        "close": 0.34
       },
       {
         "date": "2026-05-05",
-        "close": 2.78
+        "close": 0.35
       },
       {
         "date": "2026-05-07",
-        "close": 2.62
+        "close": 0.33
       },
       {
         "date": "2026-05-11",
-        "close": 2.56
+        "close": 0.32
       },
       {
         "date": "2026-05-13",
-        "close": 2.5
+        "close": 0.31
       },
       {
         "date": "2026-05-15",
-        "close": 2.32
+        "close": 0.29
       },
       {
         "date": "2026-05-19",
-        "close": 1.99
+        "close": 0.25
       },
       {
         "date": "2026-05-21",
-        "close": 1.84
+        "close": 0.23
       },
       {
         "date": "2026-05-25",
-        "close": 1.75
+        "close": 0.22
       },
       {
         "date": "2026-05-27",
-        "close": 1.55
+        "close": 0.19
       },
       {
         "date": "2026-05-29",
@@ -396489,9 +396488,9 @@ var STOCKS_DATABASE = {
       0.57,
       0.54
     ],
-    "upcoming_xd": "2026-07-06",
+    "upcoming_xd": "2026-07-07",
     "upcoming_dividend_amount": 0.04,
-    "upcoming_payment_date": "2026-07-21",
+    "upcoming_payment_date": "2026-07-22",
     "dividend_history": [
       {
         "date": "2024-04-17",
@@ -448437,9 +448436,9 @@ var STOCKS_DATABASE = {
       0.14,
       0.15
     ],
-    "upcoming_xd": "2026-07-06",
+    "upcoming_xd": "2026-07-07",
     "upcoming_dividend_amount": 0.01,
-    "upcoming_payment_date": "2026-07-21",
+    "upcoming_payment_date": "2026-07-22",
     "dividend_history": [
       {
         "date": "2023-05-03",
