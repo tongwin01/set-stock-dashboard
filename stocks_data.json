@@ -57830,9 +57830,9 @@
       0.9,
       0.95
     ],
-    "upcoming_xd": "2026-07-13",
+    "upcoming_xd": "2026-07-14",
     "upcoming_dividend_amount": 0.06,
-    "upcoming_payment_date": "2026-07-28",
+    "upcoming_payment_date": "2026-07-29",
     "dividend_history": [
       {
         "date": "2025-05-26",
@@ -101231,9 +101231,9 @@
     "resistance_levels": [
       9.7
     ],
-    "upcoming_xd": "2026-07-13",
+    "upcoming_xd": "2026-07-14",
     "upcoming_dividend_amount": 0.13,
-    "upcoming_payment_date": "2026-07-28",
+    "upcoming_payment_date": "2026-07-29",
     "dividend_history": [
       {
         "date": "2021-08-27",
@@ -129042,9 +129042,9 @@
       56.25,
       60.5
     ],
-    "upcoming_xd": "2026-07-13",
+    "upcoming_xd": "2026-07-14",
     "upcoming_dividend_amount": 2.55,
-    "upcoming_payment_date": "2026-07-28",
+    "upcoming_payment_date": "2026-07-29",
     "dividend_history": [
       {
         "date": "2025-04-22",
@@ -137116,9 +137116,9 @@
       13.12,
       12.5
     ],
-    "upcoming_xd": "2026-07-13",
+    "upcoming_xd": "2026-07-14",
     "upcoming_dividend_amount": 0.36,
-    "upcoming_payment_date": "2026-07-28",
+    "upcoming_payment_date": "2026-07-29",
     "dividend_history": [
       {
         "date": "2024-08-28",
@@ -190795,7 +190795,7 @@
     "business_summary": "Thonburi Medical Centre Public Company Limited operates a hospital in Thailand. The company offers hair center services, such as hair treatment, weight control program, skin and facial treatment, cosmetic surgery, sexual health therapy and special lab clinics; and allergy blood test. it also offers weight center, laser and special lab, anti aging, beauty center, and non-surgical facelift services. The company was formerly known as Krungdhon Hospital Public Company Limited and changed its name to Thonburi Medical Centre Public Company Limited in April 2013. Thonburi Medical Centre Public Company Limited was founded in 1977 and is based in Bangkok, Thailand.",
     "current_price": 83.5,
     "pe_ratio": 10.21,
-    "dividend_yield": 3.21,
+    "dividend_yield": 3.23,
     "high_1m": 87.75,
     "low_1m": 83.0,
     "support_levels": [
@@ -195820,7 +195820,7 @@
   "KKC": {
     "symbol": "KKC",
     "name": "Kulthorn Kirby Public Company Limited",
-    "business_summary": "Kulthorn Kirby Public Company Limited, together with its subsidiaries, manufactures and distributes hermetic compressors. It operates through four segments: Compressors and Parts, Enameled Wire, Steel Sheet, and Steel Coil Center. The company manufactures and sells iron castings for compressor parts and automotive parts; enameled copper wires and thermostats for use in air conditioners and refrigerators; forging, machining, and heat treatment metal parts; and steel coil center for the manufacturer of motor compressors, electrical motors, and other parts. It is also involved in the slitting of electrical steel for compressors; and the provision of services related to technology research and development for products and manufacturing. In addition, the company offers condensing units for refrigeration products, electrical motor parts, and other motor compressor parts. It serves in Thailand, Hong Kong, China, Indonesia, Australia, the Kingdom of Saudi Arabia, and internationally. The company was founded in 1980 and is based in Bangkok, Thailand.",
+    "business_summary": "Kulthorn Kirby Public Company Limited, together with its subsidiaries, manufactures and distributes hermetic compressors in Thailand, Hong Kong, China, Indonesia, Australia, the Kingdom of Saudi Arabia, and internationally. It operates through four segments: Compressors and Parts, Enameled Wire, Steel Sheet, and Steel Coil Center. The company manufactures and sells iron castings for compressor parts and automotive parts; enameled copper wires and thermostats for use in air conditioners and refrigerators; and steel coil center for the manufacturer of motor compressors, electrical motors, and other parts. It is also involved in the slitting of electrical steel for compressors; and the provision of services related to technology research and development for products and manufacturing. In addition, the company offers condensing units for refrigeration products, electrical motor parts, and other motor compressor parts. The company was founded in 1980 and is based in Bangkok, Thailand.",
     "current_price": 0.04,
     "pe_ratio": null,
     "dividend_yield": 0.0,
@@ -205631,7 +205631,7 @@
     "business_summary": "Lalin Property Public Company Limited engages in the real estate development business in Thailand. Its projects include single and twin house, and townhomes and townhouses. Lalin Property Public Company Limited was incorporated in 1988 and is based in Bangkok, Thailand.",
     "current_price": 4.3,
     "pe_ratio": 8.96,
-    "dividend_yield": 6.85,
+    "dividend_yield": 6.98,
     "high_1m": 4.4,
     "low_1m": 4.28,
     "support_levels": [
@@ -245997,564 +245997,6 @@
       }
     ]
   },
-  "NC": {
-    "symbol": "NC",
-    "name": "Newcity (Bangkok) Public Company Limited",
-    "business_summary": "Newcity (Bangkok) Public Company Limited engages in the distribution of pantyhose, cosmetics, innerwear, and exercise outfits in Thailand. It provides hosiery, legwear, nightwear, and sportwear under the Cherilon, Cherilon Intimate, Cherilon Dansmate, Cara, and SanRemo brand names, as well as personal care under the Scruples brand. The company also exports its products. Newcity (Bangkok) Public Company Limited was founded in 1964 and is based in Bangkok, Thailand.",
-    "current_price": 1.72,
-    "pe_ratio": 86.0,
-    "dividend_yield": 0.58,
-    "high_1m": 1.9,
-    "low_1m": 1.7,
-    "support_levels": [
-      1.7,
-      1.63
-    ],
-    "resistance_levels": [
-      1.99,
-      2.2,
-      2.29
-    ],
-    "upcoming_xd": "2026-03-12",
-    "upcoming_dividend_amount": 0.01,
-    "upcoming_payment_date": "2026-03-27",
-    "dividend_history": [
-      {
-        "date": "2026-03-12",
-        "amount": 0.01
-      },
-      {
-        "date": "2025-03-20",
-        "amount": 0.01
-      },
-      {
-        "date": "2024-03-21",
-        "amount": 0.0196
-      },
-      {
-        "date": "2023-03-09",
-        "amount": 0.0137
-      },
-      {
-        "date": "2020-08-13",
-        "amount": 0.0098
-      },
-      {
-        "date": "2019-05-02",
-        "amount": 0.0343
-      },
-      {
-        "date": "2018-05-04",
-        "amount": 0.0294
-      },
-      {
-        "date": "2017-05-03",
-        "amount": 0.0216
-      },
-      {
-        "date": "2016-05-09",
-        "amount": 0.0196
-      },
-      {
-        "date": "2015-05-07",
-        "amount": 0.0392
-      }
-    ],
-    "history": [
-      {
-        "date": "2025-06-12",
-        "close": 2.21
-      },
-      {
-        "date": "2025-06-16",
-        "close": 2.11
-      },
-      {
-        "date": "2025-06-18",
-        "close": 2.15
-      },
-      {
-        "date": "2025-06-20",
-        "close": 2.07
-      },
-      {
-        "date": "2025-06-24",
-        "close": 2.01
-      },
-      {
-        "date": "2025-06-26",
-        "close": 2.03
-      },
-      {
-        "date": "2025-06-30",
-        "close": 2.07
-      },
-      {
-        "date": "2025-07-02",
-        "close": 1.97
-      },
-      {
-        "date": "2025-07-04",
-        "close": 2.07
-      },
-      {
-        "date": "2025-07-08",
-        "close": 2.13
-      },
-      {
-        "date": "2025-07-11",
-        "close": 2.11
-      },
-      {
-        "date": "2025-07-15",
-        "close": 2.13
-      },
-      {
-        "date": "2025-07-17",
-        "close": 2.15
-      },
-      {
-        "date": "2025-07-21",
-        "close": 2.19
-      },
-      {
-        "date": "2025-07-23",
-        "close": 2.15
-      },
-      {
-        "date": "2025-07-25",
-        "close": 2.11
-      },
-      {
-        "date": "2025-07-30",
-        "close": 2.11
-      },
-      {
-        "date": "2025-08-01",
-        "close": 2.11
-      },
-      {
-        "date": "2025-08-05",
-        "close": 2.15
-      },
-      {
-        "date": "2025-08-07",
-        "close": 2.11
-      },
-      {
-        "date": "2025-08-13",
-        "close": 2.29
-      },
-      {
-        "date": "2025-08-15",
-        "close": 2.27
-      },
-      {
-        "date": "2025-08-19",
-        "close": 2.25
-      },
-      {
-        "date": "2025-08-21",
-        "close": 2.25
-      },
-      {
-        "date": "2025-08-25",
-        "close": 2.27
-      },
-      {
-        "date": "2025-08-27",
-        "close": 2.25
-      },
-      {
-        "date": "2025-08-29",
-        "close": 2.19
-      },
-      {
-        "date": "2025-09-02",
-        "close": 2.25
-      },
-      {
-        "date": "2025-09-04",
-        "close": 2.33
-      },
-      {
-        "date": "2025-09-08",
-        "close": 2.33
-      },
-      {
-        "date": "2025-09-10",
-        "close": 2.35
-      },
-      {
-        "date": "2025-09-12",
-        "close": 2.33
-      },
-      {
-        "date": "2025-09-16",
-        "close": 2.33
-      },
-      {
-        "date": "2025-09-18",
-        "close": 2.33
-      },
-      {
-        "date": "2025-09-22",
-        "close": 2.29
-      },
-      {
-        "date": "2025-09-24",
-        "close": 2.29
-      },
-      {
-        "date": "2025-09-26",
-        "close": 2.27
-      },
-      {
-        "date": "2025-09-30",
-        "close": 2.25
-      },
-      {
-        "date": "2025-10-02",
-        "close": 2.27
-      },
-      {
-        "date": "2025-10-06",
-        "close": 2.29
-      },
-      {
-        "date": "2025-10-08",
-        "close": 2.29
-      },
-      {
-        "date": "2025-10-10",
-        "close": 2.29
-      },
-      {
-        "date": "2025-10-15",
-        "close": 2.21
-      },
-      {
-        "date": "2025-10-17",
-        "close": 2.15
-      },
-      {
-        "date": "2025-10-21",
-        "close": 2.11
-      },
-      {
-        "date": "2025-10-24",
-        "close": 2.17
-      },
-      {
-        "date": "2025-10-28",
-        "close": 2.17
-      },
-      {
-        "date": "2025-10-30",
-        "close": 2.17
-      },
-      {
-        "date": "2025-11-03",
-        "close": 2.15
-      },
-      {
-        "date": "2025-11-05",
-        "close": 2.15
-      },
-      {
-        "date": "2025-11-07",
-        "close": 2.01
-      },
-      {
-        "date": "2025-11-11",
-        "close": 2.01
-      },
-      {
-        "date": "2025-11-13",
-        "close": 2.01
-      },
-      {
-        "date": "2025-11-17",
-        "close": 1.99
-      },
-      {
-        "date": "2025-11-19",
-        "close": 1.99
-      },
-      {
-        "date": "2025-11-21",
-        "close": 2.03
-      },
-      {
-        "date": "2025-11-25",
-        "close": 2.03
-      },
-      {
-        "date": "2025-11-27",
-        "close": 2.03
-      },
-      {
-        "date": "2025-12-01",
-        "close": 1.99
-      },
-      {
-        "date": "2025-12-03",
-        "close": 2.01
-      },
-      {
-        "date": "2025-12-08",
-        "close": 2.09
-      },
-      {
-        "date": "2025-12-11",
-        "close": 2.07
-      },
-      {
-        "date": "2025-12-15",
-        "close": 2.09
-      },
-      {
-        "date": "2025-12-17",
-        "close": 2.07
-      },
-      {
-        "date": "2025-12-19",
-        "close": 2.09
-      },
-      {
-        "date": "2025-12-23",
-        "close": 2.11
-      },
-      {
-        "date": "2025-12-25",
-        "close": 2.13
-      },
-      {
-        "date": "2025-12-29",
-        "close": 2.11
-      },
-      {
-        "date": "2026-01-05",
-        "close": 2.15
-      },
-      {
-        "date": "2026-01-07",
-        "close": 2.13
-      },
-      {
-        "date": "2026-01-09",
-        "close": 2.03
-      },
-      {
-        "date": "2026-01-13",
-        "close": 1.98
-      },
-      {
-        "date": "2026-01-15",
-        "close": 2.03
-      },
-      {
-        "date": "2026-01-19",
-        "close": 2.05
-      },
-      {
-        "date": "2026-01-21",
-        "close": 2.09
-      },
-      {
-        "date": "2026-01-23",
-        "close": 2.09
-      },
-      {
-        "date": "2026-01-27",
-        "close": 2.05
-      },
-      {
-        "date": "2026-01-29",
-        "close": 2.01
-      },
-      {
-        "date": "2026-02-02",
-        "close": 2.01
-      },
-      {
-        "date": "2026-02-04",
-        "close": 2.01
-      },
-      {
-        "date": "2026-02-06",
-        "close": 2.07
-      },
-      {
-        "date": "2026-02-10",
-        "close": 2.11
-      },
-      {
-        "date": "2026-02-12",
-        "close": 2.23
-      },
-      {
-        "date": "2026-02-16",
-        "close": 2.15
-      },
-      {
-        "date": "2026-02-18",
-        "close": 2.17
-      },
-      {
-        "date": "2026-02-20",
-        "close": 2.13
-      },
-      {
-        "date": "2026-02-24",
-        "close": 2.11
-      },
-      {
-        "date": "2026-02-26",
-        "close": 2.11
-      },
-      {
-        "date": "2026-03-02",
-        "close": 1.99
-      },
-      {
-        "date": "2026-03-05",
-        "close": 1.94
-      },
-      {
-        "date": "2026-03-09",
-        "close": 1.79
-      },
-      {
-        "date": "2026-03-11",
-        "close": 1.84
-      },
-      {
-        "date": "2026-03-13",
-        "close": 1.88
-      },
-      {
-        "date": "2026-03-17",
-        "close": 1.89
-      },
-      {
-        "date": "2026-03-19",
-        "close": 1.85
-      },
-      {
-        "date": "2026-03-23",
-        "close": 1.85
-      },
-      {
-        "date": "2026-03-25",
-        "close": 1.91
-      },
-      {
-        "date": "2026-03-27",
-        "close": 1.92
-      },
-      {
-        "date": "2026-03-31",
-        "close": 1.87
-      },
-      {
-        "date": "2026-04-02",
-        "close": 1.96
-      },
-      {
-        "date": "2026-04-07",
-        "close": 1.85
-      },
-      {
-        "date": "2026-04-09",
-        "close": 1.85
-      },
-      {
-        "date": "2026-04-16",
-        "close": 1.82
-      },
-      {
-        "date": "2026-04-20",
-        "close": 1.88
-      },
-      {
-        "date": "2026-04-22",
-        "close": 1.93
-      },
-      {
-        "date": "2026-04-24",
-        "close": 1.9
-      },
-      {
-        "date": "2026-04-28",
-        "close": 1.86
-      },
-      {
-        "date": "2026-04-30",
-        "close": 1.91
-      },
-      {
-        "date": "2026-05-04",
-        "close": 1.91
-      },
-      {
-        "date": "2026-05-06",
-        "close": 1.81
-      },
-      {
-        "date": "2026-05-08",
-        "close": 1.85
-      },
-      {
-        "date": "2026-05-12",
-        "close": 1.87
-      },
-      {
-        "date": "2026-05-14",
-        "close": 1.88
-      },
-      {
-        "date": "2026-05-18",
-        "close": 1.9
-      },
-      {
-        "date": "2026-05-20",
-        "close": 1.77
-      },
-      {
-        "date": "2026-05-22",
-        "close": 1.73
-      },
-      {
-        "date": "2026-05-26",
-        "close": 1.74
-      },
-      {
-        "date": "2026-05-28",
-        "close": 1.76
-      },
-      {
-        "date": "2026-06-01",
-        "close": 1.81
-      },
-      {
-        "date": "2026-06-03",
-        "close": 1.8
-      },
-      {
-        "date": "2026-06-05",
-        "close": 1.82
-      },
-      {
-        "date": "2026-06-09",
-        "close": 1.74
-      },
-      {
-        "date": "2026-06-11",
-        "close": 1.73
-      }
-    ]
-  },
   "NCAP": {
     "symbol": "NCAP",
     "name": "Next Capital Public Company Limited",
@@ -271227,6 +270669,564 @@
       {
         "date": "2026-06-11",
         "close": 6.15
+      }
+    ]
+  },
+  "PB": {
+    "symbol": "PB",
+    "name": "President Bakery Public Company Limited",
+    "business_summary": "President Bakery Public Company Limited manufactures and sells bakery products in Thailand. The company's bakery products include sliced and snack bread, burger and hot dog buns, snack buns, pastries, and confectioneries; sandwich and snack cakes; fried products; breadcrumbs used for cooking and coating; and fast food and catering products, as well as hot dog and hamburger buns. It also retails its products under the Deliya by Farmhouse, Madame Marco, and Good Morning Farmhouse brand names; and operates restaurants under the Shinjuku Tonkatsu Saboten name. President Bakery Public Company Limited was incorporated in 1980 and is headquartered in Bangkok, Thailand. President Bakery Public Company Limited is a subsidiary of Thai President Foods Public Company Limited.",
+    "current_price": 48.5,
+    "pe_ratio": 18.03,
+    "dividend_yield": 3.09,
+    "high_1m": 49.0,
+    "low_1m": 45.25,
+    "support_levels": [
+      45.5,
+      46.96,
+      48.45
+    ],
+    "resistance_levels": [
+      49.13,
+      52.11
+    ],
+    "upcoming_xd": "2026-05-11",
+    "upcoming_dividend_amount": 0.79,
+    "upcoming_payment_date": "2026-05-26",
+    "dividend_history": [
+      {
+        "date": "2026-05-11",
+        "amount": 0.79
+      },
+      {
+        "date": "2025-09-01",
+        "amount": 0.71
+      },
+      {
+        "date": "2025-05-09",
+        "amount": 1.01
+      },
+      {
+        "date": "2024-09-02",
+        "amount": 0.89
+      },
+      {
+        "date": "2024-05-13",
+        "amount": 1.14
+      },
+      {
+        "date": "2023-09-04",
+        "amount": 0.86
+      },
+      {
+        "date": "2023-05-10",
+        "amount": 1.14
+      },
+      {
+        "date": "2022-09-05",
+        "amount": 0.86
+      },
+      {
+        "date": "2022-05-09",
+        "amount": 1.06
+      },
+      {
+        "date": "2021-09-06",
+        "amount": 0.84
+      }
+    ],
+    "history": [
+      {
+        "date": "2025-06-12",
+        "close": 48.23
+      },
+      {
+        "date": "2025-06-16",
+        "close": 49.44
+      },
+      {
+        "date": "2025-06-18",
+        "close": 50.41
+      },
+      {
+        "date": "2025-06-20",
+        "close": 49.2
+      },
+      {
+        "date": "2025-06-24",
+        "close": 48.23
+      },
+      {
+        "date": "2025-06-26",
+        "close": 48.72
+      },
+      {
+        "date": "2025-06-30",
+        "close": 48.72
+      },
+      {
+        "date": "2025-07-02",
+        "close": 48.47
+      },
+      {
+        "date": "2025-07-04",
+        "close": 48.96
+      },
+      {
+        "date": "2025-07-08",
+        "close": 49.69
+      },
+      {
+        "date": "2025-07-11",
+        "close": 49.44
+      },
+      {
+        "date": "2025-07-15",
+        "close": 50.41
+      },
+      {
+        "date": "2025-07-17",
+        "close": 52.11
+      },
+      {
+        "date": "2025-07-21",
+        "close": 50.41
+      },
+      {
+        "date": "2025-07-23",
+        "close": 50.41
+      },
+      {
+        "date": "2025-07-25",
+        "close": 50.41
+      },
+      {
+        "date": "2025-07-30",
+        "close": 50.41
+      },
+      {
+        "date": "2025-08-01",
+        "close": 48.96
+      },
+      {
+        "date": "2025-08-05",
+        "close": 50.41
+      },
+      {
+        "date": "2025-08-07",
+        "close": 49.2
+      },
+      {
+        "date": "2025-08-13",
+        "close": 48.96
+      },
+      {
+        "date": "2025-08-15",
+        "close": 48.47
+      },
+      {
+        "date": "2025-08-19",
+        "close": 48.47
+      },
+      {
+        "date": "2025-08-21",
+        "close": 48.47
+      },
+      {
+        "date": "2025-08-25",
+        "close": 48.47
+      },
+      {
+        "date": "2025-08-27",
+        "close": 48.47
+      },
+      {
+        "date": "2025-08-29",
+        "close": 48.47
+      },
+      {
+        "date": "2025-09-02",
+        "close": 48.68
+      },
+      {
+        "date": "2025-09-04",
+        "close": 49.17
+      },
+      {
+        "date": "2025-09-08",
+        "close": 49.17
+      },
+      {
+        "date": "2025-09-10",
+        "close": 49.17
+      },
+      {
+        "date": "2025-09-12",
+        "close": 49.17
+      },
+      {
+        "date": "2025-09-16",
+        "close": 49.17
+      },
+      {
+        "date": "2025-09-18",
+        "close": 49.17
+      },
+      {
+        "date": "2025-09-22",
+        "close": 48.68
+      },
+      {
+        "date": "2025-09-24",
+        "close": 48.68
+      },
+      {
+        "date": "2025-09-26",
+        "close": 48.68
+      },
+      {
+        "date": "2025-09-30",
+        "close": 48.93
+      },
+      {
+        "date": "2025-10-02",
+        "close": 48.93
+      },
+      {
+        "date": "2025-10-06",
+        "close": 48.68
+      },
+      {
+        "date": "2025-10-08",
+        "close": 48.68
+      },
+      {
+        "date": "2025-10-10",
+        "close": 48.44
+      },
+      {
+        "date": "2025-10-15",
+        "close": 48.19
+      },
+      {
+        "date": "2025-10-17",
+        "close": 47.94
+      },
+      {
+        "date": "2025-10-21",
+        "close": 47.94
+      },
+      {
+        "date": "2025-10-24",
+        "close": 47.45
+      },
+      {
+        "date": "2025-10-28",
+        "close": 48.19
+      },
+      {
+        "date": "2025-10-30",
+        "close": 47.94
+      },
+      {
+        "date": "2025-11-03",
+        "close": 47.7
+      },
+      {
+        "date": "2025-11-05",
+        "close": 46.22
+      },
+      {
+        "date": "2025-11-07",
+        "close": 47.21
+      },
+      {
+        "date": "2025-11-11",
+        "close": 46.22
+      },
+      {
+        "date": "2025-11-13",
+        "close": 45.24
+      },
+      {
+        "date": "2025-11-17",
+        "close": 44.5
+      },
+      {
+        "date": "2025-11-19",
+        "close": 43.76
+      },
+      {
+        "date": "2025-11-21",
+        "close": 46.96
+      },
+      {
+        "date": "2025-11-25",
+        "close": 45.98
+      },
+      {
+        "date": "2025-11-27",
+        "close": 45.24
+      },
+      {
+        "date": "2025-12-01",
+        "close": 45.73
+      },
+      {
+        "date": "2025-12-03",
+        "close": 45.73
+      },
+      {
+        "date": "2025-12-08",
+        "close": 45.73
+      },
+      {
+        "date": "2025-12-11",
+        "close": 44.99
+      },
+      {
+        "date": "2025-12-15",
+        "close": 46.71
+      },
+      {
+        "date": "2025-12-17",
+        "close": 49.17
+      },
+      {
+        "date": "2025-12-19",
+        "close": 48.93
+      },
+      {
+        "date": "2025-12-23",
+        "close": 48.44
+      },
+      {
+        "date": "2025-12-25",
+        "close": 48.44
+      },
+      {
+        "date": "2025-12-29",
+        "close": 49.17
+      },
+      {
+        "date": "2026-01-05",
+        "close": 48.19
+      },
+      {
+        "date": "2026-01-07",
+        "close": 48.19
+      },
+      {
+        "date": "2026-01-09",
+        "close": 48.68
+      },
+      {
+        "date": "2026-01-13",
+        "close": 49.17
+      },
+      {
+        "date": "2026-01-15",
+        "close": 49.17
+      },
+      {
+        "date": "2026-01-19",
+        "close": 49.17
+      },
+      {
+        "date": "2026-01-21",
+        "close": 49.17
+      },
+      {
+        "date": "2026-01-23",
+        "close": 49.17
+      },
+      {
+        "date": "2026-01-27",
+        "close": 49.17
+      },
+      {
+        "date": "2026-01-29",
+        "close": 49.17
+      },
+      {
+        "date": "2026-02-02",
+        "close": 48.93
+      },
+      {
+        "date": "2026-02-04",
+        "close": 49.17
+      },
+      {
+        "date": "2026-02-06",
+        "close": 49.17
+      },
+      {
+        "date": "2026-02-10",
+        "close": 49.17
+      },
+      {
+        "date": "2026-02-12",
+        "close": 49.17
+      },
+      {
+        "date": "2026-02-16",
+        "close": 49.17
+      },
+      {
+        "date": "2026-02-18",
+        "close": 48.44
+      },
+      {
+        "date": "2026-02-20",
+        "close": 48.93
+      },
+      {
+        "date": "2026-02-24",
+        "close": 49.17
+      },
+      {
+        "date": "2026-02-26",
+        "close": 48.68
+      },
+      {
+        "date": "2026-03-02",
+        "close": 48.44
+      },
+      {
+        "date": "2026-03-05",
+        "close": 48.44
+      },
+      {
+        "date": "2026-03-09",
+        "close": 48.44
+      },
+      {
+        "date": "2026-03-11",
+        "close": 48.44
+      },
+      {
+        "date": "2026-03-13",
+        "close": 47.45
+      },
+      {
+        "date": "2026-03-17",
+        "close": 47.7
+      },
+      {
+        "date": "2026-03-19",
+        "close": 48.19
+      },
+      {
+        "date": "2026-03-23",
+        "close": 46.96
+      },
+      {
+        "date": "2026-03-25",
+        "close": 47.21
+      },
+      {
+        "date": "2026-03-27",
+        "close": 48.93
+      },
+      {
+        "date": "2026-03-31",
+        "close": 47.94
+      },
+      {
+        "date": "2026-04-02",
+        "close": 48.93
+      },
+      {
+        "date": "2026-04-07",
+        "close": 48.93
+      },
+      {
+        "date": "2026-04-09",
+        "close": 48.93
+      },
+      {
+        "date": "2026-04-16",
+        "close": 47.7
+      },
+      {
+        "date": "2026-04-20",
+        "close": 47.94
+      },
+      {
+        "date": "2026-04-22",
+        "close": 47.45
+      },
+      {
+        "date": "2026-04-24",
+        "close": 48.93
+      },
+      {
+        "date": "2026-04-28",
+        "close": 47.7
+      },
+      {
+        "date": "2026-04-30",
+        "close": 47.7
+      },
+      {
+        "date": "2026-05-04",
+        "close": 47.7
+      },
+      {
+        "date": "2026-05-06",
+        "close": 47.21
+      },
+      {
+        "date": "2026-05-08",
+        "close": 46.96
+      },
+      {
+        "date": "2026-05-12",
+        "close": 49.0
+      },
+      {
+        "date": "2026-05-14",
+        "close": 48.0
+      },
+      {
+        "date": "2026-05-18",
+        "close": 47.0
+      },
+      {
+        "date": "2026-05-20",
+        "close": 46.75
+      },
+      {
+        "date": "2026-05-22",
+        "close": 47.0
+      },
+      {
+        "date": "2026-05-26",
+        "close": 45.75
+      },
+      {
+        "date": "2026-05-28",
+        "close": 48.0
+      },
+      {
+        "date": "2026-06-01",
+        "close": 48.0
+      },
+      {
+        "date": "2026-06-03",
+        "close": 48.0
+      },
+      {
+        "date": "2026-06-05",
+        "close": 48.0
+      },
+      {
+        "date": "2026-06-09",
+        "close": 48.5
+      },
+      {
+        "date": "2026-06-11",
+        "close": 48.25
       }
     ]
   },
@@ -342850,7 +342850,7 @@
     "symbol": "SEAGATE23",
     "name": "Seagate Technology Holdings plc",
     "business_summary": "Seagate Technology Holdings plc engages in the provision of data storage technology and infrastructure solutions in Singapore, the United States, the Netherlands, and internationally. The company offers mass capacity storage products, including enterprise nearline hard disk drives (HDDs), enterprise nearline solid state drives (SSDs), enterprise nearline systems, video and image HDDs, and network-attached storage drives. It also offers legacy applications comprising Mission Critical HDDs and SSDs; external storage solutions under the Seagate Ultra Touch, One Touch, Expansion, and Basics product lines, as well as under the LaCie brand name; desktop drives for personal computers and workstation applications; notebook drives traditional notebooks, convertible systems, and external storage applications, DVR HDDs for video streaming applications, and gaming SSDs for gaming rigs. In addition, the company provides Lyve edge-to-cloud mass capacity platform, that includes modular hardware and software to support enterprises' on-premise and cloud storage infrastructure needs. It sells its products primarily to original equipment manufacturers, distributors, and retailers. The company was founded in 1978 and is based in Singapore.",
-    "current_price": 5.85,
+    "current_price": 6.4,
     "pe_ratio": null,
     "dividend_yield": 0.51,
     "high_1m": 6.5,
@@ -367891,7 +367891,7 @@
     "symbol": "SP500US19",
     "name": "SP500US19_DR SP500US#YUANTA",
     "business_summary": "SPDR Series Trust - State Street SPDR Portfolio S&P 500 ETF is an exchange traded fund launched by State Street Global Advisors, Inc. The fund is managed by SSGA Funds Management, Inc. It invests in public equity markets of the United States. It invests in stocks of companies operating across diversified sectors. It invests in growth and value stocks of large-cap companies. It seeks to track the performance of the S&P 500 Index, by using representative sampling technique. SPDR Series Trust - State Street SPDR Portfolio S&P 500 ETF was formed on November 8, 2005 and is domiciled in the United States.",
-    "current_price": 14.3,
+    "current_price": 14.2,
     "pe_ratio": null,
     "dividend_yield": 0.0,
     "high_1m": 14.8,
@@ -368638,7 +368638,7 @@
     "symbol": "SP500US80",
     "name": "SP500US80_DR SP500US#KTB",
     "business_summary": "SPDR Series Trust - State Street SPDR Portfolio S&P 500 ETF is an exchange traded fund launched by State Street Global Advisors, Inc. The fund is managed by SSGA Funds Management, Inc. It invests in public equity markets of the United States. It invests in stocks of companies operating across diversified sectors. It invests in growth and value stocks of large-cap companies. It seeks to track the performance of the S&P 500 Index, by using representative sampling technique. SPDR Series Trust - State Street SPDR Portfolio S&P 500 ETF was formed on November 8, 2005 and is domiciled in the United States.",
-    "current_price": 2.86,
+    "current_price": 2.88,
     "pe_ratio": null,
     "dividend_yield": 0.0,
     "high_1m": 2.94,
@@ -385072,554 +385072,6 @@
       }
     ]
   },
-  "STP": {
-    "symbol": "STP",
-    "name": "Sahathai Printing & Packaging Public Company Limited",
-    "business_summary": "Sahathai Printing & Packaging Public Company Limited engages in the paper box printing and publication business in Thailand. The company offers design and development, pre-press, press, and post press services. Sahathai Printing & Packaging Public Company Limited was founded in 1969 and is headquartered in Bangkok, Thailand.",
-    "current_price": 10.8,
-    "pe_ratio": 6.32,
-    "dividend_yield": 6.2,
-    "high_1m": 11.5,
-    "low_1m": 10.6,
-    "support_levels": [
-      9.3,
-      9.83
-    ],
-    "resistance_levels": [
-      11.14
-    ],
-    "upcoming_xd": "2026-04-17",
-    "upcoming_dividend_amount": 0.42,
-    "upcoming_payment_date": "2026-05-02",
-    "dividend_history": [
-      {
-        "date": "2026-04-17",
-        "amount": 0.42
-      },
-      {
-        "date": "2025-08-27",
-        "amount": 0.25
-      },
-      {
-        "date": "2025-04-16",
-        "amount": 0.4
-      },
-      {
-        "date": "2024-08-27",
-        "amount": 0.25
-      },
-      {
-        "date": "2024-04-18",
-        "amount": 0.25
-      },
-      {
-        "date": "2023-08-25",
-        "amount": 0.1
-      },
-      {
-        "date": "2023-05-03",
-        "amount": 0.25
-      },
-      {
-        "date": "2022-08-26",
-        "amount": 0.2
-      }
-    ],
-    "history": [
-      {
-        "date": "2025-06-12",
-        "close": 9.26
-      },
-      {
-        "date": "2025-06-16",
-        "close": 9.21
-      },
-      {
-        "date": "2025-06-18",
-        "close": 9.17
-      },
-      {
-        "date": "2025-06-20",
-        "close": 9.02
-      },
-      {
-        "date": "2025-06-24",
-        "close": 9.07
-      },
-      {
-        "date": "2025-06-26",
-        "close": 9.07
-      },
-      {
-        "date": "2025-06-30",
-        "close": 9.12
-      },
-      {
-        "date": "2025-07-02",
-        "close": 9.07
-      },
-      {
-        "date": "2025-07-04",
-        "close": 9.12
-      },
-      {
-        "date": "2025-07-08",
-        "close": 9.02
-      },
-      {
-        "date": "2025-07-11",
-        "close": 9.02
-      },
-      {
-        "date": "2025-07-15",
-        "close": 9.12
-      },
-      {
-        "date": "2025-07-17",
-        "close": 9.12
-      },
-      {
-        "date": "2025-07-21",
-        "close": 9.12
-      },
-      {
-        "date": "2025-07-23",
-        "close": 9.07
-      },
-      {
-        "date": "2025-07-25",
-        "close": 9.12
-      },
-      {
-        "date": "2025-07-30",
-        "close": 9.12
-      },
-      {
-        "date": "2025-08-01",
-        "close": 9.49
-      },
-      {
-        "date": "2025-08-05",
-        "close": 9.49
-      },
-      {
-        "date": "2025-08-07",
-        "close": 9.59
-      },
-      {
-        "date": "2025-08-13",
-        "close": 9.68
-      },
-      {
-        "date": "2025-08-15",
-        "close": 10.34
-      },
-      {
-        "date": "2025-08-19",
-        "close": 10.81
-      },
-      {
-        "date": "2025-08-21",
-        "close": 10.9
-      },
-      {
-        "date": "2025-08-25",
-        "close": 10.81
-      },
-      {
-        "date": "2025-08-27",
-        "close": 11.05
-      },
-      {
-        "date": "2025-08-29",
-        "close": 10.95
-      },
-      {
-        "date": "2025-09-02",
-        "close": 10.76
-      },
-      {
-        "date": "2025-09-04",
-        "close": 10.86
-      },
-      {
-        "date": "2025-09-08",
-        "close": 10.86
-      },
-      {
-        "date": "2025-09-10",
-        "close": 10.95
-      },
-      {
-        "date": "2025-09-12",
-        "close": 10.95
-      },
-      {
-        "date": "2025-09-16",
-        "close": 11.05
-      },
-      {
-        "date": "2025-09-18",
-        "close": 11.05
-      },
-      {
-        "date": "2025-09-22",
-        "close": 10.66
-      },
-      {
-        "date": "2025-09-24",
-        "close": 10.76
-      },
-      {
-        "date": "2025-09-26",
-        "close": 10.76
-      },
-      {
-        "date": "2025-09-30",
-        "close": 10.66
-      },
-      {
-        "date": "2025-10-02",
-        "close": 10.57
-      },
-      {
-        "date": "2025-10-06",
-        "close": 10.76
-      },
-      {
-        "date": "2025-10-08",
-        "close": 10.57
-      },
-      {
-        "date": "2025-10-10",
-        "close": 10.47
-      },
-      {
-        "date": "2025-10-15",
-        "close": 10.47
-      },
-      {
-        "date": "2025-10-17",
-        "close": 10.38
-      },
-      {
-        "date": "2025-10-21",
-        "close": 10.47
-      },
-      {
-        "date": "2025-10-24",
-        "close": 10.47
-      },
-      {
-        "date": "2025-10-28",
-        "close": 10.28
-      },
-      {
-        "date": "2025-10-30",
-        "close": 10.38
-      },
-      {
-        "date": "2025-11-03",
-        "close": 10.57
-      },
-      {
-        "date": "2025-11-05",
-        "close": 10.47
-      },
-      {
-        "date": "2025-11-07",
-        "close": 10.47
-      },
-      {
-        "date": "2025-11-11",
-        "close": 10.57
-      },
-      {
-        "date": "2025-11-13",
-        "close": 9.9
-      },
-      {
-        "date": "2025-11-17",
-        "close": 9.7
-      },
-      {
-        "date": "2025-11-19",
-        "close": 9.8
-      },
-      {
-        "date": "2025-11-21",
-        "close": 9.9
-      },
-      {
-        "date": "2025-11-25",
-        "close": 9.7
-      },
-      {
-        "date": "2025-11-27",
-        "close": 9.56
-      },
-      {
-        "date": "2025-12-01",
-        "close": 9.51
-      },
-      {
-        "date": "2025-12-03",
-        "close": 9.27
-      },
-      {
-        "date": "2025-12-08",
-        "close": 9.37
-      },
-      {
-        "date": "2025-12-11",
-        "close": 9.32
-      },
-      {
-        "date": "2025-12-15",
-        "close": 9.37
-      },
-      {
-        "date": "2025-12-17",
-        "close": 9.32
-      },
-      {
-        "date": "2025-12-19",
-        "close": 9.37
-      },
-      {
-        "date": "2025-12-23",
-        "close": 9.32
-      },
-      {
-        "date": "2025-12-25",
-        "close": 9.37
-      },
-      {
-        "date": "2025-12-29",
-        "close": 9.37
-      },
-      {
-        "date": "2026-01-05",
-        "close": 9.56
-      },
-      {
-        "date": "2026-01-07",
-        "close": 9.61
-      },
-      {
-        "date": "2026-01-09",
-        "close": 9.56
-      },
-      {
-        "date": "2026-01-13",
-        "close": 9.42
-      },
-      {
-        "date": "2026-01-15",
-        "close": 9.51
-      },
-      {
-        "date": "2026-01-19",
-        "close": 9.51
-      },
-      {
-        "date": "2026-01-21",
-        "close": 9.9
-      },
-      {
-        "date": "2026-01-23",
-        "close": 9.8
-      },
-      {
-        "date": "2026-01-27",
-        "close": 9.99
-      },
-      {
-        "date": "2026-01-29",
-        "close": 9.9
-      },
-      {
-        "date": "2026-02-02",
-        "close": 9.8
-      },
-      {
-        "date": "2026-02-04",
-        "close": 9.9
-      },
-      {
-        "date": "2026-02-06",
-        "close": 9.9
-      },
-      {
-        "date": "2026-02-10",
-        "close": 9.7
-      },
-      {
-        "date": "2026-02-12",
-        "close": 10.09
-      },
-      {
-        "date": "2026-02-16",
-        "close": 9.99
-      },
-      {
-        "date": "2026-02-18",
-        "close": 10.47
-      },
-      {
-        "date": "2026-02-20",
-        "close": 10.66
-      },
-      {
-        "date": "2026-02-24",
-        "close": 10.76
-      },
-      {
-        "date": "2026-02-26",
-        "close": 10.76
-      },
-      {
-        "date": "2026-03-02",
-        "close": 10.47
-      },
-      {
-        "date": "2026-03-05",
-        "close": 10.38
-      },
-      {
-        "date": "2026-03-09",
-        "close": 10.09
-      },
-      {
-        "date": "2026-03-11",
-        "close": 10.28
-      },
-      {
-        "date": "2026-03-13",
-        "close": 10.28
-      },
-      {
-        "date": "2026-03-17",
-        "close": 10.38
-      },
-      {
-        "date": "2026-03-19",
-        "close": 10.18
-      },
-      {
-        "date": "2026-03-23",
-        "close": 9.99
-      },
-      {
-        "date": "2026-03-25",
-        "close": 10.28
-      },
-      {
-        "date": "2026-03-27",
-        "close": 9.9
-      },
-      {
-        "date": "2026-03-31",
-        "close": 10.09
-      },
-      {
-        "date": "2026-04-02",
-        "close": 10.09
-      },
-      {
-        "date": "2026-04-07",
-        "close": 9.99
-      },
-      {
-        "date": "2026-04-09",
-        "close": 10.09
-      },
-      {
-        "date": "2026-04-16",
-        "close": 10.28
-      },
-      {
-        "date": "2026-04-20",
-        "close": 10.1
-      },
-      {
-        "date": "2026-04-22",
-        "close": 10.3
-      },
-      {
-        "date": "2026-04-24",
-        "close": 10.3
-      },
-      {
-        "date": "2026-04-28",
-        "close": 10.1
-      },
-      {
-        "date": "2026-04-30",
-        "close": 10.3
-      },
-      {
-        "date": "2026-05-04",
-        "close": 10.3
-      },
-      {
-        "date": "2026-05-06",
-        "close": 10.3
-      },
-      {
-        "date": "2026-05-08",
-        "close": 10.4
-      },
-      {
-        "date": "2026-05-12",
-        "close": 10.4
-      },
-      {
-        "date": "2026-05-14",
-        "close": 10.5
-      },
-      {
-        "date": "2026-05-18",
-        "close": 10.7
-      },
-      {
-        "date": "2026-05-20",
-        "close": 11.0
-      },
-      {
-        "date": "2026-05-22",
-        "close": 11.3
-      },
-      {
-        "date": "2026-05-26",
-        "close": 11.0
-      },
-      {
-        "date": "2026-05-28",
-        "close": 11.1
-      },
-      {
-        "date": "2026-06-01",
-        "close": 11.2
-      },
-      {
-        "date": "2026-06-03",
-        "close": 11.1
-      },
-      {
-        "date": "2026-06-05",
-        "close": 11.1
-      },
-      {
-        "date": "2026-06-09",
-        "close": 11.0
-      },
-      {
-        "date": "2026-06-11",
-        "close": 10.7
-      }
-    ]
-  },
   "STPI": {
     "symbol": "STPI",
     "name": "STP&I Public Company Limited",
@@ -387817,536 +387269,6 @@
       {
         "date": "2026-06-11",
         "close": 2.46
-      }
-    ]
-  },
-  "SUPER": {
-    "symbol": "SUPER",
-    "name": "Super Energy Corporation Public Company Limited",
-    "business_summary": "Super Energy Corporation Public Company Limited, together with its subsidiaries, engages in the generation and sale of electricity in Thailand and Vietnam. The company generates and sells electricity using alternative energy, waste energy, solar power, wind power, and biomass sources. It is also involved in the information technology business; waste separation services; and investment in the alternative energy business, as well as produces and supplies untreated water and tap water. In addition, the company engages in real estate rental and the distribution of fuel. Super Energy Corporation Public Company Limited was incorporated in 1994 and is based in Bangkok, Thailand.",
-    "current_price": 0.13,
-    "pe_ratio": 6.5,
-    "dividend_yield": 0.0,
-    "high_1m": 0.14,
-    "low_1m": 0.1,
-    "support_levels": [
-      0.1,
-      0.12
-    ],
-    "resistance_levels": [
-      0.14,
-      0.15,
-      0.16
-    ],
-    "upcoming_xd": "2022-05-03",
-    "upcoming_dividend_amount": 0.01,
-    "upcoming_payment_date": "2022-05-18",
-    "dividend_history": [
-      {
-        "date": "2022-05-03",
-        "amount": 0.006
-      },
-      {
-        "date": "2021-05-10",
-        "amount": 0.006
-      },
-      {
-        "date": "2019-11-27",
-        "amount": 0.011
-      }
-    ],
-    "history": [
-      {
-        "date": "2025-06-12",
-        "close": 0.16
-      },
-      {
-        "date": "2025-06-16",
-        "close": 0.16
-      },
-      {
-        "date": "2025-06-18",
-        "close": 0.15
-      },
-      {
-        "date": "2025-06-20",
-        "close": 0.15
-      },
-      {
-        "date": "2025-06-24",
-        "close": 0.14
-      },
-      {
-        "date": "2025-06-26",
-        "close": 0.15
-      },
-      {
-        "date": "2025-06-30",
-        "close": 0.15
-      },
-      {
-        "date": "2025-07-02",
-        "close": 0.14
-      },
-      {
-        "date": "2025-07-04",
-        "close": 0.15
-      },
-      {
-        "date": "2025-07-08",
-        "close": 0.15
-      },
-      {
-        "date": "2025-07-11",
-        "close": 0.14
-      },
-      {
-        "date": "2025-07-15",
-        "close": 0.14
-      },
-      {
-        "date": "2025-07-17",
-        "close": 0.14
-      },
-      {
-        "date": "2025-07-21",
-        "close": 0.14
-      },
-      {
-        "date": "2025-07-23",
-        "close": 0.14
-      },
-      {
-        "date": "2025-07-25",
-        "close": 0.15
-      },
-      {
-        "date": "2025-07-30",
-        "close": 0.15
-      },
-      {
-        "date": "2025-08-01",
-        "close": 0.15
-      },
-      {
-        "date": "2025-08-05",
-        "close": 0.15
-      },
-      {
-        "date": "2025-08-07",
-        "close": 0.16
-      },
-      {
-        "date": "2025-08-13",
-        "close": 0.16
-      },
-      {
-        "date": "2025-08-15",
-        "close": 0.15
-      },
-      {
-        "date": "2025-08-19",
-        "close": 0.14
-      },
-      {
-        "date": "2025-08-21",
-        "close": 0.15
-      },
-      {
-        "date": "2025-08-25",
-        "close": 0.15
-      },
-      {
-        "date": "2025-08-27",
-        "close": 0.15
-      },
-      {
-        "date": "2025-08-29",
-        "close": 0.14
-      },
-      {
-        "date": "2025-09-02",
-        "close": 0.14
-      },
-      {
-        "date": "2025-09-04",
-        "close": 0.14
-      },
-      {
-        "date": "2025-09-08",
-        "close": 0.15
-      },
-      {
-        "date": "2025-09-10",
-        "close": 0.15
-      },
-      {
-        "date": "2025-09-12",
-        "close": 0.16
-      },
-      {
-        "date": "2025-09-16",
-        "close": 0.15
-      },
-      {
-        "date": "2025-09-18",
-        "close": 0.14
-      },
-      {
-        "date": "2025-09-22",
-        "close": 0.14
-      },
-      {
-        "date": "2025-09-24",
-        "close": 0.13
-      },
-      {
-        "date": "2025-09-26",
-        "close": 0.13
-      },
-      {
-        "date": "2025-09-30",
-        "close": 0.13
-      },
-      {
-        "date": "2025-10-02",
-        "close": 0.13
-      },
-      {
-        "date": "2025-10-06",
-        "close": 0.13
-      },
-      {
-        "date": "2025-10-08",
-        "close": 0.14
-      },
-      {
-        "date": "2025-10-10",
-        "close": 0.13
-      },
-      {
-        "date": "2025-10-15",
-        "close": 0.13
-      },
-      {
-        "date": "2025-10-17",
-        "close": 0.13
-      },
-      {
-        "date": "2025-10-21",
-        "close": 0.13
-      },
-      {
-        "date": "2025-10-24",
-        "close": 0.13
-      },
-      {
-        "date": "2025-10-28",
-        "close": 0.12
-      },
-      {
-        "date": "2025-10-30",
-        "close": 0.13
-      },
-      {
-        "date": "2025-11-03",
-        "close": 0.12
-      },
-      {
-        "date": "2025-11-05",
-        "close": 0.12
-      },
-      {
-        "date": "2025-11-07",
-        "close": 0.12
-      },
-      {
-        "date": "2025-11-11",
-        "close": 0.12
-      },
-      {
-        "date": "2025-11-13",
-        "close": 0.12
-      },
-      {
-        "date": "2025-11-17",
-        "close": 0.11
-      },
-      {
-        "date": "2025-11-19",
-        "close": 0.11
-      },
-      {
-        "date": "2025-11-21",
-        "close": 0.11
-      },
-      {
-        "date": "2025-11-25",
-        "close": 0.1
-      },
-      {
-        "date": "2025-11-27",
-        "close": 0.11
-      },
-      {
-        "date": "2025-12-01",
-        "close": 0.1
-      },
-      {
-        "date": "2025-12-03",
-        "close": 0.11
-      },
-      {
-        "date": "2025-12-08",
-        "close": 0.1
-      },
-      {
-        "date": "2025-12-11",
-        "close": 0.1
-      },
-      {
-        "date": "2025-12-15",
-        "close": 0.11
-      },
-      {
-        "date": "2025-12-17",
-        "close": 0.11
-      },
-      {
-        "date": "2025-12-19",
-        "close": 0.1
-      },
-      {
-        "date": "2025-12-23",
-        "close": 0.11
-      },
-      {
-        "date": "2025-12-25",
-        "close": 0.1
-      },
-      {
-        "date": "2025-12-29",
-        "close": 0.11
-      },
-      {
-        "date": "2026-01-05",
-        "close": 0.11
-      },
-      {
-        "date": "2026-01-07",
-        "close": 0.11
-      },
-      {
-        "date": "2026-01-09",
-        "close": 0.11
-      },
-      {
-        "date": "2026-01-13",
-        "close": 0.11
-      },
-      {
-        "date": "2026-01-15",
-        "close": 0.11
-      },
-      {
-        "date": "2026-01-19",
-        "close": 0.1
-      },
-      {
-        "date": "2026-01-21",
-        "close": 0.11
-      },
-      {
-        "date": "2026-01-23",
-        "close": 0.11
-      },
-      {
-        "date": "2026-01-27",
-        "close": 0.11
-      },
-      {
-        "date": "2026-01-29",
-        "close": 0.11
-      },
-      {
-        "date": "2026-02-02",
-        "close": 0.11
-      },
-      {
-        "date": "2026-02-04",
-        "close": 0.1
-      },
-      {
-        "date": "2026-02-06",
-        "close": 0.11
-      },
-      {
-        "date": "2026-02-10",
-        "close": 0.1
-      },
-      {
-        "date": "2026-02-12",
-        "close": 0.12
-      },
-      {
-        "date": "2026-02-16",
-        "close": 0.12
-      },
-      {
-        "date": "2026-02-18",
-        "close": 0.13
-      },
-      {
-        "date": "2026-02-20",
-        "close": 0.13
-      },
-      {
-        "date": "2026-02-24",
-        "close": 0.12
-      },
-      {
-        "date": "2026-02-26",
-        "close": 0.13
-      },
-      {
-        "date": "2026-03-02",
-        "close": 0.11
-      },
-      {
-        "date": "2026-03-05",
-        "close": 0.1
-      },
-      {
-        "date": "2026-03-09",
-        "close": 0.1
-      },
-      {
-        "date": "2026-03-11",
-        "close": 0.1
-      },
-      {
-        "date": "2026-03-13",
-        "close": 0.11
-      },
-      {
-        "date": "2026-03-17",
-        "close": 0.1
-      },
-      {
-        "date": "2026-03-19",
-        "close": 0.11
-      },
-      {
-        "date": "2026-03-23",
-        "close": 0.1
-      },
-      {
-        "date": "2026-03-25",
-        "close": 0.1
-      },
-      {
-        "date": "2026-03-27",
-        "close": 0.1
-      },
-      {
-        "date": "2026-03-31",
-        "close": 0.1
-      },
-      {
-        "date": "2026-04-02",
-        "close": 0.1
-      },
-      {
-        "date": "2026-04-07",
-        "close": 0.1
-      },
-      {
-        "date": "2026-04-09",
-        "close": 0.1
-      },
-      {
-        "date": "2026-04-16",
-        "close": 0.1
-      },
-      {
-        "date": "2026-04-20",
-        "close": 0.1
-      },
-      {
-        "date": "2026-04-22",
-        "close": 0.1
-      },
-      {
-        "date": "2026-04-24",
-        "close": 0.1
-      },
-      {
-        "date": "2026-04-28",
-        "close": 0.1
-      },
-      {
-        "date": "2026-04-30",
-        "close": 0.11
-      },
-      {
-        "date": "2026-05-04",
-        "close": 0.11
-      },
-      {
-        "date": "2026-05-06",
-        "close": 0.1
-      },
-      {
-        "date": "2026-05-08",
-        "close": 0.1
-      },
-      {
-        "date": "2026-05-12",
-        "close": 0.1
-      },
-      {
-        "date": "2026-05-14",
-        "close": 0.11
-      },
-      {
-        "date": "2026-05-18",
-        "close": 0.1
-      },
-      {
-        "date": "2026-05-20",
-        "close": 0.13
-      },
-      {
-        "date": "2026-05-22",
-        "close": 0.12
-      },
-      {
-        "date": "2026-05-26",
-        "close": 0.12
-      },
-      {
-        "date": "2026-05-28",
-        "close": 0.12
-      },
-      {
-        "date": "2026-06-01",
-        "close": 0.13
-      },
-      {
-        "date": "2026-06-03",
-        "close": 0.13
-      },
-      {
-        "date": "2026-06-05",
-        "close": 0.13
-      },
-      {
-        "date": "2026-06-09",
-        "close": 0.12
-      },
-      {
-        "date": "2026-06-11",
-        "close": 0.12
       }
     ]
   },
@@ -396519,9 +395441,9 @@
       0.57,
       0.54
     ],
-    "upcoming_xd": "2026-07-13",
+    "upcoming_xd": "2026-07-14",
     "upcoming_dividend_amount": 0.04,
-    "upcoming_payment_date": "2026-07-28",
+    "upcoming_payment_date": "2026-07-29",
     "dividend_history": [
       {
         "date": "2024-04-17",
@@ -448525,9 +447447,9 @@
       0.14,
       0.15
     ],
-    "upcoming_xd": "2026-07-13",
+    "upcoming_xd": "2026-07-14",
     "upcoming_dividend_amount": 0.01,
-    "upcoming_payment_date": "2026-07-28",
+    "upcoming_payment_date": "2026-07-29",
     "dividend_history": [
       {
         "date": "2023-05-03",
@@ -455861,7 +454783,7 @@
     "business_summary": "Thaivivat Holdings Public Company Limited, together with its subsidiaries, provides various non-life insurance products in Thailand and Lao. It operates through four segments: Non-life insurance business, Investment business, Service business, and Investment property. The company offers motor, health, accident, travel, and housing and business insurance products, as well as reinsurance products. It also engages in property management; risk assessment and claims estimation; development of computer software and applicable technology. The company was founded in 1951 and is based in Bangkok, Thailand.",
     "current_price": 10.0,
     "pe_ratio": 5.56,
-    "dividend_yield": 4.44,
+    "dividend_yield": 4.4,
     "high_1m": 10.4,
     "low_1m": 9.5,
     "support_levels": [
@@ -479176,565 +478098,6 @@
       {
         "date": "2026-06-11",
         "close": 5.95
-      }
-    ]
-  },
-  "WICE": {
-    "symbol": "WICE",
-    "name": "Wice Logistics Public Company Limited",
-    "business_summary": "Wice Logistics Public Company Limited, together with its subsidiaries, engages in freight forwarding business in Thailand and internationally. It operates through four segments: Sea Freight, Air Freight, Cross-Border Service, and Supply Chain Solution. The company offers sea freight services, including full and less than container loads; air freight services, such as door-to-door delivery, hand carrier, and customized logistic solutions; and internal transportation services using trailer trucks, dump trucks, lorries, and minivans, as well as cross-border and inland transportation services. It also provides distribution and logistics solutions comprising multi-user warehouses, dedicated warehouses, and warehouse management, as well as logistics services. The company was formerly known as Wice Freight Services (Thailand) Company Limited and changed its name to Wice Logistics Public Company Limited in April 2015. Wice Logistics Public Company Limited was founded in 1993 and is headquartered in Bangkok, Thailand.",
-    "current_price": 2.58,
-    "pe_ratio": 19.85,
-    "dividend_yield": 5.43,
-    "high_1m": 2.8,
-    "low_1m": 2.34,
-    "support_levels": [
-      2.12,
-      2.21,
-      2.33
-    ],
-    "resistance_levels": [
-      2.59,
-      2.99,
-      3.14
-    ],
-    "upcoming_xd": "2026-03-11",
-    "upcoming_dividend_amount": 0.14,
-    "upcoming_payment_date": "2026-03-26",
-    "dividend_history": [
-      {
-        "date": "2026-03-11",
-        "amount": 0.14
-      },
-      {
-        "date": "2025-03-10",
-        "amount": 0.14
-      },
-      {
-        "date": "2024-03-04",
-        "amount": 0.24
-      },
-      {
-        "date": "2023-03-08",
-        "amount": 0.44
-      },
-      {
-        "date": "2022-03-09",
-        "amount": 0.23
-      },
-      {
-        "date": "2021-05-06",
-        "amount": 0.14
-      },
-      {
-        "date": "2020-03-12",
-        "amount": 0.09
-      },
-      {
-        "date": "2019-03-12",
-        "amount": 0.13
-      },
-      {
-        "date": "2018-03-06",
-        "amount": 0.12
-      },
-      {
-        "date": "2017-03-08",
-        "amount": 0.08
-      }
-    ],
-    "history": [
-      {
-        "date": "2025-06-12",
-        "close": 2.86
-      },
-      {
-        "date": "2025-06-16",
-        "close": 2.69
-      },
-      {
-        "date": "2025-06-18",
-        "close": 2.59
-      },
-      {
-        "date": "2025-06-20",
-        "close": 2.46
-      },
-      {
-        "date": "2025-06-24",
-        "close": 2.42
-      },
-      {
-        "date": "2025-06-26",
-        "close": 2.61
-      },
-      {
-        "date": "2025-06-30",
-        "close": 2.53
-      },
-      {
-        "date": "2025-07-02",
-        "close": 2.72
-      },
-      {
-        "date": "2025-07-04",
-        "close": 2.72
-      },
-      {
-        "date": "2025-07-08",
-        "close": 2.76
-      },
-      {
-        "date": "2025-07-11",
-        "close": 2.84
-      },
-      {
-        "date": "2025-07-15",
-        "close": 2.95
-      },
-      {
-        "date": "2025-07-17",
-        "close": 3.01
-      },
-      {
-        "date": "2025-07-21",
-        "close": 2.93
-      },
-      {
-        "date": "2025-07-23",
-        "close": 2.97
-      },
-      {
-        "date": "2025-07-25",
-        "close": 2.93
-      },
-      {
-        "date": "2025-07-30",
-        "close": 3.05
-      },
-      {
-        "date": "2025-08-01",
-        "close": 2.99
-      },
-      {
-        "date": "2025-08-05",
-        "close": 3.03
-      },
-      {
-        "date": "2025-08-07",
-        "close": 3.14
-      },
-      {
-        "date": "2025-08-13",
-        "close": 3.12
-      },
-      {
-        "date": "2025-08-15",
-        "close": 2.76
-      },
-      {
-        "date": "2025-08-19",
-        "close": 2.78
-      },
-      {
-        "date": "2025-08-21",
-        "close": 2.7
-      },
-      {
-        "date": "2025-08-25",
-        "close": 2.76
-      },
-      {
-        "date": "2025-08-27",
-        "close": 2.72
-      },
-      {
-        "date": "2025-08-29",
-        "close": 2.69
-      },
-      {
-        "date": "2025-09-02",
-        "close": 2.72
-      },
-      {
-        "date": "2025-09-04",
-        "close": 2.8
-      },
-      {
-        "date": "2025-09-08",
-        "close": 2.76
-      },
-      {
-        "date": "2025-09-10",
-        "close": 2.91
-      },
-      {
-        "date": "2025-09-12",
-        "close": 2.99
-      },
-      {
-        "date": "2025-09-16",
-        "close": 2.97
-      },
-      {
-        "date": "2025-09-18",
-        "close": 2.88
-      },
-      {
-        "date": "2025-09-22",
-        "close": 2.82
-      },
-      {
-        "date": "2025-09-24",
-        "close": 2.78
-      },
-      {
-        "date": "2025-09-26",
-        "close": 2.86
-      },
-      {
-        "date": "2025-09-30",
-        "close": 2.82
-      },
-      {
-        "date": "2025-10-02",
-        "close": 2.76
-      },
-      {
-        "date": "2025-10-06",
-        "close": 2.8
-      },
-      {
-        "date": "2025-10-08",
-        "close": 2.82
-      },
-      {
-        "date": "2025-10-10",
-        "close": 2.76
-      },
-      {
-        "date": "2025-10-15",
-        "close": 2.67
-      },
-      {
-        "date": "2025-10-17",
-        "close": 2.65
-      },
-      {
-        "date": "2025-10-21",
-        "close": 2.67
-      },
-      {
-        "date": "2025-10-24",
-        "close": 2.63
-      },
-      {
-        "date": "2025-10-28",
-        "close": 2.57
-      },
-      {
-        "date": "2025-10-30",
-        "close": 2.48
-      },
-      {
-        "date": "2025-11-03",
-        "close": 2.42
-      },
-      {
-        "date": "2025-11-05",
-        "close": 2.31
-      },
-      {
-        "date": "2025-11-07",
-        "close": 2.46
-      },
-      {
-        "date": "2025-11-11",
-        "close": 2.5
-      },
-      {
-        "date": "2025-11-13",
-        "close": 2.38
-      },
-      {
-        "date": "2025-11-17",
-        "close": 2.35
-      },
-      {
-        "date": "2025-11-19",
-        "close": 2.29
-      },
-      {
-        "date": "2025-11-21",
-        "close": 2.27
-      },
-      {
-        "date": "2025-11-25",
-        "close": 2.23
-      },
-      {
-        "date": "2025-11-27",
-        "close": 2.21
-      },
-      {
-        "date": "2025-12-01",
-        "close": 2.27
-      },
-      {
-        "date": "2025-12-03",
-        "close": 2.25
-      },
-      {
-        "date": "2025-12-08",
-        "close": 2.25
-      },
-      {
-        "date": "2025-12-11",
-        "close": 2.19
-      },
-      {
-        "date": "2025-12-15",
-        "close": 2.19
-      },
-      {
-        "date": "2025-12-17",
-        "close": 2.19
-      },
-      {
-        "date": "2025-12-19",
-        "close": 2.23
-      },
-      {
-        "date": "2025-12-23",
-        "close": 2.23
-      },
-      {
-        "date": "2025-12-25",
-        "close": 2.25
-      },
-      {
-        "date": "2025-12-29",
-        "close": 2.23
-      },
-      {
-        "date": "2026-01-05",
-        "close": 2.12
-      },
-      {
-        "date": "2026-01-07",
-        "close": 2.16
-      },
-      {
-        "date": "2026-01-09",
-        "close": 2.18
-      },
-      {
-        "date": "2026-01-13",
-        "close": 2.18
-      },
-      {
-        "date": "2026-01-15",
-        "close": 2.14
-      },
-      {
-        "date": "2026-01-19",
-        "close": 2.19
-      },
-      {
-        "date": "2026-01-21",
-        "close": 2.21
-      },
-      {
-        "date": "2026-01-23",
-        "close": 2.14
-      },
-      {
-        "date": "2026-01-27",
-        "close": 2.14
-      },
-      {
-        "date": "2026-01-29",
-        "close": 2.18
-      },
-      {
-        "date": "2026-02-02",
-        "close": 2.16
-      },
-      {
-        "date": "2026-02-04",
-        "close": 2.14
-      },
-      {
-        "date": "2026-02-06",
-        "close": 2.18
-      },
-      {
-        "date": "2026-02-10",
-        "close": 2.27
-      },
-      {
-        "date": "2026-02-12",
-        "close": 2.31
-      },
-      {
-        "date": "2026-02-16",
-        "close": 2.38
-      },
-      {
-        "date": "2026-02-18",
-        "close": 2.44
-      },
-      {
-        "date": "2026-02-20",
-        "close": 2.52
-      },
-      {
-        "date": "2026-02-24",
-        "close": 2.4
-      },
-      {
-        "date": "2026-02-26",
-        "close": 2.59
-      },
-      {
-        "date": "2026-03-02",
-        "close": 2.44
-      },
-      {
-        "date": "2026-03-05",
-        "close": 2.4
-      },
-      {
-        "date": "2026-03-09",
-        "close": 2.42
-      },
-      {
-        "date": "2026-03-11",
-        "close": 2.44
-      },
-      {
-        "date": "2026-03-13",
-        "close": 2.44
-      },
-      {
-        "date": "2026-03-17",
-        "close": 2.42
-      },
-      {
-        "date": "2026-03-19",
-        "close": 2.42
-      },
-      {
-        "date": "2026-03-23",
-        "close": 2.26
-      },
-      {
-        "date": "2026-03-25",
-        "close": 2.28
-      },
-      {
-        "date": "2026-03-27",
-        "close": 2.3
-      },
-      {
-        "date": "2026-03-31",
-        "close": 2.36
-      },
-      {
-        "date": "2026-04-02",
-        "close": 2.36
-      },
-      {
-        "date": "2026-04-07",
-        "close": 2.34
-      },
-      {
-        "date": "2026-04-09",
-        "close": 2.3
-      },
-      {
-        "date": "2026-04-16",
-        "close": 2.38
-      },
-      {
-        "date": "2026-04-20",
-        "close": 2.36
-      },
-      {
-        "date": "2026-04-22",
-        "close": 2.36
-      },
-      {
-        "date": "2026-04-24",
-        "close": 2.34
-      },
-      {
-        "date": "2026-04-28",
-        "close": 2.32
-      },
-      {
-        "date": "2026-04-30",
-        "close": 2.36
-      },
-      {
-        "date": "2026-05-04",
-        "close": 2.36
-      },
-      {
-        "date": "2026-05-06",
-        "close": 2.48
-      },
-      {
-        "date": "2026-05-08",
-        "close": 2.46
-      },
-      {
-        "date": "2026-05-12",
-        "close": 2.36
-      },
-      {
-        "date": "2026-05-14",
-        "close": 2.46
-      },
-      {
-        "date": "2026-05-18",
-        "close": 2.38
-      },
-      {
-        "date": "2026-05-20",
-        "close": 2.42
-      },
-      {
-        "date": "2026-05-22",
-        "close": 2.38
-      },
-      {
-        "date": "2026-05-26",
-        "close": 2.38
-      },
-      {
-        "date": "2026-05-28",
-        "close": 2.34
-      },
-      {
-        "date": "2026-06-01",
-        "close": 2.38
-      },
-      {
-        "date": "2026-06-03",
-        "close": 2.36
-      },
-      {
-        "date": "2026-06-05",
-        "close": 2.5
-      },
-      {
-        "date": "2026-06-09",
-        "close": 2.52
-      },
-      {
-        "date": "2026-06-11",
-        "close": 2.5
       }
     ]
   },
