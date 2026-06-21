@@ -57880,9 +57880,9 @@ var STOCKS_DATABASE = {
       0.9,
       0.95
     ],
-    "upcoming_xd": "2026-07-20",
+    "upcoming_xd": "2026-07-21",
     "upcoming_dividend_amount": 0.06,
-    "upcoming_payment_date": "2026-08-04",
+    "upcoming_payment_date": "2026-08-05",
     "dividend_history": [
       {
         "date": "2025-05-26",
@@ -101354,9 +101354,9 @@ var STOCKS_DATABASE = {
     "resistance_levels": [
       9.7
     ],
-    "upcoming_xd": "2026-07-20",
+    "upcoming_xd": "2026-07-21",
     "upcoming_dividend_amount": 0.13,
-    "upcoming_payment_date": "2026-08-04",
+    "upcoming_payment_date": "2026-08-05",
     "dividend_history": [
       {
         "date": "2021-08-27",
@@ -101882,6 +101882,14 @@ var STOCKS_DATABASE = {
       },
       {
         "date": "2026-06-12",
+        "close": 5.1
+      },
+      {
+        "date": "2026-06-16",
+        "close": 5.1
+      },
+      {
+        "date": "2026-06-18",
         "close": 5.1
       }
     ]
@@ -106267,7 +106275,7 @@ var STOCKS_DATABASE = {
     "business_summary": "Communication & System Solution Public Company Limited, together with its subsidiaries, distributes and installs passive fire protection materials and equipment in Thailand. The company operates in two segments, Distribution Electrical Equipment and Installation Service. It engages in the distribution and installation of electric cables, tubes, and related products; and electrical systems equipment, including general cables for buildings and factories, internal and external lighting, transformers, and conduits, as well as related equipment for telecommunication and fire protection systems. The company also offers design, installation, and maintenance services, including electric vehicle charger station, solar cell system, and other installation services. In addition, it provides information technology services, such as network solutions, transmission, network security, and application software and hardware for military, police, and enterprise sectors; fire barrier systems; and ring main units. The company was founded in 1994 and is headquartered in Nonthaburi, Thailand.",
     "current_price": 0.99,
     "pe_ratio": 16.5,
-    "dividend_yield": 8.42,
+    "dividend_yield": 8.08,
     "high_1m": 1.12,
     "low_1m": 0.89,
     "support_levels": [
@@ -129157,9 +129165,9 @@ var STOCKS_DATABASE = {
     "resistance_levels": [
       56.25
     ],
-    "upcoming_xd": "2026-07-20",
+    "upcoming_xd": "2026-07-21",
     "upcoming_dividend_amount": 2.55,
-    "upcoming_payment_date": "2026-08-04",
+    "upcoming_payment_date": "2026-08-05",
     "dividend_history": [
       {
         "date": "2025-04-22",
@@ -137218,9 +137226,9 @@ var STOCKS_DATABASE = {
       13.12,
       12.5
     ],
-    "upcoming_xd": "2026-07-20",
+    "upcoming_xd": "2026-07-21",
     "upcoming_dividend_amount": 0.36,
-    "upcoming_payment_date": "2026-08-04",
+    "upcoming_payment_date": "2026-08-05",
     "dividend_history": [
       {
         "date": "2024-08-28",
@@ -137746,6 +137754,14 @@ var STOCKS_DATABASE = {
       },
       {
         "date": "2026-06-12",
+        "close": 12.5
+      },
+      {
+        "date": "2026-06-16",
+        "close": 12.5
+      },
+      {
+        "date": "2026-06-18",
         "close": 12.5
       }
     ]
@@ -264877,7 +264893,7 @@ var STOCKS_DATABASE = {
   },
   "OKJ": {
     "symbol": "OKJ",
-    "name": "Pluk Phak Praw Rak Mae Public Company Limited",
+    "name": "OKJ_PLUK PHAK PRAW RAK MAE",
     "business_summary": "Pluk Phak Praw Rak Mae Public Company Limited engages in the sales of food and beverages in Thailand. The company offers health food and beverages, such as salads, steaks, soups, spaghetti, single dish meals, desserts, vegetable and fruit juices, bakery, snacks, as well as sandwiches, wraps, and ready-to-eat meals. It is also involved in cultivating organic vegetables and fruits; operation of full-service restaurant, delivery and kiosk, café amazon, and supermarket, as well as quick service restaurant, and healthy vegetable and fruit juice business. The company sells its products and services under the Oh Ka Jhu, Ohkajhu Wrap & Roll, Oh! Juice, and Oh-Kad brands. The company was incorporated in 2024 and is based in Chiang Mai, Thailand.",
     "current_price": 3.68,
     "pe_ratio": null,
@@ -306735,7 +306751,7 @@ var STOCKS_DATABASE = {
     "name": "PTT Exploration and Production Public Company Limited",
     "business_summary": "PTT Exploration and Production Public Company Limited, together with its subsidiaries, engages in the exploration, development, and production of petroleum in Thailand, rest of Southeast Asia, the Middle East, Africa, and internationally. It operates through Exploration and Production; and Other Businesses and Corporate segments. The company is also involved in the gas pipeline transportation and solar power businesses, as well as renewable energy and related activities. In addition, it provides petroleum-related technology, human resource support, and technology and innovation services. The company was founded in 1985 and is based in Bangkok, Thailand. PTT Exploration and Production Public Company Limited is a subsidiary of PTT Public Company Limited.",
     "current_price": 134.0,
-    "pe_ratio": 9.59,
+    "pe_ratio": 9.58,
     "dividend_yield": 6.53,
     "high_1m": 149.5,
     "low_1m": 132.5,
@@ -343831,7 +343847,7 @@ var STOCKS_DATABASE = {
     "symbol": "SEAGATE23",
     "name": "Seagate Technology Holdings plc",
     "business_summary": "Seagate Technology Holdings plc engages in the provision of data storage technology and infrastructure solutions in Singapore, the United States, the Netherlands, and internationally. The company offers mass capacity storage products, including enterprise nearline hard disk drives (HDDs), enterprise nearline solid state drives (SSDs), enterprise nearline systems, video and image HDDs, and network-attached storage drives. It also offers legacy applications comprising Mission Critical HDDs and SSDs; external storage solutions under the Seagate Ultra Touch, One Touch, Expansion, and Basics product lines, as well as under the LaCie brand name; desktop drives for personal computers and workstation applications; notebook drives traditional notebooks, convertible systems, and external storage applications, DVR HDDs for video streaming applications, and gaming SSDs for gaming rigs. In addition, the company provides Lyve edge-to-cloud mass capacity platform, that includes modular hardware and software to support enterprises' on-premise and cloud storage infrastructure needs. It sells its products primarily to original equipment manufacturers, distributors, and retailers. The company was founded in 1978 and is based in Singapore.",
-    "current_price": 7.4,
+    "current_price": 7.55,
     "pe_ratio": null,
     "dividend_yield": 0.38,
     "high_1m": 7.85,
@@ -396646,9 +396662,9 @@ var STOCKS_DATABASE = {
       0.57,
       0.54
     ],
-    "upcoming_xd": "2026-07-20",
+    "upcoming_xd": "2026-07-21",
     "upcoming_dividend_amount": 0.04,
-    "upcoming_payment_date": "2026-08-04",
+    "upcoming_payment_date": "2026-08-05",
     "dividend_history": [
       {
         "date": "2024-04-17",
@@ -448715,9 +448731,9 @@ var STOCKS_DATABASE = {
       0.14,
       0.15
     ],
-    "upcoming_xd": "2026-07-20",
+    "upcoming_xd": "2026-07-21",
     "upcoming_dividend_amount": 0.01,
-    "upcoming_payment_date": "2026-08-04",
+    "upcoming_payment_date": "2026-08-05",
     "dividend_history": [
       {
         "date": "2023-05-03",
