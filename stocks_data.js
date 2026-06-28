@@ -57942,9 +57942,9 @@ var STOCKS_DATABASE = {
       0.95,
       1.03
     ],
-    "upcoming_xd": "2026-07-27",
+    "upcoming_xd": "2026-07-28",
     "upcoming_dividend_amount": 0.06,
-    "upcoming_payment_date": "2026-08-11",
+    "upcoming_payment_date": "2026-08-12",
     "dividend_history": [
       {
         "date": "2025-05-26",
@@ -101502,9 +101502,9 @@ var STOCKS_DATABASE = {
     "resistance_levels": [
       9.7
     ],
-    "upcoming_xd": "2026-07-27",
+    "upcoming_xd": "2026-07-28",
     "upcoming_dividend_amount": 0.13,
-    "upcoming_payment_date": "2026-08-11",
+    "upcoming_payment_date": "2026-08-12",
     "dividend_history": [
       {
         "date": "2021-08-27",
@@ -102030,6 +102030,14 @@ var STOCKS_DATABASE = {
       },
       {
         "date": "2026-06-19",
+        "close": 5.1
+      },
+      {
+        "date": "2026-06-23",
+        "close": 5.1
+      },
+      {
+        "date": "2026-06-25",
         "close": 5.1
       }
     ]
@@ -129278,9 +129286,9 @@ var STOCKS_DATABASE = {
     "resistance_levels": [
       56.25
     ],
-    "upcoming_xd": "2026-07-27",
+    "upcoming_xd": "2026-07-28",
     "upcoming_dividend_amount": 2.55,
-    "upcoming_payment_date": "2026-08-11",
+    "upcoming_payment_date": "2026-08-12",
     "dividend_history": [
       {
         "date": "2025-04-22",
@@ -137321,9 +137329,9 @@ var STOCKS_DATABASE = {
       13.12,
       12.5
     ],
-    "upcoming_xd": "2026-07-27",
+    "upcoming_xd": "2026-07-28",
     "upcoming_dividend_amount": 0.36,
-    "upcoming_payment_date": "2026-08-11",
+    "upcoming_payment_date": "2026-08-12",
     "dividend_history": [
       {
         "date": "2024-08-28",
@@ -137849,6 +137857,14 @@ var STOCKS_DATABASE = {
       },
       {
         "date": "2026-06-19",
+        "close": 12.5
+      },
+      {
+        "date": "2026-06-23",
+        "close": 12.5
+      },
+      {
+        "date": "2026-06-25",
         "close": 12.5
       }
     ]
@@ -145781,32 +145797,6 @@ var STOCKS_DATABASE = {
       {
         "date": "2026-06-25",
         "close": 1.2
-      }
-    ]
-  },
-  "GOLDM01": {
-    "symbol": "GOLDM01",
-    "name": "GOLDM01",
-    "business_summary": "ข้อมูลธุรกิจสำหรับหุ้นนี้ยังไม่พร้อมใช้งานในระบบ",
-    "current_price": 3.84,
-    "pe_ratio": null,
-    "dividend_yield": 0.0,
-    "high_1m": 3.84,
-    "low_1m": 3.76,
-    "support_levels": [],
-    "resistance_levels": [],
-    "upcoming_xd": null,
-    "upcoming_dividend_amount": null,
-    "upcoming_payment_date": null,
-    "dividend_history": [],
-    "history": [
-      {
-        "date": "2026-06-25",
-        "close": 3.78
-      },
-      {
-        "date": "2026-06-26",
-        "close": 3.84
       }
     ]
   },
@@ -264420,7 +264410,7 @@ var STOCKS_DATABASE = {
   },
   "OKJ": {
     "symbol": "OKJ",
-    "name": "OKJ_PLUK PHAK PRAW RAK MAE",
+    "name": "Pluk Phak Praw Rak Mae Public Company Limited",
     "business_summary": "Pluk Phak Praw Rak Mae Public Company Limited engages in the sales of food and beverages in Thailand. The company offers health food and beverages, such as salads, steaks, soups, spaghetti, single dish meals, desserts, vegetable and fruit juices, bakery, snacks, as well as sandwiches, wraps, and ready-to-eat meals. It is also involved in cultivating organic vegetables and fruits; operation of full-service restaurant, delivery and kiosk, café amazon, and supermarket, as well as quick service restaurant, and healthy vegetable and fruit juice business. The company sells its products and services under the Oh Ka Jhu, Ohkajhu Wrap & Roll, Oh! Juice, and Oh-Kad brands. Pluk Phak Praw Rak Mae Public Company Limited was incorporated in 2014 and is based in Chiang Mai, Thailand.",
     "current_price": 3.54,
     "pe_ratio": null,
@@ -396348,9 +396338,9 @@ var STOCKS_DATABASE = {
       0.57,
       0.54
     ],
-    "upcoming_xd": "2026-07-27",
+    "upcoming_xd": "2026-07-28",
     "upcoming_dividend_amount": 0.04,
-    "upcoming_payment_date": "2026-08-11",
+    "upcoming_payment_date": "2026-08-12",
     "dividend_history": [
       {
         "date": "2024-04-17",
@@ -401795,7 +401785,7 @@ var STOCKS_DATABASE = {
     "business_summary": "Thai Coating Industrial Public Company Limited, together with its subsidiaries, engages in the manufacture and sale of plastic sack and beads in Thailand. The company was founded in 1978 and is headquartered in Si Maha Phot, Thailand.",
     "current_price": 26.75,
     "pe_ratio": 86.29,
-    "dividend_yield": 1.92,
+    "dividend_yield": 1.87,
     "high_1m": 30.5,
     "low_1m": 26.0,
     "support_levels": [
@@ -448474,9 +448464,9 @@ var STOCKS_DATABASE = {
       0.14,
       0.15
     ],
-    "upcoming_xd": "2026-07-27",
+    "upcoming_xd": "2026-07-28",
     "upcoming_dividend_amount": 0.01,
-    "upcoming_payment_date": "2026-08-11",
+    "upcoming_payment_date": "2026-08-12",
     "dividend_history": [
       {
         "date": "2023-05-03",
@@ -481413,7 +481403,7 @@ var STOCKS_DATABASE = {
     "business_summary": "Winnergy Medical Public Company Limited engages in the distribution of medical and diagnostic equipment in Thailand. The company imports and distributes technology and diagnostic kits for cervical cancer screening, including cytology examinations using automatic slide preparation machines and testing for human papilloma virus, and colposcopes. It also offers equipment for testing blood quality and blood collection bags for blood donation; blood quality testing products; blood freezers; blood banking, including pathogen inactivation; blood bag tube sealer; blood donor chairs; instrument for counting the number of leukocytes residual in blood; and device used to cut and connect both dry and wet blood bags. In addition, the company sells mosquito trappers for outdoor and indoor use; and offers HPV and STI self-collect test kits under AVA name. The company was formerly known as Winnergy Medical Co., Ltd. and changed its name to Winnergy Medical Public Company Limited in September 2020. Winnergy Medical Public Company Limited was incorporated in 2004 and is headquartered in Bangkok, Thailand.",
     "current_price": 0.77,
     "pe_ratio": 25.67,
-    "dividend_yield": 1.44,
+    "dividend_yield": 1.62,
     "high_1m": 0.87,
     "low_1m": 0.75,
     "support_levels": [
