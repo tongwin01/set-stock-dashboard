@@ -57995,9 +57995,9 @@ var STOCKS_DATABASE = {
       0.95,
       1.03
     ],
-    "upcoming_xd": "2026-08-03",
+    "upcoming_xd": "2026-08-04",
     "upcoming_dividend_amount": 0.06,
-    "upcoming_payment_date": "2026-08-18",
+    "upcoming_payment_date": "2026-08-19",
     "dividend_history": [
       {
         "date": "2025-05-26",
@@ -101634,7 +101634,7 @@ var STOCKS_DATABASE = {
     "current_price": 5.1,
     "pe_ratio": 7.29,
     "dividend_yield": 0.0,
-    "high_1m": 5.1,
+    "high_1m": 9.7,
     "low_1m": 5.1,
     "support_levels": [
       5.1,
@@ -101643,9 +101643,9 @@ var STOCKS_DATABASE = {
     "resistance_levels": [
       9.7
     ],
-    "upcoming_xd": "2026-08-03",
+    "upcoming_xd": "2026-08-04",
     "upcoming_dividend_amount": 0.13,
-    "upcoming_payment_date": "2026-08-18",
+    "upcoming_payment_date": "2026-08-19",
     "dividend_history": [
       {
         "date": "2021-08-27",
@@ -102171,6 +102171,14 @@ var STOCKS_DATABASE = {
       },
       {
         "date": "2026-06-26",
+        "close": 5.1
+      },
+      {
+        "date": "2026-06-30",
+        "close": 5.1
+      },
+      {
+        "date": "2026-07-02",
         "close": 5.1
       }
     ]
@@ -129420,9 +129428,9 @@ var STOCKS_DATABASE = {
     "resistance_levels": [
       56.25
     ],
-    "upcoming_xd": "2026-08-03",
+    "upcoming_xd": "2026-08-04",
     "upcoming_dividend_amount": 2.55,
-    "upcoming_payment_date": "2026-08-18",
+    "upcoming_payment_date": "2026-08-19",
     "dividend_history": [
       {
         "date": "2025-04-22",
@@ -129739,7 +129747,7 @@ var STOCKS_DATABASE = {
     "current_price": 4.24,
     "pe_ratio": null,
     "dividend_yield": 0.0,
-    "high_1m": 4.72,
+    "high_1m": 4.8,
     "low_1m": 4.1,
     "support_levels": [],
     "resistance_levels": [],
@@ -129748,6 +129756,10 @@ var STOCKS_DATABASE = {
     "upcoming_payment_date": null,
     "dividend_history": [],
     "history": [
+      {
+        "date": "2026-07-01",
+        "close": 4.78
+      },
       {
         "date": "2026-07-02",
         "close": 4.6
@@ -137456,554 +137468,6 @@ var STOCKS_DATABASE = {
       {
         "date": "2026-07-02",
         "close": 1.84
-      }
-    ]
-  },
-  "FUTUREPF": {
-    "symbol": "FUTUREPF",
-    "name": "Future Park Property Fund Ord",
-    "business_summary": "ข้อมูลธุรกิจสำหรับหุ้นนี้ยังไม่พร้อมใช้งานในระบบ",
-    "current_price": 12.5,
-    "pe_ratio": null,
-    "dividend_yield": 0.0,
-    "high_1m": 12.5,
-    "low_1m": 12.5,
-    "support_levels": [
-      10.21
-    ],
-    "resistance_levels": [
-      13.12,
-      12.5
-    ],
-    "upcoming_xd": "2026-08-03",
-    "upcoming_dividend_amount": 0.36,
-    "upcoming_payment_date": "2026-08-18",
-    "dividend_history": [
-      {
-        "date": "2024-08-28",
-        "amount": 0.3595
-      },
-      {
-        "date": "2024-05-30",
-        "amount": 0.3551
-      },
-      {
-        "date": "2024-05-29",
-        "amount": 0.3551
-      },
-      {
-        "date": "2024-03-05",
-        "amount": 0.3599
-      },
-      {
-        "date": "2023-11-24",
-        "amount": 0.36
-      },
-      {
-        "date": "2023-08-29",
-        "amount": 0.35
-      },
-      {
-        "date": "2023-05-29",
-        "amount": 0.35
-      },
-      {
-        "date": "2023-03-02",
-        "amount": 0.34
-      },
-      {
-        "date": "2022-11-28",
-        "amount": 0.33
-      },
-      {
-        "date": "2022-08-29",
-        "amount": 0.28
-      }
-    ],
-    "history": [
-      {
-        "date": "2025-07-03",
-        "close": 12.5
-      },
-      {
-        "date": "2025-07-07",
-        "close": 12.5
-      },
-      {
-        "date": "2025-07-09",
-        "close": 12.5
-      },
-      {
-        "date": "2025-07-14",
-        "close": 12.5
-      },
-      {
-        "date": "2025-07-16",
-        "close": 12.5
-      },
-      {
-        "date": "2025-07-18",
-        "close": 12.5
-      },
-      {
-        "date": "2025-07-22",
-        "close": 12.5
-      },
-      {
-        "date": "2025-07-24",
-        "close": 12.5
-      },
-      {
-        "date": "2025-07-29",
-        "close": 12.5
-      },
-      {
-        "date": "2025-07-31",
-        "close": 12.5
-      },
-      {
-        "date": "2025-08-04",
-        "close": 12.5
-      },
-      {
-        "date": "2025-08-06",
-        "close": 12.5
-      },
-      {
-        "date": "2025-08-08",
-        "close": 12.5
-      },
-      {
-        "date": "2025-08-14",
-        "close": 12.5
-      },
-      {
-        "date": "2025-08-18",
-        "close": 12.5
-      },
-      {
-        "date": "2025-08-20",
-        "close": 12.5
-      },
-      {
-        "date": "2025-08-22",
-        "close": 12.5
-      },
-      {
-        "date": "2025-08-26",
-        "close": 12.5
-      },
-      {
-        "date": "2025-08-28",
-        "close": 12.5
-      },
-      {
-        "date": "2025-09-01",
-        "close": 12.5
-      },
-      {
-        "date": "2025-09-03",
-        "close": 12.5
-      },
-      {
-        "date": "2025-09-05",
-        "close": 12.5
-      },
-      {
-        "date": "2025-09-09",
-        "close": 12.5
-      },
-      {
-        "date": "2025-09-11",
-        "close": 12.5
-      },
-      {
-        "date": "2025-09-15",
-        "close": 12.5
-      },
-      {
-        "date": "2025-09-17",
-        "close": 12.5
-      },
-      {
-        "date": "2025-09-19",
-        "close": 12.5
-      },
-      {
-        "date": "2025-09-23",
-        "close": 12.5
-      },
-      {
-        "date": "2025-09-25",
-        "close": 12.5
-      },
-      {
-        "date": "2025-09-29",
-        "close": 12.5
-      },
-      {
-        "date": "2025-10-01",
-        "close": 12.5
-      },
-      {
-        "date": "2025-10-03",
-        "close": 12.5
-      },
-      {
-        "date": "2025-10-07",
-        "close": 12.5
-      },
-      {
-        "date": "2025-10-09",
-        "close": 12.5
-      },
-      {
-        "date": "2025-10-14",
-        "close": 12.5
-      },
-      {
-        "date": "2025-10-16",
-        "close": 12.5
-      },
-      {
-        "date": "2025-10-20",
-        "close": 12.5
-      },
-      {
-        "date": "2025-10-22",
-        "close": 12.5
-      },
-      {
-        "date": "2025-10-27",
-        "close": 12.5
-      },
-      {
-        "date": "2025-10-29",
-        "close": 12.5
-      },
-      {
-        "date": "2025-10-31",
-        "close": 12.5
-      },
-      {
-        "date": "2025-11-04",
-        "close": 12.5
-      },
-      {
-        "date": "2025-11-06",
-        "close": 12.5
-      },
-      {
-        "date": "2025-11-10",
-        "close": 12.5
-      },
-      {
-        "date": "2025-11-12",
-        "close": 12.5
-      },
-      {
-        "date": "2025-11-14",
-        "close": 12.5
-      },
-      {
-        "date": "2025-11-18",
-        "close": 12.5
-      },
-      {
-        "date": "2025-11-20",
-        "close": 12.5
-      },
-      {
-        "date": "2025-11-24",
-        "close": 12.5
-      },
-      {
-        "date": "2025-11-26",
-        "close": 12.5
-      },
-      {
-        "date": "2025-11-28",
-        "close": 12.5
-      },
-      {
-        "date": "2025-12-02",
-        "close": 12.5
-      },
-      {
-        "date": "2025-12-04",
-        "close": 12.5
-      },
-      {
-        "date": "2025-12-09",
-        "close": 12.5
-      },
-      {
-        "date": "2025-12-12",
-        "close": 12.5
-      },
-      {
-        "date": "2025-12-16",
-        "close": 12.5
-      },
-      {
-        "date": "2025-12-18",
-        "close": 12.5
-      },
-      {
-        "date": "2025-12-22",
-        "close": 12.5
-      },
-      {
-        "date": "2025-12-24",
-        "close": 12.5
-      },
-      {
-        "date": "2025-12-26",
-        "close": 12.5
-      },
-      {
-        "date": "2025-12-30",
-        "close": 12.5
-      },
-      {
-        "date": "2026-01-06",
-        "close": 12.5
-      },
-      {
-        "date": "2026-01-08",
-        "close": 12.5
-      },
-      {
-        "date": "2026-01-12",
-        "close": 12.5
-      },
-      {
-        "date": "2026-01-14",
-        "close": 12.5
-      },
-      {
-        "date": "2026-01-16",
-        "close": 12.5
-      },
-      {
-        "date": "2026-01-20",
-        "close": 12.5
-      },
-      {
-        "date": "2026-01-22",
-        "close": 12.5
-      },
-      {
-        "date": "2026-01-26",
-        "close": 12.5
-      },
-      {
-        "date": "2026-01-28",
-        "close": 12.5
-      },
-      {
-        "date": "2026-01-30",
-        "close": 12.5
-      },
-      {
-        "date": "2026-02-03",
-        "close": 12.5
-      },
-      {
-        "date": "2026-02-05",
-        "close": 12.5
-      },
-      {
-        "date": "2026-02-09",
-        "close": 12.5
-      },
-      {
-        "date": "2026-02-11",
-        "close": 12.5
-      },
-      {
-        "date": "2026-02-13",
-        "close": 12.5
-      },
-      {
-        "date": "2026-02-17",
-        "close": 12.5
-      },
-      {
-        "date": "2026-02-19",
-        "close": 12.5
-      },
-      {
-        "date": "2026-02-23",
-        "close": 12.5
-      },
-      {
-        "date": "2026-02-25",
-        "close": 12.5
-      },
-      {
-        "date": "2026-02-27",
-        "close": 12.5
-      },
-      {
-        "date": "2026-03-04",
-        "close": 12.5
-      },
-      {
-        "date": "2026-03-06",
-        "close": 12.5
-      },
-      {
-        "date": "2026-03-10",
-        "close": 12.5
-      },
-      {
-        "date": "2026-03-12",
-        "close": 12.5
-      },
-      {
-        "date": "2026-03-16",
-        "close": 12.5
-      },
-      {
-        "date": "2026-03-18",
-        "close": 12.5
-      },
-      {
-        "date": "2026-03-20",
-        "close": 12.5
-      },
-      {
-        "date": "2026-03-24",
-        "close": 12.5
-      },
-      {
-        "date": "2026-03-26",
-        "close": 12.5
-      },
-      {
-        "date": "2026-03-30",
-        "close": 12.5
-      },
-      {
-        "date": "2026-04-01",
-        "close": 12.5
-      },
-      {
-        "date": "2026-04-03",
-        "close": 12.5
-      },
-      {
-        "date": "2026-04-08",
-        "close": 12.5
-      },
-      {
-        "date": "2026-04-10",
-        "close": 12.5
-      },
-      {
-        "date": "2026-04-17",
-        "close": 12.5
-      },
-      {
-        "date": "2026-04-21",
-        "close": 12.5
-      },
-      {
-        "date": "2026-04-23",
-        "close": 12.5
-      },
-      {
-        "date": "2026-04-27",
-        "close": 12.5
-      },
-      {
-        "date": "2026-04-29",
-        "close": 12.5
-      },
-      {
-        "date": "2026-05-01",
-        "close": 12.5
-      },
-      {
-        "date": "2026-05-05",
-        "close": 12.5
-      },
-      {
-        "date": "2026-05-07",
-        "close": 12.5
-      },
-      {
-        "date": "2026-05-11",
-        "close": 12.5
-      },
-      {
-        "date": "2026-05-13",
-        "close": 12.5
-      },
-      {
-        "date": "2026-05-15",
-        "close": 12.5
-      },
-      {
-        "date": "2026-05-19",
-        "close": 12.5
-      },
-      {
-        "date": "2026-05-21",
-        "close": 12.5
-      },
-      {
-        "date": "2026-05-25",
-        "close": 12.5
-      },
-      {
-        "date": "2026-05-27",
-        "close": 12.5
-      },
-      {
-        "date": "2026-05-29",
-        "close": 12.5
-      },
-      {
-        "date": "2026-06-02",
-        "close": 12.5
-      },
-      {
-        "date": "2026-06-04",
-        "close": 12.5
-      },
-      {
-        "date": "2026-06-08",
-        "close": 12.5
-      },
-      {
-        "date": "2026-06-10",
-        "close": 12.5
-      },
-      {
-        "date": "2026-06-12",
-        "close": 12.5
-      },
-      {
-        "date": "2026-06-16",
-        "close": 12.5
-      },
-      {
-        "date": "2026-06-18",
-        "close": 12.5
-      },
-      {
-        "date": "2026-06-22",
-        "close": 12.5
-      },
-      {
-        "date": "2026-06-24",
-        "close": 12.5
-      },
-      {
-        "date": "2026-06-26",
-        "close": 12.5
       }
     ]
   },
@@ -264841,7 +264305,7 @@ var STOCKS_DATABASE = {
   },
   "OKJ": {
     "symbol": "OKJ",
-    "name": "OKJ_PLUK PHAK PRAW RAK MAE",
+    "name": "Pluk Phak Praw Rak Mae Public Company Limited",
     "business_summary": "Pluk Phak Praw Rak Mae Public Company Limited engages in the sales of food and beverages in Thailand. The company offers health food and beverages, such as salads, steaks, soups, spaghetti, single dish meals, desserts, vegetable and fruit juices, bakery, snacks, as well as sandwiches, wraps, and ready-to-eat meals. It is also involved in cultivating organic vegetables and fruits; operation of full-service restaurant, delivery and kiosk, café amazon, and supermarket, as well as quick service restaurant, and healthy vegetable and fruit juice business. The company sells its products and services under the Oh Ka Jhu, Ohkajhu Wrap & Roll, Oh! Juice, and Oh-Kad brands. Pluk Phak Praw Rak Mae Public Company Limited was incorporated in 2014 and is based in Chiang Mai, Thailand.",
     "current_price": 3.78,
     "pe_ratio": null,
@@ -390907,7 +390371,7 @@ var STOCKS_DATABASE = {
     "high_1m": 1.89,
     "low_1m": 1.66,
     "support_levels": [
-      1.29,
+      1.36,
       1.47,
       1.68
     ],
@@ -390916,13 +390380,9 @@ var STOCKS_DATABASE = {
       1.89
     ],
     "upcoming_xd": "2026-03-12",
-    "upcoming_dividend_amount": 0.08,
+    "upcoming_dividend_amount": 0.05,
     "upcoming_payment_date": "2026-03-27",
     "dividend_history": [
-      {
-        "date": "2026-03-12",
-        "amount": 0.08
-      },
       {
         "date": "2025-03-11",
         "amount": 0.0481
@@ -390958,344 +390418,348 @@ var STOCKS_DATABASE = {
       {
         "date": "2017-03-10",
         "amount": 0.014
+      },
+      {
+        "date": "2016-03-10",
+        "amount": 0.056
       }
     ],
     "history": [
       {
         "date": "2025-07-03",
-        "close": 1.24
+        "close": 1.3
       },
       {
         "date": "2025-07-07",
-        "close": 1.15
+        "close": 1.21
       },
       {
         "date": "2025-07-09",
-        "close": 1.11
+        "close": 1.17
       },
       {
         "date": "2025-07-14",
-        "close": 1.13
+        "close": 1.19
       },
       {
         "date": "2025-07-16",
-        "close": 1.12
+        "close": 1.18
       },
       {
         "date": "2025-07-18",
-        "close": 1.13
+        "close": 1.19
       },
       {
         "date": "2025-07-22",
-        "close": 1.07
+        "close": 1.13
       },
       {
         "date": "2025-07-24",
-        "close": 1.08
-      },
-      {
-        "date": "2025-07-29",
-        "close": 1.08
-      },
-      {
-        "date": "2025-07-31",
-        "close": 1.13
-      },
-      {
-        "date": "2025-08-04",
-        "close": 1.12
-      },
-      {
-        "date": "2025-08-06",
-        "close": 1.18
-      },
-      {
-        "date": "2025-08-08",
-        "close": 1.18
-      },
-      {
-        "date": "2025-08-14",
         "close": 1.14
       },
       {
-        "date": "2025-08-18",
-        "close": 1.2
+        "date": "2025-07-29",
+        "close": 1.14
       },
       {
-        "date": "2025-08-20",
-        "close": 1.21
+        "date": "2025-07-31",
+        "close": 1.19
       },
       {
-        "date": "2025-08-22",
-        "close": 1.29
-      },
-      {
-        "date": "2025-08-26",
-        "close": 1.42
-      },
-      {
-        "date": "2025-08-28",
-        "close": 1.4
-      },
-      {
-        "date": "2025-09-01",
-        "close": 1.4
-      },
-      {
-        "date": "2025-09-03",
-        "close": 1.44
-      },
-      {
-        "date": "2025-09-05",
-        "close": 1.42
-      },
-      {
-        "date": "2025-09-09",
-        "close": 1.38
-      },
-      {
-        "date": "2025-09-11",
-        "close": 1.4
-      },
-      {
-        "date": "2025-09-15",
-        "close": 1.38
-      },
-      {
-        "date": "2025-09-17",
-        "close": 1.42
-      },
-      {
-        "date": "2025-09-19",
-        "close": 1.4
-      },
-      {
-        "date": "2025-09-23",
-        "close": 1.33
-      },
-      {
-        "date": "2025-09-25",
-        "close": 1.32
-      },
-      {
-        "date": "2025-09-29",
-        "close": 1.35
-      },
-      {
-        "date": "2025-10-01",
-        "close": 1.31
-      },
-      {
-        "date": "2025-10-03",
-        "close": 1.29
-      },
-      {
-        "date": "2025-10-07",
-        "close": 1.3
-      },
-      {
-        "date": "2025-10-09",
-        "close": 1.32
-      },
-      {
-        "date": "2025-10-14",
-        "close": 1.29
-      },
-      {
-        "date": "2025-10-16",
-        "close": 1.31
-      },
-      {
-        "date": "2025-10-20",
-        "close": 1.31
-      },
-      {
-        "date": "2025-10-22",
-        "close": 1.32
-      },
-      {
-        "date": "2025-10-27",
-        "close": 1.31
-      },
-      {
-        "date": "2025-10-29",
-        "close": 1.25
-      },
-      {
-        "date": "2025-10-31",
-        "close": 1.21
-      },
-      {
-        "date": "2025-11-04",
-        "close": 1.13
-      },
-      {
-        "date": "2025-11-06",
+        "date": "2025-08-04",
         "close": 1.18
       },
       {
-        "date": "2025-11-10",
+        "date": "2025-08-06",
         "close": 1.24
       },
       {
-        "date": "2025-11-12",
-        "close": 1.27
-      },
-      {
-        "date": "2025-11-14",
-        "close": 1.27
-      },
-      {
-        "date": "2025-11-18",
-        "close": 1.26
-      },
-      {
-        "date": "2025-11-20",
-        "close": 1.25
-      },
-      {
-        "date": "2025-11-24",
-        "close": 1.26
-      },
-      {
-        "date": "2025-11-26",
-        "close": 1.22
-      },
-      {
-        "date": "2025-11-28",
-        "close": 1.25
-      },
-      {
-        "date": "2025-12-02",
+        "date": "2025-08-08",
         "close": 1.24
       },
       {
-        "date": "2025-12-04",
-        "close": 1.25
+        "date": "2025-08-14",
+        "close": 1.2
       },
       {
-        "date": "2025-12-09",
-        "close": 1.25
-      },
-      {
-        "date": "2025-12-12",
-        "close": 1.25
-      },
-      {
-        "date": "2025-12-16",
-        "close": 1.25
-      },
-      {
-        "date": "2025-12-18",
-        "close": 1.25
-      },
-      {
-        "date": "2025-12-22",
-        "close": 1.25
-      },
-      {
-        "date": "2025-12-24",
-        "close": 1.3
-      },
-      {
-        "date": "2025-12-26",
-        "close": 1.28
-      },
-      {
-        "date": "2025-12-30",
-        "close": 1.27
-      },
-      {
-        "date": "2026-01-06",
-        "close": 1.28
-      },
-      {
-        "date": "2026-01-08",
-        "close": 1.28
-      },
-      {
-        "date": "2026-01-12",
-        "close": 1.23
-      },
-      {
-        "date": "2026-01-14",
-        "close": 1.21
-      },
-      {
-        "date": "2026-01-16",
-        "close": 1.24
-      },
-      {
-        "date": "2026-01-20",
+        "date": "2025-08-18",
         "close": 1.26
       },
       {
-        "date": "2026-01-22",
-        "close": 1.26
-      },
-      {
-        "date": "2026-01-26",
+        "date": "2025-08-20",
         "close": 1.27
       },
       {
-        "date": "2026-01-28",
-        "close": 1.27
+        "date": "2025-08-22",
+        "close": 1.36
       },
       {
-        "date": "2026-01-30",
-        "close": 1.27
+        "date": "2025-08-26",
+        "close": 1.49
       },
       {
-        "date": "2026-02-03",
-        "close": 1.26
+        "date": "2025-08-28",
+        "close": 1.47
       },
       {
-        "date": "2026-02-05",
-        "close": 1.27
+        "date": "2025-09-01",
+        "close": 1.47
       },
       {
-        "date": "2026-02-09",
-        "close": 1.29
+        "date": "2025-09-03",
+        "close": 1.51
       },
       {
-        "date": "2026-02-11",
-        "close": 1.34
+        "date": "2025-09-05",
+        "close": 1.49
       },
       {
-        "date": "2026-02-13",
-        "close": 1.37
+        "date": "2025-09-09",
+        "close": 1.45
       },
       {
-        "date": "2026-02-17",
+        "date": "2025-09-11",
+        "close": 1.47
+      },
+      {
+        "date": "2025-09-15",
+        "close": 1.45
+      },
+      {
+        "date": "2025-09-17",
+        "close": 1.49
+      },
+      {
+        "date": "2025-09-19",
+        "close": 1.47
+      },
+      {
+        "date": "2025-09-23",
         "close": 1.4
       },
       {
-        "date": "2026-02-19",
+        "date": "2025-09-25",
         "close": 1.39
       },
       {
-        "date": "2026-02-23",
-        "close": 1.34
+        "date": "2025-09-29",
+        "close": 1.42
       },
       {
-        "date": "2026-02-25",
+        "date": "2025-10-01",
         "close": 1.38
       },
       {
+        "date": "2025-10-03",
+        "close": 1.36
+      },
+      {
+        "date": "2025-10-07",
+        "close": 1.37
+      },
+      {
+        "date": "2025-10-09",
+        "close": 1.39
+      },
+      {
+        "date": "2025-10-14",
+        "close": 1.36
+      },
+      {
+        "date": "2025-10-16",
+        "close": 1.38
+      },
+      {
+        "date": "2025-10-20",
+        "close": 1.38
+      },
+      {
+        "date": "2025-10-22",
+        "close": 1.39
+      },
+      {
+        "date": "2025-10-27",
+        "close": 1.38
+      },
+      {
+        "date": "2025-10-29",
+        "close": 1.31
+      },
+      {
+        "date": "2025-10-31",
+        "close": 1.27
+      },
+      {
+        "date": "2025-11-04",
+        "close": 1.19
+      },
+      {
+        "date": "2025-11-06",
+        "close": 1.24
+      },
+      {
+        "date": "2025-11-10",
+        "close": 1.3
+      },
+      {
+        "date": "2025-11-12",
+        "close": 1.33
+      },
+      {
+        "date": "2025-11-14",
+        "close": 1.33
+      },
+      {
+        "date": "2025-11-18",
+        "close": 1.32
+      },
+      {
+        "date": "2025-11-20",
+        "close": 1.31
+      },
+      {
+        "date": "2025-11-24",
+        "close": 1.32
+      },
+      {
+        "date": "2025-11-26",
+        "close": 1.28
+      },
+      {
+        "date": "2025-11-28",
+        "close": 1.31
+      },
+      {
+        "date": "2025-12-02",
+        "close": 1.3
+      },
+      {
+        "date": "2025-12-04",
+        "close": 1.31
+      },
+      {
+        "date": "2025-12-09",
+        "close": 1.31
+      },
+      {
+        "date": "2025-12-12",
+        "close": 1.31
+      },
+      {
+        "date": "2025-12-16",
+        "close": 1.31
+      },
+      {
+        "date": "2025-12-18",
+        "close": 1.31
+      },
+      {
+        "date": "2025-12-22",
+        "close": 1.31
+      },
+      {
+        "date": "2025-12-24",
+        "close": 1.37
+      },
+      {
+        "date": "2025-12-26",
+        "close": 1.35
+      },
+      {
+        "date": "2025-12-30",
+        "close": 1.34
+      },
+      {
+        "date": "2026-01-06",
+        "close": 1.35
+      },
+      {
+        "date": "2026-01-08",
+        "close": 1.35
+      },
+      {
+        "date": "2026-01-12",
+        "close": 1.29
+      },
+      {
+        "date": "2026-01-14",
+        "close": 1.27
+      },
+      {
+        "date": "2026-01-16",
+        "close": 1.3
+      },
+      {
+        "date": "2026-01-20",
+        "close": 1.32
+      },
+      {
+        "date": "2026-01-22",
+        "close": 1.32
+      },
+      {
+        "date": "2026-01-26",
+        "close": 1.34
+      },
+      {
+        "date": "2026-01-28",
+        "close": 1.34
+      },
+      {
+        "date": "2026-01-30",
+        "close": 1.33
+      },
+      {
+        "date": "2026-02-03",
+        "close": 1.32
+      },
+      {
+        "date": "2026-02-05",
+        "close": 1.33
+      },
+      {
+        "date": "2026-02-09",
+        "close": 1.36
+      },
+      {
+        "date": "2026-02-11",
+        "close": 1.41
+      },
+      {
+        "date": "2026-02-13",
+        "close": 1.44
+      },
+      {
+        "date": "2026-02-17",
+        "close": 1.47
+      },
+      {
+        "date": "2026-02-19",
+        "close": 1.46
+      },
+      {
+        "date": "2026-02-23",
+        "close": 1.41
+      },
+      {
+        "date": "2026-02-25",
+        "close": 1.45
+      },
+      {
         "date": "2026-02-27",
-        "close": 1.65
+        "close": 1.73
       },
       {
         "date": "2026-03-04",
-        "close": 1.48
+        "close": 1.56
       },
       {
         "date": "2026-03-06",
-        "close": 1.52
+        "close": 1.6
       },
       {
         "date": "2026-03-10",
-        "close": 1.56
+        "close": 1.64
       },
       {
         "date": "2026-03-12",
@@ -396963,9 +396427,9 @@ var STOCKS_DATABASE = {
       0.57,
       0.54
     ],
-    "upcoming_xd": "2026-08-03",
+    "upcoming_xd": "2026-08-04",
     "upcoming_dividend_amount": 0.04,
-    "upcoming_payment_date": "2026-08-18",
+    "upcoming_payment_date": "2026-08-19",
     "dividend_history": [
       {
         "date": "2024-04-17",
@@ -449156,9 +448620,9 @@ var STOCKS_DATABASE = {
       0.14,
       0.15
     ],
-    "upcoming_xd": "2026-08-03",
+    "upcoming_xd": "2026-08-04",
     "upcoming_dividend_amount": 0.01,
-    "upcoming_payment_date": "2026-08-18",
+    "upcoming_payment_date": "2026-08-19",
     "dividend_history": [
       {
         "date": "2023-05-03",
