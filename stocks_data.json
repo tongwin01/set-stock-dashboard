@@ -48089,7 +48089,7 @@
   "BCT": {
     "symbol": "BCT",
     "name": "Birla Carbon (Thailand) Public Company Limited",
-    "business_summary": "Birla Carbon (Thailand) Public Company Limited engages in the manufacture and sale of carbon black. The company's carbon solutions are used in tires, mechanical rubber goods, plastics, inks, coatings, energy systems, adhesives and sealants, and nonocyl applications. It operates in Thailand, Vietnam, Japan, the Philippines, Indonesia, Malaysia, Pakistan, Australia, and internationally. The company was formerly known as Thai Carbon Black Public Company Limited and changed its name to Birla Carbon (Thailand) Public Company Limited in July 2018. Birla Carbon (Thailand) Public Company Limited was founded in 1978 and is headquartered in Bangkok, Thailand.",
+    "business_summary": "Birla Carbon (Thailand) Public Company Limited engages in the manufacture and sale of carbon black. Its carbon solutions are used in tires, mechanical rubber goods, plastics, inks, coatings, energy systems, adhesives and sealants, and nonocyl applications. The company operates in Thailand, Vietnam, Japan, the Philippines, Indonesia, Malaysia, Pakistan, Australia, and internationally. Birla Carbon (Thailand) Public Company Limited was formerly known as Thai Carbon Black Public Company Limited and changed its name to Birla Carbon (Thailand) Public Company Limited in July 2018. The company was was founded in 1978 and is headquartered in Bangkok, Thailand.",
     "current_price": 50.0,
     "pe_ratio": 8.14,
     "dividend_yield": 2.0,
@@ -58057,9 +58057,9 @@
       0.95,
       1.03
     ],
-    "upcoming_xd": "2026-08-10",
+    "upcoming_xd": "2026-08-11",
     "upcoming_dividend_amount": 0.06,
-    "upcoming_payment_date": "2026-08-25",
+    "upcoming_payment_date": "2026-08-26",
     "dividend_history": [
       {
         "date": "2025-05-26",
@@ -101752,6 +101752,28 @@
       }
     ]
   },
+  "CPTGF": {
+    "symbol": "CPTGF",
+    "name": "C.P. Tower Grth Leasehold Property Fund",
+    "business_summary": "ข้อมูลธุรกิจสำหรับหุ้นนี้ยังไม่พร้อมใช้งานในระบบ",
+    "current_price": 5.1,
+    "pe_ratio": 7.29,
+    "dividend_yield": 0.0,
+    "high_1m": 5.1,
+    "low_1m": 5.1,
+    "support_levels": [],
+    "resistance_levels": [],
+    "upcoming_xd": null,
+    "upcoming_dividend_amount": null,
+    "upcoming_payment_date": null,
+    "dividend_history": [],
+    "history": [
+      {
+        "date": "2026-07-10",
+        "close": 5.1
+      }
+    ]
+  },
   "CPW": {
     "symbol": "CPW",
     "name": "Copperwired Public Company Limited",
@@ -102853,552 +102875,6 @@
       {
         "date": "2026-07-09",
         "close": 0.37
-      }
-    ]
-  },
-  "CRC": {
-    "symbol": "CRC",
-    "name": "Central Retail Corporation Public Company Limited",
-    "business_summary": "Central Retail Corporation Public Company Limited operates as a multi-format retailing business in Thailand, Italy, Vietnam, and internationally. It operates through three segments: Fashion, Food Products, and Hardline. The company is involved in investing; retail; service; trademark services; pet food and gadgets retail and services; supermarkets; E-commerce; outerwear manufacturing; importing and selling; office equipment retail; warehouse rental; software development; E-book store; IT services; distribution center; consultation service; manufactures and distributes furniture; stationary retail and franchisor; convenience stores and business member shops; wholesale business; and real estates; and hypermarket, as well as operates department stores. Central Retail Corporation Public Company Limited was founded in 1947 and is headquartered in Bangkok, Thailand.",
-    "current_price": 23.2,
-    "pe_ratio": 19.83,
-    "dividend_yield": 2.28,
-    "high_1m": 24.0,
-    "low_1m": 21.1,
-    "support_levels": [
-      15.75,
-      16.7,
-      17.8
-    ],
-    "resistance_levels": [
-      24.36,
-      24.0
-    ],
-    "upcoming_xd": "2026-04-21",
-    "upcoming_dividend_amount": 1.11,
-    "upcoming_payment_date": "2026-05-06",
-    "dividend_history": [
-      {
-        "date": "2026-04-21",
-        "amount": 1.11
-      },
-      {
-        "date": "2025-12-04",
-        "amount": 0.7
-      },
-      {
-        "date": "2025-05-06",
-        "amount": 0.6
-      },
-      {
-        "date": "2024-05-03",
-        "amount": 0.55
-      },
-      {
-        "date": "2023-05-08",
-        "amount": 0.48
-      },
-      {
-        "date": "2022-05-09",
-        "amount": 0.3
-      },
-      {
-        "date": "2021-04-29",
-        "amount": 0.4
-      }
-    ],
-    "history": [
-      {
-        "date": "2025-07-11",
-        "close": 16.21
-      },
-      {
-        "date": "2025-07-15",
-        "close": 18.3
-      },
-      {
-        "date": "2025-07-17",
-        "close": 18.48
-      },
-      {
-        "date": "2025-07-21",
-        "close": 18.85
-      },
-      {
-        "date": "2025-07-23",
-        "close": 19.3
-      },
-      {
-        "date": "2025-07-25",
-        "close": 19.12
-      },
-      {
-        "date": "2025-07-30",
-        "close": 19.85
-      },
-      {
-        "date": "2025-08-01",
-        "close": 18.57
-      },
-      {
-        "date": "2025-08-05",
-        "close": 19.48
-      },
-      {
-        "date": "2025-08-07",
-        "close": 20.12
-      },
-      {
-        "date": "2025-08-13",
-        "close": 19.39
-      },
-      {
-        "date": "2025-08-15",
-        "close": 17.94
-      },
-      {
-        "date": "2025-08-19",
-        "close": 17.94
-      },
-      {
-        "date": "2025-08-21",
-        "close": 19.12
-      },
-      {
-        "date": "2025-08-25",
-        "close": 19.94
-      },
-      {
-        "date": "2025-08-27",
-        "close": 20.21
-      },
-      {
-        "date": "2025-08-29",
-        "close": 19.39
-      },
-      {
-        "date": "2025-09-02",
-        "close": 21.12
-      },
-      {
-        "date": "2025-09-04",
-        "close": 21.31
-      },
-      {
-        "date": "2025-09-08",
-        "close": 21.85
-      },
-      {
-        "date": "2025-09-10",
-        "close": 21.76
-      },
-      {
-        "date": "2025-09-12",
-        "close": 21.4
-      },
-      {
-        "date": "2025-09-16",
-        "close": 22.67
-      },
-      {
-        "date": "2025-09-18",
-        "close": 20.4
-      },
-      {
-        "date": "2025-09-22",
-        "close": 20.12
-      },
-      {
-        "date": "2025-09-24",
-        "close": 19.85
-      },
-      {
-        "date": "2025-09-26",
-        "close": 19.94
-      },
-      {
-        "date": "2025-09-30",
-        "close": 19.94
-      },
-      {
-        "date": "2025-10-02",
-        "close": 19.58
-      },
-      {
-        "date": "2025-10-06",
-        "close": 18.85
-      },
-      {
-        "date": "2025-10-08",
-        "close": 19.94
-      },
-      {
-        "date": "2025-10-10",
-        "close": 19.12
-      },
-      {
-        "date": "2025-10-15",
-        "close": 18.76
-      },
-      {
-        "date": "2025-10-17",
-        "close": 18.39
-      },
-      {
-        "date": "2025-10-21",
-        "close": 18.85
-      },
-      {
-        "date": "2025-10-24",
-        "close": 18.76
-      },
-      {
-        "date": "2025-10-28",
-        "close": 18.03
-      },
-      {
-        "date": "2025-10-30",
-        "close": 18.48
-      },
-      {
-        "date": "2025-11-03",
-        "close": 18.85
-      },
-      {
-        "date": "2025-11-05",
-        "close": 18.21
-      },
-      {
-        "date": "2025-11-07",
-        "close": 19.12
-      },
-      {
-        "date": "2025-11-11",
-        "close": 19.03
-      },
-      {
-        "date": "2025-11-13",
-        "close": 17.66
-      },
-      {
-        "date": "2025-11-17",
-        "close": 18.21
-      },
-      {
-        "date": "2025-11-19",
-        "close": 17.85
-      },
-      {
-        "date": "2025-11-21",
-        "close": 17.57
-      },
-      {
-        "date": "2025-11-25",
-        "close": 17.57
-      },
-      {
-        "date": "2025-11-27",
-        "close": 17.66
-      },
-      {
-        "date": "2025-12-01",
-        "close": 18.76
-      },
-      {
-        "date": "2025-12-03",
-        "close": 18.3
-      },
-      {
-        "date": "2025-12-08",
-        "close": 17.83
-      },
-      {
-        "date": "2025-12-11",
-        "close": 17.64
-      },
-      {
-        "date": "2025-12-15",
-        "close": 18.21
-      },
-      {
-        "date": "2025-12-17",
-        "close": 17.55
-      },
-      {
-        "date": "2025-12-19",
-        "close": 16.98
-      },
-      {
-        "date": "2025-12-23",
-        "close": 17.17
-      },
-      {
-        "date": "2025-12-25",
-        "close": 17.36
-      },
-      {
-        "date": "2025-12-29",
-        "close": 17.07
-      },
-      {
-        "date": "2026-01-05",
-        "close": 16.89
-      },
-      {
-        "date": "2026-01-07",
-        "close": 17.07
-      },
-      {
-        "date": "2026-01-09",
-        "close": 16.41
-      },
-      {
-        "date": "2026-01-13",
-        "close": 15.85
-      },
-      {
-        "date": "2026-01-15",
-        "close": 16.7
-      },
-      {
-        "date": "2026-01-19",
-        "close": 17.45
-      },
-      {
-        "date": "2026-01-21",
-        "close": 18.68
-      },
-      {
-        "date": "2026-01-23",
-        "close": 18.02
-      },
-      {
-        "date": "2026-01-27",
-        "close": 18.49
-      },
-      {
-        "date": "2026-01-29",
-        "close": 18.49
-      },
-      {
-        "date": "2026-02-02",
-        "close": 18.4
-      },
-      {
-        "date": "2026-02-04",
-        "close": 18.3
-      },
-      {
-        "date": "2026-02-06",
-        "close": 18.87
-      },
-      {
-        "date": "2026-02-10",
-        "close": 20.19
-      },
-      {
-        "date": "2026-02-12",
-        "close": 20.75
-      },
-      {
-        "date": "2026-02-16",
-        "close": 20.09
-      },
-      {
-        "date": "2026-02-18",
-        "close": 20.57
-      },
-      {
-        "date": "2026-02-20",
-        "close": 20.38
-      },
-      {
-        "date": "2026-02-24",
-        "close": 19.91
-      },
-      {
-        "date": "2026-02-26",
-        "close": 19.81
-      },
-      {
-        "date": "2026-03-02",
-        "close": 18.68
-      },
-      {
-        "date": "2026-03-05",
-        "close": 17.45
-      },
-      {
-        "date": "2026-03-09",
-        "close": 16.98
-      },
-      {
-        "date": "2026-03-11",
-        "close": 16.98
-      },
-      {
-        "date": "2026-03-13",
-        "close": 17.74
-      },
-      {
-        "date": "2026-03-17",
-        "close": 17.64
-      },
-      {
-        "date": "2026-03-19",
-        "close": 16.89
-      },
-      {
-        "date": "2026-03-23",
-        "close": 16.7
-      },
-      {
-        "date": "2026-03-25",
-        "close": 17.45
-      },
-      {
-        "date": "2026-03-27",
-        "close": 17.07
-      },
-      {
-        "date": "2026-03-31",
-        "close": 17.64
-      },
-      {
-        "date": "2026-04-02",
-        "close": 18.11
-      },
-      {
-        "date": "2026-04-07",
-        "close": 18.3
-      },
-      {
-        "date": "2026-04-09",
-        "close": 18.4
-      },
-      {
-        "date": "2026-04-16",
-        "close": 18.87
-      },
-      {
-        "date": "2026-04-20",
-        "close": 18.49
-      },
-      {
-        "date": "2026-04-22",
-        "close": 19.0
-      },
-      {
-        "date": "2026-04-24",
-        "close": 18.6
-      },
-      {
-        "date": "2026-04-28",
-        "close": 18.1
-      },
-      {
-        "date": "2026-04-30",
-        "close": 18.3
-      },
-      {
-        "date": "2026-05-04",
-        "close": 18.3
-      },
-      {
-        "date": "2026-05-06",
-        "close": 18.7
-      },
-      {
-        "date": "2026-05-08",
-        "close": 18.8
-      },
-      {
-        "date": "2026-05-12",
-        "close": 18.8
-      },
-      {
-        "date": "2026-05-14",
-        "close": 20.5
-      },
-      {
-        "date": "2026-05-18",
-        "close": 19.5
-      },
-      {
-        "date": "2026-05-20",
-        "close": 19.6
-      },
-      {
-        "date": "2026-05-22",
-        "close": 20.3
-      },
-      {
-        "date": "2026-05-26",
-        "close": 20.8
-      },
-      {
-        "date": "2026-05-28",
-        "close": 20.7
-      },
-      {
-        "date": "2026-06-01",
-        "close": 21.1
-      },
-      {
-        "date": "2026-06-03",
-        "close": 21.1
-      },
-      {
-        "date": "2026-06-05",
-        "close": 21.2
-      },
-      {
-        "date": "2026-06-09",
-        "close": 21.1
-      },
-      {
-        "date": "2026-06-11",
-        "close": 20.9
-      },
-      {
-        "date": "2026-06-15",
-        "close": 21.5
-      },
-      {
-        "date": "2026-06-17",
-        "close": 23.3
-      },
-      {
-        "date": "2026-06-19",
-        "close": 23.2
-      },
-      {
-        "date": "2026-06-23",
-        "close": 22.8
-      },
-      {
-        "date": "2026-06-25",
-        "close": 23.3
-      },
-      {
-        "date": "2026-06-29",
-        "close": 23.6
-      },
-      {
-        "date": "2026-07-01",
-        "close": 23.5
-      },
-      {
-        "date": "2026-07-03",
-        "close": 23.7
-      },
-      {
-        "date": "2026-07-07",
-        "close": 23.4
-      },
-      {
-        "date": "2026-07-09",
-        "close": 23.0
       }
     ]
   },
@@ -128504,9 +127980,9 @@
       56.25,
       67.75
     ],
-    "upcoming_xd": "2026-08-10",
+    "upcoming_xd": "2026-08-11",
     "upcoming_dividend_amount": 2.55,
-    "upcoming_payment_date": "2026-08-25",
+    "upcoming_payment_date": "2026-08-26",
     "dividend_history": [
       {
         "date": "2025-04-22",
@@ -133821,6 +133297,563 @@
       {
         "date": "2026-07-09",
         "close": 1.51
+      }
+    ]
+  },
+  "FPT": {
+    "symbol": "FPT",
+    "name": "Frasers Property (Thailand) Public Company Limited",
+    "business_summary": "Frasers Property (Thailand) Public Company Limited, together with its subsidiaries, engages in the industrial real estate development business in Thailand. It is involved in the development of factories and warehouses for rent and for sale; residential real-estate development, including rental and related service of commercial buildings; and hotel business. The company was formerly known as TICON Industrial Connection Public Company Limited and changed its name to Frasers Property (Thailand) Public Company Limited in January 2019. Frasers Property (Thailand) Public Company Limited was founded in 1990 and is headquartered in Bangkok, Thailand.",
+    "current_price": 6.7,
+    "pe_ratio": 6.2,
+    "dividend_yield": 4.78,
+    "high_1m": 6.7,
+    "low_1m": 6.15,
+    "support_levels": [
+      5.88,
+      6.31
+    ],
+    "resistance_levels": [
+      7.03,
+      6.8
+    ],
+    "upcoming_xd": "2025-12-04",
+    "upcoming_dividend_amount": 0.32,
+    "upcoming_payment_date": "2025-12-19",
+    "dividend_history": [
+      {
+        "date": "2025-12-04",
+        "amount": 0.32
+      },
+      {
+        "date": "2024-11-26",
+        "amount": 0.31
+      },
+      {
+        "date": "2023-11-23",
+        "amount": 0.4
+      },
+      {
+        "date": "2022-11-22",
+        "amount": 0.43
+      },
+      {
+        "date": "2021-11-22",
+        "amount": 0.34
+      },
+      {
+        "date": "2020-12-09",
+        "amount": 0.6
+      },
+      {
+        "date": "2019-12-24",
+        "amount": 0.4493
+      },
+      {
+        "date": "2018-12-24",
+        "amount": 0.2637
+      },
+      {
+        "date": "2018-02-28",
+        "amount": 0.0977
+      },
+      {
+        "date": "2017-05-02",
+        "amount": 0.0781
+      }
+    ],
+    "history": [
+      {
+        "date": "2025-07-11",
+        "close": 5.66
+      },
+      {
+        "date": "2025-07-15",
+        "close": 5.76
+      },
+      {
+        "date": "2025-07-17",
+        "close": 5.76
+      },
+      {
+        "date": "2025-07-21",
+        "close": 5.76
+      },
+      {
+        "date": "2025-07-23",
+        "close": 5.71
+      },
+      {
+        "date": "2025-07-25",
+        "close": 5.71
+      },
+      {
+        "date": "2025-07-30",
+        "close": 5.85
+      },
+      {
+        "date": "2025-08-01",
+        "close": 5.8
+      },
+      {
+        "date": "2025-08-05",
+        "close": 5.8
+      },
+      {
+        "date": "2025-08-07",
+        "close": 5.76
+      },
+      {
+        "date": "2025-08-13",
+        "close": 5.85
+      },
+      {
+        "date": "2025-08-15",
+        "close": 5.85
+      },
+      {
+        "date": "2025-08-19",
+        "close": 5.9
+      },
+      {
+        "date": "2025-08-21",
+        "close": 5.9
+      },
+      {
+        "date": "2025-08-25",
+        "close": 5.95
+      },
+      {
+        "date": "2025-08-27",
+        "close": 5.9
+      },
+      {
+        "date": "2025-08-29",
+        "close": 5.85
+      },
+      {
+        "date": "2025-09-02",
+        "close": 5.9
+      },
+      {
+        "date": "2025-09-04",
+        "close": 5.9
+      },
+      {
+        "date": "2025-09-08",
+        "close": 5.99
+      },
+      {
+        "date": "2025-09-10",
+        "close": 6.23
+      },
+      {
+        "date": "2025-09-12",
+        "close": 6.23
+      },
+      {
+        "date": "2025-09-16",
+        "close": 6.28
+      },
+      {
+        "date": "2025-09-18",
+        "close": 6.33
+      },
+      {
+        "date": "2025-09-22",
+        "close": 6.42
+      },
+      {
+        "date": "2025-09-24",
+        "close": 6.33
+      },
+      {
+        "date": "2025-09-26",
+        "close": 6.52
+      },
+      {
+        "date": "2025-09-30",
+        "close": 6.47
+      },
+      {
+        "date": "2025-10-02",
+        "close": 6.33
+      },
+      {
+        "date": "2025-10-06",
+        "close": 6.28
+      },
+      {
+        "date": "2025-10-08",
+        "close": 6.38
+      },
+      {
+        "date": "2025-10-10",
+        "close": 6.42
+      },
+      {
+        "date": "2025-10-15",
+        "close": 6.38
+      },
+      {
+        "date": "2025-10-17",
+        "close": 6.18
+      },
+      {
+        "date": "2025-10-21",
+        "close": 6.28
+      },
+      {
+        "date": "2025-10-24",
+        "close": 6.18
+      },
+      {
+        "date": "2025-10-28",
+        "close": 6.14
+      },
+      {
+        "date": "2025-10-30",
+        "close": 6.09
+      },
+      {
+        "date": "2025-11-03",
+        "close": 6.09
+      },
+      {
+        "date": "2025-11-05",
+        "close": 6.09
+      },
+      {
+        "date": "2025-11-07",
+        "close": 5.8
+      },
+      {
+        "date": "2025-11-11",
+        "close": 5.85
+      },
+      {
+        "date": "2025-11-13",
+        "close": 5.95
+      },
+      {
+        "date": "2025-11-17",
+        "close": 5.9
+      },
+      {
+        "date": "2025-11-19",
+        "close": 5.9
+      },
+      {
+        "date": "2025-11-21",
+        "close": 5.99
+      },
+      {
+        "date": "2025-11-25",
+        "close": 6.09
+      },
+      {
+        "date": "2025-11-27",
+        "close": 6.09
+      },
+      {
+        "date": "2025-12-01",
+        "close": 6.18
+      },
+      {
+        "date": "2025-12-03",
+        "close": 6.28
+      },
+      {
+        "date": "2025-12-08",
+        "close": 6.1
+      },
+      {
+        "date": "2025-12-11",
+        "close": 6.1
+      },
+      {
+        "date": "2025-12-15",
+        "close": 5.95
+      },
+      {
+        "date": "2025-12-17",
+        "close": 6.1
+      },
+      {
+        "date": "2025-12-19",
+        "close": 6.0
+      },
+      {
+        "date": "2025-12-23",
+        "close": 5.95
+      },
+      {
+        "date": "2025-12-25",
+        "close": 5.95
+      },
+      {
+        "date": "2025-12-29",
+        "close": 5.95
+      },
+      {
+        "date": "2026-01-05",
+        "close": 5.95
+      },
+      {
+        "date": "2026-01-07",
+        "close": 6.1
+      },
+      {
+        "date": "2026-01-09",
+        "close": 6.05
+      },
+      {
+        "date": "2026-01-13",
+        "close": 6.05
+      },
+      {
+        "date": "2026-01-15",
+        "close": 5.9
+      },
+      {
+        "date": "2026-01-19",
+        "close": 6.05
+      },
+      {
+        "date": "2026-01-21",
+        "close": 6.1
+      },
+      {
+        "date": "2026-01-23",
+        "close": 6.0
+      },
+      {
+        "date": "2026-01-27",
+        "close": 6.1
+      },
+      {
+        "date": "2026-01-29",
+        "close": 6.05
+      },
+      {
+        "date": "2026-02-02",
+        "close": 6.2
+      },
+      {
+        "date": "2026-02-04",
+        "close": 6.1
+      },
+      {
+        "date": "2026-02-06",
+        "close": 6.15
+      },
+      {
+        "date": "2026-02-10",
+        "close": 6.35
+      },
+      {
+        "date": "2026-02-12",
+        "close": 6.5
+      },
+      {
+        "date": "2026-02-16",
+        "close": 6.55
+      },
+      {
+        "date": "2026-02-18",
+        "close": 6.6
+      },
+      {
+        "date": "2026-02-20",
+        "close": 6.7
+      },
+      {
+        "date": "2026-02-24",
+        "close": 6.65
+      },
+      {
+        "date": "2026-02-26",
+        "close": 6.45
+      },
+      {
+        "date": "2026-03-02",
+        "close": 6.25
+      },
+      {
+        "date": "2026-03-05",
+        "close": 6.3
+      },
+      {
+        "date": "2026-03-09",
+        "close": 6.3
+      },
+      {
+        "date": "2026-03-11",
+        "close": 6.3
+      },
+      {
+        "date": "2026-03-13",
+        "close": 6.3
+      },
+      {
+        "date": "2026-03-17",
+        "close": 6.2
+      },
+      {
+        "date": "2026-03-19",
+        "close": 6.1
+      },
+      {
+        "date": "2026-03-23",
+        "close": 6.0
+      },
+      {
+        "date": "2026-03-25",
+        "close": 6.05
+      },
+      {
+        "date": "2026-03-27",
+        "close": 6.0
+      },
+      {
+        "date": "2026-03-31",
+        "close": 6.0
+      },
+      {
+        "date": "2026-04-02",
+        "close": 6.1
+      },
+      {
+        "date": "2026-04-07",
+        "close": 6.1
+      },
+      {
+        "date": "2026-04-09",
+        "close": 6.05
+      },
+      {
+        "date": "2026-04-16",
+        "close": 6.15
+      },
+      {
+        "date": "2026-04-20",
+        "close": 6.25
+      },
+      {
+        "date": "2026-04-22",
+        "close": 6.2
+      },
+      {
+        "date": "2026-04-24",
+        "close": 6.3
+      },
+      {
+        "date": "2026-04-28",
+        "close": 6.25
+      },
+      {
+        "date": "2026-04-30",
+        "close": 6.3
+      },
+      {
+        "date": "2026-05-04",
+        "close": 6.3
+      },
+      {
+        "date": "2026-05-06",
+        "close": 6.35
+      },
+      {
+        "date": "2026-05-08",
+        "close": 6.4
+      },
+      {
+        "date": "2026-05-12",
+        "close": 6.4
+      },
+      {
+        "date": "2026-05-14",
+        "close": 6.4
+      },
+      {
+        "date": "2026-05-18",
+        "close": 6.35
+      },
+      {
+        "date": "2026-05-20",
+        "close": 6.45
+      },
+      {
+        "date": "2026-05-22",
+        "close": 6.35
+      },
+      {
+        "date": "2026-05-26",
+        "close": 6.45
+      },
+      {
+        "date": "2026-05-28",
+        "close": 6.45
+      },
+      {
+        "date": "2026-06-01",
+        "close": 6.4
+      },
+      {
+        "date": "2026-06-03",
+        "close": 6.45
+      },
+      {
+        "date": "2026-06-05",
+        "close": 6.55
+      },
+      {
+        "date": "2026-06-09",
+        "close": 6.4
+      },
+      {
+        "date": "2026-06-11",
+        "close": 6.35
+      },
+      {
+        "date": "2026-06-15",
+        "close": 6.3
+      },
+      {
+        "date": "2026-06-17",
+        "close": 6.3
+      },
+      {
+        "date": "2026-06-19",
+        "close": 6.3
+      },
+      {
+        "date": "2026-06-23",
+        "close": 6.35
+      },
+      {
+        "date": "2026-06-25",
+        "close": 6.3
+      },
+      {
+        "date": "2026-06-29",
+        "close": 6.4
+      },
+      {
+        "date": "2026-07-01",
+        "close": 6.6
+      },
+      {
+        "date": "2026-07-03",
+        "close": 6.55
+      },
+      {
+        "date": "2026-07-07",
+        "close": 6.55
+      },
+      {
+        "date": "2026-07-09",
+        "close": 6.5
       }
     ]
   },
@@ -149975,7 +150008,7 @@
     "business_summary": "Mukdahan International Hospital Public Company Limited operates hospitals in Thailand. The company operates Mukdahan International Hospital, Ruampat Yasothon Hospital, and Dr. Han Hospital. Its clinics and treatment centers include a physical therapy center, obstetrics and gynecology clinic, urology, pediatric clinic, accident and emergency center, family medicine clinic, general practice clinic, heart specialist clinic, and kidney center. The company also offers medical technology products, such as high-power laser therapy device; peripheral magnetic stimulation; and Fisioline Radiant, a radio frequency therapy device. In addition, it provides health checkup packages and programs comprising influenza vaccine, shingles vaccine, AVF/AVG prepaid package, hepatitis B vaccine package, Baby Love vaccine packages II and III, dengue vaccine package, endoscopy package, and pre-pregnancy health checkup program, as well as vaccine package to prevent hand, foot, and mouth disease. Further, the company is involved in hospital room sales; and medicine and medical supplies sales. Mukdahan International Hospital Public Company Limited was incorporated in 1995 and is headquartered in Mukdahan, Thailand.",
     "current_price": 0.88,
     "pe_ratio": 88.0,
-    "dividend_yield": 4.3,
+    "dividend_yield": 4.25,
     "high_1m": 0.93,
     "low_1m": 0.86,
     "support_levels": [
@@ -152553,7 +152586,7 @@
     "business_summary": "Hitachi, Ltd. provides digital system and services, green energy and mobility, and connective industry solutions in Japan and internationally. It operates through Digital Systems & Services, Green Energy & Mobility, Connective Industries, and Others segments. The company offers system integration, consulting, cloud services, storage, servers, software, and ATMs; finance solutions, social infrastructure information systems, public IT solutions, industrial internet of things, digital engineering, control system, and cloud services; and IT products, such as data management and storage. It also provides energy power grids, clean, nuclear, renewable energy, transmission, distribution, digital service, service and consulting, and utility solutions; and railway systems, such as rolling stock, signaling, supervision, telecommunications, and ticketing and payment solutions; automotive automation, including automotive assembly, glass applications, press automation, powertrain, paint and sealer applications, and tyre and wheel systems; and e-mobility solutions, as well as elevators and escalators, home appliances, air conditioners, industry and distribution solution, water and environment solutions, and industrial machinery. In addition, the company offers semiconductor manufacturing equipment; electron microscopes and atomic force microscopes; analytical systems, such as spectrophotometers, thermal analysis and chromatography systems, x-ray fluorescence analyzers, silicon drift detectors, potentiometric titrator, laser induced breakdown spectroscopy, and magnetic induction devices; clinical analyzers, and treatment and diagnostics solutions. Further, it provides automated manufacturing and robotic technologies, industrial & portable air compressors, industrial equipment systems, build-to-order industrial equipment, water environment solution, ATM and cash recycling. Hitachi, Ltd. was founded in 1910 and is headquartered in Tokyo, Japan.",
     "current_price": 1.24,
     "pe_ratio": 0.03,
-    "dividend_yield": 41.32,
+    "dividend_yield": 40.65,
     "high_1m": 1.29,
     "low_1m": 1.15,
     "support_levels": [
@@ -160203,7 +160236,7 @@
     "business_summary": "iFLYTEK CO.,LTD, together with its subsidiaries, provides intelligent speech and technology solutions and services in China and internationally. The company offers smart recorder, translator, voicebook, dictionary pen, space products, and microphones; AINOTE, a voice transcription device; Spark Trans, a multilingual simultaneous interpreting system; Deepting, an AI-powered transcription tool; and global Chinese learning platform and AI + marketing solutions. It also provides intelligent application systems; software for voice and speech recognition and conversion; computer software design and programming services; technical research in the field of computer software; advertising; online trading; marketing; and computer database information system through platform and website. In addition, the company offers telecommunication services, including wireless telephone services, wireless telephony and wireless broadband communications services, and consulting services for transmission of voice, data, and documents via telecommunications networks. Further, it is involved in education and training; software development; installation engineering; system integration; data processing and storage support; cultural and artistic services; rental business; investment activities; childcare; insurance; provision of internet data and network services; AI application; and industrial robot manufacturing. The company was formerly known as Anhui USTC iFLYTEK Co., Ltd. and changed its name to iFLYTEK CO.,LTD in April 2014. iFLYTEK CO.,LTD was founded in 1999 and is headquartered in Hefei, China.",
     "current_price": 2.1,
     "pe_ratio": null,
-    "dividend_yield": 5.0,
+    "dividend_yield": 4.81,
     "high_1m": 2.46,
     "low_1m": 1.78,
     "support_levels": [
@@ -163292,6 +163325,563 @@
       {
         "date": "2026-07-09",
         "close": 5.2
+      }
+    ]
+  },
+  "ILM": {
+    "symbol": "ILM",
+    "name": "Index Living Mall Public Company Limited",
+    "business_summary": "Index Living Mall Public Company Limited engages in the retail and wholesale of furniture, electronic, and home decorative products in Thailand. It operates through four segments: Retail of Furniture, Manufacturing of Furniture, Rental Area and Service, and Others. The company is also involved in the manufacture, import, export, and distribution of furniture and home appliances; rental business; and warehouse rental activities, as well as in the franchise business. Index Living Mall Public Company Limited was founded in 1973 and is based in Bangkok, Thailand.",
+    "current_price": 13.0,
+    "pe_ratio": 9.09,
+    "dividend_yield": 7.69,
+    "high_1m": 13.1,
+    "low_1m": 12.3,
+    "support_levels": [
+      12.32
+    ],
+    "resistance_levels": [
+      13.15,
+      14.0,
+      15.23
+    ],
+    "upcoming_xd": "2026-05-11",
+    "upcoming_dividend_amount": 0.75,
+    "upcoming_payment_date": "2026-05-26",
+    "dividend_history": [
+      {
+        "date": "2026-05-11",
+        "amount": 0.75
+      },
+      {
+        "date": "2025-08-26",
+        "amount": 0.25
+      },
+      {
+        "date": "2025-05-09",
+        "amount": 0.75
+      },
+      {
+        "date": "2024-08-23",
+        "amount": 0.25
+      },
+      {
+        "date": "2024-05-10",
+        "amount": 0.75
+      },
+      {
+        "date": "2023-08-23",
+        "amount": 0.25
+      },
+      {
+        "date": "2023-05-09",
+        "amount": 0.6
+      },
+      {
+        "date": "2022-08-22",
+        "amount": 0.2
+      },
+      {
+        "date": "2022-05-05",
+        "amount": 0.4
+      },
+      {
+        "date": "2021-08-19",
+        "amount": 0.15
+      }
+    ],
+    "history": [
+      {
+        "date": "2025-07-11",
+        "close": 11.62
+      },
+      {
+        "date": "2025-07-15",
+        "close": 12.46
+      },
+      {
+        "date": "2025-07-17",
+        "close": 12.37
+      },
+      {
+        "date": "2025-07-21",
+        "close": 12.55
+      },
+      {
+        "date": "2025-07-23",
+        "close": 12.74
+      },
+      {
+        "date": "2025-07-25",
+        "close": 12.55
+      },
+      {
+        "date": "2025-07-30",
+        "close": 12.83
+      },
+      {
+        "date": "2025-08-01",
+        "close": 12.64
+      },
+      {
+        "date": "2025-08-05",
+        "close": 12.74
+      },
+      {
+        "date": "2025-08-07",
+        "close": 12.92
+      },
+      {
+        "date": "2025-08-13",
+        "close": 13.57
+      },
+      {
+        "date": "2025-08-15",
+        "close": 13.39
+      },
+      {
+        "date": "2025-08-19",
+        "close": 13.48
+      },
+      {
+        "date": "2025-08-21",
+        "close": 13.11
+      },
+      {
+        "date": "2025-08-25",
+        "close": 13.48
+      },
+      {
+        "date": "2025-08-27",
+        "close": 13.62
+      },
+      {
+        "date": "2025-08-29",
+        "close": 13.53
+      },
+      {
+        "date": "2025-09-02",
+        "close": 13.62
+      },
+      {
+        "date": "2025-09-04",
+        "close": 13.72
+      },
+      {
+        "date": "2025-09-08",
+        "close": 14.19
+      },
+      {
+        "date": "2025-09-10",
+        "close": 13.91
+      },
+      {
+        "date": "2025-09-12",
+        "close": 14.19
+      },
+      {
+        "date": "2025-09-16",
+        "close": 14.19
+      },
+      {
+        "date": "2025-09-18",
+        "close": 14.0
+      },
+      {
+        "date": "2025-09-22",
+        "close": 13.91
+      },
+      {
+        "date": "2025-09-24",
+        "close": 14.29
+      },
+      {
+        "date": "2025-09-26",
+        "close": 14.47
+      },
+      {
+        "date": "2025-09-30",
+        "close": 14.76
+      },
+      {
+        "date": "2025-10-02",
+        "close": 14.85
+      },
+      {
+        "date": "2025-10-06",
+        "close": 14.85
+      },
+      {
+        "date": "2025-10-08",
+        "close": 15.14
+      },
+      {
+        "date": "2025-10-10",
+        "close": 15.14
+      },
+      {
+        "date": "2025-10-15",
+        "close": 14.76
+      },
+      {
+        "date": "2025-10-17",
+        "close": 14.0
+      },
+      {
+        "date": "2025-10-21",
+        "close": 14.19
+      },
+      {
+        "date": "2025-10-24",
+        "close": 14.0
+      },
+      {
+        "date": "2025-10-28",
+        "close": 14.0
+      },
+      {
+        "date": "2025-10-30",
+        "close": 13.81
+      },
+      {
+        "date": "2025-11-03",
+        "close": 12.96
+      },
+      {
+        "date": "2025-11-05",
+        "close": 12.77
+      },
+      {
+        "date": "2025-11-07",
+        "close": 13.15
+      },
+      {
+        "date": "2025-11-11",
+        "close": 13.06
+      },
+      {
+        "date": "2025-11-13",
+        "close": 12.68
+      },
+      {
+        "date": "2025-11-17",
+        "close": 12.87
+      },
+      {
+        "date": "2025-11-19",
+        "close": 12.77
+      },
+      {
+        "date": "2025-11-21",
+        "close": 12.58
+      },
+      {
+        "date": "2025-11-25",
+        "close": 12.77
+      },
+      {
+        "date": "2025-11-27",
+        "close": 12.68
+      },
+      {
+        "date": "2025-12-01",
+        "close": 12.96
+      },
+      {
+        "date": "2025-12-03",
+        "close": 13.06
+      },
+      {
+        "date": "2025-12-08",
+        "close": 13.15
+      },
+      {
+        "date": "2025-12-11",
+        "close": 13.06
+      },
+      {
+        "date": "2025-12-15",
+        "close": 13.06
+      },
+      {
+        "date": "2025-12-17",
+        "close": 13.06
+      },
+      {
+        "date": "2025-12-19",
+        "close": 12.77
+      },
+      {
+        "date": "2025-12-23",
+        "close": 13.06
+      },
+      {
+        "date": "2025-12-25",
+        "close": 13.15
+      },
+      {
+        "date": "2025-12-29",
+        "close": 12.87
+      },
+      {
+        "date": "2026-01-05",
+        "close": 12.77
+      },
+      {
+        "date": "2026-01-07",
+        "close": 12.96
+      },
+      {
+        "date": "2026-01-09",
+        "close": 12.96
+      },
+      {
+        "date": "2026-01-13",
+        "close": 12.49
+      },
+      {
+        "date": "2026-01-15",
+        "close": 12.3
+      },
+      {
+        "date": "2026-01-19",
+        "close": 12.3
+      },
+      {
+        "date": "2026-01-21",
+        "close": 12.39
+      },
+      {
+        "date": "2026-01-23",
+        "close": 12.2
+      },
+      {
+        "date": "2026-01-27",
+        "close": 12.3
+      },
+      {
+        "date": "2026-01-29",
+        "close": 12.77
+      },
+      {
+        "date": "2026-02-02",
+        "close": 12.58
+      },
+      {
+        "date": "2026-02-04",
+        "close": 12.58
+      },
+      {
+        "date": "2026-02-06",
+        "close": 12.49
+      },
+      {
+        "date": "2026-02-10",
+        "close": 12.87
+      },
+      {
+        "date": "2026-02-12",
+        "close": 13.06
+      },
+      {
+        "date": "2026-02-16",
+        "close": 13.43
+      },
+      {
+        "date": "2026-02-18",
+        "close": 13.72
+      },
+      {
+        "date": "2026-02-20",
+        "close": 13.72
+      },
+      {
+        "date": "2026-02-24",
+        "close": 13.34
+      },
+      {
+        "date": "2026-02-26",
+        "close": 13.15
+      },
+      {
+        "date": "2026-03-02",
+        "close": 13.53
+      },
+      {
+        "date": "2026-03-05",
+        "close": 12.87
+      },
+      {
+        "date": "2026-03-09",
+        "close": 12.68
+      },
+      {
+        "date": "2026-03-11",
+        "close": 12.68
+      },
+      {
+        "date": "2026-03-13",
+        "close": 12.68
+      },
+      {
+        "date": "2026-03-17",
+        "close": 12.68
+      },
+      {
+        "date": "2026-03-19",
+        "close": 12.58
+      },
+      {
+        "date": "2026-03-23",
+        "close": 12.39
+      },
+      {
+        "date": "2026-03-25",
+        "close": 12.49
+      },
+      {
+        "date": "2026-03-27",
+        "close": 12.3
+      },
+      {
+        "date": "2026-03-31",
+        "close": 12.49
+      },
+      {
+        "date": "2026-04-02",
+        "close": 12.77
+      },
+      {
+        "date": "2026-04-07",
+        "close": 12.49
+      },
+      {
+        "date": "2026-04-09",
+        "close": 12.68
+      },
+      {
+        "date": "2026-04-16",
+        "close": 12.68
+      },
+      {
+        "date": "2026-04-20",
+        "close": 12.68
+      },
+      {
+        "date": "2026-04-22",
+        "close": 12.68
+      },
+      {
+        "date": "2026-04-24",
+        "close": 12.58
+      },
+      {
+        "date": "2026-04-28",
+        "close": 12.58
+      },
+      {
+        "date": "2026-04-30",
+        "close": 12.77
+      },
+      {
+        "date": "2026-05-04",
+        "close": 12.77
+      },
+      {
+        "date": "2026-05-06",
+        "close": 12.96
+      },
+      {
+        "date": "2026-05-08",
+        "close": 13.15
+      },
+      {
+        "date": "2026-05-12",
+        "close": 12.5
+      },
+      {
+        "date": "2026-05-14",
+        "close": 12.5
+      },
+      {
+        "date": "2026-05-18",
+        "close": 12.4
+      },
+      {
+        "date": "2026-05-20",
+        "close": 12.3
+      },
+      {
+        "date": "2026-05-22",
+        "close": 12.5
+      },
+      {
+        "date": "2026-05-26",
+        "close": 12.5
+      },
+      {
+        "date": "2026-05-28",
+        "close": 12.5
+      },
+      {
+        "date": "2026-06-01",
+        "close": 12.5
+      },
+      {
+        "date": "2026-06-03",
+        "close": 12.5
+      },
+      {
+        "date": "2026-06-05",
+        "close": 12.7
+      },
+      {
+        "date": "2026-06-09",
+        "close": 12.3
+      },
+      {
+        "date": "2026-06-11",
+        "close": 12.5
+      },
+      {
+        "date": "2026-06-15",
+        "close": 12.5
+      },
+      {
+        "date": "2026-06-17",
+        "close": 12.4
+      },
+      {
+        "date": "2026-06-19",
+        "close": 12.5
+      },
+      {
+        "date": "2026-06-23",
+        "close": 12.4
+      },
+      {
+        "date": "2026-06-25",
+        "close": 12.4
+      },
+      {
+        "date": "2026-06-29",
+        "close": 12.5
+      },
+      {
+        "date": "2026-07-01",
+        "close": 12.6
+      },
+      {
+        "date": "2026-07-03",
+        "close": 12.9
+      },
+      {
+        "date": "2026-07-07",
+        "close": 13.1
+      },
+      {
+        "date": "2026-07-09",
+        "close": 12.8
       }
     ]
   },
@@ -188844,7 +189434,7 @@
     "business_summary": "Keyence Corporation, together with its subsidiaries, manufactures and sells electronic application equipment in Japan and internationally. The company offers photoelectric, fiber optic, laser, inductive proximity, positioning, vision, and specific solution sensors, as well as network communication units; laser profiler/3D laser snapshot sensor, laser displacement sensors, optical micrometer/laser micrometer, spectral interference displacement sensor, inductive displacement sensors, and LVDT/contact displacement sensors; machine vision products; and flow sensors/flow meters, pressure sensors, temperature sensors, and level sensors. It also provides pneumatic components; safety light curtains, laser scanners, interlock switches, and controller; microscopes/laser microscopes; optical comparator; coordinate measuring machine, 3D scanner, and 3D optical profilometers; programmable logic controller, micro PLC /small PLC, HMI, servo motors/servo systems, and other control products; and marking/coding, barcode reader, mobile computers/handheld computers, data acquisition, static control, additive manufacturing, and RPA/desktop automation software products. The company's products are used in automotive, metals, semiconductors/LCDs, electronic devices, plastics, films/sheets, food/pharmaceutical, medical technology, and logistics applications. The company was founded in 1972 and is headquartered in Osaka, Japan.",
     "current_price": 2.8,
     "pe_ratio": null,
-    "dividend_yield": 208.33,
+    "dividend_yield": 197.84,
     "high_1m": 3.02,
     "low_1m": 2.64,
     "support_levels": [
@@ -201722,7 +202312,7 @@
   "KYE": {
     "symbol": "KYE",
     "name": "Kang Yong Electric Public Company Limited",
-    "business_summary": "Kang Yong Electric Public Company Limited manufactures and distributes household electrical appliances in Thailand, Japan, and internationally. The company offers home electrical appliances, such as refrigerators, electric fans, ventilating fans, water pumps, and jet towels under the Mitsubishi Electric trade name. It also exports its products to approximately 20 countries, including Hong Kong, Taiwan, Australia, New Zealand, Singapore, Malaysia, Central Asia, and the Middle East. The company was formerly known as Kang Yong Electric Manufacturing Co., Ltd. Kang Yong Electric Public Company Limited was founded in 1964 and is based in Bang Phli, Thailand.",
+    "business_summary": "Kang Yong Electric Public Company Limited manufactures and distributes household electrical appliances in Thailand, Japan, and internationally. The company offers home refrigerators and freezers; fans, such as desk, living, wall, cycle, and ceiling fans; ventilating fans; and water pumps under the Mitsubishi Electric trade name. It also exports its products to approximately 20 countries, including Hong Kong, Taiwan, Australia, New Zealand, Singapore, Malaysia, Central Asia, and the Middle East. The company was formerly known as Kang Yong Electric Manufacturing Co., Ltd. Kang Yong Electric Public Company Limited was founded in 1964 and is based in Bang Phli, Thailand.",
     "current_price": 315.0,
     "pe_ratio": 10.1,
     "dividend_yield": 5.08,
@@ -207138,7 +207728,7 @@
   "LHK": {
     "symbol": "LHK",
     "name": "Lohakit Metal Public Company Limited",
-    "business_summary": "Lohakit Metal Public Company Limited, together with its subsidiaries, engages in processing, distribution, and shearing of stainless steel, steel, and metal products in Thailand. It operates in two segments, Production and Distribution, and Procurement and Distribution. The company offers austenitic, ferritic, brass and copper, aluminium, and special stainless-steel products; and cold and hot rolled stainless steel, ornamental tube, square and rectangular tube, automotive pipe, electro-galvanized steel, and galvanized steel products. It also distributes metal and non-ferrous metal products, as well as copper, brass, aluminum, zinc, and galvanized steel products. The company was formerly known as Lohakit Metal Service Center Company Limited and changed its name to Lohakit Metal Public Company Limited in January 2003. Lohakit Metal Public Company Limited was founded in 1989 and is based in Bangkok, Thailand.",
+    "business_summary": "Lohakit Metal Public Company Limited, together with its subsidiaries, engages in processing, distribution, and shearing of stainless steel, steel, and metal products in Thailand. It operates in two segments, Production and Distribution, and Procurement and Distribution. The company offers austenitic, ferritic, D-stainless, brass and copper, aluminium, special stainless-steel products, cold and hot rolled stainless steel, ornamental tube, square and rectangular tube, automotive steel pipe, electro-galvanized steel, and galvanized steel products. It also distributes metal and non-ferrous metal products, as well as copper, brass, aluminum, zinc, and galvanized steel products. The company was formerly known as Lohakit Metal Service Center Company Limited. Lohakit Metal Public Company Limited was founded in 1989 and is based in Samut Prakan, Thailand.",
     "current_price": 3.52,
     "pe_ratio": 11.35,
     "dividend_yield": 7.95,
@@ -227918,7 +228508,7 @@
     "business_summary": "ข้อมูลธุรกิจสำหรับหุ้นนี้ยังไม่พร้อมใช้งานในระบบ",
     "current_price": 6.5,
     "pe_ratio": 19.7,
-    "dividend_yield": 3.94,
+    "dividend_yield": 3.91,
     "high_1m": 7.0,
     "low_1m": 5.0,
     "support_levels": [
@@ -230622,564 +231212,6 @@
       {
         "date": "2026-07-09",
         "close": 0.01
-      }
-    ]
-  },
-  "MINT": {
-    "symbol": "MINT",
-    "name": "Minor International Public Company Limited",
-    "business_summary": "Minor International Public Company Limited, together with its subsidiaries, operates as a hospitality, restaurant, and lifestyle company in Thailand, Australia, New Zealand, Europe, Latin America, Maldives, the Middle East, the People's Republic of China, and internationally. The company operates through three segments: Hotel, Mixed use and others, and Restaurant. The company operates hotels and restaurants, entertainment venues, food and beverage outlets, property rental business, spa services, and management operations, as well as real estates for sales, distribution, and manufacturing. In addition, the company is involved in the food and beverage sale, hotel management, supply chain management, distribution, management, vacation club point sale, entertainment, franchise, airport lounge, and healthcare businesses; property investment, development, and sales activities; operation of shopping mall and school; and manufacture and sale of cheese and ice-cream. The company was formerly known as Royal Garden Resorts Plc. and changed its name to Minor International Public Company Limited in 2005. Minor International Public Company Limited was founded in 1978 and is headquartered in Bangkok, Thailand.",
-    "current_price": 23.5,
-    "pe_ratio": 17.67,
-    "dividend_yield": 2.98,
-    "high_1m": 25.5,
-    "low_1m": 22.7,
-    "support_levels": [
-      20.3,
-      21.85,
-      22.8
-    ],
-    "resistance_levels": [
-      24.09,
-      26.23
-    ],
-    "upcoming_xd": "2026-05-05",
-    "upcoming_dividend_amount": 0.4,
-    "upcoming_payment_date": "2026-05-20",
-    "dividend_history": [
-      {
-        "date": "2026-05-05",
-        "amount": 0.4
-      },
-      {
-        "date": "2025-09-01",
-        "amount": 0.3
-      },
-      {
-        "date": "2025-05-07",
-        "amount": 0.35
-      },
-      {
-        "date": "2024-09-03",
-        "amount": 0.25
-      },
-      {
-        "date": "2024-05-02",
-        "amount": 0.32
-      },
-      {
-        "date": "2023-08-31",
-        "amount": 0.25
-      },
-      {
-        "date": "2023-04-27",
-        "amount": 0.25
-      },
-      {
-        "date": "2019-04-26",
-        "amount": 0.394
-      },
-      {
-        "date": "2018-04-10",
-        "amount": 0.394
-      },
-      {
-        "date": "2017-04-10",
-        "amount": 0.3448
-      }
-    ],
-    "history": [
-      {
-        "date": "2025-07-11",
-        "close": 23.43
-      },
-      {
-        "date": "2025-07-15",
-        "close": 24.44
-      },
-      {
-        "date": "2025-07-17",
-        "close": 24.93
-      },
-      {
-        "date": "2025-07-21",
-        "close": 23.43
-      },
-      {
-        "date": "2025-07-23",
-        "close": 23.82
-      },
-      {
-        "date": "2025-07-25",
-        "close": 23.91
-      },
-      {
-        "date": "2025-07-30",
-        "close": 24.11
-      },
-      {
-        "date": "2025-08-01",
-        "close": 22.94
-      },
-      {
-        "date": "2025-08-05",
-        "close": 23.52
-      },
-      {
-        "date": "2025-08-07",
-        "close": 23.91
-      },
-      {
-        "date": "2025-08-13",
-        "close": 23.82
-      },
-      {
-        "date": "2025-08-15",
-        "close": 23.62
-      },
-      {
-        "date": "2025-08-19",
-        "close": 23.33
-      },
-      {
-        "date": "2025-08-21",
-        "close": 23.52
-      },
-      {
-        "date": "2025-08-25",
-        "close": 23.91
-      },
-      {
-        "date": "2025-08-27",
-        "close": 23.14
-      },
-      {
-        "date": "2025-08-29",
-        "close": 22.65
-      },
-      {
-        "date": "2025-09-02",
-        "close": 23.14
-      },
-      {
-        "date": "2025-09-04",
-        "close": 23.73
-      },
-      {
-        "date": "2025-09-08",
-        "close": 23.83
-      },
-      {
-        "date": "2025-09-10",
-        "close": 23.44
-      },
-      {
-        "date": "2025-09-12",
-        "close": 23.73
-      },
-      {
-        "date": "2025-09-16",
-        "close": 24.22
-      },
-      {
-        "date": "2025-09-18",
-        "close": 23.54
-      },
-      {
-        "date": "2025-09-22",
-        "close": 22.85
-      },
-      {
-        "date": "2025-09-24",
-        "close": 22.85
-      },
-      {
-        "date": "2025-09-26",
-        "close": 22.95
-      },
-      {
-        "date": "2025-09-30",
-        "close": 22.65
-      },
-      {
-        "date": "2025-10-02",
-        "close": 22.65
-      },
-      {
-        "date": "2025-10-06",
-        "close": 22.36
-      },
-      {
-        "date": "2025-10-08",
-        "close": 22.56
-      },
-      {
-        "date": "2025-10-10",
-        "close": 22.65
-      },
-      {
-        "date": "2025-10-15",
-        "close": 21.97
-      },
-      {
-        "date": "2025-10-17",
-        "close": 21.87
-      },
-      {
-        "date": "2025-10-21",
-        "close": 22.26
-      },
-      {
-        "date": "2025-10-24",
-        "close": 22.46
-      },
-      {
-        "date": "2025-10-28",
-        "close": 22.26
-      },
-      {
-        "date": "2025-10-30",
-        "close": 22.16
-      },
-      {
-        "date": "2025-11-03",
-        "close": 21.97
-      },
-      {
-        "date": "2025-11-05",
-        "close": 21.67
-      },
-      {
-        "date": "2025-11-07",
-        "close": 21.57
-      },
-      {
-        "date": "2025-11-11",
-        "close": 20.99
-      },
-      {
-        "date": "2025-11-13",
-        "close": 20.89
-      },
-      {
-        "date": "2025-11-17",
-        "close": 20.3
-      },
-      {
-        "date": "2025-11-19",
-        "close": 19.71
-      },
-      {
-        "date": "2025-11-21",
-        "close": 19.42
-      },
-      {
-        "date": "2025-11-25",
-        "close": 20.5
-      },
-      {
-        "date": "2025-11-27",
-        "close": 20.99
-      },
-      {
-        "date": "2025-12-01",
-        "close": 22.26
-      },
-      {
-        "date": "2025-12-03",
-        "close": 22.26
-      },
-      {
-        "date": "2025-12-08",
-        "close": 23.54
-      },
-      {
-        "date": "2025-12-11",
-        "close": 23.05
-      },
-      {
-        "date": "2025-12-15",
-        "close": 23.44
-      },
-      {
-        "date": "2025-12-17",
-        "close": 23.44
-      },
-      {
-        "date": "2025-12-19",
-        "close": 23.44
-      },
-      {
-        "date": "2025-12-23",
-        "close": 23.63
-      },
-      {
-        "date": "2025-12-25",
-        "close": 23.93
-      },
-      {
-        "date": "2025-12-29",
-        "close": 23.93
-      },
-      {
-        "date": "2026-01-05",
-        "close": 24.03
-      },
-      {
-        "date": "2026-01-07",
-        "close": 23.44
-      },
-      {
-        "date": "2026-01-09",
-        "close": 23.44
-      },
-      {
-        "date": "2026-01-13",
-        "close": 22.85
-      },
-      {
-        "date": "2026-01-15",
-        "close": 21.97
-      },
-      {
-        "date": "2026-01-19",
-        "close": 22.07
-      },
-      {
-        "date": "2026-01-21",
-        "close": 22.85
-      },
-      {
-        "date": "2026-01-23",
-        "close": 22.46
-      },
-      {
-        "date": "2026-01-27",
-        "close": 22.85
-      },
-      {
-        "date": "2026-01-29",
-        "close": 22.46
-      },
-      {
-        "date": "2026-02-02",
-        "close": 23.54
-      },
-      {
-        "date": "2026-02-04",
-        "close": 24.76
-      },
-      {
-        "date": "2026-02-06",
-        "close": 24.76
-      },
-      {
-        "date": "2026-02-10",
-        "close": 25.25
-      },
-      {
-        "date": "2026-02-12",
-        "close": 25.99
-      },
-      {
-        "date": "2026-02-16",
-        "close": 25.99
-      },
-      {
-        "date": "2026-02-18",
-        "close": 25.99
-      },
-      {
-        "date": "2026-02-20",
-        "close": 25.25
-      },
-      {
-        "date": "2026-02-24",
-        "close": 25.74
-      },
-      {
-        "date": "2026-02-26",
-        "close": 25.74
-      },
-      {
-        "date": "2026-03-02",
-        "close": 23.34
-      },
-      {
-        "date": "2026-03-05",
-        "close": 21.28
-      },
-      {
-        "date": "2026-03-09",
-        "close": 20.59
-      },
-      {
-        "date": "2026-03-11",
-        "close": 22.56
-      },
-      {
-        "date": "2026-03-13",
-        "close": 21.67
-      },
-      {
-        "date": "2026-03-17",
-        "close": 21.87
-      },
-      {
-        "date": "2026-03-19",
-        "close": 20.5
-      },
-      {
-        "date": "2026-03-23",
-        "close": 20.59
-      },
-      {
-        "date": "2026-03-25",
-        "close": 21.97
-      },
-      {
-        "date": "2026-03-27",
-        "close": 21.08
-      },
-      {
-        "date": "2026-03-31",
-        "close": 21.18
-      },
-      {
-        "date": "2026-04-02",
-        "close": 21.67
-      },
-      {
-        "date": "2026-04-07",
-        "close": 21.38
-      },
-      {
-        "date": "2026-04-09",
-        "close": 21.87
-      },
-      {
-        "date": "2026-04-16",
-        "close": 22.36
-      },
-      {
-        "date": "2026-04-20",
-        "close": 21.87
-      },
-      {
-        "date": "2026-04-22",
-        "close": 21.57
-      },
-      {
-        "date": "2026-04-24",
-        "close": 21.18
-      },
-      {
-        "date": "2026-04-28",
-        "close": 20.1
-      },
-      {
-        "date": "2026-04-30",
-        "close": 20.3
-      },
-      {
-        "date": "2026-05-04",
-        "close": 20.3
-      },
-      {
-        "date": "2026-05-06",
-        "close": 20.7
-      },
-      {
-        "date": "2026-05-08",
-        "close": 21.2
-      },
-      {
-        "date": "2026-05-12",
-        "close": 21.7
-      },
-      {
-        "date": "2026-05-14",
-        "close": 21.9
-      },
-      {
-        "date": "2026-05-18",
-        "close": 21.9
-      },
-      {
-        "date": "2026-05-20",
-        "close": 21.9
-      },
-      {
-        "date": "2026-05-22",
-        "close": 21.9
-      },
-      {
-        "date": "2026-05-26",
-        "close": 22.4
-      },
-      {
-        "date": "2026-05-28",
-        "close": 22.5
-      },
-      {
-        "date": "2026-06-01",
-        "close": 22.5
-      },
-      {
-        "date": "2026-06-03",
-        "close": 22.1
-      },
-      {
-        "date": "2026-06-05",
-        "close": 22.9
-      },
-      {
-        "date": "2026-06-09",
-        "close": 22.1
-      },
-      {
-        "date": "2026-06-11",
-        "close": 21.9
-      },
-      {
-        "date": "2026-06-15",
-        "close": 24.2
-      },
-      {
-        "date": "2026-06-17",
-        "close": 24.2
-      },
-      {
-        "date": "2026-06-19",
-        "close": 24.5
-      },
-      {
-        "date": "2026-06-23",
-        "close": 24.1
-      },
-      {
-        "date": "2026-06-25",
-        "close": 24.8
-      },
-      {
-        "date": "2026-06-29",
-        "close": 24.7
-      },
-      {
-        "date": "2026-07-01",
-        "close": 24.4
-      },
-      {
-        "date": "2026-07-03",
-        "close": 24.7
-      },
-      {
-        "date": "2026-07-07",
-        "close": 24.2
-      },
-      {
-        "date": "2026-07-09",
-        "close": 23.6
       }
     ]
   },
@@ -266668,6 +266700,556 @@
       }
     ]
   },
+  "PACO": {
+    "symbol": "PACO",
+    "name": "President Automobile Industries Public Company Limited",
+    "business_summary": "President Automobile Industries Public Company Limited manufactures and distributes automotive air conditioning components in the Middle East, Thailand, Southeast Asia, North America, South Asia, South America, Europe, Australia, and internationally. The company offers condensers, evaporators, refrigerants, compressors, intercoolers, oil coolers, air conditioning electrical parts, and other accessories. It is also involved in trading activities. The company was founded in 1991 and is headquartered in Samut Sakhon, Thailand.",
+    "current_price": 1.42,
+    "pe_ratio": 11.83,
+    "dividend_yield": 17.61,
+    "high_1m": 1.44,
+    "low_1m": 1.32,
+    "support_levels": [
+      1.15,
+      1.27,
+      1.31
+    ],
+    "resistance_levels": [
+      1.49,
+      1.44
+    ],
+    "upcoming_xd": "2026-04-30",
+    "upcoming_dividend_amount": 0.1,
+    "upcoming_payment_date": "2026-05-15",
+    "dividend_history": [
+      {
+        "date": "2026-04-30",
+        "amount": 0.1
+      },
+      {
+        "date": "2025-08-21",
+        "amount": 0.05
+      },
+      {
+        "date": "2025-05-02",
+        "amount": 0.1
+      },
+      {
+        "date": "2025-01-08",
+        "amount": 0.05
+      },
+      {
+        "date": "2024-08-16",
+        "amount": 0.05
+      },
+      {
+        "date": "2024-04-22",
+        "amount": 0.04
+      },
+      {
+        "date": "2022-05-05",
+        "amount": 0.05
+      },
+      {
+        "date": "2021-08-23",
+        "amount": 0.03
+      }
+    ],
+    "history": [
+      {
+        "date": "2025-07-11",
+        "close": 1.19
+      },
+      {
+        "date": "2025-07-15",
+        "close": 1.2
+      },
+      {
+        "date": "2025-07-17",
+        "close": 1.2
+      },
+      {
+        "date": "2025-07-21",
+        "close": 1.19
+      },
+      {
+        "date": "2025-07-23",
+        "close": 1.22
+      },
+      {
+        "date": "2025-07-25",
+        "close": 1.23
+      },
+      {
+        "date": "2025-07-30",
+        "close": 1.24
+      },
+      {
+        "date": "2025-08-01",
+        "close": 1.2
+      },
+      {
+        "date": "2025-08-05",
+        "close": 1.22
+      },
+      {
+        "date": "2025-08-07",
+        "close": 1.23
+      },
+      {
+        "date": "2025-08-13",
+        "close": 1.23
+      },
+      {
+        "date": "2025-08-15",
+        "close": 1.25
+      },
+      {
+        "date": "2025-08-19",
+        "close": 1.26
+      },
+      {
+        "date": "2025-08-21",
+        "close": 1.27
+      },
+      {
+        "date": "2025-08-25",
+        "close": 1.27
+      },
+      {
+        "date": "2025-08-27",
+        "close": 1.27
+      },
+      {
+        "date": "2025-08-29",
+        "close": 1.28
+      },
+      {
+        "date": "2025-09-02",
+        "close": 1.28
+      },
+      {
+        "date": "2025-09-04",
+        "close": 1.28
+      },
+      {
+        "date": "2025-09-08",
+        "close": 1.3
+      },
+      {
+        "date": "2025-09-10",
+        "close": 1.33
+      },
+      {
+        "date": "2025-09-12",
+        "close": 1.32
+      },
+      {
+        "date": "2025-09-16",
+        "close": 1.3
+      },
+      {
+        "date": "2025-09-18",
+        "close": 1.31
+      },
+      {
+        "date": "2025-09-22",
+        "close": 1.29
+      },
+      {
+        "date": "2025-09-24",
+        "close": 1.3
+      },
+      {
+        "date": "2025-09-26",
+        "close": 1.29
+      },
+      {
+        "date": "2025-09-30",
+        "close": 1.3
+      },
+      {
+        "date": "2025-10-02",
+        "close": 1.28
+      },
+      {
+        "date": "2025-10-06",
+        "close": 1.29
+      },
+      {
+        "date": "2025-10-08",
+        "close": 1.29
+      },
+      {
+        "date": "2025-10-10",
+        "close": 1.27
+      },
+      {
+        "date": "2025-10-15",
+        "close": 1.27
+      },
+      {
+        "date": "2025-10-17",
+        "close": 1.26
+      },
+      {
+        "date": "2025-10-21",
+        "close": 1.27
+      },
+      {
+        "date": "2025-10-24",
+        "close": 1.26
+      },
+      {
+        "date": "2025-10-28",
+        "close": 1.25
+      },
+      {
+        "date": "2025-10-30",
+        "close": 1.25
+      },
+      {
+        "date": "2025-11-03",
+        "close": 1.24
+      },
+      {
+        "date": "2025-11-05",
+        "close": 1.25
+      },
+      {
+        "date": "2025-11-07",
+        "close": 1.24
+      },
+      {
+        "date": "2025-11-11",
+        "close": 1.24
+      },
+      {
+        "date": "2025-11-13",
+        "close": 1.26
+      },
+      {
+        "date": "2025-11-17",
+        "close": 1.24
+      },
+      {
+        "date": "2025-11-19",
+        "close": 1.17
+      },
+      {
+        "date": "2025-11-21",
+        "close": 1.2
+      },
+      {
+        "date": "2025-11-25",
+        "close": 1.19
+      },
+      {
+        "date": "2025-11-27",
+        "close": 1.23
+      },
+      {
+        "date": "2025-12-01",
+        "close": 1.19
+      },
+      {
+        "date": "2025-12-03",
+        "close": 1.22
+      },
+      {
+        "date": "2025-12-08",
+        "close": 1.22
+      },
+      {
+        "date": "2025-12-11",
+        "close": 1.21
+      },
+      {
+        "date": "2025-12-15",
+        "close": 1.21
+      },
+      {
+        "date": "2025-12-17",
+        "close": 1.21
+      },
+      {
+        "date": "2025-12-19",
+        "close": 1.21
+      },
+      {
+        "date": "2025-12-23",
+        "close": 1.23
+      },
+      {
+        "date": "2025-12-25",
+        "close": 1.23
+      },
+      {
+        "date": "2025-12-29",
+        "close": 1.21
+      },
+      {
+        "date": "2026-01-05",
+        "close": 1.2
+      },
+      {
+        "date": "2026-01-07",
+        "close": 1.21
+      },
+      {
+        "date": "2026-01-09",
+        "close": 1.21
+      },
+      {
+        "date": "2026-01-13",
+        "close": 1.17
+      },
+      {
+        "date": "2026-01-15",
+        "close": 1.15
+      },
+      {
+        "date": "2026-01-19",
+        "close": 1.15
+      },
+      {
+        "date": "2026-01-21",
+        "close": 1.15
+      },
+      {
+        "date": "2026-01-23",
+        "close": 1.12
+      },
+      {
+        "date": "2026-01-27",
+        "close": 1.14
+      },
+      {
+        "date": "2026-01-29",
+        "close": 1.08
+      },
+      {
+        "date": "2026-02-02",
+        "close": 1.05
+      },
+      {
+        "date": "2026-02-04",
+        "close": 1.1
+      },
+      {
+        "date": "2026-02-06",
+        "close": 1.06
+      },
+      {
+        "date": "2026-02-10",
+        "close": 1.1
+      },
+      {
+        "date": "2026-02-12",
+        "close": 1.12
+      },
+      {
+        "date": "2026-02-16",
+        "close": 1.15
+      },
+      {
+        "date": "2026-02-18",
+        "close": 1.17
+      },
+      {
+        "date": "2026-02-20",
+        "close": 1.18
+      },
+      {
+        "date": "2026-02-24",
+        "close": 1.24
+      },
+      {
+        "date": "2026-02-26",
+        "close": 1.22
+      },
+      {
+        "date": "2026-03-02",
+        "close": 1.18
+      },
+      {
+        "date": "2026-03-05",
+        "close": 1.14
+      },
+      {
+        "date": "2026-03-09",
+        "close": 1.19
+      },
+      {
+        "date": "2026-03-11",
+        "close": 1.2
+      },
+      {
+        "date": "2026-03-13",
+        "close": 1.21
+      },
+      {
+        "date": "2026-03-17",
+        "close": 1.18
+      },
+      {
+        "date": "2026-03-19",
+        "close": 1.18
+      },
+      {
+        "date": "2026-03-23",
+        "close": 1.17
+      },
+      {
+        "date": "2026-03-25",
+        "close": 1.19
+      },
+      {
+        "date": "2026-03-27",
+        "close": 1.2
+      },
+      {
+        "date": "2026-03-31",
+        "close": 1.2
+      },
+      {
+        "date": "2026-04-02",
+        "close": 1.2
+      },
+      {
+        "date": "2026-04-07",
+        "close": 1.2
+      },
+      {
+        "date": "2026-04-09",
+        "close": 1.21
+      },
+      {
+        "date": "2026-04-16",
+        "close": 1.24
+      },
+      {
+        "date": "2026-04-20",
+        "close": 1.24
+      },
+      {
+        "date": "2026-04-22",
+        "close": 1.25
+      },
+      {
+        "date": "2026-04-24",
+        "close": 1.25
+      },
+      {
+        "date": "2026-04-28",
+        "close": 1.27
+      },
+      {
+        "date": "2026-04-30",
+        "close": 1.29
+      },
+      {
+        "date": "2026-05-04",
+        "close": 1.29
+      },
+      {
+        "date": "2026-05-06",
+        "close": 1.29
+      },
+      {
+        "date": "2026-05-08",
+        "close": 1.29
+      },
+      {
+        "date": "2026-05-12",
+        "close": 1.28
+      },
+      {
+        "date": "2026-05-14",
+        "close": 1.27
+      },
+      {
+        "date": "2026-05-18",
+        "close": 1.28
+      },
+      {
+        "date": "2026-05-20",
+        "close": 1.29
+      },
+      {
+        "date": "2026-05-22",
+        "close": 1.29
+      },
+      {
+        "date": "2026-05-26",
+        "close": 1.32
+      },
+      {
+        "date": "2026-05-28",
+        "close": 1.36
+      },
+      {
+        "date": "2026-06-01",
+        "close": 1.36
+      },
+      {
+        "date": "2026-06-03",
+        "close": 1.37
+      },
+      {
+        "date": "2026-06-05",
+        "close": 1.36
+      },
+      {
+        "date": "2026-06-09",
+        "close": 1.31
+      },
+      {
+        "date": "2026-06-11",
+        "close": 1.31
+      },
+      {
+        "date": "2026-06-15",
+        "close": 1.33
+      },
+      {
+        "date": "2026-06-17",
+        "close": 1.34
+      },
+      {
+        "date": "2026-06-19",
+        "close": 1.35
+      },
+      {
+        "date": "2026-06-23",
+        "close": 1.36
+      },
+      {
+        "date": "2026-06-25",
+        "close": 1.36
+      },
+      {
+        "date": "2026-06-29",
+        "close": 1.37
+      },
+      {
+        "date": "2026-07-01",
+        "close": 1.41
+      },
+      {
+        "date": "2026-07-03",
+        "close": 1.4
+      },
+      {
+        "date": "2026-07-07",
+        "close": 1.4
+      },
+      {
+        "date": "2026-07-09",
+        "close": 1.37
+      }
+    ]
+  },
   "PAF": {
     "symbol": "PAF",
     "name": "Pan Asia Footwear Public Company Limited",
@@ -297007,6 +297589,527 @@
       }
     ]
   },
+  "PROUD": {
+    "symbol": "PROUD",
+    "name": "Proud Real Estate Public Company Limited",
+    "business_summary": "Proud Real Estate Public Company Limited, together with its subsidiaries, engages in the real estate development businesses in Thailand. It also develops and sells land, houses, and residential condominium units; and provides property management services. Proud Real Estate Public Company Limited was founded in 1989 and is headquartered in Bangkok, Thailand.",
+    "current_price": 1.02,
+    "pe_ratio": 6.38,
+    "dividend_yield": 8.82,
+    "high_1m": 1.19,
+    "low_1m": 0.92,
+    "support_levels": [
+      0.62,
+      0.8,
+      0.92
+    ],
+    "resistance_levels": [
+      1.12
+    ],
+    "upcoming_xd": "2026-04-29",
+    "upcoming_dividend_amount": 0.09,
+    "upcoming_payment_date": "2026-05-14",
+    "dividend_history": [
+      {
+        "date": "2026-04-29",
+        "amount": 0.09
+      }
+    ],
+    "history": [
+      {
+        "date": "2025-07-11",
+        "close": 1.07
+      },
+      {
+        "date": "2025-07-15",
+        "close": 1.1
+      },
+      {
+        "date": "2025-07-17",
+        "close": 1.06
+      },
+      {
+        "date": "2025-07-21",
+        "close": 1.07
+      },
+      {
+        "date": "2025-07-23",
+        "close": 1.05
+      },
+      {
+        "date": "2025-07-25",
+        "close": 1.01
+      },
+      {
+        "date": "2025-07-30",
+        "close": 1.05
+      },
+      {
+        "date": "2025-08-01",
+        "close": 1.05
+      },
+      {
+        "date": "2025-08-05",
+        "close": 1.06
+      },
+      {
+        "date": "2025-08-07",
+        "close": 1.1
+      },
+      {
+        "date": "2025-08-13",
+        "close": 1.08
+      },
+      {
+        "date": "2025-08-15",
+        "close": 0.98
+      },
+      {
+        "date": "2025-08-19",
+        "close": 0.97
+      },
+      {
+        "date": "2025-08-21",
+        "close": 0.97
+      },
+      {
+        "date": "2025-08-25",
+        "close": 0.97
+      },
+      {
+        "date": "2025-08-27",
+        "close": 0.94
+      },
+      {
+        "date": "2025-08-29",
+        "close": 0.94
+      },
+      {
+        "date": "2025-09-02",
+        "close": 0.96
+      },
+      {
+        "date": "2025-09-04",
+        "close": 0.97
+      },
+      {
+        "date": "2025-09-08",
+        "close": 0.99
+      },
+      {
+        "date": "2025-09-10",
+        "close": 1.01
+      },
+      {
+        "date": "2025-09-12",
+        "close": 1.0
+      },
+      {
+        "date": "2025-09-16",
+        "close": 1.0
+      },
+      {
+        "date": "2025-09-18",
+        "close": 0.97
+      },
+      {
+        "date": "2025-09-22",
+        "close": 0.97
+      },
+      {
+        "date": "2025-09-24",
+        "close": 0.95
+      },
+      {
+        "date": "2025-09-26",
+        "close": 0.95
+      },
+      {
+        "date": "2025-09-30",
+        "close": 0.95
+      },
+      {
+        "date": "2025-10-02",
+        "close": 0.95
+      },
+      {
+        "date": "2025-10-06",
+        "close": 0.94
+      },
+      {
+        "date": "2025-10-08",
+        "close": 0.95
+      },
+      {
+        "date": "2025-10-10",
+        "close": 0.94
+      },
+      {
+        "date": "2025-10-15",
+        "close": 0.92
+      },
+      {
+        "date": "2025-10-17",
+        "close": 0.9
+      },
+      {
+        "date": "2025-10-21",
+        "close": 0.92
+      },
+      {
+        "date": "2025-10-24",
+        "close": 0.92
+      },
+      {
+        "date": "2025-10-28",
+        "close": 0.92
+      },
+      {
+        "date": "2025-10-30",
+        "close": 0.88
+      },
+      {
+        "date": "2025-11-03",
+        "close": 0.85
+      },
+      {
+        "date": "2025-11-05",
+        "close": 0.86
+      },
+      {
+        "date": "2025-11-07",
+        "close": 0.84
+      },
+      {
+        "date": "2025-11-11",
+        "close": 0.84
+      },
+      {
+        "date": "2025-11-13",
+        "close": 0.86
+      },
+      {
+        "date": "2025-11-17",
+        "close": 0.85
+      },
+      {
+        "date": "2025-11-19",
+        "close": 0.83
+      },
+      {
+        "date": "2025-11-21",
+        "close": 0.81
+      },
+      {
+        "date": "2025-11-25",
+        "close": 0.83
+      },
+      {
+        "date": "2025-11-27",
+        "close": 0.83
+      },
+      {
+        "date": "2025-12-01",
+        "close": 0.83
+      },
+      {
+        "date": "2025-12-03",
+        "close": 0.85
+      },
+      {
+        "date": "2025-12-08",
+        "close": 0.84
+      },
+      {
+        "date": "2025-12-11",
+        "close": 0.83
+      },
+      {
+        "date": "2025-12-15",
+        "close": 0.85
+      },
+      {
+        "date": "2025-12-17",
+        "close": 0.86
+      },
+      {
+        "date": "2025-12-19",
+        "close": 0.84
+      },
+      {
+        "date": "2025-12-23",
+        "close": 0.85
+      },
+      {
+        "date": "2025-12-25",
+        "close": 0.78
+      },
+      {
+        "date": "2025-12-29",
+        "close": 0.78
+      },
+      {
+        "date": "2026-01-05",
+        "close": 0.82
+      },
+      {
+        "date": "2026-01-07",
+        "close": 0.79
+      },
+      {
+        "date": "2026-01-09",
+        "close": 0.8
+      },
+      {
+        "date": "2026-01-13",
+        "close": 0.73
+      },
+      {
+        "date": "2026-01-15",
+        "close": 0.67
+      },
+      {
+        "date": "2026-01-19",
+        "close": 0.66
+      },
+      {
+        "date": "2026-01-21",
+        "close": 0.7
+      },
+      {
+        "date": "2026-01-23",
+        "close": 0.69
+      },
+      {
+        "date": "2026-01-27",
+        "close": 0.67
+      },
+      {
+        "date": "2026-01-29",
+        "close": 0.64
+      },
+      {
+        "date": "2026-02-02",
+        "close": 0.62
+      },
+      {
+        "date": "2026-02-04",
+        "close": 0.64
+      },
+      {
+        "date": "2026-02-06",
+        "close": 0.63
+      },
+      {
+        "date": "2026-02-10",
+        "close": 0.63
+      },
+      {
+        "date": "2026-02-12",
+        "close": 0.63
+      },
+      {
+        "date": "2026-02-16",
+        "close": 0.64
+      },
+      {
+        "date": "2026-02-18",
+        "close": 0.65
+      },
+      {
+        "date": "2026-02-20",
+        "close": 0.65
+      },
+      {
+        "date": "2026-02-24",
+        "close": 0.71
+      },
+      {
+        "date": "2026-02-26",
+        "close": 0.93
+      },
+      {
+        "date": "2026-03-02",
+        "close": 0.91
+      },
+      {
+        "date": "2026-03-05",
+        "close": 0.87
+      },
+      {
+        "date": "2026-03-09",
+        "close": 0.87
+      },
+      {
+        "date": "2026-03-11",
+        "close": 0.92
+      },
+      {
+        "date": "2026-03-13",
+        "close": 0.92
+      },
+      {
+        "date": "2026-03-17",
+        "close": 0.92
+      },
+      {
+        "date": "2026-03-19",
+        "close": 0.9
+      },
+      {
+        "date": "2026-03-23",
+        "close": 0.91
+      },
+      {
+        "date": "2026-03-25",
+        "close": 0.92
+      },
+      {
+        "date": "2026-03-27",
+        "close": 0.92
+      },
+      {
+        "date": "2026-03-31",
+        "close": 0.92
+      },
+      {
+        "date": "2026-04-02",
+        "close": 0.92
+      },
+      {
+        "date": "2026-04-07",
+        "close": 0.91
+      },
+      {
+        "date": "2026-04-09",
+        "close": 0.93
+      },
+      {
+        "date": "2026-04-16",
+        "close": 0.95
+      },
+      {
+        "date": "2026-04-20",
+        "close": 0.95
+      },
+      {
+        "date": "2026-04-22",
+        "close": 0.95
+      },
+      {
+        "date": "2026-04-24",
+        "close": 0.95
+      },
+      {
+        "date": "2026-04-28",
+        "close": 1.01
+      },
+      {
+        "date": "2026-04-30",
+        "close": 0.98
+      },
+      {
+        "date": "2026-05-04",
+        "close": 0.98
+      },
+      {
+        "date": "2026-05-06",
+        "close": 0.99
+      },
+      {
+        "date": "2026-05-08",
+        "close": 0.96
+      },
+      {
+        "date": "2026-05-12",
+        "close": 0.93
+      },
+      {
+        "date": "2026-05-14",
+        "close": 0.95
+      },
+      {
+        "date": "2026-05-18",
+        "close": 0.93
+      },
+      {
+        "date": "2026-05-20",
+        "close": 0.93
+      },
+      {
+        "date": "2026-05-22",
+        "close": 0.92
+      },
+      {
+        "date": "2026-05-26",
+        "close": 0.92
+      },
+      {
+        "date": "2026-05-28",
+        "close": 0.92
+      },
+      {
+        "date": "2026-06-01",
+        "close": 0.95
+      },
+      {
+        "date": "2026-06-03",
+        "close": 0.96
+      },
+      {
+        "date": "2026-06-05",
+        "close": 0.93
+      },
+      {
+        "date": "2026-06-09",
+        "close": 0.92
+      },
+      {
+        "date": "2026-06-11",
+        "close": 0.91
+      },
+      {
+        "date": "2026-06-15",
+        "close": 0.94
+      },
+      {
+        "date": "2026-06-17",
+        "close": 0.95
+      },
+      {
+        "date": "2026-06-19",
+        "close": 1.02
+      },
+      {
+        "date": "2026-06-23",
+        "close": 1.0
+      },
+      {
+        "date": "2026-06-25",
+        "close": 1.01
+      },
+      {
+        "date": "2026-06-29",
+        "close": 1.0
+      },
+      {
+        "date": "2026-07-01",
+        "close": 1.01
+      },
+      {
+        "date": "2026-07-03",
+        "close": 1.03
+      },
+      {
+        "date": "2026-07-07",
+        "close": 1.02
+      },
+      {
+        "date": "2026-07-09",
+        "close": 1.01
+      }
+    ]
+  },
   "PRTR": {
     "symbol": "PRTR",
     "name": "PRTR Group Public Company Limited",
@@ -301923,7 +303026,7 @@
   "PTL": {
     "symbol": "PTL",
     "name": "Polyplex (Thailand) Public Company Limited",
-    "business_summary": "Polyplex (Thailand) Public Company Limited manufactures and distributes polyester films, metalized films, extrusion-coated films, cast polypropylene films, silicone-coated films, blown films, holographic films, and PET resins in Thailand and internationally. The company offers Sarafil, a range of plastic films, including BOPET, a thick and thin polyester resin film; BOPP, a transparent biaxially oriented polypropylene resin film; CPP films, transparent cast polypropylene films; BLOWN PP for packaging and industrial applications; and sustainable films for carbon footprint reduction. It also provides Saracote, a range of silicone-coated films for use in pressure-sensitive adhesive applications as a carrier film for labels, tapes, roofing shingles, and peel-and-stick underlayments. In addition, the company offers Saralam, a range of extrusion-coated film products comprising BOPET thermal lamination films for brochures, catalogues, menu cards, mark sheets, maps, and other publicity material; metallized BOPET lamination films for UV offset printing and roof insulation applications; and BOPP thermal lamination films for use in textbook covers, brochures, leaflets, sweet boxes, cosmetics, shopping bags, and diaries. Further, it manufactures and distributes recycled plastic products and chips. Polyplex (Thailand) Public Company Limited was incorporated in 2002 and is headquartered in Bangkok, Thailand.",
+    "business_summary": "Polyplex (Thailand) Public Company Limited manufactures and distributes polyester films, metallized films, extrusion-coated films, cast polypropylene films, silicone-coated films, blown films, holographic films, and PET resins in Thailand and internationally. The company offers Sarafil, a range of plastic films, including BOPET, a polyester film; BOPP, a transparent bi-oriented polypropylene film; CPP films, a transparent cast polypropylene film; BLOWN PP for pressure sensitive applications; and sustainable films for carbon footprint reduction. It also provides Saracote, a range of silicone-coated films for use in pressure-sensitive adhesive applications as a carrier film for labels, tapes, roofing shingles, and peel and stick underlayments. In addition, the company offers Saralam, a range of extrusion coated film products comprising BOPET thermal lamination films for brochures, catalogues, menu cards, mark sheets, maps, and other publicity material; metallized BOPET lamination films for UV offset printing and roof insulation applications; and BOPP thermal lamination films for use in textbook covers, brochures, leaflets, sweet boxes, cosmetics, shopping bags, and diaries. Further, it manufactures and distributes recycled plastic products and chips. Polyplex (Thailand) Public Company Limited was incorporated in 2002 and is headquartered in Bangkok, Thailand.",
     "current_price": 14.2,
     "pe_ratio": null,
     "dividend_yield": 1.69,
@@ -314025,7 +315128,7 @@
   "ROCTEC": {
     "symbol": "ROCTEC",
     "name": "Roctec Global Public Company Limited",
-    "business_summary": "Roctec Global Public Company Limited, together with its subsidiaries, provides system integration services and advertising services in Thailand, Hong Kong, and Vietnam. The company offers data network infrastructure solutions, such as telecommunications systems and network security infrastructure; cyber security solutions, including in-train CCTV system, and integrated speed and position supervision systems; and innovative technology solutions comprising public address system, next train application, detection system for trackside panels, AI aided driving simulation system, train crew announcement app, cross-harbour easy, smart tunnel, and smart toilet. The company also provides transportation solutions, such as in train passenger information, flight information display, personal flight information display, passenger information display systems, smart digital display kiosks, in-train dynamic route map, in train capacity information, and temperature monitoring for axle boxes. In addition, it offers digital display solutions comprising smartphone interactive media, digital out of home media, digital signage and directory, lobby LCD displays, lift embedded LCD displays, digital out of home, high-definition curve screens, electronic poster screens, digital poster, display board for sportsground and stadium, outdoor rooftop led panel, and digital advertising platform. Further, the company provides services related to outdoor advertising and other advertising media. Additionally, it offers media rental, and design and system installation services; invests in advertising media; and distributes software and computer related products, including system development, installation, and maintenance. The company was formerly known as Master Ad Public Company Limited and changed its name to Roctec Global Public Company Limited in December 2023. Roctec Global Public Company Limited was founded in 1988 and is headquartered in Bangkok, Thailand.",
+    "business_summary": "Roctec Global Public Company Limited, together with its subsidiaries, provides system integration services in public and private sectors and advertising services. The company offers data network infrastructure solutions, such as telecommunications systems and network security infrastructure; cyber security solutions, including in-train CCTV system, and integrated speed and position supervision systems; and innovative technology solutions comprising public address system, next train application, detection system for trackside panels, AI aided driving simulation system, train crew announcement app, cross-harbour easy, and smart tunnel and toilet. The company also provides transportation solutions, such as in train passenger information, flight information display, personal flight information display, passenger information display systems, smart digital display kiosks, in-train dynamic route map, in train capacity information, and temperature monitoring for axle boxes. In addition, it offers digital display solutions comprising smartphone interactive media, digital out of home media, digital signage and directory, lobby LCD displays, lift embedded LCD displays, digital out of home, high-definition curve screens, electronic poster screens, digital poster, display board for sportsground and stadium, outdoor rooftop led panel, and digital advertising platform. Further, the company provides services related to outdoor advertising and other advertising media. Additionally, it offers media rental, design, and system installation services; invests in advertising media; and distributes software and computer related products, including system development, installation, and maintenance. The company was formerly known as Master Ad Public Company Limited and changed its name to Roctec Global Public Company Limited in December 2023. Roctec Global Public Company Limited was founded in 1988 and is based in Bangkok, Thailand.",
     "current_price": 0.67,
     "pe_ratio": 11.17,
     "dividend_yield": 2.75,
@@ -346965,6 +348068,10 @@
     "dividend_history": [],
     "history": [
       {
+        "date": "2026-07-07",
+        "close": 2.96
+      },
+      {
         "date": "2026-07-08",
         "close": 2.9
       },
@@ -350814,564 +351921,6 @@
       {
         "date": "2026-07-09",
         "close": 1.47
-      }
-    ]
-  },
-  "SIS": {
-    "symbol": "SIS",
-    "name": "SiS Distribution (Thailand) Public Company Limited",
-    "business_summary": "SiS Distribution (Thailand) Public Company Limited, together with its subsidiaries, distributes computer components, smartphones, and office automation equipment in Thailand. It operates in four segments: Commercial Products, Consumer Products, Value Added Products, and Phones. The company is also involved in the servicing and rental of computers and accessories. SiS Distribution (Thailand) Public Company Limited was incorporated in 1998 and is based in Bangkok, Thailand.",
-    "current_price": 24.5,
-    "pe_ratio": 9.21,
-    "dividend_yield": 4.98,
-    "high_1m": 24.7,
-    "low_1m": 20.8,
-    "support_levels": [
-      19.7,
-      20.8,
-      21.9
-    ],
-    "resistance_levels": [
-      25.73,
-      24.7
-    ],
-    "upcoming_xd": "2026-03-06",
-    "upcoming_dividend_amount": 1.22,
-    "upcoming_payment_date": "2026-03-21",
-    "dividend_history": [
-      {
-        "date": "2026-03-06",
-        "amount": 1.22
-      },
-      {
-        "date": "2025-03-04",
-        "amount": 1.12
-      },
-      {
-        "date": "2024-03-05",
-        "amount": 1.05
-      },
-      {
-        "date": "2023-03-09",
-        "amount": 1.2
-      },
-      {
-        "date": "2022-03-10",
-        "amount": 1.2
-      },
-      {
-        "date": "2021-03-10",
-        "amount": 1.0
-      },
-      {
-        "date": "2020-04-28",
-        "amount": 0.55
-      },
-      {
-        "date": "2019-05-03",
-        "amount": 0.55
-      },
-      {
-        "date": "2018-04-27",
-        "amount": 0.45
-      },
-      {
-        "date": "2017-05-03",
-        "amount": 0.4
-      }
-    ],
-    "history": [
-      {
-        "date": "2025-07-11",
-        "close": 19.27
-      },
-      {
-        "date": "2025-07-15",
-        "close": 20.12
-      },
-      {
-        "date": "2025-07-17",
-        "close": 20.6
-      },
-      {
-        "date": "2025-07-21",
-        "close": 20.69
-      },
-      {
-        "date": "2025-07-23",
-        "close": 20.97
-      },
-      {
-        "date": "2025-07-25",
-        "close": 20.69
-      },
-      {
-        "date": "2025-07-30",
-        "close": 20.69
-      },
-      {
-        "date": "2025-08-01",
-        "close": 21.07
-      },
-      {
-        "date": "2025-08-05",
-        "close": 21.16
-      },
-      {
-        "date": "2025-08-07",
-        "close": 21.54
-      },
-      {
-        "date": "2025-08-13",
-        "close": 21.07
-      },
-      {
-        "date": "2025-08-15",
-        "close": 19.84
-      },
-      {
-        "date": "2025-08-19",
-        "close": 19.08
-      },
-      {
-        "date": "2025-08-21",
-        "close": 19.56
-      },
-      {
-        "date": "2025-08-25",
-        "close": 19.65
-      },
-      {
-        "date": "2025-08-27",
-        "close": 19.94
-      },
-      {
-        "date": "2025-08-29",
-        "close": 19.94
-      },
-      {
-        "date": "2025-09-02",
-        "close": 20.31
-      },
-      {
-        "date": "2025-09-04",
-        "close": 20.41
-      },
-      {
-        "date": "2025-09-08",
-        "close": 20.88
-      },
-      {
-        "date": "2025-09-10",
-        "close": 20.6
-      },
-      {
-        "date": "2025-09-12",
-        "close": 19.94
-      },
-      {
-        "date": "2025-09-16",
-        "close": 20.22
-      },
-      {
-        "date": "2025-09-18",
-        "close": 19.75
-      },
-      {
-        "date": "2025-09-22",
-        "close": 19.27
-      },
-      {
-        "date": "2025-09-24",
-        "close": 19.46
-      },
-      {
-        "date": "2025-09-26",
-        "close": 19.94
-      },
-      {
-        "date": "2025-09-30",
-        "close": 19.37
-      },
-      {
-        "date": "2025-10-02",
-        "close": 19.37
-      },
-      {
-        "date": "2025-10-06",
-        "close": 19.37
-      },
-      {
-        "date": "2025-10-08",
-        "close": 19.37
-      },
-      {
-        "date": "2025-10-10",
-        "close": 19.37
-      },
-      {
-        "date": "2025-10-15",
-        "close": 18.71
-      },
-      {
-        "date": "2025-10-17",
-        "close": 18.05
-      },
-      {
-        "date": "2025-10-21",
-        "close": 18.33
-      },
-      {
-        "date": "2025-10-24",
-        "close": 18.14
-      },
-      {
-        "date": "2025-10-28",
-        "close": 18.14
-      },
-      {
-        "date": "2025-10-30",
-        "close": 17.95
-      },
-      {
-        "date": "2025-11-03",
-        "close": 17.95
-      },
-      {
-        "date": "2025-11-05",
-        "close": 18.14
-      },
-      {
-        "date": "2025-11-07",
-        "close": 18.05
-      },
-      {
-        "date": "2025-11-11",
-        "close": 17.86
-      },
-      {
-        "date": "2025-11-13",
-        "close": 18.99
-      },
-      {
-        "date": "2025-11-17",
-        "close": 18.42
-      },
-      {
-        "date": "2025-11-19",
-        "close": 17.67
-      },
-      {
-        "date": "2025-11-21",
-        "close": 17.86
-      },
-      {
-        "date": "2025-11-25",
-        "close": 18.71
-      },
-      {
-        "date": "2025-11-27",
-        "close": 18.61
-      },
-      {
-        "date": "2025-12-01",
-        "close": 18.8
-      },
-      {
-        "date": "2025-12-03",
-        "close": 18.9
-      },
-      {
-        "date": "2025-12-08",
-        "close": 18.33
-      },
-      {
-        "date": "2025-12-11",
-        "close": 18.33
-      },
-      {
-        "date": "2025-12-15",
-        "close": 18.33
-      },
-      {
-        "date": "2025-12-17",
-        "close": 18.8
-      },
-      {
-        "date": "2025-12-19",
-        "close": 18.61
-      },
-      {
-        "date": "2025-12-23",
-        "close": 19.56
-      },
-      {
-        "date": "2025-12-25",
-        "close": 19.37
-      },
-      {
-        "date": "2025-12-29",
-        "close": 19.46
-      },
-      {
-        "date": "2026-01-05",
-        "close": 19.84
-      },
-      {
-        "date": "2026-01-07",
-        "close": 19.56
-      },
-      {
-        "date": "2026-01-09",
-        "close": 19.37
-      },
-      {
-        "date": "2026-01-13",
-        "close": 17.95
-      },
-      {
-        "date": "2026-01-15",
-        "close": 18.42
-      },
-      {
-        "date": "2026-01-19",
-        "close": 18.71
-      },
-      {
-        "date": "2026-01-21",
-        "close": 18.52
-      },
-      {
-        "date": "2026-01-23",
-        "close": 18.99
-      },
-      {
-        "date": "2026-01-27",
-        "close": 19.08
-      },
-      {
-        "date": "2026-01-29",
-        "close": 18.99
-      },
-      {
-        "date": "2026-02-02",
-        "close": 18.99
-      },
-      {
-        "date": "2026-02-04",
-        "close": 19.27
-      },
-      {
-        "date": "2026-02-06",
-        "close": 19.27
-      },
-      {
-        "date": "2026-02-10",
-        "close": 19.37
-      },
-      {
-        "date": "2026-02-12",
-        "close": 19.75
-      },
-      {
-        "date": "2026-02-16",
-        "close": 20.69
-      },
-      {
-        "date": "2026-02-18",
-        "close": 20.97
-      },
-      {
-        "date": "2026-02-20",
-        "close": 21.35
-      },
-      {
-        "date": "2026-02-24",
-        "close": 23.05
-      },
-      {
-        "date": "2026-02-26",
-        "close": 22.68
-      },
-      {
-        "date": "2026-03-02",
-        "close": 21.54
-      },
-      {
-        "date": "2026-03-05",
-        "close": 20.88
-      },
-      {
-        "date": "2026-03-09",
-        "close": 21.0
-      },
-      {
-        "date": "2026-03-11",
-        "close": 21.2
-      },
-      {
-        "date": "2026-03-13",
-        "close": 21.3
-      },
-      {
-        "date": "2026-03-17",
-        "close": 21.2
-      },
-      {
-        "date": "2026-03-19",
-        "close": 19.7
-      },
-      {
-        "date": "2026-03-23",
-        "close": 20.6
-      },
-      {
-        "date": "2026-03-25",
-        "close": 21.9
-      },
-      {
-        "date": "2026-03-27",
-        "close": 21.4
-      },
-      {
-        "date": "2026-03-31",
-        "close": 22.0
-      },
-      {
-        "date": "2026-04-02",
-        "close": 22.6
-      },
-      {
-        "date": "2026-04-07",
-        "close": 22.5
-      },
-      {
-        "date": "2026-04-09",
-        "close": 22.6
-      },
-      {
-        "date": "2026-04-16",
-        "close": 22.6
-      },
-      {
-        "date": "2026-04-20",
-        "close": 22.1
-      },
-      {
-        "date": "2026-04-22",
-        "close": 22.1
-      },
-      {
-        "date": "2026-04-24",
-        "close": 22.0
-      },
-      {
-        "date": "2026-04-28",
-        "close": 22.9
-      },
-      {
-        "date": "2026-04-30",
-        "close": 23.1
-      },
-      {
-        "date": "2026-05-04",
-        "close": 23.1
-      },
-      {
-        "date": "2026-05-06",
-        "close": 23.9
-      },
-      {
-        "date": "2026-05-08",
-        "close": 23.8
-      },
-      {
-        "date": "2026-05-12",
-        "close": 23.2
-      },
-      {
-        "date": "2026-05-14",
-        "close": 23.0
-      },
-      {
-        "date": "2026-05-18",
-        "close": 21.0
-      },
-      {
-        "date": "2026-05-20",
-        "close": 21.1
-      },
-      {
-        "date": "2026-05-22",
-        "close": 21.4
-      },
-      {
-        "date": "2026-05-26",
-        "close": 21.7
-      },
-      {
-        "date": "2026-05-28",
-        "close": 21.6
-      },
-      {
-        "date": "2026-06-01",
-        "close": 21.4
-      },
-      {
-        "date": "2026-06-03",
-        "close": 21.9
-      },
-      {
-        "date": "2026-06-05",
-        "close": 22.0
-      },
-      {
-        "date": "2026-06-09",
-        "close": 21.1
-      },
-      {
-        "date": "2026-06-11",
-        "close": 20.7
-      },
-      {
-        "date": "2026-06-15",
-        "close": 21.2
-      },
-      {
-        "date": "2026-06-17",
-        "close": 21.5
-      },
-      {
-        "date": "2026-06-19",
-        "close": 21.6
-      },
-      {
-        "date": "2026-06-23",
-        "close": 21.2
-      },
-      {
-        "date": "2026-06-25",
-        "close": 20.9
-      },
-      {
-        "date": "2026-06-29",
-        "close": 21.1
-      },
-      {
-        "date": "2026-07-01",
-        "close": 21.2
-      },
-      {
-        "date": "2026-07-03",
-        "close": 22.7
-      },
-      {
-        "date": "2026-07-07",
-        "close": 23.1
-      },
-      {
-        "date": "2026-07-09",
-        "close": 23.7
       }
     ]
   },
@@ -385614,535 +386163,6 @@
       }
     ]
   },
-  "SUPER": {
-    "symbol": "SUPER",
-    "name": "Super Energy Corporation Public Company Limited",
-    "business_summary": "Super Energy Corporation Public Company Limited, together with its subsidiaries, engages in the generation and sale of electricity in Thailand and Vietnam. The company generates and sells electricity using alternative energy, waste energy, solar power, wind power, and biomass sources. It is also involved in the information technology business; waste separation services; and investment in the alternative energy business, as well as produces and supplies untreated water and tap water. In addition, the company engages in real estate rental and the distribution of fuel. Super Energy Corporation Public Company Limited was incorporated in 1994 and is based in Bangkok, Thailand.",
-    "current_price": 0.13,
-    "pe_ratio": 6.5,
-    "dividend_yield": 0.0,
-    "high_1m": 0.13,
-    "low_1m": 0.12,
-    "support_levels": [
-      0.1,
-      0.12
-    ],
-    "resistance_levels": [
-      0.14,
-      0.16
-    ],
-    "upcoming_xd": "2022-05-03",
-    "upcoming_dividend_amount": 0.01,
-    "upcoming_payment_date": "2022-05-18",
-    "dividend_history": [
-      {
-        "date": "2022-05-03",
-        "amount": 0.006
-      },
-      {
-        "date": "2021-05-10",
-        "amount": 0.006
-      },
-      {
-        "date": "2019-11-27",
-        "amount": 0.011
-      }
-    ],
-    "history": [
-      {
-        "date": "2025-07-11",
-        "close": 0.14
-      },
-      {
-        "date": "2025-07-15",
-        "close": 0.14
-      },
-      {
-        "date": "2025-07-17",
-        "close": 0.14
-      },
-      {
-        "date": "2025-07-21",
-        "close": 0.14
-      },
-      {
-        "date": "2025-07-23",
-        "close": 0.14
-      },
-      {
-        "date": "2025-07-25",
-        "close": 0.15
-      },
-      {
-        "date": "2025-07-30",
-        "close": 0.15
-      },
-      {
-        "date": "2025-08-01",
-        "close": 0.15
-      },
-      {
-        "date": "2025-08-05",
-        "close": 0.15
-      },
-      {
-        "date": "2025-08-07",
-        "close": 0.16
-      },
-      {
-        "date": "2025-08-13",
-        "close": 0.16
-      },
-      {
-        "date": "2025-08-15",
-        "close": 0.15
-      },
-      {
-        "date": "2025-08-19",
-        "close": 0.14
-      },
-      {
-        "date": "2025-08-21",
-        "close": 0.15
-      },
-      {
-        "date": "2025-08-25",
-        "close": 0.15
-      },
-      {
-        "date": "2025-08-27",
-        "close": 0.15
-      },
-      {
-        "date": "2025-08-29",
-        "close": 0.14
-      },
-      {
-        "date": "2025-09-02",
-        "close": 0.14
-      },
-      {
-        "date": "2025-09-04",
-        "close": 0.14
-      },
-      {
-        "date": "2025-09-08",
-        "close": 0.15
-      },
-      {
-        "date": "2025-09-10",
-        "close": 0.15
-      },
-      {
-        "date": "2025-09-12",
-        "close": 0.16
-      },
-      {
-        "date": "2025-09-16",
-        "close": 0.15
-      },
-      {
-        "date": "2025-09-18",
-        "close": 0.14
-      },
-      {
-        "date": "2025-09-22",
-        "close": 0.14
-      },
-      {
-        "date": "2025-09-24",
-        "close": 0.13
-      },
-      {
-        "date": "2025-09-26",
-        "close": 0.13
-      },
-      {
-        "date": "2025-09-30",
-        "close": 0.13
-      },
-      {
-        "date": "2025-10-02",
-        "close": 0.13
-      },
-      {
-        "date": "2025-10-06",
-        "close": 0.13
-      },
-      {
-        "date": "2025-10-08",
-        "close": 0.14
-      },
-      {
-        "date": "2025-10-10",
-        "close": 0.13
-      },
-      {
-        "date": "2025-10-15",
-        "close": 0.13
-      },
-      {
-        "date": "2025-10-17",
-        "close": 0.13
-      },
-      {
-        "date": "2025-10-21",
-        "close": 0.13
-      },
-      {
-        "date": "2025-10-24",
-        "close": 0.13
-      },
-      {
-        "date": "2025-10-28",
-        "close": 0.12
-      },
-      {
-        "date": "2025-10-30",
-        "close": 0.13
-      },
-      {
-        "date": "2025-11-03",
-        "close": 0.12
-      },
-      {
-        "date": "2025-11-05",
-        "close": 0.12
-      },
-      {
-        "date": "2025-11-07",
-        "close": 0.12
-      },
-      {
-        "date": "2025-11-11",
-        "close": 0.12
-      },
-      {
-        "date": "2025-11-13",
-        "close": 0.12
-      },
-      {
-        "date": "2025-11-17",
-        "close": 0.11
-      },
-      {
-        "date": "2025-11-19",
-        "close": 0.11
-      },
-      {
-        "date": "2025-11-21",
-        "close": 0.11
-      },
-      {
-        "date": "2025-11-25",
-        "close": 0.1
-      },
-      {
-        "date": "2025-11-27",
-        "close": 0.11
-      },
-      {
-        "date": "2025-12-01",
-        "close": 0.1
-      },
-      {
-        "date": "2025-12-03",
-        "close": 0.11
-      },
-      {
-        "date": "2025-12-08",
-        "close": 0.1
-      },
-      {
-        "date": "2025-12-11",
-        "close": 0.1
-      },
-      {
-        "date": "2025-12-15",
-        "close": 0.11
-      },
-      {
-        "date": "2025-12-17",
-        "close": 0.11
-      },
-      {
-        "date": "2025-12-19",
-        "close": 0.1
-      },
-      {
-        "date": "2025-12-23",
-        "close": 0.11
-      },
-      {
-        "date": "2025-12-25",
-        "close": 0.1
-      },
-      {
-        "date": "2025-12-29",
-        "close": 0.11
-      },
-      {
-        "date": "2026-01-05",
-        "close": 0.11
-      },
-      {
-        "date": "2026-01-07",
-        "close": 0.11
-      },
-      {
-        "date": "2026-01-09",
-        "close": 0.11
-      },
-      {
-        "date": "2026-01-13",
-        "close": 0.11
-      },
-      {
-        "date": "2026-01-15",
-        "close": 0.11
-      },
-      {
-        "date": "2026-01-19",
-        "close": 0.1
-      },
-      {
-        "date": "2026-01-21",
-        "close": 0.11
-      },
-      {
-        "date": "2026-01-23",
-        "close": 0.11
-      },
-      {
-        "date": "2026-01-27",
-        "close": 0.11
-      },
-      {
-        "date": "2026-01-29",
-        "close": 0.11
-      },
-      {
-        "date": "2026-02-02",
-        "close": 0.11
-      },
-      {
-        "date": "2026-02-04",
-        "close": 0.1
-      },
-      {
-        "date": "2026-02-06",
-        "close": 0.11
-      },
-      {
-        "date": "2026-02-10",
-        "close": 0.1
-      },
-      {
-        "date": "2026-02-12",
-        "close": 0.12
-      },
-      {
-        "date": "2026-02-16",
-        "close": 0.12
-      },
-      {
-        "date": "2026-02-18",
-        "close": 0.13
-      },
-      {
-        "date": "2026-02-20",
-        "close": 0.13
-      },
-      {
-        "date": "2026-02-24",
-        "close": 0.12
-      },
-      {
-        "date": "2026-02-26",
-        "close": 0.13
-      },
-      {
-        "date": "2026-03-02",
-        "close": 0.11
-      },
-      {
-        "date": "2026-03-05",
-        "close": 0.1
-      },
-      {
-        "date": "2026-03-09",
-        "close": 0.1
-      },
-      {
-        "date": "2026-03-11",
-        "close": 0.1
-      },
-      {
-        "date": "2026-03-13",
-        "close": 0.11
-      },
-      {
-        "date": "2026-03-17",
-        "close": 0.1
-      },
-      {
-        "date": "2026-03-19",
-        "close": 0.11
-      },
-      {
-        "date": "2026-03-23",
-        "close": 0.1
-      },
-      {
-        "date": "2026-03-25",
-        "close": 0.1
-      },
-      {
-        "date": "2026-03-27",
-        "close": 0.1
-      },
-      {
-        "date": "2026-03-31",
-        "close": 0.1
-      },
-      {
-        "date": "2026-04-02",
-        "close": 0.1
-      },
-      {
-        "date": "2026-04-07",
-        "close": 0.1
-      },
-      {
-        "date": "2026-04-09",
-        "close": 0.1
-      },
-      {
-        "date": "2026-04-16",
-        "close": 0.1
-      },
-      {
-        "date": "2026-04-20",
-        "close": 0.1
-      },
-      {
-        "date": "2026-04-22",
-        "close": 0.1
-      },
-      {
-        "date": "2026-04-24",
-        "close": 0.1
-      },
-      {
-        "date": "2026-04-28",
-        "close": 0.1
-      },
-      {
-        "date": "2026-04-30",
-        "close": 0.11
-      },
-      {
-        "date": "2026-05-04",
-        "close": 0.11
-      },
-      {
-        "date": "2026-05-06",
-        "close": 0.1
-      },
-      {
-        "date": "2026-05-08",
-        "close": 0.1
-      },
-      {
-        "date": "2026-05-12",
-        "close": 0.1
-      },
-      {
-        "date": "2026-05-14",
-        "close": 0.11
-      },
-      {
-        "date": "2026-05-18",
-        "close": 0.1
-      },
-      {
-        "date": "2026-05-20",
-        "close": 0.13
-      },
-      {
-        "date": "2026-05-22",
-        "close": 0.12
-      },
-      {
-        "date": "2026-05-26",
-        "close": 0.12
-      },
-      {
-        "date": "2026-05-28",
-        "close": 0.12
-      },
-      {
-        "date": "2026-06-01",
-        "close": 0.13
-      },
-      {
-        "date": "2026-06-03",
-        "close": 0.13
-      },
-      {
-        "date": "2026-06-05",
-        "close": 0.13
-      },
-      {
-        "date": "2026-06-09",
-        "close": 0.12
-      },
-      {
-        "date": "2026-06-11",
-        "close": 0.12
-      },
-      {
-        "date": "2026-06-15",
-        "close": 0.12
-      },
-      {
-        "date": "2026-06-17",
-        "close": 0.12
-      },
-      {
-        "date": "2026-06-19",
-        "close": 0.13
-      },
-      {
-        "date": "2026-06-23",
-        "close": 0.13
-      },
-      {
-        "date": "2026-06-25",
-        "close": 0.13
-      },
-      {
-        "date": "2026-06-29",
-        "close": 0.12
-      },
-      {
-        "date": "2026-07-01",
-        "close": 0.12
-      },
-      {
-        "date": "2026-07-03",
-        "close": 0.12
-      },
-      {
-        "date": "2026-07-07",
-        "close": 0.13
-      },
-      {
-        "date": "2026-07-09",
-        "close": 0.12
-      }
-    ]
-  },
   "SUSCO": {
     "symbol": "SUSCO",
     "name": "Susco Public Company Limited",
@@ -393320,9 +393340,9 @@
       0.57,
       0.54
     ],
-    "upcoming_xd": "2026-08-10",
+    "upcoming_xd": "2026-08-11",
     "upcoming_dividend_amount": 0.04,
-    "upcoming_payment_date": "2026-08-25",
+    "upcoming_payment_date": "2026-08-26",
     "dividend_history": [
       {
         "date": "2024-04-17",
@@ -396026,564 +396046,6 @@
       {
         "date": "2026-07-09",
         "close": 0.87
-      }
-    ]
-  },
-  "TC": {
-    "symbol": "TC",
-    "name": "Tropical Canning (Thailand) Public Company Limited",
-    "business_summary": "Tropical Canning (Thailand) Public Company Limited manufactures and trades in canned and pouched seafood products in Thailand, the rest of the Asia continent, the America continent, the European continent, the Australia continent, and the Africa continent. The company offers tuna, sardines, mackerel, and salmon; and wet pet food, such as canned, pouch, and aluminum tray wet food, as well as wet cat treats. It sells its products under the TCB, Snappy Tom, and hug Plus brands. Tropical Canning (Thailand) Public Company Limited was founded in 1979 and is based in Hat Yai, Thailand.",
-    "current_price": 6.7,
-    "pe_ratio": 10.47,
-    "dividend_yield": 4.48,
-    "high_1m": 6.85,
-    "low_1m": 5.5,
-    "support_levels": [
-      4.78,
-      5.13,
-      5.6
-    ],
-    "resistance_levels": [
-      7.03,
-      6.85
-    ],
-    "upcoming_xd": "2026-05-07",
-    "upcoming_dividend_amount": 0.3,
-    "upcoming_payment_date": "2026-05-22",
-    "dividend_history": [
-      {
-        "date": "2026-05-07",
-        "amount": 0.3
-      },
-      {
-        "date": "2025-05-02",
-        "amount": 0.3
-      },
-      {
-        "date": "2024-05-03",
-        "amount": 0.1
-      },
-      {
-        "date": "2023-05-09",
-        "amount": 0.5
-      },
-      {
-        "date": "2022-05-09",
-        "amount": 0.15
-      },
-      {
-        "date": "2021-05-10",
-        "amount": 0.25
-      },
-      {
-        "date": "2020-05-08",
-        "amount": 0.12
-      },
-      {
-        "date": "2019-05-02",
-        "amount": 0.15
-      },
-      {
-        "date": "2018-05-07",
-        "amount": 0.05
-      },
-      {
-        "date": "2017-05-03",
-        "amount": 0.1
-      }
-    ],
-    "history": [
-      {
-        "date": "2025-07-11",
-        "close": 4.89
-      },
-      {
-        "date": "2025-07-15",
-        "close": 4.89
-      },
-      {
-        "date": "2025-07-17",
-        "close": 4.84
-      },
-      {
-        "date": "2025-07-21",
-        "close": 4.94
-      },
-      {
-        "date": "2025-07-23",
-        "close": 5.03
-      },
-      {
-        "date": "2025-07-25",
-        "close": 4.98
-      },
-      {
-        "date": "2025-07-30",
-        "close": 5.17
-      },
-      {
-        "date": "2025-08-01",
-        "close": 5.17
-      },
-      {
-        "date": "2025-08-05",
-        "close": 5.27
-      },
-      {
-        "date": "2025-08-07",
-        "close": 5.32
-      },
-      {
-        "date": "2025-08-13",
-        "close": 4.84
-      },
-      {
-        "date": "2025-08-15",
-        "close": 4.94
-      },
-      {
-        "date": "2025-08-19",
-        "close": 4.89
-      },
-      {
-        "date": "2025-08-21",
-        "close": 4.89
-      },
-      {
-        "date": "2025-08-25",
-        "close": 4.84
-      },
-      {
-        "date": "2025-08-27",
-        "close": 5.03
-      },
-      {
-        "date": "2025-08-29",
-        "close": 4.98
-      },
-      {
-        "date": "2025-09-02",
-        "close": 4.89
-      },
-      {
-        "date": "2025-09-04",
-        "close": 4.98
-      },
-      {
-        "date": "2025-09-08",
-        "close": 4.89
-      },
-      {
-        "date": "2025-09-10",
-        "close": 4.89
-      },
-      {
-        "date": "2025-09-12",
-        "close": 4.94
-      },
-      {
-        "date": "2025-09-16",
-        "close": 4.94
-      },
-      {
-        "date": "2025-09-18",
-        "close": 4.94
-      },
-      {
-        "date": "2025-09-22",
-        "close": 4.89
-      },
-      {
-        "date": "2025-09-24",
-        "close": 4.84
-      },
-      {
-        "date": "2025-09-26",
-        "close": 4.84
-      },
-      {
-        "date": "2025-09-30",
-        "close": 5.08
-      },
-      {
-        "date": "2025-10-02",
-        "close": 4.79
-      },
-      {
-        "date": "2025-10-06",
-        "close": 4.89
-      },
-      {
-        "date": "2025-10-08",
-        "close": 4.89
-      },
-      {
-        "date": "2025-10-10",
-        "close": 4.79
-      },
-      {
-        "date": "2025-10-15",
-        "close": 4.89
-      },
-      {
-        "date": "2025-10-17",
-        "close": 4.84
-      },
-      {
-        "date": "2025-10-21",
-        "close": 4.84
-      },
-      {
-        "date": "2025-10-24",
-        "close": 4.79
-      },
-      {
-        "date": "2025-10-28",
-        "close": 4.89
-      },
-      {
-        "date": "2025-10-30",
-        "close": 4.84
-      },
-      {
-        "date": "2025-11-03",
-        "close": 4.79
-      },
-      {
-        "date": "2025-11-05",
-        "close": 4.84
-      },
-      {
-        "date": "2025-11-07",
-        "close": 4.79
-      },
-      {
-        "date": "2025-11-11",
-        "close": 4.84
-      },
-      {
-        "date": "2025-11-13",
-        "close": 4.79
-      },
-      {
-        "date": "2025-11-17",
-        "close": 4.84
-      },
-      {
-        "date": "2025-11-19",
-        "close": 4.75
-      },
-      {
-        "date": "2025-11-21",
-        "close": 4.75
-      },
-      {
-        "date": "2025-11-25",
-        "close": 4.75
-      },
-      {
-        "date": "2025-11-27",
-        "close": 4.79
-      },
-      {
-        "date": "2025-12-01",
-        "close": 4.75
-      },
-      {
-        "date": "2025-12-03",
-        "close": 4.75
-      },
-      {
-        "date": "2025-12-08",
-        "close": 4.75
-      },
-      {
-        "date": "2025-12-11",
-        "close": 4.79
-      },
-      {
-        "date": "2025-12-15",
-        "close": 4.79
-      },
-      {
-        "date": "2025-12-17",
-        "close": 4.79
-      },
-      {
-        "date": "2025-12-19",
-        "close": 4.73
-      },
-      {
-        "date": "2025-12-23",
-        "close": 4.75
-      },
-      {
-        "date": "2025-12-25",
-        "close": 4.79
-      },
-      {
-        "date": "2025-12-29",
-        "close": 4.75
-      },
-      {
-        "date": "2026-01-05",
-        "close": 4.75
-      },
-      {
-        "date": "2026-01-07",
-        "close": 4.73
-      },
-      {
-        "date": "2026-01-09",
-        "close": 4.75
-      },
-      {
-        "date": "2026-01-13",
-        "close": 4.75
-      },
-      {
-        "date": "2026-01-15",
-        "close": 4.73
-      },
-      {
-        "date": "2026-01-19",
-        "close": 4.69
-      },
-      {
-        "date": "2026-01-21",
-        "close": 4.69
-      },
-      {
-        "date": "2026-01-23",
-        "close": 4.71
-      },
-      {
-        "date": "2026-01-27",
-        "close": 4.69
-      },
-      {
-        "date": "2026-01-29",
-        "close": 4.69
-      },
-      {
-        "date": "2026-02-02",
-        "close": 4.73
-      },
-      {
-        "date": "2026-02-04",
-        "close": 4.79
-      },
-      {
-        "date": "2026-02-06",
-        "close": 4.75
-      },
-      {
-        "date": "2026-02-10",
-        "close": 4.89
-      },
-      {
-        "date": "2026-02-12",
-        "close": 4.84
-      },
-      {
-        "date": "2026-02-16",
-        "close": 4.84
-      },
-      {
-        "date": "2026-02-18",
-        "close": 5.03
-      },
-      {
-        "date": "2026-02-20",
-        "close": 4.98
-      },
-      {
-        "date": "2026-02-24",
-        "close": 5.08
-      },
-      {
-        "date": "2026-02-26",
-        "close": 5.03
-      },
-      {
-        "date": "2026-03-02",
-        "close": 5.13
-      },
-      {
-        "date": "2026-03-05",
-        "close": 5.03
-      },
-      {
-        "date": "2026-03-09",
-        "close": 5.08
-      },
-      {
-        "date": "2026-03-11",
-        "close": 5.22
-      },
-      {
-        "date": "2026-03-13",
-        "close": 5.13
-      },
-      {
-        "date": "2026-03-17",
-        "close": 5.22
-      },
-      {
-        "date": "2026-03-19",
-        "close": 5.22
-      },
-      {
-        "date": "2026-03-23",
-        "close": 5.22
-      },
-      {
-        "date": "2026-03-25",
-        "close": 5.17
-      },
-      {
-        "date": "2026-03-27",
-        "close": 5.13
-      },
-      {
-        "date": "2026-03-31",
-        "close": 5.27
-      },
-      {
-        "date": "2026-04-02",
-        "close": 5.22
-      },
-      {
-        "date": "2026-04-07",
-        "close": 5.27
-      },
-      {
-        "date": "2026-04-09",
-        "close": 5.22
-      },
-      {
-        "date": "2026-04-16",
-        "close": 5.27
-      },
-      {
-        "date": "2026-04-20",
-        "close": 5.22
-      },
-      {
-        "date": "2026-04-22",
-        "close": 5.17
-      },
-      {
-        "date": "2026-04-24",
-        "close": 5.13
-      },
-      {
-        "date": "2026-04-28",
-        "close": 5.27
-      },
-      {
-        "date": "2026-04-30",
-        "close": 5.32
-      },
-      {
-        "date": "2026-05-04",
-        "close": 5.32
-      },
-      {
-        "date": "2026-05-06",
-        "close": 5.6
-      },
-      {
-        "date": "2026-05-08",
-        "close": 5.7
-      },
-      {
-        "date": "2026-05-12",
-        "close": 5.55
-      },
-      {
-        "date": "2026-05-14",
-        "close": 5.6
-      },
-      {
-        "date": "2026-05-18",
-        "close": 5.6
-      },
-      {
-        "date": "2026-05-20",
-        "close": 5.7
-      },
-      {
-        "date": "2026-05-22",
-        "close": 5.75
-      },
-      {
-        "date": "2026-05-26",
-        "close": 5.75
-      },
-      {
-        "date": "2026-05-28",
-        "close": 5.7
-      },
-      {
-        "date": "2026-06-01",
-        "close": 5.6
-      },
-      {
-        "date": "2026-06-03",
-        "close": 5.7
-      },
-      {
-        "date": "2026-06-05",
-        "close": 5.6
-      },
-      {
-        "date": "2026-06-09",
-        "close": 5.65
-      },
-      {
-        "date": "2026-06-11",
-        "close": 5.7
-      },
-      {
-        "date": "2026-06-15",
-        "close": 5.7
-      },
-      {
-        "date": "2026-06-17",
-        "close": 5.75
-      },
-      {
-        "date": "2026-06-19",
-        "close": 5.85
-      },
-      {
-        "date": "2026-06-23",
-        "close": 5.85
-      },
-      {
-        "date": "2026-06-25",
-        "close": 6.05
-      },
-      {
-        "date": "2026-06-29",
-        "close": 6.15
-      },
-      {
-        "date": "2026-07-01",
-        "close": 6.3
-      },
-      {
-        "date": "2026-07-03",
-        "close": 6.45
-      },
-      {
-        "date": "2026-07-07",
-        "close": 6.7
-      },
-      {
-        "date": "2026-07-09",
-        "close": 6.65
       }
     ]
   },
@@ -445573,9 +445035,9 @@
       0.14,
       0.15
     ],
-    "upcoming_xd": "2026-08-10",
+    "upcoming_xd": "2026-08-11",
     "upcoming_dividend_amount": 0.01,
-    "upcoming_payment_date": "2026-08-25",
+    "upcoming_payment_date": "2026-08-26",
     "dividend_history": [
       {
         "date": "2023-05-03",
@@ -451888,7 +451350,7 @@
   "TURTLE": {
     "symbol": "TURTLE",
     "name": "Super Turtle Public Company Limited",
-    "business_summary": "Super Turtle Public Company Limited engages in importing, producing, and distributing of publications primarily in Thailand. The company operates through Trading of Consumer Goods; Rental of Retail Space; and Publishing and Electronic Books segments. It is involved in renting out space for retail stores at BTS SkyTrain Stationand Klong Saen Saep Pier. The company also engages in the rental of merchandising space; foreign currency exchange and distribution of souvenir; and storage and parcel locker, including advertising on locker. In addition, it is involved in managing book copyrights activities. The company was formerly known as Nation International Edutainment Public Company Limited and changed its name to Super Turtle Public Company Limited in May 2023. Super Turtle Public Company Limited was incorporated in 1996 and is headquartered in Bangkok, Thailand. Super Turtle Public Company Limited is a subsidiary of Point Of View (POV) Media Group Co., Ltd.",
+    "business_summary": "Super Turtle Public Company Limited engages in importing, producing, and distributing of publications primarily in Thailand. It is involved in renting of merchandising spaces on BTS Skytrain stations. The company also engages in the book publishing, foreign currency exchange, distribution of souvenir, and storage and parcel locker services, including advertising on locker. In addition, it is involved in managing book copyrights activities. The company was formerly known as Nation International Edutainment Public Company Limited and changed its name to Super Turtle Public Company Limited in May 2023. Super Turtle Public Company Limited was incorporated in 1996 and is headquartered in Bangkok, Thailand. Super Turtle Public Company Limited operates as a subsidiary of Point Of View (POV) Media Group Co., Ltd.",
     "current_price": 3.36,
     "pe_ratio": null,
     "dividend_yield": 0.0,
