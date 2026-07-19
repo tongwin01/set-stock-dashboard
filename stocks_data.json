@@ -58534,9 +58534,9 @@
       0.95,
       1.03
     ],
-    "upcoming_xd": "2026-08-17",
+    "upcoming_xd": "2026-08-18",
     "upcoming_dividend_amount": 0.06,
-    "upcoming_payment_date": "2026-09-01",
+    "upcoming_payment_date": "2026-09-02",
     "dividend_history": [
       {
         "date": "2025-05-26",
@@ -77287,6 +77287,531 @@
       }
     ]
   },
+  "CFARM": {
+    "symbol": "CFARM",
+    "name": "Chuwit Farm (2019) Public Company Limited",
+    "business_summary": "Chuwit Farm (2019) Public Company Limited engages in broiler farming business in Thailand. It is involved in contract broiler farming; sale of goods and by-products; and investment in the construction and improvement of poultry houses and farming equipment. Chuwit Farm (2019) Public Company Limited was founded in 2000 and is headquartered in Buriram, Thailand.",
+    "current_price": 0.84,
+    "pe_ratio": 42.0,
+    "dividend_yield": 2.38,
+    "high_1m": 0.87,
+    "low_1m": 0.81,
+    "support_levels": [
+      0.64,
+      0.73,
+      0.78
+    ],
+    "resistance_levels": [
+      0.85
+    ],
+    "upcoming_xd": "2026-04-17",
+    "upcoming_dividend_amount": 0.02,
+    "upcoming_payment_date": "2026-05-02",
+    "dividend_history": [
+      {
+        "date": "2026-04-17",
+        "amount": 0.02
+      }
+    ],
+    "history": [
+      {
+        "date": "2025-07-17",
+        "close": 0.93
+      },
+      {
+        "date": "2025-07-21",
+        "close": 0.86
+      },
+      {
+        "date": "2025-07-23",
+        "close": 0.85
+      },
+      {
+        "date": "2025-07-25",
+        "close": 0.83
+      },
+      {
+        "date": "2025-07-30",
+        "close": 0.84
+      },
+      {
+        "date": "2025-08-01",
+        "close": 0.85
+      },
+      {
+        "date": "2025-08-05",
+        "close": 0.87
+      },
+      {
+        "date": "2025-08-07",
+        "close": 0.84
+      },
+      {
+        "date": "2025-08-13",
+        "close": 0.79
+      },
+      {
+        "date": "2025-08-15",
+        "close": 0.79
+      },
+      {
+        "date": "2025-08-19",
+        "close": 0.78
+      },
+      {
+        "date": "2025-08-21",
+        "close": 0.81
+      },
+      {
+        "date": "2025-08-25",
+        "close": 0.79
+      },
+      {
+        "date": "2025-08-27",
+        "close": 0.78
+      },
+      {
+        "date": "2025-08-29",
+        "close": 0.8
+      },
+      {
+        "date": "2025-09-02",
+        "close": 0.79
+      },
+      {
+        "date": "2025-09-04",
+        "close": 0.79
+      },
+      {
+        "date": "2025-09-08",
+        "close": 0.78
+      },
+      {
+        "date": "2025-09-10",
+        "close": 0.81
+      },
+      {
+        "date": "2025-09-12",
+        "close": 0.81
+      },
+      {
+        "date": "2025-09-16",
+        "close": 0.85
+      },
+      {
+        "date": "2025-09-18",
+        "close": 0.83
+      },
+      {
+        "date": "2025-09-22",
+        "close": 0.81
+      },
+      {
+        "date": "2025-09-24",
+        "close": 0.78
+      },
+      {
+        "date": "2025-09-26",
+        "close": 0.8
+      },
+      {
+        "date": "2025-09-30",
+        "close": 0.78
+      },
+      {
+        "date": "2025-10-02",
+        "close": 0.78
+      },
+      {
+        "date": "2025-10-06",
+        "close": 0.75
+      },
+      {
+        "date": "2025-10-08",
+        "close": 0.75
+      },
+      {
+        "date": "2025-10-10",
+        "close": 0.74
+      },
+      {
+        "date": "2025-10-15",
+        "close": 0.7
+      },
+      {
+        "date": "2025-10-17",
+        "close": 0.69
+      },
+      {
+        "date": "2025-10-21",
+        "close": 0.68
+      },
+      {
+        "date": "2025-10-24",
+        "close": 0.67
+      },
+      {
+        "date": "2025-10-28",
+        "close": 0.67
+      },
+      {
+        "date": "2025-10-30",
+        "close": 0.6
+      },
+      {
+        "date": "2025-11-03",
+        "close": 0.56
+      },
+      {
+        "date": "2025-11-05",
+        "close": 0.59
+      },
+      {
+        "date": "2025-11-07",
+        "close": 0.57
+      },
+      {
+        "date": "2025-11-11",
+        "close": 0.77
+      },
+      {
+        "date": "2025-11-13",
+        "close": 0.72
+      },
+      {
+        "date": "2025-11-17",
+        "close": 0.82
+      },
+      {
+        "date": "2025-11-19",
+        "close": 0.83
+      },
+      {
+        "date": "2025-11-21",
+        "close": 0.78
+      },
+      {
+        "date": "2025-11-25",
+        "close": 0.84
+      },
+      {
+        "date": "2025-11-27",
+        "close": 0.8
+      },
+      {
+        "date": "2025-12-01",
+        "close": 0.79
+      },
+      {
+        "date": "2025-12-03",
+        "close": 0.78
+      },
+      {
+        "date": "2025-12-08",
+        "close": 0.75
+      },
+      {
+        "date": "2025-12-11",
+        "close": 0.76
+      },
+      {
+        "date": "2025-12-15",
+        "close": 0.74
+      },
+      {
+        "date": "2025-12-17",
+        "close": 0.72
+      },
+      {
+        "date": "2025-12-19",
+        "close": 0.73
+      },
+      {
+        "date": "2025-12-23",
+        "close": 0.72
+      },
+      {
+        "date": "2025-12-25",
+        "close": 0.71
+      },
+      {
+        "date": "2025-12-29",
+        "close": 0.7
+      },
+      {
+        "date": "2026-01-05",
+        "close": 0.71
+      },
+      {
+        "date": "2026-01-07",
+        "close": 0.7
+      },
+      {
+        "date": "2026-01-09",
+        "close": 0.68
+      },
+      {
+        "date": "2026-01-13",
+        "close": 0.63
+      },
+      {
+        "date": "2026-01-15",
+        "close": 0.69
+      },
+      {
+        "date": "2026-01-19",
+        "close": 0.71
+      },
+      {
+        "date": "2026-01-21",
+        "close": 0.73
+      },
+      {
+        "date": "2026-01-23",
+        "close": 0.72
+      },
+      {
+        "date": "2026-01-27",
+        "close": 0.75
+      },
+      {
+        "date": "2026-01-29",
+        "close": 0.73
+      },
+      {
+        "date": "2026-02-02",
+        "close": 0.71
+      },
+      {
+        "date": "2026-02-04",
+        "close": 0.74
+      },
+      {
+        "date": "2026-02-06",
+        "close": 0.72
+      },
+      {
+        "date": "2026-02-10",
+        "close": 0.74
+      },
+      {
+        "date": "2026-02-12",
+        "close": 0.78
+      },
+      {
+        "date": "2026-02-16",
+        "close": 0.84
+      },
+      {
+        "date": "2026-02-18",
+        "close": 0.82
+      },
+      {
+        "date": "2026-02-20",
+        "close": 0.78
+      },
+      {
+        "date": "2026-02-24",
+        "close": 0.74
+      },
+      {
+        "date": "2026-02-26",
+        "close": 0.74
+      },
+      {
+        "date": "2026-03-02",
+        "close": 0.7
+      },
+      {
+        "date": "2026-03-05",
+        "close": 0.69
+      },
+      {
+        "date": "2026-03-09",
+        "close": 0.72
+      },
+      {
+        "date": "2026-03-11",
+        "close": 0.74
+      },
+      {
+        "date": "2026-03-13",
+        "close": 0.75
+      },
+      {
+        "date": "2026-03-17",
+        "close": 0.75
+      },
+      {
+        "date": "2026-03-19",
+        "close": 0.8
+      },
+      {
+        "date": "2026-03-23",
+        "close": 0.75
+      },
+      {
+        "date": "2026-03-25",
+        "close": 0.81
+      },
+      {
+        "date": "2026-03-27",
+        "close": 0.86
+      },
+      {
+        "date": "2026-03-31",
+        "close": 0.84
+      },
+      {
+        "date": "2026-04-02",
+        "close": 0.86
+      },
+      {
+        "date": "2026-04-07",
+        "close": 0.82
+      },
+      {
+        "date": "2026-04-09",
+        "close": 0.8
+      },
+      {
+        "date": "2026-04-16",
+        "close": 0.8
+      },
+      {
+        "date": "2026-04-20",
+        "close": 0.77
+      },
+      {
+        "date": "2026-04-22",
+        "close": 0.78
+      },
+      {
+        "date": "2026-04-24",
+        "close": 0.74
+      },
+      {
+        "date": "2026-04-28",
+        "close": 0.73
+      },
+      {
+        "date": "2026-04-30",
+        "close": 0.77
+      },
+      {
+        "date": "2026-05-04",
+        "close": 0.77
+      },
+      {
+        "date": "2026-05-06",
+        "close": 0.8
+      },
+      {
+        "date": "2026-05-08",
+        "close": 0.79
+      },
+      {
+        "date": "2026-05-12",
+        "close": 0.77
+      },
+      {
+        "date": "2026-05-14",
+        "close": 0.78
+      },
+      {
+        "date": "2026-05-18",
+        "close": 0.8
+      },
+      {
+        "date": "2026-05-20",
+        "close": 0.8
+      },
+      {
+        "date": "2026-05-22",
+        "close": 0.78
+      },
+      {
+        "date": "2026-05-26",
+        "close": 0.81
+      },
+      {
+        "date": "2026-05-28",
+        "close": 0.8
+      },
+      {
+        "date": "2026-06-01",
+        "close": 0.79
+      },
+      {
+        "date": "2026-06-03",
+        "close": 0.8
+      },
+      {
+        "date": "2026-06-05",
+        "close": 0.79
+      },
+      {
+        "date": "2026-06-09",
+        "close": 0.78
+      },
+      {
+        "date": "2026-06-11",
+        "close": 0.8
+      },
+      {
+        "date": "2026-06-15",
+        "close": 0.8
+      },
+      {
+        "date": "2026-06-17",
+        "close": 0.84
+      },
+      {
+        "date": "2026-06-19",
+        "close": 0.84
+      },
+      {
+        "date": "2026-06-23",
+        "close": 0.82
+      },
+      {
+        "date": "2026-06-25",
+        "close": 0.83
+      },
+      {
+        "date": "2026-06-29",
+        "close": 0.82
+      },
+      {
+        "date": "2026-07-01",
+        "close": 0.82
+      },
+      {
+        "date": "2026-07-03",
+        "close": 0.83
+      },
+      {
+        "date": "2026-07-07",
+        "close": 0.84
+      },
+      {
+        "date": "2026-07-09",
+        "close": 0.84
+      },
+      {
+        "date": "2026-07-13",
+        "close": 0.84
+      },
+      {
+        "date": "2026-07-15",
+        "close": 0.83
+      },
+      {
+        "date": "2026-07-17",
+        "close": 0.84
+      }
+    ]
+  },
   "CFRESH": {
     "symbol": "CFRESH",
     "name": "Seafresh Industry Public Company Limited",
@@ -85374,6 +85899,536 @@
       {
         "date": "2026-07-17",
         "close": 65.0
+      }
+    ]
+  },
+  "CHOW": {
+    "symbol": "CHOW",
+    "name": "Chow Bright Ventures Holdings Public Company",
+    "business_summary": "Chow Bright Ventures Holdings Public Company, together with its subsidiaries, primarily engages in manufacturing, tolling, selling, and distributing steel billets in Thailand and internationally. The company operates through the Original Equipment Manufacturer (OEM) Business, Trading of Steel Business, Investment in Renewable Power Plant Business, and Consultancy on Investment Related to the Renewable Energy Business segments. The company's billets are used in the production of round bars, deformed bars, and wire rods. It is also involved in the generation and distribution of electricity from renewable energy sources, such as solar power plants; construction and management of power plants; and distribution of equipment related to the power generation systems and steel, and construction of solar power plants. In addition, the company designs, distributes, and installs renewable energy power generation systems; invests in renewable power generation and distribution business; and provides personal loans and nano finance. The company was formerly known as Chow Steel Industries Public Company Limited and changed its name to Chow Bright Ventures Holdings Public Company Limited in May 2025. Chow Bright Ventures Holdings Public Company was founded in 2003 and is headquartered in Bangkok, Thailand.",
+    "current_price": 1.37,
+    "pe_ratio": 19.57,
+    "dividend_yield": 0.0,
+    "high_1m": 1.5,
+    "low_1m": 1.28,
+    "support_levels": [
+      1.21,
+      1.27,
+      1.32
+    ],
+    "resistance_levels": [
+      1.41,
+      1.54
+    ],
+    "upcoming_xd": "2013-11-20",
+    "upcoming_dividend_amount": 0.1,
+    "upcoming_payment_date": "2013-12-05",
+    "dividend_history": [
+      {
+        "date": "2013-11-20",
+        "amount": 0.1
+      },
+      {
+        "date": "2012-04-12",
+        "amount": 0.1
+      }
+    ],
+    "history": [
+      {
+        "date": "2025-07-17",
+        "close": 1.61
+      },
+      {
+        "date": "2025-07-21",
+        "close": 1.64
+      },
+      {
+        "date": "2025-07-23",
+        "close": 1.56
+      },
+      {
+        "date": "2025-07-25",
+        "close": 1.46
+      },
+      {
+        "date": "2025-07-30",
+        "close": 1.43
+      },
+      {
+        "date": "2025-08-01",
+        "close": 1.4
+      },
+      {
+        "date": "2025-08-05",
+        "close": 1.43
+      },
+      {
+        "date": "2025-08-07",
+        "close": 1.39
+      },
+      {
+        "date": "2025-08-13",
+        "close": 1.4
+      },
+      {
+        "date": "2025-08-15",
+        "close": 1.32
+      },
+      {
+        "date": "2025-08-19",
+        "close": 1.23
+      },
+      {
+        "date": "2025-08-21",
+        "close": 1.27
+      },
+      {
+        "date": "2025-08-25",
+        "close": 1.26
+      },
+      {
+        "date": "2025-08-27",
+        "close": 1.36
+      },
+      {
+        "date": "2025-08-29",
+        "close": 1.29
+      },
+      {
+        "date": "2025-09-02",
+        "close": 1.29
+      },
+      {
+        "date": "2025-09-04",
+        "close": 1.37
+      },
+      {
+        "date": "2025-09-08",
+        "close": 1.35
+      },
+      {
+        "date": "2025-09-10",
+        "close": 1.3
+      },
+      {
+        "date": "2025-09-12",
+        "close": 1.32
+      },
+      {
+        "date": "2025-09-16",
+        "close": 1.33
+      },
+      {
+        "date": "2025-09-18",
+        "close": 1.34
+      },
+      {
+        "date": "2025-09-22",
+        "close": 1.3
+      },
+      {
+        "date": "2025-09-24",
+        "close": 1.34
+      },
+      {
+        "date": "2025-09-26",
+        "close": 1.4
+      },
+      {
+        "date": "2025-09-30",
+        "close": 1.31
+      },
+      {
+        "date": "2025-10-02",
+        "close": 1.34
+      },
+      {
+        "date": "2025-10-06",
+        "close": 1.27
+      },
+      {
+        "date": "2025-10-08",
+        "close": 1.25
+      },
+      {
+        "date": "2025-10-10",
+        "close": 1.26
+      },
+      {
+        "date": "2025-10-15",
+        "close": 1.23
+      },
+      {
+        "date": "2025-10-17",
+        "close": 1.21
+      },
+      {
+        "date": "2025-10-21",
+        "close": 1.22
+      },
+      {
+        "date": "2025-10-24",
+        "close": 1.24
+      },
+      {
+        "date": "2025-10-28",
+        "close": 1.19
+      },
+      {
+        "date": "2025-10-30",
+        "close": 1.19
+      },
+      {
+        "date": "2025-11-03",
+        "close": 1.14
+      },
+      {
+        "date": "2025-11-05",
+        "close": 1.1
+      },
+      {
+        "date": "2025-11-07",
+        "close": 1.13
+      },
+      {
+        "date": "2025-11-11",
+        "close": 1.06
+      },
+      {
+        "date": "2025-11-13",
+        "close": 1.05
+      },
+      {
+        "date": "2025-11-17",
+        "close": 1.01
+      },
+      {
+        "date": "2025-11-19",
+        "close": 1.02
+      },
+      {
+        "date": "2025-11-21",
+        "close": 1.0
+      },
+      {
+        "date": "2025-11-25",
+        "close": 1.0
+      },
+      {
+        "date": "2025-11-27",
+        "close": 1.03
+      },
+      {
+        "date": "2025-12-01",
+        "close": 1.01
+      },
+      {
+        "date": "2025-12-03",
+        "close": 1.16
+      },
+      {
+        "date": "2025-12-08",
+        "close": 1.2
+      },
+      {
+        "date": "2025-12-11",
+        "close": 1.13
+      },
+      {
+        "date": "2025-12-15",
+        "close": 1.16
+      },
+      {
+        "date": "2025-12-17",
+        "close": 1.14
+      },
+      {
+        "date": "2025-12-19",
+        "close": 1.11
+      },
+      {
+        "date": "2025-12-23",
+        "close": 1.09
+      },
+      {
+        "date": "2025-12-25",
+        "close": 1.11
+      },
+      {
+        "date": "2025-12-29",
+        "close": 1.11
+      },
+      {
+        "date": "2026-01-05",
+        "close": 1.1
+      },
+      {
+        "date": "2026-01-07",
+        "close": 1.13
+      },
+      {
+        "date": "2026-01-09",
+        "close": 1.1
+      },
+      {
+        "date": "2026-01-13",
+        "close": 1.04
+      },
+      {
+        "date": "2026-01-15",
+        "close": 1.14
+      },
+      {
+        "date": "2026-01-19",
+        "close": 1.11
+      },
+      {
+        "date": "2026-01-21",
+        "close": 1.1
+      },
+      {
+        "date": "2026-01-23",
+        "close": 1.08
+      },
+      {
+        "date": "2026-01-27",
+        "close": 1.08
+      },
+      {
+        "date": "2026-01-29",
+        "close": 1.06
+      },
+      {
+        "date": "2026-02-02",
+        "close": 1.06
+      },
+      {
+        "date": "2026-02-04",
+        "close": 1.06
+      },
+      {
+        "date": "2026-02-06",
+        "close": 1.33
+      },
+      {
+        "date": "2026-02-10",
+        "close": 1.3
+      },
+      {
+        "date": "2026-02-12",
+        "close": 1.31
+      },
+      {
+        "date": "2026-02-16",
+        "close": 1.32
+      },
+      {
+        "date": "2026-02-18",
+        "close": 1.31
+      },
+      {
+        "date": "2026-02-20",
+        "close": 1.29
+      },
+      {
+        "date": "2026-02-24",
+        "close": 1.29
+      },
+      {
+        "date": "2026-02-26",
+        "close": 1.28
+      },
+      {
+        "date": "2026-03-02",
+        "close": 1.29
+      },
+      {
+        "date": "2026-03-05",
+        "close": 1.22
+      },
+      {
+        "date": "2026-03-09",
+        "close": 1.22
+      },
+      {
+        "date": "2026-03-11",
+        "close": 1.24
+      },
+      {
+        "date": "2026-03-13",
+        "close": 1.24
+      },
+      {
+        "date": "2026-03-17",
+        "close": 1.22
+      },
+      {
+        "date": "2026-03-19",
+        "close": 1.19
+      },
+      {
+        "date": "2026-03-23",
+        "close": 1.24
+      },
+      {
+        "date": "2026-03-25",
+        "close": 1.24
+      },
+      {
+        "date": "2026-03-27",
+        "close": 1.24
+      },
+      {
+        "date": "2026-03-31",
+        "close": 1.31
+      },
+      {
+        "date": "2026-04-02",
+        "close": 1.31
+      },
+      {
+        "date": "2026-04-07",
+        "close": 1.35
+      },
+      {
+        "date": "2026-04-09",
+        "close": 1.36
+      },
+      {
+        "date": "2026-04-16",
+        "close": 1.35
+      },
+      {
+        "date": "2026-04-20",
+        "close": 1.32
+      },
+      {
+        "date": "2026-04-22",
+        "close": 1.27
+      },
+      {
+        "date": "2026-04-24",
+        "close": 1.28
+      },
+      {
+        "date": "2026-04-28",
+        "close": 1.34
+      },
+      {
+        "date": "2026-04-30",
+        "close": 1.36
+      },
+      {
+        "date": "2026-05-04",
+        "close": 1.36
+      },
+      {
+        "date": "2026-05-06",
+        "close": 1.35
+      },
+      {
+        "date": "2026-05-08",
+        "close": 1.54
+      },
+      {
+        "date": "2026-05-12",
+        "close": 1.43
+      },
+      {
+        "date": "2026-05-14",
+        "close": 1.46
+      },
+      {
+        "date": "2026-05-18",
+        "close": 1.37
+      },
+      {
+        "date": "2026-05-20",
+        "close": 1.33
+      },
+      {
+        "date": "2026-05-22",
+        "close": 1.37
+      },
+      {
+        "date": "2026-05-26",
+        "close": 1.39
+      },
+      {
+        "date": "2026-05-28",
+        "close": 1.44
+      },
+      {
+        "date": "2026-06-01",
+        "close": 1.4
+      },
+      {
+        "date": "2026-06-03",
+        "close": 1.42
+      },
+      {
+        "date": "2026-06-05",
+        "close": 1.38
+      },
+      {
+        "date": "2026-06-09",
+        "close": 1.37
+      },
+      {
+        "date": "2026-06-11",
+        "close": 1.37
+      },
+      {
+        "date": "2026-06-15",
+        "close": 1.31
+      },
+      {
+        "date": "2026-06-17",
+        "close": 1.36
+      },
+      {
+        "date": "2026-06-19",
+        "close": 1.37
+      },
+      {
+        "date": "2026-06-23",
+        "close": 1.33
+      },
+      {
+        "date": "2026-06-25",
+        "close": 1.31
+      },
+      {
+        "date": "2026-06-29",
+        "close": 1.32
+      },
+      {
+        "date": "2026-07-01",
+        "close": 1.35
+      },
+      {
+        "date": "2026-07-03",
+        "close": 1.3
+      },
+      {
+        "date": "2026-07-07",
+        "close": 1.32
+      },
+      {
+        "date": "2026-07-09",
+        "close": 1.28
+      },
+      {
+        "date": "2026-07-13",
+        "close": 1.37
+      },
+      {
+        "date": "2026-07-15",
+        "close": 1.37
+      },
+      {
+        "date": "2026-07-17",
+        "close": 1.37
       }
     ]
   },
@@ -101562,6 +102617,28 @@
       }
     ]
   },
+  "CPTGF": {
+    "symbol": "CPTGF",
+    "name": "C.P. Tower Grth Leasehold Property Fund",
+    "business_summary": "ข้อมูลธุรกิจสำหรับหุ้นนี้ยังไม่พร้อมใช้งานในระบบ",
+    "current_price": 5.1,
+    "pe_ratio": 7.29,
+    "dividend_yield": 0.0,
+    "high_1m": 5.1,
+    "low_1m": 5.1,
+    "support_levels": [],
+    "resistance_levels": [],
+    "upcoming_xd": null,
+    "upcoming_dividend_amount": null,
+    "upcoming_payment_date": null,
+    "dividend_history": [],
+    "history": [
+      {
+        "date": "2026-07-17",
+        "close": 5.1
+      }
+    ]
+  },
   "CPW": {
     "symbol": "CPW",
     "name": "Copperwired Public Company Limited",
@@ -107613,6 +108690,565 @@
       {
         "date": "2026-07-17",
         "close": 0.03
+      }
+    ]
+  },
+  "CWT": {
+    "symbol": "CWT",
+    "name": "Chai Watana Tannery Group Public Company Limited",
+    "business_summary": "Chai Watana Tannery Group Public Company Limited, together with its subsidiaries, engages in the tannery hide, automotive leather cutting, dog chew, and furniture cutting businesses. The company operates through six segments: Tannery Hide, Automotive Leather Cutting, Dog Chewable Toys, Furniture, Energy Business, and Design and Distribution of Aluminum Boat and Mini Bus. It is involved in the design and distribution of boats and minibuses made from aluminum; generation and sale of electricity from waste; property rental services; provision of consulting services for renewable energy projects; and wholesale of wood chips, as well as offers waste disposal management services. The company was founded in 1972 and is based in Mueang Samut Prakan, Thailand.",
+    "current_price": 0.96,
+    "pe_ratio": null,
+    "dividend_yield": 0.0,
+    "high_1m": 1.03,
+    "low_1m": 0.86,
+    "support_levels": [
+      0.74,
+      0.8,
+      0.92
+    ],
+    "resistance_levels": [
+      1.03,
+      1.07,
+      1.17
+    ],
+    "upcoming_xd": "2023-03-15",
+    "upcoming_dividend_amount": 0.05,
+    "upcoming_payment_date": "2023-03-30",
+    "dividend_history": [
+      {
+        "date": "2023-03-15",
+        "amount": 0.0535
+      },
+      {
+        "date": "2022-03-15",
+        "amount": 0.0535
+      },
+      {
+        "date": "2019-03-14",
+        "amount": 0.0329
+      },
+      {
+        "date": "2018-05-03",
+        "amount": 0.0329
+      },
+      {
+        "date": "2017-03-13",
+        "amount": 0.0329
+      },
+      {
+        "date": "2016-03-14",
+        "amount": 0.045
+      },
+      {
+        "date": "2013-05-03",
+        "amount": 0.0111
+      },
+      {
+        "date": "2012-03-22",
+        "amount": 0.0455
+      },
+      {
+        "date": "2005-05-04",
+        "amount": 0.1455
+      }
+    ],
+    "history": [
+      {
+        "date": "2025-07-17",
+        "close": 0.76
+      },
+      {
+        "date": "2025-07-21",
+        "close": 0.76
+      },
+      {
+        "date": "2025-07-23",
+        "close": 0.73
+      },
+      {
+        "date": "2025-07-25",
+        "close": 0.71
+      },
+      {
+        "date": "2025-07-30",
+        "close": 0.72
+      },
+      {
+        "date": "2025-08-01",
+        "close": 0.69
+      },
+      {
+        "date": "2025-08-05",
+        "close": 0.69
+      },
+      {
+        "date": "2025-08-07",
+        "close": 0.71
+      },
+      {
+        "date": "2025-08-13",
+        "close": 0.7
+      },
+      {
+        "date": "2025-08-15",
+        "close": 0.87
+      },
+      {
+        "date": "2025-08-19",
+        "close": 0.9
+      },
+      {
+        "date": "2025-08-21",
+        "close": 1.13
+      },
+      {
+        "date": "2025-08-25",
+        "close": 1.13
+      },
+      {
+        "date": "2025-08-27",
+        "close": 1.09
+      },
+      {
+        "date": "2025-08-29",
+        "close": 1.05
+      },
+      {
+        "date": "2025-09-02",
+        "close": 1.04
+      },
+      {
+        "date": "2025-09-04",
+        "close": 1.05
+      },
+      {
+        "date": "2025-09-08",
+        "close": 1.05
+      },
+      {
+        "date": "2025-09-10",
+        "close": 1.03
+      },
+      {
+        "date": "2025-09-12",
+        "close": 1.04
+      },
+      {
+        "date": "2025-09-16",
+        "close": 1.09
+      },
+      {
+        "date": "2025-09-18",
+        "close": 1.1
+      },
+      {
+        "date": "2025-09-22",
+        "close": 1.17
+      },
+      {
+        "date": "2025-09-24",
+        "close": 1.19
+      },
+      {
+        "date": "2025-09-26",
+        "close": 1.27
+      },
+      {
+        "date": "2025-09-30",
+        "close": 1.2
+      },
+      {
+        "date": "2025-10-02",
+        "close": 1.23
+      },
+      {
+        "date": "2025-10-06",
+        "close": 1.13
+      },
+      {
+        "date": "2025-10-08",
+        "close": 1.14
+      },
+      {
+        "date": "2025-10-10",
+        "close": 1.11
+      },
+      {
+        "date": "2025-10-15",
+        "close": 1.05
+      },
+      {
+        "date": "2025-10-17",
+        "close": 1.04
+      },
+      {
+        "date": "2025-10-21",
+        "close": 1.04
+      },
+      {
+        "date": "2025-10-24",
+        "close": 1.07
+      },
+      {
+        "date": "2025-10-28",
+        "close": 1.02
+      },
+      {
+        "date": "2025-10-30",
+        "close": 0.96
+      },
+      {
+        "date": "2025-11-03",
+        "close": 0.96
+      },
+      {
+        "date": "2025-11-05",
+        "close": 0.9
+      },
+      {
+        "date": "2025-11-07",
+        "close": 0.93
+      },
+      {
+        "date": "2025-11-11",
+        "close": 0.93
+      },
+      {
+        "date": "2025-11-13",
+        "close": 0.92
+      },
+      {
+        "date": "2025-11-17",
+        "close": 0.81
+      },
+      {
+        "date": "2025-11-19",
+        "close": 0.82
+      },
+      {
+        "date": "2025-11-21",
+        "close": 0.8
+      },
+      {
+        "date": "2025-11-25",
+        "close": 0.78
+      },
+      {
+        "date": "2025-11-27",
+        "close": 0.85
+      },
+      {
+        "date": "2025-12-01",
+        "close": 0.85
+      },
+      {
+        "date": "2025-12-03",
+        "close": 0.85
+      },
+      {
+        "date": "2025-12-08",
+        "close": 0.97
+      },
+      {
+        "date": "2025-12-11",
+        "close": 0.91
+      },
+      {
+        "date": "2025-12-15",
+        "close": 0.99
+      },
+      {
+        "date": "2025-12-17",
+        "close": 0.98
+      },
+      {
+        "date": "2025-12-19",
+        "close": 1.03
+      },
+      {
+        "date": "2025-12-23",
+        "close": 1.02
+      },
+      {
+        "date": "2025-12-25",
+        "close": 1.01
+      },
+      {
+        "date": "2025-12-29",
+        "close": 0.93
+      },
+      {
+        "date": "2026-01-05",
+        "close": 0.9
+      },
+      {
+        "date": "2026-01-07",
+        "close": 0.93
+      },
+      {
+        "date": "2026-01-09",
+        "close": 0.9
+      },
+      {
+        "date": "2026-01-13",
+        "close": 0.84
+      },
+      {
+        "date": "2026-01-15",
+        "close": 0.85
+      },
+      {
+        "date": "2026-01-19",
+        "close": 0.94
+      },
+      {
+        "date": "2026-01-21",
+        "close": 0.95
+      },
+      {
+        "date": "2026-01-23",
+        "close": 0.93
+      },
+      {
+        "date": "2026-01-27",
+        "close": 0.92
+      },
+      {
+        "date": "2026-01-29",
+        "close": 0.92
+      },
+      {
+        "date": "2026-02-02",
+        "close": 0.92
+      },
+      {
+        "date": "2026-02-04",
+        "close": 0.93
+      },
+      {
+        "date": "2026-02-06",
+        "close": 0.92
+      },
+      {
+        "date": "2026-02-10",
+        "close": 0.94
+      },
+      {
+        "date": "2026-02-12",
+        "close": 1.0
+      },
+      {
+        "date": "2026-02-16",
+        "close": 0.98
+      },
+      {
+        "date": "2026-02-18",
+        "close": 1.03
+      },
+      {
+        "date": "2026-02-20",
+        "close": 1.05
+      },
+      {
+        "date": "2026-02-24",
+        "close": 1.05
+      },
+      {
+        "date": "2026-02-26",
+        "close": 1.02
+      },
+      {
+        "date": "2026-03-02",
+        "close": 0.86
+      },
+      {
+        "date": "2026-03-05",
+        "close": 0.82
+      },
+      {
+        "date": "2026-03-09",
+        "close": 0.84
+      },
+      {
+        "date": "2026-03-11",
+        "close": 0.86
+      },
+      {
+        "date": "2026-03-13",
+        "close": 0.84
+      },
+      {
+        "date": "2026-03-17",
+        "close": 0.85
+      },
+      {
+        "date": "2026-03-19",
+        "close": 0.81
+      },
+      {
+        "date": "2026-03-23",
+        "close": 0.81
+      },
+      {
+        "date": "2026-03-25",
+        "close": 0.82
+      },
+      {
+        "date": "2026-03-27",
+        "close": 0.82
+      },
+      {
+        "date": "2026-03-31",
+        "close": 0.83
+      },
+      {
+        "date": "2026-04-02",
+        "close": 0.83
+      },
+      {
+        "date": "2026-04-07",
+        "close": 0.82
+      },
+      {
+        "date": "2026-04-09",
+        "close": 0.82
+      },
+      {
+        "date": "2026-04-16",
+        "close": 0.81
+      },
+      {
+        "date": "2026-04-20",
+        "close": 0.8
+      },
+      {
+        "date": "2026-04-22",
+        "close": 0.79
+      },
+      {
+        "date": "2026-04-24",
+        "close": 0.77
+      },
+      {
+        "date": "2026-04-28",
+        "close": 0.77
+      },
+      {
+        "date": "2026-04-30",
+        "close": 0.78
+      },
+      {
+        "date": "2026-05-04",
+        "close": 0.78
+      },
+      {
+        "date": "2026-05-06",
+        "close": 0.79
+      },
+      {
+        "date": "2026-05-08",
+        "close": 0.77
+      },
+      {
+        "date": "2026-05-12",
+        "close": 0.72
+      },
+      {
+        "date": "2026-05-14",
+        "close": 0.71
+      },
+      {
+        "date": "2026-05-18",
+        "close": 0.67
+      },
+      {
+        "date": "2026-05-20",
+        "close": 0.69
+      },
+      {
+        "date": "2026-05-22",
+        "close": 0.67
+      },
+      {
+        "date": "2026-05-26",
+        "close": 0.66
+      },
+      {
+        "date": "2026-05-28",
+        "close": 0.78
+      },
+      {
+        "date": "2026-06-01",
+        "close": 0.76
+      },
+      {
+        "date": "2026-06-03",
+        "close": 0.75
+      },
+      {
+        "date": "2026-06-05",
+        "close": 0.75
+      },
+      {
+        "date": "2026-06-09",
+        "close": 0.74
+      },
+      {
+        "date": "2026-06-11",
+        "close": 0.74
+      },
+      {
+        "date": "2026-06-15",
+        "close": 0.74
+      },
+      {
+        "date": "2026-06-17",
+        "close": 0.89
+      },
+      {
+        "date": "2026-06-19",
+        "close": 0.86
+      },
+      {
+        "date": "2026-06-23",
+        "close": 0.96
+      },
+      {
+        "date": "2026-06-25",
+        "close": 0.93
+      },
+      {
+        "date": "2026-06-29",
+        "close": 0.9
+      },
+      {
+        "date": "2026-07-01",
+        "close": 0.97
+      },
+      {
+        "date": "2026-07-03",
+        "close": 0.96
+      },
+      {
+        "date": "2026-07-07",
+        "close": 0.97
+      },
+      {
+        "date": "2026-07-09",
+        "close": 0.94
+      },
+      {
+        "date": "2026-07-13",
+        "close": 0.95
+      },
+      {
+        "date": "2026-07-15",
+        "close": 1.01
+      },
+      {
+        "date": "2026-07-17",
+        "close": 0.96
       }
     ]
   },
@@ -127929,9 +129565,9 @@
       56.25,
       67.75
     ],
-    "upcoming_xd": "2026-08-17",
+    "upcoming_xd": "2026-08-18",
     "upcoming_dividend_amount": 2.55,
-    "upcoming_payment_date": "2026-09-01",
+    "upcoming_payment_date": "2026-09-02",
     "dividend_history": [
       {
         "date": "2025-04-22",
@@ -134464,6 +136100,527 @@
       }
     ]
   },
+  "FSX": {
+    "symbol": "FSX",
+    "name": "Finansia X Public Company Limited",
+    "business_summary": "Finansia X Public Company Limited, through its subsidiaries, engages in the securities business in Thailand. It operates through three segments: Securities and Derivatives Brokerage, Investment Banking, and Proprietary Trading. The company provides securities and derivative brokering, and securities borrowing and lending services. It also offers underwriting, and investment and financial advisory services, as well as solutions for investment proprietary trading, and fund management services. In addition, the company is also involved in digital asset and holding businesses. Finansia X Public Company Limited was incorporated in 2022 and is headquartered in Bangkok, Thailand.",
+    "current_price": 1.1,
+    "pe_ratio": null,
+    "dividend_yield": 0.0,
+    "high_1m": 1.23,
+    "low_1m": 1.0,
+    "support_levels": [
+      0.69,
+      1.09
+    ],
+    "resistance_levels": [
+      1.19,
+      1.31,
+      1.45
+    ],
+    "upcoming_xd": null,
+    "upcoming_dividend_amount": null,
+    "upcoming_payment_date": null,
+    "dividend_history": [],
+    "history": [
+      {
+        "date": "2025-07-17",
+        "close": 1.28
+      },
+      {
+        "date": "2025-07-21",
+        "close": 1.3
+      },
+      {
+        "date": "2025-07-23",
+        "close": 1.29
+      },
+      {
+        "date": "2025-07-25",
+        "close": 1.26
+      },
+      {
+        "date": "2025-07-30",
+        "close": 1.28
+      },
+      {
+        "date": "2025-08-01",
+        "close": 1.3
+      },
+      {
+        "date": "2025-08-05",
+        "close": 1.26
+      },
+      {
+        "date": "2025-08-07",
+        "close": 1.2
+      },
+      {
+        "date": "2025-08-13",
+        "close": 1.22
+      },
+      {
+        "date": "2025-08-15",
+        "close": 1.23
+      },
+      {
+        "date": "2025-08-19",
+        "close": 1.24
+      },
+      {
+        "date": "2025-08-21",
+        "close": 1.23
+      },
+      {
+        "date": "2025-08-25",
+        "close": 1.22
+      },
+      {
+        "date": "2025-08-27",
+        "close": 1.2
+      },
+      {
+        "date": "2025-08-29",
+        "close": 1.2
+      },
+      {
+        "date": "2025-09-02",
+        "close": 1.22
+      },
+      {
+        "date": "2025-09-04",
+        "close": 1.19
+      },
+      {
+        "date": "2025-09-08",
+        "close": 1.1
+      },
+      {
+        "date": "2025-09-10",
+        "close": 1.11
+      },
+      {
+        "date": "2025-09-12",
+        "close": 1.1
+      },
+      {
+        "date": "2025-09-16",
+        "close": 1.1
+      },
+      {
+        "date": "2025-09-18",
+        "close": 1.13
+      },
+      {
+        "date": "2025-09-22",
+        "close": 1.1
+      },
+      {
+        "date": "2025-09-24",
+        "close": 1.18
+      },
+      {
+        "date": "2025-09-26",
+        "close": 1.15
+      },
+      {
+        "date": "2025-09-30",
+        "close": 1.16
+      },
+      {
+        "date": "2025-10-02",
+        "close": 1.15
+      },
+      {
+        "date": "2025-10-06",
+        "close": 1.1
+      },
+      {
+        "date": "2025-10-08",
+        "close": 1.06
+      },
+      {
+        "date": "2025-10-10",
+        "close": 1.0
+      },
+      {
+        "date": "2025-10-15",
+        "close": 1.03
+      },
+      {
+        "date": "2025-10-17",
+        "close": 1.0
+      },
+      {
+        "date": "2025-10-21",
+        "close": 1.01
+      },
+      {
+        "date": "2025-10-24",
+        "close": 1.01
+      },
+      {
+        "date": "2025-10-28",
+        "close": 1.01
+      },
+      {
+        "date": "2025-10-30",
+        "close": 0.95
+      },
+      {
+        "date": "2025-11-03",
+        "close": 0.88
+      },
+      {
+        "date": "2025-11-05",
+        "close": 0.79
+      },
+      {
+        "date": "2025-11-07",
+        "close": 0.8
+      },
+      {
+        "date": "2025-11-11",
+        "close": 0.78
+      },
+      {
+        "date": "2025-11-13",
+        "close": 0.8
+      },
+      {
+        "date": "2025-11-17",
+        "close": 0.79
+      },
+      {
+        "date": "2025-11-19",
+        "close": 0.73
+      },
+      {
+        "date": "2025-11-21",
+        "close": 0.71
+      },
+      {
+        "date": "2025-11-25",
+        "close": 0.72
+      },
+      {
+        "date": "2025-11-27",
+        "close": 0.73
+      },
+      {
+        "date": "2025-12-01",
+        "close": 0.7
+      },
+      {
+        "date": "2025-12-03",
+        "close": 0.74
+      },
+      {
+        "date": "2025-12-08",
+        "close": 0.71
+      },
+      {
+        "date": "2025-12-11",
+        "close": 0.74
+      },
+      {
+        "date": "2025-12-15",
+        "close": 0.73
+      },
+      {
+        "date": "2025-12-17",
+        "close": 0.73
+      },
+      {
+        "date": "2025-12-19",
+        "close": 0.74
+      },
+      {
+        "date": "2025-12-23",
+        "close": 0.74
+      },
+      {
+        "date": "2025-12-25",
+        "close": 0.68
+      },
+      {
+        "date": "2025-12-29",
+        "close": 0.71
+      },
+      {
+        "date": "2026-01-05",
+        "close": 0.71
+      },
+      {
+        "date": "2026-01-07",
+        "close": 0.73
+      },
+      {
+        "date": "2026-01-09",
+        "close": 0.7
+      },
+      {
+        "date": "2026-01-13",
+        "close": 0.69
+      },
+      {
+        "date": "2026-01-15",
+        "close": 0.69
+      },
+      {
+        "date": "2026-01-19",
+        "close": 0.69
+      },
+      {
+        "date": "2026-01-21",
+        "close": 0.74
+      },
+      {
+        "date": "2026-01-23",
+        "close": 0.74
+      },
+      {
+        "date": "2026-01-27",
+        "close": 0.73
+      },
+      {
+        "date": "2026-01-29",
+        "close": 0.73
+      },
+      {
+        "date": "2026-02-02",
+        "close": 0.7
+      },
+      {
+        "date": "2026-02-04",
+        "close": 0.71
+      },
+      {
+        "date": "2026-02-06",
+        "close": 0.72
+      },
+      {
+        "date": "2026-02-10",
+        "close": 0.75
+      },
+      {
+        "date": "2026-02-12",
+        "close": 0.75
+      },
+      {
+        "date": "2026-02-16",
+        "close": 0.76
+      },
+      {
+        "date": "2026-02-18",
+        "close": 0.8
+      },
+      {
+        "date": "2026-02-20",
+        "close": 1.34
+      },
+      {
+        "date": "2026-02-24",
+        "close": 1.43
+      },
+      {
+        "date": "2026-02-26",
+        "close": 1.34
+      },
+      {
+        "date": "2026-03-02",
+        "close": 1.12
+      },
+      {
+        "date": "2026-03-05",
+        "close": 1.19
+      },
+      {
+        "date": "2026-03-09",
+        "close": 1.1
+      },
+      {
+        "date": "2026-03-11",
+        "close": 1.2
+      },
+      {
+        "date": "2026-03-13",
+        "close": 1.29
+      },
+      {
+        "date": "2026-03-17",
+        "close": 1.31
+      },
+      {
+        "date": "2026-03-19",
+        "close": 1.28
+      },
+      {
+        "date": "2026-03-23",
+        "close": 1.27
+      },
+      {
+        "date": "2026-03-25",
+        "close": 1.24
+      },
+      {
+        "date": "2026-03-27",
+        "close": 1.22
+      },
+      {
+        "date": "2026-03-31",
+        "close": 1.29
+      },
+      {
+        "date": "2026-04-02",
+        "close": 1.25
+      },
+      {
+        "date": "2026-04-07",
+        "close": 1.28
+      },
+      {
+        "date": "2026-04-09",
+        "close": 1.25
+      },
+      {
+        "date": "2026-04-16",
+        "close": 1.24
+      },
+      {
+        "date": "2026-04-20",
+        "close": 1.2
+      },
+      {
+        "date": "2026-04-22",
+        "close": 1.13
+      },
+      {
+        "date": "2026-04-24",
+        "close": 1.19
+      },
+      {
+        "date": "2026-04-28",
+        "close": 1.11
+      },
+      {
+        "date": "2026-04-30",
+        "close": 1.17
+      },
+      {
+        "date": "2026-05-04",
+        "close": 1.17
+      },
+      {
+        "date": "2026-05-06",
+        "close": 1.3
+      },
+      {
+        "date": "2026-05-08",
+        "close": 1.29
+      },
+      {
+        "date": "2026-05-12",
+        "close": 1.19
+      },
+      {
+        "date": "2026-05-14",
+        "close": 1.21
+      },
+      {
+        "date": "2026-05-18",
+        "close": 1.12
+      },
+      {
+        "date": "2026-05-20",
+        "close": 1.09
+      },
+      {
+        "date": "2026-05-22",
+        "close": 1.16
+      },
+      {
+        "date": "2026-05-26",
+        "close": 1.16
+      },
+      {
+        "date": "2026-05-28",
+        "close": 1.15
+      },
+      {
+        "date": "2026-06-01",
+        "close": 1.13
+      },
+      {
+        "date": "2026-06-03",
+        "close": 1.15
+      },
+      {
+        "date": "2026-06-05",
+        "close": 1.16
+      },
+      {
+        "date": "2026-06-09",
+        "close": 1.15
+      },
+      {
+        "date": "2026-06-11",
+        "close": 1.14
+      },
+      {
+        "date": "2026-06-15",
+        "close": 1.1
+      },
+      {
+        "date": "2026-06-17",
+        "close": 1.1
+      },
+      {
+        "date": "2026-06-19",
+        "close": 1.1
+      },
+      {
+        "date": "2026-06-23",
+        "close": 1.08
+      },
+      {
+        "date": "2026-06-25",
+        "close": 1.07
+      },
+      {
+        "date": "2026-06-29",
+        "close": 1.08
+      },
+      {
+        "date": "2026-07-01",
+        "close": 1.2
+      },
+      {
+        "date": "2026-07-03",
+        "close": 1.19
+      },
+      {
+        "date": "2026-07-07",
+        "close": 1.18
+      },
+      {
+        "date": "2026-07-09",
+        "close": 1.14
+      },
+      {
+        "date": "2026-07-13",
+        "close": 1.17
+      },
+      {
+        "date": "2026-07-15",
+        "close": 1.13
+      },
+      {
+        "date": "2026-07-17",
+        "close": 1.1
+      }
+    ]
+  },
   "FTE": {
     "symbol": "FTE",
     "name": "Firetrade Engineering Public Company Limited",
@@ -135573,6 +137730,28 @@
       {
         "date": "2026-07-17",
         "close": 1.79
+      }
+    ]
+  },
+  "FUTUREPF": {
+    "symbol": "FUTUREPF",
+    "name": "Future Park Property Fund Ord",
+    "business_summary": "ข้อมูลธุรกิจสำหรับหุ้นนี้ยังไม่พร้อมใช้งานในระบบ",
+    "current_price": 12.5,
+    "pe_ratio": null,
+    "dividend_yield": 0.0,
+    "high_1m": 12.5,
+    "low_1m": 12.5,
+    "support_levels": [],
+    "resistance_levels": [],
+    "upcoming_xd": null,
+    "upcoming_dividend_amount": null,
+    "upcoming_payment_date": null,
+    "dividend_history": [],
+    "history": [
+      {
+        "date": "2026-07-17",
+        "close": 12.5
       }
     ]
   },
@@ -221462,6 +223641,539 @@
       }
     ]
   },
+  "MCA": {
+    "symbol": "MCA",
+    "name": "MCA_MARKET CONNECTIONS ASIA",
+    "business_summary": "Market Connections Asia Public Company Limited provides event marketing services in Thailand and Singapore. The company operates through three segments: Marketing Services; Distributor; and Printing and Advertising Media. It offers shopper engagement, including PC/BA/PtG, merchandising, and in-store activation; field force activation, such as trade activation, sales troop/caravan, brand visibility channel penetration, and distribution expansion; experiential marketing comprising roadshow, troop/commando, and caravan; and event marketing, which includes product launch, press conference, teambuilding, seminar, and corporate party. The company also provides local/retail media research analytics; logistics, such as transportation, set up and pull-out, airfare, and tours and trips; and digital solutions comprising interactive games, onsite to online integration, and online conference. In addition, it engages in packing; product consultancy; distribution of consumers products; and printing and advertising media services. The company was founded in 2011 and is based in Bangkok, Thailand. Market Connections Asia Public Company Limited operates as a subsidiary of Bhakdee 2019 Holding Co., Ltd.",
+    "current_price": 1.33,
+    "pe_ratio": 14.78,
+    "dividend_yield": 3.31,
+    "high_1m": 1.35,
+    "low_1m": 1.2,
+    "support_levels": [
+      0.98,
+      1.03,
+      1.09
+    ],
+    "resistance_levels": [
+      1.35
+    ],
+    "upcoming_xd": "2026-04-28",
+    "upcoming_dividend_amount": 0.04,
+    "upcoming_payment_date": "2026-05-13",
+    "dividend_history": [
+      {
+        "date": "2026-04-28",
+        "amount": 0.044
+      },
+      {
+        "date": "2025-05-02",
+        "amount": 0.045
+      },
+      {
+        "date": "2024-05-02",
+        "amount": 0.045
+      }
+    ],
+    "history": [
+      {
+        "date": "2025-07-17",
+        "close": 1.13
+      },
+      {
+        "date": "2025-07-21",
+        "close": 1.17
+      },
+      {
+        "date": "2025-07-23",
+        "close": 1.16
+      },
+      {
+        "date": "2025-07-25",
+        "close": 1.13
+      },
+      {
+        "date": "2025-07-30",
+        "close": 1.16
+      },
+      {
+        "date": "2025-08-01",
+        "close": 1.11
+      },
+      {
+        "date": "2025-08-05",
+        "close": 1.12
+      },
+      {
+        "date": "2025-08-07",
+        "close": 1.14
+      },
+      {
+        "date": "2025-08-13",
+        "close": 1.12
+      },
+      {
+        "date": "2025-08-15",
+        "close": 1.04
+      },
+      {
+        "date": "2025-08-19",
+        "close": 1.05
+      },
+      {
+        "date": "2025-08-21",
+        "close": 1.14
+      },
+      {
+        "date": "2025-08-25",
+        "close": 1.12
+      },
+      {
+        "date": "2025-08-27",
+        "close": 1.06
+      },
+      {
+        "date": "2025-08-29",
+        "close": 1.07
+      },
+      {
+        "date": "2025-09-02",
+        "close": 1.08
+      },
+      {
+        "date": "2025-09-04",
+        "close": 1.12
+      },
+      {
+        "date": "2025-09-08",
+        "close": 1.12
+      },
+      {
+        "date": "2025-09-10",
+        "close": 1.16
+      },
+      {
+        "date": "2025-09-12",
+        "close": 1.27
+      },
+      {
+        "date": "2025-09-16",
+        "close": 1.27
+      },
+      {
+        "date": "2025-09-18",
+        "close": 1.23
+      },
+      {
+        "date": "2025-09-22",
+        "close": 1.25
+      },
+      {
+        "date": "2025-09-24",
+        "close": 1.16
+      },
+      {
+        "date": "2025-09-26",
+        "close": 1.17
+      },
+      {
+        "date": "2025-09-30",
+        "close": 1.15
+      },
+      {
+        "date": "2025-10-02",
+        "close": 1.15
+      },
+      {
+        "date": "2025-10-06",
+        "close": 1.09
+      },
+      {
+        "date": "2025-10-08",
+        "close": 1.09
+      },
+      {
+        "date": "2025-10-10",
+        "close": 1.1
+      },
+      {
+        "date": "2025-10-15",
+        "close": 1.06
+      },
+      {
+        "date": "2025-10-17",
+        "close": 1.04
+      },
+      {
+        "date": "2025-10-21",
+        "close": 1.06
+      },
+      {
+        "date": "2025-10-24",
+        "close": 1.04
+      },
+      {
+        "date": "2025-10-28",
+        "close": 1.05
+      },
+      {
+        "date": "2025-10-30",
+        "close": 1.06
+      },
+      {
+        "date": "2025-11-03",
+        "close": 1.03
+      },
+      {
+        "date": "2025-11-05",
+        "close": 1.0
+      },
+      {
+        "date": "2025-11-07",
+        "close": 1.02
+      },
+      {
+        "date": "2025-11-11",
+        "close": 1.04
+      },
+      {
+        "date": "2025-11-13",
+        "close": 1.02
+      },
+      {
+        "date": "2025-11-17",
+        "close": 0.99
+      },
+      {
+        "date": "2025-11-19",
+        "close": 1.02
+      },
+      {
+        "date": "2025-11-21",
+        "close": 1.04
+      },
+      {
+        "date": "2025-11-25",
+        "close": 1.05
+      },
+      {
+        "date": "2025-11-27",
+        "close": 1.1
+      },
+      {
+        "date": "2025-12-01",
+        "close": 1.1
+      },
+      {
+        "date": "2025-12-03",
+        "close": 1.09
+      },
+      {
+        "date": "2025-12-08",
+        "close": 1.03
+      },
+      {
+        "date": "2025-12-11",
+        "close": 1.05
+      },
+      {
+        "date": "2025-12-15",
+        "close": 1.01
+      },
+      {
+        "date": "2025-12-17",
+        "close": 1.0
+      },
+      {
+        "date": "2025-12-19",
+        "close": 0.98
+      },
+      {
+        "date": "2025-12-23",
+        "close": 1.01
+      },
+      {
+        "date": "2025-12-25",
+        "close": 0.98
+      },
+      {
+        "date": "2025-12-29",
+        "close": 0.96
+      },
+      {
+        "date": "2026-01-05",
+        "close": 0.95
+      },
+      {
+        "date": "2026-01-07",
+        "close": 0.92
+      },
+      {
+        "date": "2026-01-09",
+        "close": 0.9
+      },
+      {
+        "date": "2026-01-13",
+        "close": 0.9
+      },
+      {
+        "date": "2026-01-15",
+        "close": 0.9
+      },
+      {
+        "date": "2026-01-19",
+        "close": 0.94
+      },
+      {
+        "date": "2026-01-21",
+        "close": 0.92
+      },
+      {
+        "date": "2026-01-23",
+        "close": 0.96
+      },
+      {
+        "date": "2026-01-27",
+        "close": 0.98
+      },
+      {
+        "date": "2026-01-29",
+        "close": 1.0
+      },
+      {
+        "date": "2026-02-02",
+        "close": 0.97
+      },
+      {
+        "date": "2026-02-04",
+        "close": 0.98
+      },
+      {
+        "date": "2026-02-06",
+        "close": 0.97
+      },
+      {
+        "date": "2026-02-10",
+        "close": 1.04
+      },
+      {
+        "date": "2026-02-12",
+        "close": 1.06
+      },
+      {
+        "date": "2026-02-16",
+        "close": 1.04
+      },
+      {
+        "date": "2026-02-18",
+        "close": 1.09
+      },
+      {
+        "date": "2026-02-20",
+        "close": 1.11
+      },
+      {
+        "date": "2026-02-24",
+        "close": 1.1
+      },
+      {
+        "date": "2026-02-26",
+        "close": 1.09
+      },
+      {
+        "date": "2026-03-02",
+        "close": 1.05
+      },
+      {
+        "date": "2026-03-05",
+        "close": 1.1
+      },
+      {
+        "date": "2026-03-09",
+        "close": 1.07
+      },
+      {
+        "date": "2026-03-11",
+        "close": 1.11
+      },
+      {
+        "date": "2026-03-13",
+        "close": 1.11
+      },
+      {
+        "date": "2026-03-17",
+        "close": 1.1
+      },
+      {
+        "date": "2026-03-19",
+        "close": 1.1
+      },
+      {
+        "date": "2026-03-23",
+        "close": 1.11
+      },
+      {
+        "date": "2026-03-25",
+        "close": 1.11
+      },
+      {
+        "date": "2026-03-27",
+        "close": 1.11
+      },
+      {
+        "date": "2026-03-31",
+        "close": 1.12
+      },
+      {
+        "date": "2026-04-02",
+        "close": 1.13
+      },
+      {
+        "date": "2026-04-07",
+        "close": 1.11
+      },
+      {
+        "date": "2026-04-09",
+        "close": 1.11
+      },
+      {
+        "date": "2026-04-16",
+        "close": 1.1
+      },
+      {
+        "date": "2026-04-20",
+        "close": 1.11
+      },
+      {
+        "date": "2026-04-22",
+        "close": 1.13
+      },
+      {
+        "date": "2026-04-24",
+        "close": 1.12
+      },
+      {
+        "date": "2026-04-28",
+        "close": 1.15
+      },
+      {
+        "date": "2026-04-30",
+        "close": 1.14
+      },
+      {
+        "date": "2026-05-04",
+        "close": 1.14
+      },
+      {
+        "date": "2026-05-06",
+        "close": 1.16
+      },
+      {
+        "date": "2026-05-08",
+        "close": 1.16
+      },
+      {
+        "date": "2026-05-12",
+        "close": 1.16
+      },
+      {
+        "date": "2026-05-14",
+        "close": 1.16
+      },
+      {
+        "date": "2026-05-18",
+        "close": 1.15
+      },
+      {
+        "date": "2026-05-20",
+        "close": 1.1
+      },
+      {
+        "date": "2026-05-22",
+        "close": 1.09
+      },
+      {
+        "date": "2026-05-26",
+        "close": 1.13
+      },
+      {
+        "date": "2026-05-28",
+        "close": 1.15
+      },
+      {
+        "date": "2026-06-01",
+        "close": 1.14
+      },
+      {
+        "date": "2026-06-03",
+        "close": 1.15
+      },
+      {
+        "date": "2026-06-05",
+        "close": 1.14
+      },
+      {
+        "date": "2026-06-09",
+        "close": 1.17
+      },
+      {
+        "date": "2026-06-11",
+        "close": 1.2
+      },
+      {
+        "date": "2026-06-15",
+        "close": 1.2
+      },
+      {
+        "date": "2026-06-17",
+        "close": 1.2
+      },
+      {
+        "date": "2026-06-19",
+        "close": 1.21
+      },
+      {
+        "date": "2026-06-23",
+        "close": 1.23
+      },
+      {
+        "date": "2026-06-25",
+        "close": 1.28
+      },
+      {
+        "date": "2026-06-29",
+        "close": 1.29
+      },
+      {
+        "date": "2026-07-01",
+        "close": 1.31
+      },
+      {
+        "date": "2026-07-03",
+        "close": 1.31
+      },
+      {
+        "date": "2026-07-07",
+        "close": 1.31
+      },
+      {
+        "date": "2026-07-09",
+        "close": 1.28
+      },
+      {
+        "date": "2026-07-13",
+        "close": 1.29
+      },
+      {
+        "date": "2026-07-15",
+        "close": 1.32
+      },
+      {
+        "date": "2026-07-17",
+        "close": 1.33
+      }
+    ]
+  },
   "MCOT": {
     "symbol": "MCOT",
     "name": "MCOT Public Company Limited",
@@ -225068,6 +227780,548 @@
       {
         "date": "2026-07-17",
         "close": 2.32
+      }
+    ]
+  },
+  "MENA": {
+    "symbol": "MENA",
+    "name": "Mena Transport Public Company Limited",
+    "business_summary": "Mena Transport Public Company Limited provides concrete transportation services in Thailand. The company operates through three segments: Transportation Services; Concrete Transportation Services; and Sale of Materials, Equipment and Tools for Construction. It transports ready-mixed concrete, cement, and bags of cement industrial products, including fly ash, calcium ore, and barium, as well as hazardous materials, consumer products, and temperature-controlled products. It also distributes ready-mixed concrete and construction materials; and sells materials, equipment, and tools used in construction. Mena Transport Public Company Limited was incorporated in 1993 and is headquartered in Sara Buri, Thailand.",
+    "current_price": 0.74,
+    "pe_ratio": 8.22,
+    "dividend_yield": 2.03,
+    "high_1m": 0.77,
+    "low_1m": 0.67,
+    "support_levels": [
+      0.61,
+      0.68
+    ],
+    "resistance_levels": [
+      0.76,
+      0.78,
+      0.8
+    ],
+    "upcoming_xd": "2026-05-07",
+    "upcoming_dividend_amount": 0.01,
+    "upcoming_payment_date": "2026-05-22",
+    "dividend_history": [
+      {
+        "date": "2026-05-07",
+        "amount": 0.015
+      },
+      {
+        "date": "2025-04-30",
+        "amount": 0.03
+      },
+      {
+        "date": "2024-04-30",
+        "amount": 0.03
+      },
+      {
+        "date": "2023-04-28",
+        "amount": 0.03
+      },
+      {
+        "date": "2022-04-27",
+        "amount": 0.03
+      }
+    ],
+    "history": [
+      {
+        "date": "2025-07-17",
+        "close": 0.91
+      },
+      {
+        "date": "2025-07-21",
+        "close": 0.91
+      },
+      {
+        "date": "2025-07-23",
+        "close": 0.9
+      },
+      {
+        "date": "2025-07-25",
+        "close": 0.88
+      },
+      {
+        "date": "2025-07-30",
+        "close": 0.9
+      },
+      {
+        "date": "2025-08-01",
+        "close": 0.89
+      },
+      {
+        "date": "2025-08-05",
+        "close": 0.88
+      },
+      {
+        "date": "2025-08-07",
+        "close": 0.91
+      },
+      {
+        "date": "2025-08-13",
+        "close": 0.87
+      },
+      {
+        "date": "2025-08-15",
+        "close": 0.87
+      },
+      {
+        "date": "2025-08-19",
+        "close": 0.87
+      },
+      {
+        "date": "2025-08-21",
+        "close": 0.88
+      },
+      {
+        "date": "2025-08-25",
+        "close": 0.9
+      },
+      {
+        "date": "2025-08-27",
+        "close": 0.86
+      },
+      {
+        "date": "2025-08-29",
+        "close": 0.86
+      },
+      {
+        "date": "2025-09-02",
+        "close": 0.88
+      },
+      {
+        "date": "2025-09-04",
+        "close": 0.87
+      },
+      {
+        "date": "2025-09-08",
+        "close": 0.88
+      },
+      {
+        "date": "2025-09-10",
+        "close": 0.88
+      },
+      {
+        "date": "2025-09-12",
+        "close": 0.92
+      },
+      {
+        "date": "2025-09-16",
+        "close": 0.94
+      },
+      {
+        "date": "2025-09-18",
+        "close": 0.94
+      },
+      {
+        "date": "2025-09-22",
+        "close": 0.94
+      },
+      {
+        "date": "2025-09-24",
+        "close": 0.91
+      },
+      {
+        "date": "2025-09-26",
+        "close": 0.94
+      },
+      {
+        "date": "2025-09-30",
+        "close": 0.93
+      },
+      {
+        "date": "2025-10-02",
+        "close": 0.93
+      },
+      {
+        "date": "2025-10-06",
+        "close": 0.89
+      },
+      {
+        "date": "2025-10-08",
+        "close": 0.88
+      },
+      {
+        "date": "2025-10-10",
+        "close": 0.88
+      },
+      {
+        "date": "2025-10-15",
+        "close": 0.84
+      },
+      {
+        "date": "2025-10-17",
+        "close": 0.82
+      },
+      {
+        "date": "2025-10-21",
+        "close": 0.82
+      },
+      {
+        "date": "2025-10-24",
+        "close": 0.82
+      },
+      {
+        "date": "2025-10-28",
+        "close": 0.82
+      },
+      {
+        "date": "2025-10-30",
+        "close": 0.82
+      },
+      {
+        "date": "2025-11-03",
+        "close": 0.81
+      },
+      {
+        "date": "2025-11-05",
+        "close": 0.8
+      },
+      {
+        "date": "2025-11-07",
+        "close": 0.79
+      },
+      {
+        "date": "2025-11-11",
+        "close": 0.8
+      },
+      {
+        "date": "2025-11-13",
+        "close": 0.78
+      },
+      {
+        "date": "2025-11-17",
+        "close": 0.78
+      },
+      {
+        "date": "2025-11-19",
+        "close": 0.77
+      },
+      {
+        "date": "2025-11-21",
+        "close": 0.76
+      },
+      {
+        "date": "2025-11-25",
+        "close": 0.76
+      },
+      {
+        "date": "2025-11-27",
+        "close": 0.77
+      },
+      {
+        "date": "2025-12-01",
+        "close": 0.78
+      },
+      {
+        "date": "2025-12-03",
+        "close": 0.78
+      },
+      {
+        "date": "2025-12-08",
+        "close": 0.77
+      },
+      {
+        "date": "2025-12-11",
+        "close": 0.77
+      },
+      {
+        "date": "2025-12-15",
+        "close": 0.78
+      },
+      {
+        "date": "2025-12-17",
+        "close": 0.77
+      },
+      {
+        "date": "2025-12-19",
+        "close": 0.76
+      },
+      {
+        "date": "2025-12-23",
+        "close": 0.76
+      },
+      {
+        "date": "2025-12-25",
+        "close": 0.77
+      },
+      {
+        "date": "2025-12-29",
+        "close": 0.76
+      },
+      {
+        "date": "2026-01-05",
+        "close": 0.75
+      },
+      {
+        "date": "2026-01-07",
+        "close": 0.73
+      },
+      {
+        "date": "2026-01-09",
+        "close": 0.73
+      },
+      {
+        "date": "2026-01-13",
+        "close": 0.68
+      },
+      {
+        "date": "2026-01-15",
+        "close": 0.69
+      },
+      {
+        "date": "2026-01-19",
+        "close": 0.71
+      },
+      {
+        "date": "2026-01-21",
+        "close": 0.75
+      },
+      {
+        "date": "2026-01-23",
+        "close": 0.71
+      },
+      {
+        "date": "2026-01-27",
+        "close": 0.7
+      },
+      {
+        "date": "2026-01-29",
+        "close": 0.71
+      },
+      {
+        "date": "2026-02-02",
+        "close": 0.69
+      },
+      {
+        "date": "2026-02-04",
+        "close": 0.69
+      },
+      {
+        "date": "2026-02-06",
+        "close": 0.69
+      },
+      {
+        "date": "2026-02-10",
+        "close": 0.73
+      },
+      {
+        "date": "2026-02-12",
+        "close": 0.77
+      },
+      {
+        "date": "2026-02-16",
+        "close": 0.76
+      },
+      {
+        "date": "2026-02-18",
+        "close": 0.78
+      },
+      {
+        "date": "2026-02-20",
+        "close": 0.79
+      },
+      {
+        "date": "2026-02-24",
+        "close": 0.76
+      },
+      {
+        "date": "2026-02-26",
+        "close": 0.77
+      },
+      {
+        "date": "2026-03-02",
+        "close": 0.73
+      },
+      {
+        "date": "2026-03-05",
+        "close": 0.66
+      },
+      {
+        "date": "2026-03-09",
+        "close": 0.67
+      },
+      {
+        "date": "2026-03-11",
+        "close": 0.68
+      },
+      {
+        "date": "2026-03-13",
+        "close": 0.65
+      },
+      {
+        "date": "2026-03-17",
+        "close": 0.66
+      },
+      {
+        "date": "2026-03-19",
+        "close": 0.63
+      },
+      {
+        "date": "2026-03-23",
+        "close": 0.63
+      },
+      {
+        "date": "2026-03-25",
+        "close": 0.63
+      },
+      {
+        "date": "2026-03-27",
+        "close": 0.63
+      },
+      {
+        "date": "2026-03-31",
+        "close": 0.63
+      },
+      {
+        "date": "2026-04-02",
+        "close": 0.64
+      },
+      {
+        "date": "2026-04-07",
+        "close": 0.62
+      },
+      {
+        "date": "2026-04-09",
+        "close": 0.63
+      },
+      {
+        "date": "2026-04-16",
+        "close": 0.63
+      },
+      {
+        "date": "2026-04-20",
+        "close": 0.63
+      },
+      {
+        "date": "2026-04-22",
+        "close": 0.64
+      },
+      {
+        "date": "2026-04-24",
+        "close": 0.62
+      },
+      {
+        "date": "2026-04-28",
+        "close": 0.62
+      },
+      {
+        "date": "2026-04-30",
+        "close": 0.62
+      },
+      {
+        "date": "2026-05-04",
+        "close": 0.62
+      },
+      {
+        "date": "2026-05-06",
+        "close": 0.63
+      },
+      {
+        "date": "2026-05-08",
+        "close": 0.64
+      },
+      {
+        "date": "2026-05-12",
+        "close": 0.62
+      },
+      {
+        "date": "2026-05-14",
+        "close": 0.62
+      },
+      {
+        "date": "2026-05-18",
+        "close": 0.62
+      },
+      {
+        "date": "2026-05-20",
+        "close": 0.6
+      },
+      {
+        "date": "2026-05-22",
+        "close": 0.59
+      },
+      {
+        "date": "2026-05-26",
+        "close": 0.6
+      },
+      {
+        "date": "2026-05-28",
+        "close": 0.61
+      },
+      {
+        "date": "2026-06-01",
+        "close": 0.63
+      },
+      {
+        "date": "2026-06-03",
+        "close": 0.63
+      },
+      {
+        "date": "2026-06-05",
+        "close": 0.72
+      },
+      {
+        "date": "2026-06-09",
+        "close": 0.67
+      },
+      {
+        "date": "2026-06-11",
+        "close": 0.64
+      },
+      {
+        "date": "2026-06-15",
+        "close": 0.66
+      },
+      {
+        "date": "2026-06-17",
+        "close": 0.76
+      },
+      {
+        "date": "2026-06-19",
+        "close": 0.68
+      },
+      {
+        "date": "2026-06-23",
+        "close": 0.67
+      },
+      {
+        "date": "2026-06-25",
+        "close": 0.73
+      },
+      {
+        "date": "2026-06-29",
+        "close": 0.72
+      },
+      {
+        "date": "2026-07-01",
+        "close": 0.72
+      },
+      {
+        "date": "2026-07-03",
+        "close": 0.72
+      },
+      {
+        "date": "2026-07-07",
+        "close": 0.77
+      },
+      {
+        "date": "2026-07-09",
+        "close": 0.73
+      },
+      {
+        "date": "2026-07-13",
+        "close": 0.73
+      },
+      {
+        "date": "2026-07-15",
+        "close": 0.74
+      },
+      {
+        "date": "2026-07-17",
+        "close": 0.74
       }
     ]
   },
@@ -245095,6 +248349,567 @@
       {
         "date": "2026-07-17",
         "close": 3.24
+      }
+    ]
+  },
+  "NCH": {
+    "symbol": "NCH",
+    "name": "N.C. Housing Public Company Limited",
+    "business_summary": "N.C. Housing Public Company Limited engages in the real estate development business in Thailand. The company develops single detached houses, duplexes, townhomes, and condominiums. It also engages in the land development; contractor and project management business; provision of property management and construction services; intermediate care and wellness business; and rental space in club house and health rehabilitation and senior care center, etc. The company was incorporated in 1994 and is headquartered in Pathum Thani, Thailand. N.C. Housing Public Company Limited is a subsidiary of NCH 2555 Holding Company Limited.",
+    "current_price": 0.44,
+    "pe_ratio": null,
+    "dividend_yield": 0.0,
+    "high_1m": 0.48,
+    "low_1m": 0.4,
+    "support_levels": [
+      0.38,
+      0.41
+    ],
+    "resistance_levels": [
+      0.49,
+      0.57
+    ],
+    "upcoming_xd": "2024-03-08",
+    "upcoming_dividend_amount": 0.05,
+    "upcoming_payment_date": "2024-03-23",
+    "dividend_history": [
+      {
+        "date": "2024-03-08",
+        "amount": 0.05
+      },
+      {
+        "date": "2023-03-09",
+        "amount": 0.11
+      },
+      {
+        "date": "2022-03-09",
+        "amount": 0.08
+      },
+      {
+        "date": "2021-03-12",
+        "amount": 0.04
+      },
+      {
+        "date": "2019-03-14",
+        "amount": 0.03
+      },
+      {
+        "date": "2016-03-10",
+        "amount": 0.0056
+      },
+      {
+        "date": "2015-03-12",
+        "amount": 0.0352
+      },
+      {
+        "date": "2014-03-11",
+        "amount": 0.0324
+      },
+      {
+        "date": "2013-03-12",
+        "amount": 0.0333
+      },
+      {
+        "date": "2012-03-13",
+        "amount": 0.0667
+      }
+    ],
+    "history": [
+      {
+        "date": "2025-07-17",
+        "close": 0.5
+      },
+      {
+        "date": "2025-07-21",
+        "close": 0.53
+      },
+      {
+        "date": "2025-07-23",
+        "close": 0.54
+      },
+      {
+        "date": "2025-07-25",
+        "close": 0.52
+      },
+      {
+        "date": "2025-07-30",
+        "close": 0.54
+      },
+      {
+        "date": "2025-08-01",
+        "close": 0.52
+      },
+      {
+        "date": "2025-08-05",
+        "close": 0.53
+      },
+      {
+        "date": "2025-08-07",
+        "close": 0.52
+      },
+      {
+        "date": "2025-08-13",
+        "close": 0.53
+      },
+      {
+        "date": "2025-08-15",
+        "close": 0.52
+      },
+      {
+        "date": "2025-08-19",
+        "close": 0.49
+      },
+      {
+        "date": "2025-08-21",
+        "close": 0.49
+      },
+      {
+        "date": "2025-08-25",
+        "close": 0.51
+      },
+      {
+        "date": "2025-08-27",
+        "close": 0.51
+      },
+      {
+        "date": "2025-08-29",
+        "close": 0.52
+      },
+      {
+        "date": "2025-09-02",
+        "close": 0.51
+      },
+      {
+        "date": "2025-09-04",
+        "close": 0.54
+      },
+      {
+        "date": "2025-09-08",
+        "close": 0.53
+      },
+      {
+        "date": "2025-09-10",
+        "close": 0.53
+      },
+      {
+        "date": "2025-09-12",
+        "close": 0.54
+      },
+      {
+        "date": "2025-09-16",
+        "close": 0.56
+      },
+      {
+        "date": "2025-09-18",
+        "close": 0.54
+      },
+      {
+        "date": "2025-09-22",
+        "close": 0.55
+      },
+      {
+        "date": "2025-09-24",
+        "close": 0.57
+      },
+      {
+        "date": "2025-09-26",
+        "close": 0.56
+      },
+      {
+        "date": "2025-09-30",
+        "close": 0.55
+      },
+      {
+        "date": "2025-10-02",
+        "close": 0.54
+      },
+      {
+        "date": "2025-10-06",
+        "close": 0.53
+      },
+      {
+        "date": "2025-10-08",
+        "close": 0.53
+      },
+      {
+        "date": "2025-10-10",
+        "close": 0.53
+      },
+      {
+        "date": "2025-10-15",
+        "close": 0.53
+      },
+      {
+        "date": "2025-10-17",
+        "close": 0.51
+      },
+      {
+        "date": "2025-10-21",
+        "close": 0.51
+      },
+      {
+        "date": "2025-10-24",
+        "close": 0.51
+      },
+      {
+        "date": "2025-10-28",
+        "close": 0.5
+      },
+      {
+        "date": "2025-10-30",
+        "close": 0.5
+      },
+      {
+        "date": "2025-11-03",
+        "close": 0.5
+      },
+      {
+        "date": "2025-11-05",
+        "close": 0.47
+      },
+      {
+        "date": "2025-11-07",
+        "close": 0.46
+      },
+      {
+        "date": "2025-11-11",
+        "close": 0.45
+      },
+      {
+        "date": "2025-11-13",
+        "close": 0.45
+      },
+      {
+        "date": "2025-11-17",
+        "close": 0.42
+      },
+      {
+        "date": "2025-11-19",
+        "close": 0.42
+      },
+      {
+        "date": "2025-11-21",
+        "close": 0.42
+      },
+      {
+        "date": "2025-11-25",
+        "close": 0.43
+      },
+      {
+        "date": "2025-11-27",
+        "close": 0.43
+      },
+      {
+        "date": "2025-12-01",
+        "close": 0.42
+      },
+      {
+        "date": "2025-12-03",
+        "close": 0.42
+      },
+      {
+        "date": "2025-12-08",
+        "close": 0.42
+      },
+      {
+        "date": "2025-12-11",
+        "close": 0.42
+      },
+      {
+        "date": "2025-12-15",
+        "close": 0.41
+      },
+      {
+        "date": "2025-12-17",
+        "close": 0.41
+      },
+      {
+        "date": "2025-12-19",
+        "close": 0.41
+      },
+      {
+        "date": "2025-12-23",
+        "close": 0.42
+      },
+      {
+        "date": "2025-12-25",
+        "close": 0.43
+      },
+      {
+        "date": "2025-12-29",
+        "close": 0.42
+      },
+      {
+        "date": "2026-01-05",
+        "close": 0.42
+      },
+      {
+        "date": "2026-01-07",
+        "close": 0.4
+      },
+      {
+        "date": "2026-01-09",
+        "close": 0.4
+      },
+      {
+        "date": "2026-01-13",
+        "close": 0.42
+      },
+      {
+        "date": "2026-01-15",
+        "close": 0.39
+      },
+      {
+        "date": "2026-01-19",
+        "close": 0.41
+      },
+      {
+        "date": "2026-01-21",
+        "close": 0.41
+      },
+      {
+        "date": "2026-01-23",
+        "close": 0.4
+      },
+      {
+        "date": "2026-01-27",
+        "close": 0.41
+      },
+      {
+        "date": "2026-01-29",
+        "close": 0.4
+      },
+      {
+        "date": "2026-02-02",
+        "close": 0.41
+      },
+      {
+        "date": "2026-02-04",
+        "close": 0.4
+      },
+      {
+        "date": "2026-02-06",
+        "close": 0.4
+      },
+      {
+        "date": "2026-02-10",
+        "close": 0.4
+      },
+      {
+        "date": "2026-02-12",
+        "close": 0.39
+      },
+      {
+        "date": "2026-02-16",
+        "close": 0.4
+      },
+      {
+        "date": "2026-02-18",
+        "close": 0.44
+      },
+      {
+        "date": "2026-02-20",
+        "close": 0.45
+      },
+      {
+        "date": "2026-02-24",
+        "close": 0.47
+      },
+      {
+        "date": "2026-02-26",
+        "close": 0.48
+      },
+      {
+        "date": "2026-03-02",
+        "close": 0.44
+      },
+      {
+        "date": "2026-03-05",
+        "close": 0.41
+      },
+      {
+        "date": "2026-03-09",
+        "close": 0.39
+      },
+      {
+        "date": "2026-03-11",
+        "close": 0.39
+      },
+      {
+        "date": "2026-03-13",
+        "close": 0.39
+      },
+      {
+        "date": "2026-03-17",
+        "close": 0.39
+      },
+      {
+        "date": "2026-03-19",
+        "close": 0.39
+      },
+      {
+        "date": "2026-03-23",
+        "close": 0.37
+      },
+      {
+        "date": "2026-03-25",
+        "close": 0.39
+      },
+      {
+        "date": "2026-03-27",
+        "close": 0.38
+      },
+      {
+        "date": "2026-03-31",
+        "close": 0.39
+      },
+      {
+        "date": "2026-04-02",
+        "close": 0.39
+      },
+      {
+        "date": "2026-04-07",
+        "close": 0.39
+      },
+      {
+        "date": "2026-04-09",
+        "close": 0.4
+      },
+      {
+        "date": "2026-04-16",
+        "close": 0.4
+      },
+      {
+        "date": "2026-04-20",
+        "close": 0.41
+      },
+      {
+        "date": "2026-04-22",
+        "close": 0.41
+      },
+      {
+        "date": "2026-04-24",
+        "close": 0.41
+      },
+      {
+        "date": "2026-04-28",
+        "close": 0.4
+      },
+      {
+        "date": "2026-04-30",
+        "close": 0.41
+      },
+      {
+        "date": "2026-05-04",
+        "close": 0.41
+      },
+      {
+        "date": "2026-05-06",
+        "close": 0.42
+      },
+      {
+        "date": "2026-05-08",
+        "close": 0.4
+      },
+      {
+        "date": "2026-05-12",
+        "close": 0.4
+      },
+      {
+        "date": "2026-05-14",
+        "close": 0.4
+      },
+      {
+        "date": "2026-05-18",
+        "close": 0.39
+      },
+      {
+        "date": "2026-05-20",
+        "close": 0.4
+      },
+      {
+        "date": "2026-05-22",
+        "close": 0.4
+      },
+      {
+        "date": "2026-05-26",
+        "close": 0.4
+      },
+      {
+        "date": "2026-05-28",
+        "close": 0.39
+      },
+      {
+        "date": "2026-06-01",
+        "close": 0.38
+      },
+      {
+        "date": "2026-06-03",
+        "close": 0.38
+      },
+      {
+        "date": "2026-06-05",
+        "close": 0.38
+      },
+      {
+        "date": "2026-06-09",
+        "close": 0.38
+      },
+      {
+        "date": "2026-06-11",
+        "close": 0.38
+      },
+      {
+        "date": "2026-06-15",
+        "close": 0.39
+      },
+      {
+        "date": "2026-06-17",
+        "close": 0.39
+      },
+      {
+        "date": "2026-06-19",
+        "close": 0.41
+      },
+      {
+        "date": "2026-06-23",
+        "close": 0.42
+      },
+      {
+        "date": "2026-06-25",
+        "close": 0.42
+      },
+      {
+        "date": "2026-06-29",
+        "close": 0.42
+      },
+      {
+        "date": "2026-07-01",
+        "close": 0.42
+      },
+      {
+        "date": "2026-07-03",
+        "close": 0.43
+      },
+      {
+        "date": "2026-07-07",
+        "close": 0.41
+      },
+      {
+        "date": "2026-07-09",
+        "close": 0.42
+      },
+      {
+        "date": "2026-07-13",
+        "close": 0.42
+      },
+      {
+        "date": "2026-07-15",
+        "close": 0.42
+      },
+      {
+        "date": "2026-07-17",
+        "close": 0.44
       }
     ]
   },
@@ -300772,6 +304587,547 @@
       }
     ]
   },
+  "PSTC": {
+    "symbol": "PSTC",
+    "name": "Power Solution Technologies Public Company Limited",
+    "business_summary": "Power Solution Technologies Public Company Limited, together with its subsidiaries, provides fuel distribution and logistics services in Thailand. It operates in four segments: Distribution and Installation of Power Systems and Project Equipment; Electricity Generating from Renewable Energy; Fuel Distribution and Logistics; and Construction. The company distributes liquefied petroleum and liquefied natural gas; transports oil through a pipeline transport system; and operates gas stations. It also produces and distributes electricity generated from solar, biomass, and biological power; and designs, constructs, and procures renewable energy plants, gas, and fuel storage, as well as provides energy engineering services; natural gas retail stations; and construction contracting for natural gas filling stations, energy engineering works, and operation and maintenance of natural gas stations for vehicles. In addition, the company distributes and installs power control and backup systems, and project equipment used in power and energy projects. Power Solution Technologies Public Company Limited was founded in 2001 and is headquartered in Bangkok, Thailand.",
+    "current_price": 0.36,
+    "pe_ratio": null,
+    "dividend_yield": 0.0,
+    "high_1m": 0.37,
+    "low_1m": 0.3,
+    "support_levels": [
+      0.25,
+      0.26,
+      0.27
+    ],
+    "resistance_levels": [
+      0.43
+    ],
+    "upcoming_xd": "2020-03-13",
+    "upcoming_dividend_amount": 0.05,
+    "upcoming_payment_date": "2020-03-28",
+    "dividend_history": [
+      {
+        "date": "2020-03-13",
+        "amount": 0.05
+      },
+      {
+        "date": "2019-05-03",
+        "amount": 0.09
+      },
+      {
+        "date": "2019-03-21",
+        "amount": 0.09
+      },
+      {
+        "date": "2016-03-10",
+        "amount": 0.009
+      },
+      {
+        "date": "2015-03-11",
+        "amount": 0.0276
+      }
+    ],
+    "history": [
+      {
+        "date": "2025-07-17",
+        "close": 0.4
+      },
+      {
+        "date": "2025-07-21",
+        "close": 0.41
+      },
+      {
+        "date": "2025-07-23",
+        "close": 0.41
+      },
+      {
+        "date": "2025-07-25",
+        "close": 0.4
+      },
+      {
+        "date": "2025-07-30",
+        "close": 0.4
+      },
+      {
+        "date": "2025-08-01",
+        "close": 0.41
+      },
+      {
+        "date": "2025-08-05",
+        "close": 0.41
+      },
+      {
+        "date": "2025-08-07",
+        "close": 0.4
+      },
+      {
+        "date": "2025-08-13",
+        "close": 0.4
+      },
+      {
+        "date": "2025-08-15",
+        "close": 0.39
+      },
+      {
+        "date": "2025-08-19",
+        "close": 0.39
+      },
+      {
+        "date": "2025-08-21",
+        "close": 0.38
+      },
+      {
+        "date": "2025-08-25",
+        "close": 0.39
+      },
+      {
+        "date": "2025-08-27",
+        "close": 0.39
+      },
+      {
+        "date": "2025-08-29",
+        "close": 0.39
+      },
+      {
+        "date": "2025-09-02",
+        "close": 0.37
+      },
+      {
+        "date": "2025-09-04",
+        "close": 0.38
+      },
+      {
+        "date": "2025-09-08",
+        "close": 0.38
+      },
+      {
+        "date": "2025-09-10",
+        "close": 0.43
+      },
+      {
+        "date": "2025-09-12",
+        "close": 0.41
+      },
+      {
+        "date": "2025-09-16",
+        "close": 0.42
+      },
+      {
+        "date": "2025-09-18",
+        "close": 0.41
+      },
+      {
+        "date": "2025-09-22",
+        "close": 0.39
+      },
+      {
+        "date": "2025-09-24",
+        "close": 0.39
+      },
+      {
+        "date": "2025-09-26",
+        "close": 0.38
+      },
+      {
+        "date": "2025-09-30",
+        "close": 0.38
+      },
+      {
+        "date": "2025-10-02",
+        "close": 0.37
+      },
+      {
+        "date": "2025-10-06",
+        "close": 0.35
+      },
+      {
+        "date": "2025-10-08",
+        "close": 0.36
+      },
+      {
+        "date": "2025-10-10",
+        "close": 0.35
+      },
+      {
+        "date": "2025-10-15",
+        "close": 0.35
+      },
+      {
+        "date": "2025-10-17",
+        "close": 0.36
+      },
+      {
+        "date": "2025-10-21",
+        "close": 0.36
+      },
+      {
+        "date": "2025-10-24",
+        "close": 0.34
+      },
+      {
+        "date": "2025-10-28",
+        "close": 0.33
+      },
+      {
+        "date": "2025-10-30",
+        "close": 0.32
+      },
+      {
+        "date": "2025-11-03",
+        "close": 0.3
+      },
+      {
+        "date": "2025-11-05",
+        "close": 0.3
+      },
+      {
+        "date": "2025-11-07",
+        "close": 0.3
+      },
+      {
+        "date": "2025-11-11",
+        "close": 0.29
+      },
+      {
+        "date": "2025-11-13",
+        "close": 0.25
+      },
+      {
+        "date": "2025-11-17",
+        "close": 0.26
+      },
+      {
+        "date": "2025-11-19",
+        "close": 0.27
+      },
+      {
+        "date": "2025-11-21",
+        "close": 0.25
+      },
+      {
+        "date": "2025-11-25",
+        "close": 0.28
+      },
+      {
+        "date": "2025-11-27",
+        "close": 0.26
+      },
+      {
+        "date": "2025-12-01",
+        "close": 0.28
+      },
+      {
+        "date": "2025-12-03",
+        "close": 0.26
+      },
+      {
+        "date": "2025-12-08",
+        "close": 0.26
+      },
+      {
+        "date": "2025-12-11",
+        "close": 0.26
+      },
+      {
+        "date": "2025-12-15",
+        "close": 0.28
+      },
+      {
+        "date": "2025-12-17",
+        "close": 0.27
+      },
+      {
+        "date": "2025-12-19",
+        "close": 0.26
+      },
+      {
+        "date": "2025-12-23",
+        "close": 0.26
+      },
+      {
+        "date": "2025-12-25",
+        "close": 0.27
+      },
+      {
+        "date": "2025-12-29",
+        "close": 0.28
+      },
+      {
+        "date": "2026-01-05",
+        "close": 0.27
+      },
+      {
+        "date": "2026-01-07",
+        "close": 0.27
+      },
+      {
+        "date": "2026-01-09",
+        "close": 0.28
+      },
+      {
+        "date": "2026-01-13",
+        "close": 0.28
+      },
+      {
+        "date": "2026-01-15",
+        "close": 0.29
+      },
+      {
+        "date": "2026-01-19",
+        "close": 0.3
+      },
+      {
+        "date": "2026-01-21",
+        "close": 0.29
+      },
+      {
+        "date": "2026-01-23",
+        "close": 0.29
+      },
+      {
+        "date": "2026-01-27",
+        "close": 0.28
+      },
+      {
+        "date": "2026-01-29",
+        "close": 0.27
+      },
+      {
+        "date": "2026-02-02",
+        "close": 0.27
+      },
+      {
+        "date": "2026-02-04",
+        "close": 0.26
+      },
+      {
+        "date": "2026-02-06",
+        "close": 0.26
+      },
+      {
+        "date": "2026-02-10",
+        "close": 0.26
+      },
+      {
+        "date": "2026-02-12",
+        "close": 0.26
+      },
+      {
+        "date": "2026-02-16",
+        "close": 0.26
+      },
+      {
+        "date": "2026-02-18",
+        "close": 0.28
+      },
+      {
+        "date": "2026-02-20",
+        "close": 0.29
+      },
+      {
+        "date": "2026-02-24",
+        "close": 0.29
+      },
+      {
+        "date": "2026-02-26",
+        "close": 0.28
+      },
+      {
+        "date": "2026-03-02",
+        "close": 0.25
+      },
+      {
+        "date": "2026-03-05",
+        "close": 0.23
+      },
+      {
+        "date": "2026-03-09",
+        "close": 0.27
+      },
+      {
+        "date": "2026-03-11",
+        "close": 0.27
+      },
+      {
+        "date": "2026-03-13",
+        "close": 0.25
+      },
+      {
+        "date": "2026-03-17",
+        "close": 0.28
+      },
+      {
+        "date": "2026-03-19",
+        "close": 0.27
+      },
+      {
+        "date": "2026-03-23",
+        "close": 0.28
+      },
+      {
+        "date": "2026-03-25",
+        "close": 0.28
+      },
+      {
+        "date": "2026-03-27",
+        "close": 0.27
+      },
+      {
+        "date": "2026-03-31",
+        "close": 0.28
+      },
+      {
+        "date": "2026-04-02",
+        "close": 0.28
+      },
+      {
+        "date": "2026-04-07",
+        "close": 0.26
+      },
+      {
+        "date": "2026-04-09",
+        "close": 0.27
+      },
+      {
+        "date": "2026-04-16",
+        "close": 0.27
+      },
+      {
+        "date": "2026-04-20",
+        "close": 0.26
+      },
+      {
+        "date": "2026-04-22",
+        "close": 0.25
+      },
+      {
+        "date": "2026-04-24",
+        "close": 0.26
+      },
+      {
+        "date": "2026-04-28",
+        "close": 0.26
+      },
+      {
+        "date": "2026-04-30",
+        "close": 0.27
+      },
+      {
+        "date": "2026-05-04",
+        "close": 0.27
+      },
+      {
+        "date": "2026-05-06",
+        "close": 0.26
+      },
+      {
+        "date": "2026-05-08",
+        "close": 0.26
+      },
+      {
+        "date": "2026-05-12",
+        "close": 0.27
+      },
+      {
+        "date": "2026-05-14",
+        "close": 0.27
+      },
+      {
+        "date": "2026-05-18",
+        "close": 0.29
+      },
+      {
+        "date": "2026-05-20",
+        "close": 0.28
+      },
+      {
+        "date": "2026-05-22",
+        "close": 0.28
+      },
+      {
+        "date": "2026-05-26",
+        "close": 0.28
+      },
+      {
+        "date": "2026-05-28",
+        "close": 0.28
+      },
+      {
+        "date": "2026-06-01",
+        "close": 0.28
+      },
+      {
+        "date": "2026-06-03",
+        "close": 0.29
+      },
+      {
+        "date": "2026-06-05",
+        "close": 0.29
+      },
+      {
+        "date": "2026-06-09",
+        "close": 0.29
+      },
+      {
+        "date": "2026-06-11",
+        "close": 0.32
+      },
+      {
+        "date": "2026-06-15",
+        "close": 0.32
+      },
+      {
+        "date": "2026-06-17",
+        "close": 0.32
+      },
+      {
+        "date": "2026-06-19",
+        "close": 0.31
+      },
+      {
+        "date": "2026-06-23",
+        "close": 0.32
+      },
+      {
+        "date": "2026-06-25",
+        "close": 0.32
+      },
+      {
+        "date": "2026-06-29",
+        "close": 0.31
+      },
+      {
+        "date": "2026-07-01",
+        "close": 0.33
+      },
+      {
+        "date": "2026-07-03",
+        "close": 0.33
+      },
+      {
+        "date": "2026-07-07",
+        "close": 0.31
+      },
+      {
+        "date": "2026-07-09",
+        "close": 0.32
+      },
+      {
+        "date": "2026-07-13",
+        "close": 0.32
+      },
+      {
+        "date": "2026-07-15",
+        "close": 0.34
+      },
+      {
+        "date": "2026-07-17",
+        "close": 0.36
+      }
+    ]
+  },
   "PT": {
     "symbol": "PT",
     "name": "Premier Technology Public Company Limited",
@@ -309105,6 +313461,527 @@
       }
     ]
   },
+  "RABBIT": {
+    "symbol": "RABBIT",
+    "name": "Rabbit Holdings Public Company Limited",
+    "business_summary": "Rabbit Holdings Public Company Limited, together with its subsidiaries, engages in real estate development and financial service business in Thailand and internationally. It operates through Financial Services and Real Estate business segments. The company engages in hotel business, rental properties, residential properties, and other property businesses. It also involved in the property development; insurance business, which offers life insurance products covering personal accidents; and financial investment business, as well as provides savings, health, investment, and post-retirement annuity insurance. In addition, the company provides consulting, hotel management, and asset management services. The company was formerly known as U City Public Company Limited and changed its name to Rabbit Holdings Public Company Limited in December 2022. Rabbit Holdings Public Company Limited was founded in 1988 and is headquartered in Bangkok, Thailand.",
+    "current_price": 0.38,
+    "pe_ratio": 2.11,
+    "dividend_yield": 0.0,
+    "high_1m": 0.43,
+    "low_1m": 0.33,
+    "support_levels": [
+      0.29,
+      0.33,
+      0.34
+    ],
+    "resistance_levels": [
+      0.39,
+      0.41
+    ],
+    "upcoming_xd": "1996-05-07",
+    "upcoming_dividend_amount": null,
+    "upcoming_payment_date": "1996-05-22",
+    "dividend_history": [],
+    "history": [
+      {
+        "date": "2025-07-17",
+        "close": 0.37
+      },
+      {
+        "date": "2025-07-21",
+        "close": 0.36
+      },
+      {
+        "date": "2025-07-23",
+        "close": 0.36
+      },
+      {
+        "date": "2025-07-25",
+        "close": 0.35
+      },
+      {
+        "date": "2025-07-30",
+        "close": 0.36
+      },
+      {
+        "date": "2025-08-01",
+        "close": 0.36
+      },
+      {
+        "date": "2025-08-05",
+        "close": 0.36
+      },
+      {
+        "date": "2025-08-07",
+        "close": 0.38
+      },
+      {
+        "date": "2025-08-13",
+        "close": 0.37
+      },
+      {
+        "date": "2025-08-15",
+        "close": 0.34
+      },
+      {
+        "date": "2025-08-19",
+        "close": 0.33
+      },
+      {
+        "date": "2025-08-21",
+        "close": 0.34
+      },
+      {
+        "date": "2025-08-25",
+        "close": 0.36
+      },
+      {
+        "date": "2025-08-27",
+        "close": 0.35
+      },
+      {
+        "date": "2025-08-29",
+        "close": 0.35
+      },
+      {
+        "date": "2025-09-02",
+        "close": 0.35
+      },
+      {
+        "date": "2025-09-04",
+        "close": 0.35
+      },
+      {
+        "date": "2025-09-08",
+        "close": 0.38
+      },
+      {
+        "date": "2025-09-10",
+        "close": 0.41
+      },
+      {
+        "date": "2025-09-12",
+        "close": 0.38
+      },
+      {
+        "date": "2025-09-16",
+        "close": 0.39
+      },
+      {
+        "date": "2025-09-18",
+        "close": 0.38
+      },
+      {
+        "date": "2025-09-22",
+        "close": 0.37
+      },
+      {
+        "date": "2025-09-24",
+        "close": 0.37
+      },
+      {
+        "date": "2025-09-26",
+        "close": 0.36
+      },
+      {
+        "date": "2025-09-30",
+        "close": 0.35
+      },
+      {
+        "date": "2025-10-02",
+        "close": 0.35
+      },
+      {
+        "date": "2025-10-06",
+        "close": 0.34
+      },
+      {
+        "date": "2025-10-08",
+        "close": 0.33
+      },
+      {
+        "date": "2025-10-10",
+        "close": 0.33
+      },
+      {
+        "date": "2025-10-15",
+        "close": 0.32
+      },
+      {
+        "date": "2025-10-17",
+        "close": 0.33
+      },
+      {
+        "date": "2025-10-21",
+        "close": 0.32
+      },
+      {
+        "date": "2025-10-24",
+        "close": 0.33
+      },
+      {
+        "date": "2025-10-28",
+        "close": 0.32
+      },
+      {
+        "date": "2025-10-30",
+        "close": 0.3
+      },
+      {
+        "date": "2025-11-03",
+        "close": 0.3
+      },
+      {
+        "date": "2025-11-05",
+        "close": 0.3
+      },
+      {
+        "date": "2025-11-07",
+        "close": 0.31
+      },
+      {
+        "date": "2025-11-11",
+        "close": 0.29
+      },
+      {
+        "date": "2025-11-13",
+        "close": 0.29
+      },
+      {
+        "date": "2025-11-17",
+        "close": 0.28
+      },
+      {
+        "date": "2025-11-19",
+        "close": 0.28
+      },
+      {
+        "date": "2025-11-21",
+        "close": 0.27
+      },
+      {
+        "date": "2025-11-25",
+        "close": 0.28
+      },
+      {
+        "date": "2025-11-27",
+        "close": 0.28
+      },
+      {
+        "date": "2025-12-01",
+        "close": 0.27
+      },
+      {
+        "date": "2025-12-03",
+        "close": 0.28
+      },
+      {
+        "date": "2025-12-08",
+        "close": 0.27
+      },
+      {
+        "date": "2025-12-11",
+        "close": 0.28
+      },
+      {
+        "date": "2025-12-15",
+        "close": 0.28
+      },
+      {
+        "date": "2025-12-17",
+        "close": 0.28
+      },
+      {
+        "date": "2025-12-19",
+        "close": 0.27
+      },
+      {
+        "date": "2025-12-23",
+        "close": 0.28
+      },
+      {
+        "date": "2025-12-25",
+        "close": 0.27
+      },
+      {
+        "date": "2025-12-29",
+        "close": 0.28
+      },
+      {
+        "date": "2026-01-05",
+        "close": 0.27
+      },
+      {
+        "date": "2026-01-07",
+        "close": 0.27
+      },
+      {
+        "date": "2026-01-09",
+        "close": 0.27
+      },
+      {
+        "date": "2026-01-13",
+        "close": 0.26
+      },
+      {
+        "date": "2026-01-15",
+        "close": 0.26
+      },
+      {
+        "date": "2026-01-19",
+        "close": 0.26
+      },
+      {
+        "date": "2026-01-21",
+        "close": 0.26
+      },
+      {
+        "date": "2026-01-23",
+        "close": 0.26
+      },
+      {
+        "date": "2026-01-27",
+        "close": 0.26
+      },
+      {
+        "date": "2026-01-29",
+        "close": 0.27
+      },
+      {
+        "date": "2026-02-02",
+        "close": 0.27
+      },
+      {
+        "date": "2026-02-04",
+        "close": 0.26
+      },
+      {
+        "date": "2026-02-06",
+        "close": 0.27
+      },
+      {
+        "date": "2026-02-10",
+        "close": 0.28
+      },
+      {
+        "date": "2026-02-12",
+        "close": 0.29
+      },
+      {
+        "date": "2026-02-16",
+        "close": 0.38
+      },
+      {
+        "date": "2026-02-18",
+        "close": 0.39
+      },
+      {
+        "date": "2026-02-20",
+        "close": 0.37
+      },
+      {
+        "date": "2026-02-24",
+        "close": 0.36
+      },
+      {
+        "date": "2026-02-26",
+        "close": 0.36
+      },
+      {
+        "date": "2026-03-02",
+        "close": 0.29
+      },
+      {
+        "date": "2026-03-05",
+        "close": 0.31
+      },
+      {
+        "date": "2026-03-09",
+        "close": 0.31
+      },
+      {
+        "date": "2026-03-11",
+        "close": 0.31
+      },
+      {
+        "date": "2026-03-13",
+        "close": 0.33
+      },
+      {
+        "date": "2026-03-17",
+        "close": 0.32
+      },
+      {
+        "date": "2026-03-19",
+        "close": 0.33
+      },
+      {
+        "date": "2026-03-23",
+        "close": 0.31
+      },
+      {
+        "date": "2026-03-25",
+        "close": 0.31
+      },
+      {
+        "date": "2026-03-27",
+        "close": 0.31
+      },
+      {
+        "date": "2026-03-31",
+        "close": 0.32
+      },
+      {
+        "date": "2026-04-02",
+        "close": 0.32
+      },
+      {
+        "date": "2026-04-07",
+        "close": 0.31
+      },
+      {
+        "date": "2026-04-09",
+        "close": 0.3
+      },
+      {
+        "date": "2026-04-16",
+        "close": 0.3
+      },
+      {
+        "date": "2026-04-20",
+        "close": 0.3
+      },
+      {
+        "date": "2026-04-22",
+        "close": 0.31
+      },
+      {
+        "date": "2026-04-24",
+        "close": 0.31
+      },
+      {
+        "date": "2026-04-28",
+        "close": 0.29
+      },
+      {
+        "date": "2026-04-30",
+        "close": 0.3
+      },
+      {
+        "date": "2026-05-04",
+        "close": 0.3
+      },
+      {
+        "date": "2026-05-06",
+        "close": 0.3
+      },
+      {
+        "date": "2026-05-08",
+        "close": 0.3
+      },
+      {
+        "date": "2026-05-12",
+        "close": 0.29
+      },
+      {
+        "date": "2026-05-14",
+        "close": 0.3
+      },
+      {
+        "date": "2026-05-18",
+        "close": 0.33
+      },
+      {
+        "date": "2026-05-20",
+        "close": 0.34
+      },
+      {
+        "date": "2026-05-22",
+        "close": 0.34
+      },
+      {
+        "date": "2026-05-26",
+        "close": 0.33
+      },
+      {
+        "date": "2026-05-28",
+        "close": 0.36
+      },
+      {
+        "date": "2026-06-01",
+        "close": 0.34
+      },
+      {
+        "date": "2026-06-03",
+        "close": 0.37
+      },
+      {
+        "date": "2026-06-05",
+        "close": 0.37
+      },
+      {
+        "date": "2026-06-09",
+        "close": 0.37
+      },
+      {
+        "date": "2026-06-11",
+        "close": 0.36
+      },
+      {
+        "date": "2026-06-15",
+        "close": 0.35
+      },
+      {
+        "date": "2026-06-17",
+        "close": 0.36
+      },
+      {
+        "date": "2026-06-19",
+        "close": 0.36
+      },
+      {
+        "date": "2026-06-23",
+        "close": 0.34
+      },
+      {
+        "date": "2026-06-25",
+        "close": 0.35
+      },
+      {
+        "date": "2026-06-29",
+        "close": 0.35
+      },
+      {
+        "date": "2026-07-01",
+        "close": 0.35
+      },
+      {
+        "date": "2026-07-03",
+        "close": 0.35
+      },
+      {
+        "date": "2026-07-07",
+        "close": 0.35
+      },
+      {
+        "date": "2026-07-09",
+        "close": 0.35
+      },
+      {
+        "date": "2026-07-13",
+        "close": 0.39
+      },
+      {
+        "date": "2026-07-15",
+        "close": 0.37
+      },
+      {
+        "date": "2026-07-17",
+        "close": 0.38
+      }
+    ]
+  },
   "RAM": {
     "symbol": "RAM",
     "name": "Ramkhamhaeng Hospital Public Company Limited",
@@ -312995,6 +317872,556 @@
       {
         "date": "2026-07-17",
         "close": 15.1
+      }
+    ]
+  },
+  "RML": {
+    "symbol": "RML",
+    "name": "Raimon Land Public Company Limited",
+    "business_summary": "Raimon Land Public Company Limited, together with its subsidiaries, engages in the property development business in Thailand. The company also involves in renting office buildings, hotels, and food and beverage businesses. In addition, it provides property rental, lease, and resale agency services. Raimon Land Public Company Limited was founded in 1987 and is based in Bangkok, Thailand.",
+    "current_price": 0.09,
+    "pe_ratio": null,
+    "dividend_yield": 0.0,
+    "high_1m": 0.11,
+    "low_1m": 0.09,
+    "support_levels": [
+      0.09,
+      0.09
+    ],
+    "resistance_levels": [
+      0.1,
+      0.11,
+      0.12
+    ],
+    "upcoming_xd": "2020-05-12",
+    "upcoming_dividend_amount": 0.01,
+    "upcoming_payment_date": "2020-05-27",
+    "dividend_history": [
+      {
+        "date": "2019-05-08",
+        "amount": 0.015
+      },
+      {
+        "date": "2018-05-07",
+        "amount": 0.0312
+      },
+      {
+        "date": "2017-04-28",
+        "amount": 0.0698
+      },
+      {
+        "date": "2016-04-28",
+        "amount": 0.0549
+      },
+      {
+        "date": "2009-03-12",
+        "amount": 0.0086
+      },
+      {
+        "date": "2006-05-10",
+        "amount": 0.0334
+      },
+      {
+        "date": "2005-04-07",
+        "amount": 0.0433
+      }
+    ],
+    "history": [
+      {
+        "date": "2025-07-17",
+        "close": 0.14
+      },
+      {
+        "date": "2025-07-21",
+        "close": 0.13
+      },
+      {
+        "date": "2025-07-23",
+        "close": 0.13
+      },
+      {
+        "date": "2025-07-25",
+        "close": 0.13
+      },
+      {
+        "date": "2025-07-30",
+        "close": 0.13
+      },
+      {
+        "date": "2025-08-01",
+        "close": 0.13
+      },
+      {
+        "date": "2025-08-05",
+        "close": 0.12
+      },
+      {
+        "date": "2025-08-07",
+        "close": 0.14
+      },
+      {
+        "date": "2025-08-13",
+        "close": 0.14
+      },
+      {
+        "date": "2025-08-15",
+        "close": 0.14
+      },
+      {
+        "date": "2025-08-19",
+        "close": 0.15
+      },
+      {
+        "date": "2025-08-21",
+        "close": 0.16
+      },
+      {
+        "date": "2025-08-25",
+        "close": 0.18
+      },
+      {
+        "date": "2025-08-27",
+        "close": 0.16
+      },
+      {
+        "date": "2025-08-29",
+        "close": 0.14
+      },
+      {
+        "date": "2025-09-02",
+        "close": 0.14
+      },
+      {
+        "date": "2025-09-04",
+        "close": 0.14
+      },
+      {
+        "date": "2025-09-08",
+        "close": 0.15
+      },
+      {
+        "date": "2025-09-10",
+        "close": 0.16
+      },
+      {
+        "date": "2025-09-12",
+        "close": 0.15
+      },
+      {
+        "date": "2025-09-16",
+        "close": 0.15
+      },
+      {
+        "date": "2025-09-18",
+        "close": 0.15
+      },
+      {
+        "date": "2025-09-22",
+        "close": 0.14
+      },
+      {
+        "date": "2025-09-24",
+        "close": 0.14
+      },
+      {
+        "date": "2025-09-26",
+        "close": 0.15
+      },
+      {
+        "date": "2025-09-30",
+        "close": 0.15
+      },
+      {
+        "date": "2025-10-02",
+        "close": 0.15
+      },
+      {
+        "date": "2025-10-06",
+        "close": 0.15
+      },
+      {
+        "date": "2025-10-08",
+        "close": 0.14
+      },
+      {
+        "date": "2025-10-10",
+        "close": 0.14
+      },
+      {
+        "date": "2025-10-15",
+        "close": 0.13
+      },
+      {
+        "date": "2025-10-17",
+        "close": 0.14
+      },
+      {
+        "date": "2025-10-21",
+        "close": 0.15
+      },
+      {
+        "date": "2025-10-24",
+        "close": 0.14
+      },
+      {
+        "date": "2025-10-28",
+        "close": 0.14
+      },
+      {
+        "date": "2025-10-30",
+        "close": 0.13
+      },
+      {
+        "date": "2025-11-03",
+        "close": 0.14
+      },
+      {
+        "date": "2025-11-05",
+        "close": 0.13
+      },
+      {
+        "date": "2025-11-07",
+        "close": 0.13
+      },
+      {
+        "date": "2025-11-11",
+        "close": 0.13
+      },
+      {
+        "date": "2025-11-13",
+        "close": 0.13
+      },
+      {
+        "date": "2025-11-17",
+        "close": 0.13
+      },
+      {
+        "date": "2025-11-19",
+        "close": 0.13
+      },
+      {
+        "date": "2025-11-21",
+        "close": 0.12
+      },
+      {
+        "date": "2025-11-25",
+        "close": 0.12
+      },
+      {
+        "date": "2025-11-27",
+        "close": 0.14
+      },
+      {
+        "date": "2025-12-01",
+        "close": 0.14
+      },
+      {
+        "date": "2025-12-03",
+        "close": 0.14
+      },
+      {
+        "date": "2025-12-08",
+        "close": 0.14
+      },
+      {
+        "date": "2025-12-11",
+        "close": 0.14
+      },
+      {
+        "date": "2025-12-15",
+        "close": 0.13
+      },
+      {
+        "date": "2025-12-17",
+        "close": 0.13
+      },
+      {
+        "date": "2025-12-19",
+        "close": 0.12
+      },
+      {
+        "date": "2025-12-23",
+        "close": 0.13
+      },
+      {
+        "date": "2025-12-25",
+        "close": 0.12
+      },
+      {
+        "date": "2025-12-29",
+        "close": 0.13
+      },
+      {
+        "date": "2026-01-05",
+        "close": 0.12
+      },
+      {
+        "date": "2026-01-07",
+        "close": 0.13
+      },
+      {
+        "date": "2026-01-09",
+        "close": 0.13
+      },
+      {
+        "date": "2026-01-13",
+        "close": 0.11
+      },
+      {
+        "date": "2026-01-15",
+        "close": 0.12
+      },
+      {
+        "date": "2026-01-19",
+        "close": 0.12
+      },
+      {
+        "date": "2026-01-21",
+        "close": 0.11
+      },
+      {
+        "date": "2026-01-23",
+        "close": 0.12
+      },
+      {
+        "date": "2026-01-27",
+        "close": 0.12
+      },
+      {
+        "date": "2026-01-29",
+        "close": 0.12
+      },
+      {
+        "date": "2026-02-02",
+        "close": 0.11
+      },
+      {
+        "date": "2026-02-04",
+        "close": 0.12
+      },
+      {
+        "date": "2026-02-06",
+        "close": 0.11
+      },
+      {
+        "date": "2026-02-10",
+        "close": 0.12
+      },
+      {
+        "date": "2026-02-12",
+        "close": 0.12
+      },
+      {
+        "date": "2026-02-16",
+        "close": 0.12
+      },
+      {
+        "date": "2026-02-18",
+        "close": 0.11
+      },
+      {
+        "date": "2026-02-20",
+        "close": 0.13
+      },
+      {
+        "date": "2026-02-24",
+        "close": 0.12
+      },
+      {
+        "date": "2026-02-26",
+        "close": 0.12
+      },
+      {
+        "date": "2026-03-02",
+        "close": 0.11
+      },
+      {
+        "date": "2026-03-05",
+        "close": 0.11
+      },
+      {
+        "date": "2026-03-09",
+        "close": 0.11
+      },
+      {
+        "date": "2026-03-11",
+        "close": 0.12
+      },
+      {
+        "date": "2026-03-13",
+        "close": 0.11
+      },
+      {
+        "date": "2026-03-17",
+        "close": 0.1
+      },
+      {
+        "date": "2026-03-19",
+        "close": 0.12
+      },
+      {
+        "date": "2026-03-23",
+        "close": 0.12
+      },
+      {
+        "date": "2026-03-25",
+        "close": 0.12
+      },
+      {
+        "date": "2026-03-27",
+        "close": 0.12
+      },
+      {
+        "date": "2026-03-31",
+        "close": 0.12
+      },
+      {
+        "date": "2026-04-02",
+        "close": 0.12
+      },
+      {
+        "date": "2026-04-07",
+        "close": 0.12
+      },
+      {
+        "date": "2026-04-09",
+        "close": 0.13
+      },
+      {
+        "date": "2026-04-16",
+        "close": 0.12
+      },
+      {
+        "date": "2026-04-20",
+        "close": 0.12
+      },
+      {
+        "date": "2026-04-22",
+        "close": 0.13
+      },
+      {
+        "date": "2026-04-24",
+        "close": 0.11
+      },
+      {
+        "date": "2026-04-28",
+        "close": 0.11
+      },
+      {
+        "date": "2026-04-30",
+        "close": 0.11
+      },
+      {
+        "date": "2026-05-04",
+        "close": 0.11
+      },
+      {
+        "date": "2026-05-06",
+        "close": 0.11
+      },
+      {
+        "date": "2026-05-08",
+        "close": 0.11
+      },
+      {
+        "date": "2026-05-12",
+        "close": 0.11
+      },
+      {
+        "date": "2026-05-14",
+        "close": 0.11
+      },
+      {
+        "date": "2026-05-18",
+        "close": 0.11
+      },
+      {
+        "date": "2026-05-20",
+        "close": 0.1
+      },
+      {
+        "date": "2026-05-22",
+        "close": 0.1
+      },
+      {
+        "date": "2026-05-26",
+        "close": 0.1
+      },
+      {
+        "date": "2026-05-28",
+        "close": 0.1
+      },
+      {
+        "date": "2026-06-01",
+        "close": 0.1
+      },
+      {
+        "date": "2026-06-03",
+        "close": 0.1
+      },
+      {
+        "date": "2026-06-05",
+        "close": 0.1
+      },
+      {
+        "date": "2026-06-09",
+        "close": 0.09
+      },
+      {
+        "date": "2026-06-11",
+        "close": 0.1
+      },
+      {
+        "date": "2026-06-15",
+        "close": 0.1
+      },
+      {
+        "date": "2026-06-17",
+        "close": 0.1
+      },
+      {
+        "date": "2026-06-19",
+        "close": 0.1
+      },
+      {
+        "date": "2026-06-23",
+        "close": 0.11
+      },
+      {
+        "date": "2026-06-25",
+        "close": 0.11
+      },
+      {
+        "date": "2026-06-29",
+        "close": 0.11
+      },
+      {
+        "date": "2026-07-01",
+        "close": 0.1
+      },
+      {
+        "date": "2026-07-03",
+        "close": 0.1
+      },
+      {
+        "date": "2026-07-07",
+        "close": 0.1
+      },
+      {
+        "date": "2026-07-09",
+        "close": 0.09
+      },
+      {
+        "date": "2026-07-13",
+        "close": 0.1
+      },
+      {
+        "date": "2026-07-15",
+        "close": 0.09
+      },
+      {
+        "date": "2026-07-17",
+        "close": 0.09
       }
     ]
   },
@@ -393535,9 +398962,9 @@
       0.57,
       0.54
     ],
-    "upcoming_xd": "2026-08-17",
+    "upcoming_xd": "2026-08-18",
     "upcoming_dividend_amount": 0.04,
-    "upcoming_payment_date": "2026-09-01",
+    "upcoming_payment_date": "2026-09-02",
     "dividend_history": [
       {
         "date": "2024-04-17",
@@ -446233,9 +451660,9 @@
       0.14,
       0.15
     ],
-    "upcoming_xd": "2026-08-17",
+    "upcoming_xd": "2026-08-18",
     "upcoming_dividend_amount": 0.01,
-    "upcoming_payment_date": "2026-09-01",
+    "upcoming_payment_date": "2026-09-02",
     "dividend_history": [
       {
         "date": "2023-05-03",
@@ -463452,6 +468879,567 @@
       {
         "date": "2026-07-17",
         "close": 23.6
+      }
+    ]
+  },
+  "UPF": {
+    "symbol": "UPF",
+    "name": "Union Pioneer Public Company Limited",
+    "business_summary": "Union Pioneer Public Company Limited manufactures and distributes finished elastic products in Thailand, the United States, and internationally. The company provides textile, hygiene, and industrial products, including covering yarn; elastic webbing and crochet; elastic braids; and elastic rubber threads and tapes. It also offers medical products, such as esmark, conforming, and elastic bandages; tourniquets; and anti-slip rubber sheets. In addition, the company provides exercise and rehab products comprising multi-loop and exercise bands. Further, it offers its products under Venus brand. The company was founded in 1973 and is headquartered in Bangkok, Thailand. Union Pioneer Public Company Limited is a subsidiary of Saha-Union Public Company Limited.",
+    "current_price": 20.7,
+    "pe_ratio": null,
+    "dividend_yield": 4.8,
+    "high_1m": 22.1,
+    "low_1m": 20.4,
+    "support_levels": [
+      20.1
+    ],
+    "resistance_levels": [
+      22.18,
+      23.86,
+      25.12
+    ],
+    "upcoming_xd": "2025-03-31",
+    "upcoming_dividend_amount": 1.2,
+    "upcoming_payment_date": "2025-04-15",
+    "dividend_history": [
+      {
+        "date": "2025-03-31",
+        "amount": 1.2
+      },
+      {
+        "date": "2024-04-01",
+        "amount": 0.86
+      },
+      {
+        "date": "2023-03-27",
+        "amount": 2.85
+      },
+      {
+        "date": "2022-03-28",
+        "amount": 4.71
+      },
+      {
+        "date": "2021-03-29",
+        "amount": 8.9
+      },
+      {
+        "date": "2020-03-30",
+        "amount": 0.13
+      },
+      {
+        "date": "2019-04-01",
+        "amount": 2.41
+      },
+      {
+        "date": "2018-04-02",
+        "amount": 4.0
+      },
+      {
+        "date": "2017-03-24",
+        "amount": 7.1
+      },
+      {
+        "date": "2016-03-25",
+        "amount": 4.9
+      }
+    ],
+    "history": [
+      {
+        "date": "2025-07-17",
+        "close": 26.75
+      },
+      {
+        "date": "2025-07-21",
+        "close": 26.5
+      },
+      {
+        "date": "2025-07-23",
+        "close": 27.0
+      },
+      {
+        "date": "2025-07-25",
+        "close": 25.75
+      },
+      {
+        "date": "2025-07-30",
+        "close": 25.75
+      },
+      {
+        "date": "2025-08-01",
+        "close": 25.75
+      },
+      {
+        "date": "2025-08-05",
+        "close": 27.25
+      },
+      {
+        "date": "2025-08-07",
+        "close": 27.75
+      },
+      {
+        "date": "2025-08-13",
+        "close": 26.25
+      },
+      {
+        "date": "2025-08-15",
+        "close": 26.25
+      },
+      {
+        "date": "2025-08-19",
+        "close": 26.0
+      },
+      {
+        "date": "2025-08-21",
+        "close": 25.75
+      },
+      {
+        "date": "2025-08-25",
+        "close": 25.5
+      },
+      {
+        "date": "2025-08-27",
+        "close": 25.5
+      },
+      {
+        "date": "2025-08-29",
+        "close": 25.5
+      },
+      {
+        "date": "2025-09-02",
+        "close": 25.25
+      },
+      {
+        "date": "2025-09-04",
+        "close": 26.0
+      },
+      {
+        "date": "2025-09-08",
+        "close": 26.5
+      },
+      {
+        "date": "2025-09-10",
+        "close": 26.75
+      },
+      {
+        "date": "2025-09-12",
+        "close": 27.5
+      },
+      {
+        "date": "2025-09-16",
+        "close": 26.5
+      },
+      {
+        "date": "2025-09-18",
+        "close": 26.0
+      },
+      {
+        "date": "2025-09-22",
+        "close": 26.75
+      },
+      {
+        "date": "2025-09-24",
+        "close": 26.75
+      },
+      {
+        "date": "2025-09-26",
+        "close": 26.25
+      },
+      {
+        "date": "2025-09-30",
+        "close": 26.5
+      },
+      {
+        "date": "2025-10-02",
+        "close": 27.25
+      },
+      {
+        "date": "2025-10-06",
+        "close": 27.25
+      },
+      {
+        "date": "2025-10-08",
+        "close": 27.25
+      },
+      {
+        "date": "2025-10-10",
+        "close": 26.5
+      },
+      {
+        "date": "2025-10-15",
+        "close": 26.0
+      },
+      {
+        "date": "2025-10-17",
+        "close": 25.5
+      },
+      {
+        "date": "2025-10-21",
+        "close": 25.25
+      },
+      {
+        "date": "2025-10-24",
+        "close": 25.75
+      },
+      {
+        "date": "2025-10-28",
+        "close": 25.75
+      },
+      {
+        "date": "2025-10-30",
+        "close": 25.75
+      },
+      {
+        "date": "2025-11-03",
+        "close": 25.0
+      },
+      {
+        "date": "2025-11-05",
+        "close": 25.0
+      },
+      {
+        "date": "2025-11-07",
+        "close": 24.7
+      },
+      {
+        "date": "2025-11-11",
+        "close": 24.7
+      },
+      {
+        "date": "2025-11-13",
+        "close": 24.8
+      },
+      {
+        "date": "2025-11-17",
+        "close": 24.9
+      },
+      {
+        "date": "2025-11-19",
+        "close": 24.8
+      },
+      {
+        "date": "2025-11-21",
+        "close": 24.0
+      },
+      {
+        "date": "2025-11-25",
+        "close": 23.6
+      },
+      {
+        "date": "2025-11-27",
+        "close": 23.6
+      },
+      {
+        "date": "2025-12-01",
+        "close": 23.6
+      },
+      {
+        "date": "2025-12-03",
+        "close": 23.6
+      },
+      {
+        "date": "2025-12-08",
+        "close": 22.9
+      },
+      {
+        "date": "2025-12-11",
+        "close": 22.1
+      },
+      {
+        "date": "2025-12-15",
+        "close": 23.0
+      },
+      {
+        "date": "2025-12-17",
+        "close": 23.0
+      },
+      {
+        "date": "2025-12-19",
+        "close": 22.7
+      },
+      {
+        "date": "2025-12-23",
+        "close": 23.7
+      },
+      {
+        "date": "2025-12-25",
+        "close": 23.0
+      },
+      {
+        "date": "2025-12-29",
+        "close": 23.0
+      },
+      {
+        "date": "2026-01-05",
+        "close": 23.0
+      },
+      {
+        "date": "2026-01-07",
+        "close": 23.0
+      },
+      {
+        "date": "2026-01-09",
+        "close": 23.9
+      },
+      {
+        "date": "2026-01-13",
+        "close": 23.9
+      },
+      {
+        "date": "2026-01-15",
+        "close": 23.9
+      },
+      {
+        "date": "2026-01-19",
+        "close": 23.2
+      },
+      {
+        "date": "2026-01-21",
+        "close": 23.3
+      },
+      {
+        "date": "2026-01-23",
+        "close": 23.3
+      },
+      {
+        "date": "2026-01-27",
+        "close": 22.3
+      },
+      {
+        "date": "2026-01-29",
+        "close": 22.1
+      },
+      {
+        "date": "2026-02-02",
+        "close": 22.0
+      },
+      {
+        "date": "2026-02-04",
+        "close": 22.5
+      },
+      {
+        "date": "2026-02-06",
+        "close": 23.0
+      },
+      {
+        "date": "2026-02-10",
+        "close": 23.0
+      },
+      {
+        "date": "2026-02-12",
+        "close": 22.5
+      },
+      {
+        "date": "2026-02-16",
+        "close": 22.0
+      },
+      {
+        "date": "2026-02-18",
+        "close": 22.8
+      },
+      {
+        "date": "2026-02-20",
+        "close": 22.7
+      },
+      {
+        "date": "2026-02-24",
+        "close": 22.7
+      },
+      {
+        "date": "2026-02-26",
+        "close": 22.7
+      },
+      {
+        "date": "2026-03-02",
+        "close": 21.8
+      },
+      {
+        "date": "2026-03-05",
+        "close": 22.4
+      },
+      {
+        "date": "2026-03-09",
+        "close": 20.6
+      },
+      {
+        "date": "2026-03-11",
+        "close": 21.2
+      },
+      {
+        "date": "2026-03-13",
+        "close": 20.7
+      },
+      {
+        "date": "2026-03-17",
+        "close": 21.6
+      },
+      {
+        "date": "2026-03-19",
+        "close": 21.5
+      },
+      {
+        "date": "2026-03-23",
+        "close": 20.5
+      },
+      {
+        "date": "2026-03-25",
+        "close": 20.1
+      },
+      {
+        "date": "2026-03-27",
+        "close": 20.4
+      },
+      {
+        "date": "2026-03-31",
+        "close": 20.8
+      },
+      {
+        "date": "2026-04-02",
+        "close": 20.6
+      },
+      {
+        "date": "2026-04-07",
+        "close": 20.4
+      },
+      {
+        "date": "2026-04-09",
+        "close": 20.5
+      },
+      {
+        "date": "2026-04-16",
+        "close": 20.5
+      },
+      {
+        "date": "2026-04-20",
+        "close": 20.5
+      },
+      {
+        "date": "2026-04-22",
+        "close": 20.6
+      },
+      {
+        "date": "2026-04-24",
+        "close": 20.1
+      },
+      {
+        "date": "2026-04-28",
+        "close": 20.6
+      },
+      {
+        "date": "2026-04-30",
+        "close": 20.3
+      },
+      {
+        "date": "2026-05-04",
+        "close": 20.3
+      },
+      {
+        "date": "2026-05-06",
+        "close": 20.6
+      },
+      {
+        "date": "2026-05-08",
+        "close": 21.0
+      },
+      {
+        "date": "2026-05-12",
+        "close": 22.1
+      },
+      {
+        "date": "2026-05-14",
+        "close": 22.2
+      },
+      {
+        "date": "2026-05-18",
+        "close": 22.2
+      },
+      {
+        "date": "2026-05-20",
+        "close": 22.0
+      },
+      {
+        "date": "2026-05-22",
+        "close": 21.9
+      },
+      {
+        "date": "2026-05-26",
+        "close": 21.5
+      },
+      {
+        "date": "2026-05-28",
+        "close": 21.4
+      },
+      {
+        "date": "2026-06-01",
+        "close": 22.2
+      },
+      {
+        "date": "2026-06-03",
+        "close": 21.6
+      },
+      {
+        "date": "2026-06-05",
+        "close": 21.8
+      },
+      {
+        "date": "2026-06-09",
+        "close": 21.8
+      },
+      {
+        "date": "2026-06-11",
+        "close": 21.9
+      },
+      {
+        "date": "2026-06-15",
+        "close": 21.9
+      },
+      {
+        "date": "2026-06-17",
+        "close": 22.0
+      },
+      {
+        "date": "2026-06-19",
+        "close": 21.4
+      },
+      {
+        "date": "2026-06-23",
+        "close": 22.1
+      },
+      {
+        "date": "2026-06-25",
+        "close": 22.0
+      },
+      {
+        "date": "2026-06-29",
+        "close": 21.4
+      },
+      {
+        "date": "2026-07-01",
+        "close": 21.4
+      },
+      {
+        "date": "2026-07-03",
+        "close": 21.0
+      },
+      {
+        "date": "2026-07-07",
+        "close": 21.0
+      },
+      {
+        "date": "2026-07-09",
+        "close": 21.5
+      },
+      {
+        "date": "2026-07-13",
+        "close": 21.6
+      },
+      {
+        "date": "2026-07-15",
+        "close": 21.0
+      },
+      {
+        "date": "2026-07-17",
+        "close": 20.7
       }
     ]
   },
