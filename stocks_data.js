@@ -58073,9 +58073,9 @@ var STOCKS_DATABASE = {
       0.9,
       0.95
     ],
-    "upcoming_xd": "2026-08-24",
+    "upcoming_xd": "2026-08-25",
     "upcoming_dividend_amount": 0.06,
-    "upcoming_payment_date": "2026-09-08",
+    "upcoming_payment_date": "2026-09-09",
     "dividend_history": [
       {
         "date": "2025-05-26",
@@ -129179,9 +129179,9 @@ var STOCKS_DATABASE = {
       56.25,
       67.75
     ],
-    "upcoming_xd": "2026-08-24",
+    "upcoming_xd": "2026-08-25",
     "upcoming_dividend_amount": 2.55,
-    "upcoming_payment_date": "2026-09-08",
+    "upcoming_payment_date": "2026-09-09",
     "dividend_history": [
       {
         "date": "2025-04-22",
@@ -167843,7 +167843,7 @@ var STOCKS_DATABASE = {
   "INOX": {
     "symbol": "INOX",
     "name": "POSCO-Thainox Public Company Limited",
-    "business_summary": "POSCO-Thainox Public Company Limited engages in the production and sale of cold-rolled stainless-steel products in Thailand, South Korea, the United States, Germany, Vietnam, Turkey, India, Hong Kong, and internationally. The company offers austenitic and ferritic stainless-steel products used in seat belts, spring coils, water tanks, construction work, transportation, pipes, pit containers, food manufacturing industry, boilers, heat exchangers, chemical industry, and large and hot water tanks, as well as in household appliances, such as kitchenette, sinks, and washing machines. The company was formerly known as Thainox Stainless Public Company Limited and changed its name to POSCO-Thainox Public Company Limited in 2011. POSCO-Thainox Public Company Limited was incorporated in 1990 and is headquartered in Bangkok, Thailand. POSCO-Thainox Public Company Limited is a subsidiary of POSCO Holdings Inc.",
+    "business_summary": "POSCO-Thainox Public Company Limited engages in the production and sale of cold-rolled stainless-steel products in Thailand, South Korea, the United States, Germany, Vietnam, Turkey, India, Hong Kong, and internationally. The company offers austenitic and ferritic stainless-steel products used in automotive and transportation parts, electrical home appliances, kitchenware, food processing and medical equipment, heavy industry, energy and environment, architecture, and building and construction applications, as well as in household appliances, such as kitchenette, sinks, and washing machines. The company was formerly known as Thainox Stainless Public Company Limited and changed its name to POSCO-Thainox Public Company Limited in 2011. POSCO-Thainox Public Company Limited was incorporated in 1990 and is headquartered in Bangkok, Thailand. POSCO-Thainox Public Company Limited operates as a subsidiary of POSCO Holdings Inc.",
     "current_price": 4.18,
     "pe_ratio": 20.9,
     "dividend_yield": 5.61,
@@ -291467,20 +291467,44 @@ var STOCKS_DATABASE = {
   },
   "POWER": {
     "symbol": "POWER",
-    "name": "POWER",
-    "business_summary": "ข้อมูลธุรกิจสำหรับหุ้นนี้ยังไม่พร้อมใช้งานในระบบ",
+    "name": "Power Solution Technologies Public Company Limited",
+    "business_summary": "Power Solution Technologies Public Company Limited, together with its subsidiaries, provides fuel distribution and logistics services in Thailand. It operates in four segments: Distribution and Installation of Power Systems and Project Equipment; Electricity Generating from Renewable Energy; Fuel Distribution and Logistics; and Construction. The company distributes liquefied petroleum and liquefied natural gas; transports oil through a pipeline transport system; and operates gas stations. It also produces and distributes electricity generated from solar, biomass, and biological power; and designs, constructs, and procures renewable energy plants, gas, and fuel storage, as well as provides energy engineering services; natural gas retail stations; and construction contracting for natural gas filling stations, energy engineering works, and operation and maintenance of natural gas stations for vehicles. In addition, the company distributes and installs power control and backup systems, and project equipment used in power and energy projects. Power Solution Technologies Public Company Limited was founded in 2001 and is headquartered in Bangkok, Thailand.",
     "current_price": 0.36,
     "pe_ratio": null,
     "dividend_yield": 0.0,
-    "high_1m": 0.36,
-    "low_1m": 0.35,
+    "high_1m": 0.37,
+    "low_1m": 0.34,
     "support_levels": [],
     "resistance_levels": [],
-    "upcoming_xd": null,
+    "upcoming_xd": "2020-03-13",
     "upcoming_dividend_amount": null,
-    "upcoming_payment_date": null,
+    "upcoming_payment_date": "2020-03-28",
     "dividend_history": [],
     "history": [
+      {
+        "date": "2026-07-16",
+        "close": 0.36
+      },
+      {
+        "date": "2026-07-17",
+        "close": 0.36
+      },
+      {
+        "date": "2026-07-20",
+        "close": 0.36
+      },
+      {
+        "date": "2026-07-21",
+        "close": 0.35
+      },
+      {
+        "date": "2026-07-22",
+        "close": 0.35
+      },
+      {
+        "date": "2026-07-23",
+        "close": 0.35
+      },
       {
         "date": "2026-07-24",
         "close": 0.36
@@ -399160,9 +399184,9 @@ var STOCKS_DATABASE = {
       0.57,
       0.54
     ],
-    "upcoming_xd": "2026-08-24",
+    "upcoming_xd": "2026-08-25",
     "upcoming_dividend_amount": 0.04,
-    "upcoming_payment_date": "2026-09-08",
+    "upcoming_payment_date": "2026-09-09",
     "dividend_history": [
       {
         "date": "2024-04-17",
@@ -451937,9 +451961,9 @@ var STOCKS_DATABASE = {
       0.14,
       0.15
     ],
-    "upcoming_xd": "2026-08-24",
+    "upcoming_xd": "2026-08-25",
     "upcoming_dividend_amount": 0.01,
-    "upcoming_payment_date": "2026-09-08",
+    "upcoming_payment_date": "2026-09-09",
     "dividend_history": [
       {
         "date": "2023-05-03",
