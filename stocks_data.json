@@ -1928,6 +1928,10 @@
       {
         "date": "2026-07-24",
         "close": 2.72
+      },
+      {
+        "date": "2026-07-28",
+        "close": 2.72
       }
     ]
   },
@@ -13400,6 +13404,10 @@
       {
         "date": "2026-07-24",
         "close": 1.0
+      },
+      {
+        "date": "2026-07-28",
+        "close": 1.0
       }
     ]
   },
@@ -16664,6 +16672,10 @@
       },
       {
         "date": "2026-07-24",
+        "close": 0.01
+      },
+      {
+        "date": "2026-07-28",
         "close": 0.01
       }
     ]
@@ -22183,7 +22195,7 @@
     "business_summary": "Asia Metal Public Company Limited manufactures and trades in processed steel products in Thailand. The company also provides rendering services for manufacturing of processed steel. Asia Metal Public Company Limited was founded in 1993 and is headquartered in Samut Prakan, Thailand.",
     "current_price": 2.22,
     "pe_ratio": 74.0,
-    "dividend_yield": 3.64,
+    "dividend_yield": 3.6,
     "high_1m": 2.24,
     "low_1m": 2.04,
     "support_levels": [
@@ -27117,7 +27129,7 @@
     "business_summary": "Applicad Public Company Limited engages in the sale of computer programs primarily in Thailand and Indonesia. The company offers 2D/3D CAD, 3D printer, 3D scanner, animation and render, BIM, CAM, CAD viewer, cloud platform, communication design, management, simulation and checker, robot and automation, education and government, AI platform, and other products. It also provides various services, such as 3D animation and VR, and manufacturing and construction services; and BIM, AIC innovation center, and human plus solutions. In addition, the company is involved in sale of machinery, computer parts, spare parts, materials, and other products; and provision of design and manufacture of industrial parts and prototypes, and other services, as well as computer maintenances services. It also sells its products online. Applicad Public Company Limited was incorporated in 1994 and is headquartered in Bangkok, Thailand.",
     "current_price": 2.58,
     "pe_ratio": 7.82,
-    "dividend_yield": 8.58,
+    "dividend_yield": 8.91,
     "high_1m": 2.84,
     "low_1m": 2.46,
     "support_levels": [
@@ -29290,7 +29302,7 @@
     "business_summary": "ARIP Public Company Limited engages in the management of events and marketing activities in Thailand. It operates through three segments: Media and Contents, Management of Events, and Digital Service. The company produces, distributes, and provides advertising services across print, digital, and social media platforms about business, management, and information technology, including Business+, an analytical magazine focusing on economics, business, strategy, management, and marketing; Business+ Top 1000 Companies, a magazine that compiles performance data of listed companies in Thailand; techhub.in.th, a digital media platform; and COMMART, an online media platform that offers buyer guide for technology products, as well as seminars and award ceremonies. It also organizes exhibitions, IT trade shows, and marketing events, as well as academic conferences; provides marketing and event management, as well as administrative services; and virtual event platform services, such as member management systems, sales platforms, games and activities, online conferences and seminars, live streaming, online business matching, online voting and competitions, and others. In addition, the company offers digital marketing services comprising online marketing strategy development, online communication strategy, digital branding, content marketing strategy, creative content creation, online content management, and digital media planning and buying, as well as measurement, data analysis, and reporting; and enterprise learning platform, a cloud-based online training platform to develop the skills of employees. Further, it is involved in the production of e-books, annual compilations, pocketbooks, and IT-related publications. The company was formerly known as AR Information and Public Company Limited and changed its name to ARIP Public Company Limited in January 2010. ARIP Public Company Limited was founded in 1989 and is based in Bangkok, Thailand.",
     "current_price": 0.47,
     "pe_ratio": 23.5,
-    "dividend_yield": 4.35,
+    "dividend_yield": 4.26,
     "high_1m": 0.51,
     "low_1m": 0.45,
     "support_levels": [
@@ -36424,7 +36436,7 @@
     "business_summary": "Atlas Energy Public Company Limited trades cooking gas products in Thailand. It operates three segments: Automotive; Household and Industrial; and Management services and others. The company operates gas service stations; provides oil distribution management services; and trades supplies and equipment for gas service stations. It also trades liquefied petroleum gas (LPG) for household, transportation, and industrial sectors, as well as retail distributors and large-scale users. The company was founded in 2011 and is based in Bangkok, Thailand. Atlas Energy Public Company Limited operates as a subsidiary of PTG Energy Public Company Limited.",
     "current_price": 1.89,
     "pe_ratio": 8.22,
-    "dividend_yield": 7.98,
+    "dividend_yield": 7.94,
     "high_1m": 1.93,
     "low_1m": 1.81,
     "support_levels": [
@@ -38887,7 +38899,7 @@
     "business_summary": "Aurora Design Public Company Limited, together with its subsidiaries, retails gold jewelry, diamond jewelry, and gemstones through its chain and online stores in Thailand. It operates through Trading of Jewelry as Gold Jewelry; Trading of Diamonds, Gems and K-Gold; and Sale with Right Redemption for Gold Jewelry, Diamonds, Gems and K-Gold segments. The company retails modern gold products comprising necklaces, rings, bracelets, earrings, and gold plates; diamond jewelry products consisting of diamond rings, necklaces, earrings, bracelets, and pendants; and design gold products, such as gold amulets, auspicious gold leaves, zodiac pendants, necklaces, bracelets, earrings, and gold handicraft frames. It also engages in the manufacture of jewelry, gold jewelry, diamonds, and gemstones; and provision of gold financing services. The company offers its products and services under the AURORA, SENG HENG, AURORA DIAMOND, KHONG KWAN, and THONG MA NGERN PAI brands. It serves white collar, traditional, and lower-income segment customers. Aurora Design Public Company Limited was founded in 1973 and is based in Bangkok, Thailand.",
     "current_price": 13.9,
     "pe_ratio": 10.61,
-    "dividend_yield": 4.0,
+    "dividend_yield": 4.03,
     "high_1m": 15.5,
     "low_1m": 13.6,
     "support_levels": [
@@ -43268,6 +43280,10 @@
       },
       {
         "date": "2026-07-27",
+        "close": 5.8
+      },
+      {
+        "date": "2026-07-28",
         "close": 5.8
       }
     ]
@@ -57681,9 +57697,9 @@
       0.9,
       0.95
     ],
-    "upcoming_xd": "2026-08-27",
+    "upcoming_xd": "2026-08-28",
     "upcoming_dividend_amount": 0.06,
-    "upcoming_payment_date": "2026-09-11",
+    "upcoming_payment_date": "2026-09-12",
     "dividend_history": [
       {
         "date": "2025-05-26",
@@ -58749,7 +58765,7 @@
     "business_summary": "Bangkok Genomics Innovation Public Company Limited provides medical analysis services in Thailand. The company offers screening for fetal chromosomal abnormalities using non-invasive prenatal testing under the NIFTY brand, preimplantation chromosomal abnormality and thalassemia carrier gene screening, infectious disease group analysis, and monkeypox virus analysis. It also provides other screening tests, such as cancer-related gene screening to predict the risk of inherited cancer, monitor treatment, select drugs that are appropriate for one's genetics, and provide treatment and disease prevention. In addition, the company offers genetic analysis using whole exome sequencing, a technology that can detect gene abnormalities that cause diseases; individual genetic decoding, which involves detailed genetic sequencing to analyze genetic information and identify aspects such as ethnicity or ancestry, optimal exercise profiles, metabolic capabilities, and the risk of genetic diseases; newborn screening; and health check-ups for various needs. Further, it supports research services in both medical and other fields, offers DNA and RNA sequencing, metabolomics and proteomics services, and medical products comprising genetic sequencers; NIPT, PGT-A, hereditary cancer screening, and precision oncology solutions; real-time PCR that includes beta thalassemia genotyping and human papillomavirus genotyping kits; and cell-free DNA storage tubes. The company serves government sectors such as medical schools and health centers, as well as private sectors such as clinics, hospitals, private medical laboratories, research institutes, and universities. Bangkok Genomics Innovation Public Company Limited was founded in 2017 and is headquartered in Bangkok, Thailand.",
     "current_price": 2.0,
     "pe_ratio": 25.0,
-    "dividend_yield": 2.48,
+    "dividend_yield": 2.5,
     "high_1m": 2.28,
     "low_1m": 1.98,
     "support_levels": [
@@ -63671,6 +63687,10 @@
       {
         "date": "2026-07-24",
         "close": 12.0
+      },
+      {
+        "date": "2026-07-28",
+        "close": 12.0
       }
     ]
   },
@@ -63680,7 +63700,7 @@
     "business_summary": "BPS Technology Public Company Limited engages in the distribution of electrical connectivity equipment, technology related products, and solar cell products in Thailand. It operates through Sales, Service, and Fiber Optic Network segments. The company offers one smart supply (OSS), which includes construction materials and hardware; electrical appliances, plumbing, air conditioning; electrical and communication equipment; and data center and UPS. It also provides one smart builder (OSB), comprising ERV Air solution, water filter, smart network, security system, solar rooftop, and EV charger; and one smart factory (OSF), including data centers, building operation digital assistance, grounding/lightning protection, SVG power quality solutions, and smart factory solutions. The company was formerly known as Bigphaisan Project Company Limited. BPS Technology Public Company Limited was incorporated in 2001 and is headquartered in Samut Prakan, Thailand.",
     "current_price": 0.55,
     "pe_ratio": 55.0,
-    "dividend_yield": 2.16,
+    "dividend_yield": 2.27,
     "high_1m": 0.62,
     "low_1m": 0.47,
     "support_levels": [
@@ -65850,6 +65870,10 @@
       },
       {
         "date": "2026-07-24",
+        "close": 1.21
+      },
+      {
+        "date": "2026-07-28",
         "close": 1.21
       }
     ]
@@ -73547,7 +73571,7 @@
     "business_summary": "Cal-Comp Electronics (Thailand) Public Company Limited, together with its subsidiaries, manufactures electronic products worldwide. The company offers computer peripherals, such as mainboards, external hard disk drives, NAS and PCBA for hard disk drives, USB pen drives, storage server PCBA, , PCBA for digital camera, media players, Smart TV, smart POS machines, and assembly products, as well as ink-jet printers, laser printers, multi-function printers, dot-matrix printers, and large format printers; telecommunication products, including set-top boxes and their component parts, and Bluetooth headsets; and smart appliances that comprise smart TV, mirrors, and POS machines, as well as digital camera PCBA and media players. It also provides consumer electronics, which include facial cleaning brushes, iron brushes, cordless airbrush makeup kits, displays, electronic keyboards, hubs, rovers, and calculators; intelligent warehouse, machinery, and robotics, as well as smart factory products; smart beauty products comprising facial moisturizing sprays, facial cleaning brushes, facial massagers, mirror, smart body scale, and electric toothbrushes; and healthcare and wearable devices. In addition, the company offers semiconductor design and packaging services; plastic injection and tooling, and sheet metal processing; 3D printing;  and robotic applications for edutainment and smart service products. Cal-Comp Electronics (Thailand) Public Company Limited was founded in 1989 and is headquartered in Bangkok, Thailand.",
     "current_price": 8.55,
     "pe_ratio": 45.0,
-    "dividend_yield": 2.02,
+    "dividend_yield": 2.11,
     "high_1m": 9.5,
     "low_1m": 8.1,
     "support_levels": [
@@ -84342,6 +84366,10 @@
       {
         "date": "2026-07-24",
         "close": 0.02
+      },
+      {
+        "date": "2026-07-28",
+        "close": 0.02
       }
     ]
   },
@@ -84897,6 +84925,10 @@
       },
       {
         "date": "2026-07-24",
+        "close": 66.75
+      },
+      {
+        "date": "2026-07-28",
         "close": 66.75
       }
     ]
@@ -87077,6 +87109,10 @@
       {
         "date": "2026-07-24",
         "close": 0.37
+      },
+      {
+        "date": "2026-07-28",
+        "close": 0.37
       }
     ]
   },
@@ -87633,6 +87669,10 @@
       },
       {
         "date": "2026-07-24",
+        "close": 1.18
+      },
+      {
+        "date": "2026-07-28",
         "close": 1.18
       }
     ]
@@ -89847,7 +89887,7 @@
     "business_summary": "Chememan Public Company Limited, together with its subsidiaries, manufactures and distributes mineral lime and chemical products in Thailand and internationally. The company offers quicklime, hydrated lime, as well as chemical grade and construction limestone. Its products are used in mining, iron and steel, building material and construction, pulp and paper, glass and bottles, specialty fiberglass, bioplastic, sugar, environmental, chemical, and agriculture industries, as well as precipitated calcium carbonate industry. It also provides dump and tank trucks transportation services, as well as material handling and technical support services. In addition, it offers market study and lime quality assurance services. The company was incorporated in 2003 and is based in Bangkok, Thailand.",
     "current_price": 3.06,
     "pe_ratio": 7.29,
-    "dividend_yield": 4.97,
+    "dividend_yield": 4.9,
     "high_1m": 3.08,
     "low_1m": 2.7,
     "support_levels": [
@@ -96067,6 +96107,10 @@
       },
       {
         "date": "2026-07-24",
+        "close": 0.5
+      },
+      {
+        "date": "2026-07-28",
         "close": 0.5
       }
     ]
@@ -107582,6 +107626,10 @@
       {
         "date": "2026-07-24",
         "close": 0.03
+      },
+      {
+        "date": "2026-07-28",
+        "close": 0.03
       }
     ]
   },
@@ -109262,7 +109310,7 @@
     "business_summary": "Dcon Products Public Company Limited, together with its subsidiaries, manufactures and sells construction supplies in Thailand. The company operates through Sales of Construction Supplies; Sales of Real Estate; and Real Estate for Lease segments. It also provides flat floor slabs, pre-stressed planks and piles, corrugated planks, fencing and retaining wall, Dcon block, blocks, hallow core, hexagon piles, light weight bricks, and footing products. In addition, the company offers precast walls, partition, and floors, as well as concrete posts, prefabricated solutions, and other products. Further, it is involved in the sale of land and lease of real estate properties, as well as engages in property development business. Dcon Products Public Company Limited was incorporated in 1996 and is headquartered in Bangkok, Thailand.",
     "current_price": 0.19,
     "pe_ratio": Infinity,
-    "dividend_yield": 1.53,
+    "dividend_yield": 1.45,
     "high_1m": 0.19,
     "low_1m": 0.18,
     "support_levels": [
@@ -109819,7 +109867,7 @@
     "business_summary": "Do Day Dream Public Company Limited, together with its subsidiaries, manufactures, distributes, and sells cosmetics and beauty products in Thailand, the Philippines, and internationally. The company operates in Skincare and Beauty Products segments. It offers consumer goods in the categories of skin care, oral care, hair and beauty equipment, health care, home and kitchen appliances, and lifestyle goods under the NAMU LIFE, Oxe'cure, SOS, and Prettiiface brands. The company also provides management, technical, financing, enterprise, and training and sales advice services, as well as supplements, as well as involves in the general wholesale trades. Do Day Dream Public Company Limited was incorporated in 2010 and is headquartered in Bangkok, Thailand.",
     "current_price": 5.15,
     "pe_ratio": 57.22,
-    "dividend_yield": 3.53,
+    "dividend_yield": 3.5,
     "high_1m": 5.4,
     "low_1m": 4.72,
     "support_levels": [
@@ -117399,6 +117447,10 @@
       {
         "date": "2026-07-24",
         "close": 17.7
+      },
+      {
+        "date": "2026-07-28",
+        "close": 17.7
       }
     ]
   },
@@ -120200,7 +120252,7 @@
     "pe_ratio": null,
     "dividend_yield": 0.0,
     "high_1m": 0.14,
-    "low_1m": 0.07,
+    "low_1m": 0.08,
     "support_levels": [
       0.04,
       0.06
@@ -120746,6 +120798,10 @@
       },
       {
         "date": "2026-07-24",
+        "close": 0.1
+      },
+      {
+        "date": "2026-07-28",
         "close": 0.1
       }
     ]
@@ -128301,9 +128357,9 @@
       56.25,
       67.75
     ],
-    "upcoming_xd": "2026-08-27",
+    "upcoming_xd": "2026-08-28",
     "upcoming_dividend_amount": 2.55,
-    "upcoming_payment_date": "2026-09-11",
+    "upcoming_payment_date": "2026-09-12",
     "dividend_history": [
       {
         "date": "2025-04-22",
@@ -129860,6 +129916,10 @@
       },
       {
         "date": "2026-07-24",
+        "close": 162.5
+      },
+      {
+        "date": "2026-07-28",
         "close": 162.5
       }
     ]
@@ -134278,7 +134338,7 @@
     "business_summary": "Forth Smart Service Public Company Limited, together with its subsidiaries, provides prepaid mobile top-up services in Thailand. The company operates through two segments, Top up machine and Lending. It renders money transfer, online payment receival, and advertising services through online top-up machines, as well as provides services relating to online top-up machines and distributes goods. In addition, the company is involved in the provision of nano finance and personal loan; development and maintenance of software businesses; and sourcing and distributing products to support the group's loan products. Forth Smart Service Public Company Limited was founded in 2008 and is headquartered in Bangkok, Thailand. Forth Smart Service Public Company Limited is a subsidiary of Forth Corporation Public Company Limited.",
     "current_price": 7.9,
     "pe_ratio": 10.39,
-    "dividend_yield": 4.97,
+    "dividend_yield": 5.06,
     "high_1m": 8.45,
     "low_1m": 7.0,
     "support_levels": [
@@ -143401,6 +143461,10 @@
       {
         "date": "2026-07-24",
         "close": 0.74
+      },
+      {
+        "date": "2026-07-28",
+        "close": 0.74
       }
     ]
   },
@@ -145052,7 +145116,7 @@
     "business_summary": "Global Power Synergy Public Company Limited, together with its subsidiaries, engages in the production and distribution of electricity, steam, and water for industrial use to the government and industrial customers in Thailand. It operates through three segments: Independent Power Producer, Small Power Producer, and Others. The company generates electricity through solar, wind, hydropower, and thermal power plants. The company also engages in the maintenance, construction, and installation of electricity system services; and technical and consultancy services for power sector. It owns and operates 4,027 megawatts (MW) of power generation; 3,294 tons of steam; 7,689 cubic meters of industrial water; and 10,184 refrigerated tons of chilled water. The company was founded in 2013 and is headquartered in Bangkok, Thailand.",
     "current_price": 54.0,
     "pe_ratio": 21.77,
-    "dividend_yield": 3.49,
+    "dividend_yield": 3.52,
     "high_1m": 55.75,
     "low_1m": 42.75,
     "support_levels": [
@@ -155697,6 +155761,10 @@
       {
         "date": "2026-07-24",
         "close": 0.14
+      },
+      {
+        "date": "2026-07-28",
+        "close": 0.14
       }
     ]
   },
@@ -158997,7 +159065,7 @@
     "business_summary": "Ichitan Group Public Company Limited, engages in the manufacture and sale of beverages in Thailand and internationally. The company offers ready-to-drink green tea under the ICHITAN green tea brand; herbal tea drink under the Yen Yen brand; and Shizuoka Green Tea No Sugar, Shizuoka Green Tea Jasmine No Sugar, and Shizuoka Green Tea Jasmine Mildly Sweet. It also provides Ichitan PH Plus Alkaline Water; carbonated drink under the TANSANSU brand; and Tan Power products. The company was formerly known as Mai Tan Company Limited. The company was incorporated in 2010 and is headquartered in Bangkok, Thailand.",
     "current_price": 14.8,
     "pe_ratio": 14.1,
-    "dividend_yield": 7.48,
+    "dividend_yield": 7.43,
     "high_1m": 15.0,
     "low_1m": 13.8,
     "support_levels": [
@@ -160112,7 +160180,7 @@
     "business_summary": "Indigy Public Company Limited provides consulting services. The company operates through two segments, Services and Sales of Software. It engages in the sourcing of software and hardware; and development of websites and computer programs, as well as digital platforms. The company also offers digital consulting business services comprising business and IT services/solutions, cloud services, centralized systems that supports basic business operations, hardware and software, network, system maintenance, IT security system, and infrastructure and system support services; and software development, app integration, API integration, integration, and application support, as well as integration of enterprise products comprising Microsoft, Google, and Apple. In addition, it provides digital platform solutions, such as platform for employees, workplace platform, business platform, consumer platform, education platform, community platform, reward platform, and platform for hospitals and clinics; digital transformation training, platform and application training, and business training services; and smart digital solutions, business equipment, IoT for home and office, kiosks, and digital products and others. The company serves banking and finance, insurance, telecom, industrial, health, retails, food and beverages, hotel, government, technology, property, and other sectors. Indigy Public Company Limited was founded in 2000 and is based in Bangkok, Thailand.",
     "current_price": 1.27,
     "pe_ratio": 25.4,
-    "dividend_yield": 5.7,
+    "dividend_yield": 5.79,
     "high_1m": 1.34,
     "low_1m": 1.24,
     "support_levels": [
@@ -173856,7 +173924,7 @@
     "business_summary": "Itthirit Nice Corporation Public Company Limited engages in the trading and installation of household electrical and electronic appliances in Thailand. The company operates in three segments: Property Development; Government; and Retail and Wholesale. It offers lighting fixtures and electrical equipment under the Lighttrio brand name; smart home devices under the Lighttrio Smart brand name; and renewable energy and solar cell equipment under the Lighttrio Solar brand name. The company also provides Internet of Things devices; and alcohol-based disinfectant products. In addition, it engages in the leasing and selling of electric trucks. The company was incorporated in 1999 and is headquartered in Samut Sakhon, Thailand.",
     "current_price": 1.33,
     "pe_ratio": 14.78,
-    "dividend_yield": 7.46,
+    "dividend_yield": 7.52,
     "high_1m": 1.49,
     "low_1m": 1.3,
     "support_levels": [
@@ -177084,7 +177152,7 @@
     "pe_ratio": null,
     "dividend_yield": 0.0,
     "high_1m": 6.6,
-    "low_1m": 6.45,
+    "low_1m": 6.5,
     "support_levels": [
       6.36
     ],
@@ -177629,6 +177697,10 @@
       {
         "date": "2026-07-24",
         "close": 6.55
+      },
+      {
+        "date": "2026-07-28",
+        "close": 6.6
       }
     ]
   },
@@ -180658,7 +180730,7 @@
     "business_summary": "Jenkongklai Public Company Limited provides parking services in Thailand. The company operates through four segments: Parking Service, Parking Management, System Installation and Advisory, and Store Rental Business and Other. It rents parking spaces and buildings, as well as provides parking management services; and design and installation services for parking management systems, including parking fee collection systems and parking management facilities. The company was incorporated in 1998 and is headquartered in Bangkok, Thailand.",
     "current_price": 3.58,
     "pe_ratio": 15.57,
-    "dividend_yield": 2.78,
+    "dividend_yield": 2.79,
     "high_1m": 3.88,
     "low_1m": 3.12,
     "support_levels": [
@@ -181444,7 +181516,7 @@
     "business_summary": "J.R.W. Utility Public Company Limited engages in the design, procurement, construction, and installation of electrical power, and telecommunication and information technology systems in Thailand. It operates in two segments, Contract Services and Sales of Electronics Equipment. The company is involved in the construction of high voltage transmission line systems; construction and installation of high-voltage substations and related equipment; construction work to change overhead power lines to underground power lines; and infrastructure planning, setting up the core network, software and application system designing, and setup of other equipment services. It also offers repairing and maintaining electrical and telecommunication systems, and information technology equipment. In addition, the company engages in the contractor, consultation, installation, repair, inspection, trading, and distribution of tools, equipment, and materials relating to electricity, civil, mechanical, electronic, security equipment, and various types of telecommunication systems. The company was incorporated in 1993 and is based in Bangkok, Thailand.",
     "current_price": 1.76,
     "pe_ratio": 13.54,
-    "dividend_yield": 3.16,
+    "dividend_yield": 3.13,
     "high_1m": 1.78,
     "low_1m": 1.67,
     "support_levels": [
@@ -189669,7 +189741,7 @@
     "high_1m": 85.0,
     "low_1m": 83.25,
     "support_levels": [
-      80.33
+      80.38
     ],
     "resistance_levels": [
       87.41,
@@ -190212,6 +190284,10 @@
       {
         "date": "2026-07-24",
         "close": 83.25
+      },
+      {
+        "date": "2026-07-28",
+        "close": 83.25
       }
     ]
   },
@@ -190221,7 +190297,7 @@
     "business_summary": "Keyence Corporation, together with its subsidiaries, manufactures and sells electronic application equipment in Japan and internationally. The company offers photoelectric, fiber optic, laser, inductive proximity, positioning, vision, and specific solution sensors, as well as network communication units; laser profiler/3D laser snapshot sensor, laser displacement sensors, optical micrometer/laser micrometer, spectral interference displacement sensor, inductive displacement sensors, and LVDT/contact displacement sensors; machine vision products; and flow sensors/flow meters, pressure sensors, temperature sensors, and level sensors. It also provides pneumatic components; safety light curtains, laser scanners, interlock switches, and controller; microscopes/laser microscopes; optical comparator; coordinate measuring machine, 3D scanner, and 3D optical profilometers; programmable logic controller, micro PLC /small PLC, HMI, servo motors/servo systems, and other control products; and marking/coding, barcode reader, mobile computers/handheld computers, data acquisition, static control, additive manufacturing, and RPA/desktop automation software products. The company's products are used in automotive, metals, semiconductors/LCDs, electronic devices, plastics, films/sheets, food/pharmaceutical, medical technology, and logistics applications. The company was founded in 1972 and is headquartered in Osaka, Japan.",
     "current_price": 2.7,
     "pe_ratio": null,
-    "dividend_yield": 203.7,
+    "dividend_yield": 0.0,
     "high_1m": 3.02,
     "low_1m": 2.52,
     "support_levels": [
@@ -195489,6 +195565,10 @@
       {
         "date": "2026-07-24",
         "close": 0.04
+      },
+      {
+        "date": "2026-07-28",
+        "close": 0.04
       }
     ]
   },
@@ -196601,7 +196681,7 @@
     "business_summary": "CL Venture Public Company Limited, together with its subsidiaries, produces, sells, and services cooling products in Thailand. It operates through Sale of Cooling Products and Related Services, Financial Services, Property Development, and Vehicles for Rent segments. The company offers evaporative air coolers and misting fans under the MASTERKOOL and CoolTop brands; design, installation, and servicing of ozone systems, as well as cooling systems in factory buildings or warehouses; rental services for outdoor event equipment; and general renovation and repair services. It also provides business and multi-purpose loans; financial advisory, consulting, and support services for the initial public offering process to the stock exchange; securities, fund, and asset management; and vehicle rental services. In addition, the company engages in real estate development for sale and rent; development, buying, selling, repurchasing, mortgaging, and hire purchase of real estate, including lending and factoring; and leasing and hire-purchase of equipment, energy-saving products, and ozone systems. The company was formerly known as Masterkool International Public Company Limited and changed its name to CL Venture Public Company Limited in August 2024. CL Venture Public Company Limited was incorporated in 2002 and is headquartered in Bangkok, Thailand.",
     "current_price": 0.28,
     "pe_ratio": 28.0,
-    "dividend_yield": 4.31,
+    "dividend_yield": 4.46,
     "high_1m": 0.31,
     "low_1m": 0.28,
     "support_levels": [
@@ -197697,6 +197777,10 @@
       {
         "date": "2026-07-24",
         "close": 2.02
+      },
+      {
+        "date": "2026-07-28",
+        "close": 2.0
       }
     ]
   },
@@ -198822,7 +198906,7 @@
     "business_summary": "Krungthai Card Public Company Limited engages in the credit card, personal loan, and other related businesses in Thailand. It also involved in the merchant acquiring, payment services, provincial retail lending business, occupational retail lending business, e-money business, and hire purchase and leasing business. Krungthai Card Public Company Limited was incorporated in 1996 and is headquartered in Bangkok, Thailand.",
     "current_price": 38.5,
     "pe_ratio": 12.26,
-    "dividend_yield": 4.54,
+    "dividend_yield": 4.6,
     "high_1m": 41.25,
     "low_1m": 32.5,
     "support_levels": [
@@ -202629,6 +202713,10 @@
       },
       {
         "date": "2026-07-24",
+        "close": 0.04
+      },
+      {
+        "date": "2026-07-28",
         "close": 0.04
       }
     ]
@@ -209705,6 +209793,10 @@
       {
         "date": "2026-07-24",
         "close": 4.4
+      },
+      {
+        "date": "2026-07-28",
+        "close": 4.38
       }
     ]
   },
@@ -210823,7 +210915,7 @@
     "pe_ratio": 11.89,
     "dividend_yield": 0.0,
     "high_1m": 13.3,
-    "low_1m": 12.6,
+    "low_1m": 12.7,
     "support_levels": [
       10.54,
       11.75,
@@ -211370,6 +211462,10 @@
       {
         "date": "2026-07-24",
         "close": 13.1
+      },
+      {
+        "date": "2026-07-28",
+        "close": 13.2
       }
     ]
   },
@@ -213037,6 +213133,10 @@
       {
         "date": "2026-07-24",
         "close": 33.75
+      },
+      {
+        "date": "2026-07-28",
+        "close": 33.75
       }
     ]
   },
@@ -213603,7 +213703,7 @@
     "business_summary": "LTMH Public Company Limited provides advertising and public relations services in Thailand. The company provides digital publishing focuses on wealth education; creative video production, commercial shoots, and comprehensive storytelling solutions; content, expert media buying, and strategic marketing consultancy; product and software development; and investment solutions. It also operates Blockdit, a platform to share stories and creative content. In addition, the company provides advertising and public relations services; and software and technology services. Further, it is involved in securities business and organizing events. The company was founded in 2017 and is based in Bangkok, Thailand.",
     "current_price": 8.35,
     "pe_ratio": 69.58,
-    "dividend_yield": 1.79,
+    "dividend_yield": 1.8,
     "high_1m": 9.1,
     "low_1m": 6.2,
     "support_levels": [
@@ -217949,6 +218049,10 @@
       {
         "date": "2026-07-24",
         "close": 21.0
+      },
+      {
+        "date": "2026-07-28",
+        "close": 21.0
       }
     ]
   },
@@ -219827,7 +219931,7 @@
     "pe_ratio": null,
     "dividend_yield": 3.25,
     "high_1m": 3.16,
-    "low_1m": 2.76,
+    "low_1m": 2.84,
     "support_levels": [
       2.83,
       3.02
@@ -220373,6 +220477,10 @@
       },
       {
         "date": "2026-07-24",
+        "close": 3.08
+      },
+      {
+        "date": "2026-07-28",
         "close": 3.08
       }
     ]
@@ -222056,7 +222164,7 @@
     "business_summary": "Market Connections Asia Public Company Limited provides event marketing services in Thailand and Singapore. The company operates through three segments: Marketing Services; Distributor; and Printing and Advertising Media. It offers shopper engagement, including PC/BA/PtG, merchandising, and in-store activation; field force activation, such as trade activation, sales troop/caravan, brand visibility channel penetration, and distribution expansion; experiential marketing comprising roadshow, troop/commando, and caravan; and event marketing, which includes product launch, press conference, teambuilding, seminar, and corporate party. The company also provides local/retail media research analytics; logistics, such as transportation, set up and pull-out, airfare, and tours and trips; and digital solutions comprising interactive games, onsite to online integration, and online conference. In addition, it engages in packing; product consultancy; distribution of consumers products; and printing and advertising media services. The company was founded in 2011 and is based in Bangkok, Thailand. Market Connections Asia Public Company Limited operates as a subsidiary of Bhakdee 2019 Holding Co., Ltd.",
     "current_price": 1.28,
     "pe_ratio": 14.22,
-    "dividend_yield": 3.38,
+    "dividend_yield": 3.44,
     "high_1m": 1.35,
     "low_1m": 1.27,
     "support_levels": [
@@ -224748,7 +224856,7 @@
     "business_summary": "Medeze Group Public Company Limited engages in collection and storage of stem cells for use in medication in Thailand, Vietnam, Cambodia, Philippines, and internationally. The company operates through four segments: Stem Cells; Natural Killer Cells; Others; and Sales of Products. It also provides sorting, cultivation, and development of stem cells; testing services to test the performance and count the number of natural killer cells. In addition, the company is involved in research, develops, and collects data on all types of human cellular activities and medical laboratory tests. Further, the company sells dietary supplements, cosmetics, and dermo cosmetics. Medeze Group Public Company Limited was founded in 2010 and is based in Nakhon Pathom, Thailand.",
     "current_price": 6.55,
     "pe_ratio": 46.79,
-    "dividend_yield": 3.72,
+    "dividend_yield": 3.66,
     "high_1m": 6.9,
     "low_1m": 6.3,
     "support_levels": [
@@ -226735,7 +226843,7 @@
     "current_price": 0.02,
     "pe_ratio": null,
     "dividend_yield": 0.0,
-    "high_1m": 0.05,
+    "high_1m": 0.04,
     "low_1m": 0.02,
     "support_levels": [
       0.01
@@ -227261,6 +227369,10 @@
       },
       {
         "date": "2026-07-24",
+        "close": 0.02
+      },
+      {
+        "date": "2026-07-28",
         "close": 0.02
       }
     ]
@@ -232176,6 +232288,10 @@
       {
         "date": "2026-07-24",
         "close": 0.01
+      },
+      {
+        "date": "2026-07-28",
+        "close": 0.01
       }
     ]
   },
@@ -232185,7 +232301,7 @@
     "business_summary": "Minor International Public Company Limited, together with its subsidiaries, operates as a hospitality, restaurant, and lifestyle company in Thailand, Australia, New Zealand, Europe, Latin America, Maldives, the Middle East, the People's Republic of China, and internationally. The company operates through three segments: Hotel, Mixed use and others, and Restaurant. The company operates hotels and restaurants, entertainment venues, food and beverage outlets, property rental business, spa services, and management operations, as well as real estates for sales, distribution, and manufacturing. In addition, the company is involved in the food and beverage sale, hotel management, supply chain management, distribution, management, vacation club point sale, entertainment, franchise, airport lounge, and healthcare businesses; property investment, development, and sales activities; operation of shopping mall and school; and manufacture and sale of cheese and ice-cream. The company was formerly known as Royal Garden Resorts Plc. and changed its name to Minor International Public Company Limited in 2005. Minor International Public Company Limited was founded in 1978 and is headquartered in Bangkok, Thailand.",
     "current_price": 23.0,
     "pe_ratio": 17.29,
-    "dividend_yield": 3.14,
+    "dividend_yield": 3.04,
     "high_1m": 25.25,
     "low_1m": 21.9,
     "support_levels": [
@@ -236776,7 +236892,7 @@
     "business_summary": "Moong Pattana International Public Company Limited distributes baby, infant, and other products in Thailand and internationally. It operates through two segments, Distribution of Baby and Infant Products and Distribution of Other Products. The company offers nipple and bottle products, breastfeeding support products, baby wipes, oral hygiene products, healthcare and hygiene products, cleansing and skincare products, nutritional supplements and accessories, pacifiers, and products for washing and cleaning baby bottles, and gift set products, as well as tape- and pants-type adult diapers and absorbent pads under MUMU brand. It also provides hair care products comprising gray hair dye shampoo, and rebirth shampoo and serum, as well as skin care products under the Carebeau brand; cotton personal care products, wet wipes for adults, toothbrushes, toothpastes, and whipped foam bath products under the V care brand; water sprayer bottles under the Foggy and Smile V brands; and toothbrushes under the Prodental B and Zennlab & Pharmasen brands. In addition, the company offers salt lemon and mint candies under the Himalaya Salt brand; herbal drink ready to drink products under the BAO brand; milk tablets under the Milk me brand; and household and senior products. Further, it sells its products online through MOONG-shop.com. The company was formerly known as Moong Pattana Marketing Company Limited and changed its name to Moong Pattana International Public Company Limited in August 2008. Moong Pattana International Public Company Limited was founded in 1981 and is headquartered in Bangkok, Thailand.",
     "current_price": 2.38,
     "pe_ratio": 11.9,
-    "dividend_yield": 9.75,
+    "dividend_yield": 9.66,
     "high_1m": 2.46,
     "low_1m": 2.26,
     "support_levels": [
@@ -243979,6 +244095,10 @@
       {
         "date": "2026-07-24",
         "close": 0.06
+      },
+      {
+        "date": "2026-07-28",
+        "close": 0.06
       }
     ]
   },
@@ -250447,7 +250567,7 @@
     "business_summary": "Netbay Public Company Limited engages in the provision of Software as a Service (SaaS) for online electronic transactions between business-to-government, business-to-business, and business-to-consumer groups in Thailand. It operates in two segments, The e-Business and The e-Service. The company invents, creates, and develops various digital business technology platforms and e-business service applications for digital business service transactions. It also provides electronic transaction system in the form of SaaS model that covers data center system, backup processing system, and operating software system that supports transaction system; and networking and data security protection services. The company's software applications include ShippingNet, an e-customs declaration application offered to prepare and deliver urgently signed import/outgoing invoices with e-signatures; e-Express Consignment, an application for the preparation and delivery of express import/export declaration with electronic signature; e-Manifest, an application that generates and delivers inbound and outbound vehicle report data; e-Customs Permit, an application for printing documents; e-Payment Gateway, an electronic payment tool for companies to work smart, and reducing financial risks and the workflow of paying customs; e-Transit/Transshipment, an application to prepare and deliver information on cargo declaration for transshipment; and License Per Invoice, an e-Single Entry Form NSW application for preparing license information according to the import and export project of regulated goods. It also offers Intelligent Box, an online document exchange platform. The company was incorporated in 2004 and is based in Bangkok, Thailand.",
     "current_price": 13.3,
     "pe_ratio": 11.57,
-    "dividend_yield": 8.89,
+    "dividend_yield": 9.02,
     "high_1m": 15.7,
     "low_1m": 9.8,
     "support_levels": [
@@ -252635,6 +252755,10 @@
       {
         "date": "2026-07-24",
         "close": 1.23
+      },
+      {
+        "date": "2026-07-28",
+        "close": 1.23
       }
     ]
   },
@@ -253357,7 +253481,7 @@
       13.5
     ],
     "resistance_levels": [
-      14.97,
+      14.98,
       19.86
     ],
     "upcoming_xd": "2024-03-05",
@@ -253896,6 +254020,10 @@
       },
       {
         "date": "2026-07-24",
+        "close": 14.8
+      },
+      {
+        "date": "2026-07-28",
         "close": 14.8
       }
     ]
@@ -257180,6 +257308,10 @@
       },
       {
         "date": "2026-07-24",
+        "close": 13.9
+      },
+      {
+        "date": "2026-07-28",
         "close": 13.9
       }
     ]
@@ -262110,6 +262242,10 @@
       {
         "date": "2026-07-24",
         "close": 0.04
+      },
+      {
+        "date": "2026-07-28",
+        "close": 0.04
       }
     ]
   },
@@ -263224,6 +263360,10 @@
       {
         "date": "2026-07-24",
         "close": 10.0
+      },
+      {
+        "date": "2026-07-28",
+        "close": 10.0
       }
     ]
   },
@@ -263780,6 +263920,10 @@
       },
       {
         "date": "2026-07-24",
+        "close": 9.1
+      },
+      {
+        "date": "2026-07-28",
         "close": 9.1
       }
     ]
@@ -264874,7 +265018,7 @@
     "business_summary": "The ONE Enterprise Public Company Limited engages in the media and entertainment businesses in Thailand. The company produces various programs, such as dramas, sitcoms, series, variety shows, and news; manages licensed content by distributing programs through television stations, online channels, and international platforms; and owns copyrights for producing programs in television stations and online platforms. It also acts as a direct marketer for digital television channels; and offers public relations materials related to events. In addition, the company is involved in the production of radio, television, and dramatics programs for broadcasting through radio, digital TV, and online channels, including websites and applications; artist and event management business; the sale of merchandising products related to programs or artists; operates an academic school offering dance, vocal, and music training; and provision of rental service for filming and hosting events, such as commercial shoots, TV shows, feature films, and weddings. Further, it engages in digital TV, radio, advertising space rental, streaming services, sublease of television station, and studio rental activities; production of content and advertising media; sale of goods; and investment in other business. The company was founded in 1991 and is based in Bangkok, Thailand.",
     "current_price": 3.18,
     "pe_ratio": 14.45,
-    "dividend_yield": 5.7,
+    "dividend_yield": 5.66,
     "high_1m": 3.4,
     "low_1m": 2.94,
     "support_levels": [
@@ -265428,7 +265572,7 @@
     "business_summary": "Onsen Retreat and Spa Group Public Company Limited provides onsen and spa services in Thailand. It operates through Rendering of Onsen and Spa; and Sales of food, Beverage and Other segments. The company operates spas under the Yunomori Onsen & Spa and Klai brand. It also engages in the sale of food and beverages under the Happy Rice brand name. Onsen Retreat and Spa Group Public Company Limited was founded in 2011 and is headquartered in Bangkok, Thailand.",
     "current_price": 1.19,
     "pe_ratio": 23.8,
-    "dividend_yield": 1.58,
+    "dividend_yield": 1.6,
     "high_1m": 1.25,
     "low_1m": 1.15,
     "support_levels": [
@@ -270089,7 +270233,7 @@
     "business_summary": "Pacific Pipe Public Company Limited engages in the manufacture and distribution of structural steels and steel pipes in Thailand. The company offers black steel pipes and GI pipes in the form of round pipes, square pipes, flat pipes, C-shaped steel, pressure-resistant steel pipes, and steel sheets, as well as plates and hot-rolled coils. In addition, it engages in steel fabrication activities, such as cut-to-length, cut by profile, drilling, bending, rust-resistant primer coating, and galvanization; and contracting of steel productions for construction work. The company was founded in 1972 and is headquartered in Samut Prakan, Thailand.",
     "current_price": 2.64,
     "pe_ratio": 11.48,
-    "dividend_yield": 3.28,
+    "dividend_yield": 3.03,
     "high_1m": 2.8,
     "low_1m": 2.34,
     "support_levels": [
@@ -272833,7 +272977,7 @@
     "business_summary": "P.C.S. Machine Group Holding Public Company Limited manufactures and distributes automotive parts for original equipment manufacturers (OEMs) of the automotive industry in Asia, Europe, and internationally. It offers forged steel parts, aluminum forging parts, and molds; metal processing and transformation, and metal products; engine parts, transmission systems, brake systems, suspension systems, and metal parts for vehicles; metal parts for electronic products, including aluminum die-casting parts; tools and equipment, such as leak-test and induction hardening units; powertrain and chassis components, including heat treatment, gear making, assembly, cleaning and inspection to OEM specifications; and test and inspection equipment to validate material condition and critical product characteristics. The company's products are used for passenger cars, pickup trucks, trucks, and agricultural machinery. P.C.S. Machine Group Holding Public Company Limited was incorporated in 2013 and is headquartered in Nakhon Ratchasima, Thailand.",
     "current_price": 3.08,
     "pe_ratio": 9.06,
-    "dividend_yield": 8.82,
+    "dividend_yield": 8.77,
     "high_1m": 3.1,
     "low_1m": 3.0,
     "support_levels": [
@@ -274504,7 +274648,7 @@
     "business_summary": "Peace & Living Public Company Limited engages in the property development business in Thailand. It sells its projects under the CHER, CHERENE, CHEREA, and INNER PEACE brands. The company was incorporated in 1989 and is based in Bangkok, Thailand.",
     "current_price": 1.51,
     "pe_ratio": 50.33,
-    "dividend_yield": 4.0,
+    "dividend_yield": 3.97,
     "high_1m": 1.56,
     "low_1m": 1.47,
     "support_levels": [
@@ -279637,6 +279781,10 @@
       },
       {
         "date": "2026-07-24",
+        "close": 4.2
+      },
+      {
+        "date": "2026-07-28",
         "close": 4.2
       }
     ]
@@ -287260,7 +287408,7 @@
     "business_summary": "PM Thoresen Asia Holdings Public Company Limited, together with its subsidiaries, manufactures fertilizer and crop care products and provides factory area management services in Vietnam, the Philippines, Madagascar, and internationally. The company manufactures and supplies NPK compound, compounds and single fertilizers, and foliar, as well as pesticides and insecticides under the STORK brand name. It also operates and leases warehouses; and offers value-added services, including offices for supervisory personnel, commercial vehicle parking, guards, and utilities. In addition, the company engages in import; general trading; and provision of procurement services for macronutrient products, such as nitrogen, phosphate, and potash. It exports its products. The company was incorporated in 2013 and is based in Bangkok, Thailand. PM Thoresen Asia Holdings Public Company Limited is a subsidiary of Thoresen Thai Agencies Public Company Limited.",
     "current_price": 9.6,
     "pe_ratio": 6.96,
-    "dividend_yield": 7.37,
+    "dividend_yield": 7.29,
     "high_1m": 9.7,
     "low_1m": 9.3,
     "support_levels": [
@@ -293529,7 +293677,7 @@
     "business_summary": "Peerapat Technology Public Company Limited, together with its subsidiaries, manufactures and distributes powdered detergent and cleaning chemicals under the PEERAPAT brand in Thailand, Vietnam, Cambodia, and internationally. It operates through Manufacture and Distribution of Cleaning Chemicals; Distribution of Energy Saving Equipment and Services; Distribution of Kitchen Products and Services; and Distribution of Swimming Pool Products and Services segments. The company offers laundry products, such as washing, bleaching, alkali builder, degreasing, water conditioner, and fabric softener products, as well as powder and water detergents; foam, clean in place products, disinfectants, lubricants, and general cleaning products; and kitchen products, such as dishwashing liquids and drying agents, etc., as well as imports and distributes automatic container washing machines under the STEWARD brand. The company also distributes chemicals for automatic container washing machines; manufactures and distributes floor cleaning solutions, as well as sanitizers, floor cleaning machines and equipment, and cleaning equipment; distributes household products under the Solvable Gang brand through online channels; distributes swimming pool chemicals and equipment under the Magiline brand, as well as constructs and installs concrete and prefabricated swimming pools; and distributes energy-efficient water heaters under the PP ENERGY brand for use in the hospitality industry. In addition, the company provides contract manufacturing services for cleaning agents and disinfectants; manages food courts and cafeteria; rents automatic container washing machines; offers swimming pool design, installation, and maintenance services; installs and repairs automatic container washing machines; and provides laundry and cleaning services for public and private hospitals. Peerapat Technology Public Company Limited was founded in 1988 and is headquartered in Bangkok, Thailand.",
     "current_price": 0.79,
     "pe_ratio": 9.88,
-    "dividend_yield": 5.0,
+    "dividend_yield": 5.06,
     "high_1m": 0.84,
     "low_1m": 0.78,
     "support_levels": [
@@ -297329,6 +297477,10 @@
       },
       {
         "date": "2026-07-24",
+        "close": 1.45
+      },
+      {
+        "date": "2026-07-28",
         "close": 1.45
       }
     ]
@@ -309323,6 +309475,10 @@
       {
         "date": "2026-07-24",
         "close": 8.5
+      },
+      {
+        "date": "2026-07-28",
+        "close": 8.7
       }
     ]
   },
@@ -309341,8 +309497,7 @@
       3.64
     ],
     "resistance_levels": [
-      3.97,
-      3.82
+      3.8
     ],
     "upcoming_xd": "2027-01-05",
     "upcoming_dividend_amount": 0.14,
@@ -309880,6 +310035,10 @@
       },
       {
         "date": "2026-07-24",
+        "close": 3.78
+      },
+      {
+        "date": "2026-07-28",
         "close": 3.78
       }
     ]
@@ -312596,7 +312755,7 @@
     "business_summary": "Ratch Group Public Company Limited, an energy and infrastructure company, engages in the generation and sales of electricity and steam in Thailand, Australia, Singapore, Indonesia, and internationally. The company operates through four segments: Domestic Electricity Generating, Domestic Renewable Energy, International Power Projects, and Domestic Related Business and Infrastructure. It generates electricity through natural gas, coal, and fuel oil, as well as invests in renewable power generation including solar, wind, biomass and hydro power. The company also offers power plant operation and maintenance services, as well as invests in the power energy business. Ratch Group Public Company Limited was incorporated in 2000 and is headquartered in Nonthaburi, Thailand.",
     "current_price": 38.75,
     "pe_ratio": 13.55,
-    "dividend_yield": 4.08,
+    "dividend_yield": 4.13,
     "high_1m": 39.5,
     "low_1m": 31.0,
     "support_levels": [
@@ -318105,6 +318264,10 @@
       },
       {
         "date": "2026-07-24",
+        "close": 1.21
+      },
+      {
+        "date": "2026-07-28",
         "close": 1.21
       }
     ]
@@ -328678,6 +328841,10 @@
       {
         "date": "2026-07-24",
         "close": 0.1
+      },
+      {
+        "date": "2026-07-28",
+        "close": 0.1
       }
     ]
   },
@@ -331466,7 +331633,7 @@
     "business_summary": "Somboon Advance Technology Public Company Limited, together with its subsidiaries, engages in the manufacturing and sale of automotive parts for pickup and trucks, passenger cars, and agricultural machinery in Thailand. The company operates through Axles and Trunnion Shafts, and Other Auto Parts and Others segments. It offers exhaust manifold, camshaft, flywheel, stabilizer bar, inner shaft, brake disc, coil spring, leaf spring, brake drum, and axle shaft. The company also provides tractor parts, such as case bevel gear, case front gear, cover front axle, holder front, case front axle, holder rear, manifold exhaust, case rear, case break, and case hyd. cylinder; and combine harvester parts, including v-pulley, gear case, knift guard, ass'y balde, roller guide, roller 180 and 275, guide crawler, frame tension, and case unloader 1, 2, and 3. In addition, it is involved in renting and investing in real estate, as well as researching, analyzing, designing, developing, importing, and selling electric car propulsion structures and batteries. The company serves original equipment manufacturers and replacement equipment manufacturers. It exports its products worldwide, including Asia-Pacific, South America, and Europe. Somboon Advance Technology Public Company Limited was founded in 1995 and is headquartered in Samut Prakan, Thailand.",
     "current_price": 16.2,
     "pe_ratio": 9.15,
-    "dividend_yield": 9.94,
+    "dividend_yield": 9.88,
     "high_1m": 16.3,
     "low_1m": 15.7,
     "support_levels": [
@@ -343066,7 +343233,7 @@
     "business_summary": "Seagate Technology Holdings plc engages in the provision of data storage technology and infrastructure solutions in Singapore, the United States, the Netherlands, and internationally. The company offers mass capacity storage products, including enterprise nearline hard disk drives (HDDs), enterprise nearline solid state drives (SSDs), enterprise nearline systems, video and image HDDs, and network-attached storage drives. It also offers legacy applications comprising Mission Critical HDDs and SSDs; external storage solutions under the Seagate Ultra Touch, One Touch, Expansion, and Basics product lines, as well as under the LaCie brand name; desktop drives for personal computers and workstation applications; notebook drives traditional notebooks, convertible systems, and external storage applications, DVR HDDs for video streaming applications, and gaming SSDs for gaming rigs. In addition, the company provides Lyve edge-to-cloud mass capacity platform, that includes modular hardware and software to support enterprises' on-premise and cloud storage infrastructure needs. It sells its products primarily to original equipment manufacturers, distributors, and retailers. The company was founded in 1978 and is based in Singapore.",
     "current_price": 5.75,
     "pe_ratio": null,
-    "dividend_yield": 0.47,
+    "dividend_yield": 0.0,
     "high_1m": 6.9,
     "low_1m": 4.9,
     "support_levels": [
@@ -345023,7 +345190,7 @@
     "business_summary": "Selic Corp Public Company Limited, together with other subsidiaries, engages in the production and distribution of adhesives in Thailand. It operates through Adhesive for Industrial Use, Self-Adhesive Labels, and Healthcare Products segments. The company offers hot melt, water based, and solvent based adhesives. It also produces and distributes self-adhesive labels and healthcare products; and engages in the wholesale of industrial chemicals. The company serves various industries, such as packaging, footwear, furniture, automotive parts, textiles, print and publications, electronics, construction, electrical appliance, etc. It also offers its products in Asia, Australia, Africa, and the United States. Selic Corp Public Company Limited was founded in 1979 and is headquartered in Bangkok, Thailand.",
     "current_price": 2.74,
     "pe_ratio": 10.54,
-    "dividend_yield": 1.28,
+    "dividend_yield": 1.29,
     "high_1m": 2.84,
     "low_1m": 2.68,
     "support_levels": [
@@ -347247,7 +347414,7 @@
     "business_summary": "Shrinkflex (Thailand) Public Company Limited manufactures and distributes shrink sleeve labels in Thailand. It offers gravure and digital printing systems, green and flexible packaging, service, and stretch film products and solutions. The company also exports its products. Shrinkflex (Thailand) Public Company Limited was incorporated in 2007 and is headquartered in Chachoengsao, Thailand.",
     "current_price": 1.4,
     "pe_ratio": 10.0,
-    "dividend_yield": 4.93,
+    "dividend_yield": 5.0,
     "high_1m": 1.43,
     "low_1m": 1.33,
     "support_levels": [
@@ -373610,6 +373777,10 @@
       {
         "date": "2026-07-24",
         "close": 11.0
+      },
+      {
+        "date": "2026-07-28",
+        "close": 11.0
       }
     ]
   },
@@ -389975,7 +390146,8 @@
     "low_1m": 2.68,
     "support_levels": [
       2.24,
-      2.48
+      2.48,
+      2.68
     ],
     "resistance_levels": [
       3.05,
@@ -390517,6 +390689,10 @@
       },
       {
         "date": "2026-07-24",
+        "close": 2.9
+      },
+      {
+        "date": "2026-07-28",
         "close": 2.9
       }
     ]
@@ -396592,9 +396768,9 @@
       0.57,
       0.54
     ],
-    "upcoming_xd": "2026-08-27",
+    "upcoming_xd": "2026-08-28",
     "upcoming_dividend_amount": 0.04,
-    "upcoming_payment_date": "2026-09-11",
+    "upcoming_payment_date": "2026-09-12",
     "dividend_history": [
       {
         "date": "2024-04-17",
@@ -397128,6 +397304,10 @@
       },
       {
         "date": "2026-07-24",
+        "close": 0.54
+      },
+      {
+        "date": "2026-07-28",
         "close": 0.54
       }
     ]
@@ -398739,6 +398919,10 @@
       },
       {
         "date": "2026-07-24",
+        "close": 3.54
+      },
+      {
+        "date": "2026-07-28",
         "close": 3.54
       }
     ]
@@ -402584,6 +402768,10 @@
       {
         "date": "2026-07-24",
         "close": 26.0
+      },
+      {
+        "date": "2026-07-28",
+        "close": 26.0
       }
     ]
   },
@@ -403150,7 +403338,7 @@
     "business_summary": "TEAM Consulting Engineering and Management Public Company Limited, together with its subsidiaries, provides integrated engineering, environment, and management consultancy services in Thailand and internationally. The company offers transportation and logistics services, such as roads, bridges, intercity expressways, mass transit systems, rail systems, double-track railways, high-speed trains, airports, ports, traffic engineering and management, and logistics management. It also provides services related to water supply development, and water resource management and development for consumption, irrigation, hydropower, flood prevention and drainage, coastal engineering, and water situation forecasting. The company also offers planning, designing, project analysis and management, construction supervision, operation, and maintenance for building and infrastructure projects; and services related to building and utility systems, including real estate development projects, such as condominiums, hotels, shopping centers and mixed-use complexes, industrial estates, factories, green buildings, urban and regional planning, land development planning, buildings, and industrial estates, as well as the transit oriented development. It provides consulting services related to energy, power, oil and gas, and petroleum as well as related industries including port and utilities; in the areas of strategic management, finance and investment, accounting, marketing, project management, and project development; and in the field of geotechnical, foundation, and underground structure engineering services. The company also offers architectural planning and design, interior design, urban development, and landscape architecture services; engineering, procurement, and construction services; and asset management, and climate and sustainability services, as well as installs and manages various measurement systems. The company was incorporated in 1978 and is based in Bangkok, Thailand.",
     "current_price": 3.18,
     "pe_ratio": 13.25,
-    "dividend_yield": 5.0,
+    "dividend_yield": 5.03,
     "high_1m": 3.38,
     "low_1m": 2.92,
     "support_levels": [
@@ -407583,6 +407771,10 @@
       },
       {
         "date": "2026-07-24",
+        "close": 0.05
+      },
+      {
+        "date": "2026-07-28",
         "close": 0.05
       }
     ]
@@ -414162,7 +414354,7 @@
     "business_summary": "Thantawan Industry Public Company Limited engages in the manufacture and sale of plastic products in Thailand, Europe, rest of Asia, America, Australia, and Africa. The company offers drinking straws, zipper and slider bags, general bags, cling wraps, zip profiles, and body scrubs; compostable products comprising paper and bio straws; shopping bags, gloves, cutlery and agricultural films, and garbage bags; and zipper tapes, resin scraps, etc. It sells its products under the Kitchen Neat, Fresh & Fresh, Zip Solution, SUNZIP, SUNMUM, and SUNBIO brands. The company was formerly known as Blowtech (Thailand) Co., Ltd. and changed its name to Thantawan Industry Public Company Limited in 1994. The company was founded in 1978 and is headquartered in Sam Phran, Thailand. Thantawan Industry Public Company Limited is a subsidiary of Sunflower Company Limited.",
     "current_price": 21.0,
     "pe_ratio": 12.8,
-    "dividend_yield": 7.58,
+    "dividend_yield": 7.62,
     "high_1m": 21.2,
     "low_1m": 20.5,
     "support_levels": [
@@ -421284,7 +421476,7 @@
     "business_summary": "T.K.S. Technologies Public Company Limited, together with its subsidiaries, manufactures business and continuous paper forms, securities and other printing products, and continuous labels in Thailand, Asia, and internationally. The company offers security, digital, education, label and packaging, government security, warehouse and fulfillment, card, and e-solutions for banking and finance, retail and restaurants, insurance and leasing, government, education, hospitals, transport and logistics, services, telecommunications and communications, electronics, cosmetics and pharmaceuticals, food and beverages, and other industries. It also provides information technology system and software, including Venio, a mobile CRM solution; Empeo, an HRM solution; eTaxGo, a corporate e-tax provider; Salesbear, a sales assistant solution; emconnect, a smart recruiting platform; and IOMO, a biometric device. In addition, the company offers e-commerce and fulfillment solutions, edtech and fintech platforms, digital transformation, and Internet of Things; smart solutions, such as smart, top up, member, specialty, visa, and mastercards, as well as technology products, data recording on the card, stock management, delivery, and printing services; and system integration services comprising digital transformation, infrastructure, multi cloud and data centers, cyber security, AI and big data, and network and communication solutions, as well as turn-key consulting and services. Further, it is involved in printing and warehouse management services; laser printing and enveloping of statements, bills and invoices, and related value-added services; manufacturing of product labels; and investment activities. The company was founded in 1954 and is based in Samut Sakhon, Thailand.",
     "current_price": 7.2,
     "pe_ratio": 10.0,
-    "dividend_yield": 6.26,
+    "dividend_yield": 6.39,
     "high_1m": 7.5,
     "low_1m": 7.05,
     "support_levels": [
@@ -429529,8 +429721,7 @@
     "high_1m": 20.0,
     "low_1m": 18.4,
     "support_levels": [
-      18.4,
-      17.77
+      18.6
     ],
     "resistance_levels": [
       20.8,
@@ -430073,6 +430264,10 @@
       },
       {
         "date": "2026-07-24",
+        "close": 18.7
+      },
+      {
+        "date": "2026-07-28",
         "close": 18.7
       }
     ]
@@ -433431,7 +433626,7 @@
     "current_price": 132.5,
     "pe_ratio": 7.08,
     "dividend_yield": 3.34,
-    "high_1m": 138.5,
+    "high_1m": 138.0,
     "low_1m": 131.5,
     "support_levels": [
       131.01
@@ -433976,6 +434171,10 @@
       },
       {
         "date": "2026-07-24",
+        "close": 132.5
+      },
+      {
+        "date": "2026-07-28",
         "close": 132.5
       }
     ]
@@ -434534,6 +434733,10 @@
       },
       {
         "date": "2026-07-24",
+        "close": 2.68
+      },
+      {
+        "date": "2026-07-28",
         "close": 2.68
       }
     ]
@@ -442267,6 +442470,10 @@
       {
         "date": "2026-07-24",
         "close": 26.25
+      },
+      {
+        "date": "2026-07-28",
+        "close": 26.25
       }
     ]
   },
@@ -445144,7 +445351,7 @@
     "business_summary": "Thai Rung Union Car Public Company Limited engages in the car assembly and modification, and the manufacture and distribution of parts and molds in Thailand. It operates through three segments: Car Assembly and Other Related Car Services; Manufacture of Equipment for Production of Car Accessories; and Sales of Cars, and Car Service Centre Business. The company manufactures and sells dies, including progressive dies, cutting dies, and bending dies; molds; car accessories and spare parts. It also design, manufacture, and distribute various types of truck bodies and special vehicles; provides car assembly and other related car services; main and sub-assembly jigs for complete vehicles; checking services for checking fixtures for door, roof, chassis, hood, and wheelhouse; vehicle modification; and painting services. In addition, the company offers pick up, motorcycle, machinery, and new energy vehicle parts; contract assembly; and research and car development services. Thai Rung Union Car Public Company Limited was founded in 1967 and is headquartered in Bangkok, Thailand.",
     "current_price": 3.82,
     "pe_ratio": 10.32,
-    "dividend_yield": 6.58,
+    "dividend_yield": 6.54,
     "high_1m": 3.86,
     "low_1m": 3.76,
     "support_levels": [
@@ -447320,6 +447527,10 @@
       {
         "date": "2026-07-24",
         "close": 1.5
+      },
+      {
+        "date": "2026-07-28",
+        "close": 1.5
       }
     ]
   },
@@ -449012,9 +449223,9 @@
       0.14,
       0.15
     ],
-    "upcoming_xd": "2026-08-27",
+    "upcoming_xd": "2026-08-28",
     "upcoming_dividend_amount": 0.01,
-    "upcoming_payment_date": "2026-09-11",
+    "upcoming_payment_date": "2026-09-12",
     "dividend_history": [
       {
         "date": "2023-05-03",
@@ -449548,6 +449759,10 @@
       },
       {
         "date": "2026-07-24",
+        "close": 0.04
+      },
+      {
+        "date": "2026-07-28",
         "close": 0.04
       }
     ]
@@ -450105,6 +450320,10 @@
       },
       {
         "date": "2026-07-24",
+        "close": 10.5
+      },
+      {
+        "date": "2026-07-28",
         "close": 10.5
       }
     ]
@@ -452316,6 +452535,10 @@
       {
         "date": "2026-07-24",
         "close": 0.08
+      },
+      {
+        "date": "2026-07-28",
+        "close": 0.08
       }
     ]
   },
@@ -452871,6 +453094,10 @@
       },
       {
         "date": "2026-07-24",
+        "close": 25.75
+      },
+      {
+        "date": "2026-07-28",
         "close": 25.75
       }
     ]
@@ -455911,6 +456138,10 @@
       },
       {
         "date": "2026-07-24",
+        "close": 3.3
+      },
+      {
+        "date": "2026-07-28",
         "close": 3.3
       }
     ]
@@ -460854,7 +461085,7 @@
     "business_summary": "Utility Business Alliance Public Company Limited provides technical engineering and other related services in Thailand. The company undertakes the contracts for wastewater treatment system operation, which includes wastewater treatment system maintenance services. It also offers integrated operation and maintenance services, including startup and commissioning, water system operation and management, maintenance, and troubleshooting services. In addition, the company provides engineering services and equipment procurement, such as design and consulting, procurement and installation for machinery and equipment, and construction services. Utility Business Alliance Public Company Limited was founded in 2000 and is headquartered in Bangkok, Thailand.",
     "current_price": 1.14,
     "pe_ratio": 8.77,
-    "dividend_yield": 8.68,
+    "dividend_yield": 8.53,
     "high_1m": 1.18,
     "low_1m": 1.06,
     "support_levels": [
@@ -462483,7 +462714,7 @@
     "business_summary": "Unimit Engineering Public Company Limited, together with its subsidiaries, engages in the design, shop fabrication, field installation, and erection of steel products and construction works in Thailand and internationally. The company offers pressure vessels, including columns/towers, cryogenic and LPG tanks, shell and tube heat exchangers, spherical tanks, and vessels/drums. It also provides machinery parts, such as diverters, fan casings and preheaters, furnace casings, stacks and chimneys, and water treatment parts. In addition, the company provides storage tanks, including API storage tanks and silo hopper products; and steel structures, piping shop fabrication products, and platforms and ladders. Further, it is involved in mechanical installation services, such as piping and equipment installations, module works and shut down and modification works services. Additionally, the company exports its products. Unimit Engineering Public Company Limited was founded in 1982 and is based in Samut Prakan, Thailand.",
     "current_price": 0.76,
     "pe_ratio": null,
-    "dividend_yield": 8.11,
+    "dividend_yield": 7.89,
     "high_1m": 0.83,
     "low_1m": 0.74,
     "support_levels": [
@@ -466174,7 +466405,7 @@
     "pe_ratio": null,
     "dividend_yield": 4.8,
     "high_1m": 21.8,
-    "low_1m": 20.4,
+    "low_1m": 20.7,
     "support_levels": [
       20.1
     ],
@@ -466719,6 +466950,10 @@
       },
       {
         "date": "2026-07-24",
+        "close": 21.8
+      },
+      {
+        "date": "2026-07-28",
         "close": 21.8
       }
     ]
@@ -471685,7 +471920,7 @@
     "business_summary": "Vibhavadi Medical Center Public Company Limited operates a hospital under the Vibhavadi Hospital name in Thailand. It operates through two segments, Hospital General Hospital and Hospital in Social Security; and Others Rental services and rental space. The company provides medical services; and rental services and space rental. It engages in the beauty business; and operation of anti-aging center and specialized disease clinics. The company was founded in 1986 and is based in Bangkok, Thailand.",
     "current_price": 1.35,
     "pe_ratio": 9.64,
-    "dividend_yield": 4.51,
+    "dividend_yield": 4.44,
     "high_1m": 1.41,
     "low_1m": 1.33,
     "support_levels": [
@@ -476048,7 +476283,7 @@
     "business_summary": "Warrix Sport Public Company Limited manufactures and sells uniform, clothing, and sport equipment for men, women, and children in Thailand and internationally. It operates in three segments: Credit Selling, Online Selling, and Others. The company offers school/university shirt and foot club shirts; shirts, pants, shoes, socks, bags, and hats; training and gym, football, futsal, run, golf, and basketball attire; backpack, sandals, warm-up suit, tight dress, and pajamas; and accessories and equipment, such as arm sleeves, ball, cap, mask, souvenirs, scarf, shin guards, sprays, and wristband. It also provides tanks, shorts, leggings, visors, jackets, sweaters, sleepwear, and skirts; balls, armbands, yoga blocks, masks, and face shields; training cables and support bra; and running shoes under the Asics and On brands. In addition, the company offers polo shirt, t-shirt, sports jersey, jackets and hoodies, compression suit, shorts, trousers, sweatpants, and underwear; and bakery, bird fanfest, jeans, bunka, comba cool tee, and combat kits. Further, it engages in the retail shop selling, product display segment, and physical therapy clinic business, as well as sale of apparel, clothing, and sports equipment. It offers its products through various distribution channels and online store. Warrix Sport Public Company Limited was incorporated in 2013 and is headquartered in Bangkok, Thailand.",
     "current_price": 1.36,
     "pe_ratio": null,
-    "dividend_yield": 4.17,
+    "dividend_yield": 4.14,
     "high_1m": 1.4,
     "low_1m": 1.33,
     "support_levels": [
@@ -479483,7 +479718,7 @@
     "business_summary": "WHA Utilities and Power Public Company Limited provides utilities and water solutions in Thailand and internationally. It produces and distributes industrial water; and provides waste water treatment and management services to industrial estates. The company engages in the solar power business; investment in water and power businesses; natural gas distribution; emission reduction services; and coal, gas, hydro, solar, and alternative power generation. The company was formerly known as Hemaraj Clean Water Company Limited and changed its name to WHA Utilities and Power Public Company Limited in August 2016. WHA Utilities and Power Public Company Limited was founded in 2008 and is headquartered in Samut Prakan, Thailand. The company is a subsidiary of WHA Industrial Development Public Company Limited.",
     "current_price": 7.75,
     "pe_ratio": 26.72,
-    "dividend_yield": 3.14,
+    "dividend_yield": 3.26,
     "high_1m": 8.5,
     "low_1m": 6.65,
     "support_levels": [
@@ -480599,7 +480834,7 @@
     "business_summary": "WIIK Public Company Limited, together with its subsidiaries, engages in the manufacturing and distribution of pipes and related fitting products in Thailand. The company offers high density polyethylene pipes and fittings, including W-HQ pipes and fittings, W-HQ conduit pipes and fittings, W-EQ pipes, W-EP pipes, Weholite pipes and fittings, WehoManholes, and WehoTanks, as well as WIIK real-time data logger. It also provides low density polyethylene, polypropylene, polybutylene, and Weholite spiro pipes, as well as polypropylene pipes and fittings; polyvinyl chloride products, such as PVC pipes for water supply, PVC yellow conduit pipes and fittings, and white PVC pipes for conduits; and green PP-R pipes for plumbing cold/hot water. In addition, the company offers project services comprising butt fusion, hand extrusion, and electrofusion welding services, as well as site hydrostatic pressure test services; and testing analysis services, which include plastic material, thermoplastic pipe, drinking water HDPE pipe testing, and smooth external surface polyethylene structured-wall pipe for underground testing services. Further, it is involved in pipe installation services and water management; water production with ultra filtration and reverse osmosis systems; water distribution and supply system; and design construction and operation of water supply system. The company was formerly known as Wiik & Hoeglund Public Company Limited and changed its name to WIIK Public Company Limited in December 2019. WIIK Public Company Limited was founded in 1983 and is headquartered in Bangkok, Thailand.",
     "current_price": 1.15,
     "pe_ratio": 11.5,
-    "dividend_yield": 4.82,
+    "dividend_yield": 4.78,
     "high_1m": 1.27,
     "low_1m": 1.03,
     "support_levels": [
@@ -482204,7 +482439,7 @@
     "business_summary": "Winnergy Medical Public Company Limited engages in the distribution of medical and diagnostic equipment in Thailand. The company imports and distributes technology and diagnostic kits for cervical cancer screening, including cytology examinations using automatic slide preparation machines and testing for human papilloma virus, and colposcopes. It also offers equipment for testing blood quality and blood collection bags for blood donation; blood quality testing products; blood freezers; blood banking, including pathogen inactivation; blood bag tube sealer; blood donor chairs; instrument for counting the number of leukocytes residual in blood; and device used to cut and connect both dry and wet blood bags. In addition, the company sells mosquito trappers for outdoor and indoor use; and offers HPV and STI self-collect test kits under AVA name. The company was formerly known as Winnergy Medical Co., Ltd. and changed its name to Winnergy Medical Public Company Limited in September 2020. Winnergy Medical Public Company Limited was incorporated in 2004 and is headquartered in Bangkok, Thailand.",
     "current_price": 0.87,
     "pe_ratio": 29.0,
-    "dividend_yield": 1.39,
+    "dividend_yield": 1.44,
     "high_1m": 0.93,
     "low_1m": 0.74,
     "support_levels": [
@@ -483858,7 +484093,7 @@
     "business_summary": "WP Energy Public Company Limited, together with its subsidiaries, trades in liquefied petroleum gas (LPG) under the World Gas brand name in Thailand, Vietnam, and Singapore. It operates through Trading of LPG, petroleum by-products and other related businesses; and Transportation of Oil, Gas and Chemical Substances segments. The company distributes LPG cylinder to the household, automobile, industrial and commercial, and auto gas station sectors; and provides butane gas cartridge, as well as offers specialized LPG cylinders for forklift trucks. It also transports oil, gas, and chemical substances; operates gas station; repair and maintenance services on gas cylinders; produces and distributes electricity; and leases vehicle transportation of gas. In addition, the company provides solar service solutions, maintenance, and logistics services. WP Energy Public Company Limited was incorporated in 2014 and is based in Bangkok, Thailand.",
     "current_price": 3.7,
     "pe_ratio": 11.94,
-    "dividend_yield": 8.15,
+    "dividend_yield": 8.11,
     "high_1m": 3.78,
     "low_1m": 3.62,
     "support_levels": [
@@ -485482,6 +485717,10 @@
       },
       {
         "date": "2026-07-24",
+        "close": 0.03
+      },
+      {
+        "date": "2026-07-28",
         "close": 0.03
       }
     ]
@@ -488798,7 +489037,7 @@
     "business_summary": "Yuasa Battery (Thailand) Public Company Limited engages in the manufacture and distribution of batteries for automobiles and motorcycles in Thailand. The company offers deep cycle, conventional battery, and maintenance free battery. It sells its products under the YUASA brand name, as well as under private brands, such as THUNDERLITE and YUCON. The company serves replacement equipment markets. It also exports its products. The company was incorporated in 1994 and is headquartered in Samut Prakan, Thailand.",
     "current_price": 14.3,
     "pe_ratio": 6.19,
-    "dividend_yield": 6.27,
+    "dividend_yield": 6.31,
     "high_1m": 14.8,
     "low_1m": 14.0,
     "support_levels": [
