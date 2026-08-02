@@ -58144,9 +58144,9 @@ var STOCKS_DATABASE = {
       0.89,
       0.95
     ],
-    "upcoming_xd": "2026-08-31",
+    "upcoming_xd": "2026-09-01",
     "upcoming_dividend_amount": 0.06,
-    "upcoming_payment_date": "2026-09-15",
+    "upcoming_payment_date": "2026-09-16",
     "dividend_history": [
       {
         "date": "2025-05-26",
@@ -129307,9 +129307,9 @@ var STOCKS_DATABASE = {
       56.25,
       67.75
     ],
-    "upcoming_xd": "2026-08-31",
+    "upcoming_xd": "2026-09-01",
     "upcoming_dividend_amount": 2.55,
-    "upcoming_payment_date": "2026-09-15",
+    "upcoming_payment_date": "2026-09-16",
     "dividend_history": [
       {
         "date": "2025-04-22",
@@ -265994,7 +265994,7 @@ var STOCKS_DATABASE = {
   },
   "OKJ": {
     "symbol": "OKJ",
-    "name": "Pluk Phak Praw Rak Mae Public Company Limited",
+    "name": "OKJ_PLUK PHAK PRAW RAK MAE",
     "business_summary": "Pluk Phak Praw Rak Mae Public Company Limited engages in the sales of food and beverages in Thailand. The company offers health food and beverages, such as salads, steaks, soups, spaghetti, single dish meals, desserts, vegetable and fruit juices, bakery, snacks, as well as sandwiches, wraps, and ready-to-eat meals. It is also involved in cultivating organic vegetables and fruits; operation of full-service restaurant, delivery and kiosk, café amazon, and supermarket, as well as quick service restaurant, and healthy vegetable and fruit juice business. The company sells its products and services under the Oh Ka Jhu, Ohkajhu Wrap & Roll, Oh! Juice, and Oh-Kad brands. Pluk Phak Praw Rak Mae Public Company Limited was incorporated in 2014 and is based in Chiang Mai, Thailand.",
     "current_price": 3.46,
     "pe_ratio": null,
@@ -399275,9 +399275,9 @@ var STOCKS_DATABASE = {
       0.57,
       0.54
     ],
-    "upcoming_xd": "2026-08-31",
+    "upcoming_xd": "2026-09-01",
     "upcoming_dividend_amount": 0.04,
-    "upcoming_payment_date": "2026-09-15",
+    "upcoming_payment_date": "2026-09-16",
     "dividend_history": [
       {
         "date": "2024-04-17",
@@ -452102,9 +452102,9 @@ var STOCKS_DATABASE = {
       0.14,
       0.15
     ],
-    "upcoming_xd": "2026-08-31",
+    "upcoming_xd": "2026-09-01",
     "upcoming_dividend_amount": 0.01,
-    "upcoming_payment_date": "2026-09-15",
+    "upcoming_payment_date": "2026-09-16",
     "dividend_history": [
       {
         "date": "2023-05-03",
