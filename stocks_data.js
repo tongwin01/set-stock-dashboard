@@ -57825,9 +57825,9 @@ var STOCKS_DATABASE = {
       0.83,
       0.86
     ],
-    "upcoming_xd": "2026-11-16",
+    "upcoming_xd": "2026-11-17",
     "upcoming_dividend_amount": 0.06,
-    "upcoming_payment_date": "2026-12-01",
+    "upcoming_payment_date": "2026-12-02",
     "dividend_history": [
       {
         "date": "2025-05-26",
@@ -128082,9 +128082,9 @@ var STOCKS_DATABASE = {
     "resistance_levels": [
       67.75
     ],
-    "upcoming_xd": "2026-11-16",
+    "upcoming_xd": "2026-11-17",
     "upcoming_dividend_amount": 2.55,
-    "upcoming_payment_date": "2026-12-01",
+    "upcoming_payment_date": "2026-12-02",
     "dividend_history": [
       {
         "date": "2025-04-22",
@@ -226521,7 +226521,7 @@ var STOCKS_DATABASE = {
   "METCO": {
     "symbol": "METCO",
     "name": "Muramoto Electron (Thailand) Public Company Limited",
-    "business_summary": "Muramoto Electron (Thailand) Public Company Limited manufactures and sells metal and plastic parts for audio/visual equipment, and electronic equipment for automobiles and office automation appliances in Thailand, Japan, the United States, and internationally. It operates through three segments: Electric Parts for Automotive Business, Electronic Parts for Office Automation Business, and Other Business. The company provides automotive devices, such as display audio units, audio panels, CD and DVD changers, gear units, air bag parts, keyless entry transmitters and receivers, corner sensors, press and window regulator parts, mounting boards for keyless entry receivers, print circuit board assemblies for CD changers, and mounting boards for cameras. It also offers video cameras and single-lens reflex camera products for consumers, including video camera LCD units, back cover and lens units for single lens reflex cameras, and top cover units for mirrorless cameras; and printer finished products, thermal fuses, hermetic terminals, and magnetron filter box parts for use in industrial applications. The company was incorporated in 1987 and is headquartered in Bangkok, Thailand. Muramoto Electron (Thailand) Public Company Limited is a subsidiary of Muramoto Industry Co., Ltd.",
+    "business_summary": "Muramoto Electron (Thailand) Public Company Limited manufactures and sells press part, plastic parts, dies, mold and procurement of electronics parts in North America, Europe, Japan, Thailand, Philippines, and Indonesia. It operates through three segments: Electric Parts for Automotive Business, Electronic Parts for Office Automation Business, and Other Business. The company provides automotive devices, such as display audio units, audio panels, CD and DVD changers, gear units, air bag parts, keyless entry transmitters and receivers, corner sensors, press and window regulator parts, mounting boards for keyless entry receivers, print circuit board assemblies for CD changers, and mounting boards for cameras. It also offers video cameras and single-lens reflex camera products for consumers, including video camera LCD units, back cover and lens units for single lens reflex cameras, and top cover units for mirrorless cameras; and printer finished products, thermal fuses, hermetic terminals, and magnetron filter box parts for use in industrial applications. The company was incorporated in 1987 and is headquartered in Bangkok, Thailand. Muramoto Electron (Thailand) Public Company Limited is a subsidiary of Muramoto Industry Co., Ltd.",
     "current_price": 300.0,
     "pe_ratio": 5.76,
     "dividend_yield": 10.0,
@@ -239780,7 +239780,7 @@ var STOCKS_DATABASE = {
     "business_summary": "Merck & Co., Inc. operates as a healthcare company worldwide. It offers human health pharmaceutical for various areas under the Keytruda, Keytruda Qlex, Welireg, Gardasil, ProQuad, M-M-R II, Varivax, Vaxneuvance, Capvaxive, RotaTeq, Pneumovax 23, Bridion, Prevymis, Dificid, Zerbaxa, Winrevair, Adempas/ Verquvo, Ohtuvayre, Lagevrio, Isentress/Isentress HD, Delstrigo, Pifeltro, Belsomra, Januvia, and Janumet brands. The company also provides veterinary pharmaceuticals, vaccines and health management solutions and services, such as livestock products under the Nuflor, Bovilis/Vista, Bovilis Cryptium, Banamine, Estrumate, Matrix, Resflor, Zuprevo, Revalor, Safe-Guard, M+Pac, Porcilis, Circumvent, Nobilis/Innovax, Paracox and Coccivac, Exzolt, Slice, Imvixa, Clynav, Aquavac/Norvax, Aquaflor, Flexolt brands; Allflex Livestock Intelligence solutions; and companion animal products under the Bravecto One-Month, Bravecto Injectable/Quantum, Bravecto TriUNO, Bravecto Plus, Sentinel Spectrum, Sentinel Flavor Tabs, Numelvi, Optimmune, Nobivac NXT, GilvetMab, Otomax, Mometamax, Mometamax Ultra, Posatex, Caninsulin/Vetsulin, Panacur, Safeguard, Regumate, Prestige, Scalibor/Exspot, Sure Petcare, and Home Again brands. It has development and commercialization agreement for three of Daiichi Sankyo's deruxtecan ADC candidates; AstraZeneca PLC to co-development and co-commercialize AstraZeneca's Lynparza products for multiple cancer types; licensed to develop, manufacture and commercialize LM-299, a novel investigational PD-1/VEGF bispecific antibody from LaNova; and collaboration agreement with Eisai Co., Ltd., Bayer AG, and Ridgeback Biotherapeutics LP, as well Moderna, Inc. Merck & Co., Inc. has strategic collaboration with Infinimmune, Inc. to discover and develop antibodies against multiple therapeutic targets. The company was founded in 1891 and is headquartered in Rahway, New Jersey.",
     "current_price": 2.54,
     "pe_ratio": null,
-    "dividend_yield": 0.0,
+    "dividend_yield": 1.42,
     "high_1m": 2.54,
     "low_1m": 2.46,
     "support_levels": [],
@@ -325278,7 +325278,7 @@ var STOCKS_DATABASE = {
   "SAFE": {
     "symbol": "SAFE",
     "name": "Safe Fertility Group Public Company Limited",
-    "business_summary": "Safe Fertility Group Public Company Limited, together with its subsidiaries, provides fertility medical center services in Thailand. It operates through two segments, Obstetrics and Gynecology hospital and medical laboratory, and Cosmetic Dermatology. The company offers in vitro fertilization, intrauterine insemination, egg freezing, and embryo transfer for women; and sperm freezing and analysis, magnetic activated cell sorting, IMSI, THESIS, and PESA services for men. It also provides couple checkup, embryoscope plus, preimplantation genetic testing for aneuploidies, preimplantation genetic testing for monogenic disorders, and acupuncture for inner body balance. In addition, the company engages in medical laboratories and beauty care service. Safe Fertility Group Public Company Limited was founded in 2007 and is headquartered in Bangkok, Thailand",
+    "business_summary": "Safe Fertility Group Public Company Limited, together with its subsidiaries, provides fertility medical center services in Thailand. It operates through two segments, Obstetrics and Gynecology hospital and medical laboratory, and Cosmetic Dermatology. The company offers in vitro fertilization, intrauterine insemination, egg freezing, and embryo transfer for women; and sperm freezing and analysis, magnetic activated cell sorting, IMSI, THESIS, and PESA services for men. It also provides couple checkup, embryoscope plus, preimplantation genetic testing for aneuploidies, preimplantation genetic testing for monogenic disorders, and acupuncture for inner body balance. In addition, the company engages in medical laboratories and beauty care service. Safe Fertility Group Public Company Limited was founded in 2007 and is headquartered in Bangkok, Thailand.",
     "current_price": 5.3,
     "pe_ratio": 12.62,
     "dividend_yield": 7.74,
@@ -331403,7 +331403,7 @@ var STOCKS_DATABASE = {
       },
       {
         "date": "2025-12-01",
-        "close": 10.17
+        "close": 10.18
       },
       {
         "date": "2025-12-03",
@@ -331419,7 +331419,7 @@ var STOCKS_DATABASE = {
       },
       {
         "date": "2025-12-15",
-        "close": 10.17
+        "close": 10.18
       },
       {
         "date": "2025-12-17",
@@ -364303,7 +364303,7 @@ var STOCKS_DATABASE = {
     "name": "Specialty Natural Products Public Company Limited",
     "business_summary": "Specialty Natural Products Public Company Limited manufactures and distributes herbal extracts, cosmetics, beverages, health supplements, and traditional medicines in Thailand and internationally. The company also offers extracts for nutraceuticals and cosmeceuticals for use in weight and immune control, blood pressure and sugar, antiaging, hair nourishment, whitening, wound healing, UV protection, rejuvenation for men, slimming, cosmetic mosturerizing, antibacterial, antioxidant, nutrition, and anti-inflammatory; natural additives, such as eucalyptus, ginger, jojoba, kaffir lime, lavender, lemon, lemongrass, lime, orange, peppermint, plai, turmeric, rice bran, and tea tree oil; and other additives, including amino cleansers, concentrate shampoo, SNP-alpha arbutin, Argirena, clear soap, cremaflow, emulbase, ICM, nonawax, polyol complex, solubilisant, standard EB, surfactant base1, sunsil tin50, tiospere 50BG, TOG, supersil E, and standard EB. In addition, it provides herbal active pharmaceuticals ingredients comprising senna extract liquid and andrographis extract powder; packing services for cosmetics, beverages, and dietary supplements; production and distribution of electricity; and product research and development services. The company was incorporated in 1999 and is headquartered in Chonburi, Thailand.",
     "current_price": 4.28,
-    "pe_ratio": 16.46,
+    "pe_ratio": 15.85,
     "dividend_yield": 4.44,
     "high_1m": 4.5,
     "low_1m": 4.18,
@@ -380774,7 +380774,7 @@ var STOCKS_DATABASE = {
   "STARM": {
     "symbol": "STARM",
     "name": "Star Money Public Company Limited",
-    "business_summary": "Star Money Public Company Limited engages in the distribution of electrical appliances in Thailand. The company operates in four segments: Sales, Hire Purchase, Lending Business, and Others. It distributes electrical appliances, such as televisions, refrigerators, washing machines, air-conditioners, freezers, and smartphones . The company also provides car, motorcycle, agricultural vehicle, commercial vehicle loans; and car, fire, accident, health, and travel insurance brokerage services. Star Money Public Company Limited was founded in 1987 and is headquartered in Rayong, Thailand.",
+    "business_summary": "Star Money Public Company Limited engages in the distribution of electrical appliances in Thailand. The company operates in four segments: Sales, Hire Purchase, Lending Business, and Others. It distributes electrical appliances, such as televisions, refrigerators, washing machines, air-conditioners, freezers, and smartphones. The company also provides car, motorcycle, agricultural vehicle, commercial vehicle loans; and car, fire, accident, health, and travel insurance brokerage services. Star Money Public Company Limited was founded in 1987 and is headquartered in Rayong, Thailand.",
     "current_price": 0.92,
     "pe_ratio": 11.5,
     "dividend_yield": 6.3,
@@ -395523,9 +395523,9 @@ var STOCKS_DATABASE = {
       0.57,
       0.54
     ],
-    "upcoming_xd": "2026-11-16",
+    "upcoming_xd": "2026-11-17",
     "upcoming_dividend_amount": 0.04,
-    "upcoming_payment_date": "2026-12-01",
+    "upcoming_payment_date": "2026-12-02",
     "dividend_history": [
       {
         "date": "2024-04-17",
@@ -447706,9 +447706,9 @@ var STOCKS_DATABASE = {
       0.14,
       0.15
     ],
-    "upcoming_xd": "2026-11-16",
+    "upcoming_xd": "2026-11-17",
     "upcoming_dividend_amount": 0.01,
-    "upcoming_payment_date": "2026-12-01",
+    "upcoming_payment_date": "2026-12-02",
     "dividend_history": [
       {
         "date": "2023-05-03",
