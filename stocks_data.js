@@ -5881,7 +5881,7 @@ var STOCKS_DATABASE = {
     "name": "AddTech Hub Public Company Limited",
     "business_summary": "AddTech Hub Public Company Limited, together with its subsidiaries, provides digital content, solutions, and marketing in Thailand. It offers mobile and online digital content services, including digital content sourcing and marketing, as well as development and maintenance of digital content management systems; and IT system development services, such as cybersecurity system services and digital payment solutions. The company also provides media and background music marketing services on online platforms comprising digital content marketing; media and advertising, which include development of websites, social media channels, and mobile applications under the Review Your Living brand, as well as content creation services; and music marketing services. In addition, it engages in the research and development of various types of system and software, such as loyalty management system, mobile payment solution, stored-value card system, authenticator with fast identity online, and e-library. The company was founded in 2004 and is based in Bangkok, Thailand.",
     "current_price": 3.54,
-    "pe_ratio": 17.7,
+    "pe_ratio": 16.86,
     "dividend_yield": 9.04,
     "high_1m": 3.84,
     "low_1m": 3.3,
@@ -6431,7 +6431,7 @@ var STOCKS_DATABASE = {
     "name": "Advanced Info Service Public Company Limited",
     "business_summary": "Advanced Info Service Public Company Limited operates as a telecommunications company primarily in Thailand. The company operates through three segments: Mobile Phone Services, Mobile Phone and Equipment Sales, and Datanet and Broadband Services. The company offers post and prepaid services; and on top and roaming services; digital marketing services; and cloud and it solutions; cloud & data center, business network solutions, 5g and IoT, communication solutions, and data analytic and marketing solutions; digital eservices; and Mpay, digital payment management system. It is also involved in operating as a service provider of call center, international telephone, cellular telephone network, telecommunication service operator and internet, broadcasting network and television broadcasting service several channel, digital platform, insurance broker, training, internet data center services, internet and distribute internet equipment, online advertising and being the outsourced contact center, mobile content, online advertising business, as well as operation in space, land and building services, and related facilities. In addition, the company engages in developing IT systems service provider of content aggregator and outsourcing service for billing and collection; software development, distribution and general software service; developing application and digital marketing; distributing handsets; and providing software supporting high speed internet service, Voice communication, broadband Internet data, and international telephone service. The company was founded in 1986 and is based in Bangkok, Thailand.",
     "current_price": 336.0,
-    "pe_ratio": 18.61,
+    "pe_ratio": 18.67,
     "dividend_yield": 5.17,
     "high_1m": 352.0,
     "low_1m": 328.0,
@@ -10214,7 +10214,7 @@ var STOCKS_DATABASE = {
     "name": "AAPICO Hitech Public Company Limited",
     "business_summary": "AAPICO Hitech Public Company Limited engages in the manufacture and distribution of automobile parts, dies, and jigs in Thailand, China, Malaysia, and Portugal. It operates through three segments: Manufacture of Auto Parts; Sales of Automobiles and Provision of Automobiles Repair Service; and Others. The company offers pressed and stamped body parts, including floor parts, cross members, side sills, brackets, clips, and sub-assembly parts; chassis frame components; banjo type housing axles; plastic parts; and plastic fuel tanks and windshield washer systems. It also provides forged and machined parts for transmission systems, power train systems, steering and suspension systems, engine parts, shafts, wheel hubs, link shafts, companion flanges, and other parts, as well as casting parts and machining parts, assembly jigs, and stamping dies. In addition, the company is involved in the sale of automobiles; venture capital business; investment in other companies; and import and export of vehicles and parts. Further, it offers automobile repair, training, technical support, and information technology consulting and advisory services; car navigation systems and its derivatives; Oracle ERP consultancy; and car accessories. AAPICO Hitech Public Company Limited was founded in 1985 and is headquartered in Phra Nakhon Si Ayutthaya, Thailand.",
     "current_price": 15.2,
-    "pe_ratio": 6.13,
+    "pe_ratio": 6.18,
     "dividend_yield": 5.66,
     "high_1m": 15.8,
     "low_1m": 14.2,
@@ -43441,7 +43441,7 @@ var STOCKS_DATABASE = {
     "name": "BBGI Public Company Limited",
     "business_summary": "BBGI Public Company Limited, together with its subsidiaries, manufactures and distributes biofuel and related products in Thailand. It operates in three segments: Biodiesel, Ethanol, and Others. The company offers biodiesel products, such as glycerine and methyl ester products; and bioethanol products. It also provides bio-based products. BBGI Public Company Limited was incorporated in 2018 and is headquartered in Bangkok, Thailand.",
     "current_price": 7.0,
-    "pe_ratio": 11.48,
+    "pe_ratio": 10.94,
     "dividend_yield": 2.86,
     "high_1m": 7.6,
     "low_1m": 6.21,
@@ -46675,7 +46675,7 @@ var STOCKS_DATABASE = {
     "name": "BCPG Public Company Limited",
     "business_summary": "BCPG Public Company Limited, a renewable energy company, engages in the solar power, hydropower, wind power, and natural gas businesses in Thailand, Japan, Laos, and Taiwan. It operates through Production and Distribution of Electricity; and Oil Storage and Seaport Service segments. The company offers smart energy solutions, including blockchain-based peer-to-peer energy trading project; energy management system; district cooling system; battery; and decarbonization solutions. It also develops transmission line systems and oil terminal. In addition, the company operates as an EPC contractor that provides operation and maintenance services. Further, it provides project development, construction, and operation management; investment management; and asset management services. The company was incorporated in 2015 and is headquartered in Bangkok, Thailand. BCPG Public Company Limited is a subsidiary of Bangchak Corporation Public Company Limited.",
     "current_price": 6.75,
-    "pe_ratio": 9.0,
+    "pe_ratio": 9.12,
     "dividend_yield": 5.93,
     "high_1m": 6.85,
     "low_1m": 6.25,
@@ -47774,7 +47774,7 @@ var STOCKS_DATABASE = {
     "name": "Bangkok Dusit Medical Services Public Company Limited",
     "business_summary": "Bangkok Dusit Medical Services Public Company Limited, together with its subsidiaries, operates hospitals in Thailand and internationally. It operates through two segments Hospital Operations; and Other Businesses That Support Hospital Business. The company operates hospitals under the Bangkok Hospital Group, Samitivej Hospital Group, BNH Hospital, Phyathai Hospital Group, Paolo Hospital, and Royal Hospital Group names; and BDMS Wellness Clinic. It also offers medical laboratory, holistic clinical wellness, accounting, technology and information, training, investment and asset management, air transportation, skin and aesthetics telemedicine, and genomic medicine services; operates hotels and pharmacies; provides health insurance and insurance brokerage services; retails medicine and pharmaceutical products; and distributes health products and cosmetic products, as well as facility management services. In addition, the company is involved in production and distribution of medicines, pharmaceutical products, medical equipment, and saline; real estate; e-commerce; and investment and operation of BDMS silver wellness and residence products. Bangkok Dusit Medical Services Public Company Limited was founded in 1969 and is headquartered in Bangkok, Thailand.",
     "current_price": 19.4,
-    "pe_ratio": 20.21,
+    "pe_ratio": 20.0,
     "dividend_yield": 3.87,
     "high_1m": 20.3,
     "low_1m": 18.7,
@@ -50501,7 +50501,7 @@ var STOCKS_DATABASE = {
     "name": "Bound and Beyond Public Company Limited",
     "business_summary": "Bound and Beyond Public Company Limited, together with its subsidiaries, invests in, develops, and operates hotel and hospitality business in Thailand. It operates in two segments: Hotel and Other Services. The company owns hotels under the Four Seasons Hotel Bangkok and Capella Bangkok names. It also engages in the trading of various base metals and by-products; and provision of food and beverage services. Bound and Beyond Public Company Limited was founded in 1981 and is based in Bangkok, Thailand.",
     "current_price": 7.1,
-    "pe_ratio": 20.88,
+    "pe_ratio": 20.29,
     "dividend_yield": 0.0,
     "high_1m": 7.25,
     "low_1m": 6.5,
@@ -57313,9 +57313,9 @@ var STOCKS_DATABASE = {
       0.83,
       0.86
     ],
-    "upcoming_xd": "2026-11-23",
+    "upcoming_xd": "2026-11-24",
     "upcoming_dividend_amount": 0.06,
-    "upcoming_payment_date": "2026-12-08",
+    "upcoming_payment_date": "2026-12-09",
     "dividend_history": [
       {
         "date": "2025-05-26",
@@ -77761,7 +77761,7 @@ var STOCKS_DATABASE = {
     "name": "Chaosua Foods Industry Public Company Limited",
     "business_summary": "Chaosua Foods Industry Public Company Limited, together with its subsidiaries, manufactures and distributes snacks and processed meat products in Thailand, China, the United States, Hong Kong, Australia, and internationally. It operates in two segments, Snacks and Meal. The company offers snack products, including rice crackers, pork sticks, crispy pork, cereal crackers, cashew nut bars, white and black sesame bars, and peanut bars and nougats; ready-to-cook food products, such as Chinese-style sausages and stir-fried noodles; and ready-to-eat meals comprising chili paste, roasted pork, and pork floss, strips, and jerky. It also provides mini rice chips; fish sticks, chips, and skins; grain crackers; desserts; drinks; and health products, as well as gift sets. In addition, the company engages in the import and distribution of consumer products. It exports its products. The company was founded in 1958 and is headquartered in Nakhon Ratchasima, Thailand.",
     "current_price": 3.8,
-    "pe_ratio": 18.1,
+    "pe_ratio": 17.27,
     "dividend_yield": 4.47,
     "high_1m": 4.04,
     "low_1m": 3.8,
@@ -119847,7 +119847,7 @@ var STOCKS_DATABASE = {
     "name": "Electricity Generating Public Company Limited",
     "business_summary": "Electricity Generating Public Company Limited, together with its subsidiaries, generates and sells electricity to government sector and industrial users primarily in Thailand, Laos, the Philippines, Indonesia, Australia, South Korea, Taiwan, and the United States. It operates through Electricity Generation and Other Businesses segments. The company generates electricity from various resources, such as biomass, hydropower, solar and wind power, battery energy, and fuel cell. It also involved in operation, maintenance, engineering and construction services to power plants, petrochemical plants, oil refineries and other industries; coal mining, management, and oil pipeline business. The company was incorporated in 1992 and is based in Bangkok, Thailand.",
     "current_price": 134.5,
-    "pe_ratio": 131.86,
+    "pe_ratio": 134.5,
     "dividend_yield": 4.83,
     "high_1m": 134.5,
     "low_1m": 123.0,
@@ -126766,9 +126766,9 @@ var STOCKS_DATABASE = {
     "resistance_levels": [
       67.75
     ],
-    "upcoming_xd": "2026-11-23",
+    "upcoming_xd": "2026-11-24",
     "upcoming_dividend_amount": 2.55,
-    "upcoming_payment_date": "2026-12-08",
+    "upcoming_payment_date": "2026-12-09",
     "dividend_history": [
       {
         "date": "2025-04-22",
@@ -127034,7 +127034,7 @@ var STOCKS_DATABASE = {
     "symbol": "FABRINET03",
     "name": "Fabrinet",
     "business_summary": "Fabrinet provides optical packaging and precision optical, electro-mechanical, and electronic manufacturing services in North America, the Asia-Pacific, Europe, and internationally. The company offers a range of advanced optical and electro-mechanical capabilities in the manufacturing process, including process design and engineering, supply chain management, manufacturing, printed circuit board assembly, packaging, integration, final assembly, and testing. Its products include switching products, including reconfigurable optical add-drop multiplexers, optical amplifiers, modulators, and other optical components and modules that enable network managers to route voice, video, and data communications traffic through fiber optic cables at various wavelengths, speeds, and over various distances. The company's products also comprise transceivers, tunable lasers, and transponders; and active optical cables, which provide high-speed interconnect capabilities for data centers and computing clusters, as well as Infiniband, Ethernet, fiber channel, and optical backplane connectivity. In addition, it provides solid state, diode-pumped, gas, and fiber lasers used in semiconductor processing, biotechnology and medical device, metrology, and material processing industries; and differential pressure, micro-gyro, fuel, and other sensors used in automobiles, as well as non-contact temperature measurement sensors for the medical industry. Further, the company designs and fabricates application-specific crystals, lenses, prisms, mirrors, laser components, and substrates; and other custom and standard borosilicate, clear fused quartz, and synthetic fused silica glass products. It serves original equipment manufacturers of optical communication components, modules and sub-systems, industrial lasers, automotive components, medical devices, and sensors. The company was incorporated in 1999 and is based in George Town, the Cayman Islands.",
-    "current_price": 1.24,
+    "current_price": 1.08,
     "pe_ratio": null,
     "dividend_yield": 0.0,
     "high_1m": 1.71,
@@ -127317,7 +127317,7 @@ var STOCKS_DATABASE = {
     "symbol": "FABRINET23",
     "name": "Fabrinet",
     "business_summary": "Fabrinet provides optical packaging and precision optical, electro-mechanical, and electronic manufacturing services in North America, the Asia-Pacific, Europe, and internationally. The company offers a range of advanced optical and electro-mechanical capabilities in the manufacturing process, including process design and engineering, supply chain management, manufacturing, printed circuit board assembly, packaging, integration, final assembly, and testing. Its products include switching products, including reconfigurable optical add-drop multiplexers, optical amplifiers, modulators, and other optical components and modules that enable network managers to route voice, video, and data communications traffic through fiber optic cables at various wavelengths, speeds, and over various distances. The company's products also comprise transceivers, tunable lasers, and transponders; and active optical cables, which provide high-speed interconnect capabilities for data centers and computing clusters, as well as Infiniband, Ethernet, fiber channel, and optical backplane connectivity. In addition, it provides solid state, diode-pumped, gas, and fiber lasers used in semiconductor processing, biotechnology and medical device, metrology, and material processing industries; and differential pressure, micro-gyro, fuel, and other sensors used in automobiles, as well as non-contact temperature measurement sensors for the medical industry. Further, the company designs and fabricates application-specific crystals, lenses, prisms, mirrors, laser components, and substrates; and other custom and standard borosilicate, clear fused quartz, and synthetic fused silica glass products. It serves original equipment manufacturers of optical communication components, modules and sub-systems, industrial lasers, automotive components, medical devices, and sensors. The company was incorporated in 1999 and is based in George Town, the Cayman Islands.",
-    "current_price": 2.92,
+    "current_price": 2.68,
     "pe_ratio": null,
     "dividend_yield": 0.0,
     "high_1m": 4.28,
@@ -127648,7 +127648,7 @@ var STOCKS_DATABASE = {
     "symbol": "FABRINET80",
     "name": "Fabrinet",
     "business_summary": "Fabrinet provides optical packaging and precision optical, electro-mechanical, and electronic manufacturing services in North America, the Asia-Pacific, Europe, and internationally. The company offers a range of advanced optical and electro-mechanical capabilities in the manufacturing process, including process design and engineering, supply chain management, manufacturing, printed circuit board assembly, packaging, integration, final assembly, and testing. Its products include switching products, including reconfigurable optical add-drop multiplexers, optical amplifiers, modulators, and other optical components and modules that enable network managers to route voice, video, and data communications traffic through fiber optic cables at various wavelengths, speeds, and over various distances. The company's products also comprise transceivers, tunable lasers, and transponders; and active optical cables, which provide high-speed interconnect capabilities for data centers and computing clusters, as well as Infiniband, Ethernet, fiber channel, and optical backplane connectivity. In addition, it provides solid state, diode-pumped, gas, and fiber lasers used in semiconductor processing, biotechnology and medical device, metrology, and material processing industries; and differential pressure, micro-gyro, fuel, and other sensors used in automobiles, as well as non-contact temperature measurement sensors for the medical industry. Further, the company designs and fabricates application-specific crystals, lenses, prisms, mirrors, laser components, and substrates; and other custom and standard borosilicate, clear fused quartz, and synthetic fused silica glass products. It serves original equipment manufacturers of optical communication components, modules and sub-systems, industrial lasers, automotive components, medical devices, and sensors. The company was incorporated in 1999 and is based in George Town, the Cayman Islands.",
-    "current_price": 1.92,
+    "current_price": 1.77,
     "pe_ratio": null,
     "dividend_yield": 0.0,
     "high_1m": 2.8,
@@ -158158,7 +158158,7 @@ var STOCKS_DATABASE = {
     "name": "Ichitan Group Public Company Limited",
     "business_summary": "Ichitan Group Public Company Limited engages in the manufacture and sale of beverages in Thailand and internationally. The company offers ready-to-drink green tea under the ICHITAN green tea brand; herbal tea drink under the Yen Yen brand; and Shizuoka Green Tea No Sugar, Shizuoka Green Tea Jasmine No Sugar, and Shizuoka Green Tea Jasmine Mildly Sweet. It also provides Ichitan PH Plus Alkaline Water; carbonated drink under the TANSANSU brand; and Tan Power products. The company was formerly known as Mai Tan Company Limited. The company was incorporated in 2010 and is headquartered in Bangkok, Thailand.",
     "current_price": 13.8,
-    "pe_ratio": 14.23,
+    "pe_ratio": 14.08,
     "dividend_yield": 7.25,
     "high_1m": 14.0,
     "low_1m": 13.1,
@@ -169054,7 +169054,7 @@ var STOCKS_DATABASE = {
     "name": "Interroyal Engineering Public Company Limited",
     "business_summary": "Interroyal Engineering Public Company Limited provides integrated power, renewable energy, and business solutions. The company's power plant solutions include soot blowers and heating elements for combustion systems and boilers; electrostatic precipitators, industrial fans, steel grinding balls, rubber liners, mist eliminators, slurry pumps, propeller stirrers, and dewatering systems for waste and exhaust management systems; and fill packs for use in cooling systems. It also provides industrial wastewater equipment, liquid handling equipment, and flow control equipment; and single phase and three phase UPS products, lead acid batteries, and electric generators. In addition, the company designs and installs tunnel and metro ventilation systems and solutions. Further, it offers solar pump systems; digital power infrastructure solutions; wired and wireless networks that allows for the management of the plant network through a single device; and maintenance services. Additionally, the company provides market intelligence and forecasting, portfolio optimization, and project finance services. The company serves various industries, including power plants, cement plants, petrochemical facilities, and oil refineries. The company was incorporated in 1992 and is based in Bangkok, Thailand.",
     "current_price": 3.74,
-    "pe_ratio": 5.94,
+    "pe_ratio": 5.84,
     "dividend_yield": 14.98,
     "high_1m": 4.28,
     "low_1m": 3.72,
@@ -179191,7 +179191,7 @@ var STOCKS_DATABASE = {
     "name": "Jenkongklai Public Company Limited",
     "business_summary": "Jenkongklai Public Company Limited provides parking services in Thailand. The company operates through four segments: Parking Service, Parking Management, System Installation and Advisory, and Store Rental Business and Other. It rents parking spaces and buildings, as well as provides parking management services; and design and installation services for parking management systems, including parking fee collection systems and parking management facilities. The company was incorporated in 1998 and is headquartered in Bangkok, Thailand.",
     "current_price": 2.96,
-    "pe_ratio": 14.1,
+    "pe_ratio": 13.45,
     "dividend_yield": 3.38,
     "high_1m": 3.14,
     "low_1m": 2.88,
@@ -186700,7 +186700,7 @@ var STOCKS_DATABASE = {
     "name": "KCE Electronics Public Company Limited",
     "business_summary": "KCE Electronics Public Company Limited together with its subsidiaries, manufactures and distributes electric printed circuit boards (PCBs) under the KCE trademark in America, Europe, and Asia. It operates in three segments: Manufacturing and Selling Prepreg and Laminate, Printed Circuit Board, and Chemical products. The company's PCBs are manufactured from copper clad laminates that are used in various applications, including automotive, industrial, computer, and telecom systems. It also manufactures and distributes prefix and laminate, printed circuit boards, and chemicals products, as well as involved in the rental out residences. In addition, the company operates a network of sales offices in Singapore, Mexico, Japan, Korea, China, and Thailand. The company was formerly known as Kuang Charoen Electronics Company Limited. KCE Electronics Public Company Limited was founded in 1982 and is based in Bangkok, Thailand.",
     "current_price": 70.75,
-    "pe_ratio": 91.88,
+    "pe_ratio": 90.71,
     "dividend_yield": 1.7,
     "high_1m": 81.5,
     "low_1m": 66.0,
@@ -194547,7 +194547,7 @@ var STOCKS_DATABASE = {
     "business_summary": "Kiatnakin Phatra Bank Public Company Limited, together with its subsidiaries, provides various banking products and services for individual, business, corporate, and institution clients in Thailand. It operates through Commercial Banking Business, Capital Market Business, and Debt Restructuring segments. The company offers savings and current accounts, and fixed and foreign currency deposits; auto, personal, and home loans; life, health, and other insurance products; wealth invest link products; debit cards; digital banking, foreign exchange, and other services; and investment products. It also provides business banking products, including welfare packages; asset services; and real estate, apartment and hotel, and specialized industrial lending services. In addition, the company offers SME business loans; letters of guarantee; and car auction, PromptPay for legal entities, collection, payment, payroll, e-withholding tax, and other e-banking services. The company was formerly known as Kiatnakin Bank Public Company Limited and changed its name to Kiatnakin Phatra Bank Public Company Limited in August 2020. Kiatnakin Phatra Bank Public Company Limited was founded in 1971 and is headquartered in Bangkok, Thailand.",
     "current_price": 117.0,
     "pe_ratio": 12.89,
-    "dividend_yield": 6.51,
+    "dividend_yield": 6.37,
     "high_1m": 119.0,
     "low_1m": 108.5,
     "support_levels": [
@@ -246544,7 +246544,7 @@ var STOCKS_DATABASE = {
     "name": "North East Rubber Public Company Limited",
     "business_summary": "North East Rubber Public Company Limited manufactures and sells rubber products in Thailand. It offers rubber smoked sheets, skim block rubbers, mixtures rubber, ribbed smoked, and standard Thai rubbers primarily for the automotive industry. The company also exports its products to Singapore, China, Japan, Cambodia, and India. North East Rubber Public Company Limited was incorporated in 2006 and is headquartered in Prakhon Chai, Thailand.",
     "current_price": 4.7,
-    "pe_ratio": 6.1,
+    "pe_ratio": 6.18,
     "dividend_yield": 6.6,
     "high_1m": 4.76,
     "low_1m": 4.52,
@@ -258000,7 +258000,7 @@ var STOCKS_DATABASE = {
     "name": "Nirvana Development Public Company Limited",
     "business_summary": "Nirvana Development Public Company Limited, together with its subsidiaries, develops and sells real estate properties in Thailand. It operates through Real Estates, Construction, and Other segments. The company provides construction services; and distributes precast concrete products. The company was formerly known as Nirvana Daii Public Company Limited and changed its name to Nirvana Development Public Company Limited in April 2023. Nirvana Development Public Company Limited is based in Bangkok, Thailand.",
     "current_price": 0.8,
-    "pe_ratio": 7.27,
+    "pe_ratio": 8.0,
     "dividend_yield": 0.0,
     "high_1m": 0.98,
     "low_1m": 0.66,
@@ -272599,7 +272599,7 @@ var STOCKS_DATABASE = {
     "name": "PetroChina Company Limited",
     "business_summary": "PetroChina Company Limited, together with its subsidiaries, engages in a range of petroleum related products, services, and activities in Mainland China and internationally. It operates through the Oil and Gas and New Energy; Refining, Chemicals and New Materials; Sales; and Natural Gas Sales Segments. The Oil, Gas and New Energy Resource segment engages in the exploration, development, transportation, production, and marketing of crude oil and natural gas, as well as is involved in the new energy resource business. The Refining, Chemicals and New Materials segment refines crude oil and petroleum products; and produces and markets primary petrochemical products, derivative chemical products, and other chemical products; as well as engages in new materials business. The Sales segment is involved in the marketing of refined and non-oil products, and trading business. The Natural Gas Sales segment engages in the transmission and sale of natural gas. It is also involved in the exploration, development, and production of oil sands and coalbed methane; trading of crude oil and petrochemical products; investment in refining; storage, chemical engineering, storage facilities, service station, and transportation facilities and related businesses; chemical technology development; and provision of technology transfer and technical services. The company was incorporated in 1999 and is headquartered in Beijing, the People's Republic of China. PetroChina Company Limited operates as a subsidiary of China National Petroleum Corporation.",
     "current_price": 4.14,
-    "pe_ratio": 0.94,
+    "pe_ratio": 0.93,
     "dividend_yield": 6.05,
     "high_1m": 4.42,
     "low_1m": 3.98,
@@ -285056,7 +285056,7 @@ var STOCKS_DATABASE = {
   },
   "POPMART11": {
     "symbol": "POPMART11",
-    "name": "Pop Mart International Group Limited",
+    "name": "POPMART11_DR POPMART#KS",
     "business_summary": "Pop Mart International Group Limited, an investment holding company, designs, develops, and sells pop toys in the People's Republic of China, Hong Kong, Macau, Taiwan, and internationally. The company offers blind boxes. It sells its products through a network of retail stores and roboshops; online channels, including Tmall flagship store, DouYin, Pop Draw, and other online channels; and wholesale channels and others. The company also provides internet technology, customer, and technology development services; and operates playgrounds, as well as engages in investment and exhibition activities. Pop Mart International Group Limited was founded in 2010 and is headquartered in Beijing, the People's Republic of China.",
     "current_price": 5.5,
     "pe_ratio": null,
@@ -292604,7 +292604,7 @@ var STOCKS_DATABASE = {
     "name": "PRG Corporation Public Company Limited",
     "business_summary": "PRG Corporation Public Company Limited, together with its subsidiaries, engages in the production, improvement, packaging, and distribution of milled rice in Thailand, the United States, Canada, Europe, the Asia Pacific, and internationally. The company operates through three segments: Improving the Quality and Packaging of Milled Rice for Sale, Food Center Business, and Asset Management. It offers mah boonkrong rice, including thai hom mali, thai jasmine, white, and japanese; healthy rice products, such as organic rice, brown rice, riceberry, four hearty rice, rice with multigrain or dry vegetable, and other product; and drinking water. The company is also involved in the rental of warehouses, marina, and land; operation of food centers; distribution of rice; buying and selling of non-residential buildings; selling of goods; marina services and business; and property development and related businesses, as well as provision of transportation. The company was formerly known as Patum Rice Mill and Granary Public Company Limited and changed its name to PRG Corporation Public Company Limited in May 2021. PRG Corporation Public Company Limited was founded in 1979 and is headquartered in Pathum Thani, Thailand. PRG Corporation Public Company Limited is a subsidiary of MBK Public Company Limited.",
     "current_price": 10.6,
-    "pe_ratio": 12.33,
+    "pe_ratio": 12.18,
     "dividend_yield": 7.17,
     "high_1m": 11.1,
     "low_1m": 10.4,
@@ -298962,7 +298962,7 @@ var STOCKS_DATABASE = {
     "name": "Precious Shipping Public Company Limited",
     "business_summary": "Precious Shipping Public Company Limited, a holding company, owns and operates dry bulk ships on a tramp shipping basis in Thailand and internationally. The company is involved in chartering and owning ships, as well as investing in marine transportation and technical management of ships. It also owns and operates 40 vessels, including 6 Supramax, 13 Ultramax, 17 Handysize, and 4 Cement carriers with a total capacity of 1,862,905 deadweight tons. Precious Shipping Public Company Limited was founded in 1989 and is headquartered in Bangkok, Thailand.",
     "current_price": 9.7,
-    "pe_ratio": 11.83,
+    "pe_ratio": 11.98,
     "dividend_yield": 4.12,
     "high_1m": 11.0,
     "low_1m": 9.15,
@@ -303321,7 +303321,7 @@ var STOCKS_DATABASE = {
     "name": "PTT Global Chemical Public Company Limited",
     "business_summary": "PTT Global Chemical Public Company Limited operates as a chemical company in Thailand and internationally. It operates through six segments: Upstream, Intermediates, Polymers and Chemicals, Bio and Circularity, Performance Chemicals, and Service and Others. The company offers chemical products, such as petroleum, olefins, aromatics, purified terephthalic acid (PTA), EO-based performance, phenol, propylene oxide and polyols, acrylonitrile and methyl methacrylate, green chemicals, adhesives, coatings, and painting; and polymer products, including high-density polyethylene, linear low-density polyethylene, metallocene polyethylene, low-density polyethylene, polyethylene terephthalate, polypropylene, polystyrene, post consumer recycled plastic, bioplastics, compound, and purging compound. It also provides logistics, jetty and chemical tank farm, pipeline infrastructure, utility, land and property management, and information and communication technology; plant maintenance and engineering design; quality safety, occupational health, environmental, and security services; management consultancy; social enterprise; liquidity management and financing vehicle; corporate venture capital investment; and outsourcing services. Its products are used in the film and flexible packaging, rigid packaging, construction, healthcare, agricultural, automotive parts, electronics and electrical appliances, home and personal care chemicals, energy saving solution, sustainable solution, and masterbatch. The company was incorporated in 2011 and is headquartered in Bangkok, Thailand.",
     "current_price": 52.75,
-    "pe_ratio": 61.34,
+    "pe_ratio": 60.63,
     "dividend_yield": 2.09,
     "high_1m": 54.5,
     "low_1m": 48.0,
@@ -307102,10 +307102,10 @@ var STOCKS_DATABASE = {
     "name": "Quick Transformation Public Company Limited",
     "business_summary": "Quick Transformation Public Company Limited operates as a one-stop digital consulting and installation service provider. The company operates through three business units Business Solutions, Digital Workplace Solutions, and IoT Solutions. The Business Solutions provides microsoft dynamics 365 business central; microsoft dynamics 365 finance and operations; copilot. In addition, it provides Quick HR, Quick Barcode, Quick E-Payment, Quick E-Tax. The Digital Workplace Solutions provides microsoft 365; Microsoft Copilot; Microsoft Copilot Studio; Power Platform. It allows users to develop applications, automate processes, analyze data, and build websites with ease. It consists of four tools: power BI, power apps, power automate, and power pages; and azure service. In addition, the company offers Quick CRM, Quick PMS, Quick DMS, Quick AiX; and The IoT Solutions provides operations management, provides Plex MES, Quick MES, Quick QMS, and Quick PM; monitoring management provides ThingWorx, WebAccess/SCADA, Quick MMS; Sustainability Management includes Quick Carbon R, and Quick Energy; and other related systems includes Vuforia, and Qoot AI. It serves manufacturing, logistics, service, and retail industries. The company sells its products through direct sales force and distribution channel. The company was formerly known as Quick ERP Co., Ltd. and changed its name to Quick Transformation Public Company Limited in September 2025. The company was founded in 2004 and is based in Bang Kapi, Thailand.",
     "current_price": 6.55,
-    "pe_ratio": null,
+    "pe_ratio": 12.84,
     "dividend_yield": 0.0,
-    "high_1m": 7.45,
-    "low_1m": 5.8,
+    "high_1m": 7.15,
+    "low_1m": 5.65,
     "support_levels": [],
     "resistance_levels": [],
     "upcoming_xd": null,
@@ -307114,12 +307114,20 @@ var STOCKS_DATABASE = {
     "dividend_history": [],
     "history": [
       {
+        "date": "2026-10-19",
+        "close": 5.65
+      },
+      {
+        "date": "2026-10-20",
+        "close": 5.65
+      },
+      {
         "date": "2026-10-21",
         "close": 7.1
       },
       {
         "date": "2026-10-22",
-        "close": 6.55
+        "close": NaN
       }
     ]
   },
@@ -308187,7 +308195,7 @@ var STOCKS_DATABASE = {
     "name": "Ratch Group Public Company Limited",
     "business_summary": "Ratch Group Public Company Limited, an energy and infrastructure company, engages in the generation and sales of electricity and steam in Thailand, Australia, Singapore, Indonesia, and internationally. The company operates through four segments: Domestic Electricity Generating, Domestic Renewable Energy, International Power Projects, and Domestic Related Business and Infrastructure. It generates electricity through natural gas, coal, and fuel oil, as well as invests in renewable power generation including solar, wind, biomass and hydro power. The company also offers power plant operation and maintenance services, as well as invests in the power energy business. Ratch Group Public Company Limited was incorporated in 2000 and is headquartered in Nonthaburi, Thailand.",
     "current_price": 38.75,
-    "pe_ratio": 15.08,
+    "pe_ratio": 15.2,
     "dividend_yield": 3.61,
     "high_1m": 39.25,
     "low_1m": 36.5,
@@ -309275,7 +309283,7 @@ var STOCKS_DATABASE = {
     "name": "Regional Container Lines Public Company Limited",
     "business_summary": "Regional Container Lines Public Company Limited, together with its subsidiaries, engages in the feeder and vessel operations in Thailand, Singapore, Hong Kong, the People's Republic of China, Taiwan, and internationally. It also provides sea freight services for oversized cargo and dangerous goods; and logistics solutions comprising ocean freight/air freight/cross border, inland haulage, multiple drops pick up/delivery, domestic transportation, warehouse management and storage, consolidation center, order fulfillment, packing, loading/unloading, container inspection, fumigation, import/export documentation, customs clearance, and license application services. In addition, the company offers consulting, ship management, cargo consolidation and operation, shipping agency, and transportation and cargo handling services. As of December 31, 2025, its fleet consisted of 46 container vessels covering Northeast Asia, Southeast Asia, Indian sub-continent, South Asia, the Middle East, the Red Sea, and East Africa. Regional Container Lines Public Company Limited was founded in 1979 and is headquartered in Bangkok, Thailand.",
     "current_price": 47.25,
-    "pe_ratio": 5.03,
+    "pe_ratio": 5.05,
     "dividend_yield": 5.29,
     "high_1m": 52.25,
     "low_1m": 44.25,
@@ -326709,7 +326717,7 @@ var STOCKS_DATABASE = {
     "name": "Somboon Advance Technology Public Company Limited",
     "business_summary": "Somboon Advance Technology Public Company Limited, together with its subsidiaries, engages in the manufacturing and sale of automotive parts for pickup and trucks, passenger cars, and agricultural machinery in Thailand. The company operates through Axles and Trunnion Shafts, and Other Auto Parts and Others segments. It offers exhaust manifold, camshaft, flywheel, stabilizer bar, inner shaft, brake disc, coil spring, leaf spring, brake drum, and axle shaft. The company also provides tractor parts, such as case bevel gear, case front gear, cover front axle, holder front, case front axle, holder rear, manifold exhaust, case rear, case break, and case hyd. cylinder; and combine harvester parts, including v-pulley, gear case, knift guard, ass'y balde, roller guide, roller 180 and 275, guide crawler, frame tension, and case unloader 1, 2, and 3. In addition, it is involved in renting and investing in real estate, as well as researching, analyzing, designing, developing, importing, and selling electric car propulsion structures and batteries. The company serves original equipment manufacturers and replacement equipment manufacturers. It exports its products worldwide, including Asia-Pacific, South America, and Europe. Somboon Advance Technology Public Company Limited was founded in 1995 and is headquartered in Samut Prakan, Thailand.",
     "current_price": 15.9,
-    "pe_ratio": 8.98,
+    "pe_ratio": 8.93,
     "dividend_yield": 10.06,
     "high_1m": 16.5,
     "low_1m": 15.4,
@@ -327904,7 +327912,7 @@ var STOCKS_DATABASE = {
       },
       {
         "date": "2025-11-28",
-        "close": 10.18
+        "close": 10.17
       },
       {
         "date": "2025-12-02",
@@ -338155,7 +338163,7 @@ var STOCKS_DATABASE = {
     "symbol": "SEAGATE23",
     "name": "Seagate Technology Holdings plc",
     "business_summary": "Seagate Technology Holdings plc engages in providing data storage solutions in Singapore, the United States, the Netherlands, and internationally. The company offers External and internal hard drives; external and internal solid-state drives (SSDs); enterprise hard drives and SSDs; data storage systems; network attached storage (NAS) hard drives; video and analytics hard drives; and hyperscale and cloud solution. It offers its products for Healthcare, Media & Entertainment, Surveillance & Security, and telecommunication industry. The company sells its products primarily to original equipment manufacturers, distributors, and retailers. The company was founded in 1978 and is based in Singapore.",
-    "current_price": 4.7,
+    "current_price": 4.52,
     "pe_ratio": null,
     "dividend_yield": 0.61,
     "high_1m": 6.65,
@@ -338725,7 +338733,7 @@ var STOCKS_DATABASE = {
     "symbol": "SEAGATE80",
     "name": "Seagate Technology Holdings plc",
     "business_summary": "Seagate Technology Holdings plc engages in providing data storage solutions in Singapore, the United States, the Netherlands, and internationally. The company offers External and internal hard drives; external and internal solid-state drives (SSDs); enterprise hard drives and SSDs; data storage systems; network attached storage (NAS) hard drives; video and analytics hard drives; and hyperscale and cloud solution. It offers its products for Healthcare, Media & Entertainment, Surveillance & Security, and telecommunication industry. The company sells its products primarily to original equipment manufacturers, distributors, and retailers. The company was founded in 1978 and is based in Singapore.",
-    "current_price": 2.5,
+    "current_price": 2.42,
     "pe_ratio": null,
     "dividend_yield": 1.15,
     "high_1m": 3.54,
@@ -349976,7 +349984,7 @@ var STOCKS_DATABASE = {
     "name": "SISB Public Company Limited",
     "business_summary": "SISB Public Company Limited provides educational services in Thailand. The company owns and manages Singapore international schools in Thailand. It offers activities, sports and academies, experiential learning, and community services. The company was incorporated in 2001 and is headquartered in Bangkok, Thailand.",
     "current_price": 8.9,
-    "pe_ratio": 9.27,
+    "pe_ratio": 9.18,
     "dividend_yield": 5.73,
     "high_1m": 9.0,
     "low_1m": 8.45,
@@ -357911,7 +357919,7 @@ var STOCKS_DATABASE = {
     "name": "Sahamitr Pressure Container Public Company Limited",
     "business_summary": "Sahamitr Pressure Container Public Company Limited engages in the manufacture and sale of LPG and other pressure cylinders in Asia, Africa, the United States, and internationally. The company offers LPG cylinders, including 2-piece and 3-piece cylinders; automotive LPG cylinders, such as multi-valve system, 3-separated valve system, and automotive LPG toroidal; other pressure valves, such as air receivers  automotive components, refrigerant cylinders, propane cylinders for forklifts, methyl bromide cylinders, lubricant cylinders, chlorine cylinders, sulfur dioxide, and ammonia cylinders; and parts and components, including collar, footring, spud/bung, and cylinder cap. It also provides reconditioning services for pre-owned pressure vessels covering damaged cylinder, paint coating, and valve replacements. The company was founded in 1981 and is based in Bangkok, Thailand.",
     "current_price": 9.6,
-    "pe_ratio": 8.0,
+    "pe_ratio": 8.07,
     "dividend_yield": 7.81,
     "high_1m": 9.6,
     "low_1m": 9.3,
@@ -378104,7 +378112,7 @@ var STOCKS_DATABASE = {
     "name": "Siam Technic Concrete Public Company Limited",
     "business_summary": "Siam Technic Concrete Public Company Limited manufactures and distributes prestressed concrete products in Thailand. The company operates in two segments, Sale of Goods and Services, and Construction. It offers PC and cross arm spun products; square and hollow square section products; I-section products; electric poles; beams; plank, box, and I girders; sheet piles; planks; and stubs. The company also provides concrete product transportation services; installation and piling services; and construction services, including installation of high voltage transmission lines for housing, office buildings, factories, warehouses, and other infrastructures. In addition, it engages in the design, supply, and installation of fiber optic cables and underground transmission lines; and the manufacture and distribution of steel wires. The company was founded in 2001 and is headquartered in Bangkok, Thailand.",
     "current_price": 1.58,
-    "pe_ratio": 5.85,
+    "pe_ratio": 5.64,
     "dividend_yield": 2.53,
     "high_1m": 1.64,
     "low_1m": 1.55,
@@ -391705,9 +391713,9 @@ var STOCKS_DATABASE = {
       0.57,
       0.54
     ],
-    "upcoming_xd": "2026-11-23",
+    "upcoming_xd": "2026-11-24",
     "upcoming_dividend_amount": 0.04,
-    "upcoming_payment_date": "2026-12-08",
+    "upcoming_payment_date": "2026-12-09",
     "dividend_history": [
       {
         "date": "2024-04-17",
@@ -408978,7 +408986,7 @@ var STOCKS_DATABASE = {
     "name": "Thantawan Industry Public Company Limited",
     "business_summary": "Thantawan Industry Public Company Limited engages in the manufacture and sale of plastic products in Thailand, Europe, rest of Asia, America, Australia, and Africa. The company offers drinking straws, zipper and slider bags, general bags, cling wraps, zip profiles, and body scrubs; compostable products comprising paper and bio straws; shopping bags, gloves, cutlery and agricultural films, and garbage bags; and zipper tapes, resin scraps, etc. It sells its products under the Kitchen Neat, Fresh & Fresh, Zip Solution, SUNZIP, SUNMUM, and SUNBIO brands. The company was formerly known as Blowtech (Thailand) Co., Ltd. and changed its name to Thantawan Industry Public Company Limited in 1994. The company was founded in 1978 and is headquartered in Sam Phran, Thailand. Thantawan Industry Public Company Limited is a subsidiary of Sunflower Company Limited.",
     "current_price": 22.0,
-    "pe_ratio": 12.15,
+    "pe_ratio": 12.22,
     "dividend_yield": 6.82,
     "high_1m": 22.5,
     "low_1m": 21.9,
@@ -412193,8 +412201,8 @@ var STOCKS_DATABASE = {
     "current_price": 1.75,
     "pe_ratio": 7.95,
     "dividend_yield": 0.0,
-    "high_1m": 1.81,
-    "low_1m": 1.75,
+    "high_1m": 1.84,
+    "low_1m": 1.57,
     "support_levels": [],
     "resistance_levels": [],
     "upcoming_xd": null,
@@ -412202,6 +412210,50 @@ var STOCKS_DATABASE = {
     "upcoming_payment_date": null,
     "dividend_history": [],
     "history": [
+      {
+        "date": "2026-10-05",
+        "close": 1.65
+      },
+      {
+        "date": "2026-10-06",
+        "close": 1.6
+      },
+      {
+        "date": "2026-10-07",
+        "close": 1.59
+      },
+      {
+        "date": "2026-10-08",
+        "close": 1.6
+      },
+      {
+        "date": "2026-10-09",
+        "close": 1.73
+      },
+      {
+        "date": "2026-10-12",
+        "close": 1.7
+      },
+      {
+        "date": "2026-10-14",
+        "close": 1.73
+      },
+      {
+        "date": "2026-10-15",
+        "close": 1.77
+      },
+      {
+        "date": "2026-10-19",
+        "close": 1.76
+      },
+      {
+        "date": "2026-10-20",
+        "close": 1.79
+      },
+      {
+        "date": "2026-10-21",
+        "close": 1.82
+      },
       {
         "date": "2026-10-22",
         "close": 1.75
@@ -412762,7 +412814,7 @@ var STOCKS_DATABASE = {
     "name": "Dhipaya Group Holdings Public Company Limited",
     "business_summary": "Dhipaya Group Holdings Public Company Limited, through its subsidiaries, provides non-life insurance products in Thailand. It operates through three segments: Non-life Insurance, Investment Business, and Insurance Supported Business. The company acts as a non-life insurance broker, and surveyor; and operates training center, as well as provides technology service. Dhipaya Group Holdings Public Company Limited was founded in 1951 and is based in Bangkok, Thailand.",
     "current_price": 24.4,
-    "pe_ratio": 12.77,
+    "pe_ratio": 13.12,
     "dividend_yield": 6.15,
     "high_1m": 25.75,
     "low_1m": 22.9,
@@ -416020,7 +416072,7 @@ var STOCKS_DATABASE = {
     "name": "T.K.S. Technologies Public Company Limited",
     "business_summary": "T.K.S. Technologies Public Company Limited, together with its subsidiaries, manufactures business and continuous paper forms, securities and other printing products, and continuous labels in Thailand, Asia, and internationally. The company offers security, digital, education, label and packaging, government security, warehouse and fulfillment, card, and e-solutions for banking and finance, retail and restaurants, insurance and leasing, government, education, hospitals, transport and logistics, services, telecommunications and communications, electronics, cosmetics and pharmaceuticals, food and beverages, and other industries. It also provides information technology system and software, including Venio, a mobile CRM solution; Empeo, an HRM solution; eTaxGo, a corporate e-tax provider; Salesbear, a sales assistant solution; emconnect, a smart recruiting platform; and IOMO, a biometric device. In addition, the company offers e-commerce and fulfillment solutions, edtech and fintech platforms, digital transformation, and Internet of Things; smart solutions, such as smart, top up, member, specialty, visa, and mastercards, as well as technology products, data recording on the card, stock management, delivery, and printing services; and system integration services comprising digital transformation, infrastructure, multi cloud and data centers, cyber security, AI and big data, and network and communication solutions, as well as turn-key consulting and services. Further, it is involved in printing and warehouse management services; laser printing and enveloping of statements, bills and invoices, and related value-added services; manufacturing of product labels; and investment activities. The company was founded in 1954 and is based in Samut Sakhon, Thailand.",
     "current_price": 7.85,
-    "pe_ratio": 7.55,
+    "pe_ratio": 7.62,
     "dividend_yield": 6.11,
     "high_1m": 8.15,
     "low_1m": 7.75,
@@ -443581,9 +443633,9 @@ var STOCKS_DATABASE = {
       0.14,
       0.15
     ],
-    "upcoming_xd": "2026-11-23",
+    "upcoming_xd": "2026-11-24",
     "upcoming_dividend_amount": 0.01,
-    "upcoming_payment_date": "2026-12-08",
+    "upcoming_payment_date": "2026-12-09",
     "dividend_history": [
       {
         "date": "2023-05-03",
@@ -448491,7 +448543,7 @@ var STOCKS_DATABASE = {
     "name": "Thai Union Group Public Company Limited",
     "business_summary": "Thai Union Group Public Company Limited, together with its subsidiaries, manufactures and sells frozen, chilled, and canned seafood in Thailand and internationally. The company operates through four segments: Ambient Seafood; Frozen and Chilled Seafood and Related Businesses; Pet food; and Value-Added and Other Businesses. It provides ambient seafood products, including tuna, sardines, mackerel, herring, and salmon for retail and wholesale customers; frozen and chilled seafood products, such as shrimp, lobster, and crab that are sold directly to restaurants, hotels, caterers, and retail customers; ready-to-cook or ready-to-serve products, and bakery treats; marine ingredients for use in consumer goods, such as infant formula, cosmetics, dietary supplements, and clinical nutrition; and pet care products comprising wet-based food and treats. The company offers its products under the Chicken of the Sea, Genova, John West, Petit Navire, Parmentier, King Oscar, Mareblu, Rügen Fisch, Sealect, Fisho, QFresh, MONORI, Bellotta, Marvo, ChangeTer, Calico Bay, Paramount, and Zeavita brand names. It also manufactures and distributes animal feeds, frozen food, aquatic animals, ingredient products, canned tuna, seafood, and smoked salmon products, as well as distributes shrimp feeds. In addition, the company offers packaging, printing, training and management, e-commerce, consultancy, and property rental services. Further, it is involved in the tuna oil refinery, shrimp farming, and shrimp breeding and hatchery businesses; import and distribution of pet food and pet related products; import of seafood; and operation of seafood restaurant outlets. The company was formerly known as Thai Union Frozen Products Public Company Limited and changed its name to Thai Union Group Public Company Limited in September 2015. The company was founded in 1977 and is headquartered in Mueang Samut Sakhon, Thailand.",
     "current_price": 12.9,
-    "pe_ratio": 10.32,
+    "pe_ratio": 10.57,
     "dividend_yield": 6.2,
     "high_1m": 13.5,
     "low_1m": 12.1,
@@ -457105,7 +457157,7 @@ var STOCKS_DATABASE = {
     "name": "Union Petrochemical Public Company Limited",
     "business_summary": "Union Petrochemical Public Company Limited engages in the import and distribution of chemical products in Thailand. It operates through three segments: Commodity Chemicals, Specialty Chemicals, and Other. The company offers solvents, including oxygenated alcohols, glycols, ketones, esters, and glycol ethers; aromatic and non-dearomatized, saturated, dearomatized, and isoparaffinic hydrocarbons; liquid monomers; and branched alcohols and neo acids, comprising fatty alcohols and acids. It also provides polypropylene, such as homopolymer, block copolymer, and performance polymer, and other plastic products, comprising polyethylene terephthalate, biodegradable plastic, bio-plastic, and low-density polyethylene resin. In addition, the company offers solvents for plastic packaging, printing ink, and cleaning agents, as well as formulation consultation services. Further, it engages in the distribution of plastic pellets, lubricants, computer equipment, and electronic equipment; the provision of computer system services; the manufacturing and selling of all types of products from coconut food processing; and the provision of short-term credit facilities for the car selling business. Union Petrochemical Public Company Limited was founded in 1981 and is headquartered in Bangkok, Thailand.",
     "current_price": 1.21,
-    "pe_ratio": 3.78,
+    "pe_ratio": 3.67,
     "dividend_yield": 1.24,
     "high_1m": 1.51,
     "low_1m": 1.18,
@@ -473756,7 +473808,7 @@ var STOCKS_DATABASE = {
     "name": "WHA Utilities and Power Public Company Limited",
     "business_summary": "WHA Utilities and Power Public Company Limited provides utilities and water solutions in Thailand and internationally. It produces and distributes industrial water; and provides waste water treatment and management services to industrial estates. The company engages in the solar power business; investment in water and power businesses; natural gas distribution; emission reduction services; and coal, gas, hydro, solar, and alternative power generation. The company was formerly known as Hemaraj Clean Water Company Limited and changed its name to WHA Utilities and Power Public Company Limited in August 2016. WHA Utilities and Power Public Company Limited was founded in 2008 and is headquartered in Samut Prakan, Thailand. The company is a subsidiary of WHA Industrial Development Public Company Limited.",
     "current_price": 6.65,
-    "pe_ratio": 17.05,
+    "pe_ratio": 17.5,
     "dividend_yield": 3.8,
     "high_1m": 7.3,
     "low_1m": 6.5,
