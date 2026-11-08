@@ -43186,7 +43186,7 @@ var STOCKS_DATABASE = {
     "business_summary": "BBGI Public Company Limited, together with its subsidiaries, manufactures and distributes biofuel and related products in Thailand. It operates in three segments: Biodiesel, Ethanol, and Others. The company offers biodiesel products, such as glycerine and methyl ester products; and bioethanol products. It also provides bio-based products. BBGI Public Company Limited was incorporated in 2018 and is headquartered in Bangkok, Thailand.",
     "current_price": 6.05,
     "pe_ratio": 9.45,
-    "dividend_yield": 3.05,
+    "dividend_yield": 3.31,
     "high_1m": 7.6,
     "low_1m": 6.0,
     "support_levels": [
@@ -57100,9 +57100,9 @@ var STOCKS_DATABASE = {
       0.83,
       0.86
     ],
-    "upcoming_xd": "2026-12-07",
+    "upcoming_xd": "2026-12-08",
     "upcoming_dividend_amount": 0.06,
-    "upcoming_payment_date": "2026-12-22",
+    "upcoming_payment_date": "2026-12-23",
     "dividend_history": [
       {
         "date": "2025-05-26",
@@ -126708,9 +126708,9 @@ var STOCKS_DATABASE = {
     "resistance_levels": [
       67.75
     ],
-    "upcoming_xd": "2026-12-07",
+    "upcoming_xd": "2026-12-08",
     "upcoming_dividend_amount": 2.55,
-    "upcoming_payment_date": "2026-12-22",
+    "upcoming_payment_date": "2026-12-23",
     "dividend_history": [
       {
         "date": "2025-04-22",
@@ -248941,7 +248941,7 @@ var STOCKS_DATABASE = {
     "business_summary": "Nintendo Co., Ltd., together with its subsidiaries, develops, manufactures, and sells home entertainment products in Japan, the Americas, Europe, and internationally. It offers home console gaming hardware, software, accessories, and other products. The company also provides various services, such as Nintendo Switch Online; and content through mobile application. In addition, it offers develop IP, including video content and mobile apps. The company was formerly known as Nintendo Playing Card Co., Ltd. and changed its name to Nintendo Co., Ltd. in 1963. Nintendo Co., Ltd. was founded in 1889 and is headquartered in Kyoto, Japan.",
     "current_price": 1.58,
     "pe_ratio": null,
-    "dividend_yield": 104.12,
+    "dividend_yield": 148.82,
     "high_1m": 1.7,
     "low_1m": 1.46,
     "support_levels": [
@@ -262603,7 +262603,7 @@ var STOCKS_DATABASE = {
     "business_summary": "PTT Oil and Retail Business Public Company Limited, together with its subsidiaries, engages in the commercial and retail marketing of petroleum products and other services in Thailand and internationally. It operates through Mobility Business, Lifestyle Business, and Global Business segments. The company provides lube oil blending and bottling, fuel-related services, human resources management services, management consultancy services, and food service in restaurants and catering. It is also involved in real estate business; oil and retail business; health and beauty business; lube oil product and retail business; and coffee and beverage business. In addition, the company invests in companies, which engages in the management of fuel stations, convenience stores, space management in fuel stations, and personnel services. Further, it operates food and beverage retail stores, cafe amazon, and convenience stores. The company was incorporated in 2007 and is headquartered in Bangkok, Thailand. PTT Oil and Retail Business Public Company Limited operates as a subsidiary of PTT Public Company Limited.",
     "current_price": 12.7,
     "pe_ratio": 20.48,
-    "dividend_yield": 4.76,
+    "dividend_yield": 4.72,
     "high_1m": 13.0,
     "low_1m": 11.9,
     "support_levels": [
@@ -284899,7 +284899,7 @@ var STOCKS_DATABASE = {
   },
   "POPMART11": {
     "symbol": "POPMART11",
-    "name": "Pop Mart International Group Limited",
+    "name": "POPMART11_DR POPMART#KS",
     "business_summary": "Pop Mart International Group Limited, an investment holding company, designs, develops, and sells pop toys in the People's Republic of China, Hong Kong, Macau, Taiwan, and internationally. The company offers blind boxes. It sells its products through a network of retail stores and roboshops; online channels, including Tmall flagship store, DouYin, Pop Draw, and other online channels; and wholesale channels and others. The company also provides internet technology, customer, and technology development services; and operates playgrounds, as well as engages in investment and exhibition activities. Pop Mart International Group Limited was founded in 2010 and is headquartered in Beijing, the People's Republic of China.",
     "current_price": 6.15,
     "pe_ratio": null,
@@ -298866,7 +298866,7 @@ var STOCKS_DATABASE = {
     "business_summary": "Precious Shipping Public Company Limited, a holding company, owns and operates dry bulk ships on a tramp shipping basis in Thailand and internationally. The company is involved in chartering and owning ships, as well as investing in marine transportation and technical management of ships. It also owns and operates 40 vessels, including 6 Supramax, 13 Ultramax, 17 Handysize, and 4 Cement carriers with a total capacity of 1,862,905 deadweight tons. Precious Shipping Public Company Limited was founded in 1989 and is headquartered in Bangkok, Thailand.",
     "current_price": 8.5,
     "pe_ratio": 7.52,
-    "dividend_yield": 4.32,
+    "dividend_yield": 4.71,
     "high_1m": 10.2,
     "low_1m": 8.4,
     "support_levels": [
@@ -391435,9 +391435,9 @@ var STOCKS_DATABASE = {
       0.57,
       0.54
     ],
-    "upcoming_xd": "2026-12-07",
+    "upcoming_xd": "2026-12-08",
     "upcoming_dividend_amount": 0.04,
-    "upcoming_payment_date": "2026-12-22",
+    "upcoming_payment_date": "2026-12-23",
     "dividend_history": [
       {
         "date": "2024-04-17",
@@ -412044,8 +412044,8 @@ var STOCKS_DATABASE = {
     "current_price": 1.58,
     "pe_ratio": 7.18,
     "dividend_yield": 0.0,
-    "high_1m": 1.62,
-    "low_1m": 1.58,
+    "high_1m": 1.84,
+    "low_1m": 1.57,
     "support_levels": [],
     "resistance_levels": [],
     "upcoming_xd": null,
@@ -412053,6 +412053,90 @@ var STOCKS_DATABASE = {
     "upcoming_payment_date": null,
     "dividend_history": [],
     "history": [
+      {
+        "date": "2026-10-05",
+        "close": 1.65
+      },
+      {
+        "date": "2026-10-06",
+        "close": 1.6
+      },
+      {
+        "date": "2026-10-07",
+        "close": 1.59
+      },
+      {
+        "date": "2026-10-08",
+        "close": 1.6
+      },
+      {
+        "date": "2026-10-09",
+        "close": 1.73
+      },
+      {
+        "date": "2026-10-12",
+        "close": 1.7
+      },
+      {
+        "date": "2026-10-14",
+        "close": 1.73
+      },
+      {
+        "date": "2026-10-15",
+        "close": 1.77
+      },
+      {
+        "date": "2026-10-19",
+        "close": 1.76
+      },
+      {
+        "date": "2026-10-20",
+        "close": 1.79
+      },
+      {
+        "date": "2026-10-21",
+        "close": 1.82
+      },
+      {
+        "date": "2026-10-22",
+        "close": 1.75
+      },
+      {
+        "date": "2026-10-26",
+        "close": 1.72
+      },
+      {
+        "date": "2026-10-27",
+        "close": 1.71
+      },
+      {
+        "date": "2026-10-28",
+        "close": 1.71
+      },
+      {
+        "date": "2026-10-29",
+        "close": 1.69
+      },
+      {
+        "date": "2026-10-30",
+        "close": 1.65
+      },
+      {
+        "date": "2026-11-02",
+        "close": 1.63
+      },
+      {
+        "date": "2026-11-03",
+        "close": 1.61
+      },
+      {
+        "date": "2026-11-04",
+        "close": 1.62
+      },
+      {
+        "date": "2026-11-05",
+        "close": 1.62
+      },
       {
         "date": "2026-11-06",
         "close": 1.58
@@ -443478,9 +443562,9 @@ var STOCKS_DATABASE = {
       0.14,
       0.15
     ],
-    "upcoming_xd": "2026-12-07",
+    "upcoming_xd": "2026-12-08",
     "upcoming_dividend_amount": 0.01,
-    "upcoming_payment_date": "2026-12-22",
+    "upcoming_payment_date": "2026-12-23",
     "dividend_history": [
       {
         "date": "2023-05-03",
